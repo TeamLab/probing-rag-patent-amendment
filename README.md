@@ -1,26 +1,42 @@
 # Grounded Revision vs. Prior Injection: Probing Retrieval-Augmented Patent Claim Amendment
 
-Artifacts for the AACL paper *Grounded Revision vs. Prior Injection: Probing Retrieval-Augmented Patent Claim Amendment* (Leo, Min, Jang, Zidny, Chung, Choi).
+Artifacts for the AACL paper *Grounded Revision vs. Prior Injection: Probing Retrieval-Augmented Patent Claim Amendment* — Josepha Michiko Leo\*, Hyun-seok Min\*, Yehoon Jang, Irvan Zidny, Jin-Woo Chung, Sungchul Choi (\*equal contribution).
 
-The paper asks whether retrieval grounds patent claim amendment or merely injects templates, using USPTO prosecution records where the examiner names the attacked limitation and cites prior art, so that "correct" has a definable meaning. Across 9,600 pre-registered calls on four frontier LLMs, no tested model shows classical prior-injection behavior.
+Retrieval-augmented generation is widely used in professional writing, but whether retrieval grounds revision or merely injects templates is rarely tested where "correct" has a definable meaning. Patent claim amendment supplies that signal: the examiner names the attacked limitation and cites prior art, giving per-case ground truth. Across 9,600 pre-registered calls on four frontier LLMs, no tested model shows classical prior-injection behavior; retrieval effects are small and direction-inconsistent between random and structural retrieval.
 
 ## Status
 
-Skeleton. The corpus, code, and result files are not uploaded yet — see [Release checklist](#release-checklist).
+**Skeleton — data and code are not uploaded yet.** The layout, licenses, and documentation below are in place so the artifacts can be dropped into the matching directories. See [docs/release-checklist.md](docs/release-checklist.md).
 
-## What will be released
+## Three released artifacts
 
-| Artifact | Path | Description |
-|---|---|---|
-| Corpus | `data/corpus/` | 7,385 USPTO prosecution four-tuples (pre/post claims, rejection, cited prior art) as JSONL |
-| Application-number index | `data/index/` | Application numbers permitting zero-cost reconstruction from USPTO ODP |
-| Cohort | `data/cohort/` | `cohort_batch0.json`, `cohort_seeds.json` for batch replication |
-| Parsing pipeline | `src/parsing/` | XML parsing and four-tuple alignment |
-| Cohort selection | `src/cohort/select_cohort.py` | Deterministic six-axis marginal matching, seed 42 |
-| Probe battery | `src/probes/` | Seven probe prompt templates under a fixed prompt scaffold |
-| Metric | `src/metric/` | Deterministic five-channel metric (C1–C5), no LLM evaluation |
-| Analysis | `src/analysis/` | Scripts regenerating every table from raw model outputs |
-| Stratified results | `results/strata/` | Per-stratum TSVs (statute section, technology center, XML format, amendment pattern) |
+1. **Corpus** — 7,385 USPTO prosecution cases with XML-aligned pre/post claims, rejection, and cited prior art.
+2. **Probe battery** — seven probes comparing random and structural-match retrieval as two policies under a fixed prompt scaffold.
+3. **Five-channel metric** — deterministic, requiring no LLM evaluation (C1–C3 and C5 in the main paper, C4 supplementary).
+
+## Repository layout
+
+| Path | Contents |
+|---|---|
+| `data/corpus/` | Parsed JSONL corpus of 7,385 four-tuples |
+| `data/index/` | Application-number index for zero-cost reconstruction from USPTO ODP |
+| `data/cohort/` | `cohort_batch0.json`, `cohort_seeds.json` |
+| `src/parsing/` | ODP retrieval, XML parsing, per-claim diff (kept / modified / new / cancelled) |
+| `src/cohort/select_cohort.py` | Six-axis iterative marginal matching, batch-0 seed 42 |
+| `src/probes/` | The seven probe templates and the shared prompt scaffold |
+| `src/metric/` | Five-channel scoring (C1–C5) |
+| `src/analysis/` | Scripts regenerating every table from raw model outputs |
+| `results/raw/` | Raw model responses (9,600 calls) |
+| `results/strata/` | Per-stratum TSVs: statute section, technology center, XML format, amendment pattern |
+| `docs/` | Corpus, probe, metric, and experiment documentation |
+
+## Documentation
+
+- [docs/corpus.md](docs/corpus.md) — source, alignment procedure, summary statistics, release form
+- [docs/probes.md](docs/probes.md) — probes A–G and what each one manipulates
+- [docs/metric.md](docs/metric.md) — the five channels and their validity argument
+- [docs/experiments.md](docs/experiments.md) — cohort, retrieval pool, model matrix, pre-registered hypotheses
+- [docs/release-checklist.md](docs/release-checklist.md) — what must land before this repository goes public
 
 ## Reproducing
 
@@ -28,27 +44,19 @@ Skeleton. The corpus, code, and result files are not uploaded yet — see [Relea
 pip install -r requirements.txt
 ```
 
-Reproducing the model calls requires API access to the four evaluated LLMs (Claude Sonnet 4, Claude Haiku 4.5, GPT-5.4, GPT-4o-mini). Per-model cost estimates and inference settings are in the paper's appendices. Scoring and analysis run offline from the released raw outputs and need no API access.
+Scoring and analysis run offline from the released raw outputs and need no API access. Regenerating the model calls requires API access to the four evaluated models (Claude Sonnet 4, Claude Haiku 4.5, GPT-5.4, GPT-4o-mini); inference used temperature 0.3, three replicates per (case, probe, model) with separate sampling seeds, and retrieval depth k=3.
+
+The corpus can also be rebuilt from scratch: the application-number index plus `src/parsing/` reconstructs every four-tuple from the USPTO Open Data Portal at no cost.
 
 ## Data statement
 
-The corpus is derived from USPTO Open Data Portal records of US patent prosecution. USPTO ODP data carries no copyright restriction. The records are administrative documents about patent applications, not personal data collections; applicant and attorney names appear as they do in the public record. No annotation was crowdsourced.
+The corpus derives from USPTO Open Data Portal records of US patent prosecution, starting from the PILOT-Bench PTAB-appeal subset. USPTO ODP data carries no copyright restriction. These are administrative records about patent applications; applicant, attorney, and examiner names appear as they do in the public record. No annotation was crowdsourced, and the attorney validation study reported in the paper was conducted with a licensed practitioner.
 
 ## Licenses
 
-- Code: MIT (`LICENSE`)
-- Corpus, index, and result files: CC BY 4.0 (`LICENSE-data`)
+- Code: MIT — [`LICENSE`](LICENSE)
+- Corpus, index, cohort, and result files: CC BY 4.0 — [`LICENSE-data`](LICENSE-data)
 
 ## Citation
 
-See `CITATION.cff`. The BibTeX entry will be updated with the ACL Anthology identifier once the paper appears.
-
-## Release checklist
-
-- [ ] Upload corpus JSONL and the application-number index
-- [ ] Upload parsing, cohort, probe, metric, and analysis code
-- [ ] Upload raw model outputs and per-stratum TSVs
-- [ ] Pin dependency versions in `requirements.txt`
-- [ ] Verify a clean checkout regenerates every table in the paper
-- [ ] Switch the repository to public and confirm the URL in the paper resolves
-- [ ] Update `CITATION.cff` with the Anthology identifier
+See [`CITATION.cff`](CITATION.cff). The BibTeX entry will carry the ACL Anthology identifier once the paper appears.
