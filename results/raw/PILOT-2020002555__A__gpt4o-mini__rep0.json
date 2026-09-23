@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002555",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2020002555",
+  "app_num": "15234552",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14215,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c206d6a7982c102b",
+  "response_text": "1 (Currently amended): A method comprising: receiving a plurality of precoders from a codebook in a transmitter having an antenna array; receiving a signal from the signal source; applying a transformed precoder of the plurality of transformed precoders to the signal to generate a precoded signal for transmission over a physical channel; and transmitting the precoded signal, wherein the transmit power for each transformed precoder is defined to be equal to the transmit power for each of the other transformed precoders of the plurality of transformed precoders.\n\n11 (Currently amended): The method according to claim 1, wherein transforming transforms the precoders to equal energy precoders when transmission lines are used between a source of the signal and the antenna array, and wherein the transmit power for each transformed precoder is expressed as a quadratic form with respect to the corresponding precoder.\n\n14 (Currently amended): An apparatus comprising: an antenna array; a transceiver coupled to the antenna array; a signal source coupled to the transceiver; a transmission line coupled between the signal source and the antenna array, the transmission line having a transmission line impedance; a memory to store a codebook including a plurality of precoders; and a controller coupled to the transceiver and the memory, the controller to receive a plurality of precoders from the codebook, transform each precoder of the plurality of precoders to a transformed precoder such that the transmit power for each transformed precoder is defined to be equal to the transmit power for each of the other transformed precoders of the plurality of transformed precoders, where the transmit power is expressed as a quadratic form with respect to the corresponding precoder, receive a signal from the signal source, and apply a transformed precoder of the plurality of transformed precoders to the signal to generate a precoded signal for transmission over a physical channel, wherein the transceiver transmits the precoded signal.",
+  "usage": {
+    "input_tokens": 3169,
+    "output_tokens": 377,
+    "total_tokens": 3546
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.52,
+  "cost_usd": 0.0007,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:39:32Z"
+}

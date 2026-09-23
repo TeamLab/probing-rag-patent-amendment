@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016007603",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2016007603",
+  "app_num": "12165025",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12296,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a46afe0e8c62913b",
+  "response_text": "1 (Currently amended): An alarm system comprising: a physiological monitor capable of triggering a first alarm in response to an alarm condition, and wherein the first alarm is triggered based on a specific physiological parameter exceeding a predetermined threshold.\n\n2 (Currently amended): The system of claim 1, wherein the second alarm is capable of being acknowledged by an operator input before expiration of a timer, and wherein the second alarm is triggered in response to the first alarm being activated.\n\n3 (Currently amended): The system of claim 1, wherein the first alarm comprises an inaudible alarm that is triggered when the physiological parameter exceeds the predetermined threshold.\n\n4 (Currently amended): The system of claim 1, wherein the escalated alarm comprises an audible alarm that is triggered if the first alarm is not acknowledged within a certain time frame.\n\n5 (Currently amended): The system of claim 1, wherein the first alarm comprises an audible alarm and the escalated alarm comprises an audible alarm that is louder than the first alarm, and wherein the escalation occurs if the first alarm is not acknowledged.\n\n6 (Currently amended): The system of claim 1, wherein the first alarm and the second alarm are triggered substantially simultaneously in response to the same alarm condition.\n\n7 (Currently amended): The system of claim 1, wherein the station located remotely from the physiological monitor is part of a central patient management system that receives alarm signals from the physiological monitor.\n\n16 (Currently amended): A system comprising: a processor programmed to trigger an alarm in response to an alarm condition based on a physiological parameter; a memory capable of storing alarm data associated with the alarm, wherein the alarm data comprises an alarm type and a time that the alarm was triggered; and a display capable of displaying the alarm data, including the status of the alarm acknowledgments. \n\n19 (Currently amended): The system of claim 18, wherein the alarm data comprises information about an acknowledgement of the alarm, including timestamps of when the alarm was acknowledged or not acknowledged. \n\n20 (Currently amended): The system of claim 18, wherein the processor is programmed to send the alarm data to one or more wireless devices, including notifications of alarm status and acknowledgments.",
+  "usage": {
+    "input_tokens": 2844,
+    "output_tokens": 435,
+    "total_tokens": 3279
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.28,
+  "cost_usd": 0.00069,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:30:29Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12866,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "544aac22947ed187",
+  "response_text": "1. (Currently amended) A composition comprising:\na) an active ingredient comprising an indole compound of formula I, wherein formula I is an indole-based structure;\nb) one or more skin-tolerated vehicles; and\nc) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action;\nwherein the active ingredient is contained in said composition in an amount of 0.00001 per cent by weight to 10 per cent by weight.\n\n2. (Cancelled)\n\n3. (Currently amended) A composition for topical use comprising:\na) the active ingredient according to Claim 1;\nb) one or more skin-tolerated vehicles; and\nc) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action.\n\n4. (Currently amended) The composition according to Claim 1, wherein the active ingredient is contained in said composition in an amount of 0.00001 per cent by weight to 10 per cent by weight.\n\n5. (Currently amended) The composition according to Claim 1, comprising as a further skin-care ingredient ectoine in an amount of 0.01 to 10 per cent by weight.\n\n6. (Currently amended) The composition according to Claim 5, comprising ectoine in an amount of 0.1 to 5 per cent by weight.\n\n7. (Currently amended) Use of the active ingredient of Claim 1 for the manufacture of a cosmetic composition for __treatment of__ skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation.\n\n8. (Currently amended) Use of the active ingredient of Claim 1 for the preparation of a composition for __treatment of__ acne vulgaris, acne comedonica, polymorphic acne, acne rosaceae, nodular acne, acne conglobata, age-related acne, acne occurring as a side effect such as acne solaris, medicament-related acne or acne professionalis.\n\n9. (Currently amended) Use of the active ingredient of Claim 1 for the preparation of a composition for __treatment of__ other defects of keratinisation, in particular ichthyosis, ichthyosiform states, Darier's disease, keratosis palmo-plantaris, leukoplakia, or leukoplakiform states.\n\n10. (Currently amended) Use of the active ingredient of Claim 1 for the preparation of a composition for __treatment of__ skin and mucosal eczema or lichen.\n\n11. (Currently amended) Use of the active ingredient of Claim 1 for the preparation of a composition for __treatment of__ psoriasis relating to the skin, mucous membranes, finger- and toenails, psoriatic rheumatism, skin atopy, eczema, or respiratory atopy.\n\n12. (Currently amended) Use of the active ingredient of Claim 1 for the preparation of a composition for __treatment of__ hypertrophy of the gums.\n\n13. (Currently amended) Use according to Claim 7 for hair care and/or hair follicle development.\n\n14. (Currently amended) Use of the active ingredient of Claim 1 for the care, preservation or improvement of the general state of the skin or hair.\n\n15. (Currently amended) Use of the active ingredient of Claim 1 as a skin lightening and/or skin whitening active agent for __treatment of__ skin conditions.\n\n16. (Currently amended) Use of the composition according to Claim 1 for skin lightening and/or skin whitening in __treatment of__ skin conditions.\n\n17. (Currently amended) Use of the active ingredient of Claim 1 for __treatment of__ skin unevenness, such as wrinkles, fine lines, rough skin or large-pored skin.\n\n18. (Currently amended) Use of the active ingredient of Claim 1 for __treatment of__ time- and/or light-induced ageing processes of the human skin or human hair, in particular for __treatment of__ dry skin, wrinkle formation and/or pigment defects, and/or for the reduction or prevention of the harmful effects of UV rays on the skin.",
+  "usage": {
+    "input_tokens": 3775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 959,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 8.78,
+  "cost_usd": 0.00686,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:28:53Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018003513",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2018003513",
+  "app_num": "11742350",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20721,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8892a808b29597fa",
+  "response_text": "Claim 1 (Currently amended): A method for treating an ocular condition, the method comprising: administering to the interior of an eye a composition comprising a therapeutically effective amount of a macromolecular anti-angiogenic component (MAAC) to a mammal suffering from an ocular condition, wherein the composition also comprises a viscosity inducing component in an amount effective to increase the viscosity of the composition to a viscosity at __ambient temperature__ of at least about 10 cps at a shear rate of about 0.1/second, wherein said viscosity inducing component is injectable into the vitreous of a mammalian eye without permanently diminishing visual acuity.\n\nClaim 5 (Currently amended): The method of claim 1 wherein a symptom of the ocular condition is __associated with__ angiogenesis and the MAAC comprises a direct or indirect inhibitor of a vascular endothelial growth factor (VEGF) activity.\n\nClaim 6 (Currently amended): The method of claim 5 wherein the MAAC comprises an agent selected from the group consisting of a nucleic acid (an oligonucleotide) and a polypeptide.",
+  "usage": {
+    "input_tokens": 5183,
+    "output_tokens": 220,
+    "total_tokens": 5403
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.63,
+  "cost_usd": 0.00091,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:56:31Z"
+}

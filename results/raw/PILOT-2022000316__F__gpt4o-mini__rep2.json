@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022000316",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2022000316",
+  "app_num": "12503494",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 25363,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "628d91f4283e122a",
+  "response_text": "(Currently amended) Claim 13: The method of claim 1, further comprising a computer-readable medium having computer-executable instructions stored thereon for causing a computer to implement the steps of said method.\n\n(Cancelled) Claim 23: \n\n(Cancelled) Claim 24: \n\n(Cancelled) Claim 25: ",
+  "usage": {
+    "input_tokens": 5291,
+    "output_tokens": 68,
+    "total_tokens": 5359
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.63,
+  "cost_usd": 0.00083,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:13:33Z"
+}

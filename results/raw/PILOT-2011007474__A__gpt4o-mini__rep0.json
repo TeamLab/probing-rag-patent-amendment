@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011007474",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2011007474",
+  "app_num": "11613859",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14502,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "24f0563eebb10d4d",
+  "response_text": "Claim 1 (Currently amended):  \nWHAT IS CLAIMED IS: 1 1. A method comprising: 2 receiving requests and data records from a plurality of creditors to file 3 bankruptcy documents with a plurality of different bankruptcy organizations; and 7 batch filing the bankruptcy documents with the different bankruptcy organizations, wherein the bankruptcy documents include specific formatting requirements for each of the different bankruptcy organizations.\n\nClaim 2 (Currently amended):  \n1 2. The method of claim 1 wherein the different bankruptcy organizations 2 are different courts with different filing system configurations and specific submission protocols.\n\nClaim 6 (Currently amended):  \n1 6. A method comprising: 2 receiving requests from a plurality of creditors to file proofs of claims for 3 debts owed by debtors to the creditors with a plurality of different bankruptcy organizations, 4 wherein each request includes a data record for generating a proof of claim; 5 automatically generating the proofs of claims with the received data records, 6 wherein the proofs of claims are suitable for filing with different bankruptcy organizations and include specific formatting requirements; 7 and 8 batch filing the proofs of claims with the different bankruptcy organizations.\n\nClaim 7 (Currently amended):  \n1 7. The method of claim 6 wherein the different bankruptcy organizations 2 are different bankruptcy courts having different filing system configurations and specific submission protocols. \n\nClaim 8 (Currently amended):  \n1 8. The method of claim 6 further comprising sending bankruptcy notification messages to the plurality of creditors, wherein the bankruptcy notification messages notify the creditors that various debtors have filed for bankruptcy and include details of the filing status.\n\nClaim 11 (Currently amended):  \n1 11. The method of claim 6 wherein batch filing comprises aggregating the 2 proofs of claims and filing the proofs of claims in a batch mode at least once per day, ensuring compliance with the specific submission protocols of each bankruptcy organization.\n\nClaim 12 (Currently amended):  \n1 12. The method of claim 6 further comprising: 2 generating a report that includes the status of filed proofs of claims; and 3 sending the report to a particular creditor.\n\nClaim 17 (Currently amended):  \n1 17. The method of claim 6 further comprising validating the data record against the specific formatting requirements of the different bankruptcy organizations.",
+  "usage": {
+    "input_tokens": 3433,
+    "output_tokens": 468,
+    "total_tokens": 3901
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.16,
+  "cost_usd": 0.0008,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:19:09Z"
+}

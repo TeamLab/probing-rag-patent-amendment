@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016005844",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2016005844",
+  "app_num": "14039251",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14453,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "37056bdf00d4c903",
+  "response_text": "Claim 1 (Currently amended): A system for identifying malicious threats on a network comprising: a computing device including a processor coupled to a system memory, the system memory storing instructions for execution on the processor, the instructions configured to cause the processor to: retrieve a network data associated with at least one of an IP address or a domain; analyze the network data and identify a malicious network threat; and perform a mitigating action to neutralize the malicious network threat, wherein the mitigating action is performed in response to the identification of the malicious network threat.\n\nClaim 5 (Currently amended): The system of claim 1, wherein the instructions are further configured to cause the processor to push a notification including the mitigating action for the malicious network threat to a third party device, wherein the notification is generated based on the analysis of the network data.\n\nClaim 10 (Currently amended): A method for identifying malicious threats on a network comprising: retrieving a network data associated with at least one of an IP address or a domain; analyzing the network data and identifying a malicious network threat; and performing a mitigating action to neutralize the malicious network threat, wherein the mitigating action is performed in response to the identification of the malicious network threat.\n\nClaim 14 (Currently amended): The method of claim 10, further comprising pushing a notification including the mitigating action for the malicious network threat to a third party device, wherein the notification is generated based on the analysis of the network data.",
+  "usage": {
+    "input_tokens": 3366,
+    "output_tokens": 289,
+    "total_tokens": 3655
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.28,
+  "cost_usd": 0.00068,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:42:57Z"
+}

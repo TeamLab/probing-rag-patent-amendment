@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2018003513",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2018003513",
+  "app_num": "11742350",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20721,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8892a808b29597fa",
+  "response_text": "1. (Currently amended) A method for treating macular degeneration, the method comprising: administering to the interior of an eye a composition comprising a therapeutically effective amount of a macromolecular anti-angiogenic component (MAAC) that is a polypeptide angiogenesis inhibitor to a mammal suffering from macular degeneration, wherein the composition also comprises a viscosity inducing component in an amount effective to increase the viscosity of the composition to at least about 10 cps at a shear rate of about 0.1/second at 25°C, wherein said viscosity inducing component is injectable into the vitreous of a mammalian eye without permanently diminishing visual acuity, and wherein the composition further comprises a carrier vehicle that is distinct from said MAAC and said viscosity inducing component.\n\n2. (Currently amended) The method of claim 1 wherein said composition comprises a solution containing hyaluronic acid as the viscosity inducing component.\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Currently amended) The method of claim 1 wherein the MAAC comprises a polypeptide that is an angiogenesis inhibitor that inhibits vascular endothelial growth factor (VEGF) activity through a mechanism distinct from direct VEGF sequestration.\n\n14. (Currently amended) The method of claim 1 wherein said polypeptide MAAC is selected from the group consisting of an angiogenesis inhibitor, an endogenous angiogenesis inhibitor, and a receptor antagonist.\n\n15. (Currently amended) The method of claim 14 wherein said polypeptide angiogenesis inhibitor is selected from the group consisting of endostatin, angiostatin, tumstatin, pigment epithelium derived factor, and VEGF TRAP®.\n\n16. (Currently amended) The method of claim 14 wherein said polypeptide MAAC comprises bevacizumab.\n\n20. (Currently amended) The method of claim 1 wherein said viscosity inducing component comprises hyaluronic acid or a cross-linked hyaluronic acid.\n\n21. (Currently amended) The method of claim 1 wherein said viscosity inducing component comprises a compound having a molecular weight in the range from about 500,000 Daltons to about 2 million Daltons.\n\n22. (Cancelled)\n\n23. (Cancelled)\n\n24. (Cancelled)\n\n25. (Cancelled)\n\n26. (Cancelled)\n\n27. (Cancelled)\n\n28. (Cancelled)\n\n29. (Cancelled)\n\n30. (Cancelled)\n\n31. (Currently amended) The method of claim 1 wherein said composition is administered to the interior of said eye by intravitreal injection.\n\n32. (Currently amended) The method of claim 1 wherein said condition comprises macular degeneration of the posterior segment of the eye.\n\n33. (Cancelled)\n\n34. (Currently amended) The method of claim 1 wherein said macular degeneration is selected from the group consisting of non-exudative age related macular degeneration and exudative age related macular degeneration.\n\n36. (Currently amended) A pharmaceutical composition for intravitreal administration to treat macular degeneration comprising a polypeptide angiogenesis inhibitor MAAC and a hyaluronic acid carrier having a viscosity of at least about 10 cps at a shear rate of about 0.1/second at 25°C.",
+  "usage": {
+    "input_tokens": 6109,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 806,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 48.17,
+  "cost_usd": 0.00811,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:00:51Z"
+}

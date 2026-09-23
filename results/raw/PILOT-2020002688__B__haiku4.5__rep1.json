@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020002688",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2020002688",
+  "app_num": "15103344",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19775,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6ef70b19bbfe383f",
+  "response_text": "1. (Currently amended) An apparatus for profiling a beam of a light emitting semiconductor device, comprising: a light emitting semiconductor device comprising an active region formed on a substrate and configured to generate light when a suitable electrical current is applied to contacts on an upper surface of the device, and a light emitting surface defined by a lower surface of the substrate opposite the contacts; and a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the semiconductor device and a diffusion surface, opposite the first surface, __wherein the diffusion surface is configured to diffuse light emitted from the semiconductor device and transmitted through the transmission medium in a substantially Lambertian diffusion profile__.\n\n3. (Currently amended) An apparatus according to claim 1 or 2, wherein the transmission medium has a refractive index substantially equal to a refractive index of the substrate of the light emitting semiconductor device, __and wherein the transmission medium is configured such that there is substantially no reflection at the interface between the transmission medium and the substrate of the light emitting semiconductor device__.\n\n9. (Currently amended) An apparatus according to any preceding claim, further comprising a pair of probes configured to apply an electrical current to the contacts of the light emitting semiconductor device __in a controlled manner__ for causing the active layer to generate light.\n\n23. (Currently amended) An apparatus according to any preceding claim, wherein the apparatus comprises a plurality of light emitting semiconductor devices grown on a silicon wafer, __and wherein the first surface of the transmission medium is in contact with the light emitting surfaces of more than one of the plurality of light emitting semiconductor devices, such that the transmission medium provides a unified diffusion surface for the plurality of devices__.\n\n25. (Currently amended) A method for profiling a beam of a light emitting semiconductor device, the method comprising: applying an electrical current to contacts on an upper surface of a light emitting semiconductor device, the light emitting semiconductor device comprising an active region formed on a substrate and a light emitting surface defined by a lower surface of the substrate opposite the contacts; transmitting light emitted from the light emitting semiconductor device through a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the light emitting semiconductor device and a diffusion surface, opposite the first surface, __wherein the diffusion surface is configured to diffuse light emitted from the light emitting semiconductor device and transmitted through the transmission medium in a substantially Lambertian diffusion profile__; and determining intensity power of light that would be emitted into air from the light emitting semiconductor device at one or more angles with respect to a normal.\n\n26. (Currently amended) A method for profiling a beam of a light emitting semiconductor device, the method comprising: processing, by a beam profiler, an image to determine intensity power of light that would be emitted into air from the light emitting semiconductor device at one or more angles with respect to a normal, the image comprising light emitted from a light emitting semiconductor device comprising an active region formed on a substrate and configured to generate light when a suitable electrical current is applied to contacts on an upper surface of the device, and a light emitting surface defined by a surface of the substrate opposite the contacts, the light further being transmitted through a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the light emitting semiconductor device and a diffusion surface, opposite the first surface, __wherein the diffusion surface is configured to diffuse light emitted from the light emitting semiconductor device and transmitted through the transmission medium in a substantially Lambertian diffusion profile__.\n\n28. (Currently amended) A non-transitory computer readable medium comprising computer readable code configured, when read by a computer, to carry out the method according to claim 26 or 27, __wherein the computer readable code is configured to process an image captured at the diffusion surface and determine angles of light emission with respect to a normal__.\n\n29. (Currently amended) A computer program comprising computer readable code configured, when read by a computer, to carry out the method according to claim 26 or 27, __wherein the computer program is configured to process an image captured at the diffusion surface and determine angles of light emission with respect to a normal__.",
+  "usage": {
+    "input_tokens": 4840,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 911,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.69,
+  "cost_usd": 0.00752,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:52:45Z"
+}

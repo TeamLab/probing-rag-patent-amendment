@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12089,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b568233b1c108153",
+  "response_text": "1 (Currently amended): A method of treating a brain, comprising: inserting an elongated device into the brain to create a path; __wherein the elongated device is inserted between tissue layers within the brain__ to create a working channel along the path; radially expanding the device to create a working channel along the path.\n\n2 (Currently amended): The method of claim 1, wherein the medical element is a __therapeutic instrument__.\n\n4 (Currently amended): The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening __to access the brain tissue__.\n\n5 (Currently amended): The method of claim 1, further comprising __inserting the elongated device into the brain tissue__ between tissue layers.\n\n7 (Currently amended): A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; __wherein the elongated device is reinforced against the tissue during expansion__; and introducing a medical element through the device to perform a medical procedure on the tissue.\n\n10 (Currently amended): The method of claim 7, further comprising inserting the elongated device __within the tissue between layers__.\n\n12 (Currently amended): The method of claim 7, further comprising treating the tissue in contact with the device with a haemostatic compound __to enhance clotting and reduce bleeding__.\n\n13 (Currently amended): A method of treating a tissue, comprising: placing an elongated device, having a first radially expandable body, surrounded by a stent, which is surrounded by a second radially expandable body, into the tissue to create a path; radially expanding the second expandable body against the tissue to radially displace the tissue along the path; radially expanding the first expandable body to radially expand the stent to reinforce the second expandable body against the tissue; radially contracting and removing the first expandable body to create a working channel through the stent; introducing a medical element through the channel to perform a medical procedure on the tissue; and radially contracting the second expandable body and removing the device from the tissue __to facilitate the procedure__.\n\n16 (Currently amended): The method of claim 13, further comprising inserting the elongated device between tissue layers __to enhance access to the treatment site__.",
+  "usage": {
+    "input_tokens": 3008,
+    "output_tokens": 480,
+    "total_tokens": 3488
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.54,
+  "cost_usd": 0.00074,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:54:44Z"
+}

@@ -1,0 +1,11 @@
+file	case	cond	rep	n_claims_parsed	pre_chars	gen_chars	editdist_pre_gen	denom	c2	reason
+PILOT-2014009970__baseline__gpt5.4__rep0.json	PILOT-2014009970	baseline	0	9	2186	2846	775	1005	0.7711	
+PILOT-2017000071__baseline__gpt5.4__rep0.json	PILOT-2017000071	baseline	0	7	4283	4232	397	577	0.688	
+PILOT-2017001422__baseline__gpt5.4__rep0.json	PILOT-2017001422	baseline	0	8	4600	1914	2996	357	8.3922	
+PILOT-2017003676__baseline__gpt5.4__rep0.json	PILOT-2017003676	baseline	0	19	2504	1923	1082	389	2.7815	
+PILOT-2017005259__baseline__gpt5.4__rep0.json	PILOT-2017005259	baseline	0	14	2205	2355	150	728	0.206	
+PILOT-2017005493__baseline__gpt5.4__rep0.json	PILOT-2017005493	baseline	0	20	3063	3703	667	384	1.737	
+PILOT-2017010632__baseline__gpt5.4__rep0.json	PILOT-2017010632	baseline	0	20	9700	9973	1075	1340	0.8022	
+PILOT-2018001232__baseline__gpt5.4__rep0.json	PILOT-2018001232	baseline	0	20	3733	4000	363	793	0.4578	
+PILOT-2018005420__baseline__gpt5.4__rep0.json	PILOT-2018005420	baseline	0	25	8113	9181	1463	2586	0.5657	
+PILOT-2018005863__baseline__gpt5.4__rep0.json	PILOT-2018005863	baseline	0	25	8120	8481	1115	1563	0.7134	

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014008375",
+  "condition": "E",
+  "rep": 0,
+  "proceeding_number": "2014008375",
+  "app_num": "13296572",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12548,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9ee599ae17c3bdbf",
+  "response_text": "1. (Currently amended) A vehicle door comprising: a door outer panel defining an exterior surface of the vehicle door; a common door inner panel located inboard of the door outer panel and configured to mount door hardware, the common door inner panel having a periphery; and a panel extension extending around essentially all of the periphery of the common door inner panel, the panel extension being __formed as a separate component from both the door outer panel and the common door inner panel and__ attached to the periphery of the common door inner panel, forming an inner panel-extension joint, and attached to the door outer panel, forming an outer panel-extension joint, to secure the common door inner panel to the door outer panel.\n\n2. (Currently amended) The vehicle door of claim 1 wherein the outer panel-extension joint is a hemmed joint __and the panel extension is hemmed directly to the door outer panel__.\n\n3. (Original) The vehicle door of claim 1 wherein the inner panel-extension joint includes fasteners securing the panel extension to the common door inner panel.\n\n4. (Currently amended) The vehicle door of claim 1 including at least one hinge that is mounted __directly__ to the common door inner panel.\n\n5. (Original) A vehicle door comprising: one of a first door outer panel and a second door outer panel defining an exterior surface of the vehicle door; a common door inner panel located inboard of one of the first and second door outer panels and configured to mount door hardware, the common door inner panel having a periphery; and one of a first panel extension, configured to mate with the corresponding first door outer panel, and a second panel extension, configured to mate with the corresponding second door outer panel, extending around essentially all of the periphery of the common door inner panel, the one of the first and second panel extensions being attached to the periphery of the common door inner panel and attached to the corresponding one of the first and second door outer panels to secure the common door inner panel to the corresponding door outer panel.",
+  "usage": {
+    "input_tokens": 3340,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.63,
+  "cost_usd": 0.01646,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:34:41Z"
+}

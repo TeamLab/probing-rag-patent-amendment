@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015006603",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2015006603",
+  "app_num": "13138239",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22055,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "93de2961c4bf9138",
+  "response_text": "(Currently Amended) 1. An apparatus, comprising: an encoder (300) for encoding mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, and wherein the encoder is configured to adapt the mode mapping information based on a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence.\n\n(Currently Amended) 17. An apparatus, comprising: a decoder (400) for decoding mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, and wherein the decoder is configured to determine the adapted mode mapping information based on a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence.\n\n(Currently Amended) 9. A method, comprising: encoding (740, 970) mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, and wherein the encoding step includes adapting the mode mapping information based on a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence (740, 940, 960).\n\n(Currently Amended) 25. A method, comprising: decoding (820, 1030) mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, and wherein the decoding step includes determining the adapted mode mapping information based on a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence.",
+  "usage": {
+    "input_tokens": 5143,
+    "output_tokens": 421,
+    "total_tokens": 5564
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.14,
+  "cost_usd": 0.00102,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:06:21Z"
+}

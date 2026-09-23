@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011008843",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2011008843",
+  "app_num": "11427495",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23476,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ccbaedeaae7bf1e1",
+  "response_text": "1. (Currently Amended) A semiconductor device comprising a field effect transistor (FET) having a channel region located in a semiconductor device structure, said semiconductor device structure having a top surface that is oriented along one of a first set of equivalent crystal planes and one or more additional surfaces that are oriented along a second, different set of equivalent crystal planes, wherein one or more stressor layers are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply __differential__ stress to the channel region of the FET.",
+  "usage": {
+    "input_tokens": 5134,
+    "output_tokens": 114,
+    "total_tokens": 5248
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.68,
+  "cost_usd": 0.00084,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:33:53Z"
+}

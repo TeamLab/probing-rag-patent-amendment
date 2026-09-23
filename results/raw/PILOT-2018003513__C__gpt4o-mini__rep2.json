@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018003513",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2018003513",
+  "app_num": "11742350",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20744,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cd4b744e556d8179",
+  "response_text": "Claim 1 (Currently amended): A method for treating an ocular condition, the method comprising: administering to the interior of an eye a composition comprising a therapeutically effective amount of a macromolecular anti-angiogenic component (MAAC) to a mammal suffering from an ocular condition, wherein the composition also comprises a viscosity inducing component in an amount effective to increase the viscosity of the composition to a viscosity at __about 25°C__ of at least __10 cps__ at a shear rate of about 0.1/second, wherein said viscosity inducing component is injectable into the vitreous of a mammalian eye without permanently diminishing visual acuity.\n\nClaim 5 (Currently amended): The method of claim 1 wherein a symptom of the ocular condition is __associated with__ angiogenesis and the MAAC comprises a direct or indirect inhibitor of a vascular endothelial growth factor (VEGF) activity.\n\nClaim 6 (Cancelled): The method of claim 5 wherein the MAAC comprises an agent selected from the group consisting of a nucleic acid (a oligonucleotide) and a polypeptide.\n\nClaim 14 (Cancelled): The method of claim 6 wherein said MAAC comprises a protein.\n\nClaim 15 (Cancelled): The method of claim 14 wherein said protein is selected from the group consisting of an antibody, an antibody mimic, an angiogenesis inhibitor and a receptor inhibitor.\n\nClaim 20 (Currently amended): The method of claim 1 wherein said viscosity inducing component comprises a compound selected from the group consisting of a hyaluronic acid, a cross-linked hyaluronic acid, a crosslinked polymer containing subunits derived from acrylic acid, polyacrylic acid, celluloses derivatives, polycarbophil, polyvinylpyrrolidone, gelatin, dextrin, polysaccharides, polyacrylamide, polyvinyl alcohol, polyvinyl acetate, and derivatives, mixtures and copolymers thereof, wherein said viscosity inducing component has a viscosity of at least about 10 cps at a shear rate of 0.1/second at __25°C__.\n\nClaim 36 (Currently amended): The method of claim 14 wherein said condition is selected from the group consisting of macular degeneration, including non-exudative age related macular degeneration and exudative age related macular degeneration, choroidal neovascularization, retinopathy, diabetic retinopathy, acute and chronic macular neuroretinopathy, central serous chorioretinopathy, macular edema, acute multifocal placoid pigment epitheliopathy, Behcet's disease, birdshot retinochoroidopathy, posterior scleritis, serpignous choroiditis, subretinal fibrosis, uveitis syndrome, Vogt-Koyanagi-Harada syndrome, retinal arterial occlusive disease, central retinal vein occlusion, disseminated intravascular coagulopathy, branch retinal vein occlusion, hypertensive fundus changes, ocular ischemic syndrome, retinal arterial microaneurysms, Coat's disease, parafoveal telangiectasis, hemi-retinal vein occlusion, papillophlebitis, central retinal artery occlusion, branch retinal artery occlusion, carotid artery disease (CAD), frosted branch angitis, sickle cell retinopathy, angioid streaks, familial exudative vitreoretinopathy, Eales disease, proliferative vitreal retinopathy, proliferative diabetic retinopathy, retinal disease associated with tumors, congenital hypertrophy of the RPE, posterior uveal melanoma, choroidal hemangioma, choroidal osteoma, choroidal metastasis, combined hamartoma of the retina and retinal pigmented epithelium, retinoblastoma, vasoproliferative tumors of the ocular fundus, retinal astrocytoma, intraocular lymphoid tumors, myopic retinal degeneration, acute retinal pigment epithelitis.",
+  "usage": {
+    "input_tokens": 5196,
+    "output_tokens": 800,
+    "total_tokens": 5996
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.77,
+  "cost_usd": 0.00126,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:59:35Z"
+}

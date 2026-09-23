@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17165,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "688c1df0232b59bc",
+  "response_text": "1. (Currently amended) Use of an active ingredient of formula I or a physiologically acceptable salt thereof for the manufacture of a cosmetic composition for __topical use for treatment of__ skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation, [[in particular]] __selected from__ acne vulgaris, acne comedonica, polymorphic acne, acne rosaceae, nodular acne, acne conglobata, age-related acne, acne occurring as a side effect, such as acne solaris, medicament-related acne or acne professionalis, other defects of keratinisation, __selected from__ ichthyosis, ichthyosiform states, Darier's disease, keratosis palmo-plantaris, leukoplakia, leukoplakiform states, skin and mucosal (buccal) eczema (lichen), other skin diseases which are associated with defective keratinisation and have an inflammatory and/or immunoallergic component, and all forms of psoriasis relating to the skin, mucous membranes and finger- and toenails, psoriatic rheumatism, skin atopy, eczema, respiratory atopy, or hypertrophy of the gums.\n\n2. (Cancelled)\n\n3. (Currently amended) Composition for topical use comprising a) the active ingredient according to Claim 1 [[or 2]], b) one or more skin-tolerated vehicles, and c) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action.\n\n4. (Currently amended) Composition according to [[one or more of the]] Claim 1 __or__ 3, wherein the active ingredient is contained in said composition in an amount of 0.00001 per cent by weight to 10 per cent by weight.\n\n5. (Currently amended) Composition according to claim [[5]] __3 or 4__, comprising as a further skin-care ingredient ectoine.\n\n6. (Currently amended) Composition according to claim 5, comprising as a further skin-care ingredient ectoine in an amount of 0.01 to 10 per cent by weight.\n\n7. (Currently amended) Use of the active ingredient of Claim 1 [[or 2]] for the manufacture of a cosmetic composition for __topical treatment of__ skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation.\n\n8. (Currently amended) Use of the active ingredient of Claim 1 [[or 2]] for the preparation of a composition which is suitable for [[the prophylaxis and/or]] treatment of skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation, [[in particular]] __selected from__ acne vulgaris, acne comedonica, polymorphic acne, acne rosaceae, nodular acne, acne conglobata, age-related acne, acne occurring as a side effect, such as acne solaris, medicament-related acne or acne professionalis, [[for the treatment of]] other defects of keratinisation, [[in particular]] __selected from__ ichthyosis, ichthyosiform states, Darier's disease, keratosis palmo-plantaris, leukoplakia, leukoplakiform states, skin and mucosal (buccal) eczema (lichen), [[for the treatment of]] other skin diseases which are associated with defective keratinisation and have an inflammatory and/or immunoallergic component, and all forms of psoriasis relating to the skin, mucous membranes and finger- and toenails, psoriatic rheumatism, skin atopy, eczema, respiratory atopy, or hypertrophy of the gums.\n\n9. (Currently amended) Use according to Claim 8 for hair care and/or hair follicle development.\n\n10. (Currently amended) Use __of__ the active ingredient of Claim 1 [[or 2]] for the care, preservation or improvement of the general state of the skin or hair, __wherein the use is non-therapeutic__.\n\n11. (Previously presented) Use of active ingredient of Claim 1 or 2 as skin lightening and/or skin whitening active agent.\n\n12. (Currently amended) Use of the composition according to Claim 1 [[or 2]] for skin lightening and/or skin whitening.\n\n13. (Currently amended) Use __of__ the active ingredient of Claim 1 [[or 2]] for [[the prophylaxis against or]] reduction of skin unevenness, such as wrinkles, fine lines, rough skin or large-pored skin.\n\n14. (Currently amended) Use __of__ the active ingredient of Claim 1 [[or 2]] for [[the prophylaxis against]] time- and/or light-induced ageing processes of the human skin or human hair, [[in particular for prophylaxis against]] __including treatment of__ dry skin, wrinkle formation and/or pigment defects, and/or for the reduction [[or prevention]] of the harmful effects of UV rays on the skin.",
+  "usage": {
+    "input_tokens": 4143,
+    "output_tokens": 1008,
+    "total_tokens": 5151
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.99,
+  "cost_usd": 0.01526,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:26:32Z"
+}

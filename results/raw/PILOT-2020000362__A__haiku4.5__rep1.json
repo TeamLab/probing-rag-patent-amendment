@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020000362",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2020000362",
+  "app_num": "15022252",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13634,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "454abe08b6f123c5",
+  "response_text": "1. (Currently amended) A system (100) for enabling review of a medical image, comprising:\n- an image interface (120) for obtaining the medical image (042);\n- a user interface subsystem (140) for enabling a user to apply one or more graphical elements (310) to the medical image during the review of the medical image, thereby establishing application data representing application of the one or more graphical elements to the medical image; and\n- a reporting subsystem (180) configured to:\n  - access a medical database comprising medical information items (062-066) which each represent medical reference information (400-414);\n  - retrieve a medical information item from the medical database based on association data, the association data linking the application of the one or more graphical elements, as represented by the application data, to the medical information item; and\n  - generate a report (182) based on the retrieved medical information item, wherein the system performs a technological function of automatically correlating user-applied graphical element positions and types with stored medical reference information to produce a structured medical report that improves the accuracy and consistency of medical image documentation beyond what is achievable through manual review alone.\n\n2. (Currently amended) The system (100) according to claim 1, wherein the medical information item (062) is associated with a codified version of the medical reference information (420), and wherein the reporting subsystem (180) is arranged for using the codified version of the medical reference information in generating the report (182).\n\n3. (Currently amended) The system (100) according to claim 2, wherein:\n- the user interface subsystem (140) is arranged for displaying the medical reference information as a selectable graphical element (400-414) to the user, and\n- the reporting subsystem (180) is arranged for using the codified version of the medical reference information (420) in generating the report (182) based on the user selecting the selectable graphical element.\n\n4. (Currently amended) The system (100) according to claim 2, wherein the reporting subsystem (180) is arranged for using a macro (080) to generate the codified version of the medical reference information (420) from the medical reference information (400-414).\n\n5. (Previously presented) The system (100) according to claim 4, wherein the medical information item (062) comprises the macro (080) or a reference to the macro.\n\n6. (Previously presented) The system (100) according to claim 3, wherein the medical information items (062-066) are cross-referenced via hyperlinks, and wherein the user interface subsystem (180) is arranged for enabling the user to interactively browse to another medical information item by selecting a hyperlink in the selectable graphical element (410-414).\n\n7. (Previously presented) The system (100) according to claim 3, wherein the selectable graphical element is a selectable overlay (410, 412), and wherein the user interface subsystem is arranged for displaying the medical reference information in the form of text (410, 412) or graphics (414) in the selectable overlay.\n\n8. (Previously presented) The system (100) according to claim 1, wherein the one or more graphical elements (310) provide a measurement tool for enabling the user to perform a measurement on the medical image (042) using the user interface subsystem, and wherein the association data is constituted at least in part by measurement data (312) representing the measurement.\n\n9. (Previously presented) The system (100) according to claim 8, wherein the reporting subsystem (180) is arranged for using the measurement data (312) in generating the report (182).\n\n10. (Previously presented) The system (100) according to claim 1, wherein the association data is constituted at least in part by a plurality of rules each linking a respective one of the one or more graphical elements (310) to a respective one of the medical information items (062-066).\n\n11. (Previously presented) The system (100) according to claim 1, wherein the application data represents one or more of the group of:\n- a type of the one or more graphical elements (310);\n- a position of the one or more graphical elements in the medical image; and\n- an image structure (044) marked by the one or more graphical elements.\n\n12. (Previously presented) The system (100) according to claim 1, wherein the one or more graphical elements (310) comprise one or more of the group of: a marker, an annotation and a measurement tool (310).\n\n13. (Previously presented) Workstation or imaging apparatus comprising the system according to claim 1.\n\n14. (Currently amended) A method (200) for enabling review of a medical image, comprising:\n- obtaining (210) the medical image;\n- enabling (220) a user to apply one or more graphical elements to the medical image during the review of the medical image, thereby establishing application data representing application of the one or more graphical elements to the medical image;\n- accessing (230) a medical database comprising medical information items which each represent medical reference information;\n- retrieving (240) a medical information item from the medical database based on association data, the association data linking the application of the one or more graphical elements, as represented by the application data, to the medical information item;\n- generating (250) a report based on the medical information item; and\n- wherein the method improves medical image documentation by automatically correlating the positions and types of user-applied graphical elements with stored medical reference information to produce a structured report that enhances accuracy and consistency of medical image review beyond manual documentation.\n\n15. (Currently amended) A non-transitory computer program product (270) comprising instructions for causing a processor system to perform the method according to claim 14.",
+  "usage": {
+    "input_tokens": 3413,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1256,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.72,
+  "cost_usd": 0.00775,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:12:14Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2015004151",
+  "condition": "C",
+  "rep": 1,
+  "proceeding_number": "2015004151",
+  "app_num": "12702453",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10046,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b0f6a356e6cc696a",
+  "response_text": "1. (Currently amended) A cleanable, waterborne polyurethane dispersion comprising the reaction product of: A) one or more OH-functional acrylic dispersions and B) one or more polyisocyanates modified with __at least one of 2-(cyclohexylamino)-ethanesulfonic acid (CHES) or 3-(cyclohexylamino)-propanesulfonic acid (CAPS)__.\n\n2. (Currently amended) The dispersion of claim 1, wherein component A) comprises __two or more different__ OH-functional acrylic dispersions.\n\n3. (Currently amended) The dispersion of claim 1, wherein component B) comprises at least one polyisocyanate modified with __at least one of CHES or CAPS and__ based on an aliphatic diisocyanate, __wherein the polyisocyanate is derived from said aliphatic diisocyanate__.\n\n4. (Original) The dispersion of claim 3, wherein the aliphatic diisocyanate is 1,6-diisocyanatohexane.\n\n5. (Original) A method of producing a cleanable coating on a substrate comprising applying the dispersion of claim 1 to the substrate and curing the coating composition.\n\n6. (Original) A coating produced according to the method of claim 5.\n\n7. (Currently amended) The coating of claim 6, wherein the surface energy of the coating is __at least 31.0 dynes/cm__.\n\n8. (Currently amended) The coating of claim 7, wherein the surface roughness of the coating, __measured as root mean square (RMS) roughness, is greater than 200 nm__.",
+  "usage": {
+    "input_tokens": 3080,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 386,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.02,
+  "cost_usd": 0.00401,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:48:58Z"
+}

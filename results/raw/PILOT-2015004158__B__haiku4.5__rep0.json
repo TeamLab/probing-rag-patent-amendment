@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2015004158",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2015004158",
+  "app_num": "13783908",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11320,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "68d1380e234ab95f",
+  "response_text": "Claim 1 (Currently amended): A preventing or treating agent for glaucoma comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof, __wherein the agent reduces intraocular pressure__.\n\nClaim 2 (Currently amended): A preventing or treating agent for ocular hypertension comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof, __wherein the agent reduces intraocular pressure__.\n\nClaim 3 (Currently amended): A composition for eye drops comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof and a pharmaceutically accepted carrier, __wherein the composition reduces intraocular pressure__.\n\nClaim 7 (Currently amended): A method for __treating__ glaucoma wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered __to a subject in need thereof__.\n\nClaim 8 (Currently amended): A method for __treating__ ocular hypertension wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered __to a subject in need thereof__.\n\nClaim 9 (Previously presented): A method for treating glaucoma comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\nClaim 10 (Previously presented): A method for treating ocular hypertention comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\nClaim 11 (Previously presented): A method for enhancing an intraocular pressure-reducing action of (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or its salt, wherein phosphoric acid or a salt thereof is combined with (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof.\n\nClaim 12 (Previously presented): A method for reducing intraocular pressure from the normal level, which method comprises administering a combination of (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine, or its salt, and phosphoric acid, or a salt thereof, to a person having normal intraocular pressure.",
+  "usage": {
+    "input_tokens": 3269,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 727,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.82,
+  "cost_usd": 0.00552,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:02:10Z"
+}

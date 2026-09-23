@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17789,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c16b15506b5c16b8",
+  "response_text": "1. (Currently amended) A composition comprising a) an indole compound of formula I, b) one or more skin-tolerated vehicles, wherein the indole compound is present in an amount of 0.00001 per cent by weight to 10 per cent by weight, and c) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action, __wherein said composition is formulated for topical application to treat skin diseases associated with defective keratinisation__.\n\n3. (Currently amended) A composition for topical use comprising a) the active ingredient according to Claim 1, b) one or more skin-tolerated vehicles, and c) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action, __wherein said composition is formulated for treatment of skin conditions__.\n\n4. (Currently amended) A composition according to Claim 1 or 3, wherein the active ingredient is contained in said composition in an amount of 0.00001 per cent by weight to 10 per cent by weight, __and wherein said composition is formulated for topical treatment__.\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Currently amended) Use of the active ingredient of Claim 1 __for the manufacture of a cosmetic composition for topical treatment of skin diseases associated with defective keratinisation__.\n\n8. (Currently amended) Use of the active ingredient of Claim 1 for the preparation of a composition which is suitable for __treatment of skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation, in particular for the treatment of acne vulgaris, acne comedonica, polymorphic acne, acne rosaceae, nodular acne, acne conglobata, age-related acne, acne occurring as a side effect, such as acne solaris, medicament-related acne or acne professionalis, for the treatment of other defects of keratinisation, in particular ichthyosis, ichthyosiform states, Darier's disease, keratosis palmo-plantaris, leukoplakia, leukoplakiform states, skin and mucosal (buccal) eczema (lichen), for the treatment of other skin diseases which are associated with defective keratinisation and have an inflammatory and/or immunoallergic component, and in particular all forms of psoriasis relating to the skin, mucous membranes and finger- and toenails, and psoriatic rheumatism and skin atopy, such as eczema, or respiratory atopy, or also hypertrophy of the gums__.\n\n9. (Cancelled)\n\n10. (Cancelled)\n\n12. (Cancelled)\n\n13. (Cancelled)\n\n14. (Cancelled)",
+  "usage": {
+    "input_tokens": 4809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 634,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.8,
+  "cost_usd": 0.00638,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:26:53Z"
+}

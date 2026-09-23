@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011008843",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2011008843",
+  "app_num": "11427495",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19492,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a886940456e8dc1f",
+  "response_text": "1. (Currently amended) A semiconductor device comprising a field effect transistor (FET) having a channel region located in a semiconductor device structure, said semiconductor device structure having a top surface that is oriented along one of a first set of equivalent crystal planes and one or more additional surfaces that are oriented along a second, different set of equivalent crystal planes, wherein one or more stressor layers are located __directly__ over said one or more additional surfaces of the semiconductor device structure __and not over said top surface__, and are arranged and constructed to apply stress to the channel region of the FET.\n\n2. (Original) The semiconductor device of claim 1, wherein the one or more stressor layers have a different lattice constant from the semiconductor device structure, so that either compressive or tensile stress is created in the stressor layers due to lattice mismatch between the stressor layers and the semiconductor device structure.\n\n3. (Original) The semiconductor device of claim 2, wherein the one or more stressor layers have a lattice constant larger than that of the semiconductor device structure, so that compressive stress is created in the stressor layers.\n\n4. (Original) The semiconductor device of claim 3, wherein the one or more additional surfaces form acute angles with the top surface of the semiconductor device structure, and said one or more stressor layers apply tensile stress to the channel region of the FET.\n\n19. (Original) A semiconductor device comprising a p-channel field effect transistor (p-FE T) having a p-doped channel region located in a semiconductor device structure, said semiconductor device structure having a top surface that is oriented along one of a first set of equivalent crystal planes and one or more additional surfaces that are oriented along a second, different set of equivalent crystal planes, wherein one or more stressor layers are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply compressive stress to the p-doped channel region of the p-FET.\n\n20. (Original) The semiconductor device of claim 19, wherein the one or more stressor layers have a different lattice constant from the semiconductor device structure, so that either compressive or tensile stress is created in the stressor layers due to lattice mismatch between the stressor layers and the semiconductor device structure.\n\n21. (Original) The semiconductor device of claim 19, wherein the one or more stressor layers have a lattice constant larger than that of the semiconductor device structure, so that compressive stress is created in the stressor layers.",
+  "usage": {
+    "input_tokens": 4344,
+    "output_tokens": 514,
+    "total_tokens": 4858
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.24,
+  "cost_usd": 0.01057,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:45:19Z"
+}

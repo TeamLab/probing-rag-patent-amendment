@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14291,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e2643795aa0583b4",
+  "response_text": "1. (Currently amended) A composition, comprising: cavity-generating particles having a size of 100-200 micrometers; a thermally conductive binder; and a solvent.\n\n2. (Currently amended) The composition of claim 1, wherein the composition is applied to an electronic component surface and forms boiling nucleation sites.\n\n3. (Currently amended) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface, and wherein the thermally conductive binder remains to affix the cavity-generating particles to the surface.\n\n9. (Currently amended) A composition comprising cavity generating particles of 100-200 micrometers in size, a binder, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles, and wherein the binder is premixed solder paste.\n\n10. (Original)\n\n11. (Currently amended) The composition of claim 9, wherein the binder is premixed solder paste and is thermally conductive with thermal conductivity greater than epoxy-based binders.\n\n12. (Original)\n\n13. (Original)\n\n14. (Original)\n\n15. (Currently amended) The composition of claim 9, wherein the cavity generating particles are 100-200 micrometers in size and are selected to form discrete boiling nucleation sites on a surface.\n\n16. (Currently amended) A composition of matter comprising carrier, binder, and cavity generating particles of 100-200 micrometers in size, wherein said composition of matter contains, in relative proportion: about 10 ml carrier; about 0.5 to 0.8 grams binder; and about 1 gram of cavity generating particles, and wherein the binder is premixed solder paste.\n\n17. (Original)\n\n18. (Currently amended) The composition of claim 16, wherein the binder is premixed solder paste and is thermally conductive with thermal conductivity greater than epoxy-based binders.\n\n19. (Original)\n\n20. (Original)\n\n21. (Original)\n\n22. (Currently amended) The composition of claim 16, wherein the cavity generating particles are 100-200 micrometers in size and are selected to form discrete boiling nucleation sites on a surface.",
+  "usage": {
+    "input_tokens": 4106,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 525,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.97,
+  "cost_usd": 0.00538,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:26:41Z"
+}

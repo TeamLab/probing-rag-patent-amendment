@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017009415",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017009415",
+  "app_num": "13468920",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18525,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c3a201efc6514373",
+  "response_text": "(Currently Amended) 1. A catheter system for delivering ultrasonic energy to a treatment site within a body lumen, the catheter comprising: a tubular body having a proximal end, a distal end and an energy delivery section positioned between the proximal end and the distal end; a plurality of ultrasound radiating members positioned within the energy delivery section, the plurality of ultrasound radiating members being allocated into electrical groups comprising more than one ultrasound radiating member; wherein the ultrasound radiating members of one electrical group are spatially interdigitated with the ultrasound radiating members of another electrical group, and wherein the ultrasound radiating members are interdigitated in a non-regular pattern.\n\n(Currently Amended) 4. The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a non-regular pattern.\n\n(Currently Amended) 5. The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a non-regular pattern. \n\n(Currently Amended) 6. A system for treating a patient having pulmonary embolism, the system comprising: a first and a second ultrasound catheter, each of the first and the second ultrasound catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section having at least one ultrasound element, the tubular body also including at least one fluid delivery lumen; and a control system connected to and configured to operate both the first and the second ultrasound catheters.\n\n(Currently Amended) 7. The system of Claim 6, wherein the control system operates both the first and the second ultrasound catheters simultaneously.\n\n(Currently Amended) 8. The system of Claim 7, wherein the control system is configured to independently control the ultrasound radiating members on the first and the second ultrasound catheters.",
+  "usage": {
+    "input_tokens": 4126,
+    "output_tokens": 375,
+    "total_tokens": 4501
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.83,
+  "cost_usd": 0.00084,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:14:07Z"
+}

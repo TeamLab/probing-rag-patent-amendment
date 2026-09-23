@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12452,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f5c1fb82282c2e52",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is __light-activated__.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in the test tube __and is light-activated__.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded underneath the __bottom of the test tube__, oriented for reading downwards, __and is light-activated__.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube __and the MTP is light-activated__.\n\n5. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer __and is light-activated__.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the __test tube__ __and is light-activated__.\n\n13. (Currently Amended) A system for storing samples and comprising of the assembly of claim 1, and one or more of the following: a rack for biorepository test tubes; automated robot for moving racks or biorepository test tubes; and automated sampling device adapted to sample said racks or biorepository test tubes, __wherein the MTP is light-activated__.\n\n14. (Currently Amended) The system of claim 13 adapted for low temperature operation, such that the racks/test tubes are handled at -20 C or less, __wherein the MTP is light-activated__.\n\n15. (Currently Amended) A method of forming a test tube assembly of claim 1, comprising embedding a __light-activated__ MTP in plastic or comprising heating the __light-activated__ MTP to above the melting point of the plastic and melting a portion of the plastic with the heated __light-activated__ MTP.\n\n16. (Currently Amended) A method of reading an embedded __light-activated__ MTP in a test tube assembly of claim 1, comprising: providing an embedded __light-activated__ MTP; and reading the __light-activated__ MTP __using light activation__.\n\n17. (Original) The method of reading of claim 16, wherein the embedding material is frost coated.\n\n18. (Original) The method of claim 16, wherein the reader comprises a vial receptacle and wherein vial receptacle and the embedded MTP are maintained at a temperature of -20 C or less.\n\n19. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer __and is light-activated__.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the __test tube__ __and is light-activated__.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded underneath the __bottom of the test tube__, oriented for reading downwards, __and is light-activated__.\n\n22. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded near the center bottom of the __test tube__ __and is light-activated__.\n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded underneath the __bottom of the test tube__, oriented for reading downwards, __and is light-activated__.",
+  "usage": {
+    "input_tokens": 3571,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 749,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.34,
+  "cost_usd": 0.00585,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:45:12Z"
+}

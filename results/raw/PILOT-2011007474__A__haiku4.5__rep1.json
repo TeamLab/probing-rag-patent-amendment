@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2011007474",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2011007474",
+  "app_num": "11613859",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14502,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "24f0563eebb10d4d",
+  "response_text": "1. (Currently amended) A method comprising:\nreceiving requests and data records from a plurality of creditors to file bankruptcy documents with a plurality of different bankruptcy organizations, wherein the requests are received through a secure automated system configured to receive and process bankruptcy-specific data; and\nbatch filing the bankruptcy documents with the different bankruptcy organizations __in accordance with the specific filing requirements and procedures of each bankruptcy organization__.\n\n2. (Currently amended) The method of claim 1 wherein the different bankruptcy organizations are different courts with different filing system configurations, and wherein the bankruptcy documents are automatically formatted and adapted to comply with the specific filing requirements of each different court.\n\n6. (Currently amended) A method comprising:\nreceiving requests from a plurality of creditors to file proofs of claims for debts owed by debtors to the creditors with a plurality of different bankruptcy organizations, wherein each request includes a data record for generating a proof of claim __specific to the requirements of each bankruptcy organization__;\nautomatically generating the proofs of claims with the received data records, wherein the proofs of claims are automatically formatted and adapted to be suitable for filing with different bankruptcy organizations __having different filing requirements and procedures__; and\nbatch filing the proofs of claims with the different bankruptcy organizations __in accordance with the specific filing procedures of each bankruptcy organization__.\n\n7. (Currently amended) The method of claim 6 wherein the different bankruptcy organizations are different bankruptcy courts having different filing system configurations, and wherein the proofs of claims are automatically adapted to comply with the specific filing requirements of each different bankruptcy court.\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)",
+  "usage": {
+    "input_tokens": 3888,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 3.92,
+  "cost_usd": 0.00466,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:39:09Z"
+}

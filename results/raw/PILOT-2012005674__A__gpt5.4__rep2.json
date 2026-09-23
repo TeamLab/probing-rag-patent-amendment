@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012005674",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2012005674",
+  "app_num": "11677766",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20007,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c81a4ad50a78070a",
+  "response_text": "1. (Currently amended) A method for generating a superframe preamble for a superframe __in an orthogonal frequency division multiplexing (OFDM) network__, the superframe preamble comprising __a plurality of symbols, the method comprising: for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed over substantially the entire carrier,__ and for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel, __wherein the first broadcast channel comprises a first primary broadcast channel operable to carry system information, and the second broadcast channel comprises a second primary broadcast channel operable to carry quick page and control information.__\n\n2. (Previously presented) The method as set forth in Claim 1, the first set of subcarriers distributed uniformly over substantially the entire carrier.\n\n3. (Previously presented) The method as set forth in Claim 1, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern.\n\n4. (Cancelled)\n\n19. (Currently amended) A superframe generator in a base station in an OFDM network, comprising a preamble generator operable to generate a superframe preamble comprising a plurality of symbols for a superframe by (i) for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed over substantially the entire carrier, and (ii) for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel, __wherein the first broadcast channel comprises a first primary broadcast channel operable to carry system information, and the second broadcast channel comprises a second primary broadcast channel operable to carry quick page and other control information.__\n\n20. (Previously presented) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed uniformly over substantially the entire carrier.\n\n21. (Previously presented) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern.\n\n22. (Previously presented) The superframe generator as set forth in Claim 19, the first broadcast channel comprising a first primary broadcast channel operable to carry system information, and the second broadcast channel comprising a second primary broadcast channel operable to carry quick page and other control information.",
+  "usage": {
+    "input_tokens": 4669,
+    "output_tokens": 530,
+    "total_tokens": 5199
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.08,
+  "cost_usd": 0.01114,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:42:26Z"
+}

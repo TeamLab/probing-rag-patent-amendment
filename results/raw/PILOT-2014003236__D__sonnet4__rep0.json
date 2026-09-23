@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 4206,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "567ce25d68cbcaf5",
+  "response_text": "1. (Currently amended) A compound of formula (IIa)\n\nO\nNaO OR2\n0\n(II a),\n\nin which substituent R2 is selected from the group consisting of __C3-C12-alkyl, aryl, and arylalkyl__.\n\n2. (Currently amended) A compound according to Claim 1 of formula (II a) in which R2 is __C3-C12-alkyl__, C6-aryl, or arylalkyl.\n\n3. (Cancelled)\n\n4. (Currently amended) A compound of formula (IIb)\n\nO\nZO OMe\nO O\n(I Ib)\n\nin which substituent Z is selected from the group consisting of __sodium__.\n\n5. (Currently amended) A compound according to Claim __4__ of formula (II b) in which Z is sodium.",
+  "usage": {
+    "input_tokens": 1457,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 202,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.13,
+  "cost_usd": 0.0074,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:11:05Z"
+}

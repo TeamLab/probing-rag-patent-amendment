@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002729",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2020002729",
+  "app_num": "12809299",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19083,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6ba3e9a56d120490",
+  "response_text": "4. (Currently amended) The apparatus according to claim 3, wherein the images comprise pixels having a pitch, and wherein the image processor is configured to compute the respective relative offsets with a precision that is finer than the pitch, and to combine the images using the respective relative offsets to produce a combined image having a resolution finer than the pitch, __wherein the neighboring images are captured by different cameras mounted in different respective locations in the imaging assembly__.\n\n6. (Currently amended) The apparatus according to claim 2, wherein the image processor is configured to recover a virtual position clock responsively to a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras and to relative movement between the sample and the imaging assembly that is applied by the motion assembly, and to use the virtual position clock in registering the respective images with one another, __wherein the virtual position clock is recovered from the periodic pattern independently of the motion assembly position tolerance__.\n\n9. (Currently amended) The apparatus according to claim 1, wherein the plurality of the cameras comprises at least twenty cameras __arranged in respective positions in at least one row along a direction transverse to a scan direction of the motion assembly so that the images captured by each of the cameras as the imaging assembly scans the sample cover a respective swath of the sample along the scan direction, and so that the swaths together cover an entire active area of the sample in a single scan of the imaging assembly across the sample__.\n\n10. (Currently amended) The apparatus according to claim 9, wherein the plurality of the cameras comprises at least one hundred cameras __arranged in the at least one row__.\n\n13. (Currently amended) The apparatus according to claim 1, wherein the motion assembly is configured to cause the imaging assembly to scan the sample in a scan direction, and wherein the apparatus comprises at least one post-inspection camera and a transverse motion unit, which is configured to shift the at least one post-inspection camera in a direction transverse to the scan direction while the imaging assembly scans the sample so that the at least one post-inspection camera images an area of the defect located by the image processor, __while the sample remains in the apparatus after being scanned by the imaging assembly__.\n\n14. (Currently amended) The apparatus according to claim 13, wherein the image processor is configured to compute an error signal, indicative of a deviation of movement of the motion assembly relative to an ideal motion model, and to drive the at least one post-inspection camera to image the area of the defect responsively to the error signal, __wherein the error signal is used to compensate for the deviation while the at least one post-inspection camera is shifted in the direction transverse to the scan direction__.\n\n18. (Currently amended) The method according to claim 17, wherein the images comprise pixels having a pitch, and wherein computing the respective relative offsets comprises determining the respective relative offsets with a precision that is finer than the pitch, and wherein processing the images comprises combining the images using the respective relative offsets to produce a combined image having a resolution finer than the pitch, __wherein the neighboring images are captured by different cameras mounted in different respective locations in the imaging assembly__.\n\n20. (Currently amended) The method according to claim 16, wherein processing the images comprises recovering a virtual position clock responsively to a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras and to relative movement between the sample and the imaging assembly while scanning the sample, using the virtual position clock in registering the respective images with one another, __wherein the virtual position clock is recovered from the periodic pattern independently of the predetermined position tolerance__.\n\n23. (Currently amended) The method according to claim 15, wherein the plurality of the cameras comprises at least twenty cameras __arranged in respective positions in at least one row along a direction transverse to a scan direction of the imaging assembly so that the images captured by each of the cameras while scanning the sample cover a respective swath of the sample along the scan direction, and so that the swaths together cover an entire active area of the sample in a single scan across the sample__.\n\n26. (Currently amended) The method according to claim 15, wherein the sample is scanned by the imaging assembly in a scan direction, and wherein the method comprises shifting at least one post-inspection camera in a direction transverse to the scan direction while the imaging assembly scans the sample so as to position the at least one post-inspection camera over an area of the defect located by the image processor, and capturing an image of the area of the defect using the at least one post-inspection camera, __while the sample remains in position after being scanned by the imaging assembly__.\n\n27. (Currently amended) The method according to claim 26, wherein capturing the image comprises computing an error signal that is indicative of a deviation of movement of the imaging assembly relative to an ideal motion model, and driving the at least one post-inspection camera to image the area of the defect responsively to the error signal, __including compensating for the deviation while shifting the at least one post-inspection camera in the direction transverse to the scan direction__.",
+  "usage": {
+    "input_tokens": 4262,
+    "output_tokens": 1064,
+    "total_tokens": 5326
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.71,
+  "cost_usd": 0.01597,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:49:02Z"
+}

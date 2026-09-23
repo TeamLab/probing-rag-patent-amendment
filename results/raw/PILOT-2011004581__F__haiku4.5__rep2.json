@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2011004581",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2011004581",
+  "app_num": "10906716",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18038,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "934065af1caa16b0",
+  "response_text": "Claim 2 (Currently amended): The method of claim 1 further comprising: displaying the filtered EPG information __to a subscriber on a display device coupled to a set-top terminal__.\n\nClaim 3 (Currently amended): The method of claim 1 wherein filtering comprises: obtaining channel accessibility of the subscriber __by retrieving authorization information specific to the subscriber's subscription package__; and removing EPG information related to a channel that is not within the channel accessibility of the subscriber __based on a comparison of channel identifiers in the EPG information against the subscriber's authorized channel list__.\n\nClaim 4 (Currently amended): The method of claim 3 wherein obtaining comprises: retrieving channel subscription information of the subscriber from the content delivery provider __in the form of service codes and authorization data__; and creating a list of subscriber's channel identifiers of channels accessible to the subscriber from the channel subscription information __by processing the service codes and authorization data to generate an authorized channel identifier list__.\n\nClaim 5 (Currently amended): The method of claim 3 wherein removing comprises: reading the EPG information __from the EPG provider__; extracting a channel identifier from the EPG information __selected from the group consisting of a program identifier (PID), a channel name, and a channel number__; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of the subscriber's channel identifiers __by filtering out entries in the EPG information that do not match any identifier in the authorized channel identifier list__.\n\nClaim 6 (Original): The method of claim 1 wherein the programs are delivered by one of a television network, a cable operator, a direct satellite program provider, a digital cable content provider, and a network content provider.\n\nClaim 7 (Currently amended): An article of manufacture comprising: a machine-accessible medium including data that, when accessed by a machine, causes the machine to perform operations comprising: retrieving electronic program guide (EPG) information from an EPG provider __via a tuner or receiver module__; and filtering the EPG information to retain program information related to programs delivered by a content delivery provider to a subscriber __based on the subscriber's channel accessibility__, the content delivery provider being different from the EPG provider.\n\nClaim 8 (Currently amended): The article of manufacture of claim 7 wherein the data further comprises data that, when accessed by the machine, causes the machine to perform operations comprising: displaying the filtered EPG information __on an on-screen menu or display interface accessible to the subscriber__.\n\nClaim 9 (Currently amended): The article of manufacture of claim 7 wherein the data causing the machine to perform filtering comprises data that, when accessed by the machine, causes the machine to perform operations comprising: obtaining channel accessibility of the subscriber __by retrieving authorization information specific to the subscriber's subscription package__; and removing EPG information related to a channel that is not within the channel accessibility of the subscriber __based on a comparison of channel identifiers in the EPG information against the subscriber's authorized channel list__.\n\nClaim 10 (Currently amended): The article of manufacture of claim 9 wherein the data causing the machine to perform obtaining comprises data that, when accessed by the machine, causes the machine to perform operations comprising: retrieving channel subscription information of the subscriber from the content delivery provider __in the form of service codes and authorization data__; and creating a list of subscriber's channel identifiers of channels accessible to the subscriber from the channel subscription information __by processing the service codes and authorization data to generate an authorized channel identifier list__.\n\nClaim 11 (Currently amended): The article of manufacture of claim 9 wherein the data causing the machine to perform removing comprises data that, when accessed by the machine, causes the machine to perform operations comprising: reading the EPG information __from the EPG provider__; extracting a channel identifier from the EPG information __selected from the group consisting of a program identifier (PID), a channel name, and a channel number__; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of the subscriber's channel identifiers __by filtering out entries in the EPG information that do not match any identifier in the authorized channel identifier list__.\n\nClaim 14 (Currently amended): The program guide module of claim 13 wherein the enhanced EPG module further comprises: a module to display the filtered EPG information __on an on-screen menu or display interface accessible to the subscriber__.",
+  "usage": {
+    "input_tokens": 4475,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 966,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 8.99,
+  "cost_usd": 0.00744,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:12:07Z"
+}

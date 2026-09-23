@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18264,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6bae35c446779b0f",
+  "response_text": "1. (Currently Amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, wherein the non-native compartment is distinct from any naturally occurring compartment in the cell.\n\n2. (Currently Amended) The cell of claim 1 wherein the non-native compartment is self-assembled in vivo and is not derived from a naturally occurring bacterial microcompartment.\n\n3. (Currently Amended) The cell of claim 1 wherein the non-native compartment further comprises at least one targeted enzyme that is not naturally occurring in the host cell.\n\n4. (Currently Amended) The cell of claim 3 wherein the non-native compartment comprises a plurality of different targeted enzymes that are not naturally occurring in the host cell.\n\n5. (Currently Amended) The cell of claim 4 wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence that is not naturally occurring in the host cell.\n\n8. (Currently Amended) The cell of claim 1 wherein the proteinaceous shell comprises a plurality of different BMC polypeptides that are not derived from a single bacterial species.\n\n10. (Currently Amended) The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from at least two different bacterial species.\n\n12. (Currently Amended) A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide that is not naturally occurring in the host cell, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide.\n\n21. (Currently Amended) A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide that is not naturally occurring in the host cell, and at least one enzyme that catalyzes conversion of a substrate to a product that is not naturally produced by the host cell; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product. \n\n28. (Currently Amended) The cell of claim 1 comprising a plurality of compartments that are distinct from any naturally occurring compartments in the host cell.",
+  "usage": {
+    "input_tokens": 4557,
+    "output_tokens": 502,
+    "total_tokens": 5059
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.21,
+  "cost_usd": 0.00098,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:51:35Z"
+}

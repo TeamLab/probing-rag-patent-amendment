@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16330,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "453fb1b94dcc0e73",
+  "response_text": "1. (Currently amended) A system comprising: a plurality of network nodes of a local contention neighborhood of a random access network, wherein a first node of the plurality is configured to transmit to a second node of the plurality at an access attempt percentage, and wherein each of the plurality of nodes is configured to provide an indicia of its inter-node interference to at least one other node of the plurality, and wherein the first node is configured to adjust the access attempt percentage to transmit to the second node based on one of the provided indicia.\n\n2. (Original)\n\n3. (Currently amended) The system of claim 1, wherein the indicia of inter-node interference comprises an indicia of transmission success rate between the other nodes and the second node.\n\n4. (Currently amended) The system of claim 1, wherein the first node is configured to adjust the access attempt percentage based on the indicia of inter-node interference of the first node divided by an indicia of inter-node interference of one or more of the other nodes that are interfered with by transmissions from the first node.\n\n5. (Original)\n\n13. (Currently amended) A system comprising: a first node adapted to communicate wirelessly with a first access point, the first node configured to calculate an access attempt percentage for communications with the first access point, wherein the calculation is based at least partially on a received indicia of inter-node interference between the first node and a second node, wherein the indicia is based on a measured transmission success rate.\n\n14. (Currently amended) The system of claim 13, comprising the first access point, wherein the first access point is configured to broadcast a dynamic weight associated with the second node to the first node, wherein the dynamic weight is based on transmission performance metrics of the second node.\n\n15. (Original)\n\n16. (Original)\n\n17. (Currently amended) The system of claim 13, comprising a second access point, wherein the second node communicates with the second access point and the first node causes measurable interference with communication between the second node and the second access point based on the received indicia of inter-node interference.\n\n18. (Original)\n\n19. (Currently amended) The system of claim 13, wherein the first node is configured to communicate with the first access point using IEEE 802.11 wireless protocol standards.\n\n20. (Original)",
+  "usage": {
+    "input_tokens": 4278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.42,
+  "cost_usd": 0.00543,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:32:39Z"
+}

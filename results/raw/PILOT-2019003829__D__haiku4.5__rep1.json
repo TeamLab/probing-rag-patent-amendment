@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12887,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a11e11a189c98ed0",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is __light-activated__.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in the test tube __such that the MTP remains light-activated__.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards, __and wherein the MTP is light-activated__.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube __configured for long-term storage of biological samples, and wherein the MTP is light-activated__.\n\n5. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer __in a manner that preserves light-activation of the MTP__.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the __test tube__, __and wherein the MTP is light-activated__.\n\n13. (Currently Amended) A system for storing samples and comprising of the assembly of claim 1, and one or more of the following: a rack for biorepository test tubes; automated robot for moving racks or biorepository test tubes; and automated sampling device adapted to sample said racks or biorepository test tubes, __wherein the system is configured to read light-activated MTPs in the test tubes__.\n\n14. (Currently Amended) The system of claim 13 adapted for low temperature operation, such that the racks/test tubes are handled at -20 C or less, __wherein the light-activated MTPs remain functional at such temperatures__.\n\n15. (Currently Amended) A method of forming a test tube assembly of claim 1, comprising embedding a light-activated MTP in plastic __by heating the MTP to above the melting point of the plastic and melting a portion of the plastic with the heated MTP, such that light-activation of the MTP is preserved__.\n\n16. (Currently Amended) A method of reading an embedded MTP in a test tube assembly of claim 1, comprising: providing an embedded light-activated MTP; and reading the MTP __using light activation__.\n\n17. (Currently Amended) The method of reading of claim 16, wherein the embedding material is frost coated __and the light-activated MTP remains readable through the frost coating__.\n\n18. (Currently Amended) The method of claim 16, wherein the reader comprises a vial receptacle and wherein vial receptacle and the embedded light-activated MTP are maintained at a temperature of -20 C or less.\n\n19. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer __in a manner that preserves light-activation of the MTP__.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the __test tube__, __and wherein the MTP is light-activated__.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards, __and wherein the MTP is light-activated__.\n\n22. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded near the center bottom of the __test tube__, __and wherein the MTP is light-activated__.\n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards, __and wherein the MTP is light-activated__.",
+  "usage": {
+    "input_tokens": 3656,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 822,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.02,
+  "cost_usd": 0.00621,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:45:52Z"
+}

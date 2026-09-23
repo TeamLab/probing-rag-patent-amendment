@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12656,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a0cd79103af67c0b",
+  "response_text": "1. (Currently amended) A cooling system installable within a structure wall, comprising: in a housing, the housing disposed between a pair of studs of the wall, a water reservoir; a pump; a pad; a water distributor; a motor; __a fan; and a water level sensor that detects when water in the reservoir falls below a predetermined level__.\n\n2. (Currently amended) The cooling system of claim 1, wherein the studs are spaced __sixteen__ inches on center.\n\n3. (Currently amended) The cooling system of claim 1, wherein the studs are spaced __twenty-four__ inches on center.\n\n4. (Previously presented) The cooling system of claim 1, wherein the pump brings water from the water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad.\n\n5. (Previously presented) The cooling system of claim 4, wherein the fan causes air to flow through the pad moistened by the water, thereby cooling the air by evaporation.\n\n6. (Currently amended) The cooling system of claim 5, wherein the fan causes the cooled air to flow through an opening __into an indoor area__.\n\n7. (Previously presented) The cooling system of claim 4, wherein at least some of the water flows back to the reservoir for recirculation.\n\n8. (Original) The cooling system of claim 1, wherein the water reservoir is filled with additional water when the water in the reservoir falls below a predetermined level.\n\n9. (Original) The cooling system of claim 8, further including a ball float valve that opens to fill the water reservoir with the additional water when the water in the reservoir falls below the predetermined level.\n\n10. (Original) The cooling system of claim 1, further including a water drain.\n\n11. (Currently amended) The cooling system of claim 1, wherein the housing includes a front cover __that is removable for accessing internal components__.\n\n12. (Original) The cooling system of claim 1, wherein the housing protrudes from the wall less than three inches.\n\n13. (Currently amended) The cooling system of claim 1, wherein the wall is a load-bearing wall __of a residential structure__.\n\n14. (Original) The cooling system of claim 1, wherein the structure is a garage.\n\n15. (Currently amended) A cooling system kit, comprising: the cooling system of claim 1; mounting elements; __a ventilation grill; and installation hardware__.\n\n16. (Original) The cooling system kit of claim 15, further including instructions.\n\n17. (Cancelled)\n\n18. (Cancelled)\n\n19. (Cancelled)\n\n20. (Cancelled)",
+  "usage": {
+    "input_tokens": 3634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 585,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 12.61,
+  "cost_usd": 0.01968,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:08:02Z"
+}

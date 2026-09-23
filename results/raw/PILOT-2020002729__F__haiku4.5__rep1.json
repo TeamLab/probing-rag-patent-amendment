@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020002729",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2020002729",
+  "app_num": "12809299",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 24058,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4990aeed7f1e1adb",
+  "response_text": "1. (Currently Amended) Apparatus for inspection, comprising: an imaging assembly, comprising a plurality of cameras, which are mounted in different, respective locations in the imaging assembly and are configured to capture respective images of a sample; a motion assembly, which is configured to move at least one of the imaging assembly and the sample so as to cause the imaging assembly to scan the sample with a scan accuracy that is limited by a predetermined position tolerance; and an image processor, which is coupled to receive and process the images captured by the cameras so as to locate a defect in the sample with a position accuracy that is finer than the position tolerance, __wherein the image processor is configured to register the respective images with one another using a region of overlap between neighboring images and to compute respective relative offsets of the neighboring images that vary within the position tolerance, thereby achieving the finer position accuracy__.\n\n2. (Previously presented)\n\n3. (Previously presented)\n\n4. (Currently Amended) The apparatus according to claim 1, wherein the images comprise pixels having a pitch, and wherein the image processor is configured to compute the respective relative offsets with a precision that is finer than the pitch __by performing sub-pixel registration of the neighboring images__, and to combine the images using the respective relative offsets to produce a combined image having a resolution finer than the pitch.\n\n5. (Previously presented)\n\n6. (Currently Amended) The apparatus according to claim 1, wherein the image processor is configured to recover a virtual position clock __by analyzing__ a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras and __correlating the periodic pattern to__ relative movement between the sample and the imaging assembly that is applied by the motion assembly, and to use the virtual position clock in registering the respective images with one another __by aligning the images based on the virtual position clock__.\n\n7. (Previously presented)\n\n8. (Previously presented)\n\n9. (Currently Amended) The apparatus according to claim 1, wherein the plurality of the cameras comprises at least twenty cameras __arranged in a two-dimensional array configuration__.\n\n10. (Currently Amended) The apparatus according to claim 9, wherein the plurality of the cameras comprises at least one hundred cameras __arranged in the two-dimensional array configuration__.\n\n11. (Previously presented)\n\n12. (Previously presented)\n\n13. (Currently Amended) The apparatus according to claim 1, wherein the motion assembly is configured to cause the imaging assembly to scan the sample in a scan direction, and wherein the apparatus comprises at least one post-inspection camera and a transverse motion unit, which is configured to shift the at least one post-inspection camera in a direction transverse to the scan direction while the imaging assembly scans the sample so that the at least one post-inspection camera images an area of the defect located by the image processor, __wherein the transverse motion unit is controlled by the image processor to position the post-inspection camera based on the computed position of the defect__.\n\n14. (Currently Amended) The apparatus according to claim 13, wherein the image processor is configured to compute an error signal, indicative of a deviation of movement of the motion assembly relative to an ideal motion model __based on the relative offsets computed during image registration__, and to drive the at least one post-inspection camera to image the area of the defect responsively to the error signal __by adjusting the transverse motion unit__.\n\n15. (Currently Amended) A method for inspection, comprising: scanning a sample using an imaging assembly, comprising a plurality of cameras, which are mounted in different, respective locations in the imaging assembly, with a scan accuracy that is limited by a predetermined position tolerance; capturing respective images of the sample using the cameras while scanning the sample; and processing the images captured by the cameras so as to locate a defect in the sample with a position accuracy that is finer than the position tolerance, __wherein processing the images comprises registering the respective images with one another using a region of overlap between neighboring images and computing respective relative offsets of the neighboring images that vary within the position tolerance, thereby achieving the finer position accuracy__.\n\n16. (Previously presented)\n\n17. (Previously presented)\n\n18. (Currently Amended) The method according to claim 15, wherein the images comprise pixels having a pitch, and wherein computing the respective relative offsets comprises determining the respective relative offsets with a precision that is finer than the pitch __by performing sub-pixel registration of the neighboring images__, and wherein processing the images comprises combining the images using the respective relative offsets to produce a combined image having a resolution finer than the pitch.\n\n19. (Previously presented)\n\n20. (Currently Amended) The method according to claim 15, wherein processing the images comprises recovering a virtual position clock __by analyzing__ a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras and __correlating the periodic pattern to__ relative movement between the sample and the imaging assembly while scanning the sample, __and__ using the virtual position clock in registering the respective images with one another __by aligning the images based on the virtual position clock__.\n\n21. (Previously presented)\n\n22. (Previously presented)\n\n23. (Currently Amended) The method according to claim 15, wherein the plurality of the cameras comprises at least twenty cameras __arranged in a two-dimensional array configuration__.\n\n24. (Previously presented)\n\n25. (Previously presented)\n\n26. (Currently Amended) The method according to claim 15, wherein the sample is scanned by the imaging assembly in a scan direction, and wherein the method comprises shifting at least one post-inspection camera in a direction transverse to the scan direction while the imaging assembly scans the sample so as to position the at least one post-inspection camera over an area of the defect located by the image processor, and capturing an image of the area of the defect using the at least one post-inspection camera, __wherein the shifting is controlled by the image processor based on the computed position of the defect__.\n\n27. (Currently Amended) The method according to claim 26, wherein capturing the image comprises computing an error signal that is indicative of a deviation of movement of the imaging assembly relative to an ideal motion model __based on the relative offsets computed during image registration__, and driving the at least one post-inspection camera to image the area of the defect responsively to the error signal __by adjusting the transverse motion unit__.",
+  "usage": {
+    "input_tokens": 5776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1375,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.54,
+  "cost_usd": 0.01012,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:45:09Z"
+}

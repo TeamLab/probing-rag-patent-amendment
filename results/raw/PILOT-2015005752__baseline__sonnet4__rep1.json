@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2015005752",
+  "condition": "baseline",
+  "rep": 1,
+  "proceeding_number": "2015005752",
+  "app_num": "13668077",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14357,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "51b656f7b12e653a",
+  "response_text": "1. (Currently amended) A packaging substrate comprising: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having __a solder mask layer with the chip mounting surface disposed on the solder mask layer, and__ a plurality of conductive paths formed between the chip mounting surface and the bottom surface, the conductive paths configured to provide electrical connection between an integrated circuit chip disposed on the chip mounting surface and the bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure, __wherein the opening extends through the solder mask layer__; and a stiffening microstructure disposed in the opening and coupled to the packaging structure.\n\n2. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a bottom surface of the opening __below the solder mask layer__.\n\n3. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a sidewall of the opening __and extends through the solder mask layer__.\n\n4. (Original) The packaging substrate of claim 1, wherein the stiffening microstructure extends above the chip mounting surface.\n\n5. (Cancelled)\n\n6. (Currently amended) The packaging substrate of claim 1, wherein the packaging structure further comprises: a core layer disposed below the solder mask layer, the opening exposing a portion of the core layer.\n\n7. (Currently amended) The packaging substrate of claim 1 further comprising: an integrated circuit chip mounted on the chip mounting surface __of the solder mask layer__.\n\n8. (Currently amended) The packaging substrate of claim 7, wherein the stiffening microstructure __includes__ a lid.\n\n9. (Currently amended) The packaging substrate of claim 8 further comprising: a heat transfer medium providing a thermally conductive pathway between the lid and the integrated circuit chip __mounted on the solder mask layer__.\n\n10. (Original) The packaging substrate of claim 1, wherein the stiffening microstructure is a ring.\n\n11. (Currently amended) The packaging substrate of claim 1, wherein the packaging structure further comprises: a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure, wherein the ground reference plane layer is in contact with the stiffening microstructure __and the opening extends through the solder mask layer to expose the ground reference plane layer__.\n\n12. (Original) The packaging substrate of claim 1 further comprising a dielectric bonding agent coupling the stiffening microstructure to the packaging structure.\n\n13. (Original) The packaging substrate of claim 1 further comprising a conductive bonding agent coupling the stiffening microstructure to the packaging structure.\n\n14. (Currently amended) A computing device, comprising: a memory; and a packaged semiconductor device __communicatively__ coupled to the memory, wherein the packaged semiconductor device comprises: a packaging structure having a chip mounting surface and a bottom surface, __the packaging structure having a solder mask layer with the chip mounting surface disposed on the solder mask layer,__ the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure __wherein the opening extends through the solder mask layer__; an integrated circuit chip disposed on the chip mounting surface and communicatively coupled to the memory though the packaging structure; and a stiffening microstructure disposed in the opening and coupled to the packaging structure.\n\n15. (Currently amended) The packaging substrate of claim 14, wherein the stiffening microstructure is bonded to at least one of a bottom surface and a sidewall of the opening __wherein the opening extends through the solder mask layer__.\n\n16. (Original) The packaging substrate of claim 14, wherein the stiffening microstructure extends above the chip mounting surface.\n\n17. (Cancelled)\n\n18. (Currently amended) The packaging substrate of claim 14, wherein the packaging structure further comprises: a core layer disposed below the solder mask layer, the opening exposing a portion of the core layer.\n\n19. (Original) The packaging substrate of claim 14, wherein the stiffening microstructure is one of a ring or a lid.\n\n20. (Currently amended) The packaging substrate of claim 14, wherein the packaging structure further comprises: a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure, wherein the stiffening microstructure is in contact with __the__ ground reference plane layer __and the opening extends through the solder mask layer to expose the ground reference plane layer__.",
+  "usage": {
+    "input_tokens": 3775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 993,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 15.86,
+  "cost_usd": 0.02622,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:27:01Z"
+}

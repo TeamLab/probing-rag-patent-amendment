@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014009970",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2014009970",
+  "app_num": "12376918",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11644,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4e098ee459562373",
+  "response_text": "1. (Currently amended) An air braking unit for use in an air braking system, the air braking unit being arranged to be positioned, in use, at a vehicle wheel, and comprising: an inlet for receiving, in use, compressed air from a central source; at least one first valve arranged to selectively allow compressed air from the inlet to enter a wheel brake chamber in use; at least one second valve arranged to selectively allow air from the brake chamber to be released via an outlet to the atmosphere in use; and control means for controlling the first and second valves to operate to selectively control the air pressure in the brake chamber in use, __wherein the control means is arranged to receive control signals from a wheel speed sensor and an air pressure sensor for determining the pressure in the brake chamber and to receive data from a vehicle speed sensor, and reference data indicative of an optimum braking force for given vehicle and wheel speeds and control braking force based thereon__.\n\n2. (Currently amended) The air braking unit of claim 1, further comprising __at least three__ plural first valves and/or plural second valves.\n\n3. (Currently amended) The air braking unit of claim 2, wherein the plural valves may comprise one or more larger valves arranged to allow large volumes of air to pass therethrough and one or more smaller valves arranged to allow passage of smaller volumes of air therethrough, __wherein the larger and smaller valves are controlled independently by the control means__.\n\n4. (Currently amended) The air braking unit of claim 3, wherein the one or more smaller valves are arranged to operate at high speed __and to provide fine pressure modulation in the brake chamber__.\n\n5. (Currently amended) The air braking unit of any preceding claim, wherein one or more of the valves are driven by __proportional__ binary actuators __capable of modulating valve opening positions__.\n\n6. (Currently amended) An air braking unit according to any preceding claim, wherein the control means is arranged to receive control signals from a wheel speed sensor and an air pressure sensor for determining the pressure in the brake chamber, __and to continuously adjust valve positions based on real-time sensor feedback to maintain optimum brake pressure__.\n\n7. (Currently amended) An air braking unit according to claim 6, wherein the control means is arranged to receive data from a vehicle speed sensor, and reference data indicative of an optimum braking force for given vehicle and wheel speeds and control braking force based thereon, __and to dynamically calculate optimum brake pressure for each wheel based on vehicle deceleration rate and load conditions__.\n\n8. (Currently amended) An air braking unit according to claim 6 or claim 7, wherein the control means is arranged to determine, from the sensors, and stored reference data, an optimum speed for each wheel and to control the braking force on each wheel in accordance with the calculated optimum speed, __and wherein the control means implements an anti-lock braking algorithm that prevents wheel lockup by modulating the first and second valves in response to wheel speed variations__.\n\n9. (Currently amended) An air braking system comprising one or more units according to any preceding claim; a pump for generating compressed air; and a central compressed air storage tank, __wherein the pump is controlled by the control means to maintain a minimum pressure in the storage tank based on vehicle braking demand__.",
+  "usage": {
+    "input_tokens": 3432,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 724,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.75,
+  "cost_usd": 0.00564,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:55:25Z"
+}

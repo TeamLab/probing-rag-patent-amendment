@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12291,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b4c8ac3a12b0e1cb",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with a light-activated MTP affixed thereto, wherein the MTP is responsive to light activation for identification and tracking purposes.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in the test tube wall.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards through the bottom surface.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube configured for long-term storage of biological samples at cryogenic temperatures.\n\n5. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer material that is optically transparent or translucent to allow light activation of the MTP.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the test tube.\n\n13. (Currently Amended) A system for storing samples comprising the assembly of claim 1, and one or more of the following: a rack specifically designed for biorepository test tubes; an automated robot for moving racks or biorepository test tubes in a controlled temperature environment; and an automated sampling device adapted to sample said racks or biorepository test tubes while maintaining sample integrity.\n\n14. (Currently Amended) The system of claim 13, wherein the racks and test tubes are handled and stored at -20°C or less, and wherein the MTP remains readable at such cryogenic temperatures.\n\n15. (Currently Amended) A method of forming a test tube assembly of claim 1, comprising: heating a light-activated MTP to above the melting point of plastic material; and melting a portion of the plastic with the heated MTP to embed the MTP within the plastic structure.\n\n16. (Currently Amended) A method of reading an embedded light-activated MTP in a test tube assembly of claim 1, comprising: providing an embedded light-activated MTP; directing light toward the MTP; and reading the MTP response to the light activation.\n\n17. (Original) The method of reading of claim 16, wherein the embedding material is frost coated.\n\n18. (Original) The method of claim 16, wherein the reader comprises a vial receptacle and wherein vial receptacle and the embedded MTP are maintained at a temperature of -20°C or less.\n\n19. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer material that is optically transparent or translucent to allow light activation of the MTP.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the test tube.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards through the bottom surface.\n\n22. (Cancelled)\n\n23. (Cancelled)",
+  "usage": {
+    "input_tokens": 3540,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 682,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.89,
+  "cost_usd": 0.00556,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:44:34Z"
+}

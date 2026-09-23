@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014009970",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2014009970",
+  "app_num": "12376918",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 8294,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8cb77113006407ed",
+  "response_text": "1 (Currently amended): An air braking unit for use in an air braking system, the air braking unit being arranged to be positioned, in use, at a vehicle wheel, and comprising: an inlet for receiving, in use, compressed air from a central source; at least one first valve arranged to selectively allow compressed air from the inlet to enter a wheel brake chamber in use; at least one second valve arranged to selectively allow air from the brake chamber to be released via an outlet to the atmosphere in use; and control means for controlling the first and second valves to operate to selectively control the air pressure in the brake chamber in use, wherein the control means is further configured to adjust the operation of the first and second valves based on feedback from at least one sensor.\n\n2 (Original): The air braking unit of claim 1, further comprising plural first valves and/or plural second valves.\n\n3 (Original): The air braking unit of claim 2, wherein the plural valves may comprise one or more larger valves arranged to allow large volumes of air to pass therethrough and one or more smaller valves arranged to allow passage of smaller volumes of air therethrough.\n\n4 (Original): The air braking unit of claim 3, wherein the one or more smaller valves are arranged to operate at high speed.\n\n5 (Currently amended): The air braking unit of any preceding claim, wherein one or more of the valves are driven by binary actuators, and wherein the binary actuators are configured to respond to control signals from the control means.\n\n6 (Original): An air braking unit according to any preceding claim, wherein the control means is arranged to receive control signals from a wheel speed sensor and an air pressure sensor for determining the pressure in the brake chamber.\n\n7 (Currently amended): An air braking unit according to claim 6, wherein the control means is arranged to receive data from a vehicle speed sensor, and reference data indicative of an optimum braking force for given vehicle and wheel speeds and control braking force based thereon, wherein the control means is further configured to adjust the braking force based on real-time feedback from the sensors.\n\n8 (Currently amended): An air braking unit according to claim 6 or claim 7, wherein the control means is arranged to determine, from the sensors, and stored reference data, an optimum speed for each wheel and to control the braking force on each wheel in accordance with the calculated optimum speed, wherein the control means is further configured to adapt the braking force based on the detected wheel speed.\n\n9 (Original): An air braking system comprising one or more units according to any preceding claim; a pump for generating compressed air; and a central compressed air storage tank.",
+  "usage": {
+    "input_tokens": 2347,
+    "output_tokens": 536,
+    "total_tokens": 2883
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.59,
+  "cost_usd": 0.00067,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:04:13Z"
+}

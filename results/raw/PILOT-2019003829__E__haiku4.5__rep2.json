@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12452,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f5c1fb82282c2e52",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is embedded in the test tube at a specific depth of __at least 0.5 mm below the outer surface__.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in the test tube __such that the MTP is not visible from the exterior of the test tube without magnification__.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded underneath the __bottom surface of the test tube, oriented for reading downwards through the bottom of the test tube__.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube __designed for long-term cryogenic storage of biological samples__.\n\n5. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer __and wherein the polymer is injection molded around the MTP__.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the __test tube__.\n\n13. (Currently Amended) A system for storing samples and comprising of the assembly of claim 1, and one or more of the following: a rack for biorepository test tubes __with integrated temperature monitoring__; automated robot for moving racks or biorepository test tubes __with RFID reading capability__; and automated sampling device adapted to sample said racks or biorepository test tubes __with integrated sample tracking__.\n\n14. (Currently Amended) The system of claim 13 adapted for low temperature operation, such that the racks/test tubes are handled at -20 C or less __and wherein the MTP remains readable at such temperatures__.\n\n19. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer __and wherein the polymer is injection molded around the MTP__.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the __test tube__.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded underneath the __bottom surface of the test tube, oriented for reading downwards through the bottom of the test tube__.\n\n22. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded near the center bottom of the __test tube__.\n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded underneath the __bottom surface of the test tube, oriented for reading downwards through the bottom of the test tube__.",
+  "usage": {
+    "input_tokens": 3571,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.97,
+  "cost_usd": 0.00522,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:46:43Z"
+}

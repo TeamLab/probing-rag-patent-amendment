@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11972,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "05520b3a16715303",
+  "response_text": "1. (Currently amended) A method of analyzing one or more plant embryos comprising: __ (a) collecting shed cellular material from the one or more plant embryos by agitating the one or more plant embryos in a non-destructive medium consisting essentially of water, wherein the shed cellular material is collected without contacting the one or more plant embryos with NaOH or a cell wall degrading enzyme;__ (b) obtaining DNA from the shed cellular material __by exposing the shed cellular material to cold and then heat followed by agitation__; (c) performing a molecular analysis of the DNA obtained in step (b), __wherein said molecular analysis is genotyping__; and (d) germinating at least one of said one or more embryos.\n\n2. (Currently amended) The method of claim 1 wherein the non-destructive medium consists essentially [[10of]] __of__ water.\n\n3. (Currently amended) The method of claim 1 wherein the DNA is obtained by exposing the shed cellular material to cold and then heat followed by agitation.\n\n4. (Previously presented) The method of claim 3 wherein said cold, heat, and agitation steps are repeated.\n\n5. (Currently amended) The method of claim 1 wherein the DNA is obtained by heating [[of]] the shed cellular material and agitation.\n\n6. (Previously presented) The method of claim 5 wherein said heat and agitation steps are repeated.\n\n7. (Cancelled)\n\n8. (Cancelled)\n\n9. (Currently amended) The method of claim 1 [[Error! Reference source not found.]] wherein obtaining DNA from the shed cellular material comprises extracting the DNA.\n\n10. (Cancelled)\n\n11. (Currently amended) The method of claim 1 wherein the one or more embryos comprise one or more immature embryos.\n\n12. (Previously presented) The method of claim 1 further comprising storing the one or more embryos prior to step (c) or (d).\n\n13. (Currently amended) The method of claim 1, wherein said molecular analysis is genotyping.\n\n14. (Previously presented) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads.\n\n15. (Previously presented) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant.\n\n16. (Previously presented) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed.\n\n17. (Currently amended) The method of claim 13 further comprising selecting one or more embryos based on genotype __obtained from DNA extracted from shed cellular material collected by agitating the one or more plant embryos in a non-destructive medium consisting essentially of water__.\n\n18. (Currently amended) The method of claim 17 further comprising germinating the one or more selected embryos.\n\n19. (Previously presented) The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is automated.",
+  "usage": {
+    "input_tokens": 3069,
+    "output_tokens": 640,
+    "total_tokens": 3709
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.02,
+  "cost_usd": 0.01024,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:46:14Z"
+}

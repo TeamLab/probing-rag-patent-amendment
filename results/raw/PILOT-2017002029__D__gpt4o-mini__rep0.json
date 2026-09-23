@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14774,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "259d2655eb96bf28",
+  "response_text": "1. (Currently Amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, wherein the non-native compartment is assembled in vivo from a plurality of different BMC polypeptides.\n\n2. (Currently Amended) The cell of claim 1 wherein the non-native compartment further comprises at least one targeted enzyme that catalyzes a reaction distinct from propanediol utilization.\n\n3. (Currently Amended) The cell of claim 2 wherein the non-native compartment comprises a plurality of different targeted enzymes, wherein at least one of the targeted enzymes is not involved in propanediol utilization.\n\n4. (Currently Amended) The cell of claim 3 wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence.\n\n5. (Currently Amended) The cell of claim 1 wherein the BMC polypeptide comprises a Eut polypeptide, wherein the Eut polypeptide is distinct from those described in Parsons et al.\n\n6. (Currently Amended) The cell of claim 5 wherein the Eut polypeptide comprises a EutS polypeptide.\n\n7. (Currently Amended) The cell of claim 1 wherein the proteinaceous shell comprises a plurality of different BMC polypeptides, wherein the plurality of different BMC polypeptides are derived from at least two different bacterial species.\n\n8. (Currently Amended) The cell of claim 1 wherein at least one BMC polypeptide comprises an affinity tag that is distinct from those described in Kerfeld et al.\n\n9. (Currently Amended) The method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide, wherein the method is used for producing a product that is distinct from propanediol.\n\n10. (Currently Amended) The method of claim 9 wherein the host cell comprises a bacterium that is not E. coli.\n\n11. (Currently Amended) The method of claim 10 wherein the bacterium comprises a member of the family Enterobacteriaceae that is not C. freundii.\n\n12. (Currently Amended) The method of claim 9 wherein the host cell comprises a yeast that is distinct from Saccharomyces cerevisiae.\n\n13. (Currently Amended) The method of claim 9 wherein the host cell comprises an alga that is distinct from those described in Kerfeld et al.\n\n14. (Currently Amended) The method of claim 9 wherein the at least one enzyme catalyzes a step in degrading or detoxifying a toxic substrate that is distinct from propanediol.\n\n15. (Currently Amended) The method of claim 9 further comprising isolating at least a portion of the non-native compartments, wherein the isolation method is distinct from that described in Parsons et al.\n\n16. (Currently Amended) The method of claim 15 wherein at least a portion of the non-native compartment comprises an affinity tag and isolating at least a portion of the non-native compartments comprises contacting a sample comprising the non-native compartments with an affinity substrate having selective affinity for the affinity tag.\n\n17. (Currently Amended) The cell of claim 1 comprising a plurality of compartments, wherein the compartments are distinct from those described in Parsons et al.",
+  "usage": {
+    "input_tokens": 3817,
+    "output_tokens": 737,
+    "total_tokens": 4554
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.14,
+  "cost_usd": 0.00101,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:51:08Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12556,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a833c60bc8c6e6aa",
+  "response_text": "1. (Currently amended) A cooling system installable within a structure wall, comprising: a pump; a pad; a water distributor; a motor; a fan; and a housing.\n\n2. (Cancelled)\n\n3. (Currently amended) The cooling system of claim 1, wherein the studs are spaced approximately twenty-four inches on center.\n\n4. (Currently amended) The cooling system of claim 1, wherein the pump brings water from a water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad.\n\n5. (Currently amended) The cooling system of claim 4, wherein the fan causes air to flow through the pad moistened by the water, thereby cooling the air by evaporation.\n\n6. (Currently amended) The cooling system of claim 5, wherein the fan causes the cooled air to flow through an outlet opening in the housing.\n\n7. (Currently amended) The cooling system of claim 4, wherein at least some of the water flows back to the water reservoir for recirculation.\n\n11. (Currently amended) The cooling system of claim 1, wherein the housing includes a front cover and protrudes from the wall less than three inches.\n\n13. (Currently amended) The cooling system of claim 1, wherein the wall is a load-bearing wall and the cooling system is mounted between wall studs using fastening elements.\n\n15. (Currently amended) A cooling system kit, comprising: the cooling system of claim 1; mounting elements including fasteners; and a ventilation grill.\n\n17. (Currently amended) A cooling system, comprising: an evaporative cooling assembly configured for mounting within a structure wall, the assembly including a pump, a pad, a water distributor, a motor, and a fan for evaporatively cooling an indoor area.\n\n18. (Currently amended) The cooling system of claim 17, wherein the evaporative cooling assembly is configured for placement between wall studs spaced approximately sixteen inches on center.\n\n19. (Previously presented)\n\n20. (Cancelled)",
+  "usage": {
+    "input_tokens": 3608,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.58,
+  "cost_usd": 0.00468,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:12:51Z"
+}

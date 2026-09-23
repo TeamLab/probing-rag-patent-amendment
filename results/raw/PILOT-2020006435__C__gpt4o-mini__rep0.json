@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020006435",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2020006435",
+  "app_num": "15352183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12344,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3a7c59f0c96d9144",
+  "response_text": "1. (Currently amended) A proofed frozen dough comprising: (a) a dough mixture of flour, water, and optionally additives, the dough mixture defining a dough matrix; (b) gas bubbles dispersed throughout the dough matrix; (c) a spent yeast component comprising fresh yeast that has been spent during proofing; and (d) a preserved yeast component comprising encapsulated yeast.\n\n2. (Currently amended) The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 1 to about 8 wt.% of the spent yeast component.\n\n7. (Currently amended) The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 0.1 to about 2 wt.% of the preserved yeast component.\n\n8. (Currently amended) The proofed frozen dough of claim 1, wherein the preserved yeast component comprises encapsulated yeast, fat-coated yeast, non-hydrated active dry yeast, non-hydrated instant yeast, non-hydrated semi-dry yeast, non-hydrated frozen yeast, or a combination thereof, wherein the encapsulated yeast is utilized to enhance shelf stability of the frozen dough.\n\n11. (Currently amended) The proofed frozen dough of claim 1, wherein the gas bubbles comprise gas produced by the spent yeast component during proofing, wherein the spent yeast component is fresh yeast.\n\n13. (Currently amended) A method for making a frozen dough product, the method comprising: (a) mixing dough ingredients to produce a dough composition, the dough ingredients comprising: i. water; ii. flour; iii. a first yeast that is spent during proofing; and iv. a second yeast that is preserved and comprises encapsulated yeast; (b) proofing the dough, wherein during proofing the first yeast is spent and the second yeast is preserved; and (c) freezing the dough after proofing.",
+  "usage": {
+    "input_tokens": 3273,
+    "output_tokens": 385,
+    "total_tokens": 3658
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.24,
+  "cost_usd": 0.00072,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:35:32Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10622,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "acae7d01541e2831",
+  "response_text": "1. Claim 15 (Currently amended): A method for selecting an edge server computer for sending data to a client computer, the method comprising the steps of:\naccessing a server computer through a path in a computer network, the path including one or more server computers;\nadding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier, __wherein the information is added by a media request broker in response to a selection of a hyperlink by the client computer__;\n__generating an HTTP request containing the unique signature identifying a media request__; and\nselecting the first server computer based on the information added to the locator __by the media request broker__.\n\n2. Claim 16 (Currently amended): The method of claim 15, __further comprising the steps of the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including the unique signature, the client computer selecting the hyperlink, and a web browser subsequently generating the HTTP request out of the hyperlink, the HTTP request containing the unique signature identifying the media request__.\n\n3. Claim 17 (Original): (Previously presented)\n\n4. Claim 18 (Currently amended): The method of claim 17, __wherein the media request broker selects the first server computer based on the information added to the locator by analyzing load information and server availability metrics__.\n\n5. Claim 24 (Currently amended): A system for selecting an edge server computer for sending data to a client computer, the system comprising:\ncircuitry for accessing a server computer through a path in a computer network, the path including one or more server computers;\ncircuitry for adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier, __wherein the information is added by a media request broker in response to a selection of a hyperlink by the client computer__;\n__circuitry for generating an HTTP request containing the unique signature identifying a media request__; and\ncircuitry for selecting the first server computer based on the information added to the locator __by the media request broker__.\n\n6. Claim 25 (Currently amended): The system of claim 24, __further comprising the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including the unique signature, circuitry for selecting the hyperlink by the client computer, and circuitry for subsequently generating an HTTP request out of the hyperlink by a web browser, the HTTP request containing the unique signature identifying a media request__.\n\n7. Claim 27 (Currently amended): A computer program product for selecting an edge server computer for sending data to a client computer, the computer program product comprising:\na computer-readable storage medium having computer-executable program instructions stored thereon, the program instructions comprising:\nprogram instructions for accessing a server computer through a path in a computer network, the path including one or more server computers;\nprogram instructions for adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier, __wherein the information is added by a media request broker in response to a selection of a hyperlink by the client computer__;\n__program instructions for generating an HTTP request containing the unique signature identifying a media request__; and\nprogram instructions for selecting the first server computer based on the information added to the locator __by the media request broker__.\n\n8. Claim 28 (Currently amended): The computer program product of claim 27, __further comprising program instructions for the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including the unique signature, program instructions for selecting the hyperlink by the client computer, and program instructions for subsequently generating an HTTP request out of the hyperlink by a web browser, the HTTP request containing the unique signature identifying a media request__.",
+  "usage": {
+    "input_tokens": 2834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 927,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.36,
+  "cost_usd": 0.00598,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:35:38Z"
+}

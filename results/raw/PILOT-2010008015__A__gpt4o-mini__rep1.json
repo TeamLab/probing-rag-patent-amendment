@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010008015",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2010008015",
+  "app_num": "11047016",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17876,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4fc070a1ffb7bb40",
+  "response_text": "Claim 1 (Currently amended): A method of providing information regarding a product, the method comprising: receiving a unique identifier identifying a package containing a product, wherein the method is performed using a computing device.\n\nClaim 19 (Currently amended): The method of claim 1, wherein the unique identifier comprises a first unique identifier, the method further comprising: reading a second unique identifier identifying a user using a user device.\n\nClaim 23 (Currently amended): The method of claim 22, wherein generating the at least use information comprises generating the at least use information customized to the role of a user identified by the second unique identifier.\n\nClaim 24 (Currently amended): The method of claim 1, wherein generating the at least use information comprises generating the at least use information of a type customized for a user identified by the second unique identifier.",
+  "usage": {
+    "input_tokens": 4294,
+    "output_tokens": 167,
+    "total_tokens": 4461
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.66,
+  "cost_usd": 0.00074,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:53:12Z"
+}

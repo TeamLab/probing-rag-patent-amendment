@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012005674",
+  "condition": "baseline",
+  "rep": 1,
+  "proceeding_number": "2012005674",
+  "app_num": "11677766",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20301,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6421d3261b5d24d9",
+  "response_text": "1. (Currently amended) A method for generating a superframe preamble for a superframe, the superframe preamble comprising a plurality of symbols, in an orthogonal frequency division multiplexing (OFDM) network, comprising: for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed over substantially the entire carrier __in a non-overlapping manner with a second set of subcarriers__; and for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel, __wherein the first and second sets of subcarriers are allocated such that the first broadcast channel carries system information and the second broadcast channel carries quick page and control information in the same symbol__.\n\n2. (Currently amended) The method as set forth in Claim 1, the first set of subcarriers distributed uniformly over substantially the entire carrier __and separated from the second set of subcarriers by at least one unallocated subcarrier__.\n\n3. (Currently amended) The method as set forth in Claim 1, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern __that is distinct from a uniform distribution pattern__.\n\n4. (Currently amended) The method as set forth in Claim 1, the second set of subcarriers distributed over substantially the entire carrier __in a non-overlapping manner with the first set of subcarriers__.\n\n5. (Original) The method as set forth in Claim 1, further comprising, for a second one of the symbols, allocating substantially all the subcarriers to the second broadcast channel.\n\n6. (Currently amended) The method as set forth in Claim 1, the first broadcast channel comprising a first primary broadcast channel operable to carry system information, and the second broadcast channel comprising a second primary broadcast channel operable to carry quick page and control information, __wherein the system information and the quick page and control information are encoded using different modulation schemes__.\n\n19. (Currently amended) A superframe generator in a base station in an OFDM network, comprising a preamble generator operable to generate a superframe preamble comprising a plurality of symbols for a superframe by (i) for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed over substantially the entire carrier __in a non-overlapping manner with a second set of subcarriers__, and (ii) for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel, __wherein the first and second sets of subcarriers are allocated such that the first broadcast channel carries system information and the second broadcast channel carries quick page and control information in the same symbol__.\n\n20. (Currently amended) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed uniformly over substantially the entire carrier __and separated from the second set of subcarriers by at least one unallocated subcarrier__.\n\n21. (Currently amended) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern __that is distinct from a uniform distribution pattern__.\n\n22. (Currently amended) The superframe generator as set forth in Claim 19, the first broadcast channel comprising a first primary broadcast channel operable to carry system information, and the second broadcast channel comprising a second primary broadcast channel operable to carry quick page and other control information, __wherein the system information and the quick page and control information are encoded using different modulation schemes__.",
+  "usage": {
+    "input_tokens": 5196,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 822,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.36,
+  "cost_usd": 0.00744,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:13:25Z"
+}

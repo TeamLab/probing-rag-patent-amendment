@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014009096",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2014009096",
+  "app_num": "13102968",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14181,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ed0feec21981046d",
+  "response_text": "Claim 2 (Currently amended): The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by finding information that authorizes the source address stored within the automated communications system, and when the source address is authorized to send a message to the node, returning an indication of __success__.\n\nClaim 3 (Currently amended): The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by finding information that authorizes the source address stored within the automated communications system, and when the source address is authorized to send a message to the node, returning an indication of __success__.\n\nClaim 4 (Currently amended): The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, and when the source address is authorized to send a message to the node, returning an indication of __success__.\n\nClaim 5 (Currently amended): The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes and/or node-token pairs; and for each node and/or node-token pair of the ordered sequence of nodes and/or node-token pairs, determining whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, by finding information that authorizes the source address stored within the automated communications system, and/or by applying any rules that apply to the message stored within the automated communications system, and, when the source address is not authorized to send a message to the node, returning an indication of failure, and when the source address is authorized to send a message to the node, accessing stored information within the automated communications system to determine whether or not the token is valid, when the token is not valid, returning an indication of failure, and when the token is valid, returning an indication of __success__.",
+  "usage": {
+    "input_tokens": 3216,
+    "output_tokens": 559,
+    "total_tokens": 3775
+  },
+  "stop_reason": "stop",
+  "latency_sec": 18.43,
+  "cost_usd": 0.00082,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:21:28Z"
+}

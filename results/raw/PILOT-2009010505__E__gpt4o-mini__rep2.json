@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2009010505",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2009010505",
+  "app_num": "10993377",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19232,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0ddc009e00a0a203",
+  "response_text": "Claim 1 (Currently amended): An apparatus for aligning document actions specified in a documented procedure with demonstrated user actions, comprising: an alignment device for computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric, wherein the alignment device is configured to process data from a user interface.\n\nClaim 2 (Currently amended): The apparatus of claim 1, wherein said alignment device identifies a current step in the documented procedure based on the alignment and further processes user interface data to enhance identification accuracy.\n\nClaim 3 (Currently amended): The apparatus of claim 2, wherein the documented procedure is displayed on a user interface, and said alignment device provides an identification of the current step to the user interface for use in highlighting the current step on the user interface, wherein the highlighting is based on processed user interface data.\n\nClaim 4 (Currently amended): The apparatus of claim 2, further comprising a user interface, in signal communication with said alignment device, for displaying the documented procedure, and wherein said alignment device outputs an identification of the current step to the user interface, and said user interface highlights the current step based on the identification, wherein the highlighting is based on processed user interface data.\n\nClaim 5 (Currently amended): The apparatus of claim 1, wherein said alignment device identifies a next step in the documented procedure based on the alignment and further processes user interface data to enhance identification accuracy.\n\nClaim 6 (Currently amended): The apparatus of claim 5, wherein the documented procedure is displayed on a user interface, and said alignment device provides an identification of the next step to the user interface for use in highlighting the next step on the user interface, wherein the highlighting is based on processed user interface data.\n\nClaim 7 (Currently amended): The apparatus of claim 5, further comprising a user interface, in signal communication with said alignment device, for displaying the documented procedure, and wherein said alignment device outputs an identification of the next step to the user interface, and said user interface highlights the next step based on the identification, wherein the highlighting is based on processed user interface data.\n\nClaim 18 (Currently amended): The method of claim 17, further comprising the step of identifying a current step in the documented procedure based on the alignment and further processing user interface data to enhance identification accuracy.\n\nClaim 19 (Currently amended): The method of claim 18, wherein the documented procedure is displayed on a user interface, and the method further comprises the step of providing an identification of the current step to the user interface for use in highlighting the current step on the user interface, wherein the highlighting is based on processed user interface data.\n\nClaim 20 (Currently amended): The method of claim 17, further comprising the step of identifying a next step in the documented procedure based on the alignment and further processing user interface data to enhance identification accuracy.\n\nClaim 21 (Currently amended): The method of claim 20, wherein the documented procedure is displayed on a user interface, and the method further comprises the step of providing an identification of the next step to the user interface for use in highlighting the next step on the user interface, wherein the highlighting is based on processed user interface data.",
+  "usage": {
+    "input_tokens": 4258,
+    "output_tokens": 639,
+    "total_tokens": 4897
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.48,
+  "cost_usd": 0.00102,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:50:04Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "E",
+  "rep": 0,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12263,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e461e81f02f18186",
+  "response_text": "1. (Currently amended): A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos, wherein said non-destructive medium consists essentially of water.\n\n7. (Currently amended): The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with a cell wall degrading enzyme, wherein the enzyme is selected from the group consisting of VISCOZYME@ or other cell wall degrading enzymes.\n\n11. (Currently amended): The method of claim 1 wherein the one or more embryos comprise one or more immature embryos, wherein the immature embryos are selected from the group consisting of corn embryos and other similar plant embryos.\n\n12. (Currently amended): The method of claim 1 further comprising storing the one or more embryos prior to step (c) or (d), wherein said storing is performed in a quiescent condition.\n\n13. (Currently amended): The method of claim 1, wherein said molecular analysis is genotyping, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads.\n\n17. (Currently amended): The method of claim 13 further comprising selecting one or more embryos based on genotype, wherein the selection is based on molecular analysis results. \n\n18. (Currently amended): The method of claim 17 further comprising germinating the one or more selected embryos, wherein the germination is performed under conditions that promote viability. \n\n19. (Currently amended): The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is automated, wherein the automation is performed using a computer-based system.",
+  "usage": {
+    "input_tokens": 3128,
+    "output_tokens": 426,
+    "total_tokens": 3554
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.39,
+  "cost_usd": 0.00072,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:51:23Z"
+}

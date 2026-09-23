@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011004581",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2011004581",
+  "app_num": "10906716",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16388,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3faa5835978213e2",
+  "response_text": "Claim 3 (Currently Amended): The method of claim 1 wherein filtering comprises: obtaining channel accessibility of the subscriber; and removing EPG information related to a channel that is not within the channel accessibility of the subscriber, wherein the channel accessibility is determined based on authorization information provided by the content delivery provider.\n\nClaim 4 (Currently Amended): The method of claim 3 wherein obtaining comprises: retrieving channel subscription information of the subscriber from the content delivery provider; and creating a list of subscriber's channel identifiers of channels accessible to the subscriber from the channel subscription information, wherein the channel subscription information includes service codes.\n\nClaim 5 (Currently Amended): The method of claim 3 wherein removing comprises: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of the subscriber's channel identifiers, wherein the extracted channel identifier is selected from the group consisting of a PID, a channel name, and a channel number. \n\nClaim 9 (Currently Amended): The article of manufacture of claim 7 wherein the data causing the machine to perform filtering comprises data that, when accessed by the machine, causes the machine to perform operations comprising: obtaining channel accessibility of the subscriber based on authorization information; and removing EPG information related to a channel that is not within the channel accessibility of the subscriber.\n\nClaim 10 (Currently Amended): The article of manufacture of claim 9 wherein the data causing the machine to perform obtaining comprises data that, when accessed by the machine, causes the machine to perform operations comprising: retrieving channel subscription information of the subscriber from the content delivery provider; and creating a list of subscriber's channel identifiers of channels accessible to the subscriber from the channel subscription information, wherein the channel subscription information includes service codes.\n\nClaim 11 (Currently Amended): The article of manufacture of claim 9 wherein the data causing the machine to perform removing comprises data that, when accessed by the machine, causes the machine to perform operations comprising: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of the subscriber's channel identifiers, wherein the extracted channel identifier is selected from the group consisting of a PID, a channel name, and a channel number. \n\nClaim 14 (Currently Amended): The program guide module of claim 13 wherein the enhanced EPG module further comprises: a module to display the filtered EPG information, wherein the display is performed on an on-screen menu.",
+  "usage": {
+    "input_tokens": 3788,
+    "output_tokens": 532,
+    "total_tokens": 4320
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.29,
+  "cost_usd": 0.00089,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:52:36Z"
+}

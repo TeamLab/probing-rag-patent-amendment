@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2021000834",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2021000834",
+  "app_num": "16415181",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13478,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "01197419491eb3eb",
+  "response_text": "1. (Currently amended) A column assembly comprising: a chromatography column comprising a [[compliant]] __deformable__ seal defining a fluid passage configured to seal against [[a]] __the__ tapered fluid conduit without the use of a ferrule or a threaded compression screw, __wherein the fluid passage includes a tapered portion configured to seal against the tapered fluid conduit, and wherein the tapered portion has an included angle of less than 40 degrees.__\n\n2. (Currently amended) The column assembly of claim 1, wherein the chromatography column comprises: an elongate body; a separation medium disposed within the elongate body; and a first end fitting disposed at a first end of the elongate body, wherein the first end fitting comprises the [[compliant]] __deformable__ seal.\n\n3. (Currently amended) The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against [[a]] __the__ tapered fluid conduit, wherein the tapered portion is configured to mate with [[a]] __the__ tapered fluid conduit at a diameter of less than 0.030 inches.\n\n4. (Currently amended) The column assembly of claim 1, further comprising a cartridge sub-assembly configured to receive a guard cartridge or a filter cartridge, wherein the cartridge sub-assembly comprises [[a]] __the__ tapered fluid conduit configured to seal against the fluid passage of the [[compliant]] __deformable__ seal.\n\n5. (Previously presented) The column assembly of claim 4, further comprising a retainer clip configured to retain the cartridge sub-assembly in contact with the chromatography column.\n\n6. (Previously presented) The column assembly of claim 5, wherein the retainer clip allows for axial movement of the cartridge sub-assembly relative to the chromatography column.\n\n7. (Currently amended) The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against [[a]] __the__ tapered fluid conduit.\n\n8. (Previously presented) The column assembly of claim 7, wherein the tapered portion has an included angle of less than 40 degrees.\n\n9. (Currently amended) The column assembly of claim 1, wherein the [[compliant]] __deformable__ seal is formed of a polyimide, polyether-ether-ketone, or a deformable metal.\n\n10. (Currently amended) The column assembly of claim 1, further comprising a seal retainer that is removable to allow for removal and replacement of the [[complaint]] __deformable__ seal.\n\n11. (Currently amended) The column assembly of claim 1, wherein the [[compliant]] __deformable__ seal is configured to maintain a seal against [[a]] __the__ tapered fluid conduit at pressures up to 20,000 psi.\n\n12. (Currently amended) An apparatus for establishing fluid communication between a chromatography column and a guard cartridge or a filter cartridge, the apparatus defining a cavity for receiving a guard cartridge or a filter cartridge, and comprising a [[compliant]] __deformable__ seal, wherein the [[compliant]] __deformable__ seal defines a fluid passage configured to seal against a tapered fluid conduit without the use of a ferrule or a threaded compression screw.\n\n13. (Currently amended) The apparatus of claim 12, further comprising: A) a first member defining: i) the cavity for receiving a guard cartridge or a filter cartridge; and ii) an opening extending between the cavity and an outer surface of the first member; B) a second member configured to engage the first member to enclose a guard cartridge or [[filter]] __a filter cartridge__ within the cavity, the second member defining a through-hole for fluid communication with a guard cartridge or [[filter]] __a filter cartridge__ enclosed within the cavity; and C) a needle assembly comprising: i) a base portion disposed within the cavity; and ii) a needle having a first end connected to the base portion, the needle defining a fluid passage extending from the first end of the needle to an opposite, second end of the needle, wherein the second end of the needle extends outwardly from the opening in the first member.\n\n14. (Currently amended) The apparatus of claim 13, wherein the second member comprises the [[compliant]] __deformable__ seal defining the fluid passage.\n\n15. (Currently amended) The apparatus of claim 12, wherein the fluid passage includes a tapered portion configured to seal against [[a]] __the__ tapered fluid conduit.\n\n16. (Previously presented) The apparatus of claim 15, wherein the tapered portion has an included angle of less than 40 degrees.\n\n17. (Previously presented) The apparatus of claim 15, wherein the fluid passage further comprises a small diameter portion having a diameter of less than 0.030 inches.\n\n18. (Currently amended) The apparatus of claim 12, wherein the [[compliant]] __deformable__ seal is formed of a polyimide, polyether-ether-ketone, or a deformable metal.\n\n19. (Currently amended) The apparatus of claim 12, further comprising a seal retainer that is removable to allow for removal and replacement of the [[complaint]] __deformable__ seal.\n\n20. (Currently amended) The apparatus of claim 12, wherein the [[compliant]] __deformable__ seal is configured to maintain a seal against [[a]] __the__ tapered fluid conduit at pressures up to 20,000 psi.",
+  "usage": {
+    "input_tokens": 3370,
+    "output_tokens": 1125,
+    "total_tokens": 4495
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.6,
+  "cost_usd": 0.01546,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:44:14Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004158",
+  "condition": "D",
+  "rep": 2,
+  "proceeding_number": "2015004158",
+  "app_num": "13783908",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11961,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bff58374e98feaf2",
+  "response_text": "Claim 7 (Currently Amended): A method for preventing or treating glaucoma wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered in a therapeutically effective amount.\n\nClaim 8 (Currently Amended): A method for preventing or treating ocular hypertension wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered in a therapeutically effective amount.",
+  "usage": {
+    "input_tokens": 3032,
+    "output_tokens": 133,
+    "total_tokens": 3165
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.49,
+  "cost_usd": 0.00053,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:34:14Z"
+}

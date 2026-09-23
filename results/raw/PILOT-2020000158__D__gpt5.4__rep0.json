@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000158",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2020000158",
+  "app_num": "15481756",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13846,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "509486949b06d328",
+  "response_text": "1. (Currently amended) A method, comprising: transmitting a sequence of __modulated IR radiation__ light pulses having a first speed; receiving, __via an IR video sensor,__ a second sequence of __modulated IR radiation__ light pulses from a vehicle; and transmitting a message as a sequence of __modulated IR radiation__ light pulses having a second speed based on the second sequence of light pulses received from the vehicle, wherein the first speed is different from the second speed, __the second speed being slower than the first speed, and wherein the message includes information regarding vehicle position, motion, size, safety events, path history and vehicle status, encoded into the light pulses as binary bits, wherein the encoding is independent of message transmission speed__.\n\n2. (Cancelled)\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Cancelled)\n\n8. (Cancelled)\n\n9. (Cancelled)\n\n10. (Cancelled)\n\n11. (Currently amended) An apparatus, comprising: a processor; a __non-transitory__ memory, the memory storing instructions executable by the processor to: transmit a sequence of __modulated IR radiation__ light pulses having a first speed; receive, __via an IR video sensor,__ a second sequence of __modulated IR radiation__ light pulses from a vehicle; and transmit a message as a sequence of __modulated IR radiation__ light pulses having a second speed based on the second sequence of light pulses received from the vehicle, wherein the first speed is different from the second speed, __the second speed being slower than the first speed, and wherein the message includes information regarding vehicle position, motion, size, safety events, path history and vehicle status, encoded into the light pulses as binary bits, wherein the encoding is independent of message transmission speed__.\n\n12. (Cancelled)\n\n13. (Cancelled)\n\n14. (Cancelled)\n\n15. (Cancelled)\n\n16. (Cancelled)\n\n17. (Cancelled)\n\n18. (Cancelled)\n\n19. (Cancelled)\n\n20. (Cancelled)",
+  "usage": {
+    "input_tokens": 3184,
+    "output_tokens": 416,
+    "total_tokens": 3600
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.55,
+  "cost_usd": 0.00814,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:56:55Z"
+}

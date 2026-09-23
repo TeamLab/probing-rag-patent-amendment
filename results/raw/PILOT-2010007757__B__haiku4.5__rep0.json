@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13667,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "eccde93a350d23e5",
+  "response_text": "1. (Currently amended) A composition, comprising: cavity-generating particles having a size of 8-12 micrometers; a thermally conductive binder comprising premixed solder paste; and a solvent; wherein the composition contains in relative proportion about 1 gram of cavity-generating particles, about 0.5-0.8 grams of binder, and about 10 ml of solvent.\n\n2. (Currently amended) The composition of claim 1, wherein the composition is applied to an electronic component surface to enhance boiling nucleation sites and increase critical heat flux.\n\n3. (Currently amended) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface by heating.\n\n9. (Currently amended) A composition comprising cavity generating particles of 8-12 micrometers in size, a binder comprising premixed solder paste, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles.\n\n10. (Previously presented) The composition of claim 9, wherein the carrier is selected from the group comprising ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, FC-72, or FC-87.\n\n11. (Currently amended) The composition of claim 9, wherein the binder is premixed solder paste having thermal conductivity greater than epoxy binders.\n\n12. (Currently amended) The composition of claim 9, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys, and are configured to form boiling nucleation sites.\n\n13. (Previously presented) The composition of claim 9, wherein the cavity generating particles are 8-12 pm in size.\n\n14. (Cancelled)\n\n15. (Cancelled)\n\n16. (Currently amended) A composition of matter comprising carrier, binder comprising premixed solder paste, and cavity generating particles of 8-12 micrometers in size, wherein said composition of matter contains, in relative proportion: about 10 ml carrier; about 0.5 to 0.8 grams binder; and about 1 gram of cavity generating particles, and wherein the composition is configured to form boiling nucleation sites when applied to a surface.\n\n17. (Previously presented) The composition of claim 16, wherein the carrier is selected from the group comprising ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, FC-72, or FC-87.\n\n18. (Currently amended) The composition of claim 16, wherein the binder is premixed solder paste having thermal conductivity greater than epoxy binders.\n\n19. (Currently amended) The composition of claim 16, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys, and are configured to form boiling nucleation sites.\n\n20. (Previously presented) The composition of claim 16, wherein the cavity generating particles are 8-12 pm in size.\n\n21. (Cancelled)\n\n22. (Cancelled)",
+  "usage": {
+    "input_tokens": 3965,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 705,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.9,
+  "cost_usd": 0.00599,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:26:12Z"
+}

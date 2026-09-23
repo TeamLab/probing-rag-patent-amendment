@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018001232",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2018001232",
+  "app_num": "14932354",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12527,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "20c20b50bf893d4f",
+  "response_text": "Claim 1 (Currently amended): A belly pan for a motor vehicle, comprising: a body panel having a forward section constructed from an open rib structure; and an aero cover carried on said body panel and spanning said open rib structure, wherein said body panel is made from a material having a tensile and flexural modulus of at least 7.8 GPa.\n\nClaim 11 (Currently amended): The belly pan of claim 10, wherein said body panel is molded from polypropylene reinforced with 40% long glass fibers and has a thickness of about 3.5 mm.\n\nClaim 14 (Currently amended): The belly pan of claim 13, wherein said first aero cover and said second aero cover have a thickness of about 2.5 mm.",
+  "usage": {
+    "input_tokens": 3109,
+    "output_tokens": 152,
+    "total_tokens": 3261
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.75,
+  "cost_usd": 0.00056,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:11:20Z"
+}

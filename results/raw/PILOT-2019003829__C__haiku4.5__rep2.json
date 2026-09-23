@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12331,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cc2a08c18ca4a497",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with a light-activated MTP affixed thereto, wherein the MTP is __capable of being read only when activated by light exposure__.\n\n2. (Currently Amended) The assembly of claim 1, wherein the light-activated MTP is embedded in the test tube __such that light activation is required for reading__.\n\n3. (Currently Amended) The assembly of claim 1, wherein the light-activated MTP is embedded underneath the bottom of the test tube, __oriented for reading downwards only upon light activation__.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube __designed for long-term storage of biological samples at cryogenic temperatures__.\n\n5. (Currently Amended) The assembly of claim 1, wherein the light-activated MTP is embedded in polypropylene or acetal polymer __and is capable of withstanding temperatures of -20°C or lower without degradation__.\n\n6. (Currently Amended) The assembly of claim 1, wherein the light-activated MTP is embedded near the center bottom of the test tube __and is positioned to be read from below the test tube__.\n\n13. (Currently Amended) A system for storing samples comprising the assembly of claim 1, and one or more of the following: a rack for biorepository test tubes __with integrated light-activation capability__; an automated robot for moving racks or biorepository test tubes __equipped with light-activation readers__; and an automated sampling device adapted to sample said racks or biorepository test tubes __with integrated light-activation reading functionality__.\n\n14. (Currently Amended) The system of claim 13 adapted for low temperature operation, such that the racks/test tubes are handled at -20°C or less __while maintaining light-activation capability for reading the embedded MTPs__.\n\n15. (Currently Amended) A method of forming a test tube assembly of claim 1, comprising: __heating a light-activated MTP to above the melting point of plastic; and melting a portion of the plastic with the heated light-activated MTP to embed it within the plastic material__.\n\n16. (Currently Amended) A method of reading an embedded light-activated MTP in a test tube assembly of claim 1, comprising: providing an embedded light-activated MTP; __exposing the MTP to light activation__; and reading the MTP.\n\n17. (Currently Amended) The method of reading of claim 16, wherein the embedding material is frost coated __and the light activation penetrates the frost coating__.\n\n18. (Currently Amended) The method of claim 16, wherein the reader comprises a vial receptacle __with integrated light-activation source__ and wherein vial receptacle and the embedded light-activated MTP are maintained at a temperature of -20°C or less.\n\n19. (Currently Amended) The assembly of claim 4, wherein the light-activated MTP is embedded in polypropylene or acetal polymer __and is capable of withstanding temperatures of -20°C or lower without degradation__.\n\n20. (Currently Amended) The assembly of claim 19, wherein the light-activated MTP is embedded near the center bottom of the test tube __and is positioned to be read from below the test tube__.\n\n21. (Currently Amended) The assembly of claim 19, wherein the light-activated MTP is embedded underneath the bottom of the test tube, __oriented for reading downwards only upon light activation__.\n\n22. (Currently Amended) The assembly of claim 4, wherein the light-activated MTP is embedded near the center bottom of the test tube __and is positioned to be read from below the test tube__.\n\n23. (Currently Amended) The assembly of claim 4, wherein the light-activated MTP is embedded underneath the bottom of the test tube, __oriented for reading downwards only upon light activation__.",
+  "usage": {
+    "input_tokens": 3562,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 856,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.0,
+  "cost_usd": 0.00627,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:46:19Z"
+}

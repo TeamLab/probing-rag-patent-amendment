@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2018000427",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2018000427",
+  "app_num": "14178780",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13594,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3246c088f5bf9995",
+  "response_text": "18. (Currently amended) A method for protecting blood vessels during a medical procedure, comprising:\ninserting a vessel protector system into a patient's body, the vessel protector system including a vessel protector and a sheath, the vessel protector having a body formed from a filtering material and having a collapsed configuration and a tubular expanded configuration, the sheath being movable relative to the body between a first position for holding the body in the collapsed configuration, and a second position for releasing the body for movement to the expanded configuration;\npositioning the vessel protector system adjacent an open end of at least one blood vessel; and\nmoving the sheath to the second position to deploy the body, whereby the body moves to the tubular expanded configuration covering the open end of the at least one blood vessel to filter blood passing through the body into the at least one blood vessel, __wherein the vessel protector includes a snare attached to one end of the body and a pull-wire connected to the snare, whereby exertion of a pulling force on the pull-wire contracts the snare and thereby closes the one end of the body__.\n\n19. (Currently amended) The method according to claim 18, further comprising:\n__exerting a pulling force on the pull-wire to contract the snare and thereby__ closing open ends of the body in the tubular expanded configuration;\nmoving the sheath to the first position to compress the body to the collapsed configuration; and\nremoving the vessel protector system from the patient's body.",
+  "usage": {
+    "input_tokens": 3567,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 322,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.41,
+  "cost_usd": 0.01553,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:33:10Z"
+}

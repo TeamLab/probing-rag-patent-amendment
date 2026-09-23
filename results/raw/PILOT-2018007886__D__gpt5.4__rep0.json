@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018007886",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2018007886",
+  "app_num": "14135244",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15078,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b231f5855a6e06db",
+  "response_text": "1. (Currently amended) A sensor system, comprising: a sensor device having an external surface on which is arranged at least one electrical test contact; and a cover device including at least partially an electrically insulating material, the cover device mechanically connected to the sensor device; wherein the cover device is configured to cover the at least one electrical test contact of the sensor device so as to prevent contact from being made to the at least one electrical test contact from outside the sensor system, __and wherein the cover device is configured such that the at least one electrical test contact remains mechanically connected to the cover device after the cover device has been mechanically connected to the sensor device__.\n\n2. (Currently amended) The sensor system according to claim 1, wherein: the cover device has an internal surface configured to face the external surface including the at least one test contact, and at least one further metallization is arranged on the internal surface, the at least one further metallization mechanically connected to the at least one electrical test contact, __the at least one further metallization being electrically insulated from outside the sensor system by the electrically insulating material of the cover device__.\n\n3. (Currently amended) The sensor system according to claim 1, further comprising: at least one electrical connecting contact arranged on the external surface including the at least one test contact, wherein the cover device is configured to enable electrical contact to be made to the at least one electrical connecting contact from outside the sensor system, __while the at least one electrical test contact remains covered by the cover device so as to prevent contact from being made thereto from outside the sensor system__.\n\n4. (Currently amended) The sensor system according to claim 3, wherein the cover device includes at least one of at least one first opening and at least one via electrically connected to the at least one electrical connecting contact to enable electrical contact to be made from outside the sensor system, __the at least one first opening and the at least one via being arranged separately from the at least one electrical test contact__.\n\n5. (Currently amended) The sensor system according to claim 1, wherein: the sensor device includes a sensor substrate configured to form the external surface including the at least one test contact, the cover device includes a cover substrate having a first segment corresponding to the external surface, and the first segment of the cover device and the external surface including the at least one test contact are connected together at least partially, __such that the at least one electrical test contact is arranged between the external surface and the first segment of the cover device__.\n\n6. (Previously presented) The sensor system according to claim 5, wherein the cover device includes a second segment configured to bound the first segment and at least partially enclose the sensor device at right angles to the external surface.\n\n7. (Original) The sensor system according to claim 1, wherein: the sensor device includes at least one of an energy storage unit and an energy converter unit, and the at least one of the energy storage unit and the energy converter unit is configured to be used to supply the sensor device with power.\n\n8. (Original) The sensor system according to claim 7, wherein: the energy converter unit includes at least one of a photovoltaic cell and a thermoelectric generator, and the cover device includes at least one corresponding second opening.\n\n9. (Original) The sensor system according to claim 8, further comprising at least one of a transparent protective layer and a thermally conductive material introduced at least partially in the second opening.\n\n10. (Currently amended) The sensor system according to claim 1, wherein at least one of the sensor device and the cover device includes an integrated circuit, __and wherein the integrated circuit is electrically connected to the at least one electrical test contact only via the cover device after the cover device has been mechanically connected to the sensor device__.\n\n11. (Original) The sensor system according to claim 1, wherein: the sensor device includes at least one access aperture, and the cover device includes at least one third opening corresponding to the at least one access aperture.\n\n12. (Original) The sensor system according to claim 1, wherein at least one of the cover device and the sensor device includes at least one fastening mechanism configured to enable the sensor system to be fitted to another object.\n\n13. (Original) The sensor system according to claim 12, wherein the at least one fastening mechanism is formed as one of a suction pad, a pin, an adhesive surface, a hook-and-loop fastener, an electrostatic pad and a magnet.\n\n14. (Original) A cover device for a sensor system, comprising: a sensor device having an external surface on which is arranged at least one electrical test contact; an at least partially electrically insulating material; and at least one fastening mechanism configured to enable the sensor system to be fitted to another object, wherein the cover device is configured such that, when a mechanical connection is made between the cover device and the sensor device, the cover device covers the at least one electrical test contact of the sensor device to prevent contact from being made to the at least one electrical test contact from outside the sensor system.\n\n15. (Original) The cover device according to claim 14, wherein the at least one fastening mechanism is formed as one of a suction pad, a pin, an adhesive surface, a hook-and-loop fastener, an electrostatic pad, and a magnet.\n\n16. (Original) The sensor system according to claim 10, wherein the integrated circuit is a wireless communications unit for data transmission.",
+  "usage": {
+    "input_tokens": 3592,
+    "output_tokens": 1120,
+    "total_tokens": 4712
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.12,
+  "cost_usd": 0.01569,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:17:23Z"
+}

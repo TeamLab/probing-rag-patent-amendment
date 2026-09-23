@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12635,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "666f9f509ceb11e0",
+  "response_text": "1. (Currently amended) A composition comprising:\na) an active ingredient consisting of an indole compound of formula I or a physiologically acceptable salt thereof;\nb) one or more skin-tolerated vehicles; and\nc) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action;\nwherein the composition is formulated for topical application to treat acne vulgaris.\n\n3. (Currently amended) A composition for topical use comprising:\na) the active ingredient according to Claim 1;\nb) one or more skin-tolerated vehicles; and\nc) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action;\nwherein the composition is formulated for treatment of acne vulgaris.\n\n4. (Currently amended) The composition according to Claim 1 or 3, wherein the active ingredient is contained in said composition in an amount of 0.00001 per cent by weight to 10 per cent by weight.\n\n5. (Currently amended) The composition according to Claim 1 or 3, comprising as a further skin-care ingredient ectoine in an amount of 0.01 to 10 per cent by weight.\n\n7. (Currently amended) Use of the active ingredient according to Claim 1 for the treatment of acne vulgaris in a patient in need thereof.\n\n8. (Currently amended) Use of the active ingredient according to Claim 1 for the treatment of acne vulgaris, acne comedonica, polymorphic acne, acne rosacea, nodular acne, or acne conglobata in a patient in need thereof.\n\n9. (Currently amended) Use according to Claim 8 for treatment of acne-related hair follicle conditions in a patient in need thereof.\n\n10. (Currently amended) Use of the active ingredient according to Claim 1 for the treatment of inflammatory skin conditions in a patient in need thereof.\n\n12. (Currently amended) Use of the composition according to Claim 1 or 3 for the treatment of acne vulgaris in a patient in need thereof.\n\n13. (Currently amended) Use of the active ingredient according to Claim 1 for the treatment of skin roughness or large-pored skin in a patient in need thereof.\n\n14. (Currently amended) Use of the active ingredient according to Claim 1 for the treatment of skin dryness or wrinkle formation in a patient in need thereof.",
+  "usage": {
+    "input_tokens": 3661,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 559,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.82,
+  "cost_usd": 0.00516,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:26:24Z"
+}

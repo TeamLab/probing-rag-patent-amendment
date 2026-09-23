@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012007524",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2012007524",
+  "app_num": "12422453",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22714,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "680f27ffaae8c7cc",
+  "response_text": "1. (Currently Amended) An Internet system that supports a search service, the Internet system comprising: __a search server comprising a processor and memory, wherein the search server is adapted to receive search criteria from a client device remote from the search server__; a historical data repository coupled to the search server, wherein the historical data repository contains historical data collected from over the Internet, and wherein the search server stores data retrieved from over the Internet and eventually stores the data as historical data within the historical data repository when the data is no longer preserved in the search server; and wherein the search server receives the search criteria to search for older historical data that was in existence on the Internet at a previous time, wherein the search server obtains search results to satisfy the search criteria by searching the historical data stored in the historical data repository, __wherein the search server is configured to search only for historical data that was previously archived by the search server, and not for current data available on the Internet at the time of the search__.\n\n2. (Currently Amended) The Internet system of claim 1 wherein the historical data placed within the historical data repository is date tagged so that the historical data is associated with a date representative of when the historical data was available on the Internet, __and wherein the date tagging is performed by the search server at the time the historical data is received from the Internet__.\n\n3. (Currently Amended) The Internet system of claim 2 wherein the historical data placed within the historical data repository is time tagged so that the historical data is associated with a time representative of when the historical data was available on the Internet, __and wherein the time tagging is performed by the search server at the time the historical data is received from the Internet__.\n\n4. (Currently Amended) The Internet system of claim 1 wherein the historical data placed within the historical data repository is time tagged so that the historical data is associated with a time representative of when the historical data was available on the Internet, __and wherein the time tagging is performed by the search server at the time the historical data is received from the Internet__.\n\n6. (Currently Amended) The Internet system of claim 1 wherein the historical data repository comprises: central processing circuitry; communication circuitry coupled to the central processing circuitry for communicating data in to and out from the historical data repository; and local storage coupled to the central processing circuitry that contains an index storage module for storing historical data according to indices and a time based sorting module for storing historical data according to date and time, __wherein the historical data repository is configured to store only historical data that has been previously collected and archived by the search server, and wherein the index storage module and time based sorting module are distinct from any search functionality of the search server__.\n\n7. (Currently Amended) The Internet system of claim 1 wherein certain data is removed from the historical data before it is placed for long-term storage within the historical data repository, __wherein the removal of certain data is performed by the search server based on predefined criteria that distinguish between data collected by the search server from the Internet and data that should not be archived__.\n\n14. (Original) A method of searching for at least one web page requested by a client device, the method comprising: receiving a search string from the client device; receiving the user provided search criteria from the client device, wherein the search criteria indicates a desire to find historical content that was previously present over the Internet; gathering search results containing historical data from previous states of the Internet; ordering search results by determining which search results are most likely of interest to the user; and sending the search results to the client device.\n\n15. (Original) The method of claim 14, wherein the user provided search criteria is set to search web pages within a specific geographical region.\n\n16. (Original) The method of claim 14, wherein the user provided search criteria is set to search web pages using browser activities of the client device web browser.\n\n17. (Original) The method of claim 14, wherein the user provided search criteria is set to search web pages within favorite website information.\n\n18. (Original) A method of operating a search server that is useful for searching historically archived Internet content, including steps for paying for the search service, the method comprising: registering a user on the search server; performing a search for the user using the search server, the search capable of searching not only current Internet data, but also capable of searching archived historical Internet data stored in a historical data repository coupled to the search server; determining the amount to be charged to the user based on the search services rendered; and charging the user for the search services provided.\n\n19. (Original) The method of claim 18 wherein the amount due is automatically processed for payment by credit card information of the user that is securely accessible by the search server.\n\n20. (Currently Amended) __A network browser application executing on a processor in a computer for browsing websites, the network browser comprising: a search criteria window that prompts a user to enter search terms and timeline information; a first module that enables a search of archived historical Internet data to determine search results that existed within a time frame delineated by the timeline information, and wherein the search results correlate to the search terms and are retrieved from a historical data repository separate from current Internet data; and a second module that receives the search results from the historical data repository__.",
+  "usage": {
+    "input_tokens": 5344,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1126,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.89,
+  "cost_usd": 0.00878,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:29:14Z"
+}

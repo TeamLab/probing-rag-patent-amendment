@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13664,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b71130721770aa26",
+  "response_text": "1. (Currently amended) A composition, comprising: cavity-generating particles; a thermally conductive binder; and a solvent, wherein the composition is formulated to create boiling nucleation sites when applied to a surface in contact with a liquid coolant.\n\n2. (Currently amended) The composition of claim 1, wherein the composition is applied to an electronic component surface to enhance heat transfer during liquid immersion cooling.\n\n3. (Currently amended) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface and the thermally conductive binder remains affixed to the surface.",
+  "usage": {
+    "input_tokens": 3982,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 135,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 2.1,
+  "cost_usd": 0.00373,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:26:31Z"
+}

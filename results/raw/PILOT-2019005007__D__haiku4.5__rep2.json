@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2019005007",
+  "condition": "D",
+  "rep": 2,
+  "proceeding_number": "2019005007",
+  "app_num": "12625143",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16573,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8a9e1bf75325066f",
+  "response_text": "1. (Currently amended) A battery assembly comprising: an enclosure; a first battery cell positioned within the enclosure; and a first sensor positioned within the enclosure for detecting at least one force influencing the first battery cell, wherein __the first sensor is configured to detect mechanical stress or deformation of the first battery cell caused by swelling, expansion, or external pressure applied to the first battery cell__.\n\n2. (Original) The battery assembly of claim 1 further comprising an adhesive layer positioned between the first battery cell and the enclosure, wherein the first sensor is positioned between the first battery cell and the enclosure.\n\n3. (Original) The battery assembly of claim 2, wherein at least a portion of the adhesive layer is positioned adjacent at least a portion the first sensor in a plane between the first battery cell and the enclosure.\n\n4. (Original) The battery assembly of claim 3, wherein the adhesive layer extends around at least a portion of the first sensor in the plane.\n\n5. (Original) The battery assembly of claim 2, wherein a portion of the first sensor extends through a gap in the adhesive layer towards an edge of the first battery cell.\n\n6. (Original) The battery assembly of claim 2, wherein a portion of the adhesive layer is positioned between the first sensor and one of the first battery cell and the enclosure.\n\n7. (Original) The battery assembly of claim 1 further comprising a deformable element positioned between the first battery cell and the enclosure, wherein the first sensor is positioned between the first battery cell and the enclosure.\n\n8. (Original) The battery assembly of claim 1, wherein: the enclosure comprises an enclosure portion of protective film; and the first sensor is positioned between first battery cell and the enclosure portion.\n\n9. (Original) The battery assembly of claim 8, wherein the protective film is a polyester film.\n\n10. (Original) The battery assembly of claim 1, wherein: the enclosure comprises a plastic case portion; and the first sensor is positioned between first battery cell and the plastic case portion.\n\n11. (Currently amended) The battery assembly of claim 1 further comprising a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell, __and wherein the first sensor is configured to detect mechanical stress or deformation of the first battery cell caused by swelling, expansion, or external pressure applied to the first battery cell__.\n\n12. (Original) The battery assembly of claim 11 further comprising an adhesive layer between the first battery cell and the second battery cell.\n\n13. (Original) The battery assembly of claim 12, wherein at least a portion of the adhesive layer is positioned adjacent at least a portion the first sensor in a plane between the first battery cell and the second battery cell.\n\n14. (Original) The battery assembly of claim 13, wherein the adhesive layer extends around at least a portion of the first sensor in the plane.\n\n15. (Original) The battery assembly of claim 12, wherein a portion of the first sensor extends through a gap in the adhesive layer towards an edge of the first battery cell.\n\n16. (Original) The battery assembly of claim 12, wherein a portion of the adhesive layer is positioned between the first sensor and one of the first battery cell and the second battery cell.\n\n17. (Currently amended) The battery assembly of claim 1 further comprising: a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell; a third battery cell stacked on top of the second battery cell; and a second sensor positioned between the third battery cell and the second battery cell for detecting at least one force influencing the third battery cell, __wherein the first sensor is configured to detect mechanical stress or deformation of the first battery cell caused by swelling, expansion, or external pressure, and wherein the second sensor is configured to detect mechanical stress or deformation of the third battery cell caused by swelling, expansion, or external pressure__.\n\n18. (Original) The battery assembly of claim 17 further comprising a processor configured to: receive a first sensor output signal from the first sensor; receive a second sensor output signal from the second sensor; conduct an evaluation based at least on the received output signals; and generate at least one processor output signal based on the evaluation.\n\n19. (Original) The battery assembly of claim 18, wherein the processor is further configured to alter an operation of the third battery cell independently from an operation of the first battery cell based on the at least one processor output signal.\n\n20. (Original) The battery assembly of claim 18, wherein the processor is further configured to turn off the third battery cell and to maintain operation of the first battery cell based on the at least one processor output signal.\n\n21. (Currently amended) The battery assembly of claim 1, wherein the first sensor comprises: force sensing material having a conductance that is configured to vary based on the at least one force influencing the first battery cell, __wherein the force sensing material is responsive to mechanical stress or deformation caused by swelling, expansion, or external pressure applied to the first battery cell__; and force sensing circuitry coupled to the force sensing material, wherein the force sensing circuitry is configured to produce a force output signal based on the conductance of the force sensing material.\n\n22. (Original) The battery assembly of claim 21, wherein the force sensing material comprises at least one variable electrical conductor.\n\n23. (Original) The battery assembly of claim 22, wherein the at least one variable electrical conductor has a first level of electrical conductance when the at least one variable electrical conductor is quiescent, and wherein the at least one variable electrical conductor has a second level of conductance when a mechanical stress is applied to the at least one variable electrical conductor.\n\n24. (Original) The battery assembly of claim 22, wherein the at least one variable electrical conductor is a quantum tunneling composite.\n\n25. (Currently amended) The battery assembly of claim 1, wherein the first sensor comprises a contact sensor __configured to detect mechanical stress or deformation of the first battery cell caused by swelling, expansion, or external pressure applied to the first battery cell__.\n\n26. (Cancelled)\n\n27. (Cancelled)\n\n28. (Cancelled)\n\n29. (Cancelled)\n\n30. (Cancelled)",
+  "usage": {
+    "input_tokens": 4056,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1377,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 10.02,
+  "cost_usd": 0.00875,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:25:01Z"
+}

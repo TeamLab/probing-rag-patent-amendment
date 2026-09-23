@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013007708",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2013007708",
+  "app_num": "13286129",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14325,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cd4038076bce89fc",
+  "response_text": "1 (Currently amended): A golf tee comprising a long lasting combination of a golf tee and a force absorbing member in association therewith, said tee including a ground insertion end, a ball support end and a shaft in between, said member surrounding said shaft and being located below said ball support end and having an outer diameter less than that of a golf ball but large enough and located so as to protect said support end from impact from a golf club strike after a golf ball has been struck from said tee, wherein said force absorbing member is formed from a material that is different from the material of the tee.\n\n2 (Currently amended): The golf tee of claim 1, wherein said tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member, wherein said material is selected from the group consisting of wood, plastic and metal.\n\n10 (Currently amended): The golf tee of claim 9, wherein said force absorbing member is formed from a force absorbing material comprising a natural or man-made material, wherein said material is different from the material of the tee.\n\n11 (Currently amended): The golf tee of claim 1, wherein said force absorbing member is formed from a force absorbing material comprising a natural or man-made material, wherein said material is different from the material of the tee.\n\n15 (Currently amended): A method of making a golf tee for use when striking a golf ball, said method comprising the step of forming a long lasting combination of a golf tee and a force absorbing member in association therewith, the tee including a ground insertion end, a ball support end and a shaft in between, wherein the member surrounding the shaft is located below the ball support end and has an outer diameter less than that of a golf ball but large enough and located so as to protect the support end from impact from a golf club strike after a golf ball has been struck from the tee, wherein said force absorbing member is formed from a material that is different from the material of the tee. \n\n16 (Currently amended): The method of claim 15, wherein the tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member, wherein said material is selected from the group consisting of wood, plastic and metal. \n\n25 (Currently amended): The method of claim 15, wherein the force absorbing member is formed from a force absorbing material comprising a natural or man-made material, wherein said material is different from the material of the tee.",
+  "usage": {
+    "input_tokens": 3686,
+    "output_tokens": 497,
+    "total_tokens": 4183
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.1,
+  "cost_usd": 0.00085,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:46:42Z"
+}

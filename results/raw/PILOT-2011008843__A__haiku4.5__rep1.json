@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2011008843",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2011008843",
+  "app_num": "11427495",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19492,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a886940456e8dc1f",
+  "response_text": "1. (Currently amended) A semiconductor device comprising a field effect transistor (FET) having a channel region located in a semiconductor device structure, said semiconductor device structure having a top surface that is oriented along one of a first set of equivalent crystal planes and one or more additional surfaces that are oriented along a second, different set of equivalent crystal planes, wherein one or more stressor layers are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply stress to the channel region of the FET, __wherein the stressor layers are epitaxially grown and have a lattice constant different from the semiconductor device structure__.\n\n2. (Original)\n\n3. (Original)\n\n4. (Original)\n\n6. (Currently amended) The semiconductor device of claim 2, wherein the one or more stressor layers have a lattice constant smaller than that of the semiconductor device structure, so that tensile stress is created in the stressor layers, __and wherein the stressor layers are epitaxially grown__.\n\n7. (Currently amended) The semiconductor device of claim 6, wherein the one or more additional surfaces form acute angles with the top surface of the semiconductor device structure, and said one or more stressor layer apply compressive stress to the channel region of the FET, __wherein the compressive stress is transferred to the channel region through the crystallographic orientation of the additional surfaces__.\n\n9. (Original)\n\n11. (Currently amended) The semiconductor device of claim 1, wherein the semiconductor device structure is located in a bulk semiconductor substrate structure, __and wherein the stressor layers are epitaxially grown over the additional surfaces__.\n\n12. (Currently amended) A semiconductor device comprising an n-channel field effect transistor (n-FET) having an n-doped channel region located in a semiconductor device structure, said semiconductor device structure having a top surface that is oriented along one of a first set of equivalent crystal planes and one or more additional surfaces that are oriented along a second, different set of equivalent crystal planes, wherein one or more stressor layers are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply tensile stress to the n-doped channel region of the FET, __wherein the stressor layers are epitaxially grown and have a lattice constant smaller than that of the semiconductor device structure__.\n\n13. (Original)\n\n14. (Currently amended) The semiconductor device of claim 12, wherein the one or more stressor layers have a lattice constant larger than that of the semiconductor device structure, so that compressive stress is created in the stressor layers, __and wherein the compressive stress in the stressor layers is converted to tensile stress in the n-doped channel region through the crystallographic orientation of the additional surfaces__.\n\n15. (Currently amended) The semiconductor device of claim 14, wherein the one or more additional surfaces form acute angles with the top surface of the semiconductor device structure, and said one or more stressor layers with intrinsic compressive stress are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply tensile stress to the n-doped channel region of the n-FET, __wherein the stressor layers are epitaxially grown__.\n\n18. (Original)\n\n23. (Currently amended) The semiconductor device of claim 19, wherein the one or more stressor layers have a lattice constant smaller than that of the semiconductor device structure, so that tensile stress is created in the stressor layers, __and wherein the stressor layers are epitaxially grown__.\n\n24. (Currently amended) The semiconductor device of claim 23, wherein the one or more additional surfaces form acute angles with the top surface of the semiconductor device structure, and said one or more stressor layer with intrinsic tensile stress are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply compressive stress to the p-doped channel region of the p-FET, __wherein the tensile stress in the stressor layers is converted to compressive stress in the p-doped channel region through the crystallographic orientation of the additional surfaces__.\n\n25. (Original)",
+  "usage": {
+    "input_tokens": 4748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 891,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.02,
+  "cost_usd": 0.00736,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:41:30Z"
+}

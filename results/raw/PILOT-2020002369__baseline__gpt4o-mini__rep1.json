@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002369",
+  "condition": "baseline",
+  "rep": 1,
+  "proceeding_number": "2020002369",
+  "app_num": "14171413",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13036,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "64b333501bd14401",
+  "response_text": "Claim 1 (Currently amended): A regenerative braking control system for a __vehicle capable of running on electric power__, comprising: at least one sensor adapted to sense a front tire impact event and transmit a sensor signal responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the sensor signal from the at least one sensor.\n\nClaim 9 (Currently amended): A regenerative braking control system for a __vehicle capable of running on electric power__, comprising: at least one of a wheel slip sensor and a vehicle motion sensor adapted to sense a front tire impact event and transmit at least one of a wheel slip sensor signal and a motion sensor signal, respectively, responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the at least one of a wheel slip sensor signal and a motion sensor signal from the at least one of a wheel slip sensor and a vehicle motion sensor.",
+  "usage": {
+    "input_tokens": 3011,
+    "output_tokens": 216,
+    "total_tokens": 3227
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.43,
+  "cost_usd": 0.00058,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:08:42Z"
+}

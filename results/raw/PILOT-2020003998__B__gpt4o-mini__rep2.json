@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 64634,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "eaf1f44d5cf04ee8",
+  "response_text": "Claim 281 (Currently amended): A tool comprising: a lamination of at least two layers; a first adhesive layer configured to be cured on a first layer; a second adhesive layer configured to be cured on a second layer; a medial section positioned between the first and second layers, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer.\n\nClaim 290 (Currently amended): The tool of claim 281, wherein the medial section comprises a metal.\n\nClaim 291 (Currently amended): The tool of claim 290, wherein the medial section includes a central opening.\n\nClaim 293 (Currently amended): The tool of claim 281, wherein the tool has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the first and second layers.\n\nClaim 294 (Currently amended): The tool of claim 281, further including a weld ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, such that the plurality of cutting segments are located on an outer periphery of the weld ring.",
+  "usage": {
+    "input_tokens": 14097,
+    "output_tokens": 270,
+    "total_tokens": 14367
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.97,
+  "cost_usd": 0.00228,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:27:16Z"
+}

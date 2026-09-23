@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "D",
+  "rep": 2,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12963,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8446a10760654dfe",
+  "response_text": "Claim 1 (Currently amended): A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member, wherein said light emitting diodes are positioned in a non-uniform arrangement.\n\nClaim 2 (Currently amended): The lamp of claim 1 wherein a second end of said columnar body is open.\n\nClaim 5 (Currently amended): The lamp of claim 1 wherein said diodes are arranged in a non-uniform radial spacing around the columnar body.\n\nClaim 7 (Currently amended): The lamp of claim 1 wherein said columnar body comprises one of a tetragon, pentagon, hexagon, heptagon, octagon, nonagon, decagon, hendecagon, or dodecagon in cross-section, and wherein said cross-section is not limited to a regular polygon.\n\nClaim 8 (Currently amended): The lamp of claim 7 wherein at least one diode resides on each face of said columnar body, and wherein the number of diodes on each face may vary.\n\nClaim 9 (Currently amended): The lamp of claim 8 wherein one fin resides on each corner of said columnar body, and wherein the number of fins may vary.\n\nClaim 11 (Currently amended): The lamp of claim 1 wherein said columnar body and said fins are comprised of a material having a thermal conductivity greater than 100 W/mK, and wherein said material may include metals such as aluminum or copper.\n\nClaim 13 (Currently amended): The lamp of claim 1 wherein said base member comprises an Edison screw base or a wedge base, and wherein said base member may also include alternative connection types.\n\nClaim 16 (Currently amended): A lamp comprising an elongated hollow polygonal body comprised of a material having a thermal conductivity greater than 100 W/mK, a fin extending radially from each corner of said body, a light emitting diode mounted to each side of said body, a screw or wedge base connector closing a first end of said body, a second end of said body being open, an electronics module disposed within said body in electrical communication with said connector and said light emitting diodes, said lamp having a general A19 outline, and wherein the arrangement of said diodes may vary.\n\nClaim 10 (Currently amended): The lamp of claim 9 wherein a single diode resides on each face, and wherein the arrangement of diodes may vary.\n\nClaim 6 (Currently amended): The lamp of claim 5 wherein said fins are substantially equally disposed between said diodes, and wherein the number of fins may vary.\n\nClaim 3 (Currently amended): The lamp of claim 1 further including a light dispersing optic element overlapping at least one of said diodes.\n\nClaim 4 (Currently amended): The lamp of claim 3 wherein said optic element includes a phosphor material.\n\nClaim 12 (Currently amended): The lamp of claim 1 wherein a single optic element is disposed between at least two adjacent fins overlapping at least one of said diodes.\n\nClaim 14 (Currently amended): The lamp of claim 1 wherein said electronics module comprises a printed circuit board including circuitry for converting AC to DC current, and wherein alternative circuitry configurations may be employed.\n\nClaim 15 (Currently amended): The lamp of claim 3 wherein said optic element preferentially directs light in multiple directions relative to an elongated axis of the columnar body. \n\nClaim 17 (Currently amended): A method of manufacturing a lamp comprising extruding an elongated hollow body, said body comprised of a material having a thermal conductivity greater than 100 W/mK, cutting said body to a predetermined length, attaching at least one light emitting diode to said body and providing electrical circuitry suitable for powering said light emitting diode, wherein the arrangement of said diodes may vary.\n\nClaim 18 (Currently amended): The method of claim 17 wherein said material has a thermal conductivity greater than about 150 W/mK.\n\nClaim 19 (Currently amended): The method of claim 17 wherein said body includes a plurality of integral radially extending fins, and wherein the number of fins may vary.\n\nClaim 20 (Currently amended): The method of claim 20 wherein said body has substantially straight side walls, and wherein the configuration of said side walls may vary.",
+  "usage": {
+    "input_tokens": 3178,
+    "output_tokens": 918,
+    "total_tokens": 4096
+  },
+  "stop_reason": "stop",
+  "latency_sec": 27.13,
+  "cost_usd": 0.00103,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:08:28Z"
+}

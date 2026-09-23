@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21389,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "943dc40ee86cdc7c",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is a light-activated microtransponder distinct from a passive RFID chip.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in the test tube and is activated by light rather than radio frequency.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards, and wherein the MTP is a light-activated microtransponder.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube configured for storage of biological or chemical samples, and wherein the MTP is a light-activated microtransponder.\n\n5. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer, and wherein the MTP is a light-activated microtransponder capable of withstanding temperatures of -20°C or less.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the test tube, and wherein the MTP is a light-activated microtransponder.\n\n13. (Currently Amended) A system for storing biological or chemical samples comprising the assembly of claim 1, and one or more of the following: a rack for biorepository test tubes; an automated robot for moving racks or biorepository test tubes; and an automated sampling device adapted to sample said racks or biorepository test tubes, wherein the MTP is a light-activated microtransponder.\n\n14. (Currently Amended) The system of claim 13 adapted for low temperature operation, such that the racks and test tubes are handled at -20°C or less, wherein the light-activated microtransponder remains functional at such temperatures.\n\n15. (Currently Amended) A method of forming a test tube assembly of claim 1, comprising embedding a light-activated microtransponder in plastic by heating the microtransponder to above the melting point of the plastic and melting a portion of the plastic with the heated microtransponder.\n\n16. (Currently Amended) A method of reading an embedded light-activated microtransponder in a test tube assembly of claim 1, comprising: providing an embedded light-activated microtransponder; and reading the microtransponder using light activation.\n\n17. (Original) The method of reading of claim 16, wherein the embedding material is frost coated.\n\n18. (Original) The method of claim 16, wherein the reader comprises a vial receptacle and wherein vial receptacle and the embedded MTP are maintained at a temperature of -20°C or less.\n\n19. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer, and wherein the MTP is a light-activated microtransponder.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the test tube.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards.\n\n22. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded near the center bottom of the test tube, and wherein the MTP is a light-activated microtransponder.\n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards, and wherein the MTP is a light-activated microtransponder.",
+  "usage": {
+    "input_tokens": 5351,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 837,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.37,
+  "cost_usd": 0.00763,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:45:44Z"
+}

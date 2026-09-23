@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2018001232",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2018001232",
+  "app_num": "14932354",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12998,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5f9c24d918b14456",
+  "response_text": "1. (Currently amended) A belly pan for a motor vehicle, comprising: a body panel having a forward section constructed from an open rib structure; and an aero cover carried on said body panel and spanning said open rib structure, __wherein said aero cover is removably secured to said body panel by fasteners__.\n\n2. (Previously presented) The belly pan of claim 1, wherein said body panel includes a first forward corner and a second forward corner.\n\n3. (Previously presented) The belly pan of claim 2, wherein said first forward corner includes a first section of open rib structure and said second forward corner includes a second section of open rib structure.\n\n4. (Previously presented) The belly pan of claim 3, including a first aero cover spanning and closing said first section of open rib structure and a second aero cover spanning and closing said second section of open rib structure.\n\n5. (Previously presented) The belly pan of claim 4, wherein said first section of open rib structure includes a first fore-aft rib and a first plurality of transverse ribs projecting from opposed sides of said first fore-aft rib.\n\n6. (Previously presented) The belly pan of claim 5, wherein said second section of open rib structure includes a second fore-aft rib and a second plurality of transverse ribs projecting from opposed sides of said second fore-aft rib.\n\n7. (Previously presented) The belly pan of claim 6, wherein said body panel includes a plurality of closed ribs, said first section of open rib structure being provided between a first two ribs of said plurality of closed ribs and said second section of open rib structure being provided between a second two ribs of said plurality of closed ribs.\n\n8. (Previously presented) The belly pan of claim 7, including fasteners securing said first aero cover and said second aero cover to said body panel.\n\n9. (Previously presented) The belly pan of claim 8, wherein said body panel includes a first corner buttress and a second corner buttress.\n\n10. (Previously presented) The belly pan of claim 9, wherein said first section of open rib structure forms a part of said first buttress and said second section of open rib structure forms a part of said second buttress.\n\n11. (Previously presented) The belly pan of claim 10, wherein said body panel is made from a material having a tensile and flexural modulus of at least 7.8 GPa.\n\n12. (Previously presented) The belly pan of claim 11, wherein said body panel is molded from polypropylene reinforced with 40% long glass fibers.\n\n13. (Previously presented) The belly pan of claim 12, wherein said body panel has a thickness of about 3.5 mm.\n\n14. (Previously presented) The belly pan of claim 13, wherein said first aero cover and said second aero cover have a thickness of about 2.5 mm.\n\n15. (Currently amended) A belly pan for a motor vehicle, comprising: a body panel having a first corner buttress, a second corner buttress, a first open rib structure reinforcing said first corner buttress and a second open rib structure reinforcing said second corner buttress; a first aero cover spanning and closing said first open rib structure; and a second aero cover spanning and closing said second open rib structure, __wherein said first aero cover and said second aero cover are removably secured to said body panel by fasteners__.\n\n16. (Previously presented) The belly pan of claim 15, wherein said body panel includes a first section and a second section secured together by fasteners.\n\n17. (Previously presented) The belly pan of claim 16, wherein said first corner buttress is on said first section and said second corner buttress is on said second section.\n\n18. (Previously presented) The belly pan of claim 17, wherein said first open rib structure includes a first fore-aft rib and a first plurality of transverse ribs projecting from opposed sides of said first fore-aft rib.\n\n19. (Previously presented) The belly pan of claim 18, wherein said second open rib structure includes a second fore-aft rib and a second plurality of transverse ribs projecting from opposed sides of said second fore-aft rib.\n\n20. (Previously presented) The belly pan of claim 19, wherein said body panel includes a plurality of closed ribs, said first section of open rib structure being provided between a first two ribs of said plurality of closed ribs and said second section of open rib structure being provided between a second two ribs of said plurality of closed ribs.",
+  "usage": {
+    "input_tokens": 3620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1026,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 12.32,
+  "cost_usd": 0.02625,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:26:46Z"
+}

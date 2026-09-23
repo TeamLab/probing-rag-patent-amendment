@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016005844",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2016005844",
+  "app_num": "14039251",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18348,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e368dd07903ae25c",
+  "response_text": "1. (Currently Amended) A system for identifying malicious threats on a network comprising: a computing device including a processor coupled to a system memory, the system memory storing instructions for execution on the processor, the instructions configured to cause the processor to: retrieve a network data associated with at least one of an IP address or a domain; analyze the network data and identify a malicious network threat __by comparing network traffic patterns against a database of known malicious signatures__; and perform a mitigating action to neutralize the malicious network threat __by automatically blocking network traffic from the identified malicious IP address or domain__.\n\n2. (Original) The system of claim 1, wherein the network data is retrieved from an edge router, wherein the network data comprises a snapshot of traffic being routed through the edge router.\n\n3. (Original) The system of claim 2, further comprising a traffic measurement aggregator module logically connected to an edge router interface, wherein the network data further comprises at least one of an amount of data transceived by the edge router or a rate of data transceived by the edge router.\n\n4. (Original) The system of claim 1, wherein the network data comprises data from a border gateway protocol table associated with a primary computer network's connectivity relationships with at least one secondary network.\n\n5. (Currently Amended) The system of claim 1, wherein the instructions are further configured to cause the processor to __generate and__ push a notification including the mitigating action for the malicious network threat to a third party device __via a secure communication protocol__.\n\n6. (Original) The system of claim 1, wherein the instructions are further configured to cause the processor to: normalize the network data to a standard format; decorate the network data with at least one tag that identifies the network activity data; store the network data in a database; weight the network data according to a threat associated with the data; and generate a risk score for the weighted data.\n\n7. (Original) The system of claim 6, wherein the instructions are further configured to cause the processor to generate the risk score by: compare a new activity at the IP address or the domain to a past activity at the IP address or the domain; determine whether the new activity fits a profile for a malicious IP address or domain; correlate the risk score with a previous malicious threat; and adjust the risk score according to the correlation.\n\n8. (Original) The system of claim 7, wherein the instructions are further configured to cause the processor to predict a network based attack according at least the risk score.\n\n9. (Original) The system of claim 1, wherein the mitigating action comprises at least one of a null routing the malicious network threat, adjusting an access control list (ACL) to block the malicious network threat, publishing a list identifying a bad actor committing the malicious network threat, or logically separating the IP address or domain from a network.\n\n10. (Currently Amended) A method for identifying malicious threats on a network comprising: retrieving a network data associated with at least one of an IP address or a domain; analyzing the network data and __identifying__ a malicious network threat __by comparing network traffic patterns against a database of known malicious signatures__; and performing a mitigating action to neutralize the malicious network threat __by automatically blocking network traffic from the identified malicious IP address or domain__.\n\n11. (Original) The method of claim 10, wherein the network data is retrieved from an edge router, wherein the network data comprises a snapshot of traffic being routed through the edge router.\n\n12. (Original) The method of claim 11, further comprising measuring at least one of an amount of data transceived by the edge router or a rate of data transceived by the edge router at a measurement aggregator module logically connected to an edge router interface.\n\n13. (Original) The method of claim 10, wherein the network data comprises data from a border gateway protocol table associated with a primary computer network's connectivity relationships with at least one secondary network.\n\n14. (Currently Amended) The method of claim 10, further comprising __generating and__ pushing a notification including the mitigating action for the malicious network threat to a third party device __via a secure communication protocol__.\n\n15. (Original) The method of claim 10, further comprising: normalizing the network data to a standard format; decorating the network data with at least one tag that identifies the network activity data; storing the network data in a database; weighing the network data according to a threat associated with the data; and generating a risk score for the weighted data.\n\n16. (Original) The method of claim 15, wherein the risk score is generated by: comparing a new activity at the IP address or the domain to a past activity at the IP address or the domain; determining whether the new activity fits a profile for a malicious IP address or domain; correlating the risk score with a previous malicious threat; and adjust the risk score according to the correlation.\n\n17. (Original) The method of claim 16, further comprising predicting a network based attack according at least the risk score.\n\n18. (Original) The method of claim 10, wherein the mitigating action comprises at least one of a null routing the malicious network threat, adjusting an access control list (ACL) to block the malicious network threat, publishing a list identifying a bad actor committing the malicious network threat, or logically separating the IP address or domain from a network.",
+  "usage": {
+    "input_tokens": 4781,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1175,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 20.45,
+  "cost_usd": 0.03197,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:53:15Z"
+}

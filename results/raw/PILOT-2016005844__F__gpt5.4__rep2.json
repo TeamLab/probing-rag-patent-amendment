@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016005844",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2016005844",
+  "app_num": "14039251",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18348,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e368dd07903ae25c",
+  "response_text": "1. (Currently amended) A system for identifying malicious threats on a network comprising: a computing device including a processor coupled to a system memory, the system memory storing instructions for execution on the processor, the instructions configured to cause the processor to: retrieve [[a]] __network activity__ data associated with at least one of an IP address or a domain; analyze the network activity data [[and identify]] __by comparing a new activity at the IP address or the domain to a past activity at the IP address or the domain, determining whether the new activity fits a profile for a malicious IP address or domain, correlating a risk score with a previous malicious threat, and adjusting the risk score according to the correlation to identify__ a malicious network threat; and perform a mitigating action to neutralize the malicious network threat.\n\n5. (Currently amended) The system of claim 1, wherein the instructions are further configured to cause the processor to push a notification including the mitigating action for the malicious network threat to a third party device.\n\n10. (Currently amended) A method for identifying malicious threats on a network comprising: retrieving [[a]] __network activity__ data associated with at least one of an IP address or a domain; analyzing the network activity data [[and identify]] __by comparing a new activity at the IP address or the domain to a past activity at the IP address or the domain, determining whether the new activity fits a profile for a malicious IP address or domain, correlating a risk score with a previous malicious threat, and adjusting the risk score according to the correlation to identify__ a malicious network threat; and performing a mitigating action to neutralize the malicious network threat.\n\n14. (Currently amended) The method of claim 10, further comprising pushing a notification including the mitigating action for the malicious network threat to a third party device.",
+  "usage": {
+    "input_tokens": 4302,
+    "output_tokens": 370,
+    "total_tokens": 4672
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.96,
+  "cost_usd": 0.00908,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:50:52Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15073,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "526cd7635c2398e1",
+  "response_text": "1. (Currently amended) A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium __that does not chemically disrupt the cellular wall or membrane structure of the embryo__; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos.\n\n2. (Currently amended) The method of claim 1 wherein the non-destructive medium consists essentially of water __and wherein the agitation is performed without addition of chemical cell-disrupting agents__.\n\n3. (Currently amended) The method of claim 1 wherein the DNA is obtained by exposing the shed cellular material to cold and then heat followed by agitation __in the absence of enzymatic cell wall degradation__.\n\n4. (Currently amended) The method of claim 3 wherein said cold, heat, and agitation steps are repeated __and wherein the method does not employ cell wall degrading enzymes__.\n\n5. (Currently amended) The method of claim 1 wherein the DNA is obtained by heating of the shed cellular material and agitation __in the absence of enzymatic cell wall degradation__.\n\n6. (Currently amended) The method of claim 5 wherein said heat and agitation steps are repeated __and wherein the method does not employ cell wall degrading enzymes__.\n\n7. (Currently amended) The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with an enzyme __selected from proteases or nucleases that do not degrade plant cell walls__.\n\n8. (Original) The method of claim 7 wherein the enzyme is VISCOZYME@.\n\n9. (Currently amended) The method of claim 1 wherein obtaining DNA from the shed cellular material comprises extracting the DNA __by a method that does not involve chemical cell wall disruption prior to extraction__.\n\n10. (Currently amended) The method of claim 9, wherein said extracting is performed by adding magnetic particles to the shed cellular material __and wherein the magnetic particles are used to isolate DNA without prior enzymatic or chemical cell wall degradation__.\n\n11. (Currently amended) The method of claim 1 wherein the one or more embryos comprise one or more immature embryos __and wherein the embryos retain viability for germination after collection of shed cellular material__.\n\n12. (Original) The method of claim 1 further comprising storing the one or more embryos prior to step (c) or (d).\n\n13. (Currently amended) The method of claim 1, wherein said molecular analysis is genotyping __and wherein the genotyping is performed on DNA obtained from shed cellular material without prior disruption of embryo cell walls__.\n\n14. (Original) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads.\n\n15. (Currently amended) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant __wherein the embryo used for growing was one of the embryos from which shed cellular material was collected__.\n\n16. (Currently amended) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed __on DNA obtained from shed cellular material without prior chemical or enzymatic cell wall disruption__.\n\n17. (Currently amended) The method of claim 13 further comprising selecting one or more embryos based on genotype __wherein the selection is based on genotyping results obtained from shed cellular material collected by non-destructive agitation__.\n\n18. (Currently amended) The method of claim 17 further comprising germinating the one or more selected embryos __wherein the selected embryos retain viability for germination__.\n\n19. (Original) The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is automated.",
+  "usage": {
+    "input_tokens": 4270,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 930,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.02,
+  "cost_usd": 0.00714,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:44:13Z"
+}

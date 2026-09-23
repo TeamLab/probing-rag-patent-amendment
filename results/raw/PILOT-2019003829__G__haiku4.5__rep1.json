@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16275,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e91a49ca9e45322b",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is a light-activated microtransponder.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in the test tube and wherein the test tube is configured for biological or chemical sample storage.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube configured for long-term storage of biological samples.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer material.\n\n13. (Currently Amended) A system for storing samples and comprising the assembly of claim 1, and one or more of the following: a rack specifically designed for biorepository test tubes; an automated robot for moving racks or biorepository test tubes; and an automated sampling device adapted to sample said racks or biorepository test tubes.\n\n14. (Currently Amended) The system of claim 13, wherein the system is adapted for low temperature operation such that the racks and test tubes are handled and maintained at -20°C or less during sample storage and retrieval.\n\n19. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer and wherein the polypropylene or acetal polymer is selected to withstand temperatures of -20°C or lower.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the test tube.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards.\n\n22. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded near the center bottom of the test tube.\n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards.",
+  "usage": {
+    "input_tokens": 4423,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.93,
+  "cost_usd": 0.00549,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:45:37Z"
+}

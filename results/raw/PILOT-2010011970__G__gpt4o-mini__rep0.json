@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14606,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fb05adbcb31d2b78",
+  "response_text": "(Currently Amended) Claim 15: The method of selecting an edge server computer for sending data to a client computer, the method comprising: receiving a request from the client computer; accessing a first server computer and a second server computer through a path in a computer network; adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer; the resource having a unique signature as part of its identifier; and selecting the first server computer based on the information added to the locator.\n\n(Currently Amended) Claim 24: The system for selecting an edge server computer for sending data to a client computer, the system comprising: a first server computer; a second server computer; and a media request broker configured to select the first server computer based on the information indicative of at least one server computer of the first set of one or more server computers added to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier.\n\n(Currently Amended) Claim 27: The computer program product for selecting an edge server computer for sending data to a client computer, the computer program product comprising: a computer readable medium having program code thereon, the program code including instructions for receiving a request from the client computer; accessing a first server computer and a second server computer through a path in a computer network; adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer; the resource having a unique signature as part of its identifier; and selecting the first server computer based on the information added to the locator.",
+  "usage": {
+    "input_tokens": 3348,
+    "output_tokens": 343,
+    "total_tokens": 3691
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.15,
+  "cost_usd": 0.00071,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:21:13Z"
+}

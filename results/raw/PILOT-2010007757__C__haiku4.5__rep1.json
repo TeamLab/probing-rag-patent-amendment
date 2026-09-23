@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "C",
+  "rep": 1,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13704,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d9e6038da9822344",
+  "response_text": "1. (Currently amended) A composition, comprising: cavity-generating particles having a size of 100-200 micrometers; a thermally conductive binder comprising a premixed solder paste; and a solvent selected from the group consisting of methanol, ethanol, or water.\n\n2. (Currently amended) The composition of claim 1, wherein the composition is applied to an electronic component surface and forms boiling nucleation sites that increase critical heat flux.\n\n3. (Previously presented) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface.\n\n4. (Original) A method of coating a surface whereby enhancing the boiling properties of the surface comprising the steps: creating a mixture comprising cavity-generating particles, a thermally conductive binder, and a solvent; applying a layer of the mixture to a target surface; heating the target surface, whereby the solvent is vaporized; and further heating the target surface, whereby the thermally conductive binder is melted.\n\n5. (Original) The method of claim 4, wherein the layer is applied to the target surface using a paintbrush.\n\n6. (Original) The method of claim 4, wherein the mixture is mixed using an ultrasonic bath.\n\n7. (Original) The method of claim 4, wherein the solvent comprises ethyl alcohol whereby the target surface is first heated to vaporize the solvent.\n\n8. (Original) The method of claim 4, wherein the target surface comprises an electronic component.\n\n9. (Currently amended) A composition comprising cavity generating particles having a size of 100-200 micrometers, a binder comprising premixed solder paste, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles, wherein said composition increases critical heat flux when applied to a surface in contact with a liquid coolant.\n\n10. (Currently amended) The composition of claim 9, wherein the carrier is selected from the group consisting of methanol, ethanol, or water.\n\n11. (Currently amended) The composition of claim 9, wherein the binder is premixed solder paste having thermal conductivity greater than 50 W/m·K.\n\n12. (Currently amended) The composition of claim 9, wherein the cavity generating particles are selected from the group consisting of nickel, copper, aluminum, silver, iron, brass and alloys, and are thermally conductive.\n\n13. (Cancelled)\n\n14. (Cancelled)\n\n15. (Currently amended) The composition of claim 9, wherein the cavity generating particles are 100-200 micrometers in size.\n\n16. (Currently amended) A composition of matter comprising carrier, binder, and cavity generating particles, wherein said composition of matter contains, in relative proportion: about 10 ml carrier selected from methanol, ethanol, or water; about 0.5 to 0.8 grams binder comprising premixed solder paste; and about 1 gram of cavity generating particles having a size of 100-200 micrometers, wherein said composition forms boiling nucleation sites that increase critical heat flux when applied to a surface.\n\n17. (Currently amended) The composition of claim 16, wherein the carrier is selected from the group consisting of methanol, ethanol, or water.\n\n18. (Currently amended) The composition of claim 16, wherein the binder is premixed solder paste having thermal conductivity greater than 50 W/m·K.\n\n19. (Currently amended) The composition of claim 16, wherein the cavity generating particles are selected from the group consisting of nickel, copper, aluminum, silver, iron, brass and alloys, and are thermally conductive.\n\n20. (Cancelled)\n\n21. (Cancelled)\n\n22. (Currently amended) The composition of claim 16, wherein the cavity generating particles are 100-200 micrometers in size.\n\n23. (Original) A method for surface enhancement to increase heat transfer of a surface in contact with a liquid, the method comprising applying to a surface the composition of claim 1.\n\n24. (Original) The method of claim 23, wherein the composition is applied to the surface of an electronic chip.\n\n25. (Currently amended) An object to be immersed in a liquid coolant selected from the group consisting of methanol, ethanol, fluorocarbons, water or FC-72, having a surface comprising cavity generating particles of 100-200 micrometers in size affixed by a premixed solder paste binder such that boiling nucleation sites are formed in a density increasing critical heat flux of the surface.\n\n26. (Currently amended) The object of claim 25, wherein the cavity generating particles are selected from the group consisting of nickel, copper, aluminum, silver, iron, brass and alloys, and are thermally conductive.\n\n27. (Cancelled)\n\n28. (Cancelled)\n\n29. (Currently amended) The object of claim 25, wherein the cavity generating particles are 100-200 micrometers in size.\n\n30. (Original) The object of claim 25, wherein the object is a microelectronic component.\n\n31. (Original) The object of claim 25, wherein the object is a silicon chip.\n\n32. (Original) The object of claim 25, wherein the liquid coolant is selected from the group comprising methanol, ethanol, fluorocarbons, water or FC-72.",
+  "usage": {
+    "input_tokens": 3995,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1215,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.44,
+  "cost_usd": 0.00806,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:26:29Z"
+}

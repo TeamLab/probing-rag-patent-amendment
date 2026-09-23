@@ -1,0 +1,11 @@
+file	case	cond	rep	c5	total_hits	char_len	token_len	n_claims	reason
+PILOT-2014009970__baseline__gpt5.4__rep0.json	PILOT-2014009970	baseline	0	4.5678	13	2846	475	9	
+PILOT-2017000071__baseline__gpt5.4__rep0.json	PILOT-2017000071	baseline	0	0.2363	1	4232	641	7	
+PILOT-2017001422__baseline__gpt5.4__rep0.json	PILOT-2017001422	baseline	0	5.7471	11	1914	242	8	
+PILOT-2017003676__baseline__gpt5.4__rep0.json	PILOT-2017003676	baseline	0	13.5205	26	1923	298	19	
+PILOT-2017005259__baseline__gpt5.4__rep0.json	PILOT-2017005259	baseline	0	0.0	0	2355	320	14	
+PILOT-2017005493__baseline__gpt5.4__rep0.json	PILOT-2017005493	baseline	0	1.6203	6	3703	549	20	
+PILOT-2017010632__baseline__gpt5.4__rep0.json	PILOT-2017010632	baseline	0	7.019	70	9973	1486	20	
+PILOT-2018001232__baseline__gpt5.4__rep0.json	PILOT-2018001232	baseline	0	0.0	0	4000	635	20	
+PILOT-2018005420__baseline__gpt5.4__rep0.json	PILOT-2018005420	baseline	0	12.308	113	9181	1431	25	
+PILOT-2018005863__baseline__gpt5.4__rep0.json	PILOT-2018005863	baseline	0	2.8299	24	8481	1336	25	

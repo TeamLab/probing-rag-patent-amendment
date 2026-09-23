@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2015005752",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2015005752",
+  "app_num": "13668077",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14481,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2a5654803f156588",
+  "response_text": "1. (Currently amended) A packaging substrate comprising: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having a plurality of conductive paths formed between the chip mounting surface and the bottom surface, the conductive paths configured to provide electrical connection between an integrated circuit chip disposed on the chip mounting surface and the bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure, wherein the opening is formed by __removing solder mask and dielectric material__; and a stiffening microstructure disposed in the opening and coupled to the packaging structure.\n\n2. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a bottom surface of the opening __and extends into the core layer of the packaging structure__.\n\n3. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a sidewall of the opening __and is in direct contact with the core layer__.\n\n7. (Currently amended) The packaging substrate of claim 1 further comprising: an integrated circuit chip mounted on the chip mounting surface, wherein the stiffening microstructure is __positioned to increase contact area and improve package coplanarity__.\n\n8. (Currently amended) The packaging substrate of claim 7, wherein the stiffening microstructure includes __a lid having increased thickness achieved by the opening formed by removing solder mask and dielectric material__.\n\n9. (Currently amended) The packaging substrate of claim 8 further comprising: a heat transfer medium providing a thermally conductive pathway between the lid and the integrated circuit chip, wherein __the lid thickness is increased to enhance thermal conductivity and structural rigidity__.\n\n11. (Currently amended) The packaging substrate of claim 1, wherein the packaging structure further comprises: a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure, wherein the ground reference plane layer is in contact with the stiffening microstructure, __and wherein the opening exposes the ground reference plane layer to allow the stiffening microstructure to engage directly with the ground reference plane layer__.",
+  "usage": {
+    "input_tokens": 3805,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.95,
+  "cost_usd": 0.0049,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:31:39Z"
+}

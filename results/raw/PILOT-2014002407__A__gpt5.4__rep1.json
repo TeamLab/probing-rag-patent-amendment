@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014002407",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2014002407",
+  "app_num": "12944023",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12711,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c7a1abe1410b012e",
+  "response_text": "13. (Currently amended) A computer program product comprising: a __non-transitory__ computer readable storage medium; computer readable program code, stored on the computer readable storage medium, for rejecting the first user identifier responsive to a determination that the first number of characters in the first user identifier contains the number of variants of the second number of characters in the second user identifier in the data source using the policy, __wherein the policy comprises a table of character variants, and wherein the table of character variants comprises character variants for a plurality of characters in the second user identifier__; computer readable program code, stored on the computer readable storage medium, for storing the first user identifier in the plurality of user identifiers responsive to an absence of a determination that the first number of characters in the first user identifier contains the number of variants of the second number of characters in the second user identifier in the data source using the policy.\n\n14. (Currently amended) The computer program product of claim 13, wherein the computer readable program code is stored in a computer readable storage medium in a data processing system, and wherein the computer readable program code is downloaded over a network from a remote data processing system.\n\n15. (Currently amended) The computer program product of claim 13, wherein the computer readable program code is stored in a computer readable storage medium in a server data processing system, and wherein the computer readable program code is downloaded over a network from a remote data processing system for use in a computer readable storage medium with the remote system.\n\n16. (Currently amended) The computer program product of claim 13, wherein the policy comprises a table of character variants, wherein the table of character variants comprises character variants for a plurality of characters in the [[existing]] __second__ user identifier.\n\n17. (Previously presented) The computer program product of claim 13, wherein information about the policy is presented in a terms of use agreement.\n\n18. (Currently amended) An apparatus comprising: a bus system; a storage device connected to the bus system, wherein the storage device includes program code; and a processor unit connected to the bus system, wherein the processing unit is configured to execute the program code to determine whether a first number of characters in a first user identifier contains a number of variants of a second number of characters in a second user identifier in a data source using a policy responsive to receiving a request to store the first user identifier in the data source containing a plurality of user identifiers, reject the first user identifier responsive to a determination that the first number of characters in the first user identifier contains the number of variants of the second number of characters in the second user identifier in the data source using the policy, __wherein the policy comprises a table of character variants, and wherein the table of character variants comprises character variants for a plurality of characters in the second user identifier,__ and store the first user identifier in the plurality of user identifiers responsive to an absence of a determination that the first number of characters in the first user identifier contains the number of variants of the second number of characters in the second user identifier in the data source using the policy.\n\n19. (Currently amended) The apparatus of claim 18, wherein the policy comprises a table of character variants, wherein the table of character variants comprises character variants for a plurality of characters in the [[existing]] __second__ user identifier.\n\n20. (Previously presented) The apparatus of claim 18, wherein information about the policy is presented in a terms of use agreement.",
+  "usage": {
+    "input_tokens": 2908,
+    "output_tokens": 700,
+    "total_tokens": 3608
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.67,
+  "cost_usd": 0.01064,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:21:41Z"
+}

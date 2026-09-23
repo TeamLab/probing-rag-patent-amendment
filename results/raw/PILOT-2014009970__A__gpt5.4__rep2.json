@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014009970",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2014009970",
+  "app_num": "12376918",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 8023,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8406714c8551ef95",
+  "response_text": "1. (Currently amended) An air braking unit for use in an air braking system, the air braking unit being arranged to be positioned, in use, at a vehicle wheel, and comprising: an inlet for receiving, in use, compressed air from a central source; at least one first valve arranged to selectively allow compressed air from the inlet to enter a wheel brake chamber in use; at least one second valve arranged to selectively allow air from the brake chamber to be released via an outlet to the atmosphere in use; and control means for controlling the first and second valves to operate to selectively control the air pressure in the brake chamber in use, __wherein the air braking unit comprises plural first valves and plural second valves, the plural valves comprising one or more larger valves arranged to allow large volumes of air to pass therethrough and one or more smaller valves arranged to allow passage of smaller volumes of air therethrough, and wherein the one or more smaller valves are arranged to operate at high speed__.\n\n2. (Currently amended) The air braking unit of claim 1, [[further comprising plural first valves and/or plural second valves]].\n\n3. (Currently amended) The air braking unit of claim [[2]] __1__, wherein the plural valves may comprise one or more larger valves arranged to allow large volumes of air to pass therethrough and one or more smaller valves arranged to allow passage of smaller volumes of air therethrough.\n\n4. (Currently amended) The air braking unit of claim [[3]] __1__, wherein the one or more smaller valves are arranged to operate at high speed.\n\n5. (Previously presented) The air braking unit of any preceding claim, wherein one or more of the valves are driven by binary actuators.\n\n6. (Currently amended) An air braking unit according to any preceding claim, wherein the control means is arranged to receive control signals from a wheel speed sensor and an air pressure sensor for determining the pressure in the brake chamber __, the control means being arranged to determine, from the sensors and stored reference data, an optimum speed for each wheel and to control the braking force on each wheel in accordance with the calculated optimum speed__.\n\n7. (Currently amended) An air braking unit according to [[claim 7]] __claim 6__, wherein the control means is arranged to receive data from a vehicle speed sensor, and reference data indicative of an optimum braking force for given vehicle and wheel speeds and control braking force based thereon.\n\n8. (Currently amended) An air braking unit according to claim 6 or claim 7, wherein the control means is arranged to determine, from the sensors, and stored reference data, an optimum speed for each wheel and to control the braking force on each wheel in accordance with the calculated optimum speed.\n\n9. (Currently amended) An air braking system comprising one or more units according to any preceding claim; a pump for generating compressed air; and a central compressed air storage tank.",
+  "usage": {
+    "input_tokens": 2296,
+    "output_tokens": 598,
+    "total_tokens": 2894
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.58,
+  "cost_usd": 0.00885,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:00:59Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014009096",
+  "condition": "baseline",
+  "rep": 1,
+  "proceeding_number": "2014009096",
+  "app_num": "13102968",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14164,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f6d2b1fe71867417",
+  "response_text": "1. (Original) [Claim 1 is not provided in the current claims list but is referenced as rejected. Based on the office action description, Claim 1 appears to be an independent claim. Since the full text of Claim 1 is not provided in the \"Current claims\" section, I cannot amend it. However, Claims 2-5 depend from Claim 1.]\n\n2. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determining whether the source address is authorized to send a message to __that node by accessing stored authorization information within the automated communications system__.\n\n3. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determining whether the source address is authorized to send a message to the node by finding information that authorizes the source address stored within the automated communications system, and __when the source address is authorized to send a message to the node, returning an indication of success, and when the source address is not authorized to send a message to the node, returning an indication of failure__.\n\n4. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determining whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, and __when the source address is authorized to send a message to the node, returning an indication of success, and when the source address is not authorized to send a message to the node, returning an indication of failure__.\n\n5. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes and/or node-token pairs; and for each node and/or node-token pair of the ordered sequence of nodes and/or node-token pairs, determining whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, by finding information that authorizes the source address stored within the automated communications system, and/or by applying any rules that apply to the message stored within the automated communications system, and when the source address is not authorized to send a message to the node, returning an indication of failure, and when the source address is authorized to send a message to the node, accessing stored information within the automated communications system to determine whether or not __a token associated with the node-token pair__ is valid, __and when the token is not valid, returning an indication of failure, and when the token is valid, returning an indication of success__.\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)",
+  "usage": {
+    "input_tokens": 3531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 730,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.89,
+  "cost_usd": 0.00574,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:50:26Z"
+}

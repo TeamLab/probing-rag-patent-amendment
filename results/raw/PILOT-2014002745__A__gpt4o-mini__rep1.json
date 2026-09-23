@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014002745",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2014002745",
+  "app_num": "12883873",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15316,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9f0c98f05ce5e3e2",
+  "response_text": "Claim 26 (currently amended): (Currently Amended)A non-aqueous composition comprising: a therapeutically effective amount of a non-steroidal anti-inflammatory drug (NSAID), said NSAID being admixed as a powder directly in a non-aqueous carrier wherein the non-aqueous carrier comprises a bio-compatible oil and from 20 wt.% to 80 wt.% phosphatidylcholine; the NSAID to non-aqueous carrier weight ratio is about 5:1 to about 1:5, wherein the bio-compatible oil is a lecithin oil.\n\nClaim 33 (previously presented): (Previously Submitted)The non-aqueous composition according to claim 26, wherein the bio-compatible oil is a lecithin oil.\n\nClaim 35 (previously presented): (Previously Submitted)The non-aqueous composition according to claim 26, wherein the bio-compatible oil is a lecithin oil.\n\nClaim 50 (currently amended): (Currently Amended)A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and salicylate NSAID, said salicylate NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of salicylate NSAID to biocompatible oil of about 5:1 to about 1:5, wherein the biocompatible oil is a lecithin oil.\n\nClaim 51 (currently amended): (Currently Amended)The non-aqueous pharmaceutical composition of claim 50 comprising from 10 wt % to 60 wt% phosphatidylcholine.",
+  "usage": {
+    "input_tokens": 3969,
+    "output_tokens": 339,
+    "total_tokens": 4308
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.21,
+  "cost_usd": 0.0008,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:33:32Z"
+}

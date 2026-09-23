@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014009096",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2014009096",
+  "app_num": "13102968",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14164,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1ce2e68f486089ca",
+  "response_text": "1. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to __the node__.\n\n2. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by finding information that authorizes the source address stored within the automated communications system, and when the source address is __not__ authorized to send a message to the node, returning an indication of failure.\n\n3. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, and when the source address is __not__ authorized to send a message to the node, returning an indication of failure.\n\n4. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes and/or node-token pairs; and for each node and/or node-token pair of the ordered sequence of nodes and/or node-token pairs, determining whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, by finding information that authorizes the source address stored within the automated communications system, and/or by applying any rules that apply to the message stored within the automated communications system, and, when the source address is not authorized to send a message to the node, returning an indication of failure, and when the source address is authorized to send a message to the node, accessing stored information within the automated communications system to determine whether or not __a token associated with the node-token pair__ is valid, when __the token associated with the node-token pair__ is not valid, returning __an__ indication of failure, and when __the token associated with the node-token pair__ is valid, returning an indication of success.\n\n5. (Original) An authorization subsystem of an automated communications system comprising: one or more authorization databases that store nodes of navigational node paths, tokens, and other authorization information on mass-storage and in electronic memory; communications ports and processing components that receive incoming messages transmitted to the automated communications system; and an authorization component executed on one or more processors within the automated communications system that authorizes an input message by parsing the TO address of the message into an ordered set of nodes and associated tokens, for each node in the ordered set of nodes, when there is an associated token, accessing one or more authorization databases to determine whether or not the token is valid, and accessing one or more authorization databases to determine whether the FROM address is authorized to transmit a message to the node.\n\n6. (Original) The authorization subsystem of claim 6 further including: when the FROM address is authorized to transmit to each node in the ordered set of nodes and when each associated token is valid, forwarding the message to recipient clients of the automated communications system to which the message is directed.\n\n7. (Original) The authorization subsystem of claim 7 further including: when the FROM address is not authorized to transmit to each node in the ordered set of nodes or when at least one associated token is not valid, returning a failure indication without forwarding the message to recipient clients of the automated communications system.\n\n8. (Original) The authorization subsystem of claim 6 further including: following authorization of the message, accessing one or more authorization databases to extract rules that apply to the message to alter one or both of the TO and FROM addresses; and altering one or both of the TO and FROM addresses according to the extracted rules.\n\n9. (Original) The authorization subsystem of claim 6 further including: for each message sent by clients of the automated communications system, for each node in the FROM address, accessing one or more authorization databases to determine whether or not a token is to be associated with the node.",
+  "usage": {
+    "input_tokens": 3515,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 996,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 18.23,
+  "cost_usd": 0.02548,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:07:56Z"
+}

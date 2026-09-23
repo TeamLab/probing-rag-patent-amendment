@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017001422",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2017001422",
+  "app_num": "13995688",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10328,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6426f8fc631e05a3",
+  "response_text": "1. (Currently Amended): An immunogenic composition comprising: a modified, live bovine viral diarrhea virus type 1b (BVDV-1b) __that is cytopathic__, a veterinary-acceptable carrier, and optionally an adjuvant.\n\n2. (Cancelled)\n\n3. (Currently Amended): The immunogenic composition of claim 1, further comprising one or more of a parainfluenza virus Type 3 (PI3), a bovine respiratory syncytial virus (BRSV), a bovine herpes virus (BHV-1), a bovine viral diarrhea virus Type 1a (BVDV-1a), a bovine viral diarrhea virus Type 2 (BVDV-2), or an infectious bovine rhinotracheitis (IBR) virus, or any combination thereof; or one or more viral-specific antigens obtained therefrom, __wherein the BVDV-1b is cytopathic__.\n\n4. (Currently Amended): The immunogenic composition of claim 1, further comprising a modified, live IBRV, a modified, live BRSV, a modified, live BHV-1, a modified, live BVDV Type 1a, a modified, live BVDV Type 2, or a modified, live PI3, or a combination thereof, __wherein the BVDV-1b is cytopathic__.\n\n6. (Currently Amended): The immunogenic composition of claim 1, further comprising an immunologically effective amount of at least a first antigen, __wherein the BVDV-1b is cytopathic__.\n\n7. (Currently Amended): The immunogenic composition of claim 6, wherein the at least a first antigen is specific for an organism selected from the group consisting of Actinobacillus, Actinomyces, Bacillus, Bordetella, Brachyspira, Campylobacter, Clostridium, Ehrlichia, Erysipelothrix, Escherichia, Histophilus, Leptospira, Listeria, Mannheimia, Moraxella, Mycobacterium, Mycoplasma, Pasteurella, Salmonella, and Streptococcus, or a combination thereof, __and wherein the BVDV-1b is cytopathic__.\n\n8. (Currently Amended): The immunogenic composition of claim 6, wherein the at least a first antigen is inactivated __and the BVDV-1b is cytopathic__.\n\n12. (Currently Amended): The vaccine of claim 4, further comprising an immunologically-effective amount of a least one microbial pathogen-specific antigen, __wherein the BVDV-1b is cytopathic__.",
+  "usage": {
+    "input_tokens": 3282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 663,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.94,
+  "cost_usd": 0.01979,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:08:24Z"
+}

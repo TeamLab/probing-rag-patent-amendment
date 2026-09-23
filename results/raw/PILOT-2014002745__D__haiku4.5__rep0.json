@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014002745",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2014002745",
+  "app_num": "12883873",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16251,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8940f48adad16e03",
+  "response_text": "26. (Currently Amended) A non-aqueous composition comprising: a therapeutically effective amount of a non-steroidal anti-inflammatory drug (NSAID) selected from the group consisting of propionic acid NSAIDs, acetic acid NSAIDs, and salicylic acid NSAIDs, said NSAID being admixed as a powder directly in a non-aqueous carrier wherein the non-aqueous carrier comprises a bio-compatible oil and from 20 wt.% to 80 wt.% phosphatidylcholine; the NSAID to non-aqueous carrier weight ratio is about 5:1 to about 1:5; wherein the phosphatidylcholine is present in an amount sufficient to reduce NSAID-associated gastro-intestinal ulceration and bleeding, and therapeutic activity of the NSAID for treatment of tissue inflammation, pain and fever is preserved.\n\n27. (Previously Presented) The non-aqueous composition according to claim 26, wherein the non-aqueous carrier comprises from 20 wt.% to 60 wt.% phosphatidylcholine.\n\n28. (Cancelled)\n\n29. (Previously Presented) The non-aqueous composition according to claim 26, wherein the weight ratio of NSAID to non-aqueous carrier is about 2:1 to about 1:2.\n\n30. (Previously Presented) The non-aqueous composition according to claim 26, wherein the NSAID is a salicylic acid NSAID selected from the group consisting of salicylate and aspirin.\n\n31. (Currently Amended) The non-aqueous composition according to claim 26, wherein the NSAID is selected from the group consisting of salicylate, ibuprofen, ketoprofen, naproxen, oxaprozin, diclofenac, etodolac, indomethacin, ketorolac, aspirin, and combinations thereof.\n\n32. (Currently Amended) The non-aqueous composition according to claim 26, wherein the NSAID is selected from the group consisting of aspirin, salicylate, diclofenac, naproxen, ibuprofen, indomethacin, and combinations thereof.\n\n33. (Currently Amended) The non-aqueous composition according to claim 26, wherein the bio-compatible oil is selected from the group consisting of lecithin, essential oils, vegetable oils, animal oils, vitamin A, vitamin D, vitamin E, fish oil, and mixtures and combinations thereof.\n\n34. (Currently Amended) The non-aqueous composition according to claim 33, wherein the vegetable oil is selected from the group consisting of peanut oil, canola oil, avocado oil, safflower oil, olive oil, corn oil, soy bean oil, sesame oil, and mixtures and combinations thereof.\n\n35. (Currently Amended) The non-aqueous composition according to claim 26, wherein the bio-compatible oil comprises lecithin as a primary component.\n\n36. (Cancelled)\n\n37. (Previously Presented) The non-aqueous composition of claim 26 further defined as comprising phosphatidylserine, phosphatidylethanolamine, sphingomyelin, dipalmitoylphosphatidylcholine, or combinations thereof.\n\n38. (Cancelled)\n\n39. (Previously Presented) The non-aqueous composition according to claim 26, wherein the composition does not include a solvent.\n\n40. (Previously Presented) The non-aqueous composition according to claim 26, wherein the composition does not include methanol, ethanol, or chloroform.\n\n41. (Currently Amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and aspirin NSAID, said aspirin NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of aspirin NSAID to biocompatible oil carrier of about 5:1 to about 1:5, wherein the biocompatible oil comprises lecithin as a primary component.\n\n42. (Previously Presented) The non-aqueous pharmaceutical composition of claim 41 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\n43. (Cancelled)\n\n44. (Currently Amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and ibuprofen NSAID, said ibuprofen NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of ibuprofen NSAID to non-aqueous biocompatible oil of about 5:1 to about 1:5, wherein the biocompatible oil comprises lecithin as a primary component.\n\n45. (Previously Presented) The non-aqueous pharmaceutical composition of claim 44 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\n46. (Cancelled)\n\n47. (Currently Amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and indomethacin NSAID, said indomethacin NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of indomethacin NSAID to biocompatible oil of about 5:1 to about 1:5, wherein the biocompatible oil comprises lecithin as a primary component.\n\n48. (Previously Presented) The non-aqueous pharmaceutical composition of claim 47 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\n49. (Cancelled)\n\n50. (Currently Amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and salicylate NSAID, said salicylate NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of salicylate NSAID to biocompatible oil of about 5:1 to about 1:5, wherein the biocompatible oil comprises lecithin as a primary component.\n\n51. (Currently Amended) The non-aqueous pharmaceutical composition of claim 50 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\n52. (Cancelled)",
+  "usage": {
+    "input_tokens": 4843,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1480,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 10.37,
+  "cost_usd": 0.00979,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:22:50Z"
+}

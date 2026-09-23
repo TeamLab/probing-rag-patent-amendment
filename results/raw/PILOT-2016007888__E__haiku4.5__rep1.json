@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15740,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e138b2c4d89457d3",
+  "response_text": "1. (Currently amended) A method of using a finger palette to transfer cosmetics from a container to a destination, the method comprising:\na. providing a finger palette including:\ni. a ring portion that is securable to a finger; and\nii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to spread or blend cosmetic product on the surface portion, wherein the surface portion is configured to hold a cosmetic product in a quantity sufficient for multiple applications;\nb. securing the finger palette to a finger;\nc. depositing a cosmetic product onto the surface portion of the finger palette;\nd. spreading or blending the cosmetic product on the surface portion; and\ne. transferring the cosmetic product from the surface portion of the finger palette to a destination in a controlled manner using an applicator tool.\n\n4. (Currently amended) The method of claim 1 wherein:\na. a first quantity of the cosmetic product is deposited onto the surface portion; and\nb. a second quantity of the cosmetic product is transferred from the surface portion to the destination using an applicator tool, the second quantity being smaller than the first quantity, wherein the remaining cosmetic product on the surface portion is retained for subsequent applications.\n\n5. (Original)\n\n6. (Currently amended) The method of claim 1 wherein the surface portion is at least substantially without protrusions extending therefrom, and wherein the surface portion includes a textured or micro-textured finish to facilitate controlled product pickup and application.\n\n7. (Currently amended) The method of claim 1 wherein the surface portion is at least substantially planar and includes a surface treatment that enhances product grip and controlled transfer to the destination.\n\n11. (Currently amended) The method of claim 1 wherein the finger palette is secured to the finger by passing the finger through the ring portion, and wherein the ring portion is sized and configured to remain securely positioned on the finger during the spreading, blending, and transferring steps without rotation or slippage.",
+  "usage": {
+    "input_tokens": 3963,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.8,
+  "cost_usd": 0.00495,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:40:48Z"
+}

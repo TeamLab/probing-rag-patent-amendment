@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019006119",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2019006119",
+  "app_num": "13392596",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15216,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "122cd2d6f17eb94b",
+  "response_text": "8. (Currently Amended) An autograft substitute comprising the cryopreserved acellular dermal matrix which is prepared by the method according to any one of claims 1 to 7, wherein the acellular dermal matrix is produced from allograft skin that has had the epidermis removed and the cells in the dermis decellularized, resulting in a dermal matrix.",
+  "usage": {
+    "input_tokens": 3644,
+    "output_tokens": 79,
+    "total_tokens": 3723
+  },
+  "stop_reason": "stop",
+  "latency_sec": 1.58,
+  "cost_usd": 0.00059,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:43:42Z"
+}

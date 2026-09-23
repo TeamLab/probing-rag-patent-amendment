@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020004768",
+  "condition": "D",
+  "rep": 2,
+  "proceeding_number": "2020004768",
+  "app_num": "14521351",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13420,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0b58c3fb5897b115",
+  "response_text": "1. (Currently amended) A method of treating Argininosuccinate Synthetase Deficiency (ASD), the method comprising administering to a subject in need of treatment a composition comprising [[an]] __a codon-optimized__ mRNA encoding argininosuccinate synthetase (ASS1) __encapsulated within a liposome, wherein the liposome comprises one or more cationic lipids, one or more non-cationic lipids, one or more cholesterol-based lipids and one or more PEG-modified lipids, and wherein the ratio of cationic lipid:non-cationic lipid:cholesterol-based lipid:PEG-modified lipid is approximately 40:30:20:10 by molar ratio,__ at an effective dose and an administration interval such that at least one symptom or feature of [[ASD]] __the ASD__ is reduced in intensity, severity, or frequency or [[has delayed in onset]] __is delayed in onset__.\n\n2. (Previously presented) The method of claim 1, wherein the mRNA is encapsulated within a liposome.\n\n3. (Previously presented) The method of claim 2, wherein the liposome comprises one or more cationic lipids, one or more non-cationic lipids, one or more cholesterol-based lipids and one or more PEG-modified lipids.\n\n4. (Previously presented) The method of claim 3, wherein the one or more cationic lipids comprise a cationic lipid selected from the group consisting of C12-200, MC3, DLinDMA, DLinkC2DMA, cKK-E12, ICE (Imidazol-based), HGT5000, HGT5001, DODAC, DDAB, DMRIE, DOSPA, DOGS, DODAP, DODMA and DMDMA, DODAC, DLenDMA, DMRIE, CLinDMA, CpLinDMA, DMOBA, DOcarbDAP, DLinDAP, DLincarbDAP, DLinCDAP, KLin-K-DMA, DLin-K-XTC2-DMA, HGT4003, and combination thereof.\n\n5. (Previously presented) The method of claim 4, wherein the one or more cationic lipids comprise cKK-E12.\n\n6. (Previously presented) The method of claim 3, wherein the one or more cholesterol-based lipids are cholesterol and/or PEGylated cholesterol.\n\n7. (Currently amended) The method of claim 3, wherein [[the cationic lipid]] __the one or more cationic lipids__ constitute[[s]] about 30-50% of the liposome by weight.\n\n8. (Currently amended) The method of claim 3, wherein the ratio of [[cationic lipid:non-cationic lipid:cholesterol:PEGylated lipid]] __the one or more cationic lipids:the one or more non-cationic lipids:the one or more cholesterol-based lipids:the one or more PEG-modified lipids__ is approximately 40:30:20:10 by molar ratio.\n\n9. (Previously presented) The method of claim 2, wherein the liposome comprises a combination selected from: cKK-E12, DOPE, cholesterol and DMG-PEG2K; C12-200, DOPE, cholesterol and DMG-PEG2K; HGT4003, DOPE, cholesterol and DMG-PEG2K; or ICE, DOPE, cholesterol and DMG-PEG2K.\n\n10. (Previously presented) The method of claim 2, wherein the liposome has a size less than about 100 nm.\n\n11. (Currently amended) The method of claim 1, wherein [[the mRNA is administered at the effective dose ranging from]] __the effective dose ranges from__ about 0.1-5.0 mg/kg body weight.\n\n12. (Previously presented) The method of claim 1, wherein the composition is administered intravenously.\n\n13. (Previously presented) The method of claim 1, wherein the composition is administered once a week.\n\n14. (Cancelled)\n\n15. (Currently amended) The method of claim 1, wherein the administering of the composition results in reduced citrulline level in the subject as compared to the baseline citrulline level before the treatment.\n\n16. (Currently amended) The method of claim 1, wherein the administering of the composition results in reduced ammonia level in the subject as compared to the baseline ammonia level before the treatment.\n\n17. (Previously presented) The method of claim 1, wherein the mRNA is codon optimized.\n\n18. (Previously presented) The method of claim 17, wherein the codon-optimized mRNA comprises SEQ ID NO:3.\n\n19. (Previously presented) The method of claim 1, wherein the mRNA comprises one or more modified nucleotides.\n\n20. (Currently amended) The method of claim 1, wherein the mRNA is unmodified.",
+  "usage": {
+    "input_tokens": 3531,
+    "output_tokens": 1048,
+    "total_tokens": 4579
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.39,
+  "cost_usd": 0.01489,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:14:04Z"
+}

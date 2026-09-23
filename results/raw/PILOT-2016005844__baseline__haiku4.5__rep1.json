@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016005844",
+  "condition": "baseline",
+  "rep": 1,
+  "proceeding_number": "2016005844",
+  "app_num": "14039251",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14297,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9640af0d1c332ef1",
+  "response_text": "1. (Currently amended) A system for identifying malicious threats on a network comprising: a computing device including a processor coupled to a system memory, the system memory storing instructions for execution on the processor, the instructions configured to cause the processor to: retrieve a network data associated with at least one of an IP address or a domain from __an edge router or a border gateway protocol table__; analyze the network data __using a machine learning model trained on historical threat data__ and identify a malicious network threat; and perform a mitigating action to neutralize the malicious network threat __by implementing at least one of null routing, access control list adjustment, bad actor publication, or network isolation__.\n\n2. (Previously presented)\n\n3. (Previously presented)\n\n4. (Previously presented)\n\n5. (Currently amended) The system of claim 1, wherein the instructions are further configured to cause the processor to push a notification including the mitigating action for the malicious network threat to a third party device __only after validating the threat through comparison with historical threat profiles and determining a risk score threshold has been exceeded__.\n\n6. (Previously presented)\n\n7. (Previously presented)\n\n8. (Previously presented)\n\n9. (Previously presented)\n\n10. (Currently amended) A method for identifying malicious threats on a network comprising: retrieving a network data associated with at least one of an IP address or a domain __from an edge router or a border gateway protocol table__; analyzing the network data __using a machine learning model trained on historical threat data__ and identify a malicious network threat; and performing a mitigating action to neutralize the malicious network threat __by implementing at least one of null routing, access control list adjustment, bad actor publication, or network isolation__.\n\n11. (Previously presented)\n\n12. (Previously presented)\n\n13. (Previously presented)\n\n14. (Currently amended) The method of claim 10, further comprising pushing a notification including the mitigating action for the malicious network threat to a third party device __only after validating the threat through comparison with historical threat profiles and determining a risk score threshold has been exceeded__.\n\n15. (Previously presented)\n\n16. (Previously presented)\n\n17. (Previously presented)\n\n18. (Previously presented)",
+  "usage": {
+    "input_tokens": 3723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 481,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.47,
+  "cost_usd": 0.0049,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:11:00Z"
+}

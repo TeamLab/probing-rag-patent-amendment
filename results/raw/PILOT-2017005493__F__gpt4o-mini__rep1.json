@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17283,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ad38da92a0911e20",
+  "response_text": "(Currently Amended) Claim 1: A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member, wherein said columnar body has a cross-section that is non-circular.\n\n(Currently Amended) Claim 2: The lamp of claim 1 wherein a second end of said columnar body is open and is configured to allow for heat dissipation.\n\n(Currently Amended) Claim 5: The lamp of claim 1 wherein said diodes are substantially evenly spaced radially around the columnar body, and wherein at least one diode is positioned on each face of said columnar body.\n\n(Currently Amended) Claim 7: The lamp of claim 1 wherein said columnar body comprises one of a tetragon, pentagon, hexagon, heptagon, octagon, nonagon, decagon, hendecagon, or dodecagon in cross-section, and wherein said columnar body is formed from a material selected from the group consisting of aluminum and copper.\n\n(Currently Amended) Claim 10: The lamp of claim 9 wherein a single diode resides on each face, and wherein said diode is configured to emit light in a direction substantially perpendicular to the face.\n\n(Currently Amended) Claim 11: The lamp of claim 1 wherein said columnar body and said fins are comprised of a material having a thermal conductivity greater than 150 W/mK.\n\n(Currently Amended) Claim 14: The lamp of claim 1 wherein said electronics module comprises a printed circuit board including circuitry for converting AC to DC current, and further including a driver circuit for controlling the operation of said light emitting diodes.\n\n(Currently Amended) Claim 16: A lamp comprising an elongated hollow polygonal body comprised of a material having a thermal conductivity greater than 150 W/mK, a fin extending radially from each corner of said body, a light emitting diode mounted to each side of said body, a screw or wedge base connector closing a first end of said body, a second end of said body being open, an electronics module disposed within said body in electrical communication with said connector and said light emitting diodes, said lamp having a general A19 outline, and wherein said diodes are configured to emit light in a direction substantially perpendicular to the elongated axis of the body.",
+  "usage": {
+    "input_tokens": 3941,
+    "output_tokens": 531,
+    "total_tokens": 4472
+  },
+  "stop_reason": "stop",
+  "latency_sec": 14.29,
+  "cost_usd": 0.00091,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:08:00Z"
+}

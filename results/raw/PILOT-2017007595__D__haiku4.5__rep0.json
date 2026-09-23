@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017007595",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2017007595",
+  "app_num": "11416767",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18898,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b6b21c64e154d76b",
+  "response_text": "1. (Currently amended) A method of providing advertisements in a traffic message comprising:\n- obtaining traffic data having a traffic condition of a location description on a road network using a processor;\n- assessing a location reference code associated with the location description assigned by a traffic message supplier using the processor;\n- assessing an advertising reference code associated with the location reference code using the processor;\n- determining whether the advertising reference code is present using the processor; and\n- generating a traffic message having the location reference code and the advertising reference code when the advertising reference code is present using the processor, wherein the traffic message is transmitted via a physical transmission medium to navigation systems.\n\n2. (Original)\n\n3. (Original)\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)\n\n14. (Currently amended) A method of providing advertisement messages using location reference codes comprising:\n- assessing a location reference code of a location description using a processor;\n- assessing an advertising reference code associated with the location reference code using the processor;\n- generating an advertising message having the advertising reference code using the processor; and\n- providing the advertising message for broadcast to navigation systems via a physical transmission medium.\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)\n\n18. (Original)\n\n19. (Original)\n\n20. (Original)\n\n21. (Original)\n\n22. (Original)\n\n23. (Original)\n\n24. (Original)\n\n25. (Currently amended) A method of providing advertisements comprising:\n- generating a message having an advertising reference code using a processor; and\n- providing the message for broadcast to navigation systems via a physical transmission medium, wherein the advertising reference code comprises a substantially unique code that identifies at least a portion of an advertisement stored and displayed on a recipient device of the message.\n\n26. (Original)\n\n27. (Currently amended) A method of providing advertisements via a traffic channel comprising:\n- generating a message having advertisements using a processor; and\n- serially transmitting the message for broadcast to navigation systems via the traffic channel using a transmission device.\n\n28. (Original)\n\n29. (Currently amended) A method of providing advertisements using location reference codes comprising:\n- receiving a message from a traffic supplier using a processor, wherein the message contains a location reference and an advertising reference code;\n- assessing at least one advertisement associated with the advertising reference code using the processor; and\n- presenting the at least one advertisement to a user of the navigation system at a location based on the location reference code using a display device.\n\n30. (Original)\n\n31. (Original)\n\n32. (Original)\n\n33. (Original)\n\n34. (Original)\n\n35. (Original)\n\n36. (Original)\n\n37. (Original)\n\n38. (Original)\n\n39. (Original)\n\n40. (Original)\n\n41. (Original)\n\n42. (Currently amended) A memory comprising a data structure of traffic message stored on a non-transitory computer-readable medium, wherein the data structure comprises:\na first field having a location reference code associated with a location description on a road segment assigned by a traffic message supplier; and\na second field having an advertising reference code associated with the location reference of the first field, wherein the advertising reference code is associated with at least one advertisement for output on a navigation system.",
+  "usage": {
+    "input_tokens": 4538,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 759,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.96,
+  "cost_usd": 0.00667,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:47:44Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010010196",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2010010196",
+  "app_num": "11949602",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15386,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7a7549936352230b",
+  "response_text": "(Currently amended) Claim 12: A welding wire and container assembly, comprising: a housing consisting essentially of a recyclable material, the housing comprising: a cylindrical wall having a first end and a second end, wherein the cylindrical wall comprises a plurality of triangular portions folded radially inward at the second end to define an end wall; a support structure coupled to the plurality of triangular portions to provide a layered end assembly; and a coil of welding wire disposed in the housing and supported by the support structure at the base of the housing.\n\n(Currently amended) Claim 16: The assembly of claim 12, wherein the triangular portions generally meet at an imaginary central axis located within the cylindrical wall.",
+  "usage": {
+    "input_tokens": 3624,
+    "output_tokens": 138,
+    "total_tokens": 3762
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.92,
+  "cost_usd": 0.00063,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:04:25Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2022001087",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2022001087",
+  "app_num": "15853199",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23347,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9fc704302440e997",
+  "response_text": "1. (Currently Amended) A system for providing security in a computer system, the system comprising:\na hardware entropy source including at least one ring oscillator;\none or more logic circuits physically coupled to the hardware entropy source and configured to receive a plurality of independent first entropy values from the hardware entropy source;\none or more logic circuits physically coupled to receive the plurality of independent first entropy values and configured to apply at least some of the plurality of independent first entropy values to a function to generate a second entropy value;\none or more logic circuits physically coupled to receive the second entropy value and configured to seed a pseudorandom number generator with the second entropy value;\none or more logic circuits physically coupled to the pseudorandom number generator and configured to generate a random number using the pseudorandom number generator seeded with the second entropy value; and\none or more logic circuits physically coupled to receive the random number and configured to produce a block of ciphertext or message authentication code using the random number.\n\n2. (Currently Amended) The system of claim 1, wherein the one or more logic circuits configured to produce the block of ciphertext or message authentication code are further configured to produce the block of ciphertext or message authentication code with a key composed of or derived from the random number.\n\n3. (Currently Amended) The system of claim 1, wherein the one or more logic circuits configured to produce the block of ciphertext or message authentication code are further configured to at least:\nimplement a key-agreement protocol using the random number and in which a key is produced; and\nproduce the block of ciphertext or message authentication code using the key.\n\n4. (Currently Amended) The system of claim 1, wherein the hardware entropy source is a ring oscillator.\n\n5. (Currently Amended) The system of claim 1, wherein the hardware entropy source is a single ring oscillator.\n\n6. (Currently Amended) The system of claim 1, wherein the hardware entropy source comprises a plurality of independent ring oscillators.\n\n7. (Currently Amended) The system of claim 1, wherein the function is a permutation function.\n\n8. (Currently Amended) The system of claim 7, wherein the one or more logic circuits configured to apply at least some of the plurality of independent first entropy values to the function are further configured to:\ndivide the plurality of independent first entropy values into multiple groups of independent first entropy values;\napply the multiple groups of independent first entropy values to the permutation function to generate permuted groups of entropy values; and\nconcatenate the permuted groups of entropy values to generate the second entropy value.\n\n9. (Currently Amended) The system of claim 1, wherein the function is a hash function.\n\n10. (Currently Amended) The system of claim 1, wherein the function is a bit-mixer.\n\n11. (Currently Amended) The system of claim 1, wherein the one or more logic circuits configured to apply at least some of the plurality of independent first entropy values to the function are further configured to selectively apply multiple entropy values of the plurality of independent first entropy values to the function to generate the second entropy value.\n\n12. (Cancelled)\n\n13. (Currently Amended) A method of providing security in a computer system, comprising:\nreceiving a plurality of independent first entropy values from a hardware entropy source including at least one ring oscillator;\napplying at least some of the plurality of independent first entropy values to a function to generate a second entropy value;\nseeding a pseudorandom number generator with the second entropy value;\ngenerating a random number using the pseudorandom number generator seeded with the second entropy value; and\nproducing a block of ciphertext or message authentication code using the random number.\n\n14. (Currently Amended) The method of claim 13, wherein producing the block of ciphertext or message authentication code includes producing the block of ciphertext or message authentication code with a key composed of or derived from the random number.\n\n15. (Currently Amended) The method of claim 13, wherein producing the block of ciphertext or message authentication code includes at least:\nimplementing a key-agreement protocol using the random number and in which a key is produced; and\nproducing the block of ciphertext or message authentication code using the key.\n\n16. (Currently Amended) The method of claim 13, wherein the hardware entropy source is a ring oscillator.\n\n17. (Currently Amended) The method of claim 13, wherein the hardware entropy source is a single ring oscillator.\n\n18. (Currently Amended) The method of claim 13, wherein the hardware entropy source comprises a plurality of independent ring oscillators.\n\n19. (Currently Amended) The method of claim 13, wherein the function is a permutation function.\n\n20. (Currently Amended) The method of claim 19, wherein applying at least some of the plurality of independent first entropy values to the function includes:\ndividing the plurality of independent first entropy values into multiple groups of independent first entropy values;\napplying the multiple groups of independent first entropy values to the permutation function to generate permuted groups of entropy values; and\nconcatenating the permuted groups of entropy values to generate the second entropy value.\n\n21. (Currently Amended) The method of claim 13, wherein the function is a hash function.\n\n22. (Currently Amended) The method of claim 13, wherein the function is a bit-mixer.\n\n23. (Currently Amended) The method of claim 13, wherein applying at least some of the plurality of independent first entropy values to the function includes selectively applying multiple entropy values of the plurality of independent first entropy values to the function to generate the second entropy value.\n\n24. (Cancelled)",
+  "usage": {
+    "input_tokens": 5973,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1227,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.48,
+  "cost_usd": 0.00969,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:07:35Z"
+}

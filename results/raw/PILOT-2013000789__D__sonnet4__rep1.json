@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15686,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a5abbacc282dc51d",
+  "response_text": "1. (Currently amended) A humeral implant comprising a first component removably attached to a second component, __wherein the humeral implant is configured for minimally invasive shoulder replacement surgery__.\n\n2. (Currently amended) The humeral implant of claim 1 wherein said first component is a humeral surface __component__ and said second component is a removably attached stem.\n\n3. (Currently amended) The implant of claim 2 wherein said humeral surface __component__ has a coronal radius of curvature and an axial radius of curvature.\n\n4. (Original) The implant of claim 3 wherein said coronal radius of curvature has a range of 10 to 50 mm.\n\n5. (Original) The implant of claim 3 wherein said axial radius of curvature has a range of from 10 to 50 mm.\n\n6. (Currently amended) The implant of claim 3 wherein said humeral surface __component__ has a depth with a range of from 5 to 40 mm.\n\n7. (Currently amended) The implant of claim 3 wherein said humeral surface __component__ has a thickness with a range of from 0.1 to 10 mm.\n\n8. (Currently amended) The implant of claim 3 wherein a ratio of a depth of said humeral surface __component__ to said coronal radius of curvature is from about 0.7 to about 0.9.\n\n9. (Currently amended) The implant of claim 3 wherein said humeral surface __component__ is spherically or elliptically shaped __and is configured for minimally invasive implantation__.\n\n10. (Currently amended) The implant of claim 3 wherein said humeral surface __component__ is made of a material selected from the group consisting of cobalt chrome alloy, ceramic, metal, and magnet materials.\n\n11. (Currently amended) The implant of claim 3 wherein said humeral surface __component__ further comprises fins or spikes on a concave undersurface of said humeral surface __component__.\n\n12. (Currently amended) The implant of claim 3 further comprising a concave undersurface __of the humeral surface component__ for bony ingrowth material.\n\n13. (Currently amended) The implant of claim 3 wherein said humeral surface __component__ has a smooth articulating surface __and is configured for minimally invasive shoulder replacement surgery__.\n\n14. (Original) The implant of claim 3 wherein said attachable stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n15. (Original) The implant of claim 14 wherein said attachable stem is made of a material selected from the group consisting of titanium, stainless steel, tantalum, porous metal and trabecular metal.\n\n16. (Original) The implant of claim 15 wherein said removably attached stem further comprises a smooth, textured or threaded surface.\n\n17. (Original) The implant of claim 16 wherein said removably attached stem is round, square, or triangular.\n\n18. (Original) The implant of claim 17 wherein said removably attached stem further comprises fins.\n\n19. (Original) The implant of claim 17 wherein said removably attached stem further comprises a bony ingrowth surface.\n\n20. (Currently amended) The implant of claim 2 wherein said removably attached stem __is adapted to have__ a variable length wherein said stem __is configured to__ extend from a lateral cortex of said humerus to a center of a head of said humerus.\n\n21. (Currently amended) The implant of claim 2 wherein said humeral surface __component__ connects to said removably attached stem.\n\n22. (Currently amended) The implant of claim 21 wherein said humeral surface __component__ connects to said removably attached stem by a technique selected from the group consisting of morse taper, and a screw __and wherein the implant is configured for minimally invasive shoulder replacement surgery__.\n\n27. (Currently amended) A glenohumeral joint __implant adapted to be implanted in a glenohumeral joint to provide__ a transhumeral portal along a central axis of a neck of a proximal humerus and __comprising__ an implant.\n\n28. (Currently amended) The glenohumeral joint __implant__ of claim 27 wherein said implant is a humeral implant.\n\n29. (Currently amended) A __humerus bone implant comprising__ a modular implant with a humeral surface __component__ and a stem, wherein said stem is __adapted to be__ anchored in the epiphyseal-metaphyseal portion of __a__ humerus bone.\n\n30. (Currently amended) The __humerus bone implant__ of claim 29 wherein said stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n31. (Currently amended) The __humerus bone implant__ of claim 30 wherein said stem is linear.",
+  "usage": {
+    "input_tokens": 4419,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1143,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 20.2,
+  "cost_usd": 0.0304,
+  "attempts": 1,
+  "timestamp": "2026-04-19T01:08:56Z"
+}

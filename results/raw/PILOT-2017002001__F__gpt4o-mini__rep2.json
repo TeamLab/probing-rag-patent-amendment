@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20734,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "450ae7fb989de601",
+  "response_text": "(Currently Amended) The gas tube arrangement according to claim 13, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, and each contact element is defined by a contact surface that is provided within the second portion.\n\n(Currently Amended) A connector for connecting a CPAP device to a respiratory gas tube arrangement for supplying a respiratory gas to a person, the respiratory gas tube arrangement including a heater, the connector comprising: a first portion that provides a respiratory gas passage; and a second portion that provides integrated contact elements by which power is supplied to the heater, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, and each contact element is defined by a contact surface that is provided within the second portion.",
+  "usage": {
+    "input_tokens": 4602,
+    "output_tokens": 192,
+    "total_tokens": 4794
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.99,
+  "cost_usd": 0.00081,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:44:26Z"
+}

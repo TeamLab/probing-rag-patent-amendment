@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "baseline",
+  "rep": 2,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13695,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "84df9629bbc64371",
+  "response_text": "Claim 1 (Currently amended): A composition, comprising: cavity-generating particles; a thermally conductive binder selected from the group consisting of a thermally conductive epoxy and a premixed solder paste; and a solvent.\n\nClaim 2 (Currently amended): The composition of claim 1, wherein the composition is applied to an electronic component surface selected from the group consisting of a silicon chip and a microelectronic component.\n\nClaim 3 (Currently amended): The composition of claim 2, wherein the solvent is removed during application to the electronic component surface by heating the electronic component surface to a temperature sufficient to vaporize the solvent. \n\nClaim 9 (Currently amended): A composition comprising cavity-generating particles, a binder selected from the group consisting of a thermally conductive epoxy and a premixed solder paste, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles.\n\nClaim 11 (Currently amended): The composition of claim 9, wherein the binder is a thermally conductive premixed solder paste.\n\nClaim 12 (Currently amended): The composition of claim 9, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys, and wherein the cavity generating particles are 8-12 microns in size.\n\nClaim 13 (Currently amended): The composition of claim 9, wherein the cavity generating particles are 30-50 microns in size.\n\nClaim 14 (Currently amended): The composition of claim 9, wherein the cavity generating particles are 100-200 microns in size.",
+  "usage": {
+    "input_tokens": 3532,
+    "output_tokens": 339,
+    "total_tokens": 3871
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.88,
+  "cost_usd": 0.00073,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:24:59Z"
+}

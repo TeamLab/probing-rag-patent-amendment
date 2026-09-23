@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2021001124",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2021001124",
+  "app_num": "14651281",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16167,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cdbca552fc180a72",
+  "response_text": "1. (Currently amended) A method for content optimization, comprising: receiving a rule on probability factor, the rule on probability factor specifying a statistical probability that a piece of content expresses a particular value of a selected content attribute; generating a plurality of pieces of content in accordance with the rule on probability factor; collecting content performance data of the plurality of pieces of content when the plurality of pieces of content are in use; determining, by a processor, an aggregated performance data for the selected content attribute having the particular value based on the content performance data of the plurality of pieces of content; __automatically__ modifying, by the processor, the rule on probability factor based on the aggregated performance data __to iteratively improve content optimization performance__.\n\n2. (Currently amended) The method of claim 1, wherein the selected content attribute is an attribute of a content element, an attribute of a relationship, an attribute of a size or position adjustment, or an attribute of a transition, __and wherein the rule on probability factor is dynamically updated based on real-time performance feedback__.\n\n5. (Currently amended) The method of claim 1, further comprising: determining, by the processor, a deviation value for aggregated performance data the selected content attribute based on the content performance data of the plurality of pieces of content, wherein the modifying step comprises __automatically__ modifying the rule on probability factor based on both the aggregated performance data and the deviation value for the aggregated performance data for the selected content attribute __to optimize future content generation__.\n\n6. (Currently amended) The method of claim 1, further comprising: receiving a set of rules for content generation; identifying a changeable content attribute based on the set of rules for content generation; and composing, by the processor, one or more rules on probability factor for the changeable content attribute, __wherein the composing is performed dynamically based on performance feedback analysis__.\n\n8. (Currently amended) A content optimization system, comprising: a rule management module maintaining a set of rules for content generation, the set of rules comprising a rule on probability factor, the rule on probability factor specifying a statistical probability that a piece of content expresses a particular value of a selected content attribute; a content generation module operative to generate a plurality of pieces of content based on the set of rules, the plurality of pieces of content designed with a particular optimization objective; and a content evaluation module operative to evaluate content performance on reaching the particular optimization objective based on data acquired when the plurality of pieces of content are displayed, wherein the content evaluation module is further operative to determine an aggregated performance data for the selected content attribute having the particular value based on the evaluated content performance, wherein the rule management module is operative to __automatically__ amend the rule on probability factor based on the aggregated content performance data __to iteratively improve optimization performance__.\n\n9. (Currently amended) The system of claim 8, wherein the selected content attribute is an attribute of a content element, an attribute of a relationship, an attribute of a metric adjustment, or an attribute of a transition, __and wherein the rule management module dynamically updates probability factors based on real-time performance analysis__.\n\n10. (Currently amended) The system of claim 8, wherein the content evaluation module is further operative to determine a deviation value for the aggregated performance data for the selected content attribute based on the content performance data of the plurality of pieces of content, and wherein the rule management module is further operative to __automatically__ modify the rule on probability factor based on both the aggregated performance data and the deviation value for the aggregated performance data for the selected content attribute __to optimize future content generation__.\n\n11. (Currently amended) The system of claim 8, wherein the rule management module is further operative to identify a changeable content attribute based on the set of rules for content generation and compose a rule on probability factor for the changeable content attribute, __wherein the composition is performed dynamically based on performance feedback analysis__.\n\n13. (Currently amended) A method comprising: receiving a first rule on probability factor and a second rule on probability factor, the first rule on probability factor defining a statistical probability that a piece of content expresses a first value of a selected content attribute, the second rule on probability factor defining a statistical probability that a piece of content expresses a second value of the selected content attribute, the second value being different from the first value; generating a plurality of pieces of content in accordance with the first rule on probability factor and the second rule on probability factor; collecting content performance data of the plurality of pieces of content when the plurality of pieces of content are in use; determining, by a processor, a first aggregated performance data for the first value of the selected content attribute based on the content performance data of the plurality of pieces of content; determining, by a processor, a second aggregated performance data for the second value of the selected content attribute based on the content performance data of the plurality of pieces of content; and __automatically__ modifying, by the processor, the first rule on probability factor and the second rule on probability factor based on both the first aggregated performance data and the second aggregated performance data __to iteratively improve content optimization performance__.\n\n14. (Currently amended) The method of claim 13, wherein the selected content attribute is an attribute of a content element, an attribute of a relationship, an attribute of a metric adjustment, or an attribute of a transition, __and wherein the probability factors are dynamically updated based on real-time performance feedback__.\n\n15. (Currently amended) The method of claim 13, further comprising: determining, by the processor, a deviation value for the first aggregated performance data for the selected content attribute based on the content performance data of the plurality of pieces of content, wherein the modifying step comprises __automatically__ modifying the first rule on probability factor based on both the first aggregated performance data and the deviation value for the first aggregated performance data for the selected content attribute __to optimize future content generation__.",
+  "usage": {
+    "input_tokens": 3815,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1242,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 15.21,
+  "cost_usd": 0.03008,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:49:37Z"
+}

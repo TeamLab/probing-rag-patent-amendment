@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "baseline",
+  "rep": 0,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15090,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "94132e565c14c3d5",
+  "response_text": "1. (Currently amended) A humeral implant comprising a first component removably attached to a second component, wherein said first component is a humeral surface component and said second component is a removably attached stem component.\n\n2. (Currently amended) The humeral implant of claim 1 wherein said first component is a humeral surface component and said second component is a removably attached stem component.\n\n3. (Currently amended) The implant of claim 2 wherein said humeral surface component has a coronal radius of curvature and an axial radius of curvature.\n\n9. (Currently amended) The implant of claim 3 wherein said humeral surface component is spherically or elliptically shaped.\n\n20. (Currently amended) The implant of claim 2 wherein said removably attached stem component has a variable length adapted to extend from a lateral cortex of said humerus to a center of a head of said humerus.\n\n21. (Currently amended) The implant of claim 2 wherein said humeral surface component connects to said removably attached stem component.\n\n22. (Currently amended) The implant of claim 21 wherein said humeral surface component connects to said removably attached stem component by a technique selected from the group consisting of morse taper, and a screw mechanism. \n\n29. (Currently amended) A humerus bone implant comprising a modular implant with a humeral surface component and a stem component, wherein said stem component is adapted to be anchored in the epiphyseal-metaphyseal portion of said humerus bone.",
+  "usage": {
+    "input_tokens": 3814,
+    "output_tokens": 307,
+    "total_tokens": 4121
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.22,
+  "cost_usd": 0.00076,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:49:31Z"
+}

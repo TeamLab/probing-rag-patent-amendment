@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2015000199",
+  "condition": "baseline",
+  "rep": 1,
+  "proceeding_number": "2015000199",
+  "app_num": "12887121",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18974,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c87c9138af4e24c4",
+  "response_text": "1. (Currently amended) A method for restoring efficiency of a photovoltaic cell that has undergone light-induced degradation, the method comprising: illuminating a photovoltaic cell such that the photovoltaic cell receives a time integrated irradiance equivalent to at least 5 hours of solar illumination, wherein the illuminating step induces measurable photodegradation in the photovoltaic cell; and annealing the photovoltaic cell at a temperature above 90 degrees Celsius for a minimum of 10 minutes, the annealing in response to illuminating the photovoltaic cell, wherein the annealing step reverses at least a portion of the light-induced degradation.\n\n2. (Currently amended) The method of Claim 1, wherein the photovoltaic cell comprises a semiconductor wafer, and further wherein one of the following conditions is satisfied: the photovoltaic cell receives a time integrated irradiance equivalent to at least 20 hours of solar illumination during the illuminating step; the photovoltaic cell receives a time integrated irradiance equivalent to at least 16 hours of solar illumination during the illuminating step while simultaneously being heated to at least 50 degrees Celsius during the annealing step; or the photovoltaic cell is irradiated in sunlight using a solar concentrator for at least 10 hours during the illuminating step, and wherein the solar concentrator increases the irradiance of solar illumination on the photovoltaic cell by a factor of 2 to 5.\n\n3. (Currently amended) The method of Claim 2, wherein the photovoltaic cell is annealed at a temperature above 130 degrees Celsius, and wherein annealing the photovoltaic cell further comprises simultaneously illuminating the photovoltaic cell during the annealing step.\n\n4. (Currently amended) The method of Claim 3, wherein illuminating the photovoltaic cell while annealing the photovoltaic cell is performed such that the photovoltaic cell receives a time integrated irradiance equivalent to at least 10 minutes of solar illumination during the simultaneous illumination and annealing step.\n\n5. (Original) The method of Claim 1, wherein the semiconductor wafer is a silicon semiconductor wafer.\n\n6. (Original) The method of Claim 1, wherein the photovoltaic cell is annealed at a temperature between 140 degrees Celsius and 210 degrees Celsius for a minimum of 2 hours.\n\n7. (Original) The method of Claim 6, wherein the photovoltaic cell is a thin film photovoltaic cell.\n\n8. (Original) The method of Claim 6, wherein the photovoltaic cell is an amorphous silicon thin film photovoltaic cell.\n\n9. (Currently amended) The method of Claim 1, wherein the photovoltaic cell is illuminated after manufacturing of the photovoltaic cell is complete and the photovoltaic cell has undergone light-induced degradation such that the photovoltaic cell produces less electricity when illuminated compared to its initial post-manufacture performance.\n\n10. (Original) The method of Claim 1, wherein the photovoltaic cell is illuminated with a light source that simulates light from the sun.",
+  "usage": {
+    "input_tokens": 5301,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 739,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.56,
+  "cost_usd": 0.0072,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:31:04Z"
+}

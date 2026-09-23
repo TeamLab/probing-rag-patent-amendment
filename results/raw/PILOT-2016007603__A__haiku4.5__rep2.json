@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016007603",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2016007603",
+  "app_num": "12165025",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12296,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a46afe0e8c62913b",
+  "response_text": "1. (Currently amended) An alarm system comprising: a physiological monitor capable of triggering a first alarm in response to an alarm condition; __a remote station in communication with the physiological monitor; and a processor programmed to send an output from the physiological monitor to the remote station that triggers a second alarm, wherein the first alarm and second alarm operate according to an escalation protocol that escalates the first alarm to an escalated alarm upon failure to acknowledge either the first or second alarm within a predetermined time period__.\n\n2. (Currently amended) The system of claim 1, wherein __the escalated alarm__ is capable of being acknowledged by an operator input before expiration of a timer.\n\n3. (Currently amended) The system of claim 1, wherein the first alarm comprises an inaudible alarm __and the second alarm comprises an audible alarm__.\n\n4. (Currently amended) The system of claim 1, wherein the escalated alarm comprises an audible alarm __that is triggered at a remote wireless device__.\n\n5. (Currently amended) The system of claim 1, wherein the first alarm comprises an audible alarm and the escalated alarm comprises an audible alarm that is louder than the first alarm __and is transmitted to a remote wireless device__.\n\n6. (Currently amended) The system of claim 1, wherein the first alarm and the second alarm are triggered substantially simultaneously __in response to the same alarm condition__.\n\n7. (Currently amended) The system of claim 1, wherein the station located remotely from the physiological monitor is part of a central patient management system __that receives the output and triggers the second alarm independent of the physiological monitor__.\n\n16. (Currently amended) A system comprising: a processor programmed to trigger an alarm in response to an alarm condition and to manage an escalation protocol; a memory capable of storing alarm data associated with the alarm, wherein the alarm data comprises an alarm type, a time that the alarm was triggered, __an escalation level, and acknowledgement status__; and a display capable of displaying the alarm data __including the escalation level and acknowledgement status__.\n\n17. (Currently amended) The system of claim 16, wherein the system is part of a physiological monitor or a central management system __that implements the escalation protocol across multiple alarm instances__.\n\n18. (Currently amended) The system of claim 16, wherein the alarm data comprises information about a level of escalation of the alarm __determined by the processor based on acknowledgement status and elapsed time__.\n\n19. (Currently amended) The system of claim 16, wherein the alarm data comprises information about an acknowledgement of the alarm __including which of multiple alarm sources was acknowledged__.\n\n20. (Currently amended) The system of claim 16, wherein the processor is programmed to send the alarm data to one or more wireless devices __only when the alarm escalates to the escalated alarm level__.",
+  "usage": {
+    "input_tokens": 3189,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 612,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.49,
+  "cost_usd": 0.005,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:23:19Z"
+}

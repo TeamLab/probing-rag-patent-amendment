@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2011007474",
+  "condition": "D",
+  "rep": 2,
+  "proceeding_number": "2011007474",
+  "app_num": "11613859",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15284,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "40bdf65a73fcdcc5",
+  "response_text": "1. (Currently amended) A method comprising:\nreceiving requests and data records from a plurality of creditors to file __proofs of claims for debts owed by debtors to the creditors as__ bankruptcy documents with a plurality of different bankruptcy organizations;\nautomatically generating the bankruptcy documents with the received data records, wherein the bankruptcy documents are suitable for filing with different bankruptcy organizations; and\nbatch filing the bankruptcy documents with the different bankruptcy organizations.\n\n2. (Currently amended) The method of claim 1 wherein the different bankruptcy organizations are different __bankruptcy__ courts with different filing system configurations.\n\n6. (Previously presented) A method comprising:\nreceiving requests from a plurality of creditors to file proofs of claims for debts owed by debtors to the creditors with a plurality of different bankruptcy organizations, wherein each request includes a data record for generating a proof of claim;\nautomatically generating the proofs of claims with the received data records, wherein the proofs of claims are suitable for filing with different bankruptcy organizations; and\nbatch filing the proofs of claims with the different bankruptcy organizations.\n\n7. (Previously presented) The method of claim 6 wherein the different bankruptcy organizations are different bankruptcy courts having different filing system configurations.\n\n8. (Currently amended) The method of claim 6 further comprising sending bankruptcy notification messages to the plurality of creditors, wherein the bankruptcy notification messages notify the creditors that various debtors have __newly__ filed for bankruptcy.\n\n9. (Previously presented) The method of claim 6 wherein receiving requests from the plurality of creditors comprises receiving the requests using a secure file transfer protocol.\n\n10. (Previously presented) The method of claim 6 wherein receiving requests comprises receiving requests via a Web site.\n\n11. (Previously presented) The method of claim 6 where batch filing comprises aggregating the proofs of claims and filing the proofs of claims in a batch mode at least once per day.\n\n12. (Previously presented) The method of claim 6 further comprising:\ngenerating a report; and\nsending the report to a particular creditor.\n\n13. (Previously presented) The method of claim 12 wherein generating the report comprises enabling a user to request the report using a Web site.\n\n14. (Previously presented) The method of claim 12 wherein generating the report comprises generating an aging report specifying a reason some proofs of claims have not been filed.\n\n15. (Previously presented) The method of claim 12 further comprising receiving a filing receipt for a filed proof of claim.\n\n16. (Previously presented) The method of claim 6 wherein batch filing is performed by a server computer.\n\n17. (Previously presented) The method of claim 6 further comprising validating the data record.",
+  "usage": {
+    "input_tokens": 4037,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 585,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 12.1,
+  "cost_usd": 0.02089,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:57:51Z"
+}

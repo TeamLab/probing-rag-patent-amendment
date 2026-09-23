@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "E",
+  "rep": 0,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13820,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "733b80c91bd3bce2",
+  "response_text": "Claim 1 (Currently amended): A composition, comprising: cavity-generating particles; a thermally conductive binder selected from the group consisting of a thermally conductive epoxy and a premixed solder paste; and a solvent.\n\nClaim 2 (Currently amended): The composition of claim 1, wherein the composition is applied to a surface of an electronic component.\n\nClaim 3 (Currently amended): The composition of claim 2, wherein the solvent is removed during application to the surface of the electronic component. \n\nClaim 9 (Currently amended): A composition comprising cavity-generating particles, a binder, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles, wherein the binder is selected from the group consisting of a thermally conductive epoxy and a premixed solder paste.\n\nClaim 10 (Currently amended): The composition of claim 9, wherein the carrier is selected from the group comprising ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, FC-72, or FC-87.\n\nClaim 12 (Currently amended): The composition of claim 9, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys.\n\nClaim 13 (Currently amended): The composition of claim 9, wherein the cavity generating particles are 8-12 μm in size.\n\nClaim 14 (Currently amended): The composition of claim 9, wherein the cavity generating particles are 30-50 μm in size.\n\nClaim 15 (Currently amended): The composition of claim 9, wherein the cavity generating particles are 100-200 μm in size.\n\nClaim 16 (Currently amended): A composition of matter comprising carrier, binder, and cavity generating particles, wherein said composition of matter contains, in relative proportion: about 10 ml carrier; about 0.5 to 0.8 grams binder selected from the group consisting of a thermally conductive epoxy and a premixed solder paste; and about 1 gram of cavity generating particles.\n\nClaim 19 (Currently amended): The composition of claim 16, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys.\n\nClaim 20 (Currently amended): The composition of claim 16, wherein the cavity generating particles are 8-12 μm in size.\n\nClaim 21 (Currently amended): The composition of claim 16, wherein the cavity generating particles are 30-50 μm in size.\n\nClaim 22 (Currently amended): The composition of claim 16, wherein the cavity generating particles are 100-200 μm in size.",
+  "usage": {
+    "input_tokens": 3554,
+    "output_tokens": 560,
+    "total_tokens": 4114
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.4,
+  "cost_usd": 0.00087,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:24:05Z"
+}

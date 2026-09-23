@@ -1,0 +1,11 @@
+file	case	cond	rep	c1	c1_recall	c1_prec	c1_f1	n_claims	skipped_no_gen	skipped_no_rejected	reason
+PILOT-2014009970__baseline__gpt5.4__rep0.json	PILOT-2014009970	baseline	0	0.0	0.0	0.0	0.0	9	0	0	
+PILOT-2017000071__baseline__gpt5.4__rep0.json	PILOT-2017000071	baseline	0	None							no_baseline
+PILOT-2017001422__baseline__gpt5.4__rep0.json	PILOT-2017001422	baseline	0	0.0	0.0	0.0	0.0	2	0	0	
+PILOT-2017003676__baseline__gpt5.4__rep0.json	PILOT-2017003676	baseline	0	0.0919	0.1393	0.1353	0.1338	12	7	0	
+PILOT-2017005259__baseline__gpt5.4__rep0.json	PILOT-2017005259	baseline	0	0.0	0.0	0.0	0.0	12	0	0	
+PILOT-2017005493__baseline__gpt5.4__rep0.json	PILOT-2017005493	baseline	0	0.0278	0.0625	0.037	0.0432	20	0	0	
+PILOT-2017010632__baseline__gpt5.4__rep0.json	PILOT-2017010632	baseline	0	0.0651	0.275	0.0728	0.1152	2	0	0	
+PILOT-2018001232__baseline__gpt5.4__rep0.json	PILOT-2018001232	baseline	0	0.0	0.0	0.0	0.0	16	0	0	
+PILOT-2018005420__baseline__gpt5.4__rep0.json	PILOT-2018005420	baseline	0	0.0496	0.0809	0.1185	0.0894	25	0	0	
+PILOT-2018005863__baseline__gpt5.4__rep0.json	PILOT-2018005863	baseline	0	0.0086	0.0093	0.0707	0.016	25	0	0	

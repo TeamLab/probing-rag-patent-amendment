@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012005674",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2012005674",
+  "app_num": "11677766",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 26143,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f2566b9b695be5e9",
+  "response_text": "(Currently Amended) A method for generating a superframe preamble for a superframe, the superframe preamble comprising a plurality of symbols, in an orthogonal frequency division multiplexing (OFDM) network, comprising: for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed over a portion of the carrier; and for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel.\n\n(Currently Amended) The method as set forth in Claim 1, the first set of subcarriers distributed uniformly over a portion of the carrier.\n\n(Currently Amended) The method as set forth in Claim 1, the first set of subcarriers distributed non-uniformly over a portion of the carrier, according to a pre-determined pattern.\n\n(Currently Amended) The method as set forth in Claim 1, the second set of subcarriers distributed over a portion of the carrier.\n\n(Currently Amended) The method as set forth in Claim 1, further comprising, for a second one of the symbols, allocating substantially all the subcarriers to the second broadcast channel.\n\n(Currently Amended) The method as set forth in Claim 1, the first broadcast channel comprising a first primary broadcast channel operable to carry system information, and the second broadcast channel comprising a second primary broadcast channel operable to carry quick Page and control information.\n\n(Currently Amended) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed over a portion of the carrier.\n\n(Currently Amended) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed uniformly over a portion of the carrier.\n\n(Currently Amended) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed non-uniformly over a portion of the carrier, according to a pre-determined pattern.",
+  "usage": {
+    "input_tokens": 5851,
+    "output_tokens": 416,
+    "total_tokens": 6267
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.73,
+  "cost_usd": 0.00113,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:28:23Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14291,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e2643795aa0583b4",
+  "response_text": "1. (Currently amended) A composition, comprising: cavity-generating particles having a size of 100-200 micrometers; a thermally conductive binder; and a solvent.\n\n2. (Currently amended) The composition of claim 1, wherein the composition is applied to an electronic component surface and forms boiling nucleation sites to enhance heat transfer.\n\n3. (Original) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface.\n\n9. (Currently amended) A composition comprising cavity generating particles of 100-200 micrometers in size, a binder, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles.\n\n10. (Original) The composition of claim 9, wherein the carrier is selected from the group comprising ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, FC-72, or FC-87.\n\n12. (Original) The composition of claim 9, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys.\n\n13. (Cancelled)\n\n14. (Cancelled)\n\n16. (Currently amended) A composition of matter comprising carrier, binder, and cavity generating particles of 100-200 micrometers in size, wherein said composition of matter contains, in relative proportion: about 10 ml carrier; about 0.5 to 0.8 grams binder; and about 1 gram of cavity generating particles.\n\n17. (Original) The composition of claim 16, wherein the carrier is selected from the group comprising ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, FC-72, or FC-87.\n\n19. (Original) The composition of claim 16, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys.\n\n20. (Cancelled)\n\n21. (Cancelled)",
+  "usage": {
+    "input_tokens": 4106,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.72,
+  "cost_usd": 0.00515,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:26:17Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016004446",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2016004446",
+  "app_num": "11920521",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 9568,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "91550b43a82df596",
+  "response_text": "1. Claim 4 (Original)\n\n2. Claim 5 (Currently Amended): Use of the composition of claim 1 for preparation of a blocking vaccine __comprising fucose mannose ligand (FML) fraction from Leishmania promastigotes or Leishmania amastigotes and saponin, wherein the vaccine is administered to humans and induces production of blocking antibodies that impede Leishmania transmission__.\n\n3. Claim 6 (Currently Amended): Use of the composition of claim 1 for preparation of a reagent __comprising fucose mannose ligand (FML) fraction from Leishmania promastigotes or Leishmania amastigotes and saponin, wherein the reagent is used to detect blocking antibodies in human serum samples that correlate with impeding Leishmaniasis transmission__.\n\n4. Claim 7 (Currently Amended): The composition of claim 1, __wherein the Leishmania promastigotes or Leishmania amastigotes fractions called \"Fucose Mannose Ligand\" (FML) comprise a glycoprotein complex containing 29% of neutral sugar, 44% of protein, 11% of phosphate and hexoamines traces composed by protein bands with molecular weight ranging from 9 to 95 kDa, some protein bands having carbohydrates at 36 and 54 to 68 kDa, the FML glycidic portion presenting 10% of fucose and 47% of mannose, 30% of glucose, 12% of galactose and xylose traces, amino acids containing 10 to 20% of glutamic acid, alanine, aspartic acid and glycine, 5 to 10% of serine, histidine, lysine, leucine, threonine, proline and valine, and 2 to 5% of arginine, methionine, isoleucine, tyrosine and phenylalanine, derived from Leishmania species other than Leishmania donovani__.",
+  "usage": {
+    "input_tokens": 2821,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.41,
+  "cost_usd": 0.00416,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:32:52Z"
+}

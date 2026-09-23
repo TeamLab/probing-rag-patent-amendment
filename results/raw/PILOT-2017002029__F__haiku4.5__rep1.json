@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18264,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6bae35c446779b0f",
+  "response_text": "Claim 1 (Currently Amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, wherein the non-native compartment is not derived from a naturally occurring pdu organelle from Citrobacter freundii or a naturally occurring eut organelle from Salmonella enterica.\n\nClaim 2 (Original) The cell of claim 1 wherein the non-native compartment is self-assembled in vivo.\n\nClaim 3 (Original) The cell of claim 1 wherein the non-native compartment further comprises at least one targeted enzyme.\n\nClaim 4 (Original) The cell of claim 3 wherein the non-native compartment comprises a plurality of different targeted enzymes.\n\nClaim 5 (Currently Amended) The cell of claim 3 or claim 4 wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence __and wherein the targeted enzyme is not a propanediol utilization enzyme or an ethanolamine utilization enzyme__.\n\nClaim 6 (Currently Amended) The cell of claim 1 or any preceding claim wherein the BMC polypeptide comprises a Eut polypeptide __and wherein the Eut polypeptide is from a source other than Salmonella enterica__.\n\nClaim 7 (Currently Amended) The cell of claim 6 wherein the Eut polypeptide comprises a EutS polypeptide __and wherein the EutS polypeptide is from a source other than Salmonella enterica__.\n\nClaim 8 (Currently Amended) The cell of claim 1 or any preceding claim wherein the proteinaceous shell comprises a plurality of different BMC polypeptides __and wherein at least one of the plurality of different BMC polypeptides is heterologous to the host cell__.\n\nClaim 9 (Original) The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different bacterial species.\n\nClaim 10 (Currently Amended) The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different BMC operons __and wherein the different BMC operons are not all from a single naturally occurring pdu or eut operon__.\n\nClaim 11 (Currently Amended) The cell of claim 1 or any preceding claim wherein at least one BMC polypeptide comprises an affinity tag __and wherein the affinity tag is used for purification of the non-native compartment__.\n\nClaim 12 (Currently Amended) A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide, __wherein the polynucleotide is heterologous to the host cell and the method is used to engineer a metabolic capability in the host cell that is not naturally present in the host cell__.\n\nClaim 13 (Original) The method of claim 12 wherein the host cell comprises a bacterium.\n\nClaim 14 (Original) The method of claim 13 wherein the bacterium comprises a member of the family Enterobacteriaceae.\n\nClaim 15 (Original) The method of claim 14 wherein the member of the family Enterobacteriaceae comprises E. coli.\n\nClaim 16 (Currently Amended) The method of claim 13 wherein the bacterium comprises a member of the family Shewanellaceae __and wherein the polynucleotide encoding BMC polypeptides is heterologous to the Shewanellaceae__.\n\nClaim 17 (Currently Amended) The method of claim 12 wherein the host cell comprises a yeast __and wherein the BMC polypeptides are heterologous to the yeast__.\n\nClaim 18 (Original) The method of claim 17 wherein the yeast comprises a member of the family Saccharomycetaceae.\n\nClaim 19 (Original) The method of claim 18 wherein the member of the family Saccharomycetaceae comprises Saccharomyces cerevisiae.\n\nClaim 20 (Currently Amended) The method of claim 12 wherein the host cell comprises an alga __and wherein the polynucleotide encoding BMC polypeptides is heterologous to the alga__.\n\nClaim 21 (Currently Amended) A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, and at least one enzyme that catalyzes conversion of a substrate to a product; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product, __wherein the product is produced at an increased level or with increased efficiency compared to the same conversion in the absence of the non-native compartment__.\n\nClaim 22 (Original) The method of claim 21 wherein the product comprises a bioactive product.\n\nClaim 23 (Original) The method of claim 21 wherein the product comprises a drug or a drug precursor.\n\nClaim 24 (Original) The method of claim 21 wherein the product comprises a biofuel or a precursor of biofuel production.\n\nClaim 25 (Original) The method of claim 21 wherein the at least one enzyme catalyzes a step in degrading or detoxifying a toxic substrate.\n\nClaim 26 (Original) The method of claim 21 further comprising isolating at least a portion of the non-native compartments.\n\nClaim 27 (Original) The method of claim 26 wherein at least a portion of the non-native compartment comprise an affinity tag and isolating at least a portion of the non-native compartments comprises contacting a sample comprising the non-native compartments with an affinity substrate having selective affinity for the affinity tag.\n\nClaim 28 (Currently Amended) The cell of claim 1 or any of claims 2-11 comprising a plurality of compartments __wherein the plurality of compartments are engineered non-native compartments__.",
+  "usage": {
+    "input_tokens": 5167,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1470,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.29,
+  "cost_usd": 0.01001,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:47:09Z"
+}

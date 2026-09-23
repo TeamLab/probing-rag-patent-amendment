@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020006264",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020006264",
+  "app_num": "15040495",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15891,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b36caa51c71fd872",
+  "response_text": "1. (Currently amended) A method __performed by a processor__, comprising: determining that a benefit payment is due to be made to a recipient; accessing a data store containing records of payment transactions made by the recipient; receiving an indication from the data store that the recipient had successfully performed a biometric user authentication with respect to at least one of the payment transactions; accepting the received indication as proof-of-life with respect to the recipient; and making the benefit payment to the recipient in response to said proof-of-life.\n\n2. (Previously presented) The method of claim 1, wherein said at least one payment transaction occurred during a pre-determined period of time prior to said accessing step.\n\n3. (Previously presented) The method of claim 2, wherein said pre-determined period of time is seven days.\n\n4. (Previously presented) The method of claim 2, wherein said pre-determined period of time is 24 hours.\n\n5. (Currently amended) The method of claim 1, wherein the benefit payment is a social insurance transfer payment __made via an electronic monetary transfer to an account owned by the recipient__.\n\n6. (Currently amended) The method of claim 1, wherein the at least one of the payment transactions includes a credit card account transaction and/or a debit card account transaction __initiated using a mobile device by the recipient__.\n\n7. (Cancelled)\n\n8. (Previously presented) The method of claim 1, wherein the benefit payment is made via an electronic monetary transfer to an account owned by the recipient.\n\n9. (Cancelled)\n\n10. (Currently amended) A method __performed by a processor__, comprising: determining that a benefit payment is due to be made to a recipient; accessing, at a first point in time, a data store containing records of payment transactions made by the recipient; determining that the data store contains an indication that the recipient had successfully performed a biometric user authentication most recently with respect to one of said payment transactions at a second point in time earlier than the first point in time; comparing a time interval defined by the second and first points in time with a pre-determined permissive time interval; making the benefit payment, without requiring proof-of-life authentication of the recipient, in a case where the time interval defined by the second and first points in time does not exceed the pre-determined permissive time interval; and requiring proof-of-life authentication of the recipient, prior to making the benefit payment, in a case where the time interval defined by the second and first points in time exceeds the pre-determined permissive time interval.\n\n11. (Previously presented) The method of claim 10, wherein the pre-determined permissive time interval is seven days.\n\n12. (Previously presented) The method of claim 10, wherein the pre-determined permissive time interval is 24 hours.\n\n13. (Currently amended) The method of claim 10, wherein the benefit payment is a social insurance transfer payment __made via an electronic monetary transfer to an account owned by the recipient__.\n\n14. (Currently amended) An apparatus comprising: a processor; and a memory in communication with the processor, the memory storing program instructions, the processor operative with the program instructions to perform functions as follows: determining that a benefit payment is due to be made to a recipient; accessing a data store containing records of payment transactions made by the recipient; receiving an indication from the data store that the recipient had successfully performed a biometric user authentication with respect to at least one of the payment transactions; accepting the received indication as proof-of-life with respect to the recipient; and making the benefit payment to the recipient in response to said proof-of-life __via an electronic monetary transfer to an account owned by the recipient__.\n\n15. (Previously presented) The apparatus of claim 14, wherein said at least one payment transaction occurred during a pre-determined period of time prior to said accessing.\n\n16. (Previously presented) The apparatus of claim 15, wherein said pre-determined period of time is seven days.\n\n17. (Previously presented) The apparatus of claim 15, wherein said pre-determined period of time is 24 hours.\n\n18. (Previously presented) The apparatus of claim 14, wherein the benefit payment is a social insurance transfer payment.\n\n19. (Currently amended) The apparatus of claim 14, wherein the at least one of the payment transactions includes a credit card account transaction and/or a debit card account transaction __initiated using a mobile device by the recipient__.\n\n20. (Cancelled)",
+  "usage": {
+    "input_tokens": 3622,
+    "output_tokens": 916,
+    "total_tokens": 4538
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.81,
+  "cost_usd": 0.01369,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:50:27Z"
+}

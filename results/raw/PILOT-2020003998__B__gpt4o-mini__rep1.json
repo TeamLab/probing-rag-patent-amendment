@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 64634,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "eaf1f44d5cf04ee8",
+  "response_text": "Claim 281 (Currently amended): A cutting blade comprising: a blade core having a support wall extending from a driving portion to a perimeter portion; at least one working element supported by the support wall at the perimeter portion; and a nozzle in the support wall between the driving portion and the perimeter portion and including a wall defining an opening facing outward from the support wall, wherein the nozzle is supported in a nozzle body, and the nozzle body is supported in the support wall of the blade core, and wherein the nozzle wall is a first wall defining a first opening and wherein the nozzle includes a second wall defining a second opening facing outward in a second direction from the support wall.\n\nClaim 282 (Currently amended): The cutting blade of claim 281, wherein the nozzle is supported in a nozzle body, wherein the nozzle body is supported in the support wall of the blade core, and wherein the nozzle wall is a first wall defining a first opening and wherein the nozzle includes a second wall defining a second opening facing outward in a second direction from the support wall.\n\nClaim 283 (Currently amended): The cutting blade of claim 282, wherein the first adhesive layer is configured to be cured on the first layer, and the second adhesive layer is configured to be cured on the second layer.\n\nClaim 284 (Currently amended): The cutting blade of claim 283, wherein the first adhesive layer and the second adhesive layer are configured to be cured to each other.\n\nClaim 290 (Currently amended): The cutting blade of claim 281, wherein the blade core includes a side surface and at least one of the nozzles has a nozzle side surface at least partly in the plane of the blade core side surface and wherein the nozzle includes a second side surface raised from the plane of the blade core.\n\nClaim 291 (Currently amended): The cutting blade of claim 290, wherein the ring includes a central opening.\n\nClaim 293 (Currently amended): The cutting blade of claim 281, wherein the medial section comprises a metal.\n\nClaim 294 (Currently amended): The cutting blade of claim 293, wherein the metal is a honeycomb structure.",
+  "usage": {
+    "input_tokens": 14097,
+    "output_tokens": 426,
+    "total_tokens": 14523
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.3,
+  "cost_usd": 0.00237,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:26:48Z"
+}

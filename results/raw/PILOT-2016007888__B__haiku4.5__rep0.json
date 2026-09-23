@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15583,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a571981339ceea37",
+  "response_text": "1. (Currently amended) A method of using a finger palette to transfer cosmetics from a container to a destination, comprising:\na. the finger palette including:\ni. a ring portion that is securable to a finger; and\nii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to spread or blend cosmetic product on the surface portion;\nb. the method including the steps of:\ni. securing the finger palette to a finger;\nii. depositing a cosmetic product onto the surface portion of the finger palette __using an applicator tool__; and\niii. transferring the cosmetic product from the surface portion of the finger palette to a destination __using a brush or sponge applicator__.\n\n4. (Currently amended) The method of claim 1 wherein:\na. a first quantity of the cosmetic product is deposited onto the surface portion; and\nb. a second quantity of the cosmetic product is transferred from the surface portion to the destination, the second quantity being smaller than the first quantity, __wherein the cosmetic product remaining on the surface portion after transfer is intentionally retained for blending with an additional cosmetic product__.\n\n5. (Original)\n\n6. (Currently amended) The method of claim 1 wherein the surface portion is at least substantially without protrusions extending therefrom __and is configured to allow uninterrupted scraping motion of an applicator across the entire surface portion__.\n\n7. (Currently amended) The method of claim 1 wherein the surface portion is at least substantially planar __and extends outwardly from a surface center to an outer perimeter without any recessed areas or trapping features__.\n\n11. (Currently amended) The method of claim 1 wherein the finger palette is secured to the finger by passing the finger through the ring portion __such that the ring portion is removably and replaceably securable to the finger__.\n\n2. (Currently amended) The method of claim 1 further including the step of removing the cosmetic product from the container __using a dedicated removal instrument__ before depositing the cosmetic product onto the surface portion of the finger palette.\n\n12. (Currently amended) The method of claim 1 wherein:\na. the cosmetic product is a first cosmetic product; and\nb. the method further includes the step of depositing a second cosmetic product onto the surface portion of the finger palette __in a non-overlapping segment from the first cosmetic product__.\n\n13. (Currently amended) The method of claim 12 wherein:\na. the first cosmetic product is deposited on a first segment of the surface portion; and\nb. the second cosmetic product is deposited on a non-overlapping second segment of the surface portion __such that the first and second cosmetic products remain visually distinct prior to blending__.\n\n14. (Currently amended) The method of claim 12 further including the step of blending the first cosmetic product with the second cosmetic product on the surface portion to obtain a blended cosmetic product __using a blending instrument separate from the removal instruments__.\n\n15. (Original)\n\n18. (Currently amended) A method of using a finger palette to transfer cosmetics from a container to a work surface, comprising:\na. the finger palette including:\ni. a ring portion configured to be removably and replaceably securable to a finger; and\nii. a surface portion secured to the ring portion, the surface portion extending outwardly from a surface center to an outer perimeter, wherein the surface portion is at least substantially smooth so as to allow a user to scrape an applicator past the surface center in an uninterrupted motion while spreading or blending cosmetic product over the entirety of the surface portion;\nb. the method including the steps of:\ni. securing the finger palette to a finger by passing the finger through the ring portion;\nii. dispensing cosmetic product from a cosmetics container __using a first dedicated dispensing instrument__ and placing a first quantity of the dispensed cosmetic product onto the surface portion of the finger palette;\niii. removing cosmetic product from the surface portion of the finger palette __using a second dedicated removal instrument__; and\niv. applying a second quantity of the removed cosmetic product to a destination, the second quantity being smaller than the first quantity, __wherein the cosmetic product remaining on the surface portion is intentionally retained for subsequent blending or application__.\n\n20. (Currently amended) The method of claim 18 wherein:\na. the cosmetic product is dispensed from the cosmetics container using a first instrument;\nb. the cosmetic product is removed from the surface portion using a second instrument; and\nc. the removed cosmetic product is applied to the destination using the second instrument __or a third instrument, and further including the steps of: i. dispensing a second cosmetic product from a second cosmetics container and placing a third quantity of the dispensed second cosmetic product onto the surface portion of the finger palette in a non-overlapping segment from the first cosmetic product; and ii. blending the first cosmetic product on the surface portion with the second cosmetic product on the surface portion to obtain a blended cosmetic product, wherein the cosmetic product applied to the destination is the blended cosmetic product__.",
+  "usage": {
+    "input_tokens": 3895,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1150,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 8.76,
+  "cost_usd": 0.00772,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:40:05Z"
+}

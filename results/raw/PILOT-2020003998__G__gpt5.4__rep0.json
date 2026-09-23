@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 69754,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "54a485b8dcd52bf8",
+  "response_text": "281. (Currently amended) A tool comprising: a lamination of at least two layers and at least two adhesive layers, the tool comprising first and second layers, a first adhesive layer configured to be cured on the first layer, a second adhesive layer configured to be cured on the second layer, the first adhesive layer and the second adhesive layer configured to be cured to each other, the tool __being a saw blade having__ a circular shape and includ__ing diamond__ cutting segments __spaced apart from each other around a perimeter of the tool__, __each diamond cutting segment having an inner arc shape and an outer arc shape__, wherein the inner arc shape of each __diamond__ cutting segment is directly affixed to an outer perimeter of the first and second layers, and a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are [[in registration with]] __aligned with__ the first adhesive layer and the second adhesive layer.\n\n282. (Currently amended) The tool of claim 281 wherein the medial section comprises a metal __honeycomb structure__.\n\n283. (Cancelled)\n\n284. (Cancelled)\n\n285. (Currently amended) The tool of claim 281 further including a weld ring __that is segmented into a plurality of circumferentially spaced ring segments__ at least partially interposed between the perimeter of the first and second layers.\n\n286. (Previously presented) The tool of claim 285 wherein the weld ring is bonded to the medial section.\n\n287. (Currently amended) The tool of claim 285 wherein the plurality of cutting segments are also welded to an outer perimeter of the weld ring __segments__.\n\n288. (Cancelled)\n\n289. (Cancelled)\n\n290. (Currently amended) The tool of claim 285 further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring.\n\n291. (Currently amended) The tool of claim 290 wherein the inner ring includes __a__ central opening.\n\n293. (Currently amended) The tool of claim 281 further including a weld ring __that is segmented into a plurality of circumferentially spaced ring segments__ at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, such that the plurality of cutting segments are located on an outer periphery of the weld ring __segments__.\n\n294. (Cancelled)\n\n295. (Cancelled)",
+  "usage": {
+    "input_tokens": 15111,
+    "output_tokens": 500,
+    "total_tokens": 15611
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.89,
+  "cost_usd": 0.02389,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:42:09Z"
+}

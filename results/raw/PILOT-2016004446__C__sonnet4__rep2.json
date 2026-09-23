@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016004446",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2016004446",
+  "app_num": "11920521",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 9740,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fcf8fb2f7de7260f",
+  "response_text": "4. (Currently Amended) A method of impeding Leishmaniasis transmission in __dogs__ by means of administering to __a dog__, a composition comprising a Fucose Mannose Ligand (FML) fraction from __Leishmania donovani__ promastigotes or __Leishmania donovani__ amastigotes and saponin, __wherein said method produces blocking antibodies that reduce parasite availability to sandflies__.\n\n5. (Currently Amended) The method of claim 4 wherein said composition is in the form of a __vaccine administered subcutaneously to said dog__.\n\n6. (Currently Amended) The method of claim 4 wherein said composition further comprises suitable pharmacological vehicles.\n\n7. (Currently Amended) The method of claim 4 wherein the __Leishmania donovani__ promastigotes or __Leishmania donovani__ amastigotes fractions called \"Fucose Mannose Ligand\" (FML) comprise a glycoprotein complex containing 29% of neutral sugar, 44% of protein, 11% of phosphate and hexoamines traces composed by protein bands with molecular weight ranging from 9 to 95 kDa, some protein bands having carbohydrates: 36 and 54 to 68 kDa, the FML glycidic portion presenting 10% of fucose and 47% of mannose, 30% of glucose, 12% of galactose and xylose traces, aminoacids containing 10 to 20% of glutamic acid, alanine, aspartic acid and glycine, 5 to 10% of serine, histidine, lysine, leucine, threonine, proline and valine, and 2 to 5% of arginine, methionine, isoleucine, tyrosine and phenylalanine, __and wherein said FML fraction is lyophilized and reconstituted with sterile saline solution prior to administration__.",
+  "usage": {
+    "input_tokens": 2917,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 12.78,
+  "cost_usd": 0.01565,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:32:35Z"
+}

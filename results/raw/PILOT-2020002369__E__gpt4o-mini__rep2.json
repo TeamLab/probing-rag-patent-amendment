@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002369",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2020002369",
+  "app_num": "14171413",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13160,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "09aa0094ba511eca",
+  "response_text": "Claim 1 (Currently amended): A regenerative braking control system for an electrified vehicle, comprising: at least one sensor adapted to sense a front tire impact event and transmit a sensor signal responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the sensor signal from the at least one sensor, wherein the front tire impact event is defined as an event that causes a change in the vertical position of the front tire relative to the vehicle body.\n\nClaim 2 (Original): The system of claim 1 wherein the vehicle comprises a hybrid electric vehicle.\n\nClaim 3 (Original): The system of claim 1 wherein the vehicle comprises a plug-in hybrid electric vehicle.\n\nClaim 4 (Original): The system of claim 1 further comprising an electrical storage facility interfacing with and adapted to store electrical power from the regenerative powertrain.\n\nClaim 5 (Original): The system of claim 1 wherein the regenerative powertrain is adapted to apply regenerative braking torque to at least one of a front axle and a rear axle of the vehicle.\n\nClaim 6 (Original): The system of claim 5 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\nClaim 7 (Original): The system of claim 1 wherein the regenerative powertrain is adapted to apply regenerative braking torque to a selected one of front wheels and rear wheels of the vehicle.\n\nClaim 8 (Original): The system of claim 7 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\nClaim 9 (Currently amended): A regenerative braking control system for an electrified vehicle, comprising: at least one of a wheel slip sensor and a vehicle motion sensor adapted to sense a front tire impact event and transmit at least one of a wheel slip sensor signal and a motion sensor signal, respectively, responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the at least one of a wheel slip sensor signal and a motion sensor signal from the at least one of a wheel slip sensor and a vehicle motion sensor, wherein the front tire impact event is defined as an event that causes a change in the vertical position of the front tire relative to the vehicle body.\n\nClaim 10 (Original): The system of claim 9 wherein the vehicle comprises a hybrid electric vehicle.\n\nClaim 11 (Original): The system of claim 9 wherein the vehicle comprises a plug-in hybrid electric vehicle.\n\nClaim 12 (Original): The system of claim 9 further comprising an electrical storage facility interfacing with and adapted to store electrical power from the regenerative powertrain.\n\nClaim 13 (Original): The system of claim 9 wherein the regenerative powertrain is adapted to apply regenerative braking torque to at least one of a front axle and a rear axle of the vehicle.\n\nClaim 14 (Original): The system of claim 13 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\nClaim 15 (Original): The system of claim 9 wherein the regenerative powertrain is adapted to apply regenerative braking torque to a selected one of front wheels and rear wheels of the vehicle.\n\nClaim 16 (Original): The system of claim 15 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\nClaim 17 (Original): A regenerative braking control method comprising, reducing application of regeneration torque if a front tire impact event is sensed.\n\nClaim 18 (Original): The method of claim 17 further comprising sensing the front tire impact event by using wheel slip data.\n\nClaim 19 (Original): The method of claim 17 further comprising sensing the front tire impact event by using vehicle motion data.\n\nClaim 20 (Original): The method of claim 17 wherein reducing application of regeneration torque if the front tire impact event is sensed comprises reducing application of regeneration torque at rear wheels of a vehicle if the front tire impact event is sensed.",
+  "usage": {
+    "input_tokens": 3037,
+    "output_tokens": 876,
+    "total_tokens": 3913
+  },
+  "stop_reason": "stop",
+  "latency_sec": 15.32,
+  "cost_usd": 0.00098,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:10:53Z"
+}

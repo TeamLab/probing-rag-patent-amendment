@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "D",
+  "rep": 2,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14774,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "259d2655eb96bf28",
+  "response_text": "Claim 1 (Currently Amended): A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide derived from a bacterial species different from the host cell.\n\nClaim 2 (Currently Amended): The cell of claim 1 wherein the non-native compartment is self-assembled in vivo under conditions that promote assembly.\n\nClaim 3 (Currently Amended): The cell of claim 1 wherein the non-native compartment further comprises at least one targeted enzyme that catalyzes a specific biochemical reaction.\n\nClaim 4 (Currently Amended): The cell of claim 3 wherein the non-native compartment comprises a plurality of different targeted enzymes, each having distinct catalytic activities.\n\nClaim 5 (Currently Amended): The cell of claim 4 wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence.\n\nClaim 6 (Currently Amended): The cell of claim 1 wherein the BMC polypeptide comprises a Eut polypeptide.\n\nClaim 7 (Currently Amended): The cell of claim 6 wherein the Eut polypeptide comprises a EutS polypeptide.\n\nClaim 8 (Currently Amended): The cell of claim 1 wherein the proteinaceous shell comprises a plurality of different BMC polypeptides derived from different bacterial species.\n\nClaim 9 (Currently Amended): The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different BMC operons.\n\nClaim 10 (Currently Amended): The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides that are functionally distinct.\n\nClaim 11 (Currently Amended): The cell of claim 1 wherein at least one BMC polypeptide comprises an affinity tag for purification purposes.\n\nClaim 12 (Currently Amended): A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide, wherein the method is employed to enhance metabolic activity.\n\nClaim 13 (Currently Amended): The method of claim 12 wherein the host cell comprises a bacterium.\n\nClaim 14 (Currently Amended): The method of claim 13 wherein the bacterium comprises a member of the family Enterobacteriaceae.\n\nClaim 15 (Currently Amended): The method of claim 14 wherein the member of the family Enterobacteriaceae comprises E. coli.\n\nClaim 16 (Currently Amended): The method of claim 13 wherein the bacterium comprises a member of the family Shewanellaceae.\n\nClaim 17 (Currently Amended): The method of claim 12 wherein the host cell comprises a yeast.\n\nClaim 18 (Currently Amended): The method of claim 17 wherein the yeast comprises a member of the family Saccharomycetaceae.\n\nClaim 19 (Currently Amended): The method of claim 18 wherein the member of the family Saccharomycetaceae comprises Saccharomyces cerevisiae.\n\nClaim 20 (Currently Amended): The method of claim 12 wherein the host cell comprises an alga.\n\nClaim 21 (Currently Amended): A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, and at least one enzyme that catalyzes conversion of a substrate to a product; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product, wherein the method is employed to produce a desired biochemical product.\n\nClaim 22 (Currently Amended): The method of claim 21 wherein the product comprises a bioactive product.\n\nClaim 23 (Currently Amended): The method of claim 21 wherein the product comprises a drug or a drug precursor.\n\nClaim 24 (Currently Amended): The method of claim 21 wherein the product comprises a biofuel or a precursor of biofuel production.\n\nClaim 25 (Currently Amended): The method of claim 21 wherein the at least one enzyme catalyzes a step in degrading or detoxifying a toxic substrate.\n\nClaim 26 (Currently Amended): The method of claim 21 further comprising isolating at least a portion of the non-native compartments.\n\nClaim 27 (Currently Amended): The method of claim 26 wherein at least a portion of the non-native compartment comprises an affinity tag and isolating at least a portion of the non-native compartments comprises contacting a sample comprising the non-native compartments with an affinity substrate having selective affinity for the affinity tag.\n\nClaim 28 (Currently Amended): The cell of claim 1 comprising a plurality of compartments, each compartment having distinct functional roles.",
+  "usage": {
+    "input_tokens": 3817,
+    "output_tokens": 1016,
+    "total_tokens": 4833
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.91,
+  "cost_usd": 0.00118,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:54:09Z"
+}

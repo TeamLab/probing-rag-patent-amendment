@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020002555",
+  "condition": "baseline",
+  "rep": 0,
+  "proceeding_number": "2020002555",
+  "app_num": "15234552",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14698,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a46ed6b9aa4f7d1a",
+  "response_text": "1. (Currently amended) A method comprising: receiving a plurality of precoders from a codebook in a transmitter having an antenna array; transforming each precoder of the plurality of precoders to a transformed precoder such that the transmit power for each transformed precoder is equal to the transmit power for each of other transformed precoders of the plurality of precoders, where the transmit power is expressed as a quadratic form Q = w*Zw with respect to the corresponding precoder w, where Z is an impedance matrix that includes __at least one of: a transmission line impedance of a transmission line between a signal source and the antenna array, an impedance of the antenna array, or a signal source impedance__; receiving a signal from the signal source; applying a transformed precoder of the plurality of transformed precoders to the signal to generate a precoded signal for transmission over a physical channel; and transmitting the precoded signal.\n\n2. (Currently amended) The method according to claim 1, wherein the quadratic form __Q = w*Zw__ is also based on __a coupled antenna impedance matrix that accounts for coupling between antenna elements in__ the antenna array.\n\n3. (Currently amended) The method according to claim 1, wherein the quadratic form __Q = w*Zw__ is also based on __a matching network impedance that is in series with__ a matching network between the signal source and the antenna array.\n\n4. (Currently amended) The method according to claim 1, wherein the quadratic form __Q = w*Zw__ is also based on __a combined system impedance comprising__ an impedance of the antenna array, a signal source impedance, and __effects of__ length of the transmission line.\n\n5. (Currently amended) The method according to claim 1, wherein each precoder is transformed by scaling each precoder by an inverse square root of a transmit power that results from the corresponding precoder before scaling is applied, __wherein the scaling is computed as w_scaled = w / √(w*Zw)__.\n\n6. (Currently amended) The method according to claim 5, wherein scaling comprises normalizing a precoder into a normalized precoder based on the quadratic form __Q = w*Zw such that all normalized precoders have equal transmit power__.\n\n7. (Previously presented) The method according to claim 5, further comprising transmitting a scaling factor used for the scaling.\n\n8. (Currently amended) The method according to claim 1, wherein each precoder is transformed by multiplying each precoder by a transformation matrix __T such that T = diag(1/√(w_i*Zw_i))__ such that the resulting set of precoders each map to antenna patterns having the same power.\n\n9. (Currently amended) The method according to claim 8, wherein the transformation matrix __T__ is based on __a frequency-dependent__ impedance matrix of the antenna array seen at the signal source as a function of the transmission line length, the transmission line impedance, and an impedance of the antenna array.\n\n10. (Currently amended) The method according to claim 1, wherein the transformation __is specifically designed to__ equalizes the transmit power for all of the plurality of precoders __by accounting for transmission line effects and antenna coupling__.\n\n11. (Currently amended) The method according to claim 1, wherein transforming transforms the precoders to equal energy precoders __by normalizing based on the quadratic form Q = w*Zw__ when transmission lines are used between a source of the signal and the antenna array.\n\n12. (Previously presented) The method according to claim 1, wherein both data symbol precoders and reference symbol precoders are transformed by the same transformation.\n\n13. (Previously presented) The method according to claim 12, further comprising: receiving a precoded signal including reference symbols; estimating channels for the reference symbols; estimating a channel for the data symbols by taking an inner product of a conjugate of a data symbol precoder and the reference symbol channel estimates; and demodulating received data symbols based on the estimated channel.\n\n14. (Currently amended) An apparatus comprising: an antenna array; a transceiver coupled to the antenna array; a signal source coupled to the transceiver; a transmission line coupled between the signal source and the antenna array, the transmission line having a transmission line impedance; a memory to store a codebook including a plurality of precoders; and a controller coupled to the transceiver and the memory, the controller configured to: receive a plurality of precoders from the codebook, transform each precoder of the plurality of precoders to a transformed precoder such that the transmit power for each transformed precoder is equal to the transmit power for each of other transformed precoders of the plurality of precoders, where the transmit power is expressed as a quadratic form Q = w*Zw with respect to the corresponding precoder w, where Z is an impedance matrix that includes __at least one of: the transmission line impedance, an impedance of the antenna array, or a signal source impedance__, receive a signal from the signal source, and apply a transformed precoder of the plurality of transformed precoders to the signal to generate a precoded signal for transmission over a physical channel, wherein the transceiver transmits the precoded signal.\n\n15. (Currently amended) The apparatus according to claim 14, wherein the quadratic form __Q = w*Zw__ is also based on at least one selected from __a coupled antenna impedance matrix, a matching network impedance, an impedance of the antenna array, a signal source impedance, and length of the transmission line__.\n\n16. (Currently amended) The apparatus according to claim 14, wherein each precoder is transformed by scaling each precoder by an inverse square root of a transmit power that results from the corresponding precoder before scaling is applied, __wherein the scaling is computed as w_scaled = w / √(w*Zw)__.\n\n17. (Currently amended) The apparatus according to claim 16, wherein scaling comprises normalizing a precoder into a normalized precoder based on the quadratic form __Q = w*Zw such that all normalized precoders have equal transmit power__.\n\n18. (Currently amended) The apparatus according to claim 14, wherein each precoder is transformed by multiplying each precoder by a transformation matrix __T such that T = diag(1/√(w_i*Zw_i))__ such that the resulting set of precoders each map to antenna patterns having the same power.\n\n19. (Currently amended) The apparatus according to claim 18, wherein the transformation matrix __T__ is based on __a frequency-dependent__ impedance matrix of the antenna array seen at the signal source as a function of the transmission line length, the transmission line impedance, and an impedance of the antenna array.\n\n20. (Currently amended) The apparatus according to claim 14, wherein the controller transforms the precoders to equal energy precoders __by normalizing based on the quadratic form Q = w*Zw__ when transmission lines are used between a source of the signal and the antenna array.",
+  "usage": {
+    "input_tokens": 3608,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1571,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.37,
+  "cost_usd": 0.00917,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:24:53Z"
+}

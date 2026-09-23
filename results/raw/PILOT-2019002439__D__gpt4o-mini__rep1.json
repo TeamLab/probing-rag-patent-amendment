@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019002439",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2019002439",
+  "app_num": "12500756",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21337,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2872b030345b5408",
+  "response_text": "Claim 1 (Currently amended): A computer-implemented method of providing a user with access to a resource of a contact center, comprising the steps of: (a) providing a search engine interface to a user's computer system for searching documents on one or more websites; (b) receiving a search query from the user's computer system via said interface; (c) sending a request based on said search query to a computerized system of a contact center; (d) receiving, in response to said request, data enabling a contact center link to be provided to said user, wherein said contact center link, when activated, initiates an interactive communications session between the user and a resource of the contact center; and (e) returning said contact center link to said user as part of a response to said search query, wherein said contact center link is uniquely generated for said user.\n\nClaim 2 (Currently amended): A computer-implemented method as claimed in claim 1, further comprising the steps of conducting a search within said documents on one or more websites in response to said search query, and returning at least one document link to one of said documents as part of said response to said search query, wherein said document link is configured to direct the user to the document.\n\nClaim 3 (Currently amended): A computer-implemented method as claimed in claim 2, further comprising the step of formatting said response to said search query to display a first result set including said document link and a second result set including said contact center link, wherein the formatting is performed to enhance user accessibility.\n\nClaim 4 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said data received in step (d) enable a plurality of contact center links to be provided to said user, each link corresponding to a different resource of the contact center.\n\nClaim 5 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said data received in step (d) comprise said contact center link, which is generated based on user-specific parameters.\n\nClaim 6 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said data received in step (d) comprise an identifier of a link cached by the search engine, allowing for quicker access to the contact center.\n\nClaim 7 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said contact center link is generated uniquely for said user, whereby activation of the link initiates an interactive communications session recognizable by the contact center as relating to said request from said search engine, with user-specific information included.\n\nClaim 8 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said request sent to said contact center includes an identifier of said user, whereby a subsequent interactive communications session between the user and a resource of the contact center arising from initiation of said contact center link enables the contact center to associate said interactive communications session with said request from the search engine, with the identifier being a network address of said user.\n\nClaim 9 (Currently amended): A computer-implemented method as claimed in claim 8, wherein said identifier of said user is a network address of said user, allowing for direct identification during the session.\n\nClaim 10 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said contact center link when activated, initiates an interactive communications session between the user and a predetermined agent of the contact center selected in response to said request, with the agent being chosen based on user profile data.\n\nClaim 11 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said contact center link when activated, initiates an interactive communications session between the user and a predetermined queue of agents of the contact center selected in response to said request, with the queue being determined by user needs.\n\nClaim 12 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said link is configured to initiate a communications session from a compatible communications application, if such application is available on said user's computer, ensuring seamless connectivity.\n\nClaim 13 (Currently amended): A computer-implemented method as claimed in claim 12, wherein said communications application is a voice or video telephony application, enhancing user interaction capabilities.\n\nClaim 14 (Currently amended): A computer-implemented method as claimed in claim 12, wherein said communications application is an instant messaging (IM) application, facilitating real-time communication.\n\nClaim 15 (Currently amended): A computer-implemented method as claimed in claim 12, wherein said communications application is integrated with a browser employed by the user to access the search engine interface, promoting user convenience.\n\nClaim 17 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said contact center link contains parameters representing customer requirements which are passed to said contact center within an interactive communications session initiated on activation of said contact center link, allowing for tailored service.\n\nClaim 18 (Currently amended): A computer-implemented method as claimed in claim 1, wherein said parameters are indicative of one or more skillset parameters employed by a management system of said contact center, whereby said communications session may be directly assigned to a skillset based on the parameters, improving efficiency in resource allocation.",
+  "usage": {
+    "input_tokens": 4709,
+    "output_tokens": 1059,
+    "total_tokens": 5768
+  },
+  "stop_reason": "stop",
+  "latency_sec": 21.33,
+  "cost_usd": 0.00134,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:01:39Z"
+}

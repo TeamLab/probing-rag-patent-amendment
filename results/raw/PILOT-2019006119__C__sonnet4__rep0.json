@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2019006119",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2019006119",
+  "app_num": "13392596",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11390,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6d6b15127364b137",
+  "response_text": "1. (Currently amended) A method for preparing a cryopreserved acellular dermal matrix comprising: \ni) removing epidermis of [[allograft]] __donor__ skin; \nii) removing cells in __the__ dermis __of the donor skin from which epidermis has been removed__; \niii) mixing glycerol, and a basic solution selected from a buffer solution and an animal cell culture medium; \niv) dissolving sucrose in __said mixed__ solution to a final concentration of 20 to 40% by weight to obtain a cryoprotectant; \nv) penetrating the cryoprotectant into the skin from which epidermis and cells in dermis are removed; \nvi) freezing the cryoprotectant-penetrated skin in a controlled rate freezer; and\nvii) __recovering the cryopreserved acellular dermal matrix__.\n\n2. (Previously presented) The method for preparing a cryopreserved acellular dermal matrix according to claim 1, wherein the mixing ratio of glycerol and the basic solution is 0.5[[~]]__-__ 3 : 9 based on weight.\n\n3. (Previously presented) The method for preparing a cryopreserved acellular dermal matrix according to claim 1, wherein the buffer solution is selected from PBS (phosphate buffered saline), TBS (Tris-buffered saline) and citric acid buffer.\n\n4. (Currently amended) The method for preparing a cryopreserved acellular dermal matrix according to claim 1, wherein the animal cell culture medium is selected from MEM (Minimum Essential Media), DMEM (Dulbecco's Modified Eagle Media), RPMI 1640, IMDM (Iscove's Modified Dulbecco's Media), Defined Keratinocyte-SFM [[without BPE)]], __either with or without BPE,__ Keratinocyte-SFM [[with BPE)]], KnockOut D-MEM, AmnioMAX-II Complete Medium and AmnioMAX-C100 Complete Medium.\n\n5. (Currently amended) The method for preparing a cryopreserved acellular dermal matrix according to claim 1, wherein the final concentration of sucrose __in the cryoprotectant__ is 30% by weight.\n\n6. (Previously presented) The method for preparing a cryopreserved acellular dermal matrix according to claim 1, wherein the cryoprotectant is penetrated into the separated skin in a 4°C low-temperature bath for 6 to 24 hours.\n\n7. (Previously presented) The method for preparing a cryopreserved acellular dermal matrix according to claim 1, wherein the cryoprotectant-penetrated skin is frozen in a controlled rate freezer at a freezing rate of -1°C per minute.\n\n8. (Currently amended) An autograft substitute comprising the cryopreserved acellular dermal matrix which is prepared by the method according to any one of claims 1 to 7, __wherein the cryopreserved acellular dermal matrix has a sucrose concentration of 20 to 40% by weight__.",
+  "usage": {
+    "input_tokens": 3331,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 761,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 17.03,
+  "cost_usd": 0.02141,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:37:52Z"
+}

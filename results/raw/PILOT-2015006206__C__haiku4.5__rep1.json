@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2015006206",
+  "condition": "C",
+  "rep": 1,
+  "proceeding_number": "2015006206",
+  "app_num": "13401993",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16914,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9e256deffef3ef52",
+  "response_text": "1. (Currently amended) An aircraft weapons control system comprising: a weapons stores processor panel for receiving input signals from a weapons input; a weapons interface for receiving fire signals from the weapons stores processor panel to control firing of aircraft weapons; and a flight management system in communication with the weapons stores processor panel and the weapons interface, the flight management system providing control signals to the weapons interface; wherein the weapons stores processor panel implements safety interlocks to prevent or enable firing of the aircraft weapons __based on a master arm switch position and weapons select switch designation__.\n\n2. (Previously presented)\n\n3. (Previously presented)\n\n4. (Currently amended) The aircraft weapons control system of claim 1 wherein: the __weapons stores__ processor panel communicates with the weapons interface using a MIL-STD-1760 standard.\n\n5. (Currently amended) The aircraft weapons control system of claim 1 further comprising: a laser pointer __integrated with the weapons stores processor panel and controlled by a dedicated laser arm switch__.\n\n6. (Currently amended) The aircraft weapons control system of claim 1 further comprising: a data concentrator unit that conditions outputs from the flight management system for display on a multi-function display __and receives weapons status information from the weapons stores processor panel__.\n\n7. (Currently amended) The aircraft weapons control system of claim 1 further comprising: a control panel on the __weapons stores__ processor panel, the control panel including a master arm switch for selecting a master arm position, a safe position and an off position.\n\n8. (Previously presented)\n\n9. (Previously presented)\n\n10. (Previously presented)\n\n11. (Currently amended) The aircraft weapons control system of claim 7 wherein: the control panel also includes a laser arm switch for powering a laser pointer __directly through the weapons stores processor panel independent of master arm switch position__.\n\n12. (Previously presented)\n\n13. (Previously presented)\n\n14. (Currently amended) The aircraft weapons control system of claim 1 further comprising: a control panel on the weapons stores processor panel, the control panel including a weapons select switch which designates a weapon to fire, the weapons select switch including an off position in which the weapons stores processor panel disables fire signals __to__ the weapons interface.\n\n15. (Currently amended) The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel provides display information __directly__ for a helmet mounted display, control display unit, and a multifunction function display __without intermediary processing by the flight management system__.\n\n16. (Currently amended) The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel provides data __directly__ for a weapons bus controller to implement firing of weapons __based on weapons select switch and master arm switch settings__.\n\n17. (Currently amended) A vertical takeoff and landing (VTOL) rotary-wing aircraft comprising: an aircraft mounted weapon; and an aircraft weapons control system, the aircraft weapons control system including: a weapons stores processor panel for receiving input signals from a weapons input; a weapons interface for receiving fire signals from the weapons stores processor panel to control firing of the aircraft weapon; and a flight management system in communication with the weapons stores processor panel and the weapons interface, the flight management system providing control signals to the weapons interface; wherein the weapons stores processor panel implements safety interlocks to prevent or enable firing of the aircraft weapon __based on a master arm switch position and weapons select switch designation__.\n\n18. (Currently amended) The rotary-wing aircraft of claim 17 further comprising: a laser pointer __integrated with the weapons stores processor panel and controlled by a dedicated laser arm switch__.\n\n19. (Previously presented)\n\n20. (Previously presented)\n\n21. (Previously presented)\n\n22. (Previously presented)\n\n23. (Currently amended) The rotary-wing aircraft of claim 19 wherein: the control panel also includes a laser arm switch for powering a laser pointer __directly through the weapons stores processor panel independent of master arm switch position__.\n\n24. (Previously presented)\n\n25. (Previously presented)\n\n26. (Currently amended) The rotary-wing aircraft of claim 17 further comprising: a control panel on the weapons stores processor panel, the control panel including a weapons select switch which designates a weapon to fire in a manual over-ride mode, the weapons select switch including an off position in which the weapons stores processor panel disables fire signals __to__ the weapons interface.",
+  "usage": {
+    "input_tokens": 4230,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 944,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.56,
+  "cost_usd": 0.00716,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:18:54Z"
+}

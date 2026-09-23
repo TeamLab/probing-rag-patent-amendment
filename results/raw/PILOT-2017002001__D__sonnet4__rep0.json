@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16294,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bb3908249a3c323a",
+  "response_text": "Claim 13 (Currently amended): A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides integrated contact elements by which power is supplied to said heater, wherein said contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater, __and wherein said contact elements are positioned within said second portion and extend generally parallel to a longitudinal axis of the gas passage__.\n\nClaim 14 (Previously presented): The gas tube arrangement according to claim 13, further comprising an insulating sheathing body.\n\nClaim 15 (Currently amended): The gas tube arrangement according to claim 14, wherein the insulating sheathing body is removably attachable to the flexible tube __and is structured to provide thermal insulation for the heated respiratory gas__.\n\nClaim 16 (Currently amended): The gas tube arrangement according to claim 14, wherein the heater is integrated into the sheathing body __and comprises a resistive heating element disposed within the sheathing body__.\n\nClaim 17 (Currently amended): The gas tube arrangement according to claim 14, wherein said sheathing body includes a multi-layered design __with at least one insulating layer__.\n\nClaim 18 (Previously presented): The gas tube arrangement according to claim 13, wherein the tube is a heatable respiratory gas tube.\n\nClaim 19 (Currently amended): The gas tube arrangement according to claim 14, wherein the heater is integrated into the tube __and comprises a resistive heating element disposed within the tube wall__.\n\nClaim 20 (Currently amended): The gas tube arrangement according to claim 13, wherein said second connector further includes a pressure measuring tube connection __that is separate from said respiratory gas passage__.\n\nClaim 21 (Currently amended): The gas tube arrangement according to claim 13, further comprising a respiratory gas humidifier __positioned between said flexible tube and said breathing mask__.\n\nClaim 22 (Currently amended): The gas tube arrangement according to claim 21, wherein said humidifier is adapted to be connected to a water source via a humidification line __that is separate from said respiratory gas passage__.\n\nClaim 23 (Currently amended): The gas tube arrangement according to claim 21, wherein said humidifier is in the form of a flexible tube piece disposed between the breathing mask and the respiratory gas tube __and includes a water reservoir chamber__.\n\nClaim 24 (Currently amended): The gas tube arrangement according to claim 13, wherein the flexible tube is made from a spirally reinforced plastic material __and includes an inner lumen for gas flow__.\n\nClaim 25 (Currently amended): The gas tube arrangement according to claim 13, wherein the heater is an electrical resistance heater __comprising a resistive heating wire__.\n\nClaim 26 (Currently amended): The gas tube arrangement according to claim 13, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, __and wherein said contact elements are electrically isolated from said respiratory gas passage__.\n\nClaim 27 (Currently amended): The gas tube arrangement according to claim 13, wherein each __contact element includes a__ contact surface __that__ is provided within the second portion.\n\nClaim 28 (Currently amended): The gas tube arrangement according to claim 13, wherein the first portion is tubular and the second portion extends outwardly from the first portion __and houses said contact elements__.\n\nClaim 29 (Currently amended): A connector for connecting a CPAP device to a respiratory gas tube arrangement for supplying a respiratory gas to a person, the respiratory gas tube arrangement including a heater, the connector comprising: a first portion that provides a respiratory gas passage; and a second portion that provides integrated contact elements by which power is supplied to the heater, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, __and wherein said contact elements are electrically isolated from said respiratory gas passage__.\n\nClaim 30 (Currently amended): A connector according to claim 29, wherein each __contact element includes a__ contact surface __that__ is provided within the second portion.\n\nClaim 31 (Currently amended): A connector according to claim 29, wherein the first portion is tubular and the second portion extends outwardly from the first portion __and houses said contact elements__.",
+  "usage": {
+    "input_tokens": 4251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1072,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 19.78,
+  "cost_usd": 0.02883,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:46:21Z"
+}

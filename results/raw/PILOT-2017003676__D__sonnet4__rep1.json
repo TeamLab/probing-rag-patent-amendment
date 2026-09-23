@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12698,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c73a9c5b9eede6c5",
+  "response_text": "1. (Currently amended) A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium __consisting essentially of a dilute alkaline solution having a pH greater than 10__; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b) __to identify genetic markers associated with agronomic traits__; and (d) germinating at least one of said one or more embryos.\n\n2. (Cancelled)\n\n3. (Currently amended) The method of claim 1 wherein the DNA is obtained by exposing the shed cellular material to cold and then heat followed by agitation __in the presence of a chaotropic salt__.\n\n4. (Currently amended) The method of claim 3 wherein said cold, heat, and agitation steps are repeated __and wherein the chaotropic salt is guanidine hydrochloride__.\n\n5. (Currently amended) The method of claim 1 wherein the DNA is obtained by heating of the shed cellular material and agitation __in the presence of a protease__.\n\n6. (Currently amended) The method of claim 5 wherein said heat and agitation steps are repeated __and wherein the protease is proteinase K__.\n\n7. (Currently amended) The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with an enzyme __selected from the group consisting of cellulase, pectinase, and hemicellulase__.\n\n8. (Currently amended) The method of claim 7 wherein the enzyme is VISCOZYME® __and wherein the incubation occurs at a temperature between 37°C and 50°C__.\n\n9. (Currently amended) The method of claim 1 wherein obtaining DNA from the shed cellular material comprises extracting the DNA __using silica-based purification__.\n\n10. (Currently amended) The method of claim 9, wherein said extracting is performed by adding magnetic particles to the shed cellular material __and wherein the magnetic particles are functionalized with silica__.\n\n11. (Currently amended) The method of claim 1 wherein the one or more embryos comprise one or more immature embryos __having a moisture content of at least 30%__.\n\n12. (Currently amended) The method of claim 1 further comprising storing the one or more embryos prior to step (c) or (d) __in a controlled atmosphere at a temperature between 2°C and 8°C__.\n\n13. (Currently amended) The method of claim 1, wherein said molecular analysis is genotyping __for single nucleotide polymorphisms associated with disease resistance__.\n\n14. (Currently amended) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads __and wherein the genotyping is performed using real-time PCR__.\n\n15. (Currently amended) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant __for quantitative trait loci__.\n\n16. (Currently amended) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed __using multiple displacement amplification__.\n\n17. (Currently amended) The method of claim 13 further comprising selecting one or more embryos based on genotype __wherein the selection is based on the presence of at least two favorable alleles__.\n\n18. (Currently amended) The method of claim 17 further comprising germinating the one or more selected embryos __under controlled greenhouse conditions__.\n\n19. (Currently amended) The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is automated __using robotic liquid handling systems__.",
+  "usage": {
+    "input_tokens": 3732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 896,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 16.63,
+  "cost_usd": 0.02464,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:54:49Z"
+}

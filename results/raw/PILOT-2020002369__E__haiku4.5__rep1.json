@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020002369",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2020002369",
+  "app_num": "14171413",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13160,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "09aa0094ba511eca",
+  "response_text": "1. (Currently amended) A regenerative braking control system for an electrified vehicle capable of running on electric power, comprising: at least one sensor adapted to sense a front tire impact event caused by a wheel traveling over a bump and transmit a sensor signal responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the sensor signal from the at least one sensor, wherein the reduction in regenerative braking torque is applied selectively to prevent wheel slip at the front wheels while maintaining regenerative braking torque at the rear wheels.\n\n2. (Original)\n\n3. (Original)\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Currently amended) A regenerative braking control system for an electrified vehicle capable of running on electric power, comprising: at least one of a wheel slip sensor and a vehicle motion sensor adapted to sense a front tire impact event caused by a wheel traveling over a bump and transmit at least one of a wheel slip sensor signal and a motion sensor signal, respectively, responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the at least one of a wheel slip sensor signal and a motion sensor signal from the at least one of a wheel slip sensor and a vehicle motion sensor, wherein the reduction in regenerative braking torque is applied selectively to prevent wheel slip at the front wheels while maintaining regenerative braking torque at the rear wheels.\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Currently amended) A regenerative braking control method comprising: detecting a front tire impact event caused by a wheel traveling over a bump; and reducing application of regeneration torque selectively at front wheels while maintaining regeneration torque at rear wheels if the front tire impact event is detected.\n\n18. (Currently amended) The method of claim 17 further comprising sensing the front tire impact event by using wheel slip data indicative of wheel slip at the front wheels.\n\n19. (Currently amended) The method of claim 17 further comprising sensing the front tire impact event by using vehicle motion data indicative of motion changes at the front of the vehicle.\n\n20. (Original)",
+  "usage": {
+    "input_tokens": 3516,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.12,
+  "cost_usd": 0.00503,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:57:17Z"
+}

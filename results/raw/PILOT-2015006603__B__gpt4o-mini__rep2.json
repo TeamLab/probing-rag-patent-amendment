@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015006603",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2015006603",
+  "app_num": "13138239",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18030,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5e00835494041d2b",
+  "response_text": "Claim 1 (Currently amended): An apparatus, comprising: an encoder (300) for encoding mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, and wherein the encoder is configured to operate on a non-transitory computer-readable medium.\n\nClaim 9 (Currently amended): A method, comprising: encoding (740, 970) mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, wherein the method is performed on a non-transitory computer-readable medium (740, 940, 960).\n\nClaim 25 (Currently amended): A method, comprising: decoding (820, 1030) mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, wherein the method is performed on a non-transitory computer-readable medium. \n\nClaim 33 (Currently amended): A non-transitory computer-readable storage medium having video signal data encoded thereupon, comprising: mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence.",
+  "usage": {
+    "input_tokens": 4357,
+    "output_tokens": 329,
+    "total_tokens": 4686
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.01,
+  "cost_usd": 0.00085,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:06:37Z"
+}

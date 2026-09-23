@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13664,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b71130721770aa26",
+  "response_text": "Claim 1 (Currently amended): A composition, comprising: cavity-generating particles; a thermally conductive binder; and a solvent.\n\nClaim 2 (Currently amended): The composition of claim 1, wherein the composition is applied to an electronic component surface and the thermally conductive binder is a premixed solder paste.\n\nClaim 3 (Currently amended): The composition of claim 2, wherein the solvent is removed during application to the electronic component surface, and the thermally conductive binder is melted during the application process.",
+  "usage": {
+    "input_tokens": 3526,
+    "output_tokens": 104,
+    "total_tokens": 3630
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.01,
+  "cost_usd": 0.00059,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:25:21Z"
+}

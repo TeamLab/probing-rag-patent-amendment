@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 67989,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a32bea240b15bd44",
+  "response_text": "Claim 281 (Currently amended): A tool comprising a lamination of at least two layers and at least two adhesive layers, the tool comprising first and second layers and __a medial section positioned between the first and second layers__, a first adhesive layer configured to be cured on the first layer, a second adhesive layer configured to be cured on the second layer, the first adhesive layer and the second adhesive layer configured to be cured to each other, the tool has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the first and second layers, __wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer__.\n\nClaim 282 (Currently amended): The tool of claim 281, wherein the medial section comprises __a metal material different from the material of the first and second layers__.\n\nClaim 283 (Currently amended): The tool of claim 282, wherein the metal material is a honeycomb structure __bonded to at least one additional material__.\n\nClaim 284 (Currently amended): The tool of claim 282, wherein the medial section is a composite material __formed by combining the metal with at least one reinforcing material__.\n\nClaim 285 (Currently amended): The tool of claim 281, further including a weld ring __having a thickness greater than the adhesive layers__ at least partially interposed between the perimeter of the first and second layers, wherein the weld ring is bonded to the medial section, wherein the plurality of cutting segments are also welded to an outer perimeter of the weld ring, wherein the weld ring is continuous.\n\nClaim 286 (Currently amended): The tool of claim 285, wherein the weld ring __is formed from a material selected from the group consisting of steel, stainless steel, and iron__.\n\nClaim 287 (Currently amended): The tool of claim 285, wherein the weld ring __extends radially outward from the medial section__.\n\nClaim 288 (Currently amended): The tool of claim 285, wherein the plurality of cutting segments __are individually welded to the weld ring__.\n\nClaim 289 (Currently amended): The tool of claim 285, wherein the weld ring is __divided into a plurality of discrete segments that are bonded together__.\n\nClaim 290 (Currently amended): The tool of claim 285, further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring, wherein the inner ring __is formed from a material different from the weld ring__.\n\nClaim 291 (Currently amended): The tool of claim 290, wherein the inner ring includes __a__ central opening for accommodating a drive shaft.\n\nClaim 293 (Currently amended): The tool of claim 281, further including a weld ring __positioned at the outer perimeter__ at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, such that the plurality of cutting segments are located on an outer periphery of the weld ring, wherein the weld ring is continuous.\n\nClaim 294 (Currently amended): The tool of claim 293, wherein the weld ring __is bonded to both the first and second layers__.",
+  "usage": {
+    "input_tokens": 16224,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 768,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.08,
+  "cost_usd": 0.01605,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:31:10Z"
+}

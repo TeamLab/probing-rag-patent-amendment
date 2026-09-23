@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014002745",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2014002745",
+  "app_num": "12883873",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19973,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ae175724c9f1dc1e",
+  "response_text": "Claim 26 (Currently Amended): A non-aqueous composition comprising: a therapeutically effective amount of a non-steroidal anti-inflammatory drug (NSAID), said NSAID being admixed as a powder directly in a non-aqueous carrier wherein the non-aqueous carrier comprises a bio-compatible oil and from 20 wt.% to 80 wt.% phosphatidylcholine; the NSAID to non-aqueous carrier weight ratio is about 5:1 to about 1:5; and the NSAID is a propionic acid NSAID, an acetic acid NSAID or a salicylic acid NSAID, wherein the phosphatidylcholine is present in an amount sufficient to reduce NSAID-associated gastro-intestinal ulceration and bleeding, and therapeutic activity of the NSAID for treatment of tissue inflammation, pain and fever is preserved, wherein the bio-compatible oil is a lecithin oil.\n\nClaim 35 (Currently Amended): The non-aqueous composition according to claim 26, wherein the bio-compatible oil is lecithin.\n\nClaim 51 (Currently Amended): The non-aqueous pharmaceutical composition of claim 50 comprising from 10 wt % to 60 wt% phosphatidylcholine.",
+  "usage": {
+    "input_tokens": 5117,
+    "output_tokens": 251,
+    "total_tokens": 5368
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.15,
+  "cost_usd": 0.00092,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:32:18Z"
+}

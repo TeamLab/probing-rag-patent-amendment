@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012005674",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2012005674",
+  "app_num": "11677766",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20007,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c81a4ad50a78070a",
+  "response_text": "1. (Currently amended) A method for generating a superframe preamble for a superframe in an OFDM network, the superframe preamble comprising a plurality of symbols, the method comprising: for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed over substantially the entire carrier and __separated from a second set of subcarriers by a predetermined interleaving pattern__; and for the first one of the symbols, allocating the second set of subcarriers of the carrier to a second broadcast channel, __wherein the first broadcast channel carries system information and the second broadcast channel carries quick page and control information in the same symbol__.\n\n2. (Currently amended) The method as set forth in Claim 1, the first set of subcarriers distributed uniformly over substantially the entire carrier __and interleaved with the second set of subcarriers__.\n\n3. (Currently amended) The method as set forth in Claim 1, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern __that differs from a uniform distribution and is interleaved with the second set of subcarriers__.\n\n4. (Currently amended) The method as set forth in Claim 1, the second set of subcarriers distributed over substantially the entire carrier __and interleaved with the first set of subcarriers according to the predetermined interleaving pattern__.\n\n5. (Currently amended) The method as set forth in Claim 1, further comprising, for a second one of the symbols, allocating substantially all the subcarriers to the second broadcast channel __while maintaining the interleaved allocation of the first and second sets of subcarriers in the first symbol__.\n\n6. (Currently amended) The method as set forth in Claim 1, the first broadcast channel comprising a first primary broadcast channel operable to carry system information, and the second broadcast channel comprising a second primary broadcast channel operable to carry quick page and control information, __wherein the system information and quick page and control information are simultaneously transmitted in the first symbol using the interleaved subcarrier allocation__.\n\n19. (Currently amended) A superframe generator in a base station in an OFDM network, comprising a preamble generator operable to generate a superframe preamble comprising a plurality of symbols for a superframe by (i) for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed over substantially the entire carrier and __separated from a second set of subcarriers by a predetermined interleaving pattern__, and (ii) for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel, __wherein the first broadcast channel carries system information and the second broadcast channel carries quick page and control information in the same symbol__.\n\n20. (Currently amended) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed uniformly over substantially the entire carrier __and interleaved with the second set of subcarriers__.\n\n21. (Currently amended) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern __that differs from a uniform distribution and is interleaved with the second set of subcarriers__.\n\n22. (Currently amended) The superframe generator as set forth in Claim 19, the first broadcast channel comprising a first primary broadcast channel operable to carry system information, and the second broadcast channel comprising a second primary broadcast channel operable to carry quick page and other control information, __wherein the system information and quick page and control information are simultaneously transmitted in the first symbol using the interleaved subcarrier allocation__.\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)\n\n18. (Original)\n\n23. (Original)\n\n24. (Original)\n\n25. (Original)\n\n26. (Original)\n\n27. (Original)\n\n28. (Original)\n\n29. (Original)\n\n30. (Original)\n\n31. (Original)\n\n32. (Original)\n\n33. (Original)\n\n34. (Original)\n\n35. (Original)\n\n36. (Original)\n\n37. (Original)",
+  "usage": {
+    "input_tokens": 5131,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1001,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.13,
+  "cost_usd": 0.00811,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:14:00Z"
+}

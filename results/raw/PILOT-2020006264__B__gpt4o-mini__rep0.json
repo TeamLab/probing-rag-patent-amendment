@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020006264",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2020006264",
+  "app_num": "15040495",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13538,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "476f018add06fa4c",
+  "response_text": "Claim 1 (Currently amended): A method comprising: determining, by a processor, that a benefit payment is due to be made to a recipient; accessing, by the processor, a data store containing records of payment transactions made by the recipient; receiving, by the processor, an indication from the data store that the recipient had successfully performed a biometric user authentication with respect to at least one of the payment transactions; accepting, by the processor, the received indication as proof-of-life with respect to the recipient; and making, by the processor, the benefit payment to the recipient in response to said proof-of-life.\n\nClaim 10 (Currently amended): A method comprising: determining, by a processor, that a benefit payment is due to be made to a recipient; accessing, by the processor, at a first point in time, a data store containing records of payment transactions made by the recipient; determining, by the processor, that the data store contains an indication that the recipient had successfully performed a biometric user authentication most recently with respect to one of said payment transactions at a second point in time earlier than the first point in time; comparing, by the processor, a time interval defined by the second and first points in time with a pre-determined permissive time interval; making, by the processor, the benefit payment, without requiring proof-of-life authentication of the recipient, in a case where the time interval defined by the second and first points in time does not exceed the pre-determined permissive time interval; and requiring, by the processor, proof-of-life authentication of the recipient, prior to making the benefit payment, in a case where the time interval defined by the second and first points in time exceeds the pre-determined permissive time interval.",
+  "usage": {
+    "input_tokens": 3120,
+    "output_tokens": 349,
+    "total_tokens": 3469
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.81,
+  "cost_usd": 0.00068,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:35:10Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022000316",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2022000316",
+  "app_num": "12503494",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21522,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "eb4ae3219703bf13",
+  "response_text": "Claim 13 (Currently amended): The method of claim 1, further comprising a computer-readable medium having computer-executable instructions stored thereon for causing a computer to implement the steps of said method.\n\nClaim 23 (Currently amended): A computer-based system for trading combinations of financial instruments, said system comprising: a processor configured to obtain combination orders to trade financial instruments; and a memory storing instructions for obtaining a matched collection of expanded eligible orders, wherein an obtained order is eligible if it satisfies at least one selected condition, and wherein said at least one selected condition includes the necessary condition that all financial instruments specified by the legs of an eligible order are in a set of two or more selected financial instruments.\n\nClaim 24 (Currently amended): The system of claim 23, further comprising a processor configured to increase, at least in principle, the quality of said matched collection.\n\nClaim 25 (Currently amended): The system of claim 23, further comprising a processor configured to provide additional trading functionality.",
+  "usage": {
+    "input_tokens": 4549,
+    "output_tokens": 199,
+    "total_tokens": 4748
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.52,
+  "cost_usd": 0.0008,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:10:59Z"
+}

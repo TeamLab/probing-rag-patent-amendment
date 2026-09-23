@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017007595",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2017007595",
+  "app_num": "11416767",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18149,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "31dd8e07bc2609a6",
+  "response_text": "Claim 1 (Currently amended): A method of providing advertisements in a traffic message using a server comprising: - obtaining traffic data having a traffic condition of a location description on a road network; - assessing a location reference code associated with the location description assigned by a traffic message supplier; - assessing an advertising reference code associated with the location reference code; - determining whether the advertising reference code is present.\n\nClaim 14 (Currently amended): A method of providing advertisement messages using location reference codes via a server comprising: - assessing a location reference code of a location description; - assessing an advertising reference code associated with the location reference code; - generating an advertising message having the advertising reference code; and - providing the advertising message for broadcast to navigation systems.\n\nClaim 25 (Currently amended): A method of providing advertisements using a server comprising: - generating a message having an advertising reference code; and - providing the message for broadcast to navigation systems, wherein the advertising reference code comprises a substantially unique code that identifies at least a portion of an advertisement stored and displayed on a recipient device of the message.\n\nClaim 27 (Currently amended): A method of providing advertisements via a traffic channel using a server comprising: - generating a message having advertisements; and - serially transmitting the message for broadcast to navigation systems via the traffic channel.\n\nClaim 29 (Currently amended): A method of providing advertisements using location reference codes via a server comprising: - receiving a message from a traffic supplier, wherein the message contains a location reference and an advertising reference code; - assessing at least one advertisement associated with the advertising reference code; and - presenting the at least one advertisement to a user of the navigation system at a location based on the location reference code.",
+  "usage": {
+    "input_tokens": 4003,
+    "output_tokens": 342,
+    "total_tokens": 4345
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.83,
+  "cost_usd": 0.00081,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:59:36Z"
+}

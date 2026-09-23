@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15774,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f12d4cf2141d24b6",
+  "response_text": "13. (Currently amended) A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides integrated contact elements by which power is supplied to said heater, wherein said contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater, __wherein the contact elements are positioned on an outer surface of the second portion and extend in a direction generally parallel to a longitudinal axis of the gas passage__.\n\n14. (Currently amended) The gas tube arrangement according to claim 13, further comprising an insulating sheathing body __that surrounds at least a portion of the flexible tube and is thermally isolated from the heater__.\n\n15. (Currently amended) The gas tube arrangement according to claim 14, wherein the insulating sheathing body is removably attachable to the flexible tube __via a snap-fit or clip mechanism__.\n\n16. (Currently amended) The gas tube arrangement according to claim 14, wherein the heater is integrated into the sheathing body __such that the heater is positioned between the flexible tube and the insulating sheathing body__.\n\n17. (Currently amended) The gas tube arrangement according to claim 14, wherein said sheathing body includes a multi-layered design __comprising an inner layer in contact with the flexible tube and an outer insulating layer__.\n\n18. (Currently amended) The gas tube arrangement according to claim 13, wherein the tube is a heatable respiratory gas tube __having a heating element embedded within the tube wall__.\n\n19. (Currently amended) The gas tube arrangement according to claim 14, wherein the heater is integrated into the tube __as a resistive heating wire wound around or embedded within the flexible tube__.\n\n20. (Currently amended) The gas tube arrangement according to claim 13, wherein said second connector further includes a pressure measuring tube connection __that is separate from the respiratory gas passage and the contact elements__.\n\n21. (Currently amended) The gas tube arrangement according to claim 13, further comprising a respiratory gas humidifier __that is fluidly connected to the flexible tube__.\n\n22. (Currently amended) The gas tube arrangement according to claim 21, wherein said humidifier is adapted to be connected to a water source via a humidification line __that delivers water vapor to the respiratory gas__.\n\n23. (Currently amended) The gas tube arrangement according to claim 21, wherein said humidifier is in the form of a flexible tube piece disposed between the breathing mask and the respiratory gas tube __and includes a heating element to warm the humidified gas__.\n\n24. (Currently amended) The gas tube arrangement according to claim 13, wherein the flexible tube is made from a spirally reinforced plastic material __that provides structural support while maintaining flexibility__.\n\n25. (Currently amended) The gas tube arrangement according to claim 13, wherein the heater is an electrical resistance heater __that is powered by direct electrical connection via the contact elements__.\n\n26. (Currently amended) The gas tube arrangement according to claim 13, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, __and wherein the contact elements are made of a conductive material that maintains electrical contact under repeated connection and disconnection__.\n\n27. (Currently amended) The gas tube arrangement according to claim 13, wherein each contact element is provided within the second portion __and is electrically isolated from the respiratory gas passage__.\n\n28. (Currently amended) The gas tube arrangement according to claim 13, wherein the first portion is tubular and the second portion extends outwardly from the first portion __in a radial direction perpendicular to the longitudinal axis__.\n\n29. (Currently amended) A connector for connecting a CPAP device to a respiratory gas tube arrangement for supplying a respiratory gas to a person, the respiratory gas tube arrangement including a heater, the connector comprising: a first portion that provides a respiratory gas passage; and a second portion that provides integrated contact elements by which power is supplied to the heater, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, __and wherein the contact elements are made of a conductive material and are positioned on an outer surface of the second portion__.\n\n30. (Currently amended) A connector according to claim 29, wherein each contact element is provided within the second portion __and is electrically isolated from the respiratory gas passage__.\n\n31. (Currently amended) A connector according to claim 29, wherein the first portion is tubular and the second portion extends outwardly from the first portion __in a radial direction perpendicular to the longitudinal axis__.",
+  "usage": {
+    "input_tokens": 4161,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1115,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.55,
+  "cost_usd": 0.00779,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:01:58Z"
+}

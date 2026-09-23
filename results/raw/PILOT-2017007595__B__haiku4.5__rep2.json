@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017007595",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2017007595",
+  "app_num": "11416767",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18288,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b48ae056068d0368",
+  "response_text": "1. (Currently amended) A method of providing advertisements in a traffic message comprising:\n- obtaining traffic data having a traffic condition of a location description on a road network using a processor;\n- assessing a location reference code associated with the location description assigned by a traffic message supplier using the processor;\n- assessing an advertising reference code associated with the location reference code using the processor;\n- determining whether the advertising reference code is present using the processor; and\n- generating a traffic message having the location reference code and the advertising reference code when the advertising reference code is present using the processor.\n\n2. (Previously presented)\n\n3. (Currently amended) The method according to Claim 1 further comprising:\n- generating a traffic message having the location reference code when the advertising reference code is not present using the processor.\n\n4. (Previously presented)\n\n5. (Previously presented)\n\n6. (Currently amended) The method according to Claim 1 further comprising, prior to assessing an advertising reference code associated with the location reference code:\n- determining whether the traffic message is a message of every predefined number of messages for broadcast using the processor; and\n- generating a traffic message having the location reference code when the traffic message is a message of every predefined number of messages for broadcast using the processor.\n\n7. (Previously presented)\n\n8. (Previously presented)\n\n9. (Previously presented)\n\n10. (Previously presented)\n\n11. (Currently amended) The method according to Claim 1, wherein assessing an advertising reference code associated with the location reference code further comprises:\n- assessing a current time using the processor;\n- assessing the advertising reference code based, at least in part, on the current time using the processor.\n\n12. (Previously presented)\n\n13. (Previously presented)\n\n14. (Currently amended) A method of providing advertisement messages using location reference codes comprising:\n- assessing a location reference code of a location description using a processor;\n- assessing an advertising reference code associated with the location reference code using the processor;\n- generating an advertising message having the advertising reference code using the processor; and\n- providing the advertising message for broadcast to navigation systems using the processor.\n\n15. (Previously presented)\n\n16. (Currently amended) The method according to Claim 14, wherein the advertising messages are sent every predefined number of messages for broadcast using the processor.\n\n17. (Previously presented)\n\n18. (Previously presented)\n\n19. (Previously presented)\n\n20. (Previously presented)\n\n21. (Previously presented)\n\n22. (Currently amended) The method according to Claim 14, wherein assessing an advertising reference code associated with the location reference code further comprises:\n- assessing a current time using the processor;\n- assessing the advertising reference code based, at least in part, on the current time using the processor.\n\n23. (Previously presented)\n\n24. (Previously presented)\n\n25. (Currently amended) A method of providing advertisements comprising:\n- generating a message having an advertising reference code using a processor; and\n- providing the message for broadcast to navigation systems using the processor, wherein the advertising reference code comprises a substantially unique code that identifies at least a portion of an advertisement stored and displayed on a recipient device of the message.\n\n26. (Previously presented)\n\n27. (Currently amended) A method of providing advertisements via a traffic channel comprising:\n- generating a message having advertisements using a processor; and\n- serially transmitting the message for broadcast to navigation systems via the traffic channel using the processor.\n\n28. (Previously presented)\n\n29. (Currently amended) A method of providing advertisements using location reference codes comprising:\n- receiving a message from a traffic supplier using a processor, wherein the message contains a location reference and an advertising reference code;\n- assessing at least one advertisement associated with the advertising reference code using the processor; and\n- presenting the at least one advertisement to a user of the navigation system at a location based on the location reference code using the processor.\n\n30. (Previously presented)\n\n31. (Currently amended) The method according to Claim 29 further comprising:\n- determining whether traffic data is present from message using the processor;\n- assessing a location description based, at least in part, on the location reference code using the processor;\n- assessing traffic data from the message associated with the location description using the processor; and\n- presenting the at least one advertisement along with the traffic data advertisement to a user of the navigation system using the processor.\n\n32. (Previously presented)\n\n33. (Previously presented)\n\n34. (Previously presented)\n\n35. (Previously presented)\n\n36. (Previously presented)\n\n37. (Previously presented)\n\n38. (Previously presented)\n\n39. (Currently amended) An apparatus of providing advertisements using location reference codes comprising:\n- a memory having a message with a location reference code and an advertising reference code;\n- a processor coupled to the memory;\n- an advertising provider coupled to the processor and memory, wherein the advertising provider assesses at least one advertisement associated with the advertising reference code; and\n- a user interface coupled to the advertising provider and processor, wherein the user interface provides the at least one advertisement associated with the advertising reference code for output on a navigation system.\n\n40. (Currently amended) The apparatus according to Claim 39 further comprising:\n- a traffic reporter coupled to the user interface and processor, wherein the traffic reporter assesses traffic information associated with the location reference code provided by the user interface.\n\n41. (Previously presented)\n\n42. (Currently amended) A memory comprising a data structure of traffic message stored on a non-transitory computer-readable medium, wherein the data structure comprises:\n- a first field having a location reference code associated with a location description on a road segment assigned by a traffic message supplier; and\n- a second field having an advertising reference code associated with the location reference of the first field, wherein the advertising reference code is associated with at least one advertisement for output on a navigation system.",
+  "usage": {
+    "input_tokens": 4402,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1280,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.73,
+  "cost_usd": 0.00864,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:49:56Z"
+}

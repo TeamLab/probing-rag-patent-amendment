@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004926",
+  "condition": "E",
+  "rep": 0,
+  "proceeding_number": "2015004926",
+  "app_num": "13847781",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13565,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e31901bf915ea3e5",
+  "response_text": "Claim 1 (Currently Amended): (Currently Amended) A process for obtaining a valued material from an aqueous suspension, dispersion or solution containing the valued material comprising adding to the aqueous suspension, dispersion or solution a Maillard reaction product, the Maillard reaction product comprising an adduct of (1) an amine reactant and (2) a reducing sugar, a reducing sugar equivalent, or a mixture thereof, wherein the reducing sugar is not a polysaccharide.\n\nClaim 3 (Currently Amended): (Currently Amended) The process of claim 1, wherein the amine reactant contains at least one amine functional group, and wherein a molar ratio of the reducing sugar, the reducing sugar equivalent, or the mixture thereof to the amine functional group is about 1:1 to about 3:1, and wherein the reducing sugar is not a polysaccharide.\n\nClaim 6 (Currently Amended): (Currently Amended) The process of claim 1, wherein the Maillard reaction product is produced by reacting the amine reactant and the reducing sugar, and wherein the reducing sugar is not a polysaccharide.\n\nClaim 9 (Currently Amended): (Currently Amended) The process of claim 1, wherein the valued material is obtained by sedimentation, filtration, or flotation, and wherein the reducing sugar is not a polysaccharide.\n\nClaim 11 (Currently Amended): (Currently Amended) The process of claim 1, wherein the Maillard reaction product depresses the valued material or an impurity in the aqueous suspension, dispersion, or solution, and wherein the reducing sugar is not a polysaccharide.\n\nClaim 13 (Currently Amended): (Currently Amended) A process for separating a valued material from a suspension, dispersion, or solution, comprising: treating the liquid suspension, dispersion, or solution with a Maillard reaction product of (1) an amine and (2) a reducing sugar, a reducing sugar equivalent, or a mixture thereof to provide a treated mixture; and removing a purified valued material from the treated mixture, wherein the reducing sugar is not a polysaccharide.\n\nClaim 15 (Currently Amended): (Currently Amended) The process of claim 13, wherein the Maillard reaction product is produced by reacting the amine and the reducing sugar, and wherein the reducing sugar is not a polysaccharide.\n\nClaim 19 (Currently Amended): (Currently Amended) The process of claim 13, wherein the Maillard reaction product depresses the valued material or an impurity present in the treated mixture, or wherein the Maillard reaction product promotes flotation of the valued material or the impurity in the treated mixture, and wherein the reducing sugar is not a polysaccharide.",
+  "usage": {
+    "input_tokens": 3560,
+    "output_tokens": 560,
+    "total_tokens": 4120
+  },
+  "stop_reason": "stop",
+  "latency_sec": 21.31,
+  "cost_usd": 0.00087,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:18:41Z"
+}

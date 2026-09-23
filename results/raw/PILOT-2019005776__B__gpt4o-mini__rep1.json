@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019005776",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2019005776",
+  "app_num": "14754496",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16025,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ad16dbc5456d3530",
+  "response_text": "Claim 1 (Currently amended): A computing system for authoring a document, comprising: a user input subsystem comprising at least one hardware component configured to (1) receive first user input identifying content to be included in the document, the identified content being in a first form, and (2) receive second user input specifying a transformation operation to be performed on the identified content in order to transform the identified content from the first form into a second form; and a materialization subsystem comprising at least one hardware component configured to apply the specified transformation operation to transform the identified content from the first form into the second form for display.\n\nClaim 2 (Original): The computing system of claim 1 wherein the first user input received by the user input subsystem identifies a data structure external to the document from which the identified content is available for retrieval.\n\nClaim 3 (Original): The computing system of claim 1 wherein the first user input received by the user input subsystem literally conveys the identified content.\n\nClaim 4 (Original): The computing system of claim 1 wherein the user input subsystem is configured to receive second user input specifying a plurality of transformation operations to be performed on the identified content.\n\nClaim 5 (Original): The computing system of claim 4 wherein the user input subsystem is configured to receive third user input specifying an order among the plurality of transformation operations in which the plurality of transformation operations is to be performed.\n\nClaim 6 (Original): The computing system of claim 4 further comprising a precedence inference subsystem comprising at least one hardware component configured to infer an order among the plurality of transformation operations in which the plurality of transformation operations is to be performed.\n\nClaim 7 (Original): The computing system of claim 1 wherein the user input subsystem is configured to receive the second user input relative to a displayed literal representation of the content identified by the first user input received by the user input subsystem.\n\nClaim 8 (Original): The computing system of claim 1 wherein the user input subsystem is configured to receive the second user input relative to a displayed structural representation of the content identified by the first user input received by the user input subsystem.\n\nClaim 9 (Original): The computing system of claim 1 wherein the user input subsystem is further configured to receive third user input specifying at least one edit to the identified content in the second form, the computer system further comprising: a revision subsystem comprising at least one hardware component configured to edit the identified content in the second form for display in accordance with the at least one edit specified by the third user input received by the user input subsystem.\n\nClaim 10 (Original): The computing system of claim 9 further comprising: a storage subsystem comprising at least one hardware component causing the identified content as edited by the revision subsystem to be stored in the first form.",
+  "usage": {
+    "input_tokens": 3462,
+    "output_tokens": 556,
+    "total_tokens": 4018
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.48,
+  "cost_usd": 0.00085,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:29:22Z"
+}

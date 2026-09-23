@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002332",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2020002332",
+  "app_num": "12406916",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15638,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d94dd4dafddb17f3",
+  "response_text": "13. (Currently amended) A system for electronically providing [[a]] __an__ electronic value certificate to a mobile device, the system comprising: a merchant server for receiving certificate selection information related to the selection of an electronic value certificate and associated recipient data from a certificate selection device and generating electronic value certificate data __derived from the certificate selection information and the associated recipient data__; and an over the air (OTA) provisioning server for receiving the electronic value certificate [[selection]] data from the merchant server, establishing a communications link with a mobile device associated with __the__ recipient data, and provisioning the electronic value certificate data to the mobile device over the communications link via over the air (OTA) communications, __wherein the OTA provisioning server is configured to send a control short message service (SMS) message to the mobile device associated with the recipient data and receive, from the mobile device, an electronic value certificate download request for the electronic value certificate data.__\n\n14. (Previously presented) The system of claim 13 wherein the electronic value certificate data includes personalization data that is used to generate a softcard electronic coupon in the mobile device and wherein the electronic certificate selection information includes data represents certificates selected by a user.\n\n15. (Previously presented) The system of claim 13 wherein the electronic value certificate data comprises a certificate authorization code.\n\n16. (Previously presented) The system of claim 15 wherein the certificate authorization code includes an electronic coupon authorization code.\n\n17. (Currently amended) The system of claim 13 wherein the electronic value certificate data comprises a __short message service (SMS)__ message containing a __uniform resource locator (URL)__ link to a web page displaying a barcode.\n\n18. (Currently amended) The system of claim 13 wherein the electronic value certificate data comprises a control __short message service (SMS)__ message instructing the mobile device to download at least one barcode image of at least one coupon associated with the certificate selection information.\n\n19. (Previously presented) The system of claim 13 wherein the OTA provisioning server is further configured to send a control short message service (SMS) message to the mobile device associated with the recipient data, and receive, from the mobile device, an electronic value certificate download request for the electronic value certificate data.\n\n20. (Currently amended) The system of claim 13 wherein the OTA provisioning server is further configured to upload the electronic value certificate data to the mobile device as a softcard coupon and personalization data, __wherein the personalization data is provisioned to at least one of a secure element and mobile base band memory in the mobile device.__\n\n21. (Previously presented) The system of claim 20 wherein the personalization data is provisioned to at least one of a secure element and mobile base band memory in the mobile device.\n\n22. (Previously presented) The system of claim 21 wherein the mobile device is adapted to communicate the personalization data to a wireless device reader in order to conduct a purchase transaction.\n\n23. (Previously presented) The system of claim 13 wherein the certificate selection device includes at least one of a personal computer, a kiosk station, and a smart poster.\n\n24. (Currently amended) The system of claim 13 wherein the mobile device comprises a first __near field communication (NFC)__ enabled device, and is configured to transfer the electronic value certificate to a second __near field communication (NFC)__ enabled mobile device.\n\n25. (Currently amended) A __non-transitory computer readable storage__ medium having instructions stored thereon that, when executed, cause a processor to perform a method comprising: providing the electronic certificate selection information and associated recipient data to a merchant server; receiving, from the merchant server, electronic value certificate data derived from the certificate selection information __and the associated recipient data__; establishing a communications link with a mobile device corresponding to the recipient data; and provisioning the electronic value certificate data on the mobile device over the communications link via over the air (OTA) communications, __wherein establishing the communications link with the mobile device comprises sending a control short message service (SMS) message to the mobile device associated with the recipient data and receiving, from the mobile device, an electronic value certificate download request for the electronic value certificate data.__",
+  "usage": {
+    "input_tokens": 3393,
+    "output_tokens": 847,
+    "total_tokens": 4240
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.45,
+  "cost_usd": 0.01271,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:47:35Z"
+}

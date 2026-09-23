@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 8247,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "011302ff02d9b5ed",
+  "response_text": "(Currently Amended) Claim 1: A compound of formula (IIa) O NaO OR2 0 (II a), in which substituent R2 is selected from the group consisting of __C1-C12-alkyl, C6-aryl, and arylalkyl, wherein R2 is not ethyl__.\n\n(Currently Amended) Claim 2: A compound according to Claim 1 of formula (II a) in which R2 is __C1-C12-alkyl excluding ethyl__, C6-aryl, or arylalkyl.\n\n(Currently Amended) Claim 3: A compound according to Claim 1 of formula (II a) in which R2 is __methyl__.\n\n(Currently Amended) Claim 4: A compound of formula (Ilb) O ZO OMe O O (I Ib) in which substituent Z is selected from the group consisting of alkali metals and alkaline earth metals, __excluding potassium__.\n\n(Currently Amended) Claim 5: A compound according to Claim 1 of formula (Il b) in which Z is sodium __and not potassium__.",
+  "usage": {
+    "input_tokens": 2037,
+    "output_tokens": 237,
+    "total_tokens": 2274
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.28,
+  "cost_usd": 0.00045,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:32:26Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017009415",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2017009415",
+  "app_num": "13468920",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12440,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6d688d72f4920097",
+  "response_text": "1 (Currently amended): A catheter system for delivering ultrasonic energy to a treatment site within a body lumen, the catheter comprising: a tubular body having a proximal end, a distal end and an energy delivery section positioned between the proximal end and the distal end; wherein the ultrasound radiating members of one electrical group are spatially interdigitated with the ultrasound radiating members of another electrical group, and wherein the ultrasound radiating members are interdigitated in a pattern that is not solely regular or pseudo random.\n\n4 (Currently amended): The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a pattern that is not solely regular.\n\n5 (Currently amended): The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a pattern that is not solely pseudo random.\n\n6 (Currently amended): A system for treating a patient having pulmonary embolism, the system comprising: a first ultrasound catheter and a second ultrasound catheter, each of the first and the second ultrasound catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section having at least one ultrasound element, the tubular body also including at least one fluid delivery lumen; and a control system is connected to and configured to operate both the first and the second ultrasound catheters.",
+  "usage": {
+    "input_tokens": 2981,
+    "output_tokens": 268,
+    "total_tokens": 3249
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.56,
+  "cost_usd": 0.00061,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:12:25Z"
+}

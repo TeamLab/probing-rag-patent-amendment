@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "C",
+  "rep": 1,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16803,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b995105d7af6d44b",
+  "response_text": "1) (Currently amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than 2000 Da and a polyanion, said nanoparticle having a size of less than one micron, wherein said polyelectrolyte complex nanoparticle is __intimately associated with a multivalent cation crosslinker__.\n\n2) (Cancelled)\n\n3) (Original)\n\n4) (Original)\n\n5) (Original)\n\n6) (Original)\n\n8) (Currently amended) The composition of claim 1, wherein said polyelectrolyte complex nanoparticle comprised a nanoparticle with an average particle size of __about 100 to 500 nm__ in diameter.\n\n9) (Currently amended) The composition of claim 1, wherein said polyelectrolyte complex nanoparticles are stable in water, field brine and seawater, and __wherein the polyalkylenimine is less than 1500 Da__.\n\n10) (Currently amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than 1500 Da and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron, __wherein said polyelectrolyte complex nanoparticle is intimately associated with a multivalent cation crosslinker__.\n\n12) (Cancelled)\n\n13) (Cancelled)\n\n21) (Currently amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer __selected from acrylate-based polymers, partially hydrolyzed polyacrylamide, or copolymers of acrylate, acrylamide, N,N-dimethylacrylamide, tert-butyl acrylate, acryamido-2-methylpropane sulfonic acid, or sodium 2-acryamido-2-methylpropane sulfonate__ that can be crosslinked with a); and c) a fluid.\n\n22) (Cancelled)\n\n23) (Cancelled)\n\n24) (Cancelled)\n\n26) (Currently amended) The composition of claim 21, where said fluid is __seawater or a brine solution containing at least 50,000 ppm total dissolved solids__.",
+  "usage": {
+    "input_tokens": 5054,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 540,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.49,
+  "cost_usd": 0.0062,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:53:40Z"
+}

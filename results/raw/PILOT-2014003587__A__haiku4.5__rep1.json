@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014003587",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2014003587",
+  "app_num": "12895909",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13433,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9311261024d2ce0a",
+  "response_text": "1. (Currently amended) A method for controlling a flow of air, the method comprising: establishing a level of vacuum in a booster device by generating the flow of air from the booster device using a pump; determining whether the level of vacuum in the booster device has reached a predetermined value; and __terminating the flow of air from the booster device when the level of vacuum in the booster device has reached the predetermined value, wherein the terminating step reduces parasitic load on an engine driving the pump__.\n\n2. (Currently amended) The method of claim 1, wherein said terminating the flow of air is accomplished via a directional control valve __in response to a control signal from a pressure sensor__, such that a pressure differential across the pump is reduced.\n\n3. (Currently amended) The method of claim 2, wherein said terminating the flow of air includes __simultaneously__ changing the direction of the flow of air and closing a flow path between the pump and the booster device.\n\n4. (Previously presented) The method of claim 3, wherein said changing the direction of the flow of air includes opening a flow path between a negative pressure chamber of the pump and a positive pressure chamber of the pump.\n\n5. (Previously presented) The method of claim 3, wherein said changing the direction of the flow of air includes opening a path for a flow of air between the pump and the atmosphere.\n\n6. (Currently amended) The method of claim 5, further comprising filtering the flow of air between the atmosphere and the pump via a filter __positioned downstream of the directional control valve__.\n\n7. (Previously presented) The method of claim 1, wherein the booster device is a vacuum servo booster for an automobile braking system.\n\n8. (Currently amended) A system for controlling a flow of air, the system comprising: a booster device configured to provide a vacuum assist when a level of vacuum has been established in the device; a pump configured to establish the level of vacuum in the booster device by generating the flow of air from the booster device; __a pressure sensor configured to detect when the level of vacuum in the booster device has reached a predetermined value__; and a directional control valve adapted to terminate the flow of air from the booster device __in response to a signal from the pressure sensor__ when the level of vacuum in the booster device has reached a predetermined value, such that a pressure differential across the pump is reduced.\n\n9. (Currently amended) The system of claim 8, wherein the directional control valve is further adapted to __simultaneously__ change the direction of the flow of air and close a flow path between the pump and the booster device.\n\n10. (Previously presented) The system of claim 9, wherein to change the direction of the flow of air the directional control valve opens a flow path between a negative pressure chamber of the pump and a positive pressure chamber of the pump.\n\n11. (Previously presented) The system of claim 9, wherein to change the direction of the flow of air the directional control valve opens a flow path between the pump and the atmosphere.\n\n12. (Currently amended) The system of claim 11, further comprising a filter adapted for filtering a flow of air between the atmosphere and the pump __positioned downstream of the directional control valve__.\n\n13. (Previously presented) The system of claim 8, wherein the booster device is a vacuum servo booster for an automobile braking system.\n\n14. (Currently amended) A motor vehicle comprising: an internal combustion engine; a booster device configured to provide a vacuum assist when a level of vacuum has been established in the device; and a system for controlling a flow of air from the booster device, the system including: __a pressure sensor configured to detect when the level of vacuum in the booster device has reached a predetermined value__; a pump configured to establish the level of vacuum in the booster device by generating the flow of air from the booster device; and a directional control valve adapted to terminate the flow of air from the booster device __in response to a signal from the pressure sensor__ when the level of vacuum in the booster device has reached a predetermined value, such that a pressure differential across the pump and a parasitic load on the engine are reduced.\n\n15. (Currently amended) The vehicle of claim 14, wherein the directional control valve is further adapted to __simultaneously__ change the direction of the flow of air and close a flow path between the pump and the booster device.\n\n16. (Previously presented) The vehicle of claim 15, wherein to change the direction of the flow of air the directional control valve opens a flow path between a negative pressure chamber of the pump and a positive pressure chamber of the pump.\n\n17. (Previously presented) The vehicle of claim 15, wherein to change the direction of the flow of air the directional control valve opens a flow path between the pump and the atmosphere.\n\n18. (Currently amended) The vehicle of claim 17, further comprising a filter adapted for filtering the flow of air between the atmosphere and the pump __positioned downstream of the directional control valve__.\n\n19. (Previously presented) The vehicle of claim 14, further comprising a braking system, wherein the booster device is a vacuum servo booster for the braking system.\n\n20. (Previously presented) The vehicle of claim 14, wherein the engine is a compression-ignition type.",
+  "usage": {
+    "input_tokens": 3653,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1145,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.77,
+  "cost_usd": 0.0075,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:29:46Z"
+}

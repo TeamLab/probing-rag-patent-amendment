@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12556,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a833c60bc8c6e6aa",
+  "response_text": "1. (Currently amended) A cooling system installable within a structure wall, comprising: a pump; a pad; a water distributor; __a water reservoir;__ a motor; __a housing;__ and a fan.\n\n2. (Currently amended) The cooling system of claim 1, wherein the studs are spaced __sixteen__ inches on center.\n\n3. (Currently amended) The cooling system of claim 1, wherein the studs are spaced __twenty-four__ inches on center.\n\n4. (Previously presented) The cooling system of claim 1, wherein the pump brings water from the water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad.\n\n5. (Previously presented) The cooling system of claim 4, wherein the fan causes air to flow through the pad moistened by the water, thereby cooling the air by evaporation.\n\n6. (Currently amended) The cooling system of claim 5, wherein the fan causes the cooled air to flow through an opening __in the housing__.\n\n7. (Previously presented) The cooling system of claim 4, wherein at least some of the water flows back to the reservoir for recirculation.\n\n8. (Previously presented) The cooling system of claim 1, wherein the water reservoir is filled with additional water when the water in the reservoir falls below a predetermined level.\n\n9. (Previously presented) The cooling system of claim 8, further including a ball float valve that opens to fill the water reservoir with the additional water when the water in the reservoir falls below the predetermined level.\n\n10. (Previously presented) The cooling system of claim 1, further including a water drain.\n\n11. (Currently amended) The cooling system of claim 1, wherein the housing includes a front cover __and the housing protrudes from the wall less than three inches__.\n\n12. (Previously presented) The cooling system of claim 1, wherein the housing protrudes from the wall less than three inches.\n\n13. (Currently amended) The cooling system of claim 1, wherein the wall is a load-bearing wall __and the cooling system is positioned between wall studs__.\n\n14. (Previously presented) The cooling system of claim 1, wherein the structure is a garage.\n\n15. (Currently amended) A cooling system kit, comprising: the cooling system of claim 1; __screws for__ mounting __the cooling system to wall studs__; and a ventilation grill.\n\n16. (Previously presented) The cooling system kit of claim 15, further including instructions.\n\n17. (Currently amended) A cooling system, comprising: __screws for mounting__ within a structure wall, __an evaporative cooling system for__ evaporatively cooling an indoor area.\n\n18. (Currently amended) The cooling system of claim 17, wherein the __screws for mounting include placing__ the __evaporative cooling system__ between wall studs spaced __sixteen__ inches on center.\n\n19. (Previously presented) The cooling system of claim 17, wherein the means for mounting includes placing the means for evaporatively cooling within a structure wall, the structure wall constructed using one of structural insulated panels (SIP) and insulating concrete forms (ICF).\n\n20. (Currently amended) The cooling system of claim 17, wherein the __evaporative cooling system includes a housing that__ protrudes from the wall less than three inches.",
+  "usage": {
+    "input_tokens": 3608,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 737,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 15.21,
+  "cost_usd": 0.02188,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:11:44Z"
+}

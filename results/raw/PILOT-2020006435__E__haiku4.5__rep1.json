@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020006435",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2020006435",
+  "app_num": "15352183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12451,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a552450d4721f017",
+  "response_text": "1. (Currently amended) A proofed frozen dough comprising: (a) a dough mixture of flour, water, and optionally additives, the dough mixture defining a dough matrix; (b) gas bubbles dispersed throughout the dough matrix, wherein the gas bubbles were produced during a proofing step prior to freezing; (c) a spent yeast component comprising yeast that has been metabolically active and substantially depleted of fermentative capacity during the proofing step; and (d) a preserved yeast component comprising yeast that remains metabolically viable and capable of fermentation after the proofing step and after freezing, wherein the preserved yeast component is capable of resuming fermentative activity upon thawing and heating.\n\n2. (Currently amended) The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 1 to about 8 wt.% of the spent yeast component.\n\n3. (Original) The proofed frozen dough of claim 1, wherein the spent yeast component comprises yeast from cream yeast, compressed yeast, semi-dry yeast, frozen yeast, active dry yeast, instant yeast, or a combination thereof.\n\n4. (Original) The proofed frozen dough of claim 3, wherein the yeast has been spent during proofing.\n\n5. (Original) The proofed frozen dough of claim 1, wherein the spent yeast component has a yeast vitality of less than 25 % of its initial vitality.\n\n6. (Original) The proofed frozen dough of claim 1, wherein the preserved yeast component has a yeast vitality of at least 50 % of its initial vitality.\n\n7. (Currently amended) The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 0.1 to about 2 wt.% of the preserved yeast component.\n\n8. (Original) The proofed frozen dough of claim 1, wherein the preserved yeast component comprises encapsulated yeast, fat-coated yeast, non-hydrated active dry yeast, non-hydrated instant yeast, non-hydrated semi-dry yeast, non-hydrated frozen yeast, or a combination thereof.\n\n9. (Original) The proofed frozen dough of claim 1, wherein the proofed frozen dough has a volume, and wherein the gas bubbles make up about 30 to about 90 % of the volume of the frozen dough.\n\n10. (Currently amended) The proofed frozen dough of claim 1, wherein the proofed frozen dough has a density of about 0.2 to about 0.5 g/cm³.\n\n11. (Original) The proofed frozen dough of claim 1, wherein the gas bubbles comprise gas produced by the spent yeast component during proofing.\n\n12. (Original) The proofed frozen dough of claim 1, wherein the frozen dough is in its final shape and form for baking.\n\n13. (Currently amended) A method for making a frozen dough product, the method comprising: (a) mixing dough ingredients to produce a dough composition, the dough ingredients comprising: i. water; ii. flour; iii. a first yeast that is unencapsulated and unprotected; and iv. a second yeast that is encapsulated or otherwise protected from freezing stress; (b) proofing the dough at a temperature and for a duration sufficient to substantially deplete fermentative capacity of the first yeast while preserving fermentative capacity of the second yeast, wherein during proofing the first yeast is spent and the second yeast is preserved; and (c) freezing the dough after proofing, wherein the second yeast remains viable and capable of fermentation upon thawing and heating.\n\n14. (Original) The method of claim 13, wherein at least 60 % of the first yeast is spent during proofing.\n\n15. (Original) The method of claim 13, wherein at least 50 % of the second yeast is preserved during proofing.\n\n16. (Currently amended) The method of claim 13, wherein the dough ingredients comprise about 1 to about 7 wt.% of the first yeast.\n\n17. (Currently amended) The method of claim 13, wherein the dough ingredients comprise about 0.1 to about 2 wt.% of the second yeast.\n\n18. (Original) The method of claim 13, wherein the second yeast is different from the first yeast.\n\n19. (Original) The method of claim 13, wherein the second yeast comprises encapsulated yeast, fat coated yeast, non-hydrated active dry yeast, non-hydrated instant yeast, non-hydrated semi-dry yeast, non-hydrated frozen yeast, or a combination thereof.\n\n20. (Original) The method of claim 13, wherein the mixing comprises mixing the water, flour, and first yeast for a first period of time, adding the second yeast and mixing the dough ingredients for a second period of time, wherein the first period of time is longer than the second period of time.\n\n21. (Original) The method of claim 20, wherein the second period of time is from about 1 to about 2 minutes.\n\n22. (Original) The method of claim 13 further comprising: shaping and cutting the dough to produce a pizza crust prior to proofing; freezing the pizza crust; and applying toppings to the frozen pizza crust.\n\n23. (Original) The method of claim 13 further comprising refrigerating the dough after freezing.\n\n24. (Original) The method of claim 23, wherein the dough is refrigerated for from about 12 hours to about 7 days.\n\n25. (Currently amended) A method for making a leavened bakery product, the method comprising: (a) mixing dough ingredients to produce a dough, the dough ingredients comprising: i. water; ii. flour; iii. a first yeast that is unencapsulated and unprotected; and iv. a second yeast that is encapsulated or otherwise protected from freezing stress; (b) proofing the dough to produce a proofed dough at a temperature and for a duration sufficient to substantially deplete fermentative capacity of the first yeast while preserving fermentative capacity of the second yeast, wherein the first yeast is spent during the proofing and the second yeast is preserved during the proofing; (c) freezing the proofed dough, wherein the second yeast remains viable and capable of fermentation upon thawing; and (d) baking the dough to produce the leavened bakery product, wherein the second yeast ferments during the baking step.\n\n26. (Original) The method of claim 25, wherein the second yeast is different from the first yeast.\n\n27. (Original) The method of claim 25, wherein the second yeast comprises encapsulated yeast, fat coated yeast, non-hydrated active dry yeast, non-hydrated instant yeast, non-hydrated semi-dry yeast, non-hydrated frozen yeast, or a combination thereof.\n\n28. (Original) The method of claim 25, wherein the dough does not comprise chemical leaveners.\n\n29. (Original) The method of claim 25, wherein the dough has a first volume before the proofing step, a second volume after the proofing step, and a third volume after the baking step, and wherein the third volume is at least 50 % greater than the second volume.\n\n30. (Original) The method of claim 29, wherein the third volume is greater than the second volume due at least in part to an activity of the second yeast during the baking step.\n\n31. (Currently amended) The method of claim 25, wherein the dough ingredients comprise about 20 to about 40 wt.% water and about 50 to about 70 wt.% flour.\n\n32. (Currently amended) The method of claim 25, wherein the dough ingredients comprise about 1 to about 7 wt.% of the first yeast.\n\n33. (Currently amended) The method of claim 25, wherein the dough ingredients comprise about 0.1 to about 2 wt.% of the second yeast.",
+  "usage": {
+    "input_tokens": 3821,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1916,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 13.46,
+  "cost_usd": 0.01072,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:06:45Z"
+}

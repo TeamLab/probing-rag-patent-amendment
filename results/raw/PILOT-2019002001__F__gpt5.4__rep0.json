@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019002001",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2019002001",
+  "app_num": "14388177",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20398,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4307ba9182c3f138",
+  "response_text": "1. (Currently amended) An association method, comprising: identifying candidate file sets from a plurality of application files, each candidate file set including a cluster of related but unrecognized application files __of two or more computing devices__; presenting content indicative of each of the candidate file sets; and associating an application with application files of one of the candidate file sets according to a detected selection of the content indicative of the one of the candidate file set.\n\n2. (Currently amended) The method of claim 1, wherein the candidate file sets include at least one of a frequent file set, a common application package file set __of the two or more computing devices__, a common version file set, and a common directory file set.\n\n8. (Currently amended) A __non-transitory__ computer readable medium having instructions stored thereon that when executed by a processing resource implement a system comprising a file set engine, a presentation engine, and an association engine, wherein: the file set engine is configured to examine a plurality of unrecognized files of two or more computing devices and identify candidate file sets from the plurality, each candidate file set including a cluster of related but unrecognized application files __of the two or more computing devices__; the presentation engine is configured to present content indicative of each identified candidate file set; and the association engine is configured to detect a selection of content indicative of one of the candidate file sets and associate an application with an application file of that one of the candidate file sets.\n\n9. (Currently amended) The medium of claim 8, wherein the file set engine is configured to identify candidate file sets that include at least one of a frequent file set, a common application package file set __of the two or more computing devices__, a common version file set, and a common directory file set.\n\n15. (Currently amended) A system comprising a processing resource and a non-transitory computer readable medium and instructions stored on the medium, wherein the instructions, when executed, cause the processing resource to implement a method, comprising examining a plurality of unrecognized application files of two or more computing devices to identify candidate file sets from the plurality, __each candidate file set including a cluster of related but unrecognized application files of the two or more computing devices__; presenting content indicative of each of the candidate file sets; and associating an application with the application files of a given one of the candidate file sets according to a selection of the content indicative of that candidate file set.\n\n16. (Currently amended) The system of claim 15, wherein the identified candidate file sets include at least one of a frequent file set, a common application package file set __of the two or more computing devices__, a common version file set, and a common directory file set.",
+  "usage": {
+    "input_tokens": 4823,
+    "output_tokens": 554,
+    "total_tokens": 5377
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.49,
+  "cost_usd": 0.01157,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:37:01Z"
+}

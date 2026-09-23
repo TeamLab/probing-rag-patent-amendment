@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 64634,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "eaf1f44d5cf04ee8",
+  "response_text": "Claim 281 (Currently amended): A tool comprising a lamination of at least two layers and at least two adhesive layers, the tool comprising first and second layers, a first adhesive layer configured to be cured on the first layer, a second adhesive layer configured to be cured on the second layer, the first adhesive layer and the second adhesive layer configured to be cured to each other, the tool has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the first and second layers, a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer, __and a segmented weld ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, wherein the segmented weld ring comprises a plurality of discrete ring segments that are not continuous around the perimeter__.\n\nClaim 282 (Previously presented): The tool of claim 281 wherein the first adhesive layer is an epoxy adhesive.\n\nClaim 283 (Previously presented): The tool of claim 281 further including a fiber network between the first and second layers.\n\nClaim 284 (Previously presented): The tool of claim 283 wherein the fiber network is a random mesh.\n\nClaim 285 (Previously presented): The tool of claim 281 wherein the first and second layers are first and second outer blade cores.\n\nClaim 286 (Previously presented): The tool of claim 285 wherein the first and second outer blade cores are steel outer blade cores.\n\nClaim 287 (Previously presented): The tool of claim 286 further including a honey comb material between the first and second outer blade cores.\n\nClaim 288 (Previously presented): The tool of claim 286 further including a steel plate between the first and second outer blade cores.\n\nClaim 289 (Previously presented): The tool of claim 285 wherein the weld ring is segmented.\n\nClaim 290 (Previously presented): The tool of claim 281 further including a honeycomb portion between the first and second layers.\n\nClaim 291 (Currently amended): The tool of claim 281 further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring, wherein the inner ring includes __a__ central opening.\n\nClaim 292 (Previously presented): The tool of claim 291 wherein the central opening accommodates a drive shaft.\n\nClaim 293 (Previously presented): The tool of claim 281 further including a fiber reinforced plastic between the first and second layers.\n\nClaim 294 (Previously presented): The tool of claim 293 further including a honeycomb portion wherein the fiber reinforced plastic extends on each side of the honeycomb portion.\n\nClaim 295 (Previously presented): The tool of claim 293 wherein the weld ring is segmented.",
+  "usage": {
+    "input_tokens": 15456,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 693,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.82,
+  "cost_usd": 0.05676,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:44:35Z"
+}

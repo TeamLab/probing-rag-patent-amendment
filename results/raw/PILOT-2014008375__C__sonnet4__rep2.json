@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014008375",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2014008375",
+  "app_num": "13296572",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12432,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "dec35f180a7c2a2b",
+  "response_text": "1. (Currently amended) A vehicle door comprising: a door outer panel defining an exterior surface of the vehicle door; a common door inner panel located inboard of the door outer panel and configured to mount door hardware, the common door inner panel having a periphery; and a panel extension extending around essentially all of the periphery of the common door inner panel, the panel extension being __formed separate from both the common door inner panel and the door outer panel and__ attached to the periphery of the common door inner panel, forming an inner panel-extension joint, and attached to the door outer panel, forming an outer panel-extension joint, to secure the common door inner panel to the door outer panel.\n\n2. (Currently amended) The vehicle door of claim 1 wherein the outer panel-extension joint is a hemmed joint __and the inner panel-extension joint includes fasteners securing the panel extension to the common door inner panel__.\n\n3. (Original) The vehicle door of claim 1 wherein the inner panel-extension joint includes fasteners securing the panel extension to the common door inner panel.\n\n4. (Currently amended) The vehicle door of claim 1 including at least one hinge that is mounted __directly__ to the common door inner panel.\n\n5. (Cancelled)\n\n6. (Original) A method of assembling a vehicle door, the method comprising the steps of: (a) forming a panel extension separate from a common door inner panel and a door outer panel; (b) attaching the panel extension to the door outer panel; (c) mounting door hardware to the common door inner panel; and (d) attaching the panel extension to a periphery of the common door inner panel.\n\n7. (Original) The method of claim 6 wherein step (b) is further defined by hemming the panel extension to the door outer panel.\n\n8. (Original) The method of claim 6 wherein step (d) is further defined by attaching fasteners to the panel extension and the common door inner panel.\n\n9. (Original) The method of claim 8 wherein step (d) is further defined by the fasteners being rivets, and the panel extension being riveted to the common door inner panel.\n\n10. (Original) The method of claim 6 further comprising: (e) forming a second panel extension separate from a second common door inner panel and a second door outer panel, the second common door inner panel being the same as the common door inner panel, the second panel extension and the second door outer panel being different from the panel extension and the door outer panel, respectively; (f) attaching the second panel extension to the second door outer panel; (c) mounting second door hardware to the second common door inner panel; and (d) attaching the second panel extension to a periphery of the second common door inner panel.",
+  "usage": {
+    "input_tokens": 3316,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 606,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.68,
+  "cost_usd": 0.01904,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:37:52Z"
+}

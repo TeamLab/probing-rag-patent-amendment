@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12366,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "895e71a96cbdc723",
+  "response_text": "3. (Currently amended) The system of claim 1, wherein the indicia of inter-node interference is based on __a respective__ minimum desired throughput for each particular node.\n\n4. (Currently amended) The system of claim 1, wherein the first node is configured to adjust the access attempt percentage based on the indicia of inter-node interference of the first node divided by __a corresponding__ indicia of inter-node interference of one or more of the nodes interfered with by transmissions from the first node.\n\n14. (Currently amended) The system of claim 13, comprising the first access point, wherein the first access point is configured to broadcast __a dynamic weight associated with__ the second node to the first node.\n\n17. (Currently amended) The system of claim 13, comprising a second access point, wherein the second node communicates with the second access point and the first node interferes with communication between the second node and the second access point __by transmitting to the first access point__.",
+  "usage": {
+    "input_tokens": 3031,
+    "output_tokens": 204,
+    "total_tokens": 3235
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.88,
+  "cost_usd": 0.00583,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:17:02Z"
+}

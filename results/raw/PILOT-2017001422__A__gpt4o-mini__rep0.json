@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017001422",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2017001422",
+  "app_num": "13995688",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 9732,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ad30e144db3e9d5e",
+  "response_text": "Claim 1 (Currently Amended): An immunogenic composition comprising: a modified, live bovine viral diarrhea virus type lb (BVDV-lb), __wherein the modified, live BVDV-lb is distinct from any BVDV Type 1a or BVDV Type 2 viruses__, a veterinary-acceptable carrier, and optionally an adjuvant.\n\nClaim 3 (Currently Amended): The immunogenic composition of claim 1, further comprising one or more of a parainfluenza virus Type 3 (PI3), a bovine respiratory syncytial virus (BRSV), a bovine herpes virus (BHV-1), or an infectious bovine rhinotracheitis (IBR) virus, or any combination thereof; or one or more viral-specific antigens obtained therefrom, __wherein the BVDV Type lb is present in an amount effective to induce an immune response specific to BVDV-lb__.\n\nClaim 4 (Currently Amended): The immunogenic composition of claim 1, further comprising a modified, live IBRV, a modified, live BRSV, a modified, live BHV-1, or a combination thereof, __wherein the modified, live viruses are distinct from any BVDV Type 1a or BVDV Type 2 viruses__.\n\nClaim 6 (Currently Amended): The immunogenic composition of claim 1, further comprising an immunologically effective amount of at least a first antigen, __wherein the first antigen is specific for a pathogen other than BVDV-lb__.\n\nClaim 12 (Currently Amended): The vaccine of claim 4, further comprising an immunologically-effective amount of at least one microbial pathogen-specific antigen, __wherein the microbial pathogen is not BVDV-lb__.\n\nClaim 2 (Cancelled): Claim 2 (Cancelled)",
+  "usage": {
+    "input_tokens": 2716,
+    "output_tokens": 385,
+    "total_tokens": 3101
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.36,
+  "cost_usd": 0.00064,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:58:24Z"
+}

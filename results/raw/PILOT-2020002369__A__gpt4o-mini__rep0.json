@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002369",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2020002369",
+  "app_num": "14171413",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12843,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cbff5fbcb3cb7c57",
+  "response_text": "Claim 1 (Currently amended): A regenerative braking control system for a __hybrid electric vehicle__ or __plug-in hybrid electric vehicle__, comprising: at least one sensor adapted to sense a front tire impact event and transmit a sensor signal responsive to the front tire impact event during vehicle braking.\n\nClaim 4 (Currently amended): The system of claim 1 further comprising an electrical storage facility interfacing with and adapted to store electrical power from the regenerative powertrain, wherein the electrical storage facility is an energy storage device.\n\nClaim 5 (Currently amended): The system of claim 1 wherein the regenerative powertrain is adapted to apply regenerative braking torque to at least one of a front axle and a rear axle of the vehicle, wherein the regenerative braking torque is applied to the front axle during vehicle braking.\n\nClaim 7 (Currently amended): The system of claim 1 wherein the regenerative powertrain is adapted to apply regenerative braking torque to a selected one of front wheels and rear wheels of the vehicle, wherein the regenerative braking torque is applied to the front wheels during vehicle braking.",
+  "usage": {
+    "input_tokens": 2978,
+    "output_tokens": 213,
+    "total_tokens": 3191
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.44,
+  "cost_usd": 0.00057,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:07:41Z"
+}

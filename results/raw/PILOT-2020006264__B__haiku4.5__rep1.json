@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020006264",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2020006264",
+  "app_num": "15040495",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13538,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "476f018add06fa4c",
+  "response_text": "1. (Currently amended) A method comprising: determining, by a processor, that a benefit payment is due to be made to a recipient; accessing, by the processor, a data store containing records of payment transactions made by the recipient; receiving, by the processor, an indication from the data store that the recipient had successfully performed a biometric user authentication with respect to at least one of the payment transactions; accepting, by the processor, the received indication as proof-of-life with respect to the recipient; and making, by the processor, the benefit payment to the recipient in response to said proof-of-life.\n\n2. (Currently amended) The method of claim 1, wherein said at least one payment transaction occurred during a pre-determined period of time prior to said accessing step, and wherein the pre-determined period of time is determined by the processor.\n\n3. (Currently amended) The method of claim 2, wherein said pre-determined period of time is seven days.\n\n4. (Currently amended) The method of claim 2, wherein said pre-determined period of time is 24 hours.\n\n5. (Currently amended) The method of claim 1, wherein the benefit payment is a social insurance transfer payment and wherein the processor is configured to execute the determining, accessing, receiving, accepting, and making steps.\n\n6. (Currently amended) The method of claim 1, wherein the at least one of the payment transactions includes a credit card account transaction and/or a debit card account transaction, and wherein the processor retrieves transaction records from the data store.\n\n7. (Currently amended) The method of claim 6, wherein a mobile device was used by the recipient to initiate the at least one payment transaction, and wherein the processor accesses records indicating mobile device usage.\n\n8. (Currently amended) The method of claim 1, wherein the benefit payment is made via an electronic monetary transfer, by the processor, to an account owned by the recipient.\n\n9. (Currently amended) The method of claim 1, wherein the benefit payment is made by the processor initiating transmission of a check to the recipient.\n\n10. (Currently amended) A method comprising: determining, by a processor, that a benefit payment is due to be made to a recipient; accessing, by the processor at a first point in time, a data store containing records of payment transactions made by the recipient; determining, by the processor, that the data store contains an indication that the recipient had successfully performed a biometric user authentication most recently with respect to one of said payment transactions at a second point in time earlier than the first point in time; comparing, by the processor, a time interval defined by the second and first points in time with a pre-determined permissive time interval; making, by the processor, the benefit payment, without requiring proof-of-life authentication of the recipient, in a case where the time interval defined by the second and first points in time does not exceed the pre-determined permissive time interval; and requiring, by the processor, proof-of-life authentication of the recipient, prior to making the benefit payment, in a case where the time interval defined by the second and first points in time exceeds the pre-determined permissive time interval.\n\n11. (Currently amended) The method of claim 10, wherein the pre-determined permissive time interval is seven days and is stored in a memory accessible to the processor.\n\n12. (Currently amended) The method of claim 10, wherein the pre-determined permissive time interval is 24 hours and is stored in a memory accessible to the processor.\n\n13. (Currently amended) The method of claim 10, wherein the benefit payment is a social insurance transfer payment and wherein the processor is configured to execute the determining, accessing, comparing, making, and requiring steps.\n\n14. (Original) An apparatus comprising: a processor; and a memory in communication with the processor, the memory storing program instructions, the processor operative with the program instructions to perform functions as follows: determining that a benefit payment is due to be made to a recipient; accessing a data store containing records of payment transactions made by the recipient; receiving an indication from the data store that the recipient had successfully performed a biometric user authentication with respect to at least one of the payment transactions; accepting the received indication as proof-of-life with respect to the recipient; and making the benefit payment to the recipient in response to said proof-of-life.\n\n15. (Currently amended) The apparatus of claim 14, wherein said at least one payment transaction occurred during a pre-determined period of time prior to said accessing, and wherein the pre-determined period of time is stored in the memory.\n\n16. (Currently amended) The apparatus of claim 15, wherein said pre-determined period of time is seven days.\n\n17. (Currently amended) The apparatus of claim 15, wherein said pre-determined period of time is 24 hours.\n\n18. (Currently amended) The apparatus of claim 14, wherein the benefit payment is a social insurance transfer payment and wherein the processor executes the determining, accessing, receiving, accepting, and making functions.\n\n19. (Currently amended) The apparatus of claim 14, wherein the at least one of the payment transactions includes a credit card account transaction and/or a debit card account transaction, and wherein the processor retrieves transaction records from the data store.\n\n20. (Currently amended) The apparatus of claim 19, wherein a mobile device was used by the recipient to initiate the at least one payment transaction, and wherein the processor accesses records indicating mobile device usage.",
+  "usage": {
+    "input_tokens": 3436,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1182,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.23,
+  "cost_usd": 0.00748,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:28:20Z"
+}

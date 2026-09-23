@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018005863",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2018005863",
+  "app_num": "14226008",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17615,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e15f3ff589bac36b",
+  "response_text": "Claim 1 (Currently amended): A computing device for mapping user movements captured by a capture device external to the computing device, to input events on the computing device, the computing device comprising: a display to display an application executing on the computing device; a client sharing module to: transmit video data of the application to a receiver device; and receive gesture data associated with the application, the gesture data based on movements of a user captured from a capture device communicatively coupled to the receiver device; and a mapping module to: map the gesture data into an input event on the computing device; and provide data simulating the input event to a sensor of the computing device, wherein the client sharing module is to establish a video channel between the computing device and receiver device.\n\nClaim 2 (Currently amended): The computing device of claim 1, wherein to map the gesture data into an input event on the computing device, the mapping module is to: retrieve a type of movement of the user from the gesture data; and determine the input event based on the type of movement, wherein the mapping module is to map the gesture data to a touch input event when the type of movement is a swipe movement.\n\nClaim 3 (Currently amended): The computing device of claim 2, wherein when the type of movement of the user is a swipe movement the gesture data is mapped to a touch input event and data simulating the touch input event is provided to a touch sensor of the computing device.\n\nClaim 5 (Currently amended): The computing device of claim 1, wherein the client sharing module is to: establish a video channel between the computing device and receiver device; establish an input channel between the computing device and receiver device; and wherein the video data is transmitted over the video channel and gesture data is received via the input channel.\n\nClaim 10 (Currently amended): A method of mapping user movements captured by a capture device external to a computing device, to input events on the computing device, the method comprising: executing an application on the computing device, using at least one processor of the computing device; transmitting, from the computing device, video data of the application to a receiver device; receiving, at the computing device from the receiver device, gesture data associated with the application, the gesture data based on movements of a user captured from a capture device communicatively coupled to the receiver device; mapping the gesture data to an input event on the computing device; and providing data simulating the input event to a sensor on the computing device, wherein the method further comprises establishing a video channel between the computing device and receiver device.\n\nClaim 11 (Currently amended): The method of claim 10, wherein mapping the gesture data into an input event on the computing device comprises: retrieving a type of movement of the user from the gesture data; and determining the input event based on the type of movement, wherein mapping the gesture data into an input event further comprises: mapping the gesture data to a touch input event when the type of movement is a swipe movement.\n\nClaim 16 (Currently amended): The method of claim 10, further comprising: establishing a video channel between the computing device and receiver device; establishing an input channel between the computing device and the receiver device; and wherein the video data is transmitted over the video channel and gesture data is received via the input channel.",
+  "usage": {
+    "input_tokens": 3924,
+    "output_tokens": 668,
+    "total_tokens": 4592
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.56,
+  "cost_usd": 0.00099,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:56:21Z"
+}

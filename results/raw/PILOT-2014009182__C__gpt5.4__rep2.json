@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014009182",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2014009182",
+  "app_num": "13593995",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14846,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b2e81ae9ccfe8205",
+  "response_text": "1. (Currently amended) A method, comprising: applying a first coating material on a threaded region of an opening in a multi-piece assembly, __the first coating material being applied solely within the opening and directly on threads of the threaded region__; inserting at least one fastener to the threaded region, the fastener including a mating thread selectively secured to the threaded region of the opening to create a first friction interface between the fastener and the multi-piece assembly; and tensioning the fastener between a load surface of the multi-piece assembly and a mating thread of the fastener to define a second friction interface between the multi-piece assembly and the fastener, the second friction interface being spaced away from the threaded region such that the first coating material does not influence the second friction interface.\n\n2. (Currently amended) The method of claim 1, further comprising establishing the first coating material as being applied solely within the opening and in a substantially uniform thickness upon the threads __axially along the threaded region__.\n\n3. (Previously presented) The method of claim 1, further comprising adjusting the first friction interface independent of the second friction interface.\n\n4. (Currently amended) The method of claim 3, wherein adjusting the first friction interface includes adjusting an amount of the first coating material applied to the threaded region, thereby increasing friction at the first friction interface without affecting friction at the second friction interface, __the first coating material remaining solely within the opening__.\n\n8. (Currently amended) The method of claim 1, wherein applying the first coating material includes filling the opening at least partially with a coating fluid __while confining the coating fluid to the opening__.\n\n9. (Currently amended) The method of claim 1, further comprising providing a second coating material at the second friction interface, __the second coating material being separate from the first coating material__.\n\n10. (Currently amended) The method of claim [[8]] __9__, wherein the second coating material includes a corrosion-resistant coating.\n\n11. (Currently amended) The method of claim 1, wherein the first coating material is a thread locking adhesive __applied solely on the threaded region within the opening__.\n\n12. (Currently amended) A method, comprising: applying a first coating material on a threaded region of an opening in a first multi-piece assembly included in __a__ plurality of multi-piece assemblies; inserting at least one fastener to the threaded region, the fastener including a mating thread selectively secured to the threaded region of the [[aperture]] __opening__ to create a first friction interface between the fastener and the first multi-piece assembly, the fastener having a second coating material; tensioning the fastener between a load surface of the multi-piece assembly and a mating thread of the fastener to define a second friction interface between the multi-piece assembly and the fastener, the second friction interface being spaced away from the threaded region such that the first coating material does not influence the second friction interface; adjusting an amount of the first coating material applied to the threaded region in a subsequent multi-piece assembly, thereby increasing friction at the first friction interface of the subsequent multi-piece assembly compared with the first multi-piece assembly, the friction at the second friction interfaces of the first multi-piece assembly and the subsequent multi-piece assembly being substantially equal, __wherein the first coating material is applied solely within the opening__.\n\n13. (Currently amended) The method of claim 12, further comprising: establishing the multi-piece assemblies as connecting rods; wherein the first coating material is a thread locking adhesive __applied solely within the opening__ and the second coating material includes a corrosion-resistant coating.\n\n14. (Currently amended) The method of claim 12, further comprising establishing the first coating material as being applied solely within the opening and in a substantially uniform thickness upon the threads __axially along the threaded region__.\n\n16. (Currently amended) The method of claim 12, wherein applying the first coating material includes filling the opening at least partially with a coating fluid __while confining the coating fluid to the opening__.",
+  "usage": {
+    "input_tokens": 3428,
+    "output_tokens": 822,
+    "total_tokens": 4250
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.74,
+  "cost_usd": 0.0125,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:36:46Z"
+}

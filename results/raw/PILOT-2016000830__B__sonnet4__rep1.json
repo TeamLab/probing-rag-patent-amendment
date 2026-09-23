@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12635,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "666f9f509ceb11e0",
+  "response_text": "1. (Currently amended) A cosmetic composition comprising:\na) an active ingredient which is a compound of formula I:\n\n[Formula I structure]\n\nwherein:\nR1 is hydrogen or C1-C4 alkyl;\nR2 is hydrogen or C1-C4 alkyl;\nR3 is hydrogen, C1-C4 alkyl, or phenyl;\nR4 is hydrogen or C1-C4 alkyl;\nand/or a physiologically acceptable salt thereof, and\nb) one or more __cosmetically acceptable__ vehicles __for topical application__.\n\n2. (Currently amended) Composition according to Claim 1 wherein the compound of formula I is 5-(7-methoxy-3,3-dimethyl-2,3-dihydro-1-benzoxepin-5-yl)-3-methyl-penta-2,4-dienoic acid and/or a physiologically acceptable salt thereof.\n\n3. (Currently amended) __Cosmetic__ composition __according to Claim 1__ comprising a) the active ingredient according to Claim 1 or 2, b) one or more skin-tolerated vehicles, and c) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action.\n\n4. (Currently amended) Composition according to __Claim 1 or 3__, wherein the active ingredient is contained in said composition in an amount of 0.00001 per cent by weight to 10 per cent by weight.\n\n5. (Previously presented) Composition according to claim 5, comprising as a further skin-care ingredient ectoine, preferably in an amount of 0.01 to 10 per cent by weight, more preferably 0.1 to 5 per cent by weight and especially 0.1 to 2 per cent by weight.\n\n7. (Currently amended) Use of the active ingredient of Claim 1 or 2 for the manufacture of a __topical__ cosmetic composition __for skin care__.\n\n8. (Currently amended) Use of the active ingredient of Claim 1 or 2 for the preparation of a __topical cosmetic__ composition which is suitable for the __treatment__ of skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation, __specifically__ for the treatment of acne vulgaris, acne comedonica, polymorphic acne, acne rosaceae, nodular acne, acne conglobata, age-related acne, acne occurring as a side effect, such as acne solaris, medicament-related acne or acne professionalis, for the treatment of other defects of keratinisation, __specifically__ ichthyosis, ichthyosiform states, Darier's disease, keratosis palmo-plantaris, leukoplakia, leukoplakiform states, skin and mucosal (buccal) eczema (lichen), for the treatment of other skin diseases which are associated with defective keratinisation and have an inflammatory and/or immunoallergic component, and __specifically__ all forms of psoriasis relating to the skin, mucous membranes and finger- and toenails, and psoriatic rheumatism and skin atopy, such as eczema, or respiratory atopy, or also hypertrophy of the gums.\n\n9. (Previously presented) Use according to Claim 8 for hair care and/or hair follicle development.\n\n10. (Currently amended) Use __of__ the active ingredient of Claim 1 or 2 for the care, preservation or improvement of the general state of the skin or hair __in a topical cosmetic composition__.\n\n12. (Currently amended) Use of the __active ingredient according to__ Claim 1 or 2 __in a topical cosmetic composition__ for skin lightening and/or skin whitening.\n\n13. (Currently amended) Use __of__ the active ingredient of Claim 1 or 2 __in a topical cosmetic composition__ for the __reduction__ of skin unevenness, such as wrinkles, fine lines, rough skin or large-pored skin.\n\n14. (Currently amended) Use __of__ the active ingredient of Claim 1 or 2 __in a topical cosmetic composition__ for __reducing__ time- and/or light-induced ageing processes of the human skin or human hair, __specifically__ for __reducing__ dry skin, wrinkle formation and/or pigment defects, and/or for the reduction or prevention of the harmful effects of UV rays on the skin.",
+  "usage": {
+    "input_tokens": 3661,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1052,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 24.44,
+  "cost_usd": 0.02676,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:40:54Z"
+}

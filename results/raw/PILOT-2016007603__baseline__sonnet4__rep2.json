@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016007603",
+  "condition": "baseline",
+  "rep": 2,
+  "proceeding_number": "2016007603",
+  "app_num": "12165025",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12698,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3585731dff2f7ba7",
+  "response_text": "1. (Currently amended) An alarm system comprising: a physiological monitor capable of triggering a first alarm in response to an alarm condition; and a station located remotely from the physiological monitor, wherein the station is capable of receiving an input from the physiological monitor and triggering a second alarm in response to the alarm condition, and wherein when the second alarm is not acknowledged __within a predetermined time period__, the station is capable of sending an output to the physiological monitor to initiate an escalated alarm at the physiological monitor __that is different from the first alarm__.\n\n2. (Previously presented) The system of claim 1, wherein the second alarm is capable of being acknowledged by an operator input before expiration of a timer.\n\n3. (Previously presented) The system of claim 1, wherein the first alarm comprises an inaudible alarm.\n\n4. (Previously presented) The system of claim 1, wherein the escalated alarm comprises an audible alarm.\n\n5. (Previously presented) The system of claim 1, wherein the first alarm comprises an audible alarm and the escalated alarm comprises an audible alarm that is louder than the first alarm.\n\n6. (Previously presented) The system of claim 1, wherein the first alarm and the second alarm are triggered substantially simultaneously.\n\n7. (Previously presented) The system of claim 1, wherein the station located remotely from the physiological monitor is part of a central patient management system.\n\n16. (Currently amended) A system comprising: a processor programmed to trigger an alarm in response to an alarm condition; a memory capable of storing alarm data associated with the alarm, wherein the alarm data comprises an alarm type and a time that the alarm was triggered __and an escalation status of the alarm__; and a display capable of displaying the alarm data __in a chronological log format__.\n\n17. (Currently amended) The system of claim 16, wherein the system is part of a physiological monitor or a central management system.\n\n18. (Currently amended) The system of claim 16, wherein the alarm data comprises information about a level of escalation of the alarm.\n\n19. (Currently amended) The system of claim 16, wherein the alarm data comprises information about an acknowledgement of the alarm.\n\n20. (Currently amended) The system of claim 16, wherein the processor is programmed to send the alarm data to one or more wireless devices.",
+  "usage": {
+    "input_tokens": 3264,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.06,
+  "cost_usd": 0.01746,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:10:29Z"
+}

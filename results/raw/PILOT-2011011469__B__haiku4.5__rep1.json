@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12193,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f4d99fad3ffb3782",
+  "response_text": "1. (Currently amended) A method of treating a brain, comprising: inserting an elongated device into the brain to create a path __between non-adjacent tissue layers__; radially expanding the device to create a working channel along the path; and introducing a medical element into the working channel to perform a medical procedure on the brain __that is not accessible without the working channel__.\n\n2. (Currently amended) The method of claim 1, wherein the medical element is an instrument __configured to perform a surgical procedure requiring access through the working channel__.\n\n3. (Currently amended) The method of claim 1, wherein the medical element is a medicament __delivered directly to a target site within the brain through the working channel__.\n\n4. (Currently amended) The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening __such that the device is positioned between tissue layers within the brain__.\n\n5. (Currently amended) The method of claim 1, further comprising inserting the elongated device between tissue layers within the brain __and maintaining the device in position during radial expansion__.\n\n6. (Currently amended) The method of claim 1, further comprising radially contracting and removing the device from the brain __while maintaining the integrity of the working channel__.\n\n7. (Currently amended) A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path __between non-adjacent tissue layers__; radially expanding the device against the tissue to radially displace the tissue along the path; radially reinforcing the device against the tissue __with a stent structure__; and introducing a medical element through the device to perform a medical procedure on the tissue __that requires direct access to the target site__.\n\n8. (Currently amended) The method of claim 7, wherein the medical element is an instrument __configured to perform a procedure requiring access through the reinforced working channel__.\n\n9. (Currently amended) The method of claim 7, wherein the medical element is a medicament __delivered directly to a target tissue site through the reinforced working channel__.\n\n10. (Currently amended) The method of claim 7, further comprising inserting the elongated device between tissue layers __and maintaining separation of the tissue layers during the procedure__.\n\n11. (Currently amended) The method of claim 7, further comprising radially contracting and removing the device from the tissue __while preserving the working channel for continued access__.\n\n12. (Currently amended) The method of claim 7, further comprising treating the tissue in contact with the device with a haemostatic compound to reduce bleeding __prior to introducing the medical element__.\n\n13. (Currently amended) A method of treating a tissue, comprising: placing an elongated device, having a first radially expandable body, surrounded by a stent, which is surrounded by a second radially expandable body, into the tissue to create a path __between non-adjacent tissue layers__; radially expanding the second expandable body against the tissue to radially displace the tissue along the path; radially expanding the first expandable body to radially expand the stent to reinforce the second expandable body against the tissue; radially contracting and removing the first expandable body to create a working channel through the stent; introducing a medical element through the channel to perform a medical procedure on the tissue __requiring direct access to a target site__; and radially contracting the second expandable body and removing the device from the tissue.\n\n14. (Currently amended) The method of claim 13, wherein the medical element is an instrument __configured to perform a procedure requiring access through the stent-reinforced working channel__.\n\n15. (Currently amended) The method of claim 13, wherein the medical element is a medicament __delivered directly to a target tissue site through the stent-reinforced working channel__.\n\n16. (Currently amended) The method of claim 13, further comprising inserting the elongated device between tissue layers __and maintaining the multi-body device structure during insertion and expansion__.\n\n17. (Currently amended) The method of claim 13, further comprising treating the tissue in contact with the device with a haemostatic compound to reduce bleeding __prior to introducing the medical element__.",
+  "usage": {
+    "input_tokens": 3317,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 906,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.92,
+  "cost_usd": 0.00628,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:49:55Z"
+}

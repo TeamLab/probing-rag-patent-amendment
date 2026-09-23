@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2015006603",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2015006603",
+  "app_num": "13138239",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18030,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5e00835494041d2b",
+  "response_text": "1. (Currently amended) An apparatus, comprising:\nan encoder (300) configured to encode mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, wherein the encoder comprises a processor configured to execute instructions stored in a non-transitory computer-readable storage medium to perform the encoding.\n\n2. (Original)\n\n3. (Original)\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Currently amended) The apparatus of claim 1, wherein the adapted mode mapping information is updated after encoding one or more pictures of the sequence, and wherein the encoder comprises a processor configured to execute instructions stored in a non-transitory computer-readable storage medium to perform the update.\n\n8. (Original)\n\n9. (Currently amended) A method, comprising:\nencoding (740, 970) mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures using a processor executing instructions stored in a non-transitory computer-readable storage medium, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence (740, 940, 960), wherein the encoding transforms the sequence of pictures into encoded data.\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)\n\n14. (Original)\n\n15. (Currently amended) The method of claim 9, wherein the adapted mode mapping information is updated after encoding one or more pictures of the sequence (550, 960), wherein the updating transforms the mode mapping information based on the one or more pictures.\n\n16. (Original)\n\n17. (Currently amended) An apparatus, comprising:\na decoder (400) configured to decode mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, wherein the decoder comprises a processor configured to execute instructions stored in a non-transitory computer-readable storage medium to perform the decoding.\n\n18. (Original)\n\n19. (Original)\n\n20. (Original)\n\n21. (Original)\n\n22. (Original)\n\n23. (Currently amended) The apparatus of claim 17, wherein the adapted mode mapping information is updated after decoding one or more pictures of the sequence, and wherein the decoder comprises a processor configured to execute instructions stored in a non-transitory computer-readable storage medium to perform the update.\n\n24. (Original)\n\n25. (Currently amended) A method, comprising:\ndecoding (820, 1030) mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures using a processor executing instructions stored in a non-transitory computer-readable storage medium, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, wherein the decoding transforms encoded data into decoded picture data.\n\n26. (Original)\n\n27. (Original)\n\n28. (Original)\n\n29. (Original)\n\n30. (Original)\n\n31. (Currently amended) The method of claim 25, wherein the adapted mode mapping information is updated after decoding one or more pictures of the sequence, wherein the updating transforms the mode mapping information based on the one or more pictures.\n\n32. (Original)\n\n33. (Currently amended) A non-transitory computer-readable storage media having video signal data encoded thereupon, comprising:\nmode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, wherein the mode mapping information is stored in a tangible, non-transitory medium and is configured to be processed by a processor to transform encoded video data.",
+  "usage": {
+    "input_tokens": 4765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 876,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.31,
+  "cost_usd": 0.00732,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:53:35Z"
+}

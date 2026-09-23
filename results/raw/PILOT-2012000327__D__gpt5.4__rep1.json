@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012000327",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2012000327",
+  "app_num": "11911726",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18127,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2bdebbd8e252c757",
+  "response_text": "1. (Currently amended) A combination product comprising: (A) BH4 [[, a functional derivative or biosynthetic precursor thereof, or a pharmaceutically-acceptable derivative of BH4 or its derivative or precursor]] __or a biosynthetic precursor thereof__; and (B) an inhibitor of the biosynthesis and/or vasopressor function of [[AII]] __angiotensin II__ [[, or a pharmaceutically-acceptable derivative thereof]], wherein each of components (A) and (B) is formulated in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\n2. (Currently amended) A combination product as claimed in Claim 1 that comprises a pharmaceutical formulation including BH4 [[, a functional derivative or biosynthetic precursor thereof, or a pharmaceutically-acceptable derivative of BH4 or its derivative or precursor]], __or a biosynthetic precursor thereof,__ an inhibitor of the biosynthesis and/or vasopressor function of [[AII]] __angiotensin II__ [[, or a pharmaceutically-acceptable derivative thereof]], and a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\n3. (Currently amended) A combination product as claimed in Claim 1 that comprises a kit of parts comprising components: (I) a pharmaceutical formulation including BH4 [[, a functional derivative or biosynthetic precursor thereof, or a pharmaceutically-acceptable derivative of BH4 or its derivative or precursor]], __or a biosynthetic precursor thereof,__ in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier; and (II) a pharmaceutical formulation including an inhibitor of the biosynthesis and/or vasopressor function of [[AII]] __angiotensin II__ [[, or a pharmaceutically-acceptable derivative thereof]], in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier, which components (I) and (II) are each provided in a form that is suitable for administration in conjunction with the other.\n\n4. (Previously presented) A kit of parts as claimed in Claim 3, wherein components (I) and (II) are suitable for sequential, separate and/or simultaneous use in the treatment of hypertension and/or conditions characterised by microvascular dysfunction and/or lesions.\n\n5. (Previously presented) A kit of parts as claimed in Claim 4, wherein the condition is hypertension, diabetic retinopathy, diabetic nephropathy, glomerulonephritis and/or glomerulosclerosis.\n\n6. (Cancelled)\n\n7. (Cancelled)\n\n8. (Cancelled)\n\n9. (Cancelled)\n\n10. (Cancelled)\n\n11. (Cancelled)\n\n12. (Cancelled)\n\n13. (Currently amended) A combination product as claimed in any one of the preceding claims, wherein the inhibitor of the biosynthesis and/or vasopressor function of [[AII]] __angiotensin II__ is a renin inhibitor, an ACE inhibitor or an AT1 receptor [[antagonists]] __antagonist__.\n\n14. (Currently amended) A combination product as claimed in Claim 13, wherein the inhibitor of the biosynthesis and/or vasopressor function of [[AII]] __angiotensin II__ is a compound selected from the group consisting of aliskiren, ditekiren, enalkiren, remikiren, terlakiren, zankiren, benazepril, captopril, cilazapril, enalapril, fosinopril, lisinopril, moexepril, perindopril, quinapril, ramipril, trandolapril, candesartan, eprosartan, irbesartan, losartan, olmesartan, telmisartan, tasosartan, valsartan, ciclosidomine, furosemide and saralasin.\n\n15. (Currently amended) A combination product as claimed in Claim 14, wherein the inhibitor of the biosynthesis and/or vasopressor function of [[AII]] __angiotensin II__ is a compound selected from the group consisting of eprosartan, irbesartan, losartan, olmesartan, telmisartan, tasosartan, valsartan or, particularly, candesartan [[(optionally in prodrug form, such as candesartan cilexetil)]] __or candesartan cilexetil__.\n\n16. (Previously presented) A method of making a kit of parts as defined in any one of Claims 3 to 15, which method comprises bringing a component (I), as defined in any one of Claims 3 to 15, into association with a component (II), as defined in any one of Claims 3 to 15, thus rendering the two components suitable for administration in conjunction with each other.\n\n17. (Currently amended) A kit of parts comprising: (1) one of components (I) and (II), as defined in any one of Claims 3 to 15; together with (2) instructions to use that component in conjunction with the other of the two components.",
+  "usage": {
+    "input_tokens": 4408,
+    "output_tokens": 1040,
+    "total_tokens": 5448
+  },
+  "stop_reason": "stop",
+  "latency_sec": 20.37,
+  "cost_usd": 0.01591,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:43:06Z"
+}

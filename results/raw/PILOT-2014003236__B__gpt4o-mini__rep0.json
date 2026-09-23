@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 3601,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "83a8441895290ac0",
+  "response_text": "1 (Currently amended): A compound of formula (IIa) O NaO OR2 0 (II a), in which substituent R2 is selected from the group consisting of __C1-C12-alkyl, C6-aryl, and arylalkyl, wherein R2 is not ethyl.__\n\n2 (Currently amended): A compound according to Claim 1 of formula (II a) in which R2 is __methyl.__\n\n3 (Currently amended): A compound according to Claim 1 of formula (II a) in which R2 is __not ethyl.__\n\n4 (Currently amended): A compound of formula (Ilb) O ZO OMe O O (I Ib) in which substituent Z is selected from the group consisting of alkali metals and alkaline earth metals, __excluding potassium.__\n\n5 (Currently amended): A compound according to Claim 1 of formula (Il b) in which Z is sodium __and not potassium.__",
+  "usage": {
+    "input_tokens": 1159,
+    "output_tokens": 200,
+    "total_tokens": 1359
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.37,
+  "cost_usd": 0.00029,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:31:31Z"
+}

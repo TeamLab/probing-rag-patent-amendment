@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "E",
+  "rep": 0,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 3771,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "92f818ce96a2fbb6",
+  "response_text": "1. (Currently amended) A compound of formula (IIa) O NaO OR2 O (IIa), in which substituent R2 is selected from the group consisting of [[alkyl, aryl, and arylalkyl]] __aryl and arylalkyl__.\n\n2. (Currently amended) A compound according to Claim 1 of formula (IIa) in which R2 is [[C1-C12-alkyl,]] C6-aryl, or arylalkyl.\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Cancelled)",
+  "usage": {
+    "input_tokens": 1195,
+    "output_tokens": 122,
+    "total_tokens": 1317
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.33,
+  "cost_usd": 0.00271,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:35:45Z"
+}

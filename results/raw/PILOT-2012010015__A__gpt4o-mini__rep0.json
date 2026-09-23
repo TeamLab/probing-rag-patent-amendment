@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012010015",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2012010015",
+  "app_num": "13152534",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15095,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "adb82f5060178714",
+  "response_text": "Claim 2 (Currently amended): The multi-layer coating of claim 1 in which the color-imparting particles are dispersed in aqueous medium by: (a) admixing the color-imparting particles with (1) one or more polymerizable, ethylenically unsaturated monomers, or (2) a mixture of one or more polymerizable, ethylenically unsaturated monomers with one or more polymers, or (3) one or more polymers to form an admixture; (b) subjecting the admixture to __defined__ stress, shear conditions to particularize the admixture into microparticles; and (c) polymerizing the ethylenically unsaturated monomers when present (d) dispersing the particles in aqueous medium.\n\nClaim 4 (Currently amended): The multi-layer coating of claim 2 in which the polymerizable ethylenically unsaturated monomers include a carboxylic acid group-containing monomer and/or the one or more polymers contain a carboxylic acid group.\n\nClaim 5 (Currently amended): The multi-layer coating of claim 4 in which the carboxylic acid group is (meth)acrylic acid.\n\nClaim 12 (Currently amended): The multi-layer coating of claim 1 applied over a reflective surface comprising a reflective material having a total reflectance of at least 30 percent __when measured under standard testing conditions__.",
+  "usage": {
+    "input_tokens": 3778,
+    "output_tokens": 286,
+    "total_tokens": 4064
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.23,
+  "cost_usd": 0.00074,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:26:09Z"
+}

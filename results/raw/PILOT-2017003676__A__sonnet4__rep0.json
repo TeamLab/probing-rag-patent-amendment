@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11972,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "05520b3a16715303",
+  "response_text": "1. (Currently amended) A method of analyzing one or more plant embryos comprising: (a) __collecting shed cellular material from the one or more plant embryos by agitating the plant embryos in a non-destructive medium__; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos.\n\n2. (Previously presented) The method of claim 1 wherein the non-destructive medium consists essentially of water.\n\n3. (Previously presented) The method of claim 1 wherein the DNA is obtained by exposing the shed cellular material to cold and then heat followed by agitation.\n\n4. (Previously presented) The method of claim 3 wherein said cold, heat, and agitation steps are repeated.\n\n5. (Previously presented) The method of claim 1 wherein the DNA is obtained by heating of the shed cellular material and agitation.\n\n6. (Previously presented) The method of claim 5 wherein said heat and agitation steps are repeated.\n\n7. (Currently amended) The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with __a cell wall degrading__ enzyme.\n\n8. (Previously presented) The method of claim 7 wherein the enzyme is VISCOZYME®.\n\n9. (Currently amended) The method of claim 1 wherein obtaining DNA from the shed cellular material comprises extracting the DNA.\n\n10. (Previously presented) The method of claim 9, wherein said extracting is performed by adding magnetic particles to the shed cellular material.\n\n11. (Currently amended) The method of claim 1 wherein the one or more embryos comprise one or more __corn__ immature embryos.\n\n12. (Currently amended) The method of claim 1 further comprising storing the one or more embryos __in stasis storage to achieve a quiescent condition__ prior to step (c) or (d).\n\n13. (Currently amended) The method of claim 1, wherein said molecular analysis is __PCR based__ genotyping.\n\n14. (Previously presented) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads.\n\n15. (Previously presented) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant.\n\n16. (Previously presented) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed.\n\n17. (Currently amended) The method of claim 13 further comprising selecting one or more embryos __for breeding__ based on genotype.\n\n18. (Previously presented) The method of claim 17 further comprising germinating the one or more selected embryos.\n\n19. (Currently amended) The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is __fully__ automated.",
+  "usage": {
+    "input_tokens": 3583,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 712,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 13.71,
+  "cost_usd": 0.02143,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:51:28Z"
+}

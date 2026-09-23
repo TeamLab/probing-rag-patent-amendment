@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016007603",
+  "condition": "D",
+  "rep": 0,
+  "proceeding_number": "2016007603",
+  "app_num": "12165025",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13294,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ad98e9ba6b0a56b4",
+  "response_text": "1. (Currently amended) An alarm system comprising: a physiological monitor capable of triggering a first alarm in response to an alarm condition; and a station located remotely from the physiological monitor, wherein the station is capable of receiving an input from the physiological monitor and triggering a second alarm in response to the alarm condition, and wherein when the second alarm is not acknowledged within a predetermined time interval, the station is capable of sending an output to the physiological monitor to initiate an escalated alarm at the physiological monitor, __wherein the escalated alarm is distinct from and more prominent than the first alarm__.\n\n2. (Previously presented)\n\n3. (Previously presented)\n\n4. (Previously presented)\n\n5. (Previously presented)\n\n6. (Previously presented)\n\n7. (Previously presented)\n\n16. (Currently amended) A system comprising: a processor programmed to trigger an alarm in response to an alarm condition and to track escalation states of the alarm; a memory capable of storing alarm data associated with the alarm, wherein the alarm data comprises an alarm type, a time that the alarm was triggered, __and escalation state information__; and a display capable of displaying the alarm data __including the escalation state information__.\n\n17. (Currently amended) The system of claim 16, wherein the system is part of a physiological monitor or a central management system __and wherein the processor is programmed to manage alarm escalation across both the physiological monitor and the central management system__.\n\n18. (Currently amended) The system of claim 16, wherein the alarm data comprises __detailed__ information about a level of escalation of the alarm __including timestamps for each escalation event__.\n\n19. (Currently amended) The system of claim 16, wherein the alarm data comprises information about an acknowledgement of the alarm __and the identity of the operator who acknowledged the alarm__.\n\n20. (Currently amended) The system of claim 16, wherein the processor is programmed to send the alarm data to one or more wireless devices __only when the alarm has not been acknowledged at the physiological monitor or central station within a specified time period__.",
+  "usage": {
+    "input_tokens": 3380,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.41,
+  "cost_usd": 0.0045,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:21:35Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017005259",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2017005259",
+  "app_num": "13380428",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 8390,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "61e46eeb6328fedd",
+  "response_text": "1. (Currently amended) A speaker comprising a permanent magnet (2), and a coil (8) positioned around the permanent magnet and attached to a membrane (10), wherein the membrane (10) comprises an elastomer of thickness less than 0.3mm and with a Young's modulus below 100MPa, __wherein the elastomer has a Shore A hardness of 40 or less__.\n\n2. (Currently amended) A speaker as claimed in claim 1, wherein the elastomer (10) comprises a silicone __having a Shore A hardness of 40 or less__.\n\n3. (Previously presented) A speaker as claimed in claim 1 or 2, wherein the membrane (10) is injection moulded.\n\n4. (Currently amended) A speaker comprising a permanent magnet (2), and a coil (8) positioned around the permanent magnet and attached to a membrane (10), wherein the membrane (10) comprises an elastomer of thickness less than 0.3mm and with a Young's modulus below 100MPa, wherein the membrane (10) comprises a single layer monolithic structure, __wherein the elastomer has a Shore A hardness of 40 or less__.\n\n5. (Currently amended) A speaker comprising a permanent magnet (2), and a coil (8) positioned around the permanent magnet and attached to a membrane (10), wherein the membrane (10) comprises an elastomer of thickness less than 0.3mm and with a Young's modulus below 100MPa, wherein the membrane (10) comprises a flat central region and a supporting edge region, and wherein the speaker further comprises a stiffening element (16) on the flat central region on the opposite side of the membrane (10) to the coil (8), __wherein the elastomer has a Shore A hardness of 40 or less__.\n\n6. (Original) A speaker as claimed in any preceding claim, further comprising a support structure (32,34) which defines a back volume (36), wherein the back volume is less than 1cm3.\n\n7. (Original) A speaker as claimed in claim 6, wherein the back volume (36) is less than 0.5cm3.\n\n8. (Original) A speaker as claimed in any preceding claim, wherein the resonant frequency is below 300 Hz.\n\n9. (Original) A speaker as claimed in any preceding claim, wherein the resonant frequency is below 250 Hz.\n\n10. (Currently amended) A method of manufacturing a speaker, comprising: forming a membrane (10) from an elastomer, wherein the membrane has thickness less than 0.3mm and a Young's modulus below 100MPa, __and a Shore A hardness of 40 or less__; attaching a coil (8) to the membrane; and assembling the speaker by suspending the membrane (10), such that the coil (8) is positioned around a permanent magnet (2).\n\n11. (Currently amended) A method as claimed in claim 10, wherein the elastomer (10) comprises silicone __having a Shore A hardness of 40 or less__.\n\n12. (Currently amended) A method comprising: forming a membrane (10) from an elastomer, wherein the membrane has thickness less than 0.3mm and a Young's modulus below 100MPa, and a Shore A hardness of 40 or less; attaching a coil (8) to the membrane; and assembling the speaker by suspending the membrane (10), such that the coil (8) is positioned around a permanent magnet (2), wherein the membrane (10) comprises a single layer monolithic structure.\n\n13. (Currently amended) A method comprising: forming a membrane (10) from an elastomer, wherein the membrane has thickness less than 0.3mm and a Young's modulus below 100MPa, and a Shore A hardness of 40 or less; attaching a coil (8) to the membrane; and assembling the speaker by suspending the membrane (10), such that the coil (8) is positioned around a permanent magnet (2), wherein the membrane (10) is formed using injection moulding.\n\n14. (Currently amended) A method comprising: forming a membrane (10) from an elastomer, wherein the membrane has thickness less than 0.3mm and a Young's modulus below 100MPa, and a Shore A hardness of 40 or less; attaching a coil (8) to the membrane; and assembling the speaker by suspending the membrane (10), such that the coil (8) is positioned around a permanent magnet (2), wherein the membrane (10) is formed with a flat central region and a supporting edge region, and wherein the method further comprises providing a stiffening element (16) on the flat central region on the opposite side of the membrane to the coil (8).",
+  "usage": {
+    "input_tokens": 2461,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1076,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.5,
+  "cost_usd": 0.00627,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:37:58Z"
+}

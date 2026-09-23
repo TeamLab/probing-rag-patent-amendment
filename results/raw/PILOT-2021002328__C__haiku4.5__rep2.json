@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2021002328",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2021002328",
+  "app_num": "13412887",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 25514,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b41d31ce7bf3985c",
+  "response_text": "1. (Currently amended) A method for training a molecular properties model, comprising: obtaining a pseudo-partial ordering of molecules, wherein the pseudo partial ordering includes at least a representation of a first and second molecule, ordered relative to one another and a property of interest; generating a representation of the molecules included in the pseudo partial ordering of molecules that is appropriate for a selected machine learning algorithm, wherein the pseudo partial ordering of molecules is provided to the selected machine learning algorithm; and __executing the selected machine learning algorithm on a computer processor, using the pseudo partial ordering, to train a molecular properties model configured to generate a prediction regarding additional molecules supplied to the model__.\n\n2. (Currently amended) The method of claim 11, wherein the molecular properties model generates predictions related to a property of interest selected from at least one of a pharmacokinetic property, pharmacodynamic property, physiological or pharmacological activity, toxicity or selectivity; a chemical property including reactivity, binding affinity, pKa, or a property of a specific atom or bond in a molecule; or a physical property including melting point, solubility, a membrane permeability, and a force-field parameter, __wherein the method is performed on a computer system__.\n\n3. (Currently amended) The method of claim 11, wherein the selected machine learning algorithm comprises a classification learning algorithm __executed on a computer processor__.\n\n4. (Cancelled)\n\n5. (Currently amended) The method of claim 11, wherein the selected machine learning algorithm comprises a variant of a Boosting algorithm, RankBoost algorithm, Alternating Decision Trees algorithm, Support Vector Machines algorithm, a Perceptron algorithm, Winnow, a Hedge Algorithm, decision trees, neural networks, genetic algorithms, genetic programming or any modifications thereof modified to process the pseudo partial ordering of ranked pairs, __wherein the algorithm is executed on a computer processor__.\n\n6. (Currently amended) The method of claim 11, wherein the selected machine learning algorithm is configured to minimize, either directly or indirectly, a function of the rank ordering of molecules in the pseudo partial ordering, __wherein the minimization is performed on a computer processor__.\n\n7. (Currently amended) The method of claim 11, further comprising, determining an accuracy of the prediction for the additional molecule by carrying out laboratory experimentation using physically existing samples of the additional molecule, or by performing a research study using physical samples of the additional molecule, __wherein the method is performed on a computer system__.\n\n8. (Currently amended) The method of claim 11, wherein generating the representation of the molecules included in the pseudo partial ordering of molecules comprises: generating a vector representation of the molecules, wherein the vector representation is configured to encode the structure of the molecules included the pseudo-partial ordering; or comprises generating an n-point pharmacophore representation of the molecules included in the pseudo-partial ordering, __wherein the generating steps are performed on a computer processor__.\n\n9. (Currently amended) The method of claim 11, wherein at least two of the molecules in the training set are alternative representations of the same physical molecule and the property of interest is a property of the alternative representations, __wherein the method is performed on a computer system__.\n\n10. (Currently amended) The method of claim 11, wherein at least two of the molecules in the training set are encoded to represent different atoms, bonds or substituent groups of the same molecule and the property of interest is a property of the atoms, bonds or substituent groups, __wherein the method is performed on a computer system__.\n\n11. (Currently amended) A computer-storage medium __containing non-transitory computer-readable instructions__ which, when executed by a processor, performs a method for training a molecular properties model, comprising: receiving a pseudo-partial ordering of molecules, wherein the pseudo partial ordering includes at least a representation of a first and second molecule, ordered relative to one another and a property of interest; generating a representation of the molecules included in the pseudo partial ordering of molecules that is appropriate for a selected machine learning algorithm, wherein the pseudo partial ordering of molecules is provided to the selected machine learning algorithm; and executing the selected machine learning algorithm on the processor, using the pseudo partial ordering, to train a molecular properties model configured to generate a prediction regarding additional molecules supplied to the model.",
+  "usage": {
+    "input_tokens": 5832,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 901,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.04,
+  "cost_usd": 0.00827,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:37:33Z"
+}

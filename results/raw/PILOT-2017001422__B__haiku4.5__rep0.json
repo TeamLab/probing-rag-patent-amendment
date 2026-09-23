@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017001422",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2017001422",
+  "app_num": "13995688",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 9711,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0aa1a2a6ceb1d3cc",
+  "response_text": "Claim 1 (Currently Amended): An immunogenic composition comprising: a modified, live bovine viral diarrhea virus type 1b (BVDV-1b) __that is genetically distinct from BVDV-1a and BVDV-2__, a veterinary-acceptable carrier, and optionally an adjuvant.\n\nClaim 2 (Currently Amended): The immunogenic composition of claim 1, wherein the modified, live bovine viral diarrhea virus is a cytopathic BVDV-1b virus __derived from a non-cytopathic parent strain__.\n\nClaim 3 (Currently Amended): The immunogenic composition of claim 1, further comprising __at least one additional modified, live virus selected from__ one or more of a parainfluenza virus Type 3 (PI3), a bovine respiratory syncytial virus (BRSV), a bovine herpes virus (BHV-1), a bovine viral diarrhea virus Type 1a (BVDV-1a), a bovine viral diarrhea virus Type 2 (BVDV-2), or an infectious bovine rhinotracheitis (IBR) virus, or any combination thereof; or one or more viral-specific antigens obtained therefrom.\n\nClaim 4 (Currently Amended): The immunogenic composition of claim 1, further comprising __a combination of at least two of the following:__ a modified, live IBRV, a modified, live BRSV, a modified, live BHV-1, a modified, live BVDV Type 1a, a modified, live BVDV Type 2, or a modified, live PI3, or a combination thereof.\n\nClaim 6 (Currently Amended): The immunogenic composition of claim 1, further comprising an immunologically effective amount of at least a first __inactivated bacterial__ antigen.\n\nClaim 7 (Currently Amended): The immunogenic composition of claim 6, wherein the at least a first antigen is specific for an organism selected from the group consisting of Actinobacillus, Actinomyces, Bacillus, Bordetella, Brachyspira, Campylobacter, Clostridium, Ehrlichia, Erysipelothrix, Escherichia, Histophilus, Leptospira, Listeria, Mannheimia, Moraxella, Mycobacterium, Mycoplasma, Pasteurella, Salmonella, and Streptococcus, or a combination thereof.\n\nClaim 8 (Original): The immunogenic composition of claim 6, wherein the at least a first antigen is inactivated.\n\nClaim 12 (Currently Amended): The vaccine of claim 4, further comprising an immunologically-effective amount of __at least one inactivated__ microbial pathogen-specific antigen.",
+  "usage": {
+    "input_tokens": 3141,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 684,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.62,
+  "cost_usd": 0.00525,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:51:00Z"
+}

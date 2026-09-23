@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014007043",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2014007043",
+  "app_num": "12396358",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13171,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "69109104d5129cd3",
+  "response_text": "1 (Currently amended): A system for generating a counter-stimulation in a patient suffering from RLS, the system comprising: a controller configured and arranged to drive the counter-stimulation generation device, the controller in communication with the counter-stimulation device; and a base configured and arranged to hold the counter-stimulation generation device adjacent to a patient, the counter-stimulation device attached to the base and configured to provide vibrational therapy.\n\n2 (Currently amended): The system according to Claim 1, wherein the device comprises an stimulator selected from the group consisting of a fluid pressure applicator, a mechanical point pressure applicator, a mechanical roller, a mechanical lift, a vibration generator, a nerve stimulator, a muscle stimulator, a heater, a cooler, a chemical applicator, and a magnet, wherein the device is configured to provide vibrational therapy.\n\n15 (Currently amended): A method of treating RLS, the method comprising: selecting a patient experiencing RLS; stimulating a portion of the patient at an amplitude, intensity, and duration sufficient to act as a counter-stimulation to RLS and either to allow the patient to return to sleep or to not wake a sleeping patient, wherein the counter-stimulation is provided by a device configured to generate vibrational therapy.\n\n18 (Currently amended): The method according to Claim 15, wherein said counter-stimulation is selected from the group consisting of pressure application, mechanical point pressure application, a mechanically rolling against the patient's skin, mechanically lifting at least a portion of the patient, vibration, a nerve stimulation, a muscle stimulation, heat, cold, a chemical application, and magnetism, wherein the counter-stimulation is provided by a device configured to generate vibrational therapy.",
+  "usage": {
+    "input_tokens": 3210,
+    "output_tokens": 346,
+    "total_tokens": 3556
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.78,
+  "cost_usd": 0.00069,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:16:11Z"
+}

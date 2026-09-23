@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014009096",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2014009096",
+  "app_num": "13102968",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14325,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1bfa1a67779f57ae",
+  "response_text": "2. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to __said node, and when the source address is not authorized to send a message to said node, returning an indication of failure__.\n\n3. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to __said__ node by finding information that authorizes the source address stored within the automated communications system, and when the source address is __not__ authorized to send a message to __said__ node, returning an indication of failure.\n\n4. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to __said__ node by failing to find information that blocks messages with the source address stored within the automated communications system, and when the source address is __not__ authorized to send a message to __said__ node, returning an indication of failure.\n\n5. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes and/or node-token pairs; and for each node and/or node-token pair of the ordered sequence of nodes and/or node-token pairs, determining whether the source address is authorized to send a message to __said__ node by failing to find information that blocks messages with the source address stored within the automated communications system, by finding information that authorizes the source address stored within the automated communications system, and/or by applying any rules that apply to the message stored within the automated communications system, and, when the source address is not authorized to send a message to __said__ node, returning an indication of failure, and when the source address is authorized to send a message to __said__ node, accessing stored information within the automated communications system to determine whether or not __a__ token __associated with said node__ is valid, when __said__ token is not valid, returning __an__ indication of failure, and when __said__ token is valid, returning an indication of success.",
+  "usage": {
+    "input_tokens": 3562,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 603,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 10.69,
+  "cost_usd": 0.01973,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:08:07Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10622,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "acae7d01541e2831",
+  "response_text": "15. (Currently amended) A method for selecting a first server computer from a first set of one or more server computers for sending data to a client computer, the method comprising the steps of: accessing a second server computer through a path in a computer network, the path including one or more server computers; adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier; __at least temporarily storing the information added to the locator on the second server computer;__ and selecting the first server computer based on the information added to the locator.\n\n16. (Currently amended) The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the unique signature is generated based on client-specific parameters including at least one of client location, client device type, or client bandwidth capability__.\n\n17. (Currently amended) The method of claim 16, further comprising the steps of __providing the information to a media request broker in response to a selection of the hyperlink by the client computer, the media request broker being separate from the second server computer__.\n\n18. (Currently amended) The method of claim 17, the media request broker selecting the first server computer based on the information __and real-time server load conditions__.\n\n24. (Currently amended) A system for selecting a first server computer from a first set of one or more server computers for sending data to a client computer, the system comprising: circuitry for accessing a second server computer through a path in a computer network, the path including one or more server computers; circuitry for adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier; __circuitry for at least temporarily storing the information added to the locator on the second server computer;__ and circuitry for selecting the first server computer based on the information added to the locator.\n\n25. (Currently amended) The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request, __wherein the unique signature is generated based on client-specific parameters including at least one of client location, client device type, or client bandwidth capability__.\n\n27. (Currently amended) A computer program product for selecting a first server computer from a first set of one or more server computers for sending data to a client computer, the computer program product comprising: the program step of accessing a second server computer through a path in a computer network, the path including one or more server computers; the program step of adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier; __the program step of at least temporarily storing the information added to the locator on the second server computer;__ and the program step of selecting the first server computer based on the information added to the locator.\n\n28. (Currently amended) The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the unique signature is generated based on client-specific parameters including at least one of client location, client device type, or client bandwidth capability__.",
+  "usage": {
+    "input_tokens": 2834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 929,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.56,
+  "cost_usd": 0.02244,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:53:04Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015006603",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2015006603",
+  "app_num": "13138239",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18048,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "252e3134238a9768",
+  "response_text": "Claim 1 (Currently amended): An apparatus, comprising: an encoder (300) for encoding mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, and wherein the actual parameters include at least one of coding information for one or more previously coded pictures in the sequence, a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence, statistics of one or more pictures in the sequence, statistics of one or more portions of the one or more pictures in the sequence, and statistics of the sequence.\n\nClaim 7 (Currently amended): The apparatus of claim 1, wherein the adapted mode mapping information is updated after encoding one or more pictures of the sequence based on the actual parameters.\n\nClaim 9 (Currently amended): A method, comprising: encoding (740, 970) mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, and wherein the actual parameters include at least one of coding information for one or more previously coded pictures in the sequence, a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence, statistics of one or more pictures in the sequence, statistics of one or more portions of the one or more pictures in the sequence, and statistics of the sequence (740, 940, 960).\n\nClaim 25 (Currently amended): A method, comprising: decoding (820, 1030) mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, and wherein the actual parameters include at least one of coding information for one or more previously coded pictures in the sequence, a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence, statistics of one or more pictures in the sequence, statistics of one or more portions of the one or more pictures in the sequence, and statistics of the sequence. \n\nClaim 33 (Currently amended): A non-transitory computer-readable storage medium having video signal data encoded thereupon, comprising: mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, and wherein the actual parameters include at least one of coding information for one or more previously coded pictures in the sequence, a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence, statistics of one or more pictures in the sequence, statistics of one or more portions of the one or more pictures in the sequence, and statistics of the sequence.",
+  "usage": {
+    "input_tokens": 4369,
+    "output_tokens": 625,
+    "total_tokens": 4994
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.31,
+  "cost_usd": 0.00103,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:06:16Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015005752",
+  "condition": "E",
+  "rep": 0,
+  "proceeding_number": "2015005752",
+  "app_num": "13668077",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14481,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2a5654803f156588",
+  "response_text": "1 (Currently amended): A packaging substrate comprising: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having a plurality of conductive paths formed between the chip mounting surface and the bottom surface, the conductive paths configured to provide electrical connection between an integrated circuit chip disposed on the chip mounting surface and the bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure; and a stiffening microstructure disposed in the opening and coupled to the packaging structure, wherein the stiffening microstructure is a distinct structure that is not solely a part of the packaging structure.\n\n2 (Currently amended): The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a bottom surface of the opening and is formed from a material that provides enhanced structural support.\n\n3 (Currently amended): The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a sidewall of the opening and is configured to enhance the mechanical stability of the packaging substrate.\n\n7 (Currently amended): The packaging substrate of claim 1 further comprising: an integrated circuit chip mounted on the chip mounting surface, wherein the integrated circuit chip is positioned within a defined area of the chip mounting surface that is distinct from the stiffening microstructure.\n\n8 (Currently amended): The packaging substrate of claim 7, wherein the stiffening microstructure includes a lid that is separate from the integrated circuit chip and provides additional thermal management.\n\n9 (Currently amended): The packaging substrate of claim 8 further comprising: a heat transfer medium providing a thermally conductive pathway between the lid and the integrated circuit chip, wherein the heat transfer medium is positioned in a manner that optimizes thermal conduction.\n\n11 (Currently amended): The packaging substrate of claim 1, wherein the packaging structure further comprises: a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure, wherein the ground reference plane layer is in contact with the stiffening microstructure and is configured to provide electrical grounding that is distinct from the stiffening microstructure.",
+  "usage": {
+    "input_tokens": 3377,
+    "output_tokens": 417,
+    "total_tokens": 3794
+  },
+  "stop_reason": "stop",
+  "latency_sec": 15.94,
+  "cost_usd": 0.00076,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:36:37Z"
+}

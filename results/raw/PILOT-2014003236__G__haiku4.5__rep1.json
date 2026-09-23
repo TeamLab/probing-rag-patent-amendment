@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 7495,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "77d87debffefcc7c",
+  "response_text": "1. (Currently amended) A compound of formula (IIa) O NaO OR2 O (IIa), in which substituent R2 is selected from the group consisting of alkyl, aryl, and arylalkyl, __wherein the compound is prepared by a method comprising the step of treating a ß-keto ester with sodium hydride or a sodium base__.\n\n2. (Currently amended) A compound according to Claim 1 of formula (IIa) in which R2 is C1-C12-alkyl, C6-aryl, or arylalkyl, __wherein R2 is methyl and the sodium enolate is formed in situ from the corresponding ß-keto methyl ester__.\n\n3. (Currently amended) A compound according to Claim 1 of formula (IIa) in which R2 is methyl or ethyl, __wherein the compound is a sodium enolate intermediate in the synthesis of 4-aminobut-2-enolides__.\n\n4. (Currently amended) A compound of formula (IIb) O ZO OMe O O (IIb) in which substituent Z is selected from the group consisting of alkali metals and alkaline earth metals, __wherein the compound is prepared by a method comprising the step of forming the enolate from a ß-keto methyl ester using a metal base__.\n\n5. (Currently amended) A compound according to Claim 4 of formula (IIb) in which Z is sodium or potassium, __wherein Z is sodium and the compound is an intermediate in the preparation of 4-aminobut-2-enolides__.",
+  "usage": {
+    "input_tokens": 2625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 378,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.34,
+  "cost_usd": 0.00361,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:24:21Z"
+}

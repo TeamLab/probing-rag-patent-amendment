@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12367,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "323190513bbed6f2",
+  "response_text": "Claim 1 (Currently amended): A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member, wherein said columnar body has a cross-section that is one of a tetragon, pentagon, hexagon, heptagon, octagon, nonagon, decagon, hendecagon, or dodecagon.\n\nClaim 2 (Currently amended): The lamp of claim 1 wherein a second end of said columnar body is open, and said columnar body is formed from a material having a thermal conductivity greater than 100 W/mK.\n\nClaim 5 (Currently amended): The lamp of claim 1 wherein said diodes are substantially evenly spaced radially around the columnar body, and at least one diode resides on each face of said columnar body.\n\nClaim 6 (Currently amended): The lamp of claim 5 wherein said fins are substantially equally disposed between said diodes, and said fins extend radially from each corner of said columnar body.\n\nClaim 10 (Currently amended): The lamp of claim 9 wherein a single diode resides on each face, and said single diode is mounted to a surface of said columnar body.\n\nClaim 11 (Currently amended): The lamp of claim 1 wherein said columnar body and said fins are comprised of a material having a thermal conductivity greater than 150 W/mK.\n\nClaim 12 (Currently amended): The lamp of claim 1 including a single optic element disposed between each adjacent fin overlapping said diode, wherein said optic element includes a phosphor material.\n\nClaim 14 (Currently amended): The lamp of claim 1 wherein said electronics module comprises a printed circuit board including circuitry for converting AC to DC current, and is configured to operate with a thermal conductivity of the columnar body greater than 100 W/mK.",
+  "usage": {
+    "input_tokens": 3072,
+    "output_tokens": 427,
+    "total_tokens": 3499
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.85,
+  "cost_usd": 0.00072,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:10:07Z"
+}

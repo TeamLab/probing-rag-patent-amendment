@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000158",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2020000158",
+  "app_num": "15481756",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13374,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7e87354f3dca318b",
+  "response_text": "```plaintext\nClaim 1 (Currently amended): A method, comprising: transmitting a sequence of light pulses having a first speed; receiving a second sequence of light pulses from a vehicle; and transmitting a message as a sequence of light pulses having a second speed based on the second sequence of light pulses received from the vehicle, wherein the first speed is different from the second speed, and the second speed is determined based on the proximity of the vehicle.\n\nClaim 2 (Currently amended): The method of claim 1, wherein a computing device determines the second speed based on the second sequence of light pulses received from the vehicle that is slower than the first speed, and the determination is made when the vehicle is within a defined proximity range.\n\nClaim 3 (Currently amended): The method of claim 2, wherein the computing device determines when the vehicle is no longer in proximity and transmits a sequence of light pulses having a third speed, wherein the third speed is faster than the second speed and is based on the absence of the second sequence of light pulses.\n\nClaim 4 (Currently amended): The method of claim 3, wherein the computing device receives a third sequence of light pulses from a third vehicle and transmits the message as a sequence of light pulses having a third speed based on the third sequence of light pulses received from the third vehicle, wherein the third speed is different from the second speed.\n\nClaim 6 (Currently amended): The method of claim 1, wherein the message includes information regarding vehicle position, motion, size, safety events, path history and vehicle status, encoded into light pulses as binary bits, wherein the encoding is independent of message transmission speed and is based on the characteristics of the vehicle's movement.\n\nClaim 10 (Currently amended): The method of claim 9, further comprising: emitting the message as a sequence of light pulses having a fourth speed based on the sequences of light pulses, wherein the fourth speed is set equal to the slowest of the sequences of light pulses received from two or more vehicles.\n```",
+  "usage": {
+    "input_tokens": 3105,
+    "output_tokens": 407,
+    "total_tokens": 3512
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.23,
+  "cost_usd": 0.00071,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:53:56Z"
+}

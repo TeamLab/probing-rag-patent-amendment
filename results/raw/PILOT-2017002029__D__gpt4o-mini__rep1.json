@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14774,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "259d2655eb96bf28",
+  "response_text": "Claim 1 (Currently Amended): A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, wherein the non-native compartment is formed by the expression of a polynucleotide encoding the at least one BMC polypeptide.\n\nClaim 12 (Currently Amended): A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide, wherein the method is used for enhancing metabolic processes in the host cell.\n\nClaim 21 (Currently Amended): A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, and at least one enzyme that catalyzes conversion of a substrate to a product, wherein the method is used for producing a desired product; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product.",
+  "usage": {
+    "input_tokens": 3817,
+    "output_tokens": 262,
+    "total_tokens": 4079
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.9,
+  "cost_usd": 0.00073,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:52:15Z"
+}

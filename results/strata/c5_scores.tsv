@@ -1,0 +1,15 @@
+file	case	cond	rep	c5	total_hits	char_len	token_len	n_claims	reason
+PILOT-2014009970__baseline__sonnet4.json	PILOT-2014009970	baseline	0	3.2167	8	2487	414	9	
+PILOT-2017000071__baseline__sonnet4.json	PILOT-2017000071	baseline	0	0.2416	1	4139	625	7	
+PILOT-2017001422__baseline__sonnet4.json	PILOT-2017001422	baseline	0	4.6368	9	1941	240	8	
+PILOT-2017003676__baseline__sonnet4.json	PILOT-2017003676	baseline	0	14.2626	44	3085	456	19	
+PILOT-2017005259__baseline__sonnet4.json	PILOT-2017005259	baseline	0	0.0	0	3119	411	14	
+PILOT-2017005493__baseline__sonnet4.json	PILOT-2017005493	baseline	0	1.6611	6	3612	556	20	
+PILOT-2017010632__baseline__sonnet4.json	PILOT-2017010632	baseline	0	7.2607	70	9641	1431	20	
+PILOT-2018001232__baseline__sonnet4.json	PILOT-2018001232	baseline	0	0.0	0	3935	621	20	
+PILOT-2018005420__baseline__sonnet4.json	PILOT-2018005420	baseline	0	13.327	113	8479	1318	25	
+PILOT-2018005863__baseline__sonnet4.json	PILOT-2018005863	baseline	0	3.0068	24	7982	1248	25	
+PILOT-2017005259__D__sonnet4__rep0.json	PILOT-2017005259	D	0	0.0	0	2788	386	14	
+PILOT-2017005259__baseline__sonnet4__rep0.json	PILOT-2017005259	baseline	0	0.0	0	3119	411	14	
+PILOT-2018005420__D__sonnet4__rep0.json	PILOT-2018005420	D	0	13.5184	113	8359	1294	25	
+PILOT-2018005420__baseline__sonnet4__rep0.json	PILOT-2018005420	baseline	0	13.47	113	8389	1315	25	

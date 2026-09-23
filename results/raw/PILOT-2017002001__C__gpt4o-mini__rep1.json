@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "C",
+  "rep": 1,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15774,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f12d4cf2141d24b6",
+  "response_text": "Claim 13 (Currently amended): A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides integrated contact elements by which power is supplied to said heater, wherein said contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater, and wherein said second connector is configured to maintain a seal against gas leakage during operation.\n\nClaim 14 (Currently amended): The gas tube arrangement according to claim 13, further comprising an insulating sheathing body that encases at least a portion of the flexible tube.\n\nClaim 15 (Currently amended): The gas tube arrangement according to claim 14, wherein the insulating sheathing body is removably attachable to the flexible tube and is structured to provide thermal insulation.\n\nClaim 16 (Cancelled): \n\nClaim 17 (Cancelled): \n\nClaim 18 (Currently amended): The gas tube arrangement according to claim 13, wherein the tube is a heatable respiratory gas tube that is configured to maintain the temperature of the gas during delivery.\n\nClaim 19 (Currently amended): The gas tube arrangement according to claim 14, wherein the heater is integrated into the insulating sheathing body.\n\nClaim 20 (Currently amended): The gas tube arrangement according to claim 13, wherein said second connector further includes a pressure measuring tube connection that is adapted to monitor gas pressure within the tube.\n\nClaim 21 (Currently amended): The gas tube arrangement according to claim 13, further comprising a respiratory gas humidifier that is integrated into the tube arrangement.\n\nClaim 22 (Currently amended): The gas tube arrangement according to claim 21, wherein said humidifier is adapted to be connected to a water source via a humidification line that is integrated into the tube arrangement.\n\nClaim 23 (Currently amended): The gas tube arrangement according to claim 21, wherein said humidifier is in the form of a flexible tube piece disposed between the breathing mask and the respiratory gas tube, allowing for adjustable positioning.\n\nClaim 24 (Currently amended): The gas tube arrangement according to claim 13, wherein the flexible tube is made from a spirally reinforced plastic material that enhances durability and flexibility.\n\nClaim 25 (Currently amended): The gas tube arrangement according to claim 13, wherein the heater is an electrical resistance heater that is capable of rapid heating.\n\nClaim 26 (Currently amended): The gas tube arrangement according to claim 13, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, and wherein the contact elements are structured to prevent accidental disconnection.\n\nClaim 27 (Currently amended): The gas tube arrangement according to claim 13, wherein each contact element is provided within the second portion and is configured to ensure reliable electrical contact.\n\nClaim 28 (Currently amended): The gas tube arrangement according to claim 13, wherein the first portion is tubular and the second portion extends outwardly from the first portion, providing a stable connection to the CPAP device.\n\nClaim 29 (Currently amended): A connector for connecting a CPAP device to a respiratory gas tube arrangement for supplying a respiratory gas to a person, the respiratory gas tube arrangement including a heater, the connector comprising: a first portion that provides a respiratory gas passage; and a second portion that provides integrated contact elements by which power is supplied to the heater, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, and wherein the connector is designed to withstand operational stresses without failure.\n\nClaim 30 (Currently amended): A connector according to claim 29, wherein each contact element is provided within the second portion and is designed to facilitate easy assembly and disassembly.\n\nClaim 31 (Currently amended): A connector according to claim 29, wherein the first portion is tubular and the second portion extends outwardly from the first portion, providing a robust connection to the respiratory gas tube arrangement.",
+  "usage": {
+    "input_tokens": 3712,
+    "output_tokens": 898,
+    "total_tokens": 4610
+  },
+  "stop_reason": "stop",
+  "latency_sec": 15.22,
+  "cost_usd": 0.0011,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:43:37Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15686,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a5abbacc282dc51d",
+  "response_text": "1. (Currently amended) A humeral implant comprising a first component removably attached to a second component, wherein said first component is a humeral surface component and said second component is a removably attached stem, and wherein said humeral surface component has a coronal radius of curvature and an axial radius of curvature, and wherein said humeral surface component is spherically or elliptically shaped with a smooth articulating surface.\n\n2. (Cancelled)\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Cancelled)\n\n8. (Cancelled)\n\n9. (Cancelled)\n\n10. (Cancelled)\n\n11. (Cancelled)\n\n12. (Cancelled)\n\n13. (Cancelled)\n\n14. (Cancelled)\n\n15. (Cancelled)\n\n16. (Cancelled)\n\n17. (Cancelled)\n\n18. (Cancelled)\n\n19. (Cancelled)\n\n20. (Currently amended) The humeral implant of claim 1 wherein said removably attached stem is adapted to have a variable length wherein said stem extends from a lateral cortex of said humerus to a center of a head of said humerus.\n\n21. (Currently amended) The humeral implant of claim 1 wherein said humeral surface component connects to said removably attached stem by a technique selected from the group consisting of morse taper and a screw.\n\n22. (Cancelled)\n\n23. (Withdrawn)\n\n24. (Withdrawn)\n\n25. (Withdrawn)\n\n26. (Withdrawn)\n\n27. (Currently amended) A glenohumeral joint implant adapted to be implanted in a glenohumeral joint to provide a transhumeral portal along a central axis of a neck of a proximal humerus.\n\n28. (Cancelled)\n\n29. (Currently amended) A humerus bone implant comprising a modular implant with a humeral surface component and a stem, wherein said stem is adapted to be anchored in the epiphyseal-metaphyseal portion of a humerus bone.\n\n30. (Currently amended) The humerus bone implant of claim 29 wherein said stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n31. (Currently amended) The humerus bone implant of claim 30 wherein said stem is linear.\n\n32. (Withdrawn)",
+  "usage": {
+    "input_tokens": 4419,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 4.81,
+  "cost_usd": 0.00573,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:35:19Z"
+}

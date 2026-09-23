@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022001087",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2022001087",
+  "app_num": "15853199",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19259,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c618c0fdda72c2c3",
+  "response_text": "Claim 1 (Currently amended): A system for providing security in a computer system, the system comprising one or more logic circuits configured to at least: receive a plurality of independent first entropy values from a hardware source; apply at least some of the plurality of independent first entropy values to a function to generate a second entropy value; seed a pseudorandom number generator with the second entropy value; generate a random number using the pseudorandom number generator seeded with the second entropy value; and produce a block of ciphertext or message authentication code using the random number, wherein the one or more logic circuits are configured to perform the functions of receiving, applying, seeding, generating, and producing.\n\nClaim 2 (Currently amended): The system of claim 1, wherein the one or more logic circuits being configured to produce the block of ciphertext or message authentication code includes being configured to produce the block of ciphertext or message authentication code with a key composed of or derived from the random number, wherein the one or more logic circuits are configured to perform the function of producing the block of ciphertext or message authentication code.\n\nClaim 4 (Currently amended): The system of claim 1, wherein the hardware source is a ring oscillator, and the one or more logic circuits being configured to receive the plurality of independent first entropy values includes being configured to receive the plurality of independent first entropy values from the ring oscillator, wherein the one or more logic circuits are configured to perform the function of receiving the plurality of independent first entropy values.\n\nClaim 5 (Currently amended): The system of claim 1, wherein the hardware source is a single hardware source, and the one or more logic circuits being configured to receive the plurality of independent first entropy values includes being configured to receive the plurality of independent first entropy values from the single hardware source, wherein the one or more logic circuits are configured to perform the function of receiving the plurality of independent first entropy values.\n\nClaim 6 (Currently amended): The system of claim 1, wherein the hardware source is a plurality of independent hardware sources, and the one or more logic circuits being configured to receive the plurality of independent first entropy values includes being configured to receive the plurality of independent first entropy values from the plurality of independent hardware sources, wherein the one or more logic circuits are configured to perform the function of receiving the plurality of independent first entropy values.\n\nClaim 3 (Cancelled): The system of claim 1, wherein the one or more logic circuits being configured to produce the block of ciphertext or message authentication code includes being configured to at least: implement a key-agreement protocol using the random number and in which a key is produced; and produce the block of ciphertext or message authentication code using the key.\n\nClaim 13 (Currently amended): A method of providing security in a computer system, comprising: receiving a plurality of independent first entropy values from a hardware source; applying at least some of the plurality of independent first entropy values to a function to generate a second entropy value; seeding a pseudorandom number generator with the second entropy value; generating a random number using the pseudorandom number generator seeded with the second entropy value; and producing a block of ciphertext or message authentication code using the random number, wherein the method includes the steps of receiving, applying, seeding, generating, and producing.\n\nClaim 14 (Currently amended): The method of claim 13, wherein producing the block of ciphertext or message authentication code includes producing the block of ciphertext or message authentication code with a key composed of or derived from the random number, wherein the method includes the step of producing the block of ciphertext or message authentication code.\n\nClaim 16 (Currently amended): The method of claim 13, wherein the hardware source is a ring oscillator, and wherein receiving the plurality of independent first entropy values includes receiving the plurality of independent first entropy values from the ring oscillator, wherein the method includes the step of receiving the plurality of independent first entropy values.\n\nClaim 17 (Currently amended): The method of claim 13, wherein the hardware source is a single hardware source, and wherein receiving the plurality of independent first entropy values includes receiving the plurality of independent first entropy values from the single hardware source, wherein the method includes the step of receiving the plurality of independent first entropy values.\n\nClaim 18 (Currently amended): The method of claim 13, wherein the hardware source is a plurality of independent hardware sources, and wherein receiving the plurality of independent first entropy values includes receiving the plurality of independent first entropy values from the plurality of independent hardware sources, wherein the method includes the step of receiving the plurality of independent first entropy values.",
+  "usage": {
+    "input_tokens": 4208,
+    "output_tokens": 921,
+    "total_tokens": 5129
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.32,
+  "cost_usd": 0.00118,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:18:17Z"
+}

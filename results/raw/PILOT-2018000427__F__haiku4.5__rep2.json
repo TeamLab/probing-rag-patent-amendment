@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2018000427",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2018000427",
+  "app_num": "14178780",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17982,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8d34d94cb37f529d",
+  "response_text": "1. (Currently amended) A method for protecting blood vessels during a medical procedure, comprising: inserting a vessel protector system into a patient's body, the vessel protector system including a vessel protector and a sheath, the vessel protector having a body formed from a filtering material and having a collapsed configuration and a tubular expanded configuration, the sheath being movable relative to the body between a first position for holding the body in the collapsed configuration, and a second position for releasing the body for movement to the expanded configuration; positioning the vessel protector system adjacent an open end of at least one blood vessel; moving the sheath to the second position to deploy the body, whereby the body moves to the tubular expanded configuration covering the open end of the at least one blood vessel to filter blood passing through the body into the at least one blood vessel; and __deploying the vessel protector system such that the body remains in the expanded configuration independent of the sheath position__.\n\n2. (Currently amended) The method according to claim 18, further comprising: closing open ends of the body in the tubular expanded configuration __using a snare mechanism connected to a pull-wire__; moving the sheath to the first position to compress the body to the collapsed configuration; and removing the vessel protector system from the patient's body.",
+  "usage": {
+    "input_tokens": 4484,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 278,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 3.92,
+  "cost_usd": 0.0047,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:10:57Z"
+}

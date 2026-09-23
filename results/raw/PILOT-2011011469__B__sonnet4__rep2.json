@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12193,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f4d99fad3ffb3782",
+  "response_text": "1. (Currently amended) A method of treating a brain, comprising: inserting an elongated device into the brain to create a path; radially expanding the device to create a working channel along the path; __radially reinforcing the device against brain tissue;__ and introducing a medical element into the working channel to perform a medical procedure on the brain.\n\n2. (Previously presented) The method of claim 1, wherein the medical element is an instrument.\n\n3. (Currently amended) The method of claim 1, wherein the medical element is a medicament __delivered through the working channel to treat brain tissue__.\n\n4. (Previously presented) The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening.\n\n5. (Previously presented) The method of claim 1, further comprising inserting the elongated device between tissue layers within the brain.\n\n6. (Currently amended) The method of claim 1, further comprising radially contracting and removing the device from the brain __after performing the medical procedure__.\n\n7. (Currently amended) A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; radially reinforcing the device against the tissue; __maintaining the radially reinforced device in position during the medical procedure;__ and introducing a medical element through the device to perform a medical procedure on the tissue.\n\n8. (Previously presented) The method of claim 7, wherein the medical element is an instrument.\n\n9. (Currently amended) The method of claim 7, wherein the medical element is a medicament __delivered through the device to treat the tissue__.\n\n10. (Previously presented) The method of claim 7, further comprising inserting the elongated device between tissue layers.\n\n11. (Currently amended) The method of claim 7, further comprising radially contracting and removing the device from the tissue __after performing the medical procedure__.\n\n12. (Currently amended) The method of claim 7, further comprising treating the tissue in contact with the device with a haemostatic compound to reduce bleeding __during the medical procedure__.\n\n13. (Currently amended) A method of treating a tissue, comprising: placing an elongated device, having a first radially expandable body, surrounded by a stent, which is surrounded by a second radially expandable body, into the tissue to create a path; radially expanding the second expandable body against the tissue to radially displace the tissue along the path; radially expanding the first expandable body to radially expand the stent to reinforce the second expandable body against the tissue; radially contracting and removing the first expandable body to create a working channel through the stent; __maintaining the stent in position with the second expandable body during the medical procedure;__ introducing a medical element through the channel to perform a medical procedure on the tissue; and radially contracting the second expandable body and removing the device from the tissue.\n\n14. (Previously presented) The method of claim 13, wherein the medical element is an instrument.\n\n15. (Currently amended) The method of claim 13, wherein the medical element is a medicament __delivered through the channel formed by the stent__.\n\n16. (Previously presented) The method of claim 13, further comprising inserting the elongated device between tissue layers.\n\n17. (Currently amended) The method of claim 13, further comprising treating the tissue in contact with the device with a haemostatic compound to reduce bleeding __during the medical procedure__.",
+  "usage": {
+    "input_tokens": 3317,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 776,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.13,
+  "cost_usd": 0.02159,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:31:14Z"
+}

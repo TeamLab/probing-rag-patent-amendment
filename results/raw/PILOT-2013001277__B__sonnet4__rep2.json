@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2013001277",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2013001277",
+  "app_num": "11479493",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11802,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5394d411d15f979d",
+  "response_text": "1. (Currently amended) A gas generator comprising: a composition containing an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent, and a carboxylic acid as a fuel provided at about 25-75 weight percent, said percentages stated by weight of the total composition; and a desiccant in operable communication with said composition, __wherein said composition is non-sodium azide based__.\n\n2. (Currently amended) The gas generator of claim 1 wherein said desiccant is mixed into said composition at about __15-35__ weight percent of the total composition.\n\n3. (Previously presented) The gas generator of claim 1 wherein said desiccant is in vapor communication with, but physically separated from, said composition, and said desiccant is provided in amounts resulting in a mass differential of about -5.0 to 5.0% of the composition after heat aging at 107C for 400 hours.\n\n4. (Currently amended) The gas generator of claim 1 wherein said composition contains an extrusion aid provided at about __6-10__ weight percent of the total gas generant composition.\n\n5. (Previously presented) The gas generator of claim 4 wherein said extrusion aid is selected from graphite, fumed silica, and mixtures thereof.\n\n6. (Previously presented) The gas generator of claim 1 wherein said alkali metal chlorate is potassium chlorate.\n\n7. (Previously presented) The gas generator of claim 1 wherein said carboxylic acid is selected from tartaric acid and its isomers, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof.\n\n8. (Previously presented) The gas generator of claim 1 wherein said carboxylic acid is DL-tartaric acid.\n\n13. (Currently amended) A composition comprising: an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent; a carboxylic acid as a fuel provided at about 25-75 weight percent; and a desiccant provided at about __15-35__ weight percent, said percentages stated by weight of the total gas generant composition, __wherein said composition is non-sodium azide based__.\n\n14. (Previously presented) The composition of claim 13 wherein said carboxylic acid is selected from tartaric acid and its isomers, DL-tartaric acid, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof.\n\n15. (Previously presented) The composition of claim 13 wherein said alkali metal chlorate is potassium chlorate.\n\n16. (Previously presented) The composition of claim 13 wherein said desiccant is selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide.\n\n17. (Previously presented) The composition of claim 13 wherein said desiccant is zeolite.\n\n18. (Previously presented) The composition of claim 13 wherein said desiccant is selected to provide a mass differential of about -5.0% to 5.0% after heat aging at 107C for 400 hours.",
+  "usage": {
+    "input_tokens": 3491,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 720,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 13.26,
+  "cost_usd": 0.02127,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:32:26Z"
+}

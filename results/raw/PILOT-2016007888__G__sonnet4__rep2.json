@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22570,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6f2b32cb97ec31ac",
+  "response_text": "1. (Currently amended) A method of using a finger palette to transfer cosmetics from a container to a destination,\na. the finger palette including:\ni. a ring portion that is securable to a finger; and\nii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to spread or blend cosmetic product on the surface portion;\nb. the method including the steps of:\ni. securing the finger palette to a finger;\nii. __using an applicator instrument to__ depositing a cosmetic product onto the surface portion of the finger palette; and\niii. transferring the cosmetic product from the surface portion of the finger palette to a destination.\n\n2. (Original) The method of claim 1 further including the step of removing the cosmetic product from a container before depositing the cosmetic product onto the surface portion of the finger palette.\n\n3. (Original) The method of claim 2 wherein:\na. the cosmetic product is removed from the container using a first instrument; and\nb. the cosmetic product is transferred from the surface portion to the destination using a second instrument.\n\n4. (Currently amended) The method of claim 1 wherein:\na. a first quantity of the cosmetic product is deposited onto the surface portion; and\nb. a second quantity of the cosmetic product is transferred from the surface portion to the destination, the second quantity being smaller than the first quantity __and the surface portion retains a remaining quantity of the cosmetic product after the transferring step__.\n\n5. (Currently amended) The method of claim 1 wherein:\na. the surface portion extends outwardly from a surface center to an outer perimeter; and\nb. the surface portion is free, from any first point on the outer perimeter to any second point on the outer perimeter, of features that could trap cosmetics and complicate cleaning of the surface portion __and the surface portion is configured to allow an applicator to be scraped across the entire surface portion in an uninterrupted motion__.\n\n6. (Currently amended) The method of claim 1 wherein the surface portion is at least substantially without protrusions extending therefrom __and the surface portion is configured as a mixing palette for blending multiple cosmetic products__.\n\n7. (Currently amended) The method of claim 1 wherein the surface portion is at least substantially planar __and the surface portion is configured to facilitate controlled dispensing of cosmetic product quantities__.\n\n8. (Original) The method of claim 1 wherein the surface portion has a surface area between at least substantially 0.5 inches squared and at least substantially 6 inches squared.\n\n9. (Original) The method of claim 8 wherein the surface portion has a surface area between 0.5 inches squared and 2 inches squared.\n\n10. (Original) The method of claim 1 further including the step of spreading the cosmetic product on the surface portion before transferring the cosmetic product from the surface portion to the destination.\n\n11. (Currently amended) The method of claim 1 wherein the finger palette is secured to the finger by passing the finger through the ring portion __and the ring portion is removably and replaceably securable to the finger__.\n\n12. (Original) The method of claim 1 wherein:\na. the cosmetic product is a first cosmetic product; and\nb. the method further includes the step of depositing a second cosmetic product onto the surface portion of the finger palette.\n\n13. (Original) The method of claim 12 wherein:\na. the first cosmetic product is deposited on a first segment of the surface portion; and\nb. the second cosmetic product is deposited on a non-overlapping second segment of the surface portion.\n\n14. (Original) The method of claim 12 further including the step of blending the first cosmetic product with the second cosmetic product on the surface portion to obtain a blended cosmetic product.\n\n15. (Original) The method of claim 14 further including the step of transferring the blended cosmetic product from the surface portion of the finger palette to the destination.\n\n16. (Original) The method of claim 12 wherein:\na. the first cosmetic product is removed from a first container and deposited on the surface portion using a first instrument;\nb. the second cosmetic product is removed from a second container and deposited on the surface portion using a second instrument; and\nc. the cosmetic product is transferred from the surface portion to the destination using a third instrument.\n\n17. (Original) The method of claim 1 wherein:\na. the cosmetic product is nail makeup; and\nb. the destination is a fingernail.\n\n18. (Original) A method of using a finger palette to transfer cosmetics from a container to a work surface,\na. the finger palette including:\ni. a ring portion configured to be removably and replaceably securable to a finger; and\nii. a surface portion secured to the ring portion, the surface portion extending outwardly from a surface center to an outer perimeter, wherein the surface portion is at least substantially smooth so as to allow a user to scrape an applicator past the surface center in an uninterrupted motion while spreading or blending cosmetic product over the entirety of the surface portion;\nb. the method including the steps of:\ni. securing the finger palette to a finger by passing the finger through the ring portion;\nii. dispensing cosmetic product from a cosmetics container and placing a first quantity of the dispensed cosmetic product onto the surface portion of the finger palette;\niii. removing cosmetic product from the surface portion of the finger palette; and\niv. applying a second quantity of the removed cosmetic product to a destination, the second quantity being smaller than the first quantity.\n\n19. (Original) The method of claim 18 wherein:\na. the cosmetic product is dispensed the cosmetics container using a first instrument;\nb. the cosmetic product is removed from the surface portion using a second instrument; and\nc. the removed cosmetic product is applied to the destination using the second instrument.\n\n20. (Original) The method of claim 18 wherein:\na. the dispensed cosmetic product is a first cosmetic product dispensed from a first cosmetics container; and\nb. the method further includes the steps of:\ni. dispensing a second cosmetic product from a second cosmetics container and placing a third quantity of the dispensed second cosmetic product onto the surface portion of the finger palette; and\nii. blending the first cosmetic product on the surface portion with the second cosmetic product on the surface portion to obtain a blended cosmetic product, wherein the cosmetic product applied to the destination is the blended cosmetic product.",
+  "usage": {
+    "input_tokens": 5376,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1486,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 26.0,
+  "cost_usd": 0.03842,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:48:13Z"
+}

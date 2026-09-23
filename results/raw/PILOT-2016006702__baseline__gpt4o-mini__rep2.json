@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016006702",
+  "condition": "baseline",
+  "rep": 2,
+  "proceeding_number": "2016006702",
+  "app_num": "14107154",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18414,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "73f00ac5a9697d58",
+  "response_text": "Claim 1 (Currently amended): A system for facilitating a medical order/prescription of a prescription product for a patient covered by a provider, comprising: at least one memory device to store a plurality of predefined forms for the prescription product, the plurality of predefined forms corresponding to a plurality of providers, the prescription product including a biologic product; a receiver to receive prescription product information for the prescription product and patient intake information for the patient, including provider information for the patient, and to receive a benefits summary related to the patient in response to a benefits verification request; a transmitter to transmit the benefits verification request; and at least one processor configured to: generate the benefits verification request for the patient based on the patient intake information; select one of the predefined forms based on at least the patient provider information and the benefits summary; populate at least one field of the selected predefined form based on the patient intake information; and release the populated predefined form to facilitate a medical order/prescription of the prescription product to the patient.\n\nClaim 2 (Currently amended): The system of claim 1, wherein facilitating the medical order/prescription includes facilitating execution of a medical order/prescription of the prescription product or facilitating approval of a payment for the prescription product.\n\nClaim 12 (Currently amended): The system of claim 1, wherein the transmitter is further configured to transmit a request for additional patient information, and wherein the receiver is configured to receive the additional patient information.\n\nClaim 15 (Currently amended): The system of claim 1, wherein the processor is configured to release the populated predefined form to the provider of the patient, wherein the provider is further defined as an insurance carrier, a governmental agency, or a third party payor.\n\nClaim 25 (Currently amended): A method for facilitating a medical order/prescription of a prescription product for a patient covered by a provider, comprising: providing at least one memory having stored therein a plurality of predefined forms for the prescription product, the plurality of predefined forms corresponding to a plurality of providers, the prescription product including a biologic product; receiving patient intake information including provider information of the patient and prescription product information for the prescription product; generating, by a processor, a benefits verification request for the patient based on the patient intake information; obtaining a benefits summary based on the benefits verification request; selecting one of the predefined forms based on at least one of the patient provider information and the benefits summary; populating at least one field of the selected predefined form based on the patient intake information; and facilitating, by the processor, a medical order/prescription of the prescription product to the patient with the selected predefined form.",
+  "usage": {
+    "input_tokens": 4105,
+    "output_tokens": 531,
+    "total_tokens": 4636
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.76,
+  "cost_usd": 0.00093,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:12:39Z"
+}

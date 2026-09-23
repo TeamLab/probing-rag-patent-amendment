@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004151",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2015004151",
+  "app_num": "12702453",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10005,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "638d53d42ae4fa98",
+  "response_text": "1. (Currently amended) A cleanable, waterborne polyurethane dispersion comprising the reaction product of: A) one or more OH-functional acrylic dispersions and B) one or more __polyisocyanates modified with 3-(cyclohexylamino)-propanesulfonic acid (CAPS) and/or 2-(cyclohexylamino)ethanesulfonic acid (CHES)__.\n\n2. (Currently amended) The dispersion of claim 1, wherein component A) comprises __two or more different__ OH-functional acrylic dispersions.\n\n3. (Currently amended) The dispersion of claim 1, wherein component B) comprises at least one __polyisocyanate modified with 3-(cyclohexylamino)-propanesulfonic acid (CAPS) and/or 2-(cyclohexylamino)ethanesulfonic acid (CHES), wherein the polyisocyanate is derived from__ an aliphatic diisocyanate.\n\n4. (Previously presented) The dispersion of claim 3, wherein the aliphatic diisocyanate is 1,6-diisocyanatohexane.\n\n5. (Previously presented) A method of producing a cleanable coating on a substrate comprising applying the dispersion of claim 1 to the substrate and curing the coating composition.\n\n6. (Previously presented) A coating produced according to the method of claim 5.\n\n7. (Cancelled)\n\n8. (Cancelled)",
+  "usage": {
+    "input_tokens": 2689,
+    "output_tokens": 312,
+    "total_tokens": 3001
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.06,
+  "cost_usd": 0.00648,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:53:22Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17382,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4be1d9a74b9f8f05",
+  "response_text": "1) (Currently amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than 2000 Da and a polyanion, said nanoparticle having a size of less than one micron, wherein said polyelectrolyte complex nanoparticle is __intimately associated with a multivalent cation crosslinker and has a predominance of negative surface charges__.\n\n2) (Cancelled)\n\n3) (Original) The composition of claim 1, wherein said polyalkylenimine is polyethylenimine.\n\n4) (Original) The composition of claim 1, wherein said polyanion is selected from sodium polyvinyl sulfonate, poly (sodium acrylate), poly(sodium styrene sulfonate), copolymers of sodium acrylate with sodium vinylsulfonate or sodium styrene sulfonate; dextran sulfate, and anionic surfactants.\n\n5) (Original) The composition of claim 1, wherein said multivalent cation crosslinker is a complexed zirconium compound selected from the group consisting of zirconium acetate, sodium zirconium lactate, zirconium sulfate, zirconium tetrachloride, zirconium orthosulfate, zirconium oxychloride, zirconium carbonate, zirconium ammonium carbonate, zirconium acetylacetonate, aluminum chloride, aluminum sulfate, aluminum citrate, tin chloride, tin sulfate, iron chloride, iron nitrate, titanium chloride, and titanium sulfate.\n\n6) (Original) The composition of claim 1, further comprising monovalent or divalent cations selected from the group consisting of sodium, potassium, magnesium or calcium ions.\n\n8) (Currently amended) The composition of claim 1, wherein said polyelectrolyte complex nanoparticle comprises __a nanoparticle with an average particle size of about 100 to 900 nm in diameter and wherein the amount of polyanion exceeds the amount of polyalkylenimine__.\n\n9) (Original) The composition of claim 1, wherein said polyelectrolyte complex nanoparticles are stable in water, field brine and seawater.\n\n10) (Currently amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron, __wherein said polyelectrolyte complex nanoparticle is intimately associated with a multivalent cation crosslinker and has a predominance of negative surface charges__.\n\n12) (Currently amended) The composition of claim 10, said nanoparticle __entrapping or complexing__ a multivalent cation.\n\n13) (Original) The composition of claim 12, said multivalent cation comprising Zr, Cr, Ti, Fe or Al.\n\n21) (Currently amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer __having anionic sites__ that can be crosslinked with a); and c) a fluid.\n\n22) (Original) The composition of claim 21, where said polymer is an acrylate-based polymer.\n\n23) (Original) The composition of claim 21, where said polymer is partially hydrolyzed polyacrylamide.\n\n24) (Currently amended) The composition of claim 21, where said polymer is a polymer or copolymers of acrylate, acrylamide, N,N-dimethylacrylamide, tert-butyl acrylate, acrylamido-2-methylpropane sulfonic acid, or sodium 2-acrylamido-2-methylpropane sulfonate.\n\n26) (Original) The composition of claim 21, where fluid is brine or seawater.",
+  "usage": {
+    "input_tokens": 5162,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 900,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 8.18,
+  "cost_usd": 0.00773,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:53:58Z"
+}

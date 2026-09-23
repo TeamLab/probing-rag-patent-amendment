@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014009970",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2014009970",
+  "app_num": "12376918",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11644,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4e098ee459562373",
+  "response_text": "1. (Currently amended) An air braking unit for use in an air braking system, the air braking unit being arranged to be positioned, in use, at a vehicle wheel, and comprising: an inlet for receiving, in use, compressed air from a central source; at least one first valve arranged to selectively allow compressed air from the inlet to enter a wheel brake chamber in use; at least one second valve arranged to selectively allow air from the brake chamber to be released via an outlet to the atmosphere in use; and control means for controlling the first and second valves to operate to selectively control the air pressure in the brake chamber in use, __wherein the control means comprises a microprocessor-based electronic control unit that receives input signals and executes a control algorithm to modulate the first and second valves__.\n\n2. (Currently amended) The air braking unit of claim 1, further comprising __at least three__ plural first valves and/or plural second valves.\n\n3. (Currently amended) The air braking unit of claim 2, wherein the plural valves may comprise one or more larger valves arranged to allow large volumes of air to pass therethrough and one or more smaller valves arranged to allow passage of smaller volumes of air therethrough, __and wherein the larger and smaller valves are controlled independently by the control means__.\n\n4. (Currently amended) The air braking unit of claim 3, wherein the one or more smaller valves are arranged to operate at high speed, __and wherein the smaller valves are configured to modulate brake pressure with a response time of less than 100 milliseconds__.\n\n5. (Currently amended) The air braking unit of any preceding claim, wherein one or more of the valves are driven by binary actuators, __and wherein the control means is configured to pulse the binary actuators at variable frequencies to achieve proportional control of air pressure in the brake chamber__.\n\n6. (Original) An air braking unit according to any preceding claim, wherein the control means is arranged to receive control signals from a wheel speed sensor and an air pressure sensor for determining the pressure in the brake chamber.\n\n7. (Currently amended) An air braking unit according to claim 6, wherein the control means is arranged to receive data from a vehicle speed sensor, and reference data indicative of an optimum braking force for given vehicle and wheel speeds and control braking force based thereon, __and wherein the control means calculates an individual target deceleration for each wheel based on the vehicle speed and wheel speed data__.\n\n8. (Currently amended) An air braking unit according to claim 6 or claim 7, wherein the control means is arranged to determine, from the sensors, and stored reference data, an optimum speed for each wheel and to control the braking force on each wheel in accordance with the calculated optimum speed, __and wherein the control means implements an anti-lock braking algorithm that prevents wheel lockup by modulating the first and second valves__.\n\n9. (Currently amended) An air braking system comprising one or more units according to any preceding claim; a pump for generating compressed air; and a central compressed air storage tank, __wherein the system further comprises a central electronic control module in communication with the control means of each air braking unit via a vehicle communication network__.",
+  "usage": {
+    "input_tokens": 3432,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 705,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.29,
+  "cost_usd": 0.00557,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:54:06Z"
+}

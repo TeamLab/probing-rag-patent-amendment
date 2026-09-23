@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004151",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2015004151",
+  "app_num": "12702453",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14347,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c951db15fdbbcc64",
+  "response_text": "Claim 1 (Currently Amended): A cleanable, waterborne polyurethane dispersion comprising the reaction product of: A) one or more OH-functional acrylic dispersions and B) one or more polyisocyanates modified with 3-(cyclohexylamino)-propanesulfonic acid.\n\nClaim 2 (Currently Amended): The dispersion of claim 1, wherein component A) comprises at least two distinct OH-functional acrylic dispersions.\n\nClaim 3 (Currently Amended): The dispersion of claim 1, wherein component B) comprises at least one polyisocyanate modified with 3-(cyclohexylamino)-propanesulfonic acid derived from an aliphatic diisocyanate.\n\nClaim 7 (Currently Amended): The coating of claim 6, wherein the surface energy of the coating is greater than 31.0 dynes/cm, and the surface roughness of the coating is defined as having a root mean square roughness greater than 200 nm.",
+  "usage": {
+    "input_tokens": 3780,
+    "output_tokens": 209,
+    "total_tokens": 3989
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.75,
+  "cost_usd": 0.00069,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:42:39Z"
+}

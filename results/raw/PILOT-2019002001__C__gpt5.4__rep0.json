@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019002001",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2019002001",
+  "app_num": "14388177",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15746,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f50520edbeac8568",
+  "response_text": "8. (Currently amended) A __non-transitory__ computer readable medium having instructions stored 2 thereon that when executed by a processing resource implement a system 3 comprising a file set engine, a presentation engine, and an association 4 engine, wherein: 5 the file set engine is configured to examine a plurality of unrecognized 6 files of two or more computing devices and identify candidate file sets from 7 the plurality, each candidate file set including a cluster of related but 8 unrecognized application files __identified from the plurality based on files that recur across the two or more computing devices__; 9 the presentation engine is configured to present content indicative of 10 each identified candidate file set; and 11 the association engine is configured to detect a selection of content 12 indicative of one of the candidate file sets and associate an application with 13 application files of that one of the candidate file sets.\n\n9. (Currently amended) The medium of claim 8, wherein the file set engine is 2 configured to identify candidate file sets that include at least one of a 3 frequent file set, a common application package file set, a common version 4 file set, and a common directory file set.\n\n10. (Previously presented) The medium of claim 8, wherein the file set engine is 2 configured to construct a data structure representing quantitative information 3 about frequent patterns found within the set of unrecognized files and 4 identify the candidate file sets that are frequent file sets from the data 5 structure.\n\n11. (Previously presented) The medium of claim 8, wherein the file set engine is 2 configured to identify candidate file sets having a support exceeding a 3 predetermined threshold.\n\n12. (Previously presented) The medium of claim 8, wherein the file set engine is 2 configured to identify candidate file sets of sizes exceeding a predetermined 3 threshold.\n\n13. (Previously presented) The medium of claim 8, wherein, for each identified candidate 2 file set, the presentation engine is configured to present content for that 3 candidate file set that is indicative of at least one of a support and a file set 4 size of the candidate file set.\n\n14. (Previously presented) The medium of claim 8, wherein 2 the plurality of application files is a first plurality, wherein the 3 association engine is configured to generate a rule based on the association 4 between the application and its corresponding candidate file set; and 5 the system includes a recognition engine configured to process the 6 rule to automatically associate unrecognized files of a second plurality of 7 application files with the application.\n\n1. (Currently amended) An association method, comprising: 2 identifying candidate file sets from a plurality of application files, each 3 candidate file set including a cluster of related but unrecognized application 4 files __identified from the plurality based on files that recur across multiple computing devices__; 5 presenting content indicative of each of the candidate file sets; and 6 associating an application with application files of one of the 7 candidate file sets according to a detected selection of the content indicative 8 of the one of the candidate file sets.\n\n2. (Previously presented) The method of claim 1, wherein the candidate file sets include 2 at least one of a frequent file set, a common application package file set, a 3 common version file set, and a common directory file set.\n\n15. (Currently amended) A system comprising a processing resource and a non- 2 transitory computer readable medium and instructions stored on the 3 medium, wherein the instructions, when executed, cause the processing 4 resource to implement a method, comprising 5 examining a plurality of unrecognized application files of two or more 6 computing devices to identify candidate file sets from the plurality, __each candidate file set including a cluster of related but unrecognized application files identified from the plurality based on files that recur across the two or more computing devices__; 7 presenting content indicative of each of the candidate file sets and 8 associating an application with the application files of a given one of 9 the candidate file sets according to a selection of the content indicative of 10 that candidate file set.\n\n16. (Previously presented) The system of claim 15, wherein the identified candidate file 2 sets include at least one of a frequent file set, a common application 3 package file set, a common version file set, and a common directory file set.",
+  "usage": {
+    "input_tokens": 3837,
+    "output_tokens": 911,
+    "total_tokens": 4748
+  },
+  "stop_reason": "stop",
+  "latency_sec": 18.65,
+  "cost_usd": 0.01391,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:38:06Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "C",
+  "rep": 2,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12116,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "44c7e2662aa18fa9",
+  "response_text": "1. (Currently amended) A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium __consisting essentially of water__; (b) obtaining DNA from the shed cellular material __by exposing the shed cellular material to cold and then heat followed by agitation__; (c) performing a molecular analysis of the DNA obtained in step (b) __wherein said molecular analysis is genotyping by way of single nucleotide polymorphism detection__; and (d) germinating at least one of said one or more embryos.\n\n2. (Cancelled)\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Cancelled)\n\n8. (Original) The method of claim 7 wherein the enzyme is VISCOZYME@.\n\n9. (Cancelled)\n\n10. (Original) The method of claim 9, wherein said extracting is performed by adding magnetic particles to the shed cellular material.\n\n11. (Cancelled)\n\n12. (Cancelled)\n\n13. (Cancelled)\n\n14. (Original) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads.\n\n15. (Original) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant.\n\n16. (Original) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed.\n\n17. (Cancelled)\n\n18. (Cancelled)\n\n19. (Cancelled)",
+  "usage": {
+    "input_tokens": 3623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 8.83,
+  "cost_usd": 0.01742,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:56:54Z"
+}

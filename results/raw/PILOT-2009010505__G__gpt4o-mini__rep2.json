@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2009010505",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2009010505",
+  "app_num": "10993377",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23515,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "097c75cd509cb698",
+  "response_text": "(Currently Amended) 1. An apparatus for aligning document actions specified in a documented procedure with demonstrated user actions, comprising: an alignment device for computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric, wherein the alignment device is configured to operate in conjunction with a computer system.\n\n(Currently Amended) 18. The method of claim 17, further comprising the step of identifying a current step in the documented procedure based on the alignment, wherein the method is performed using a computer system. \n\n(Currently Amended) 19. The method of claim 18, wherein the documented procedure is displayed on a user interface, and the method further comprises the step of providing an identification of the current step to the user interface for use in highlighting the current step on the user interface, wherein the user interface is part of a computer system. \n\n(Currently Amended) 20. The method of claim 17, further comprising the step of identifying a next step in the documented procedure based on the alignment, wherein the method is performed using a computer system. \n\n(Currently Amended) 21. The method of claim 20, wherein the documented procedure is displayed on a user interface, and the method further comprises the step of providing an identification of the next step to the user interface for use in highlighting the next step on the user interface, wherein the user interface is part of a computer system. \n\n(Currently Amended) 25. The method of claim 17, wherein said computing step computes the alignment further based on previous user experiences with respect to performing the documented procedure, wherein the method is performed using a computer system. \n\n(Currently Amended) 26. The method of claim 17, wherein the documented procedure has a plurality of steps specified therein, and the method further comprises the step of extracting at least some of the plurality of steps from the documented procedure, wherein the method is performed using a computer system. \n\n(Currently Amended) 28. A method for guiding user actions with respect to a documented procedure displayed on a user interface, the documented procedure having a plurality of steps specified therein, the method comprising the steps of: computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric; visually highlighting on the user interface at least a portion of a step in the documented procedure based on the computed alignment; and automatically scrolling through each of the plurality of steps of the documented procedure on the user interface based on the computed alignment, wherein the method is performed using a computer system. \n\n(Currently Amended) 31. The method of claim 28, wherein said computing step computes the alignment further based on previous user experiences with respect to performing the documented procedure, wherein the method is performed using a computer system. ",
+  "usage": {
+    "input_tokens": 5109,
+    "output_tokens": 567,
+    "total_tokens": 5676
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.71,
+  "cost_usd": 0.00111,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:50:29Z"
+}

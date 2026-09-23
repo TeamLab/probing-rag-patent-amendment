@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2018005420",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2018005420",
+  "app_num": "14937782",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17416,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3db2f28027a1a0f0",
+  "response_text": "1. (Currently amended) A method for providing a graphical user interface to determine intent of a user based at least in part on movement of the user's eye or eyes using a detector, comprising: identifying, with the detector, when at least one eye of the user is directed at a starting location; identifying, with the detector, a first saccade of the at least one eye from the starting location towards a first object; confirming, with the detector, that the first saccade of the at least one eye is completed to within a predetermined distance from the location of the first object; presenting one or more __selectable__ choice objects on a display at locations different than the location of the first object, wherein the choice objects are __distinct visual elements presented to the user for selection via eye movement__; and thereafter monitoring, with the detector, the at least one eye to identify whether the at least one eye performs a second saccade towards one of the one or more choice object locations.\n\n2. (Original)\n\n3. (Original)\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)\n\n18. (Original)\n\n19. (Original)\n\n20. (Currently amended) A system for providing a graphical user interface to determine intent of a user based at least in part on movement of the user's eye or eyes, comprising: a detector configured to monitor movement of at least one eye of the user; an electronic display operatively associated with the detector; a processing unit operatively coupled to the detector and electronic display; and a module stored in memory to: identify, with the detector, when at least one eye is directed at a starting location; identify, with the detector, a first saccade of the at least one eye from the starting location towards a first object; confirm, with the detector, that the first saccade of the at least one eye is completed to within a predetermined distance from the location of the first object; present one or more __selectable__ choice objects on a display at locations different than the location of the first object, wherein the choice objects are __distinct visual elements presented to the user for selection via eye movement__; and thereafter monitor, with the detector, the at least one eye to identify whether the at least one eye performs a second saccade towards one of the one or more choice object locations.\n\n21. (Original)\n\n22. (Original)\n\n23. (Original)\n\n24. (Original)\n\n25. (Currently amended) A method for providing a graphical user interface to determine intent of a user based at least in part on movement of the user's eye or eyes using a detector, comprising: identifying, with the detector, when at least one eye of the user is directed at a starting location; identifying, with the detector, a first saccade of the at least one eye from the starting location towards a first object; confirming, with the detector, that the first saccade of the at least one eye is completed to within a predetermined distance from the location of the first object; identifying, with the detector, a second saccade of the at least one eye from the first object towards a second object; confirming, with the detector, that the second saccade of the at least one eye is completed to within a predetermined distance from the location of the second object; and performing an action related to one or more of the starting location, an object at the starting location, the first object, and the second object, __wherein the action is performed based on the completion of both the first and second saccades within their respective predetermined distances__.",
+  "usage": {
+    "input_tokens": 4523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 822,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.34,
+  "cost_usd": 0.00691,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:39:15Z"
+}

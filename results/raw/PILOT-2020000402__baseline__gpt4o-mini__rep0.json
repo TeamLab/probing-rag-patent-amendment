@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000402",
+  "condition": "baseline",
+  "rep": 0,
+  "proceeding_number": "2020000402",
+  "app_num": "15183040",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12155,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "27ae8666237c8c09",
+  "response_text": "Claim 1 (Currently amended): A draft inducer blower assembly for use with a gas-fueled water heater, the blower assembly comprising a housing, a motor, and a fan, the housing having an exhaust volute surrounding the fan and a base configured and adapted to be mounted atop the water heater, the base having an inlet port adapted and configured to receive exhaust gas from the water heater when the base is mounted atop the water heater, the fan being connected to the motor for rotation about a rotation axis, the exhaust volute and the base being non-adjustably fixed relative to each other, the exhaust volute having a cut-off at a cut-off angle relative to the rotation axis, the cut-off angle extending at an angle that is no more than twenty degrees positive from horizontal, the exhaust volute having an exhaust outlet passageway that extends to an exhaust port, the exhaust outlet passageway extending beneath the cut-off before reaching the exhaust port, and the exhaust port being positioned below the cut-off.\n\nClaim 2 (Currently amended): The draft inducer blower assembly in accordance with claim 1 wherein the exhaust outlet passageway extends beneath the cut-off, thereafter turns upward, and terminates at the exhaust port, and the exhaust port faces vertically upward.\n\nClaim 3 (Currently amended): The draft inducer blower assembly in accordance with claim 2 wherein the exhaust port is positioned lower than the top of the exhaust volute.\n\nClaim 4 (Cancelled)\n\nClaim 5 (Original)\n\nClaim 6 (Currently amended): A water heater comprising a draft inducer blower assembly, the blower assembly comprising a housing, a motor, and a fan, the housing having an exhaust volute surrounding the fan and a base mounted atop the water heater, the base having an inlet port adapted and configured to receive exhaust gas from the water heater, the fan being connected to the motor for rotation about a rotation axis, the exhaust volute and the base being non-adjustably fixed relative to each other, the exhaust volute having a cut-off at a cut-off angle relative to the rotation axis, the cut-off angle extending at an angle that is no more than twenty degrees positive from horizontal, the exhaust volute having an exhaust outlet passageway that extends to an exhaust port, the exhaust outlet passageway extending beneath the cut-off before reaching the exhaust port, and the exhaust port being positioned below the cut-off.\n\nClaim 7 (Currently amended): The water heater in accordance with claim 6 wherein the exhaust outlet passageway of the blower assembly extends beneath the cut-off, thereafter turns upward, and terminates at the exhaust port, and the exhaust port faces vertically upward.\n\nClaim 8 (Cancelled)\n\nClaim 9 (Original)",
+  "usage": {
+    "input_tokens": 3069,
+    "output_tokens": 546,
+    "total_tokens": 3615
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.91,
+  "cost_usd": 0.00079,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:41:04Z"
+}

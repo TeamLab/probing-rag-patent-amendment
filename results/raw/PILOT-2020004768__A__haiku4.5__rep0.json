@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020004768",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2020004768",
+  "app_num": "14521351",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12824,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1aa57cf5106c37b2",
+  "response_text": "1. (Currently amended) A method of treating Argininosuccinate Synthetase Deficiency (ASD) in a human subject, the method comprising administering to the subject in need of treatment a composition comprising an mRNA encoding argininosuccinate synthetase (ASS1) encapsulated within a liposome, wherein the liposome comprises cationic lipid, non-cationic lipid, cholesterol, and PEG-modified lipid in a molar ratio of approximately 40:30:20:10, at an effective dose and an administration interval such that at least one symptom or feature of the ASD is reduced in intensity, severity, or frequency or has its onset delayed.\n\n2. (Currently amended) The method of claim 1, wherein the mRNA is encapsulated within the liposome.\n\n3. (Currently amended) The method of claim 2, wherein the liposome comprises one or more cationic lipids, one or more non-cationic lipids, one or more cholesterol-based lipids and one or more PEG-modified lipids.\n\n4. (Original) The method of claim 3, wherein the one or more cationic lipids comprise a cationic lipid selected from the group consisting of C12-200, MC3, DLinDMA, DLinkC2DMA, cKK-E12, ICE (Imidazol-based), HGT5000, HGT5001, DODAC, DDAB, DMRIE, DOSPA, DOGS, DODAP, DODMA and DMDMA, DODAC, DLenDMA, DMRIE, CLinDMA, CpLinDMA, DMOBA, DOcarbDAP, DLinDAP, DLincarbDAP, DLinCDAP, KLin-K-DMA, DLin-K-XTC2-DMA, HGT4003, and combination thereof.\n\n5. (Original) The method of claim 4, wherein the one or more cationic lipids comprise cKK-E12.\n\n6. (Original) The method of claim 3, wherein the one or more cholesterol-based lipids are cholesterol and/or PEGylated cholesterol.\n\n7. (Currently amended) The method of claim 3, wherein the cationic lipid constitutes about 30-50% of the liposome by weight.\n\n8. (Currently amended) The method of claim 3, wherein the ratio of cationic lipid to non-cationic lipid to cholesterol to PEGylated lipid is approximately 40:30:20:10 by molar ratio.\n\n9. (Original) The method of claim 2, wherein the liposome comprises a combination selected from: cKK-E12, DOPE, cholesterol and DMG-PEG2K; C12-200, DOPE, cholesterol and DMG-PEG2K; HGT4003, DOPE, cholesterol and DMG-PEG2K; or ICE, DOPE, cholesterol and DMG-PEG2K.\n\n10. (Original) The method of claim 2, wherein the liposome has a size less than about 100 nm.\n\n11. (Currently amended) The method of claim 1, wherein the effective dose ranges from about 0.1 to 5.0 mg/kg body weight.\n\n12. (Original) The method of claim 1, wherein the composition is administered intravenously.\n\n13. (Original) The method of claim 1, wherein the composition is administered once a week.\n\n14. (Cancelled)\n\n15. (Currently amended) The method of claim 1, wherein the administering of the composition results in reduced citrulline level in the subject as compared to the baseline citrulline level before the treatment.\n\n16. (Currently amended) The method of claim 1, wherein the administering of the composition results in reduced ammonia level in the subject as compared to the baseline ammonia level before the treatment.\n\n17. (Original) The method of claim 1, wherein the mRNA is codon optimized.\n\n18. (Original) The method of claim 17, wherein the codon-optimized mRNA comprises SEQ ID NO:3.\n\n19. (Original) The method of claim 1, wherein the mRNA comprises one or more modified nucleotides.\n\n20. (Cancelled)",
+  "usage": {
+    "input_tokens": 3917,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1020,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 8.85,
+  "cost_usd": 0.00721,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:37:45Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010010196",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2010010196",
+  "app_num": "11949602",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10733,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9d9e4d6cc5788d1e",
+  "response_text": "Claim 12 (Currently amended): A welding wire and container assembly, comprising: a support structure coupled to a plurality of triangular portions to provide a layered end assembly; and a coil of welding wire disposed in the housing and supported by a base structure that is defined by the support structure.\n\nClaim 16 (Currently amended): The assembly of claim 12, wherein the triangular portions generally meet at a central axis located within the cylindrical wall.",
+  "usage": {
+    "input_tokens": 2665,
+    "output_tokens": 87,
+    "total_tokens": 2752
+  },
+  "stop_reason": "stop",
+  "latency_sec": 1.67,
+  "cost_usd": 0.00045,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:06:02Z"
+}

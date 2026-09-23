@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017004286",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2017004286",
+  "app_num": "14264705",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16819,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3fef6aa5d3e4d10e",
+  "response_text": "Claim 1 (Currently amended): An ultrasonic surgical instrument assembly comprising: a handpiece; a transducer or generator of ultrasonic mechanical vibrations disposed in said handpiece; a probe attached to a distal end of said handpiece and operatively connected to said transducer or generator; and a light source attached to said handpiece so as to direct __visible electromagnetic radiation__ along the probe towards a surgical site distal of the probe.\n\nClaim 10 (Currently amended): The surgical instrument assembly defined in claim 1 wherein said light source is attached to a distal end of said handpiece and is oriented to provide illumination along said probe to the surgical site __without obstructing the surgical site__.\n\nClaim 19 (Currently amended): A surgical method comprising: providing a surgical instrument having a handpiece, a transducer or generator of ultrasonic mechanical vibrations disposed in said handpiece and a probe attached to a distal end of said handpiece and operatively connected to said transducer or generator; providing a light source; applying a fastener to said handpiece to attach said light source thereto so that light from said light source is __directable along the probe towards a surgical site__; operating said surgical instrument to apply ultrasonic vibratory energy to a surgical site; during the operating of said surgical instrument, conducting electrical energy from a power supply to said light source; and during the operating of said surgical instrument and the conducting of said electrical energy, illuminating said surgical site with light from said source.",
+  "usage": {
+    "input_tokens": 4029,
+    "output_tokens": 294,
+    "total_tokens": 4323
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.67,
+  "cost_usd": 0.00078,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:35:52Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012010015",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2012010015",
+  "app_num": "13152534",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15095,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1a8eaf5589aa0e57",
+  "response_text": "1. (Currently amended) A multi-layer coating comprising: (a) a color-imparting, non-hiding coating layer deposited from a protective coating composition comprising an aqueous dispersion comprising color-imparting particles stably dispersed in aqueous medium in admixture with one or more polymers, __wherein the color-imparting particles are organic pigment particles__, and (b) a clear coat layer deposited over at least a portion of the color-imparting, non-hiding layer.\n\n2. (Currently amended) The multi-layer coating of claim 1 in which the color-imparting particles are dispersed in aqueous medium by: (a) admixing the color-imparting particles with (1) one or more polymerizable, ethylenically unsaturated monomers, or (2) a mixture of one or more polymerizable ethylenically unsaturated monomers with one or more polymers, or (3) one or more polymers to form an admixture; (b) subjecting the admixture to __high energy__ [[high stress,]] shear conditions to particularize the admixture into microparticles; and (c) polymerizing the ethylenically unsaturated monomers when present (d) dispersing the particles in aqueous medium.\n\n3. (Previously presented) The multi-layer coating of claim 1 in which the color-imparting particles are present in the aqueous dispersion in an amount of 0.1 to 50 percent by weight based on total solids present in the aqueous dispersion.\n\n4. (Currently amended) The multi-layer coating of claim 2 in which the polymerizable ethylenically unsaturated monomers include a carboxylic acid group-containing monomer __selected from acrylic acid and methacrylic acid__ and/or the one or more polymers contain a carboxylic acid group.\n\n5. (Cancelled)\n\n6. (Previously presented) The multi-layer coating of claim 1 in which the one or more polymers contain a functional group that is reactive with a curing agent.\n\n7. (Previously presented) The multi-layer coating of claim 6 wherein the functional groups are selected from the group consisting of epoxy groups, carboxylic acid groups, hydroxyl groups, isocyanate groups, amide groups, carbamate groups, carboxylate groups and mixtures thereof.\n\n8. (Previously presented) The multi-layer coating of claim 6 in which the aqueous dispersion contains a curing agent.\n\n9. (Previously presented) The multi-layer coating of claim 8 in which the curing agent is an aminoplast and/or a polyisocyanate including blocked polyisocyanates.\n\n10. (Previously presented) The multi-layer coating of claim 1 in which the one or more polymers are present in the aqueous dispersion in amounts of 10 to 70 percent by weight based on total weight of solids in the aqueous dispersion.\n\n11. (Previously presented) The multi-layer coating of claim 1 wherein the color-imparting particles have an average primary particle size less than 150 nanometers.\n\n12. (Currently amended) The multi-layer coating of claim 1 applied over a reflective surface comprising a reflective material __wherein the reflective material__ having a total reflectance of at least 30 percent.\n\n13. (Previously presented) The multi-layer coating of claim 12 wherein the reflective material is a base coat deposited from a coating composition.\n\n14. (Previously presented) A substrate coated with the multi-layer coating of claim 1.\n\n15. (Previously presented) A substrate coated with the multi-layer coating of claim 13.\n\n16. (Previously presented) The multi-layer coating of claim 1 in which the one or more polymers are selected from acrylic polymers, polyester polymers, polyurethane polymers, polyether polymers, including mixtures thereof.",
+  "usage": {
+    "input_tokens": 4388,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 908,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.75,
+  "cost_usd": 0.02678,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:19:08Z"
+}

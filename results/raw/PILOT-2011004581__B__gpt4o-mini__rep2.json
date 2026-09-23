@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011004581",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2011004581",
+  "app_num": "10906716",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12349,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "65319aa0e713cba8",
+  "response_text": "Claim 3 (Currently amended): The method of claim 1 wherein filtering comprises: obtaining channel accessibility of the subscriber; and removing EPG information related to a channel that is not within the channel accessibility of the subscriber, wherein the channel accessibility is based on the subscriber's current subscription status.\n\nClaim 5 (Currently amended): The method of claim 3 wherein removing comprises: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of the subscriber's channel identifiers, wherein the list is generated based on the subscriber's current subscription status.\n\nClaim 9 (Currently amended): The article of manufacture of claim 7 wherein the data causing the machine to perform filtering comprises data that, when accessed by the machine, causes the machine to perform operations comprising: obtaining channel accessibility of the subscriber based on the subscriber's current subscription status; and removing EPG information related to a channel that is not within the channel accessibility of the subscriber.\n\nClaim 11 (Currently amended): The article of manufacture of claim 9 wherein the data causing the machine to perform removing comprises data that, when accessed by the machine, causes the machine to perform operations comprising: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of the subscriber's channel identifiers, wherein the list is generated based on the subscriber's current subscription status.",
+  "usage": {
+    "input_tokens": 2966,
+    "output_tokens": 314,
+    "total_tokens": 3280
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.96,
+  "cost_usd": 0.00063,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:52:09Z"
+}

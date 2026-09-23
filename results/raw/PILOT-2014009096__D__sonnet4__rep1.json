@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014009096",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2014009096",
+  "app_num": "13102968",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14760,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "46425bce975c9cca",
+  "response_text": "1. (Currently amended) An automated communications system comprising:\nan input-processing subsystem __implemented on one or more processors and comprising non-transitory computer-readable memory storing executable instructions__ that processes the messages received from receiving components that each receives messages from a communications medium by forwarding each message directed to a group, subgroup, or user to a routing-and-message-forwarding component which determines whether or not the message is authorized to be forwarded and, when the message is authorized to be forwarded, __forwards__ [[returns]] a corresponding message for each member of the group; and\n__a post-processing subsystem implemented on one or more processors and comprising non-transitory computer-readable memory storing executable instructions that includes:__\none or more internal queues that queue the one or more corresponding messages __forwarded by the routing-and-message-forwarding component__;\n__a message processing engine that__ dequeues messages from the one or more internal message queues; processes each message dequeued from the one or more internal message queues to generate one or more processed messages, including modifying either or both of the destination and source addresses included in the message according to stored rules when the stored rules are applicable to the message; and forwards the one or more processed messages to sending components that each sends processed messages to a communications medium.\n\n2. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the __node, and when the source address is not authorized to send a message to the node, returning an indication of failure__.\n\n3. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by finding information that authorizes the source address stored within the automated communications system, and when the source address is __not__ authorized to send a message to the node, returning an indication of failure.\n\n4. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, and when the source address is __not__ authorized to send a message to the node, returning an indication of failure.\n\n5. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes and/or node-token pairs; and for each node and/or node-token pair of the ordered sequence of nodes and/or node-token pairs, determining whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, by finding information that authorizes the source address stored within the automated communications system, and/or by applying any rules that apply to the message stored within the automated communications system, and, when the source address is not authorized to send a message to the node, returning an indication of failure, and when the source address is authorized to send a message to the node, accessing stored information within the automated communications system to determine whether or not __a__ [[the]] token __associated with the node-token pair__ is valid, when the token is not valid, returning __an__ [[and]] indication of failure, and when the token is valid, returning an indication of success.",
+  "usage": {
+    "input_tokens": 3647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 877,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 14.33,
+  "cost_usd": 0.0241,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:08:50Z"
+}

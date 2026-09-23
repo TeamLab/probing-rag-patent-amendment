@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18264,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6bae35c446779b0f",
+  "response_text": "1. (Currently amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, __wherein the cell is a yeast or an alga__.\n\n2. (Currently amended) The cell of claim [[1wherein]] __1, wherein__ the non-native compartment is self-assembled in vivo.\n\n3. (Currently amended) The cell of claim [[1wherein]] __1, wherein__ the non-native compartment further comprises at least one targeted enzyme.\n\n4. (Currently amended) The cell of claim [[3wherein]] __3, wherein__ the non-native compartment comprises a plurality of different targeted enzymes.\n\n5. (Currently amended) The cell of claim [[eihe* claim3er-ctaim-4]] __3 or claim 4,__ wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence.\n\n6. (Previously presented) The cell of claim [[1any-preceding-claim]] __1,__ wherein the BMC polypeptide comprises a Eut polypeptide.\n\n7. (Previously presented) The cell of claim [[6wherein]] __6, wherein__ the Eut polypeptide comprises a EutS polypeptide.\n\n8. (Currently amended) The cell of claim [[1any pr-eceding-claim]] __1,__ wherein the proteinaceous shell comprises a plurality of different BMC polypeptides __and wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different BMC operons__.\n\n9. (Previously presented) The cell of claim [[8wherein]] __8, wherein__ the plurality of different BMC polypeptides comprises BMC polypeptides from different bacterial species.\n\n10. (Cancelled)\n\n11. (Previously presented) The cell of claim [[1any-preeeding-claim]] __1,__ wherein at least one BMC polypeptide comprises an affinity tag.\n\n12. (Currently amended) A method __for producing a non-native compartment in a host cell,__ comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide, __wherein the host cell is a member of the family Shewanellaceae__.\n\n13. (Currently amended) The method of claim [[12wherein]] __12, wherein__ the host cell comprises a bacterium.\n\n14. (Currently amended) The method of claim [[13wherein]] __13, wherein__ the bacterium comprises a member of the family Enterobacteriaceae.\n\n15. (Currently amended) The method of claim [[14wherein]] __14, wherein__ the member of the family Enterobacteriaceae comprises E. coli.\n\n16. (Currently amended) The method of claim [[13wherein]] __13, wherein__ the bacterium comprises a member of the family Shewanellaceae.\n\n17. (Currently amended) The method of claim [[12wherein]] __12, wherein__ the host cell comprises a yeast.\n\n18. (Previously presented) The method of claim [[17wherein]] __17, wherein__ the yeast comprises a member of the family Saccharomycetaceae.\n\n19. (Previously presented) The method of claim [[18wherein]] __18, wherein__ the member of the family Saccharomycetaceae comprises Saccharomyces cerevisiae.\n\n20. (Currently amended) The method of claim [[12wherein]] __12, wherein__ the host cell comprises an alga.\n\n21. (Currently amended) A method __for producing a product in a cell,__ comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, and at least one enzyme that catalyzes conversion of a substrate to a product; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product, __wherein the cell is a yeast or an alga__.\n\n22. (Previously presented) The method of claim [[21wherein]] __21, wherein__ the product comprises a bioactive product.\n\n23. (Previously presented) The method of claim [[21wherein]] __21, wherein__ the product comprises a drug or a drug precursor.\n\n24. (Previously presented) The method of claim [[21wherein]] __21, wherein__ the product comprises a biofuel or a precursor of biofuel production.\n\n25. (Previously presented) The method of claim [[21wherein]] __21, wherein__ the at least one enzyme catalyzes a step in degrading or detoxifying a toxic substrate.\n\n26. (Previously presented) The method of claim [[21further]] __21, further__ comprising isolating at least a portion of the non-native compartments.\n\n27. (Previously presented) The method of claim [[26wherein]] __26, wherein__ at least a portion of the non-native compartment comprise an affinity tag and isolating at least a portion of the non-native compartments comprises contacting a sample comprising the non-native compartments with an affinity substrate having selective affinity for the affinity tag.\n\n28. (Currently amended) The cell of claim [[1anye nee f-elaims-1-11]] __1__ comprising a plurality of compartments, __wherein the cell is a yeast or an alga__.",
+  "usage": {
+    "input_tokens": 4556,
+    "output_tokens": 1168,
+    "total_tokens": 5724
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.99,
+  "cost_usd": 0.01738,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:05:30Z"
+}

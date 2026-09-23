@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012007524",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2012007524",
+  "app_num": "12422453",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17468,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1447a32b4f232dd3",
+  "response_text": "1. (Currently amended) An Internet system that supports a search service, the Internet system comprising: a search server implemented as a tangible hardware device that is adapted to receive search criteria from a client device remote from the search server; a historical data repository coupled to the search server and implemented as a tangible hardware device, wherein the historical data repository contains historical data collected from over the Internet, and wherein the search server stores data retrieved from over the Internet and eventually stores the data as historical data within the historical data repository when the data is no longer preserved in the search server; and wherein the search server receives the search criteria to search for older historical data that was in existence on the Internet at a previous time, wherein the search server obtains search results to satisfy the search criteria by searching the historical data stored in the historical data repository.\n\n2. (Currently amended) The Internet system of claim 1 wherein the historical data placed within the historical data repository is date tagged by the search server so that the historical data is associated with a date representative of when the historical data was available on the Internet.\n\n3. (Currently amended) The Internet system of claim 2 wherein the historical data placed within the historical data repository is time tagged by the search server so that the historical data is associated with a time representative of when the historical data was available on the Internet.\n\n4. (Currently amended) The Internet system of claim 1 wherein the historical data placed within the historical data repository is time tagged by the search server so that the historical data is associated with a time representative of when the historical data was available on the Internet.\n\n5. (Original)\n\n6. (Currently amended) The Internet system of claim 1 wherein the historical data repository comprises: central processing circuitry; communication circuitry coupled to the central processing circuitry for communicating data in to and out from the historical data repository; and local storage coupled to the central processing circuitry that contains an index storage module for storing historical data according to indices and a time based sorting module for storing historical data according to date and time, wherein the historical data repository is configured to store historical data that is __specific to a particular user's browsing history and is not limited to general website visit history__.\n\n7. (Currently amended) The Internet system of claim 1 wherein certain data is removed from the historical data before it is placed for long-term storage within the historical data repository, wherein the removal is performed by the search server based on __user-defined filtering criteria__.\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)\n\n18. (Original)\n\n19. (Original)\n\n20. (Currently amended) A network browser in a computer for browsing websites, the network browser comprising: a search criteria window that prompts a user to enter search terms and timeline information; a first module that enables a search of the Internet to determine search results that existed within a time frame delineated by the timeline information, and wherein the search results correlate to the search terms, wherein the first module is implemented as a tangible hardware component; and a second module that receives the search results from over the Internet, wherein the second module is implemented as a tangible hardware component.",
+  "usage": {
+    "input_tokens": 4234,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 716,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.19,
+  "cost_usd": 0.00625,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:31:55Z"
+}

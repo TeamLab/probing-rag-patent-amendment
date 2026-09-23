@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020000402",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2020000402",
+  "app_num": "15183040",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12142,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8c33c5c8fe229041",
+  "response_text": "1. (Currently amended) A draft inducer blower assembly for use with a gas-fueled water heater, the blower assembly comprising a housing, a motor, and a fan, the housing having an exhaust volute surrounding the fan and a base configured and adapted to be mounted atop the water heater, the base having an inlet port adapted and configured to receive exhaust gas from the water heater when the base is mounted atop the water heater, the fan being connected to the motor for rotation about a rotation axis, the exhaust volute and the base being non-adjustably fixed relative to each other, the exhaust volute having a cut-off at a cut-off angle relative to the rotation axis, the cut-off angle extending at an angle that is no more than twenty degrees positive from horizontal, the exhaust volute having an exhaust outlet passageway that extends to an exhaust port, the exhaust outlet passageway extending beneath the cut-off before reaching the exhaust port, __wherein the exhaust outlet passageway extends beneath the cut-off, thereafter turns upward, and terminates at the exhaust port, and the exhaust port faces vertically upward__.\n\n2. (Currently amended) __The__ draft inducer blower assembly in accordance with claim 1 wherein __the exhaust port is lower than a top of the exhaust volute__.\n\n3. (Cancelled)\n\n4. (Original) A draft inducer blower assembly in accordance with claim 3 further comprising an elbow fitting and a cross-over pipe, the cross-over pipe being connected to the exhaust port by the elbow fitting, the cross-over pipe having a center section that necks in from 6381534 7 below and a downstream end that comprises a drain, the center section of the cross-over pipe being configured and adapted to bridge over the volute of the housing.\n\n5. (Currently amended) __The__ draft inducer blower assembly in accordance with claim 1 wherein the cut-off angle is negative from horizontal.\n\n6. (Currently amended) A water heater comprising a draft inducer blower assembly, the blower assembly comprising a housing, a motor, and a fan, the housing having an exhaust volute surrounding the fan and a base mounted atop the water heater, the base having an inlet port adapted and configured to receive exhaust gas from the water heater, the fan being connected to the motor for rotation about a rotation axis, the exhaust volute and the base being non-adjustably fixed relative to each other, the exhaust volute having a cut-off at a cut-off angle relative to the rotation axis, the cut-off angle extending at an angle that is no more than twenty degrees positive from horizontal, the exhaust volute having an exhaust outlet passageway that extends to an exhaust port, the exhaust outlet passageway extending beneath the cut-off before reaching the exhaust port, __wherein the exhaust outlet passageway extends beneath the cut-off, thereafter turns upward, and terminates at the exhaust port, and the exhaust port faces vertically upward__.\n\n7. (Currently amended) __The__ water heater in accordance with claim 6 wherein __the exhaust port is lower than a top of the exhaust volute__.\n\n8. (Cancelled)\n\n9. (Currently amended) __The__ water heater in accordance with claim 6 wherein the cut-off angle of the exhaust volute of the blower assembly is negative from horizontal.",
+  "usage": {
+    "input_tokens": 3473,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 767,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 13.46,
+  "cost_usd": 0.02192,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:30:26Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2011012180",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2011012180",
+  "app_num": "11873429",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15066,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "da1a246b2480d721",
+  "response_text": "1. (Currently amended) A method for synchronous triggering of events in multiple modules, each module receiving a serial bit stream over a respective communications link, each said communications link comprising a data out and a clock line, each said clock line derived from a single clock source, the method comprising the steps of: transmitting a send packet over said data out line to each module synchronous with said clock source wherein said send packet contains at least one bit position defined as a trigger bit, __wherein said trigger bit is encoded to distinguish between different trigger event types__, and triggering __a module-specific event__ in a respective one of said modules upon receipt of a respective one of said at least one trigger bit, __wherein said module-specific event is determined by the encoding of said trigger bit and the specific configuration of the respective module__.\n\n2. (Currently amended) A method as recited in claim 1 wherein said triggering __a module-specific event__ comprises __synchronous__ waveform digitization __initiated by said trigger bit encoding__.\n\n3. (Original) A method as recited in claim 1 wherein said triggering an event comprises waveform synthesis.\n\n4. (Currently amended) A method as recited in claim 1 said communications link further comprising a data in line and further comprising receiving a serial bit stream over said data in line comprising a receive packet from each said module, wherein a predefined bit in each said receive packet comprises an indication that __the respective module has received and processed__ a measurement trigger.\n\n5. (Currently amended) A method as recited in claim 4 wherein said receive packet from each module further comprises a plurality of bits reflecting __synchronous measurement results corresponding to__ said triggered measurement.\n\n11. (Currently amended) An apparatus for performing synchronous triggering of events in multiple modules comprising a housing comprising a controller and receiving two or more modules, a respective serial communications link between said controller and each of said two or more modules, each said communications link comprising a data out and a clock line, each said clock line derived from a single clock source, means for transmitting a send packet over said data out line to each module synchronous with said clock source wherein said send packet contains at least one bit position defined as a trigger bit, __wherein said trigger bit is encoded to distinguish between different trigger event types__, and means in each said module for triggering __a module-specific event__ upon receipt of respective ones of said trigger bits, __wherein said module-specific event is determined by the encoding of said trigger bit and the specific configuration of the respective module__.\n\n12. (Currently amended) An apparatus as recited in claim 11 wherein one of said __module-specific__ events comprises __synchronous__ waveform digitization __initiated by said trigger bit encoding__.\n\n13. (Currently amended) An apparatus as recited in claim 11 wherein one of said __module-specific__ events comprises __synchronous__ waveform digitization __on one channel__ and waveform synthesis __on a separate channel__ of said module, __wherein said separate channels operate independently in response to respective trigger bit encodings__.\n\n14. (Currently amended) An apparatus as recited in claim 11 said communications link further comprising a data in line and further comprising means for receiving a serial bit stream over said data in line comprising a receive packet from each said module, wherein a predefined bit in each said receive packet comprises an indication that __the respective module has received and processed__ a measurement trigger.\n\n15. (Currently amended) An apparatus as recited in claim 14 wherein said receive packet from each module further comprises a plurality of bits reflecting __synchronous measurement results corresponding to__ said triggered measurement.\n\n16. (Original) An apparatus as recited in claim 11 wherein one of said events comprises waveform synthesis.\n\n17. (Original) An apparatus as recited in claim 11 wherein said trigger bit comprises at least two trigger bits at a data rate that is twice a data rate of said single clock source, thereby generating at least two trigger bits during a single period of said single clock source.\n\n18. (Original) An apparatus as recited in claim 11 further comprising at least one data field, said at least one data field generated at a data rate that is twice a data rate of said single clock source.\n\n19. (Original) An apparatus as recited in claim 11 wherein said trigger bit comprises at least two trigger bits at a data rate that is twice a data rate of said single clock source, thereby generating at least two trigger bits during a single period of said single clock source; and at least two data fields, said at least two data fields generated at a data rate that is twice a data rate of said single clock source.\n\n20. (Original) An apparatus as recited in claim 19 wherein said at least two trigger bits are interleaved with said at least two data fields.",
+  "usage": {
+    "input_tokens": 4124,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1037,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.81,
+  "cost_usd": 0.00745,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:41:17Z"
+}

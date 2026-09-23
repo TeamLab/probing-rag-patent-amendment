@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17283,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ad38da92a0911e20",
+  "response_text": "(Currently Amended) Claim 1: A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member, wherein said columnar body has a unique cross-sectional shape selected from the group consisting of a tetragon, pentagon, hexagon, heptagon, octagon, nonagon, decagon, hendecagon, or dodecagon.\n\n(Currently Amended) Claim 5: The lamp of claim 1 wherein said diodes are arranged in a non-uniform pattern radially around the columnar body.\n\n(Currently Amended) Claim 7: The lamp of claim 1 wherein said columnar body comprises a polygonal shape in cross-section.\n\n(Currently Amended) Claim 10: The lamp of claim 9 wherein a single diode resides on each face, and each face is configured to optimize light output.\n\n(Currently Amended) Claim 11: The lamp of claim 1 wherein said columnar body and said fins are comprised of a material having a thermal conductivity greater than 150 W/mK.\n\n(Currently Amended) Claim 13: The lamp of claim 1 wherein said base member comprises an Edison screw base or a wedge base, and is configured to provide enhanced electrical connectivity.\n\n(Currently Amended) Claim 16: A lamp comprising an elongated hollow polygonal body comprised of a material having a thermal conductivity greater than 150 W/mK, a fin extending radially from each corner of said body, a light emitting diode mounted to each side of said body, a screw or wedge base connector closing a first end of said body, a second end of said body being open, an electronics module disposed within said body in electrical communication with said connector and said light emitting diodes, said lamp having a general A19 outline and optimized for heat dissipation.",
+  "usage": {
+    "input_tokens": 3941,
+    "output_tokens": 429,
+    "total_tokens": 4370
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.13,
+  "cost_usd": 0.00085,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:06:17Z"
+}

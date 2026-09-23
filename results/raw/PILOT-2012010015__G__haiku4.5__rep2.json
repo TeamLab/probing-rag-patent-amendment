@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012010015",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2012010015",
+  "app_num": "13152534",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19413,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4969e71fc09d2c40",
+  "response_text": "1. (Currently amended) A multi-layer coating comprising: (a) a color-imparting, non-hiding coating layer deposited from a protective coating composition comprising an aqueous dispersion comprising color-imparting particles stably dispersed in aqueous medium in admixture with one or more polymers, wherein said color-imparting particles are __present in an amount of 0.1 to 50 percent by weight based on total solids present in the aqueous dispersion__, and (b) a clear coat layer deposited over at least a portion of the color-imparting, non-hiding layer.\n\n2. (Currently amended) The multi-layer coating of claim 1 in which the color-imparting particles are dispersed in aqueous medium by: (a) admixing the color-imparting particles with (1) one or more polymerizable, ethylenically unsaturated monomers, or (2) a mixture of one or more polymerizable ethylenically unsaturated monomers with one or more polymers, or (3) one or more polymers to form an admixture; (b) subjecting the admixture to __shear conditions sufficient to particularize the admixture into microparticles__; and (c) polymerizing the ethylenically unsaturated monomers when present; (d) dispersing the particles in aqueous medium.\n\n3. (Original)\n\n4. (Currently amended) The multi-layer coating of claim 2 in which the polymerizable ethylenically unsaturated monomers include __a (meth)acrylic acid-containing monomer__ and/or the one or more polymers contain a carboxylic acid group.\n\n5. [[The multi-layer coating of claim 4 in which the carboxylic acid group is (meth)acrylic acid.]] (Cancelled)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Currently amended) The multi-layer coating of claim 1 applied over a reflective surface comprising a reflective material __wherein said reflective material has__ a total reflectance of at least 30 percent.\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)",
+  "usage": {
+    "input_tokens": 5579,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.85,
+  "cost_usd": 0.00662,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:56:41Z"
+}

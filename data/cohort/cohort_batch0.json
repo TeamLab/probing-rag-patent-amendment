@@ -1,0 +1,1539 @@
+{
+  "batch_id": "batch_0",
+  "seed": 42,
+  "n_requested": 100,
+  "n_selected": 100,
+  "pool_size": 4270,
+  "exclusion_counts": {
+    "no_structured_prior_art": 2927,
+    "rare_outcome": 313,
+    "no_structured_rejection": 1345,
+    "no_pre_claim": 2
+  },
+  "eligibility_criteria": [
+    "outcome in {Affirmed, Reversed, AIP}",
+    "decision year parseable",
+    "rejection_instances >= 1 (structured or regex-fallback)",
+    "prior_art_refs >= 1 (structured)",
+    "pre-amendment claim list non-empty"
+  ],
+  "targets": {
+    "outcome": {
+      "Affirmed": 40,
+      "Reversed": 40,
+      "AIP": 20
+    },
+    "statute": {
+      "103": 35,
+      "102+103": 20,
+      "103+112": 15,
+      "101-rel": 15,
+      "112": 10,
+      "other": 5
+    },
+    "tech": {
+      "3600": 20,
+      "3700": 17,
+      "1700": 14,
+      "2400": 12,
+      "2100": 12,
+      "other": 25
+    },
+    "pattern": {
+      "modify_only": 45,
+      "cancel_heavy": 20,
+      "mixed": 15,
+      "new_or_add": 10,
+      "other": 10
+    },
+    "format": {
+      "dtd_legacy": 25,
+      "ns_claims": 75
+    },
+    "year": {
+      "2010-14": 25,
+      "2015-19": 45,
+      "2020-25": 30
+    }
+  },
+  "marginal_achieved": {
+    "outcome": {
+      "Reversed": 40,
+      "Affirmed": 40,
+      "AIP": 20
+    },
+    "statute": {
+      "103": 36,
+      "102+103": 20,
+      "101-rel": 15,
+      "103+112": 15,
+      "112": 9,
+      "other": 5
+    },
+    "tech": {
+      "other": 25,
+      "3600": 20,
+      "3700": 17,
+      "1700": 14,
+      "2100": 12,
+      "2400": 12
+    },
+    "pattern": {
+      "modify_only": 45,
+      "cancel_heavy": 20,
+      "mixed": 15,
+      "new_or_add": 10,
+      "other": 10
+    },
+    "format": {
+      "ns_claims": 75,
+      "dtd_legacy": 25
+    },
+    "year": {
+      "2015-19": 46,
+      "2020-25": 30,
+      "2010-14": 24
+    }
+  },
+  "marginal_deficit": {
+    "outcome": {
+      "Affirmed": {
+        "target": 40,
+        "achieved": 40,
+        "delta": 0
+      },
+      "Reversed": {
+        "target": 40,
+        "achieved": 40,
+        "delta": 0
+      },
+      "AIP": {
+        "target": 20,
+        "achieved": 20,
+        "delta": 0
+      }
+    },
+    "statute": {
+      "103": {
+        "target": 35,
+        "achieved": 36,
+        "delta": 1
+      },
+      "102+103": {
+        "target": 20,
+        "achieved": 20,
+        "delta": 0
+      },
+      "103+112": {
+        "target": 15,
+        "achieved": 15,
+        "delta": 0
+      },
+      "101-rel": {
+        "target": 15,
+        "achieved": 15,
+        "delta": 0
+      },
+      "112": {
+        "target": 10,
+        "achieved": 9,
+        "delta": -1
+      },
+      "other": {
+        "target": 5,
+        "achieved": 5,
+        "delta": 0
+      }
+    },
+    "tech": {
+      "3600": {
+        "target": 20,
+        "achieved": 20,
+        "delta": 0
+      },
+      "3700": {
+        "target": 17,
+        "achieved": 17,
+        "delta": 0
+      },
+      "1700": {
+        "target": 14,
+        "achieved": 14,
+        "delta": 0
+      },
+      "2400": {
+        "target": 12,
+        "achieved": 12,
+        "delta": 0
+      },
+      "2100": {
+        "target": 12,
+        "achieved": 12,
+        "delta": 0
+      },
+      "other": {
+        "target": 25,
+        "achieved": 25,
+        "delta": 0
+      }
+    },
+    "pattern": {
+      "modify_only": {
+        "target": 45,
+        "achieved": 45,
+        "delta": 0
+      },
+      "cancel_heavy": {
+        "target": 20,
+        "achieved": 20,
+        "delta": 0
+      },
+      "mixed": {
+        "target": 15,
+        "achieved": 15,
+        "delta": 0
+      },
+      "new_or_add": {
+        "target": 10,
+        "achieved": 10,
+        "delta": 0
+      },
+      "other": {
+        "target": 10,
+        "achieved": 10,
+        "delta": 0
+      }
+    },
+    "format": {
+      "dtd_legacy": {
+        "target": 25,
+        "achieved": 25,
+        "delta": 0
+      },
+      "ns_claims": {
+        "target": 75,
+        "achieved": 75,
+        "delta": 0
+      }
+    },
+    "year": {
+      "2010-14": {
+        "target": 25,
+        "achieved": 24,
+        "delta": -1
+      },
+      "2015-19": {
+        "target": 45,
+        "achieved": 46,
+        "delta": 1
+      },
+      "2020-25": {
+        "target": 30,
+        "achieved": 30,
+        "delta": 0
+      }
+    }
+  },
+  "cases": [
+    {
+      "case_id": "PILOT-2017005259",
+      "proceeding_number": "2017005259",
+      "app_num": "13380428",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2018005420",
+      "proceeding_number": "2018005420",
+      "app_num": "14937782",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017003676",
+      "proceeding_number": "2017003676",
+      "app_num": "14473114",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2018005863",
+      "proceeding_number": "2018005863",
+      "app_num": "14226008",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017001422",
+      "proceeding_number": "2017001422",
+      "app_num": "13995688",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2014009970",
+      "proceeding_number": "2014009970",
+      "app_num": "12376918",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017005493",
+      "proceeding_number": "2017005493",
+      "app_num": "12942053",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2018001232",
+      "proceeding_number": "2018001232",
+      "app_num": "14932354",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017010632",
+      "proceeding_number": "2017010632",
+      "app_num": "14723654",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017000071",
+      "proceeding_number": "2017000071",
+      "app_num": "13266564",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2014006550",
+      "proceeding_number": "2014006550",
+      "app_num": "12815034",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2015006206",
+      "proceeding_number": "2015006206",
+      "app_num": "13401993",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2016007603",
+      "proceeding_number": "2016007603",
+      "app_num": "12165025",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2014003236",
+      "proceeding_number": "2014003236",
+      "app_num": "13591431",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017004286",
+      "proceeding_number": "2017004286",
+      "app_num": "14264705",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2015005752",
+      "proceeding_number": "2015005752",
+      "app_num": "13668077",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020002332",
+      "proceeding_number": "2020002332",
+      "app_num": "12406916",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "3600",
+        "year": "2020-25",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2019006119",
+      "proceeding_number": "2019006119",
+      "app_num": "13392596",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2020-25",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2016007888",
+      "proceeding_number": "2016007888",
+      "app_num": "14490835",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "102+103",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017004144",
+      "proceeding_number": "2017004144",
+      "app_num": "14624666",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020000676",
+      "proceeding_number": "2020000676",
+      "app_num": "14634241",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "102+103",
+        "tech": "other",
+        "year": "2020-25",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017006188",
+      "proceeding_number": "2017006188",
+      "app_num": "14060749",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "1700",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020002369",
+      "proceeding_number": "2020002369",
+      "app_num": "14171413",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "3600",
+        "year": "2020-25",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017009415",
+      "proceeding_number": "2017009415",
+      "app_num": "13468920",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2018007886",
+      "proceeding_number": "2018007886",
+      "app_num": "14135244",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "other",
+        "year": "2020-25",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2015004926",
+      "proceeding_number": "2015004926",
+      "app_num": "13847781",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "1700",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020000362",
+      "proceeding_number": "2020000362",
+      "app_num": "15022252",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "101-rel",
+        "tech": "3600",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2014009182",
+      "proceeding_number": "2014009182",
+      "app_num": "13593995",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2019002001",
+      "proceeding_number": "2019002001",
+      "app_num": "14388177",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103+112",
+        "tech": "2100",
+        "year": "2020-25",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2014002745",
+      "proceeding_number": "2014002745",
+      "app_num": "12883873",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2010-14",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020006264",
+      "proceeding_number": "2020006264",
+      "app_num": "15040495",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "101-rel",
+        "tech": "3600",
+        "year": "2020-25",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2015000199",
+      "proceeding_number": "2015000199",
+      "app_num": "12887121",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103+112",
+        "tech": "1700",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020000402",
+      "proceeding_number": "2020000402",
+      "app_num": "15183040",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "3700",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2011003851",
+      "proceeding_number": "2011003851",
+      "app_num": "11673915",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "2400",
+        "year": "2010-14",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2019001867",
+      "proceeding_number": "2019001867",
+      "app_num": "15375238",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103+112",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2014007043",
+      "proceeding_number": "2014007043",
+      "app_num": "12396358",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "3700",
+        "year": "2010-14",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2014009096",
+      "proceeding_number": "2014009096",
+      "app_num": "13102968",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "101-rel",
+        "tech": "2400",
+        "year": "2015-19",
+        "pattern": "mixed",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020002688",
+      "proceeding_number": "2020002688",
+      "app_num": "15103344",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "other",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2012010015",
+      "proceeding_number": "2012010015",
+      "app_num": "13152534",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "1700",
+        "year": "2010-14",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2019005776",
+      "proceeding_number": "2019005776",
+      "app_num": "14754496",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "101-rel",
+        "tech": "2100",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2015004158",
+      "proceeding_number": "2015004158",
+      "app_num": "13783908",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "102+103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "mixed",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020006435",
+      "proceeding_number": "2020006435",
+      "app_num": "15352183",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103+112",
+        "tech": "1700",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2016005844",
+      "proceeding_number": "2016005844",
+      "app_num": "14039251",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "102+103",
+        "tech": "2400",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2013007708",
+      "proceeding_number": "2013007708",
+      "app_num": "13286129",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "3700",
+        "year": "2010-14",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020000158",
+      "proceeding_number": "2020000158",
+      "app_num": "15481756",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "101-rel",
+        "tech": "3600",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2016003042",
+      "proceeding_number": "2016003042",
+      "app_num": "13928760",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "103+112",
+        "tech": "1700",
+        "year": "2015-19",
+        "pattern": "mixed",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2011013110",
+      "proceeding_number": "2011013110",
+      "app_num": "11962331",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "2100",
+        "year": "2010-14",
+        "pattern": "new_or_add",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2014003587",
+      "proceeding_number": "2014003587",
+      "app_num": "12895909",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "mixed",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2012003288",
+      "proceeding_number": "2012003288",
+      "app_num": "11241684",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "103+112",
+        "tech": "2400",
+        "year": "2010-14",
+        "pattern": "modify_only",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2021002328",
+      "proceeding_number": "2021002328",
+      "app_num": "13412887",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "101-rel",
+        "tech": "other",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2011007474",
+      "proceeding_number": "2011007474",
+      "app_num": "11613859",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "112",
+        "tech": "3600",
+        "year": "2010-14",
+        "pattern": "mixed",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2017000093",
+      "proceeding_number": "2017000093",
+      "app_num": "13729015",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "102+103",
+        "tech": "2100",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2020001769",
+      "proceeding_number": "2020001769",
+      "app_num": "15297569",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103+112",
+        "tech": "1700",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2012000327",
+      "proceeding_number": "2012000327",
+      "app_num": "11911726",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2010-14",
+        "pattern": "other",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2011009182",
+      "proceeding_number": "2011009182",
+      "app_num": "12183139",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "101-rel",
+        "tech": "3600",
+        "year": "2010-14",
+        "pattern": "modify_only",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2017002001",
+      "proceeding_number": "2017002001",
+      "app_num": "12068901",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103+112",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "mixed",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2021003980",
+      "proceeding_number": "2021003980",
+      "app_num": "16234666",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "2100",
+        "year": "2020-25",
+        "pattern": "other",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2011004581",
+      "proceeding_number": "2011004581",
+      "app_num": "10906716",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "101-rel",
+        "tech": "2400",
+        "year": "2010-14",
+        "pattern": "new_or_add",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2017007272",
+      "proceeding_number": "2017007272",
+      "app_num": "13182307",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "112",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2012008496",
+      "proceeding_number": "2012008496",
+      "app_num": "11752325",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "3600",
+        "year": "2010-14",
+        "pattern": "cancel_heavy",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2019005007",
+      "proceeding_number": "2019005007",
+      "app_num": "12625143",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103+112",
+        "tech": "1700",
+        "year": "2020-25",
+        "pattern": "mixed",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2016000830",
+      "proceeding_number": "2016000830",
+      "app_num": "13657312",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "102+103",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "new_or_add",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2021001124",
+      "proceeding_number": "2021001124",
+      "app_num": "14651281",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "101-rel",
+        "tech": "2100",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2010011970",
+      "proceeding_number": "2010011970",
+      "app_num": "12171744",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "102+103",
+        "tech": "2400",
+        "year": "2010-14",
+        "pattern": "other",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2017010497",
+      "proceeding_number": "2017010497",
+      "app_num": "13556032",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "112",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "other",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2011008843",
+      "proceeding_number": "2011008843",
+      "app_num": "11427495",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "other",
+        "year": "2010-14",
+        "pattern": "mixed",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2020002729",
+      "proceeding_number": "2020002729",
+      "app_num": "12809299",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "103+112",
+        "tech": "2400",
+        "year": "2020-25",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2015004151",
+      "proceeding_number": "2015004151",
+      "app_num": "12702453",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "112",
+        "tech": "1700",
+        "year": "2015-19",
+        "pattern": "new_or_add",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2020000122",
+      "proceeding_number": "2020000122",
+      "app_num": "14995989",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "101-rel",
+        "tech": "2100",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2010008015",
+      "proceeding_number": "2010008015",
+      "app_num": "11047016",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "other",
+        "tech": "3600",
+        "year": "2010-14",
+        "pattern": "modify_only",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2018003513",
+      "proceeding_number": "2018003513",
+      "app_num": "11742350",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "112",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "mixed",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2018007979",
+      "proceeding_number": "2018007979",
+      "app_num": "15184502",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "103",
+        "tech": "2400",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2010010196",
+      "proceeding_number": "2010010196",
+      "app_num": "11949602",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103+112",
+        "tech": "3700",
+        "year": "2010-14",
+        "pattern": "new_or_add",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2014002407",
+      "proceeding_number": "2014002407",
+      "app_num": "12944023",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "2100",
+        "year": "2015-19",
+        "pattern": "other",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2019006614",
+      "proceeding_number": "2019006614",
+      "app_num": "14090382",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "101-rel",
+        "tech": "3600",
+        "year": "2020-25",
+        "pattern": "new_or_add",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2013001277",
+      "proceeding_number": "2013001277",
+      "app_num": "11479493",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "103",
+        "tech": "1700",
+        "year": "2010-14",
+        "pattern": "modify_only",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2014008375",
+      "proceeding_number": "2014008375",
+      "app_num": "13296572",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "other",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "mixed",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2010007757",
+      "proceeding_number": "2010007757",
+      "app_num": "11272332",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "102+103",
+        "tech": "1700",
+        "year": "2010-14",
+        "pattern": "other",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2020003998",
+      "proceeding_number": "2020003998",
+      "app_num": "14311140",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "103+112",
+        "tech": "3700",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2016004446",
+      "proceeding_number": "2016004446",
+      "app_num": "11920521",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "112",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "new_or_add",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2019005292",
+      "proceeding_number": "2019005292",
+      "app_num": "15661755",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "101-rel",
+        "tech": "2400",
+        "year": "2020-25",
+        "pattern": "other",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2009010505",
+      "proceeding_number": "2009010505",
+      "app_num": "10993377",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "102+103",
+        "tech": "2100",
+        "year": "2010-14",
+        "pattern": "mixed",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2017002029",
+      "proceeding_number": "2017002029",
+      "app_num": "14354183",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "112",
+        "tech": "other",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2011011469",
+      "proceeding_number": "2011011469",
+      "app_num": "11872555",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103",
+        "tech": "3700",
+        "year": "2010-14",
+        "pattern": "cancel_heavy",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2019002439",
+      "proceeding_number": "2019002439",
+      "app_num": "12500756",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "other",
+        "tech": "2100",
+        "year": "2020-25",
+        "pattern": "mixed",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2016006702",
+      "proceeding_number": "2016006702",
+      "app_num": "14107154",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "101-rel",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2022001087",
+      "proceeding_number": "2022001087",
+      "app_num": "15853199",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "103+112",
+        "tech": "2400",
+        "year": "2020-25",
+        "pattern": "other",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2012006145",
+      "proceeding_number": "2012006145",
+      "app_num": "10979681",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "1700",
+        "year": "2010-14",
+        "pattern": "new_or_add",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2018000427",
+      "proceeding_number": "2018000427",
+      "app_num": "14178780",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "112",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2012005674",
+      "proceeding_number": "2012005674",
+      "app_num": "11677766",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "102+103",
+        "tech": "2400",
+        "year": "2010-14",
+        "pattern": "mixed",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2021000834",
+      "proceeding_number": "2021000834",
+      "app_num": "16415181",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "other",
+        "tech": "1700",
+        "year": "2020-25",
+        "pattern": "other",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2016000849",
+      "proceeding_number": "2016000849",
+      "app_num": "11628379",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "101-rel",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "new_or_add",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2020002555",
+      "proceeding_number": "2020002555",
+      "app_num": "15234552",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103+112",
+        "tech": "other",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2012007524",
+      "proceeding_number": "2012007524",
+      "app_num": "12422453",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "103",
+        "tech": "2100",
+        "year": "2010-14",
+        "pattern": "modify_only",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2013000789",
+      "proceeding_number": "2013000789",
+      "app_num": "11525629",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "other",
+        "tech": "3700",
+        "year": "2015-19",
+        "pattern": "mixed",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2020004768",
+      "proceeding_number": "2020004768",
+      "app_num": "14521351",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "112",
+        "tech": "other",
+        "year": "2020-25",
+        "pattern": "modify_only",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2011012180",
+      "proceeding_number": "2011012180",
+      "app_num": "11873429",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "102+103",
+        "tech": "2100",
+        "year": "2010-14",
+        "pattern": "new_or_add",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2019003829",
+      "proceeding_number": "2019003829",
+      "app_num": "13239779",
+      "axes": {
+        "outcome": "Affirmed",
+        "statute": "103+112",
+        "tech": "1700",
+        "year": "2020-25",
+        "pattern": "cancel_heavy",
+        "format": "ns_claims"
+      }
+    },
+    {
+      "case_id": "PILOT-2017007595",
+      "proceeding_number": "2017007595",
+      "app_num": "11416767",
+      "axes": {
+        "outcome": "AIP",
+        "statute": "101-rel",
+        "tech": "3600",
+        "year": "2015-19",
+        "pattern": "other",
+        "format": "dtd_legacy"
+      }
+    },
+    {
+      "case_id": "PILOT-2015006603",
+      "proceeding_number": "2015006603",
+      "app_num": "13138239",
+      "axes": {
+        "outcome": "Reversed",
+        "statute": "103",
+        "tech": "2400",
+        "year": "2015-19",
+        "pattern": "mixed",
+        "format": "ns_claims"
+      }
+    }
+  ]
+}

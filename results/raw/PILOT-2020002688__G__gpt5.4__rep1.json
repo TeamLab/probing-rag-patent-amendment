@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002688",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020002688",
+  "app_num": "15103344",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 24595,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5054b49b086270dc",
+  "response_text": "1. (Currently amended) An apparatus for profiling a beam of a light emitting semiconductor device, comprising: a light emitting semiconductor device comprising an active region formed on a substrate and configured to generate light when a suitable electrical current is applied to contacts on an upper surface of the device, and a light emitting surface defined by a lower surface of the substrate opposite the contacts; and a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the semiconductor device and a diffusion surface, opposite the first surface, and configured to diffuse light emitted from the semiconductor device and transmitted through the transmission medium, __wherein the diffusion surface of the transmission medium is configured to diffuse light in a substantially Lambertian diffusion profile__.\n\n2. (Previously presented) An apparatus according to claim 1, wherein the transmission medium has a thickness of 3 mm or greater.\n\n3. (Currently amended) An apparatus according to claim 1 or 2, wherein the transmission medium has a refractive index substantially equal to a refractive index of the substrate of the light emitting semiconductor device, such that there is substantially no reflection at the interface between the transmission medium and the substrate of the light emitting semiconductor device, __and wherein the diffusion surface of the transmission medium is configured to diffuse light in a substantially Lambertian diffusion profile__.\n\n9. (Currently amended) An apparatus according to any preceding claim, further comprising a pair of probes configured to apply an electrical current to the contacts of the light emitting semiconductor device for causing the active layer to generate light, __and a camera configured to capture an image of light at the diffusion surface that has been emitted from the light emitting semiconductor device__.\n\n23. (Currently amended) An apparatus according to any preceding claim, comprising a plurality of light emitting semiconductor devices grown on a silicon wafer, wherein the first surface of the transmission medium is in contact with the light emitting surfaces of more than one of the plurality of light emitting semiconductor devices, __and wherein the diffusion surface of the transmission medium is configured to diffuse light in a substantially Lambertian diffusion profile__.\n\n25. (Currently amended) A method for profiling a beam of a light emitting semiconductor device, the method comprising: applying an electrical current to contacts on an upper surface of a light emitting semiconductor device, the light emitting semiconductor device comprising an active region formed on a substrate and a light emitting surface defined by a lower surface of the substrate opposite the contacts; transmitting light emitted from the light emitting semiconductor device through a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the light emitting semiconductor device and a diffusion surface, opposite the first surface, and configured to diffuse light emitted from the light emitting semiconductor device and transmitted through the transmission medium, __wherein the diffusion surface of the transmission medium diffuses the light in a substantially Lambertian diffusion profile__; and determining intensity power of light that would be emitted into air from the light emitting semiconductor device at one or more angles with respect to a normal.\n\n26. (Currently amended) A method for profiling a beam of a light emitting semiconductor device, the method comprising: processing, by a beam profiler, an image to determine intensity power of light that would be emitted into air from the light emitting semiconductor device at one or more angles with respect to a normal, the image comprising light emitted from a light emitting semiconductor device comprising an active region formed on a substrate and configured to generate light when a suitable electrical current is applied to contacts on an upper surface of the device, and a light emitting surface defined by a surface of the substrate opposite the contacts, the light further being transmitted through a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the light emitting semiconductor device and a diffusion surface, opposite the first surface, and configured to diffuse light emitted from the light emitting semiconductor device and transmitted through the transmission medium, __wherein the diffusion surface of the transmission medium diffuses the light in a substantially Lambertian diffusion profile__.\n\n28. (Currently amended) A non-transitory computer readable medium comprising computer readable code configured, when read by a computer, to carry out the method according to claim 26 [[or 27]] __or claim 27__.\n\n29. (Currently amended) A computer program comprising computer readable code configured, when read by a computer, to carry out the method according to claim 26 [[or 27]] __or claim 27__.",
+  "usage": {
+    "input_tokens": 5337,
+    "output_tokens": 894,
+    "total_tokens": 6231
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.58,
+  "cost_usd": 0.01561,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:26:00Z"
+}

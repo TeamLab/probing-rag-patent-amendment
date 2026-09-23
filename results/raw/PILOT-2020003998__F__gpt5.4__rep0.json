@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 67989,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a32bea240b15bd44",
+  "response_text": "281. (Currently amended) A tool comprising a lamination of at least two layers and at least two adhesive layers, the tool comprising first and second layers, a first adhesive layer configured to be cured on the first layer, a second adhesive layer configured to be cured on the second layer, the first adhesive layer and the second adhesive layer configured to be cured to each other, the tool has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the first and second layers, and a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are [[in registration with]] __aligned with__ the first adhesive layer and the second adhesive layer, __and wherein the medial section comprises a plurality of discrete honeycomb portions spaced apart from each other circumferentially between the first and second layers.__\n\n282. (Currently amended) The tool of claim 281 wherein the medial section comprises a metal.\n\n283. (Currently amended) The tool of claim 282 wherein the metal is [[a honeycomb structure]] __included in the plurality of discrete honeycomb portions__.\n\n284. (Currently amended) The tool of claim 281 wherein the medial section is a composite material.\n\n285. (Currently amended) The tool of claim 281 further including a [[weld]] ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, __wherein the ring is segmented circumferentially,__ and wherein the plurality of cutting segments are located on an outer periphery of the ring.\n\n286. (Currently amended) The tool of claim 285 wherein the ring is bonded to the medial section.\n\n287. (Currently amended) The tool of claim 285 wherein the plurality of cutting segments are also welded to an outer perimeter of the ring.\n\n288. (Currently amended) The tool of claim 285 wherein the ring [[is continuous]] __comprises a plurality of circumferentially spaced ring segments__.\n\n289. (Currently amended) The tool of claim 285 wherein the ring is segmented.\n\n290. (Currently amended) The tool of claim 285 further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring.\n\n291. (Currently amended) The tool of claim 290 wherein the inner ring includes __a__ central opening.\n\n293. (Currently amended) The tool of claim 281 further including a [[weld]] ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, such that the plurality of cutting segments are located on an outer periphery of the ring, __wherein the ring is segmented circumferentially__.\n\n294. (Currently amended) The tool of claim 293 wherein the ring [[is continuous]] __comprises a plurality of circumferentially spaced ring segments__.\n\n295. (Currently amended) The tool of claim 293 wherein the ring is segmented.",
+  "usage": {
+    "input_tokens": 14794,
+    "output_tokens": 644,
+    "total_tokens": 15438
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.72,
+  "cost_usd": 0.02493,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:42:42Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15944,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "09b01dd285db4937",
+  "response_text": "15. (Currently Amended) The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the information added to the locator includes load balancing metrics for dynamically selecting the first server computer__.\n\n16. (Currently Amended) The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the unique signature is generated based on server selection criteria__.\n\n17. (Currently Amended) The method of claim 17, the media request broker selecting the first server computer based on the information, __wherein the media request broker performs real-time server selection based on current server availability__.\n\n18. (Currently Amended) The method of claim 17, the media request broker selecting the first server computer based on the information.\n\n24. (Currently Amended) The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request, __wherein the information added to the locator includes load balancing metrics for dynamically selecting the first server computer__.\n\n25. (Currently Amended) The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the unique signature is generated based on server selection criteria__.\n\n27. (Currently Amended) The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the information added to the locator includes load balancing metrics for dynamically selecting the first server computer__.\n\n28. (Currently Amended) The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the unique signature is generated based on server selection criteria__.\n\n29. (Previously presented)",
+  "usage": {
+    "input_tokens": 3851,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 781,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.4,
+  "cost_usd": 0.02327,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:55:55Z"
+}

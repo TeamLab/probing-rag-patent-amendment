@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12366,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "895e71a96cbdc723",
+  "response_text": "1. (Currently amended) A system comprising: a plurality of network nodes of a local contention neighborhood of a random access network, wherein a first node is configured to transmit to a second node at an access attempt percentage, and wherein each of the plurality of nodes is configured to provide an indicia of its inter-node interference to at least one other node of the plurality of nodes, and wherein the first node is configured to adjust the access attempt percentage to transmit to the second node based on one of the provided indicia.\n\n2. (Original)\n\n3. (Currently amended) The system of claim 1, wherein the indicia of inter-node interference comprises an indicia of transmission success rate between the other nodes and the second node, wherein the transmission success rate is measured over a predetermined time period.\n\n4. (Currently amended) The system of claim 1, wherein the first node is configured to adjust the access attempt percentage based on a ratio of the indicia of inter-node interference of the first node divided by an indicia of inter-node interference of one or more of the nodes interfered with by transmissions from the first node.\n\n5. (Original)\n\n13. (Original)\n\n14. (Currently amended) The system of claim 13, comprising the first access point, wherein the first access point is configured to broadcast a dynamic weight associated with the second node to the first node, wherein the dynamic weight is based on a transmission success rate of the second node with the first access point.\n\n15. (Original)\n\n16. (Original)\n\n17. (Currently amended) The system of claim 13, comprising a second access point, wherein the second node communicates with the second access point, and wherein the first node interferes with communication between the second node and the second access point based on transmission attempts from the first node to the first access point.\n\n18. (Original)\n\n19. (Currently amended) The system of claim 13, wherein the first node is configured to communicate with the first access point using IEEE 802.11 wireless protocol standards.\n\n20. (Original)",
+  "usage": {
+    "input_tokens": 3328,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 3.99,
+  "cost_usd": 0.00443,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:32:22Z"
+}

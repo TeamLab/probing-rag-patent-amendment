@@ -1,0 +1,11 @@
+file	case	cond	rep	n_claims_parsed	amended_or_new	total_additions	total_deletions	addition_chars	deletion_chars	plain_body_chars_mean	status_original	status_currently_amended	status_previously_presented	status_cancelled	status_new	status_withdrawn	status_unknown
+PILOT-2014009970__baseline__gpt5.4__rep0.json	PILOT-2014009970	baseline	0	9	1	4	1	723	7	315	0	6	3	0	0	0	0
+PILOT-2017000071__baseline__gpt5.4__rep0.json	PILOT-2017000071	baseline	0	7	1	6	5	300	126	604	0	4	3	0	0	0	0
+PILOT-2017001422__baseline__gpt5.4__rep0.json	PILOT-2017001422	baseline	0	8	1	4	3	274	92	238	0	8	0	0	0	0	0
+PILOT-2017003676__baseline__gpt5.4__rep0.json	PILOT-2017003676	baseline	0	19	1	12	0	545	0	101	0	9	3	7	0	0	0
+PILOT-2017005259__baseline__gpt5.4__rep0.json	PILOT-2017005259	baseline	0	14	1	2	0	146	0	167	0	12	2	0	0	0	0
+PILOT-2017005493__baseline__gpt5.4__rep0.json	PILOT-2017005493	baseline	0	20	1	7	0	690	0	184	0	20	0	0	0	0	0
+PILOT-2017010632__baseline__gpt5.4__rep0.json	PILOT-2017010632	baseline	0	20	1	2	0	380	0	498	0	2	18	0	0	0	0
+PILOT-2018001232__baseline__gpt5.4__rep0.json	PILOT-2018001232	baseline	0	20	1	3	0	273	0	199	0	3	17	0	0	0	0
+PILOT-2018005420__baseline__gpt5.4__rep0.json	PILOT-2018005420	baseline	0	25	1	28	25	1514	335	366	0	13	12	0	0	0	0
+PILOT-2018005863__baseline__gpt5.4__rep0.json	PILOT-2018005863	baseline	0	25	1	8	2	759	4	338	2	12	11	0	0	0	0

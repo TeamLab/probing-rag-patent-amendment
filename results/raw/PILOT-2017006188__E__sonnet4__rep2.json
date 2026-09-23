@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16942,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "05c5a3ec8f4a336a",
+  "response_text": "1) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than 2000 Da and a polyanion, said nanoparticle having a size of less than one micron, __wherein said composition is formulated for use in oil and gas field operations__.\n\n2) (Currently Amended) The composition of claim 1, said polyelectrolyte complex nanoparticle intimately associated with a multivalent cation crosslinker __for delayed release in a subterranean reservoir__.\n\n3) (Currently Amended) The composition of claim 1, wherein said polyalkylenimine is polyethylenimine __and said composition is formulated as a delayed gelling agent__.\n\n4) (Currently Amended) The composition of claim 1, wherein said polyanion is selected from sodium polyvinyl sulfonate, poly (sodium acrylate), poly(sodium styrene sulfonate), copolymers of sodium acrylate with sodium vinylsulfonate or sodium styrene sulfonate; dextran sulfate, and anionic surfactants, __and said composition is formulated for injection into a subterranean formation__.\n\n5) (Currently Amended) The composition of claim 2, wherein said multivalent cation crosslinker is a complexed zirconium compound selected from the group consisting of zirconium acetate, sodium zirconium lactate, zirconium sulfate, zirconium tetrachloride, zirconium orthosulfate, zirconium oxychloride, zirconium carbonate, zirconium ammonium carbonate, zirconium acetylacetonate, aluminum chloride, aluminum sulfate, aluminum citrate, tin chloride, tin sulfate, iron chloride, iron nitrate, titanium chloride, and titanium sulfate, __wherein said crosslinker provides delayed gelation in reservoir conditions__.\n\n6) (Currently Amended) The composition of claim 1, further comprising monovalent or divalent cations selected from the group consisting of sodium, potassium, magnesium or calcium ions, __wherein said composition is stable under reservoir conditions__.\n\n8) (Currently Amended) The composition of claim 1, wherein said polyelectrolyte complex comprised a nanoparticle with an average particle size of about 100 to 900 nm in diameter __and is formulated for controlled release in oil and gas operations__.\n\n9) (Currently Amended) The composition of claim 1, wherein said polyelectrolyte complex nanoparticles are stable in water, field brine and seawater __and provide delayed release functionality__.\n\n10) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron, __wherein said composition is formulated for delayed gelling in oil and gas field applications__.\n\n12) (Currently Amended) The composition of claim 10, said nanoparticle entrapping a multivalent cation __for controlled release in subterranean formations__.\n\n13) (Currently Amended) The composition of claim 12, said multivalent cation comprising Zr, Cr, Ti, Fe or Al __and providing delayed crosslinking functionality__.\n\n21) (Currently Amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer that can be crosslinked with a); and c) a fluid __wherein said delayed gelling composition is formulated for injection into a subterranean reservoir__.\n\n22) (Currently Amended) The composition of claim 21, where said polymer is an acrylate-based polymer __and said composition provides controlled gelation timing__.\n\n23) (Currently Amended) The composition of claim 21, where said polymer is partially hydrolyzed polyacrylamide __and said composition is formulated for enhanced oil recovery operations__.\n\n24) (Currently Amended) The composition of claim 21, where said polymer is a polymer or copolymers of acrylate, acrylamide, N,N-dimethyacrylamide, tert-butyl acrylate, acryamido-2-methylpropane sulfonic acid, or sodium 2-acryamido-2-methylpropane sulfonate, or N,N-dimethylacrylamide __and said composition provides delayed gelation for sweep efficiency improvement__.\n\n26) (Currently Amended) The composition of claim 21, where fluid is brine or seawater __and said composition maintains stability under reservoir salinity conditions__.",
+  "usage": {
+    "input_tokens": 5077,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1059,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 20.81,
+  "cost_usd": 0.03112,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:14:56Z"
+}

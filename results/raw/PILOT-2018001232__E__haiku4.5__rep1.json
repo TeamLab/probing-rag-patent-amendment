@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2018001232",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2018001232",
+  "app_num": "14932354",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12527,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "20c20b50bf893d4f",
+  "response_text": "1. (Currently amended) A belly pan for a motor vehicle, comprising: a body panel having a forward section constructed from an open rib structure; and an aero cover carried on said body panel and spanning said open rib structure, wherein said aero cover is __integrally formed with said body panel__.\n\n2. (Currently amended) The belly pan of claim 1, wherein said body panel includes a first forward corner and a second forward corner, and __said aero cover extends across both said first and second forward corners__.\n\n3. (Currently amended) The belly pan of claim 2, wherein said first forward corner includes a first section of open rib structure and said second forward corner includes a second section of open rib structure, and __said aero cover is positioned to bridge between said first and second sections__.\n\n4. (Currently amended) The belly pan of claim 3, including a first aero cover spanning and closing said first section of open rib structure and a second aero cover spanning and closing said second section of open rib structure, wherein __said first and second aero covers are each integrally formed with said body panel__.\n\n5. (Currently amended) The belly pan of claim 4, wherein said first section of open rib structure includes a first fore-aft rib and a first plurality of transverse ribs projecting from opposed sides of said first fore-aft rib, and __said first aero cover is integrally molded to cover said first section__.\n\n6. (Currently amended) The belly pan of claim 5, wherein said second section of open rib structure includes a second fore-aft rib and a second plurality of transverse ribs projecting from opposed sides of said second fore-aft rib, and __said second aero cover is integrally molded to cover said second section__.\n\n7. (Currently amended) The belly pan of claim 6, wherein said body panel includes a plurality of closed ribs, said first section of open rib structure being provided between a first two ribs of said plurality of closed ribs and said second section of open rib structure being provided between a second two ribs of said plurality of closed ribs, and __said aero covers are integrally formed during a single molding process with said body panel__.\n\n8. (Cancelled)\n\n9. (Currently amended) The belly pan of claim 7, wherein said body panel includes a first corner buttress and a second corner buttress, and __said first and second aero covers are integrally formed as part of said respective buttresses__.\n\n10. (Currently amended) The belly pan of claim 9, wherein said first section of open rib structure forms a part of said first buttress and said second section of open rib structure forms a part of said second buttress, and __said aero covers are integrally molded with said buttresses__.\n\n11. (Currently amended) The belly pan of claim 10, wherein said body panel is made from a material having a tensile and flexural modulus of at least 7.8 GPa, and __said aero covers are integrally formed from the same material as said body panel__.\n\n12. (Currently amended) The belly pan of claim 11, wherein said body panel is molded from polypropylene reinforced with 40% long glass fibers, and __said aero covers are integrally molded from the same polypropylene reinforced material__.\n\n13. (Currently amended) The belly pan of claim 12, wherein said body panel has a thickness of about 3.5 mm, and __said aero covers are integrally formed with said body panel__.\n\n14. (Currently amended) The belly pan of claim 13, wherein said first aero cover and said second aero cover have a thickness of about 2.5 mm, and __said aero covers are integrally molded as a single piece with said body panel__.\n\n15. (Currently amended) A belly pan for a motor vehicle, comprising: a body panel having a first corner buttress, a second corner buttress, a first open rib structure reinforcing said first corner buttress and a second open rib structure reinforcing said second corner buttress; a first aero cover spanning and closing said first open rib structure; and a second aero cover spanning and closing said second open rib structure, wherein __said first and second aero covers are integrally formed with said body panel__.\n\n16. (Currently amended) The belly pan of claim 15, wherein said body panel includes a first section and a second section secured together by fasteners, and __said aero covers are integrally molded with said first and second sections__.\n\n17. (Currently amended) The belly pan of claim 16, wherein said first corner buttress is on said first section and said second corner buttress is on said second section, and __said aero covers are integrally formed with their respective buttresses__.\n\n18. (Currently amended) The belly pan of claim 17, wherein said first open rib structure includes a first fore-aft rib and a first plurality of transverse ribs projecting from opposed sides of said first fore-aft rib, and __said first aero cover is integrally molded to enclose said first open rib structure__.\n\n19. (Currently amended) The belly pan of claim 18, wherein said second open rib structure includes a second fore-aft rib and a second plurality of transverse ribs projecting from opposed sides of said second fore-aft rib, and __said second aero cover is integrally molded to enclose said second open rib structure__.\n\n20. (Currently amended) The belly pan of claim 19, wherein said body panel includes a plurality of closed ribs, said first section of open rib structure being provided between a first two ribs of said plurality of closed ribs and said second section of open rib structure being provided between a second two ribs of said plurality of closed ribs, and __said aero covers are integrally formed during a single molding operation with said body panel__.",
+  "usage": {
+    "input_tokens": 3530,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1326,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.17,
+  "cost_usd": 0.00813,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:01:35Z"
+}

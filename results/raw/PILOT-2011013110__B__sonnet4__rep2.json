@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2011013110",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2011013110",
+  "app_num": "11962331",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17135,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7a3ac55ec869160f",
+  "response_text": "1. (Currently amended) A method comprising: providing, from a processor, a memory request and a first coherency state value for a coherency granule associated with the memory request; and providing, from the processor, a select one of a first indicator or a second indicator in response to determining whether the first coherency state value represents a cumulative coherency state for a plurality of caches of the processor, the first indicator identifying the first coherency state value as representing a cumulative coherency state and the second indicator identifying the first coherency state value as representing a potentially non-cumulative coherency state, __wherein the first coherency state value is determined by snooping each cache of the plurality of caches to determine a plurality of coherency state values and selecting the first coherency state value from the plurality of coherency state values__.\n\n2. (Currently amended) The method of claim 1, further comprising: receiving, at the processor, a request for the cumulative coherency state for the coherency granule in response to providing the second indicator; determining a second coherency state value for the coherency granule for the processor and providing the second coherency state value from the processor in response to the request, the second coherency state value representing the cumulative coherency state for the coherency granule; and providing, from the processor, the second coherency state value and the first indicator, __wherein the second coherency state value is determined by re-snooping each cache of the plurality of caches__.\n\n6. (Currently amended) The method of claim 1, further comprising: determining whether to request the cumulative coherency state for the coherency granule in response to receiving the second indicator from the processor __at a transaction management module separate from the processor__; and providing an indicator of the request for the cumulative coherency state to the processor in response to determining to request the cumulative coherency state.\n\n7. (Currently amended) The method of claim 6, further comprising: processing the memory transaction without requesting the cumulative coherency state in response to determining not to request the cumulative coherency state, __wherein processing the memory transaction comprises updating a cache coherency directory based on the first coherency state value__.\n\n8. (Currently amended) A method comprising: receiving, from a processor, a first memory request and a first coherency state value for a first coherency granule associated with the first memory request __at a transaction management module__; receiving, from the processor, a first indicator associated with the first coherency state value, the first indicator identifying the first coherency state value as representing a potentially non-cumulative coherency state of the first coherency granule for a plurality of caches of the processor; determining whether to request a cumulative coherency state for the first coherency granule from the processor in response to receiving the first indicator; and providing a second indicator to the processor to request the cumulative coherency state for the first coherency granule in response to determining to request the cumulative coherency state for the first coherency granule.\n\n9. (Currently amended) The method of claim 8, further comprising: receiving, from the processor, a second coherency state value for the first coherency granule and a third indicator associated with the second coherency state __value__ subsequent to providing the second indicator, the third indicator identifying the second coherency state value as representing the cumulative coherency state of the first coherency granule __determined by snooping each cache of the plurality of caches__; and processing the first memory transaction for distribution in response to receiving the second coherency state value and the third indicator.\n\n10. (Currently amended) The method of claim 8, wherein processing the first memory transaction for distribution comprises updating a cache coherency directory based on the second coherency state value __at the transaction management module__.\n\n11. (Currently amended) The method of claim 8, further comprising: processing the first memory request for distribution in response to determining not to request the cumulative coherency state for the first coherency granule, __wherein processing the first memory request comprises updating a cache coherency directory based on the first coherency state value__.\n\n12. (Currently amended) The method of claim 11, further comprising: providing a third indicator to the processor in response to determining not to request the cumulative coherency state for the first coherency granule, the third indicator indicating the cumulative coherency state for the first coherency granule is not to be requested from the processor, __wherein the third indicator is provided by the transaction management module__.\n\n14. (Currently amended) A system comprising: a first processor coupleable to a transaction management module associated with a plurality of processors, the first processor comprising: a processor core; a plurality of caches; and a coherency management module comprising: a first output configured to provide a memory transaction associated with a coherency granule; a second output configured to provide a first coherency state value for the coherency granule __determined by snooping each cache of the plurality of caches__; and a third output configured to provide a first indicator, the first indicator indicating whether first coherency state value represents a potentially non-cumulative coherency state for the coherency granule for the plurality of caches.\n\n17. (Currently amended) The system of claim 14, further comprising: a second processor coupled to the transaction management module, the second processor having a shared memory with the first processor, __wherein the transaction management module is configured to manage memory transactions between the first processor and the second processor__.",
+  "usage": {
+    "input_tokens": 4151,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1169,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 17.54,
+  "cost_usd": 0.02999,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:32:36Z"
+}

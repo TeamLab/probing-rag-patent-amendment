@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18264,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6bae35c446779b0f",
+  "response_text": "1. (Currently Amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide __that is heterologous to the cell__.\n\n2. (Currently Amended) The cell of claim 1 wherein the non-native compartment is self-assembled in vivo __and the at least one BMC polypeptide is expressed from a heterologous polynucleotide__.\n\n3. (Currently Amended) The cell of claim 1 wherein the non-native compartment further comprises at least one targeted enzyme __that is heterologous to the cell__.\n\n4. (Currently Amended) The cell of claim 3 wherein the non-native compartment comprises a plurality of different targeted enzymes __that are heterologous to the cell__.\n\n5. (Currently Amended) The cell of claim 3 wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence __and is heterologous to the cell__.\n\n6. (Currently Amended) The cell of claim 1 wherein the BMC polypeptide comprises a Eut polypeptide __that is heterologous to the cell__.\n\n7. (Currently Amended) The cell of claim 6 wherein the Eut polypeptide comprises a EutS polypeptide __and is heterologous to the cell__.\n\n8. (Currently Amended) The cell of claim 1 wherein the proteinaceous shell comprises a plurality of different BMC polypeptides __that are heterologous to the cell__.\n\n9. (Currently Amended) The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different bacterial species __and are heterologous to the cell__.\n\n10. (Currently Amended) The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different BMC operons __and are heterologous to the cell__.\n\n11. (Currently Amended) The cell of claim 1 wherein at least one BMC polypeptide comprises an affinity tag __and is heterologous to the cell__.\n\n12. (Currently Amended) A method comprising: introducing into a host cell a polynucleotide that encodes at least one heterologous BMC polypeptide, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one heterologous BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one heterologous BMC polypeptide __for the purpose of engineering a metabolic function in the host cell__.\n\n13. (Currently Amended) The method of claim 12 wherein the host cell comprises a bacterium __and the at least one heterologous BMC polypeptide is from a different bacterial species__.\n\n14. (Currently Amended) The method of claim 13 wherein the bacterium comprises a member of the family Enterobacteriaceae __and the at least one heterologous BMC polypeptide is from a non-Enterobacteriaceae species__.\n\n15. (Currently Amended) The method of claim 14 wherein the member of the family Enterobacteriaceae comprises E. coli __and the at least one heterologous BMC polypeptide is from a non-E. coli species__.\n\n16. (Currently Amended) The method of claim 13 wherein the bacterium comprises a member of the family Shewanellaceae __and the at least one heterologous BMC polypeptide is from a non-Shewanellaceae species__.\n\n17. (Currently Amended) The method of claim 12 wherein the host cell comprises a yeast __and the at least one heterologous BMC polypeptide is from a bacterial species__.\n\n18. (Currently Amended) The method of claim 17 wherein the yeast comprises a member of the family Saccharomycetaceae __and the at least one heterologous BMC polypeptide is from a bacterial species__.\n\n19. (Currently Amended) The method of claim 18 wherein the member of the family Saccharomycetaceae comprises Saccharomyces cerevisiae __and the at least one heterologous BMC polypeptide is from a bacterial species__.\n\n20. (Currently Amended) The method of claim 12 wherein the host cell comprises an alga __and the at least one heterologous BMC polypeptide is from a bacterial species__.\n\n21. (Currently Amended) A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one heterologous bacterial microcompartment (BMC) polypeptide, and at least one enzyme that catalyzes conversion of a substrate to a product __wherein the at least one enzyme is heterologous to the cell__; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product __for the purpose of producing the product in a compartmentalized manner__.\n\n22. (Currently Amended) The method of claim 21 wherein the product comprises a bioactive product __and the substrate is not naturally metabolized by the host cell__.\n\n23. (Currently Amended) The method of claim 21 wherein the product comprises a drug or a drug precursor __and the substrate is not naturally metabolized by the host cell__.\n\n24. (Currently Amended) The method of claim 21 wherein the product comprises a biofuel or a precursor of biofuel production __and the substrate is not naturally metabolized by the host cell__.\n\n25. (Currently Amended) The method of claim 21 wherein the at least one enzyme catalyzes a step in degrading or detoxifying a toxic substrate __and the enzyme is heterologous to the cell__.\n\n26. (Currently Amended) The method of claim 21 further comprising isolating at least a portion of the non-native compartments __wherein the compartments are isolated based on expression of a heterologous BMC polypeptide__.\n\n27. (Original) The method of claim 26 wherein at least a portion of the non-native compartment comprise an affinity tag and isolating at least a portion of the non-native compartments comprises contacting a sample comprising the non-native compartments with an affinity substrate having selective affinity for the affinity tag.\n\n28. (Currently Amended) The cell of claim 1 comprising a plurality of compartments __wherein each compartment comprises at least one heterologous BMC polypeptide__.",
+  "usage": {
+    "input_tokens": 5167,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1490,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 11.33,
+  "cost_usd": 0.01009,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:45:54Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010008015",
+  "condition": "baseline",
+  "rep": 1,
+  "proceeding_number": "2010008015",
+  "app_num": "11047016",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18005,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ee2b6353c4f10100",
+  "response_text": "1. (Currently amended) A method of providing information regarding a product, the method comprising: receiving, by a computing device, a unique identifier identifying a package containing a product; and generating, by the computing device, at least use information based at least partially on stored user information regarding past use of the product, wherein the computing device transforms the unique identifier into the at least use information.\n\n2. (Currently amended) The method of claim 1, wherein receiving the unique identifier comprises reading the unique identifier from the package using an optical scanner or radio frequency identification reader.\n\n3. (Currently amended) The method of claim 1, wherein receiving the unique identifier comprises receiving information stored in a radio frequency identification tag using a radio frequency identification reader.\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Currently amended) The method of claim 1, wherein the unique identifier is stored on at least one of the package, an identification card, an identification bracelet, a user information medium and a list of users, and is read by the computing device.\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)\n\n18. (Original)\n\n19. (Currently amended) The method of claim 1, wherein the unique identifier comprises a first unique identifier, the method further comprising: reading, by the computing device, a second unique identifier identifying a user.\n\n20. (Original)\n\n21. (Original)\n\n22. (Original)\n\n23. (Currently amended) The method of claim 22, wherein generating the at least use information comprises generating the at least use information customized to the role of the second user.\n\n24. (Currently amended) The method of claim 1, wherein generating the at least use information comprises generating the at least use information of a type customized for a user associated with the unique identifier.\n\n25. (Currently amended) A user device for providing information regarding a product, the user device comprising a processor configured to receive a unique identifier identifying a package containing the product and generate at least use information based at least partially on stored user information regarding past use of the product associated with the unique identifier, the processor transforming the unique identifier into the at least use information, the user device further configured to communicate with a data store, the data store storing the user information regarding past use of the product in association with the unique identifier and at least part of the at least use information.\n\n26. (Currently amended) A system for providing information regarding a product, the system comprising: a computing device configured to receive a unique identifier identifying a package containing a product and generate at least use information based at least partially on stored user information regarding past use of the product associated with the unique identifier, the computing device transforming the unique identifier into the at least use information, the computing device further configured to communicate with a network.\n\n27. (Currently amended) A system for providing information regarding a product, the system comprising: a receiver configured to receive a unique identifier identifying a package containing a product; and a processor configured to generate at least use information based at least partially on stored user information regarding past use of the product.\n\n28. (Original)",
+  "usage": {
+    "input_tokens": 4763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 706,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.79,
+  "cost_usd": 0.00663,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:57:25Z"
+}

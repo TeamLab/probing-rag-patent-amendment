@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2021000834",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2021000834",
+  "app_num": "16415181",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18831,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1f7aa2d786e6789e",
+  "response_text": "(Currently amended) Claim 1: A column assembly comprising: a chromatography column comprising a compliant seal defining a fluid passage configured to seal against a tapered fluid conduit without the use of a ferrule or a threaded compression screw, wherein the compliant seal is formed of a material that allows for deformation sufficient to create a seal against the tapered fluid conduit.\n\n(Currently amended) Claim 3: The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit, wherein the tapered portion is configured to mate with a tapered fluid conduit at a diameter of less than 0.030 inches and has an included angle of less than 40 degrees.\n\n(Currently amended) Claim 7: The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit, wherein the tapered portion is defined by an angle that allows for effective sealing against the tapered fluid conduit.\n\n(Currently amended) Claim 9: The column assembly of claim 1, wherein the compliant seal is formed of a polyimide, polyether-ether-ketone, or a deformable metal, and is configured to provide a reliable seal under varying pressure conditions.\n\n(Currently amended) Claim 10: The column assembly of claim 1, further comprising a seal retainer that is removable to allow for removal and replacement of the compliant seal, wherein the seal retainer is configured to maintain the compliant seal in position during operation. \n\n(Currently amended) Claim 11: The column assembly of claim 1, wherein the compliant seal is configured to maintain a seal against a tapered fluid conduit at pressures up to 20,000 psi, and is constructed from a material that exhibits sufficient elasticity to accommodate pressure fluctuations.",
+  "usage": {
+    "input_tokens": 4403,
+    "output_tokens": 356,
+    "total_tokens": 4759
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.79,
+  "cost_usd": 0.00087,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:31:30Z"
+}

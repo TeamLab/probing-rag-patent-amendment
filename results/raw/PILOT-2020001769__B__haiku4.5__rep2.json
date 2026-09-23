@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020001769",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2020001769",
+  "app_num": "15297569",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14149,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "287e57d216560792",
+  "response_text": "Claim 8 (Currently amended): A composition comprising a lubricant comprising at least one selected from the group consisting of polyol ester and polyvinyl ether and a refrigerant comprising: from 1 to 99% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf); and from 1 to 99% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), wherein said composition exhibits a Hazen color of about 200 or less as measured by ASHRAE test 97-2007 after a sealed glass tube comprising the composition is welded closed and placed in an oven at 200°C for 14 days, and wherein the lubricant comprises a polyol ester obtained from pentaerythritol and/or dipentaerythritol with at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid.\n\nClaim 9 (Currently amended): The composition according to Claim 8, wherein the lubricant comprises a polyol ester obtained from polyols having a neopentyl backbone __and wherein the polyol ester is obtained from at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid__.\n\nClaim 10 (Currently amended): The composition according to Claim 8, wherein the lubricant comprises a polyol ester obtained from a polyol selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol, __and wherein the polyol ester is obtained from at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid__.\n\nClaim 11 (Cancelled).\n\nClaim 12 (Cancelled).\n\nClaim 13 (Cancelled).\n\nClaim 14 (Currently amended): The composition according to Claim 8, wherein the composition comprises from 10 to 50% by weight of the at least one polyol ester, __and wherein the polyol ester is obtained from pentaerythritol and/or dipentaerythritol with at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid__.\n\nClaim 15 (Cancelled).\n\nClaim 16 (Cancelled).\n\nClaim 17 (Currently amended): The composition according to Claim 8, wherein the refrigerant comprises from 5 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 95% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), __and wherein the lubricant comprises a polyol ester obtained from pentaerythritol and/or dipentaerythritol with at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid__.\n\nClaim 18 (Currently amended): The composition according to Claim 8, wherein the refrigerant comprises from 15 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), __and wherein the lubricant comprises a polyol ester obtained from pentaerythritol and/or dipentaerythritol with at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid__.\n\nClaim 19 (Currently amended): The composition according to Claim 8, wherein the refrigerant comprises from 15 to 35% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 65 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), __and wherein the lubricant comprises a polyol ester obtained from pentaerythritol and/or dipentaerythritol with at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid__.\n\nClaim 20 (Cancelled).\n\nClaim 21 (Cancelled).\n\nClaim 22 (Cancelled).\n\nClaim 23 (Cancelled).\n\nClaim 24 (Cancelled).\n\nClaim 25 (Cancelled).\n\nClaim 26 (Cancelled).\n\nClaim 27 (Cancelled).\n\nClaim 28 (Cancelled).",
+  "usage": {
+    "input_tokens": 4722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1238,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.85,
+  "cost_usd": 0.00873,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:48:33Z"
+}

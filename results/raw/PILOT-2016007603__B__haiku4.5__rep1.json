@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016007603",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2016007603",
+  "app_num": "12165025",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12688,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "91dd91469421ee5b",
+  "response_text": "1. (Currently amended) An alarm system comprising: a physiological monitor capable of triggering a first alarm in response to an alarm condition; and a station located remotely from the physiological monitor, wherein the station is capable of receiving an input from the physiological monitor and triggering a second alarm in response to the alarm condition, and wherein when the second alarm is not acknowledged within a predetermined time period, the station is capable of sending an output to the physiological monitor to initiate an escalated alarm at the physiological monitor, __wherein the escalated alarm is perceptibly different from the first alarm__.\n\n2. (Currently amended) The system of claim 1, wherein the second alarm is capable of being acknowledged by an operator input before expiration of a timer, __and wherein acknowledgment of the second alarm prevents transmission of the output to initiate the escalated alarm__.\n\n3. (Currently amended) The system of claim 1, wherein the first alarm comprises an inaudible alarm, __and the escalated alarm comprises an audible alarm__.\n\n4. (Original) The system of claim 1, wherein the escalated alarm comprises an audible alarm.\n\n5. (Currently amended) The system of claim 1, wherein the first alarm comprises an audible alarm and the escalated alarm comprises an audible alarm that is __at least perceptibly__ louder than the first alarm.\n\n6. (Currently amended) The system of claim 1, wherein the first alarm and the second alarm are triggered substantially simultaneously, __and wherein the first alarm is triggered at the physiological monitor location while the second alarm is triggered at the remote station location__.\n\n7. (Currently amended) The system of claim 1, wherein the station located remotely from the physiological monitor is part of a central patient management system, __and wherein the central patient management system is configured to receive alarm condition data from a plurality of physiological monitors__.\n\n16. (Currently amended) A system comprising: a processor programmed to trigger an alarm in response to an alarm condition; a memory capable of storing alarm data associated with the alarm, wherein the alarm data comprises an alarm type, a time that the alarm was triggered, __and escalation status information__; and a display capable of displaying the alarm data, __wherein the system is integrated with a physiological monitoring device or a central management system__.\n\n17. (Currently amended) The system of claim 16, wherein the system is part of a physiological monitor or a central management system, __and wherein the system is configured to track alarm acknowledgment status__.\n\n18. (Currently amended) The system of claim 16, wherein the alarm data comprises information about a level of escalation of the alarm, __wherein the level of escalation indicates whether the alarm has been escalated from an initial state to a higher alert state__.\n\n19. (Currently amended) The system of claim 16, wherein the alarm data comprises information about an acknowledgement of the alarm, __including a timestamp of when the alarm was acknowledged and by which user or device__.\n\n20. (Currently amended) The system of claim 16, wherein the processor is programmed to send the alarm data to one or more wireless devices, __wherein the wireless devices receive the alarm data only when the alarm has not been acknowledged within a specified time interval__.",
+  "usage": {
+    "input_tokens": 3243,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 695,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.39,
+  "cost_usd": 0.00537,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:22:29Z"
+}

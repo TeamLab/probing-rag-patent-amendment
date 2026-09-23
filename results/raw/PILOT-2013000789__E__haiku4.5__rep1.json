@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "E",
+  "rep": 1,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15251,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0e9a9c72b0a8063b",
+  "response_text": "1. (Currently amended) A humeral implant comprising a first component removably attached to a second component, wherein said implant is adapted for minimally invasive shoulder replacement surgery.\n\n2. (Currently amended) The humeral implant of claim 1 wherein said first component is a humeral surface component and said second component is a removably attached stem.\n\n3. (Currently amended) The implant of claim 2 wherein said humeral surface component has a coronal radius of curvature and an axial radius of curvature.\n\n4. (Original)\n\n5. (Original)\n\n6. (Currently amended) The implant of claim 3 wherein said humeral surface component has a depth with a range of from 5 to 40 mm.\n\n7. (Currently amended) The implant of claim 3 wherein said humeral surface component has a thickness with a range of from 0.1 to 10 mm.\n\n8. (Original)\n\n9. (Currently amended) The implant of claim 3 wherein said humeral surface component is spherically or elliptically shaped and has a smooth articulating surface.\n\n10. (Currently amended) The implant of claim 3 wherein said humeral surface component is made of a material selected from the group consisting of cobalt chrome alloy, ceramic, metal, and magnet materials.\n\n11. (Currently amended) The implant of claim 3 wherein said humeral surface component further comprises fins or spikes on a concave undersurface of said humeral surface component.\n\n12. (Currently amended) The implant of claim 3 further comprising a concave undersurface on said humeral surface component for bony ingrowth material.\n\n13. (Currently amended) The implant of claim 3 wherein said humeral surface component has a smooth articulating surface and is configured for minimally invasive implantation.\n\n14. (Currently amended) The implant of claim 3 wherein said attachable stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)\n\n18. (Original)\n\n19. (Original)\n\n20. (Currently amended) The implant of claim 2 wherein said removably attached stem is selected from a plurality of stems of different lengths, wherein each stem extends from a lateral cortex of said humerus to a center of a head of said humerus.\n\n21. (Currently amended) The implant of claim 2 wherein said humeral surface component connects to said removably attached stem.\n\n22. (Currently amended) The implant of claim 21 wherein said humeral surface component connects to said removably attached stem by a technique selected from the group consisting of morse taper and a screw.\n\n27. (Currently amended) A glenohumeral joint implant adapted to be implanted in a glenohumeral joint and comprising a transhumeral portal along a central axis of a neck of a proximal humerus and an implant.\n\n28. (Currently amended) The glenohumeral joint implant of claim 27 wherein said implant is a humeral implant.\n\n29. (Currently amended) A humerus bone implant comprising a modular implant with a humeral surface component and a stem, wherein said stem is adapted to be anchored in the epiphyseal-metaphyseal portion of a humerus bone.\n\n30. (Currently amended) The humerus bone implant of claim 29 wherein said stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n31. (Currently amended) The humerus bone implant of claim 30 wherein said stem is linear.",
+  "usage": {
+    "input_tokens": 4334,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 829,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.84,
+  "cost_usd": 0.00678,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:35:05Z"
+}

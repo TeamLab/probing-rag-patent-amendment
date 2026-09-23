@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013007708",
+  "condition": "D",
+  "rep": 2,
+  "proceeding_number": "2013007708",
+  "app_num": "13286129",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14808,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "21f696974d6e10a0",
+  "response_text": "Claim 1 (Currently amended): A golf tee comprising a long lasting combination of a golf tee and a force absorbing member in association therewith, said tee including a ground insertion end, a ball support end and a shaft in between, said member surrounding said shaft and being located below said ball support end and having an outer diameter less than that of a golf ball but large enough and located so as to protect said support end from impact from a golf club strike after a golf ball has been struck from said tee, wherein said member is formed from a material that is distinct from rubber.\n\nClaim 2 (Currently amended): The golf tee of claim 1, wherein said tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member, wherein said material is selected from the group consisting of wood, plastic, and metal.\n\nClaim 3 (Currently amended): The golf tee of claim 1, wherein said tee is formed from a member selected from the group consisting of wood, plastic, and metal, excluding aluminum.\n\nClaim 4 (Cancelled)\n\nClaim 5 (Cancelled)\n\nClaim 6 (Cancelled)\n\nClaim 7 (Cancelled)\n\nClaim 8 (Cancelled)\n\nClaim 9 (Cancelled)\n\nClaim 10 (Currently amended): The golf tee of claim 1, wherein said force absorbing member is formed from a force absorbing material comprising a natural or man-made material, excluding rubber.\n\nClaim 11 (Currently amended): The golf tee of claim 1, wherein said force absorbing member is formed from a force absorbing material comprising a natural or man-made material, wherein said material is distinct from rubber.\n\nClaim 12 (Cancelled)\n\nClaim 13 (Cancelled)\n\nClaim 14 (Cancelled)\n\nClaim 15 (Currently amended): A method of making a golf tee for use when striking a golf ball, said method comprising the step of forming a long lasting combination of a golf tee and a force absorbing member in association therewith, the tee including a ground insertion end, a ball support end and a shaft in between, wherein the member surrounding the shaft is located below the ball support end and has an outer diameter less than that of a golf ball but large enough and located so as to protect the support end from impact from a golf club strike after a golf ball has been struck from the tee, wherein said member is formed from a material that is distinct from rubber.\n\nClaim 16 (Currently amended): The method of claim 15, wherein the tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member, wherein said material is selected from the group consisting of wood, plastic, and metal.\n\nClaim 17 (Currently amended): The method of claim 15, wherein the tee is formed from a member selected from the group consisting of wood, plastic, and metal, excluding aluminum.\n\nClaim 18 (Cancelled)\n\nClaim 19 (Cancelled)\n\nClaim 20 (Cancelled)\n\nClaim 21 (Cancelled)\n\nClaim 22 (Currently amended): The method of claim 15, wherein the force absorbing member is formed from a force absorbing material comprising a natural or man-made material, excluding rubber.\n\nClaim 23 (Cancelled)\n\nClaim 24 (Cancelled)\n\nClaim 25 (Currently amended): The method of claim 15, wherein the force absorbing member is formed from a force absorbing material comprising a natural or man-made material, wherein said material is distinct from rubber.\n\nClaim 26 (Cancelled)\n\nClaim 27 (Cancelled)\n\nClaim 28 (Cancelled)",
+  "usage": {
+    "input_tokens": 3765,
+    "output_tokens": 704,
+    "total_tokens": 4469
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.36,
+  "cost_usd": 0.00099,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:46:17Z"
+}

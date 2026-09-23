@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2015005752",
+  "condition": "baseline",
+  "rep": 2,
+  "proceeding_number": "2015005752",
+  "app_num": "13668077",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14357,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "51b656f7b12e653a",
+  "response_text": "1. (Currently amended) A packaging substrate comprising: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having a plurality of conductive paths formed between the chip mounting surface and the bottom surface, the conductive paths configured to provide electrical connection between an integrated circuit chip disposed on the chip mounting surface and the bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure, wherein the opening is formed by __removing solder mask and exposing underlying dielectric material__; and a stiffening microstructure disposed in the opening and coupled to the packaging structure, __wherein the stiffening microstructure has an increased thickness and contact area compared to the underlying dielectric material to improve package coplanarity__.\n\n2. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a bottom surface of the opening __and extends into the underlying dielectric material__.\n\n3. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a sidewall of the opening __and extends into the underlying dielectric material__.\n\n4. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure extends above the chip mounting surface __by a distance of at least 10 micrometers__.\n\n5. (Currently amended) The packaging substrate of claim 1, wherein the chip mounting surface is on a solder mask layer, and the opening extends through the solder mask layer __to expose a dielectric core layer beneath__.\n\n6. (Currently amended) The packaging substrate of claim 5, wherein the packaging structure further comprises: a core layer disposed below the solder mask layer, the opening exposing a portion of the core layer, __and the stiffening microstructure is embedded within the exposed portion of the core layer__.\n\n7. (Original) The packaging substrate of claim 1 further comprising: an integrated circuit chip mounted on the chip mounting surface.\n\n8. (Currently amended) The packaging substrate of claim 7, wherein the stiffening microstructure __includes__ a lid.\n\n9. (Currently amended) The packaging substrate of claim 8 further comprising: a heat transfer medium providing a thermally conductive pathway between the lid and the integrated circuit chip, __wherein the lid has an increased thickness to enhance thermal conductivity and structural rigidity__.\n\n10. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure is a ring __having an increased radial thickness compared to the solder mask layer__.\n\n11. (Currently amended) The packaging substrate of claim 1, wherein the packaging structure further comprises: a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure, wherein the ground reference plane layer is in contact with the stiffening microstructure, __and the stiffening microstructure provides mechanical support to the ground reference plane layer__.\n\n12. (Original) The packaging substrate of claim 1 further comprising a dielectric bonding agent coupling the stiffening microstructure to the packaging structure.\n\n13. (Original) The packaging substrate of claim 1 further comprising a conductive bonding agent coupling the stiffening microstructure to the packaging structure.\n\n14. (Currently amended) A computing device, comprising: a memory; and a packaged semiconductor device __operatively__ coupled to the memory, wherein the packaged semiconductor device comprises: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure, __wherein the opening is formed by removing solder mask and exposing underlying dielectric material__; an integrated circuit chip disposed on the chip mounting surface and __operatively__ coupled to the memory through the packaging structure; and a stiffening microstructure disposed in the opening and coupled to the packaging structure, __wherein the stiffening microstructure has an increased thickness and contact area compared to the underlying dielectric material to improve package coplanarity__.\n\n15. (Currently amended) The packaging substrate of claim 14, wherein the stiffening microstructure is bonded to at least one of a bottom surface and a sidewall of the opening, __and extends into the underlying dielectric material__.\n\n16. (Currently amended) The packaging substrate of claim 14, wherein the stiffening microstructure extends above the chip mounting surface __by a distance of at least 10 micrometers__.\n\n17. (Currently amended) The packaging substrate of claim 14, wherein the chip mounting surface is on a solder mask layer, and the opening extends through the solder mask layer __to expose a dielectric core layer beneath__.\n\n18. (Currently amended) The packaging substrate of claim 17, wherein the packaging structure further comprises: a core layer disposed below the solder mask layer, the opening exposing a portion of the core layer, __and the stiffening microstructure is embedded within the exposed portion of the core layer__.\n\n19. (Currently amended) The packaging substrate of claim 14, wherein the stiffening microstructure is one of a ring __having an increased radial thickness__ or a lid __having an increased vertical thickness__.\n\n20. (Currently amended) The packaging substrate of claim 14, wherein the packaging structure further comprises: a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure, wherein the stiffening microstructure is in contact with ground reference plane layer, __and the stiffening microstructure provides mechanical support to the ground reference plane layer__.",
+  "usage": {
+    "input_tokens": 3775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1207,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 8.51,
+  "cost_usd": 0.00785,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:32:32Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012010015",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2012010015",
+  "app_num": "13152534",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15251,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "03e6be82786b7673",
+  "response_text": "1. (Currently amended) A multi-layer coating comprising: (a) a color-imparting, non-hiding coating layer deposited from a protective coating composition comprising an aqueous dispersion comprising color-imparting particles stably dispersed in aqueous medium in admixture with one or more polymers, and (b) a clear coat layer deposited over at least a portion of the color-imparting, non-hiding layer, __wherein the color-imparting particles are not metallic pigments__.\n\n2. (Cancelled)\n\n3. (Original)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Currently amended) The multi-layer coating of claim 1 wherein the color-imparting particles have an average primary particle size __of less than 100 nanometers__.\n\n12. (Currently amended) The multi-layer coating of claim 1 applied over a reflective surface comprising a reflective material having a total reflectance of at least 30 percent, __wherein the reflective material is a base coat deposited from a coating composition comprising metallic pigments__.\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Currently amended) The multi-layer coating of claim 1 in which the one or more polymers are selected from acrylic polymers, polyester polymers, polyurethane polymers, polyether polymers, including mixtures thereof, __and wherein the color-imparting particles are not metallic pigments__.",
+  "usage": {
+    "input_tokens": 4428,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 369,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 3.64,
+  "cost_usd": 0.00502,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:57:20Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10618,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b4fdc44d6f4ad85b",
+  "response_text": "1. Claim 15 (Currently amended): A method for selecting an edge server computer from a plurality of server computers in a computer network to send data to a client computer, the method comprising the steps of:\nproviding a hyperlink on a web application server, the hyperlink including __a unique signature and reference information__ identifying a media request and referencing data to be sent to the client computer;\nselecting the hyperlink by the client computer;\ngenerating an http request from the hyperlink by a web browser, the http request containing the unique signature;\ntransmitting the http request to a media request broker;\n__the media request broker analyzing the unique signature and reference information to determine server load and performance characteristics__;\nselecting the first server computer from the plurality of server computers based on __the analyzed unique signature, reference information, and current network conditions__ to optimize delivery of the data to the client computer.\n\n2. Claim 16 (Currently amended): The method of claim 15, __wherein the unique signature encodes server selection criteria including at least one of: server load information, geographic location, bandwidth availability, or content type__, the method further comprising the steps of __decoding the unique signature by the media request broker__ and subsequently __routing the http request to the selected first server computer based on the decoded criteria__.\n\n3. Claim 17 (Original): (Previously presented)\n\n4. Claim 18 (Currently amended): The method of claim 17, __wherein the media request broker selects the first server computer based on the information encoded within the unique signature and current operational status of available server computers in the network__.\n\n5. Claim 24 (Currently amended): A system for selecting an edge server computer from a plurality of server computers in a computer network to send data to a client computer, the system comprising:\na web application server comprising a web page with a hyperlink __including a unique signature and reference information__ referencing the data to be sent to the client computer;\na client computer configured to select the hyperlink and generate an http request containing the unique signature;\n__a media request broker configured to receive the http request, decode the unique signature and reference information, and determine optimal server selection based on the decoded information and current network conditions__;\na first server computer selected from the plurality of server computers __based on analysis of the unique signature, reference information, and network performance metrics__.\n\n6. Claim 25 (Currently amended): The system of claim 24, __wherein the unique signature comprises encoded server selection criteria including at least one of: load balancing information, geographic routing data, bandwidth metrics, or content delivery optimization parameters__, the system further comprising __circuitry in the media request broker for decoding the unique signature__ and subsequently __routing the http request to the selected first server computer based on the decoded criteria and real-time network status__.\n\n7. Claim 27 (Currently amended): A computer program product for selecting an edge server computer from a plurality of server computers in a computer network to send data to a client computer, the computer program product comprising:\na computer readable storage medium having computer readable program code embodied therein, the program code comprising:\nprogram code for providing a hyperlink on a web application server, the hyperlink including __a unique signature and reference information__ identifying a media request and referencing data to be sent to the client computer;\nprogram code for selecting the hyperlink by the client computer;\nprogram code for generating an http request from the hyperlink by a web browser, the http request containing the unique signature;\nprogram code for transmitting the http request to a media request broker;\n__program code for the media request broker analyzing the unique signature and reference information to determine server characteristics__;\nprogram code for selecting the first server computer from the plurality of server computers based on __the analyzed unique signature, reference information, and current network conditions__.\n\n8. Claim 28 (Currently amended): The computer program product of claim 27, __wherein the unique signature encodes server selection criteria including at least one of: server load information, geographic location, bandwidth availability, or content type__, the computer program product further comprising __program code for decoding the unique signature by the media request broker__ and subsequently __program code for routing the http request to the selected first server computer based on the decoded criteria and real-time network performance data__.",
+  "usage": {
+    "input_tokens": 2819,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 922,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.42,
+  "cost_usd": 0.00594,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:36:14Z"
+}

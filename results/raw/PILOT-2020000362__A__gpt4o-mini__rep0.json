@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000362",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2020000362",
+  "app_num": "15022252",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13634,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "454abe08b6f123c5",
+  "response_text": "Claim 1 (Currently amended): A system (100) for enabling review of a medical image, comprising: - an image interface (120) for obtaining the medical image (042); - a user interface subsystem (140) for enabling a user to apply one or more graphical elements (310) to the medical image during the review of the medical image, thereby establishing application data representing application of the one or more graphical elements to the medical image; and - a reporting subsystem (180) for accessing a medical database comprising medical information items which each represent medical reference information, retrieving a medical information item from the medical database based on association data, the association data linking the application of the one or more graphical elements, as represented by the application data, to the medical information item, and generating a report based on the medical information item.\n\nClaim 15 (Currently amended): A non-transitory computer program product (270) comprising instructions for causing a processor system to perform the method according to claim 14.",
+  "usage": {
+    "input_tokens": 3168,
+    "output_tokens": 199,
+    "total_tokens": 3367
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.25,
+  "cost_usd": 0.00059,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:22:17Z"
+}

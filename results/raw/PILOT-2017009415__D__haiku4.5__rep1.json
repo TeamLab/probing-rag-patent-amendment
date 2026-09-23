@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017009415",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2017009415",
+  "app_num": "13468920",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13266,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3e0d8a0e29fd93f2",
+  "response_text": "1. (Currently amended) A catheter system for delivering ultrasonic energy to a treatment site within a body lumen, the catheter comprising: a tubular body having a proximal end, a distal end and an energy delivery section positioned between the proximal end and the distal end; a plurality of ultrasound radiating members positioned within the energy delivery section, the plurality of ultrasound radiating members being allocated into electrical groups comprising more than one ultrasound radiating member; wherein the ultrasound radiating members of one electrical group are spatially interdigitated with the ultrasound radiating members of another electrical group __in a non-uniform spatial arrangement__.\n\n2. (Original)\n\n3. (Original)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Currently amended) A system for treating a patient having pulmonary embolism, the system comprising: a first and a second ultrasound catheters, each of the first and the second ultrasound catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section having at least one ultrasound element, the tubular body also including at least one fluid delivery lumen; and a control system is connected to and configured to operate both __the first and the second ultrasound catheters__.\n\n7. (Currently amended) The system of Claim 6, wherein the control system operates both the first and the second ultrasound catheters simultaneously.\n\n8. (Currently amended) The system of Claim 7, wherein the control system is configured to independently control the ultrasound radiating members on the first and the second ultrasound catheters.\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)",
+  "usage": {
+    "input_tokens": 3621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 3.58,
+  "cost_usd": 0.00452,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:59:56Z"
+}

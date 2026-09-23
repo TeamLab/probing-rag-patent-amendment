@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016007603",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2016007603",
+  "app_num": "12165025",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12296,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a46afe0e8c62913b",
+  "response_text": "Claim 1 (Currently amended): An alarm system comprising: a physiological monitor capable of triggering a first alarm in response to an alarm condition, wherein the first alarm is an audible alarm.\n\nClaim 2 (Original): The system of claim 1, wherein the second alarm is capable of being acknowledged by an operator input before expiration of a timer.\n\nClaim 3 (Currently amended): The system of claim 1, wherein the first alarm comprises an inaudible alarm or an audible alarm.\n\nClaim 4 (Original): The system of claim 1, wherein the escalated alarm comprises an audible alarm.\n\nClaim 5 (Currently amended): The system of claim 1, wherein the first alarm comprises an audible alarm and the escalated alarm comprises an audible alarm that is louder than the first alarm.\n\nClaim 6 (Original): The system of claim 1, wherein the first alarm and the second alarm are triggered substantially simultaneously.\n\nClaim 7 (Original): The system of claim 1, wherein the station located remotely from the physiological monitor is part of a central patient management system.\n\nClaim 16 (Currently amended): A system comprising: a processor programmed to trigger an alarm in response to an alarm condition; a memory capable of storing alarm data associated with the alarm, wherein the alarm data comprises an alarm type and a time that the alarm was triggered; and a display capable of displaying the alarm data, wherein the alarm data includes information about the acknowledgment status of the alarm.",
+  "usage": {
+    "input_tokens": 2844,
+    "output_tokens": 295,
+    "total_tokens": 3139
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.1,
+  "cost_usd": 0.0006,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:29:58Z"
+}

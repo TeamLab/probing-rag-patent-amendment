@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017001422",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2017001422",
+  "app_num": "13995688",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 9711,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0aa1a2a6ceb1d3cc",
+  "response_text": "Claim 1 (Currently Amended): An immunogenic composition comprising: a modified, live bovine viral diarrhea virus type lb (BVDV-lb) that is distinct from any BVDV-lb virus described in WO 2007/117303, [[and ]]a veterinary-acceptable carrier, and optionally an adjuvant.\n\nClaim 3 (Currently Amended): The immunogenic composition of claim 1, further comprising one or more of a parainfluenza virus Type 3 (PI3), a bovine respiratory syncytial virus (BRSV), a bovine herpes virus (BHV-1), a bovine viral diarrhea virus Type la (BVDV-la), a bovine viral diarrhea virus Type 2 (BVDV-2), or an infectious bovine rhinotracheitis (IBR) virus, or any combination thereof; or one or more viral-specific antigens obtained therefrom, wherein the composition is specifically formulated to induce an immune response that is not anticipated by WO 2007/117303.\n\nClaim 4 (Currently Amended): The immunogenic composition of claim 1, further comprising a modified, live IBRV, a modified, live BRSV, a modified, live BHV-1, a modified, live BVDV Type la, a modified, live BVDV Type 2, or a modified, live PI3, or a combination thereof, wherein the combination is selected to provide enhanced immunogenicity compared to compositions disclosed in WO 2007/117303.\n\nClaim 12 (Currently Amended): The vaccine of claim [[11]]4, further comprising an immunologically-effective amount of at least one microbial pathogen-specific antigen that is not disclosed in WO 2007/117303.",
+  "usage": {
+    "input_tokens": 2707,
+    "output_tokens": 362,
+    "total_tokens": 3069
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.5,
+  "cost_usd": 0.00062,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:00:32Z"
+}

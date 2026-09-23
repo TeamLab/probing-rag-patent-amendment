@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019005776",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2019005776",
+  "app_num": "14754496",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16025,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ad16dbc5456d3530",
+  "response_text": "1. (Currently amended) A computing system for authoring a document, comprising: [[a user input subsystem configured to]] __one or more input devices and one or more processors configured to__ (1) receive first user input identifying content to be included in the document, the identified content being in a first form, and (2) receive second user input specifying a transformation operation to be performed on the identified content in order to transform the identified content from the first form into a second form; and [[a materialization subsystem configured to]] __the one or more processors further configured to__ apply the specified transformation operation to transform the identified content from the first form into the second form for display.\n\n2. (Currently amended) The computing system of claim 1 __wherein__ the first user input received by the [[user input subsystem]] __one or more input devices and the one or more processors__ identifies a data structure external to the document from which the identified content is available for retrieval.\n\n3. (Currently amended) The computing system of claim 1 __wherein__ the first user input received by the [[user input subsystem]] __one or more input devices and the one or more processors__ literally conveys the identified content.\n\n4. (Currently amended) The computing system of claim 1 __wherein the one or more input devices and the one or more processors are__ configured to receive second user input specifying a plurality of transformation operations to be performed on the identified content.\n\n5. (Currently amended) The computing system of claim 4 __wherein the one or more input devices and the one or more processors are__ configured to receive third user input specifying an order among the plurality of transformation operations in which the plurality of transformation operations is to be performed.\n\n6. (Currently amended) The computing system of claim 4, further comprising [[a precedence inference subsystem configured to]] __the one or more processors further configured to__ infer an order among the plurality of transformation operations in which the plurality of transformation operations is to be performed.\n\n7. (Currently amended) The computing system of claim 1 __wherein the one or more input devices and the one or more processors are__ configured to receive the second user input [[relative to]] __in association with__ a displayed literal representation of the content identified by the first user input received by the [[user input subsystem]] __one or more input devices and the one or more processors__.\n\n8. (Currently amended) The computing system of claim 1 __wherein the one or more input devices and the one or more processors are__ configured to receive the second user input [[relative to]] __in association with__ a displayed structural representation of the content identified by the first user input received by the [[user input subsystem]] __one or more input devices and the one or more processors__.\n\n9. (Currently amended) The computing system of claim 1 __wherein the one or more input devices and the one or more processors are__ further configured to receive third user input specifying at least one edit to the identified content in the second form, the computer system further comprising: [[a revision subsystem configured to]] __the one or more processors further configured to__ edit the identified content in the second form for display in accordance with the at least one edit specified by the third user input received by the [[user input subsystem]] __one or more input devices and the one or more processors__.\n\n10. (Currently amended) The computing system of claim 9, further comprising: [[a storage subsystem causing]] __a storage device and the one or more processors configured to cause__ the identified content as edited by the [[revision subsystem]] __one or more processors__ to be stored in the first form.",
+  "usage": {
+    "input_tokens": 3461,
+    "output_tokens": 756,
+    "total_tokens": 4217
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.33,
+  "cost_usd": 0.01189,
+  "attempts": 1,
+  "timestamp": "2026-04-18T18:32:33Z"
+}

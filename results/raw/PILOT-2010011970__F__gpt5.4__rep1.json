@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15944,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "09b01dd285db4937",
+  "response_text": "16. (Currently amended) The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __providing the information added to the locator to a media request broker in response to the selection of the hyperlink by the client computer,__ and __selecting, by the media request broker, the first server computer based on the information__.\n\n17. (Currently amended) The method of claim 16, the media request broker selecting the first server computer based on the information.\n\n18. (Previously presented)\n\n24. (Previously presented)\n\n25. (Currently amended) The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request, __and circuitry for providing the information added to the locator to a media request broker in response to the selection of the hyperlink by the client computer, the media request broker selecting the first server computer based on the information__.\n\n28. (Currently amended) The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __providing the information added to the locator to a media request broker in response to the selection of the hyperlink by the client computer,__ and __selecting, by the media request broker, the first server computer based on the information__.\n\n29. (Previously presented)",
+  "usage": {
+    "input_tokens": 3537,
+    "output_tokens": 458,
+    "total_tokens": 3995
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.37,
+  "cost_usd": 0.009,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:37:54Z"
+}

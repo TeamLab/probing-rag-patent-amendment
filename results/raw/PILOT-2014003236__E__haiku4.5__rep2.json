@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 3771,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "92f818ce96a2fbb6",
+  "response_text": "1. (Currently amended) A compound of formula (IIa) O NaO OR2 O (II a), in which substituent R2 is selected from the group consisting of alkyl, aryl, and arylalkyl, __wherein R2 is not ethyl__.\n\n2. (Currently amended) A compound according to Claim 1 of formula (II a) in which R2 is C1 -C12-alkyl, C6 -aryl, or arylalkyl, __wherein R2 is propyl, butyl, pentyl, hexyl, heptyl, octyl, nonyl, decyl, undecyl, dodecyl, or arylalkyl__.\n\n3. (Original) A compound according to Claim 1 of formula (II a) in which R2 is methyl or ethyl.\n\n4. (Currently amended) A compound of formula (IIb) O ZO OMe O O (I Ib) in which substituent Z is selected from the group consisting of alkali metals and alkaline earth metals, __wherein Z is not potassium__.\n\n5. (Currently amended) A compound according to Claim 4 of formula (II b) in which Z is sodium or potassium, __wherein Z is sodium__.",
+  "usage": {
+    "input_tokens": 1372,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 293,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 2.29,
+  "cost_usd": 0.00227,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:24:45Z"
+}

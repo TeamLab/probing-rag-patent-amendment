@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2012005674",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2012005674",
+  "app_num": "11677766",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20301,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6ba8f7fd627f03ed",
+  "response_text": "1. (Currently amended) A method for generating a superframe preamble for a superframe, the superframe preamble comprising a plurality of symbols, in an orthogonal frequency division multiplexing (OFDM) network, comprising: for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed over substantially the entire carrier; [[and]] for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel__; and setting a change indicator in the superframe preamble to indicate whether system information for a subsequent superframe group has changed with respect to a previous superframe group__.\n\n2. (Previously presented) The method as set forth in Claim 1, the first set of subcarriers distributed uniformly over substantially the entire carrier.\n\n3. (Previously presented) The method as set forth in Claim 1, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern.\n\n4. (Previously presented) The method as set forth in Claim 1, the second set of subcarriers distributed over substantially the entire carrier.\n\n19. (Currently amended) A superframe generator in a base station in an OFDM network, comprising a preamble generator operable to generate a superframe preamble comprising a plurality of symbols for a superframe by (i) for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed over substantially the entire carrier, [[and]] (ii) for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel__, and (iii) setting a change indicator in the superframe preamble to indicate whether system information for a subsequent superframe group has changed with respect to a previous superframe group__.\n\n20. (Previously presented) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed uniformly over substantially the entire carrier.\n\n21. (Previously presented) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern.",
+  "usage": {
+    "input_tokens": 5180,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.61,
+  "cost_usd": 0.02327,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:43:45Z"
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020002555",
+  "condition": "D",
+  "rep": 1,
+  "proceeding_number": "2020002555",
+  "app_num": "15234552",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15294,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "35434cbd9179f588",
+  "response_text": "1. (Currently amended) A method comprising: receiving a plurality of precoders from a codebook in a transmitter having an antenna array; transforming each precoder of the plurality of precoders to a transformed precoder such that the transmit power for each transformed precoder is equal to the transmit power for each of other transformed precoders of the plurality of precoders, where the transmit power is expressed as a quadratic form Q = w^H Z w with respect to the corresponding precoder w, where Z is an impedance matrix that includes the transmission line impedance of a transmission line between a signal source and the antenna array, the impedance of the antenna array, and the signal source impedance; receiving a signal from the signal source; applying a transformed precoder of the plurality of transformed precoders to the signal to generate a precoded signal for transmission over a physical channel; and transmitting the precoded signal.\n\n2. (Currently amended) The method according to claim 1, wherein the impedance matrix Z is determined as a function of the transmission line length, the transmission line impedance, and the antenna array impedance.\n\n3. (Currently amended) The method according to claim 1, wherein the impedance matrix Z accounts for a matching network between the signal source and the antenna array.\n\n4. (Currently amended) The method according to claim 1, wherein transforming each precoder comprises computing the impedance matrix Z based on the antenna array impedance, the signal source impedance, and the transmission line length.\n\n5. (Currently amended) The method according to claim 1, wherein each precoder is transformed by scaling each precoder by an inverse square root of the transmit power Q that results from the corresponding precoder before scaling is applied, such that the scaled precoder w' satisfies Q(w') = constant for all precoders in the plurality.\n\n6. (Currently amended) The method according to claim 5, wherein scaling comprises normalizing a precoder into a normalized precoder based on the quadratic form Q = w^H Z w.\n\n7. (Original) The method according to claim 5, further comprising transmitting a scaling factor used for the scaling.\n\n8. (Currently amended) The method according to claim 1, wherein each precoder is transformed by multiplying each precoder by a transformation matrix T such that the resulting set of precoders each satisfy the condition that the quadratic form Q = w'^H Z w' is equal for all transformed precoders w' = T w.\n\n9. (Currently amended) The method according to claim 8, wherein the transformation matrix T is computed based on the impedance matrix Z of the antenna array seen at the signal source as a function of the transmission line length, the transmission line impedance, and the antenna array impedance.\n\n10. (Currently amended) The method according to claim 1, wherein the transformation equalizes the transmit power Q for all of the plurality of precoders such that Q(w'_i) = Q(w'_j) for all pairs of transformed precoders w'_i and w'_j.\n\n11. (Currently amended) The method according to claim 1, wherein transforming transforms the precoders to equal energy precoders by accounting for the quadratic form Q = w^H Z w when transmission lines are used between a source of the signal and the antenna array.\n\n12. (Original) The method according to claim 1, wherein both data symbol precoders and reference symbol precoders are transformed by the same transformation.\n\n13. (Original) The method according to claim 12, further comprising: receiving a precoded signal including reference symbols; estimating channels for the reference symbols; estimating a channel for the data symbols by taking an inner product of a conjugate of a data symbol precoder and the reference symbol channel estimates; and demodulating received data symbols based on the estimated channel.\n\n14. (Currently amended) An apparatus comprising: an antenna array; a transceiver coupled to the antenna array; a signal source coupled to the transceiver; a transmission line coupled between the signal source and the antenna array, the transmission line having a transmission line impedance; a memory to store a codebook including a plurality of precoders; and a controller coupled to the transceiver and the memory, the controller configured to receive a plurality of precoders from the codebook, transform each precoder of the plurality of precoders to a transformed precoder such that the transmit power for each transformed precoder is equal to the transmit power for each of other transformed precoders of the plurality of precoders, where the transmit power is expressed as a quadratic form Q = w^H Z w with respect to the corresponding precoder w, where Z is an impedance matrix that includes the transmission line impedance, the antenna array impedance, and the signal source impedance, receive a signal from the signal source, and apply a transformed precoder of the plurality of transformed precoders to the signal to generate a precoded signal for transmission over a physical channel, wherein the transceiver transmits the precoded signal.\n\n15. (Currently amended) The apparatus according to claim 14, wherein the impedance matrix Z is determined as a function of the transmission line length, the transmission line impedance, the antenna array impedance, and optionally a matching network between the signal source and the antenna array.\n\n16. (Currently amended) The apparatus according to claim 14, wherein each precoder is transformed by scaling each precoder by an inverse square root of the transmit power Q that results from the corresponding precoder before scaling is applied, such that all scaled precoders have equal transmit power.\n\n17. (Currently amended) The apparatus according to claim 16, wherein scaling comprises normalizing a precoder into a normalized precoder based on the quadratic form Q = w^H Z w.\n\n18. (Currently amended) The apparatus according to claim 14, wherein each precoder is transformed by multiplying each precoder by a transformation matrix T such that the resulting set of transformed precoders w' = T w each satisfy the condition that the quadratic form Q(w') is equal for all transformed precoders.\n\n19. (Currently amended) The apparatus according to claim 18, wherein the transformation matrix T is computed based on the impedance matrix Z of the antenna array seen at the signal source as a function of the transmission line length, the transmission line impedance, and the antenna array impedance.\n\n20. (Currently amended) The apparatus according to claim 14, wherein the controller transforms the precoders to equal energy precoders by accounting for the quadratic form Q = w^H Z w when transmission lines are used between a source of the signal and the antenna array.",
+  "usage": {
+    "input_tokens": 3724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1450,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 10.16,
+  "cost_usd": 0.00878,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:27:23Z"
+}

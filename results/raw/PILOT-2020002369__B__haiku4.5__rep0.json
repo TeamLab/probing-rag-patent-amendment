@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020002369",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2020002369",
+  "app_num": "14171413",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13025,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bf79866bb3cfab78",
+  "response_text": "1. (Currently amended) A regenerative braking control system for an electrified vehicle, comprising: at least one sensor adapted to sense a front tire impact event and transmit a sensor signal responsive to the front tire impact event during vehicle braking, wherein the front tire impact event is distinct from a general wheel slip event; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the sensor signal from the at least one sensor.\n\n2. (Currently amended) The system of claim 1 wherein the vehicle comprises a hybrid electric vehicle, wherein the hybrid electric vehicle is a vehicle capable of operating using both an internal combustion engine and electric power.\n\n3. (Currently amended) The system of claim 1 wherein the vehicle comprises a plug-in hybrid electric vehicle, wherein the plug-in hybrid electric vehicle is a vehicle capable of operating using both an internal combustion engine and electric power, and further capable of charging its energy storage facility from an external electrical source.\n\n4. (Previously presented) The system of claim 1 further comprising an electrical storage facility interfacing with and adapted to store electrical power from the regenerative powertrain.\n\n5. (Previously presented) The system of claim 1 wherein the regenerative powertrain is adapted to apply regenerative braking torque to at least one of a front axle and a rear axle of the vehicle.\n\n6. (Previously presented) The system of claim 5 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\n7. (Previously presented) The system of claim 1 wherein the regenerative powertrain is adapted to apply regenerative braking torque to a selected one of front wheels and rear wheels of the vehicle.\n\n8. (Previously presented) The system of claim 7 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\n9. (Currently amended) A regenerative braking control system for an electrified vehicle, comprising: at least one of a wheel slip sensor and a vehicle motion sensor adapted to sense a front tire impact event and transmit at least one of a wheel slip sensor signal and a motion sensor signal, respectively, responsive to the front tire impact event during vehicle braking, wherein the front tire impact event is distinct from a general wheel slip event; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the at least one of a wheel slip sensor signal and a motion sensor signal from the at least one of a wheel slip sensor and a vehicle motion sensor.\n\n10. (Currently amended) The system of claim 9 wherein the vehicle comprises a hybrid electric vehicle, wherein the hybrid electric vehicle is a vehicle capable of operating using both an internal combustion engine and electric power.\n\n11. (Currently amended) The system of claim 9 wherein the vehicle comprises a plug-in hybrid electric vehicle, wherein the plug-in hybrid electric vehicle is a vehicle capable of operating using both an internal combustion engine and electric power, and further capable of charging its energy storage facility from an external electrical source.\n\n12. (Previously presented) The system of claim 9 further comprising an electrical storage facility interfacing with and adapted to store electrical power from the regenerative powertrain.\n\n13. (Previously presented) The system of claim 9 wherein the regenerative powertrain is adapted to apply regenerative braking torque to at least one of a front axle and a rear axle of the vehicle.\n\n14. (Previously presented) The system of claim 13 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\n15. (Previously presented) The system of claim 9 wherein the regenerative powertrain is adapted to apply regenerative braking torque to a selected one of front wheels and rear wheels of the vehicle.\n\n16. (Previously presented) The system of claim 15 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\n17. (Currently amended) A regenerative braking control method comprising: reducing application of regeneration torque if a front tire impact event is sensed, wherein the front tire impact event is distinct from a general wheel slip event.\n\n18. (Currently amended) The method of claim 17 further comprising sensing the front tire impact event by using wheel slip data that indicates a front tire impact event distinct from general wheel slip.\n\n19. (Currently amended) The method of claim 17 further comprising sensing the front tire impact event by using vehicle motion data that indicates a front tire impact event distinct from general wheel slip.\n\n20. (Previously presented) The method of claim 17 wherein reducing application of regeneration torque if the front tire impact event is sensed comprises reducing application of regeneration torque at rear wheels of a vehicle if the front tire impact event is sensed.",
+  "usage": {
+    "input_tokens": 3465,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1134,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.57,
+  "cost_usd": 0.00731,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:56:12Z"
+}

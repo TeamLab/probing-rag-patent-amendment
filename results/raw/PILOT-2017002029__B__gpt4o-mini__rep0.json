@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14069,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "922ff26206dacbb8",
+  "response_text": "Claim 1 (Currently Amended): A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, wherein the non-native compartment is engineered to perform a specific metabolic function.\n\nClaim 2 (Currently Amended): The cell of claim 1 wherein the non-native compartment is self-assembled in vivo to facilitate the specific metabolic function.\n\nClaim 3 (Currently Amended): The cell of claim 1 wherein the non-native compartment further comprises at least one targeted enzyme that is specific for the metabolic function.\n\nClaim 4 (Currently Amended): The cell of claim 3 wherein the non-native compartment comprises a plurality of different targeted enzymes that work synergistically for the metabolic function.\n\nClaim 5 (Currently Amended): The cell of claim 3 wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence that directs the enzyme to the non-native compartment.\n\nClaim 8 (Currently Amended): The cell of claim 1 wherein the proteinaceous shell comprises a plurality of different BMC polypeptides, each contributing to the functionality of the non-native compartment.\n\nClaim 10 (Currently Amended): The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different BMC operons, enhancing the metabolic capabilities of the non-native compartment.\n\nClaim 12 (Currently Amended): A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide and at least one enzyme that catalyzes a reaction specific to a metabolic pathway, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide and the at least one enzyme.\n\nClaim 21 (Currently Amended): A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, and at least one enzyme that catalyzes conversion of a substrate to a product specific to a metabolic pathway; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product. \n\nClaim 28 (Currently Amended): The cell of claim 1 comprising a plurality of compartments, each engineered for a distinct metabolic function.",
+  "usage": {
+    "input_tokens": 3670,
+    "output_tokens": 508,
+    "total_tokens": 4178
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.21,
+  "cost_usd": 0.00086,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:51:15Z"
+}

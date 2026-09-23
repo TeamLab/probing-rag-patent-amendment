@@ -1,0 +1,15 @@
+file	case	cond	rep	c1	c1_recall	c1_prec	c1_f1	n_claims	skipped_no_gen	skipped_no_rejected	reason
+PILOT-2014009970__baseline__sonnet4.json	PILOT-2014009970	baseline	0	0.0	0.0	0.0	0.0	9	0	0	
+PILOT-2017000071__baseline__sonnet4.json	PILOT-2017000071	baseline	0	None							no_baseline
+PILOT-2017001422__baseline__sonnet4.json	PILOT-2017001422	baseline	0	0.0	0.0	0.0	0.0	2	0	0	
+PILOT-2017003676__baseline__sonnet4.json	PILOT-2017003676	baseline	0	0.0338	0.0926	0.0495	0.0605	18	1	0	
+PILOT-2017005259__baseline__sonnet4.json	PILOT-2017005259	baseline	0	0.0	0.0	0.0	0.0	12	0	0	
+PILOT-2017005493__baseline__sonnet4.json	PILOT-2017005493	baseline	0	0.0058	0.0068	0.0301	0.0108	19	1	0	
+PILOT-2017010632__baseline__sonnet4.json	PILOT-2017010632	baseline	0	0.0901	0.2963	0.2463	0.1613	2	0	0	
+PILOT-2018001232__baseline__sonnet4.json	PILOT-2018001232	baseline	0	0.0012	0.0018	0.0031	0.0023	16	0	0	
+PILOT-2018005420__baseline__sonnet4.json	PILOT-2018005420	baseline	0	0.0587	0.1011	0.1368	0.1035	25	0	0	
+PILOT-2018005863__baseline__sonnet4.json	PILOT-2018005863	baseline	0	0.0097	0.0117	0.0598	0.0178	25	0	0	
+PILOT-2017005259__D__sonnet4__rep0.json	PILOT-2017005259	D	0	0.0019	0.0028	0.0053	0.0037	11	1	0	
+PILOT-2017005259__baseline__sonnet4__rep0.json	PILOT-2017005259	baseline	0	0.0	0.0	0.0	0.0	12	0	0	
+PILOT-2018005420__D__sonnet4__rep0.json	PILOT-2018005420	D	0	0.0603	0.1011	0.1439	0.1058	25	0	0	
+PILOT-2018005420__baseline__sonnet4__rep0.json	PILOT-2018005420	baseline	0	0.0241	0.0407	0.0756	0.0454	25	0	0	

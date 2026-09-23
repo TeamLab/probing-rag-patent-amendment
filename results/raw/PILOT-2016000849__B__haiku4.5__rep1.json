@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016000849",
+  "condition": "B",
+  "rep": 1,
+  "proceeding_number": "2016000849",
+  "app_num": "11628379",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23721,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a83be4388f1385c8",
+  "response_text": "1. (Currently amended) A system for analysing risk associated with an investment portfolio of an investor, said system including means for use in generating user interface for display on a user terminal, said user interface showing a distribution of assets of each investment of the investment portfolio over one or more asset classes and showing the distribution of assets over said one or more asset classes of a benchmark risk category representing a risk tolerance level of the investor, __wherein the user interface is configured to display comparative analysis between the distribution of assets of the investments and the benchmark risk category without providing interactive means for modifying the investment portfolio__.\n\n2. (Original)\n\n3. (Original)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Currently amended) A system for creating an investment portfolio for an investor, said system for performing the steps of: (a) categorising the investor as one of a plurality of benchmark risk categories; (b) generating user interface data for display of a user interface on a user terminal, the user interface showing a plurality of investments and including means for selecting investments for inclusion in the investment portfolio; and (c) generating further user interface data for display of another user interface, said another user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing a distribution of assets over said one or more asset classes of said benchmark risk category representing the risk tolerance level of the investor, __wherein the another user interface displays the comparative analysis without providing means for real-time modification of investment allocations__.\n\n8. (Original)\n\n9. (Cancelled)\n\n10. (Original)\n\n11. (Original)\n\n12. (Currently amended) A computer program for analysing risk associated with an investment portfolio of an investor, said program for performing the step of generating a user interface for display on a user terminal, said user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing a distribution of assets over said one or more asset classes of a benchmark risk category representing the risk tolerance level of the investor, __wherein the program generates the user interface for display purposes only without providing executable instructions for modifying the investment portfolio__.\n\n13. (Original)\n\n14. (Original)\n\n15. (Cancelled)\n\n16. (Cancelled)\n\n17. (Cancelled)\n\n18. (Currently amended) A computer program for creating an investment portfolio for an investor, said computer program for performing the steps of: (a) categorising the investor as one of a plurality of benchmark risk categories; (b) generating user interface data for display of a user interface on a user terminal, the user interface showing a plurality of investments and including means for selecting investments for inclusion in the investment portfolio; and (c) generating further user interface data for display of another user interface on said user terminal, said another user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing the distribution of assets over said one or more asset classes of said benchmark risk category representing the risk tolerance level of the investor, __wherein the program is configured to display comparative analysis without providing executable code for modifying investment allocations__.\n\n19. (Original)\n\n20. (Cancelled)\n\n21. (Original)\n\n22. (Original)\n\n23. (Currently amended) A computer readable data storage medium, including the computer program claimed in any one of claims 12 to 22 stored thereon.\n\n24. (Currently amended) A method of analysing risk associated with an investment portfolio of an investor, including the steps of: (a) arranging investments of the investment portfolio to show a distribution of assets of each investment of said investments over one or more asset classes; and (b) determining the degree to which the distribution of assets over said one or more asset classes of said investments corresponds to the distribution of assets over said one or more asset classes of a benchmark risk category representing the risk tolerance level of the investor, __wherein the determining step comprises a computational analysis that does not include modifying the composition or allocation of the investment portfolio__.\n\n25. (Original)\n\n26. (Original)\n\n27. (Original)\n\n28. (Cancelled)\n\n29. (Cancelled)\n\n30. (Cancelled)\n\n31. (Cancelled)\n\n32. (Cancelled)\n\n33. (Original)\n\n34. (Currently amended) A method of creating an investment portfolio for an investor, including the steps of: (a) categorising the investor as one of a plurality of benchmark risk categories; (b) selecting a plurality of investments for the investment portfolio; and (c) analysing the risk associated with the investment portfolio by performing the method claimed in any one of claims 24 to 27, wherein said one of a plurality of benchmark risk categories represents the risk tolerance level of the investor, __wherein the analysing step is performed prior to any modification of the selected investments__.\n\n35. (Cancelled)\n\n36. (Original)\n\n37. (Original)\n\n38. (Original)\n\n39. (Original)\n\n40. (Currently amended) An analysis process, including comparing a distribution of assets of investments of an investment portfolio over one or more asset classes with a distribution of assets over said one or more asset classes associated with a benchmark risk category representing a risk tolerance level of the investor, __wherein the comparing step is performed as a computational analysis without modifying the investment portfolio__.",
+  "usage": {
+    "input_tokens": 5770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1148,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 9.93,
+  "cost_usd": 0.00921,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:21:34Z"
+}

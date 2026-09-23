@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17789,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c16b15506b5c16b8",
+  "response_text": "1. (Currently Amended) A cosmetic composition comprising an indole compound of formula I:\n\n[formula I structure]\n\nwherein:\nR1 is hydrogen or C1-C4 alkyl;\nR2 is hydrogen, C1-C4 alkyl, or halogen;\nR3 is hydrogen or C1-C4 alkyl;\nR4 is hydrogen, C1-C4 alkyl, or C1-C4 alkoxy;\nand/or a physiologically acceptable salt thereof, __wherein the composition is formulated for topical application to human skin__.\n\n2. (Cancelled)\n\n3. (Currently Amended) Composition for topical use comprising a) the active ingredient according to Claim 1[[or 2]], b) one or more skin-tolerated vehicles, and c) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action.\n\n4. (Currently Amended) Composition according to [[one or more of the]]Claim 1 or 3, wherein the active ingredient is contained in said composition in an amount of 0,00001 per cent by weight to 10 per cent by weight.\n\n5. (Currently Amended) Composition according to claim [[5]]__1 or 3__, comprising as a further skin-care ingredient ectoine, [[preferably]]__wherein the ectoine is present__ in an amount of 0.01 to 10 per cent by weight[[, more preferably 0.1 to 5 per cent by weight and especially 0.1 to 2 per cent by weight]].\n\n7. (Currently Amended) Use of the active ingredient of Claim 1 [[or 2]]for the manufacture of a cosmetic composition __for treating skin diseases__.\n\n8. (Currently Amended) Use of the active ingredient of Claim 1 [[or 2]]for the preparation of a composition which is suitable for the [[prophylaxis and/or]]treatment of skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation[[, in particular for the treatment of acne vulgaris, acne comedonica, polymorphic acne, acne rosaceae, nodular acne, acne conglobata, age-related acne, acne occurring as a side effect, such as acne solaris, medicament-related acne or acne professionalis, for the treatment of other defects of keratinisation, in particular ichthyosis, ichthyosiform states, Darier's disease, keratosis palmo-plantaris, leukoplakia, leukoplakiform states, skin and mucosal (buccal) eczema (lichen), for the treatment of other skin diseases which are associated with defective keratinisation and have an inflammatory and/or immunoallergic component, and in particular all forms of psoriasis relating to the skin, mucous membranes and finger- and toenails, and psoriatic rheumatism and skin atopy, such as eczema, or respiratory atopy, or also hypertrophy of the gums]].\n\n9. (Currently Amended) Use according to Claim 8 for hair care and/or hair follicle __treatment__.\n\n10. (Currently Amended) Use [[the]]__of the__ active ingredient of Claim 1 [[or 2]]for the care, preservation or improvement of the general state of the skin or hair __by treating existing skin or hair conditions__.\n\n12. (Currently Amended) Use of the [[composition according to]]__active ingredient of__ Claim 1 [[or 2]]for skin lightening and/or skin whitening __treatment__.\n\n13. (Currently Amended) Use [[the]]__of the__ active ingredient of Claim 1 [[or 2]]for the [[prophylaxis against or]]reduction of skin unevenness, such as wrinkles, fine lines, rough skin or large-pored skin.\n\n14. (Currently Amended) Use [[the]]__of the__ active ingredient of Claim 1 [[or 2]]for the [[prophylaxis against]]__treatment of__ time- and/or light-induced ageing processes of the human skin or human hair[[, in particular for prophylaxis against dry skin, wrinkle formation and/or pigment defects, and/or for the reduction or prevention of the harmful effects of UV rays on the skin]].",
+  "usage": {
+    "input_tokens": 4809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1008,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 24.41,
+  "cost_usd": 0.02955,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:42:52Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016004446",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2016004446",
+  "app_num": "11920521",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14093,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f4f3dc3829cfec2b",
+  "response_text": "5. (Currently amended) Use of the composition of clai[[ I]]__m 4__ for preparatio[[ o]]__n__ of [[The method of claim 4 wherein said composition is in the form of a blocking vaccine to-4 mpede and- sapenin]]__a blocking vaccine for impeding Leishmaniasis transmission in dogs__.\n\n6. (Currently amended) Use of the [[of]] composition of claim [[1]]__4__ for preparation of [[reagen The method of claim 4 wherein said composition further comprises suitable p harmacological vehicles, for blocking]]__a reagent for impeding__ Leishmaniasis transmission in [[humans or animals]]__dogs__.\n\n7. (Currently amended) The composition of [[, The method of claim 4 wherein the]]__claim 4, wherein the__ Leishmania promastigotes or Leishmania amastigotes fractions called \"Fucose Mannose Ligand\" (FML) comprise a glycoprotein complex containing 29% of neutral sugar, 44% of protein, 11% of phosphate and hexoamines traces composed by protein bands with molecular weight ranging from 9 to 95 kDa, some protein bands having carbohydrates: 36 and 54 to 68 kDa, the FML glycidic portion presenting 10% of fu[[ c]]__c__ose and 47% of man[[o]]__n__ose, 30% of glucose, 12% of galactose and xylose traces, aminoacids containing 10 to 20% of glutamic acid, alanine, aspartic acid and glycine, 5 to 10% of serine, histidine, lisi[[n]]__ne__, leucine, threonine, proline and valine, and 2 to 5% of arginine, methionine, isoleucine, tyrosine and phenylalanine.",
+  "usage": {
+    "input_tokens": 3420,
+    "output_tokens": 412,
+    "total_tokens": 3832
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.88,
+  "cost_usd": 0.00839,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:45:25Z"
+}

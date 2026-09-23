@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2016004446",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2016004446",
+  "app_num": "11920521",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 9740,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fcf8fb2f7de7260f",
+  "response_text": "4. (Currently Amended) A method of impeding Leishmania transmission comprising administering to a human subject a therapeutically effective amount of a composition comprising:\n(a) a fraction or sub-fraction of Leishmania promastigotes or Leishmania amastigotes called Fucose Mannose Ligand (FML), wherein said FML is derived from Leishmania chagasi or Leishmania infantum; and\n(b) saponin as an adjuvant,\nwherein said composition induces production of blocking antibodies in humans that prevent parasite transmission by sandfly vectors.\n\n5. (Currently Amended) The method of claim 4, wherein said composition is formulated as a blocking vaccine for preventing Leishmania transmission in humans through immunization protocols that generate anti-FML blocking antibodies capable of inhibiting parasite development within the sandfly vector.\n\n6. (Currently Amended) The method of claim 4, wherein said composition further comprises suitable pharmaceutical vehicles and excipients, for blocking Leishmaniasis transmission in humans through active immunization.\n\n7. (Currently Amended) The method of claim 4, wherein the Leishmania promastigotes or Leishmania amastigotes fractions called \"Fucose Mannose Ligand\" (FML) comprise a glycoprotein complex containing 29% of neutral sugar, 44% of protein, 11% of phosphate and hexoamine traces, composed of protein bands with molecular weight ranging from 9 to 95 kDa, some protein bands having carbohydrates at 36 and 54 to 68 kDa, the FML glycidic portion presenting 10% of fucose and 47% of mannose, 30% of glucose, 12% of galactose and xylose traces, amino acids containing 10 to 20% of glutamic acid, alanine, aspartic acid and glycine, 5 to 10% of serine, histidine, lysine, leucine, threonine, proline and valine, and 2 to 5% of arginine, methionine, isoleucine, tyrosine and phenylalanine, wherein said FML derived from L. chagasi or L. infantum is administered to humans to generate blocking antibodies that reduce human visceral leishmaniasis incidence.",
+  "usage": {
+    "input_tokens": 2917,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.58,
+  "cost_usd": 0.00449,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:33:12Z"
+}

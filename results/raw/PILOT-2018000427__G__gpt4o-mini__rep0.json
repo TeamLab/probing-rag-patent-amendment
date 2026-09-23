@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018000427",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2018000427",
+  "app_num": "14178780",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19935,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6e0784ff6f3fd274",
+  "response_text": "(Currently Amended) 18. A method for protecting blood vessels during a medical procedure, comprising: inserting a vessel protector system into a patient's body, the vessel protector system including a vessel protector and a sheath, the vessel protector having a body formed from a filtering material and having a collapsed configuration and a tubular expanded configuration, the sheath being movable relative to the body between a first position for holding the body in the collapsed configuration, and a second position for releasing the body for movement to the expanded configuration; positioning the vessel protector system adjacent an open end of at least one blood vessel; and moving the sheath to the second position to deploy the body, whereby the body moves to the tubular expanded configuration covering the open end of the at least one blood vessel to filter blood passing through the body into the at least one blood vessel, wherein the vessel protector system is configured to filter blood during the procedure.\n\n(Currently Amended) 19. The method according to claim 18, further comprising: closing open ends of the body in the tubular expanded configuration; moving the sheath to the first position to compress the body to the collapsed configuration; and removing the vessel protector system from the patient's body, wherein the closing of the open ends is performed using a snare mechanism.",
+  "usage": {
+    "input_tokens": 4366,
+    "output_tokens": 252,
+    "total_tokens": 4618
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.52,
+  "cost_usd": 0.00081,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:26:22Z"
+}

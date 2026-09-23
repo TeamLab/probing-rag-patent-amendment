@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2021000834",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2021000834",
+  "app_num": "16415181",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13459,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "30788f0defc11c21",
+  "response_text": "1 (Currently amended): A column assembly comprising: a chromatography column comprising a compliant seal defining a fluid passage configured to seal against a tapered fluid conduit __that is distinct from any other tapered fluid conduit described in the prior art__ without the use of a ferrule or a threaded compression screw.\n\n3 (Currently amended): The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit __that is distinct from any other tapered fluid conduit described in the prior art__, wherein the tapered portion is configured to mate with a tapered fluid conduit at a diameter of less than 0.030 inches.\n\n7 (Currently amended): The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit __that is distinct from any other tapered fluid conduit described in the prior art__.\n\n9 (Currently amended): The column assembly of claim 1, wherein the compliant seal is formed of a polyimide, polyether-ether-ketone, or a deformable metal __that is distinct from any other compliant seal described in the prior art__.\n\n10 (Currently amended): The column assembly of claim 1, further comprising a seal retainer that is removable to allow for removal and replacement of the __compliant__ seal __that is distinct from any other compliant seal described in the prior art__. \n\n11 (Currently amended): The column assembly of claim 1, wherein the compliant seal is configured to maintain a seal against a tapered fluid conduit __that is distinct from any other tapered fluid conduit described in the prior art__ at pressures up to 20,000 psi.",
+  "usage": {
+    "input_tokens": 3363,
+    "output_tokens": 333,
+    "total_tokens": 3696
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.05,
+  "cost_usd": 0.0007,
+  "attempts": 1,
+  "timestamp": "2026-04-18T22:31:40Z"
+}

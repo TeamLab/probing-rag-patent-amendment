@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16251,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9fed3dca55a9043f",
+  "response_text": "3. (Currently amended) The system of claim 1, wherein the indicia of inter-node interference is based on a minimum desired throughput for each particular node __in the local contention neighborhood__.\n\n4. (Currently amended) The system of claim 1, wherein the first node is configured to adjust the access attempt percentage based on the indicia of inter-node interference of the first node divided by an indicia of inter-node interference of one or more of the nodes interfered with by transmissions from the first node __, wherein the indicia of inter-node interference of the first node and of the one or more nodes is based on a minimum desired throughput for each particular node__.\n\n14. (Currently amended) The system of claim 13, comprising the first access point, wherein the first access point is configured to broadcast __a__ dynamic weight associated with the second node to the first node.\n\n17. (Currently amended) The system of claim 13, comprising a second access point, wherein the second node communicates with the second access point and the first node interferes with communication between the second node and the second access point, __and wherein the received indicia of inter-node interference is associated with communication between the second node and the second access point__.",
+  "usage": {
+    "input_tokens": 4186,
+    "output_tokens": 255,
+    "total_tokens": 4441
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.27,
+  "cost_usd": 0.00778,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:16:44Z"
+}

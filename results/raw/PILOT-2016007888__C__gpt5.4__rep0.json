@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15638,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a79266102edeea99",
+  "response_text": "1. (Currently amended) A method of using a finger palette to transfer cosmetics from a container to a destination,  \na. the finger palette including:  \ni. a ring portion that is securable to a finger; and  \nii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to spread or blend cosmetic product on the surface portion, __the surface portion extending outwardly from a surface center to an outer perimeter and being free, from any first point on the outer perimeter to any second point on the outer perimeter, of features that could trap cosmetics and complicate cleaning of the surface portion__;  \nb. the method including the steps of:  \ni. securing the finger palette to a finger;  \nii. depositing a cosmetic product onto the surface portion of the finger palette; and  \niii. transferring the cosmetic product from the surface portion of the finger palette to a destination.\n\n4. (Previously presented) The method of claim 1 wherein:  \na. a first quantity of the cosmetic product is deposited onto the surface portion; and  \nb. a second quantity of the cosmetic product is transferred from the surface portion to the destination, the second quantity being smaller than the first quantity.\n\n5. (Previously presented) The method of claim 1 wherein:  \na. the surface portion extends outwardly from a surface center to an outer perimeter; and  \nb. the surface portion is free, from any first point on the outer perimeter to any second point on the outer perimeter, of features that could trap cosmetics and complicate cleaning of the surface portion.\n\n6. (Cancelled)\n\n7. (Cancelled)\n\n11. (Previously presented) The method of claim 1 wherein the finger palette is secured to the finger by passing the finger through the ring portion.",
+  "usage": {
+    "input_tokens": 3546,
+    "output_tokens": 368,
+    "total_tokens": 3914
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.59,
+  "cost_usd": 0.00811,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:52:20Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10622,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "acae7d01541e2831",
+  "response_text": "Claim 15 (Currently amended): The method of selecting an edge server computer for sending data to a client computer, comprising: receiving a request from the client computer; accessing a first server computer through a path in a computer network, the path including one or more server computers; adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier; and selecting the first server computer based on the information added to the locator.\n\nClaim 16 (Currently amended): The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.\n\nClaim 24 (Currently amended): The system for selecting an edge server computer for sending data to a client computer, comprising: a first server computer; a second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature; and circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.\n\nClaim 27 (Currently amended): The computer program product for selecting an edge server computer for sending data to a client computer, comprising: a computer-readable medium having program instructions stored thereon, the program instructions comprising: receiving a request from the client computer; accessing a first server computer through a path in a computer network; adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier; and the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.",
+  "usage": {
+    "input_tokens": 2559,
+    "output_tokens": 491,
+    "total_tokens": 3050
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.74,
+  "cost_usd": 0.00068,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:22:33Z"
+}

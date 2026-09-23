@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2009010505",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2009010505",
+  "app_num": "10993377",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23515,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "097c75cd509cb698",
+  "response_text": "```\n(Currently Amended) 1. An apparatus for aligning document actions specified in a documented procedure with demonstrated user actions, comprising: an alignment device for computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric, wherein the alignment device is implemented as a hardware component in conjunction with software instructions.\n\n(Currently Amended) 18. The method of claim 17, further comprising the step of identifying a current step in the documented procedure based on the alignment, wherein the method is performed by an apparatus that includes a hardware component executing software instructions.\n\n(Currently Amended) 19. The method of claim 18, wherein the documented procedure is displayed on a user interface, and the method further comprises the step of providing an identification of the current step to the user interface for use in highlighting the current step on the user interface, wherein the user interface is operatively connected to a hardware component executing software instructions.\n```",
+  "usage": {
+    "input_tokens": 5109,
+    "output_tokens": 192,
+    "total_tokens": 5301
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.51,
+  "cost_usd": 0.00088,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:47:34Z"
+}

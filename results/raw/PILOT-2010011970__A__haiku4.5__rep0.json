@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10622,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "acae7d01541e2831",
+  "response_text": "1. Claim 15 (Currently amended): A method for selecting an edge server computer from a plurality of server computers for sending data to a client computer, the method comprising the steps of:\naccessing a server computer through a path in a computer network, the path including one or more server computers;\nadding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier, __wherein the information is added by a media request broker that analyzes server load, latency, and geographic proximity data__;\nselecting the first server computer based on the information added to the locator, __wherein the selection is performed by the media request broker in response to an http request containing the unique signature identifying a media request, and wherein the media request broker is a distinct entity separate from both the client computer and the server computers in the network path__.\n\n2. Claim 16 (Currently amended): The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the http request and determines server selection based on real-time server performance metrics__.\n\n3. Claim 17 (Original): [Claim text not provided in application materials]\n\n4. Claim 18 (Currently amended): The method of claim 17, the media request broker selecting the first server computer based on the information, __wherein the media request broker applies a selection algorithm that weighs at least two of the following factors: server load, network latency, geographic distance to the client computer, or server availability status__.\n\n5. Claim 24 (Currently amended): A system for selecting an edge server computer from a plurality of server computers for sending data to a client computer, the system comprising:\na client computer;\na plurality of server computers accessible through a network path;\na media request broker, __distinct from the client computer and server computers__, configured to:\nreceive information indicative of at least one server computer of a first set of one or more server computers;\nadd the information to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier;\nselect the first server computer based on the information, __wherein the selection is based on real-time analysis of server load, latency, and geographic proximity data, and wherein the media request broker processes http requests containing the unique signature identifying a media request__.\n\n6. Claim 25 (Currently amended): The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker circuitry receives and processes the http request to determine optimal server selection__.\n\n7. Claim 27 (Currently amended): A computer program product for selecting an edge server computer from a plurality of server computers for sending data to a client computer, the computer program product comprising:\na computer-readable medium;\nprogram instructions stored on the medium, the instructions configured to:\naccess a server computer through a path in a computer network, the path including one or more server computers;\nadd information indicative of at least one server computer of a first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier;\nselect the first server computer based on the information, __wherein the program instructions implement a media request broker function that analyzes server performance metrics and generates server selection decisions based on real-time data__.\n\n8. Claim 28 (Currently amended): The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the program instructions further comprise steps for the media request broker to receive the http request and execute a server selection algorithm based on multiple performance factors__.",
+  "usage": {
+    "input_tokens": 2834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1026,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.51,
+  "cost_usd": 0.00637,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:34:20Z"
+}

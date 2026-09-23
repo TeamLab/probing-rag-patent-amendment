@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2011008843",
+  "condition": "baseline",
+  "rep": 2,
+  "proceeding_number": "2011008843",
+  "app_num": "11427495",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19492,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a886940456e8dc1f",
+  "response_text": "1. (Currently amended) A semiconductor device comprising a field effect transistor (FET) having a channel region located in a semiconductor device structure, said semiconductor device structure having a top surface that is oriented along one of a first set of equivalent crystal planes and one or more additional surfaces that are oriented along a second, different set of equivalent crystal planes, wherein one or more stressor layers are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply stress to the channel region of the FET, __and wherein the one or more stressor layers have a different lattice constant from the semiconductor device structure, so that either compressive or tensile stress is created in the stressor layers due to lattice mismatch between the stressor layers and the semiconductor device structure__.\n\n2. (Previously presented) The semiconductor device of claim 1, wherein the one or more stressor layers have a different lattice constant from the semiconductor device structure, so that either compressive or tensile stress is created in the stressor layers due to lattice mismatch between the stressor layers and the semiconductor device structure.\n\n3. (Previously presented) The semiconductor device of claim 2, wherein the one or more stressor layers have a lattice constant larger than that of the semiconductor device structure, so that compressive stress is created in the stressor layers.\n\n4. (Previously presented) The semiconductor device of claim 3, wherein the one or more additional surfaces form acute angles with the top surface of the semiconductor device structure, and said one or more stressor layers apply tensile stress to the channel region of the FET.\n\n19. (Currently amended) A semiconductor device comprising a p-channel field effect transistor (p-FET) having a p-doped channel region located in a semiconductor device structure, said semiconductor device structure having a top surface that is oriented along one of a first set of equivalent crystal planes and one or more additional surfaces that are oriented along a second, different set of equivalent crystal planes, wherein one or more stressor layers are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply compressive stress to the p-doped channel region of the p-FET, __and wherein the one or more stressor layers have a different lattice constant from the semiconductor device structure, so that either compressive or tensile stress is created in the stressor layers due to lattice mismatch between the stressor layers and the semiconductor device structure__.\n\n20. (Previously presented) The semiconductor device of claim 19, wherein the one or more stressor layers have a different lattice constant from the semiconductor device structure, so that either compressive or tensile stress is created in the stressor layers due to lattice mismatch between the stressor layers and the semiconductor device structure.\n\n21. (Previously presented) The semiconductor device of claim 19, wherein the one or more stressor layers have a lattice constant larger than that of the semiconductor device structure, so that compressive stress is created in the stressor layers.",
+  "usage": {
+    "input_tokens": 4748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 646,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 8.73,
+  "cost_usd": 0.02393,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:09:20Z"
+}

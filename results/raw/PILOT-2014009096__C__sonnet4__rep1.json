@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2014009096",
+  "condition": "C",
+  "rep": 1,
+  "proceeding_number": "2014009096",
+  "app_num": "13102968",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14181,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ed0feec21981046d",
+  "response_text": "1. (Currently amended) An automated communications system comprising:\nan input-processing subsystem __implemented using one or more processors and memory__ that processes the messages received from receiving components that each receives messages from a communications medium by forwarding each message directed to a group, subgroup, or user to a routing-and-message-forwarding __module implemented using one or more processors and memory__ which determines whether or not the message is authorized to be forwarded and, when the message is authorized to be forwarded, __forwards__ [[returns]] a corresponding message for each member of the group; and\n__a post-processing subsystem implemented using one or more processors and memory that includes:__\n[[a post-processing subsystem that]] __one or more__ internal __message__ queues [[queues]] __stored in memory__, __wherein the input-processing subsystem__ queues the one or more corresponding messages to __the__ one or more internal __message__ queues;\n__a dequeuing module implemented using one or more processors that__ dequeues messages from the one or more internal message queues;\n__a message processing module implemented using one or more processors that__ processes each message dequeued from the one or more internal message queues to generate one or more processed messages, including modifying either or both of the destination and source addresses included in the message according to stored rules when the stored rules are applicable to the message; and\n__a forwarding module implemented using one or more processors that__ forwards the one or more processed messages to sending components that each sends processed messages to a communications medium.\n\n2. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding __module__ [[component]] determines whether or not the message is authorized to be forwarded by:\nparsing the destination address into an ordered sequence of nodes; and\nfor each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to __the node, and when the source address is not authorized to send a message to the node, returning an indication of failure__ [[the]].\n\n3. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding __module__ [[component]] determines whether or not the message is authorized to be forwarded by:\nparsing the destination address into an ordered sequence of nodes; and\nfor each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by finding information that authorizes the source address stored within the automated communications system, and when the source address is __not__ authorized to send a message to the node, returning an indication of failure.\n\n4. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding __module__ [[component]] determines whether or not the message is authorized to be forwarded by:\nparsing the destination address into an ordered sequence of nodes; and\nfor each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, and when the source address is __not__ authorized to send a message to the node, returning an indication of failure.\n\n5. (Currently amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding __module__ [[component]] determines whether or not the message is authorized to be forwarded by:\nparsing the destination address into an ordered sequence of nodes and/or node-token pairs; and\nfor each node and/or node-token pair of the ordered sequence of nodes and/or node-token pairs, determining whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, by finding information that authorizes the source address stored within the automated communications system, and/or by applying any rules that apply to the message stored within the automated communications system, and, when the source address is not authorized to send a message to the node, returning an indication of failure, and when the source address is authorized to send a message to the node, accessing stored information within the automated communications system to determine whether or not __a__ [[the]] token is valid, when __the__ [[the]] token is not valid, returning __an__ [[and]] indication of failure, and when __the__ [[the]] token is valid, returning an indication of success.",
+  "usage": {
+    "input_tokens": 3539,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 963,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 14.75,
+  "cost_usd": 0.02506,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:08:22Z"
+}

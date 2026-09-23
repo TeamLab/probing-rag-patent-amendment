@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "A",
+  "rep": 2,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10622,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "acae7d01541e2831",
+  "response_text": "1. Claim 15 (Currently amended): A method for selecting an edge server computer from a plurality of server computers for sending data to a client computer, the method comprising the steps of:\naccessing a server computer through a path in a computer network, the path including one or more server computers;\nadding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier, __wherein the information is added by a media request broker that analyzes server load, latency, and geographic proximity data__;\n__receiving, by the client computer, a hyperlink from a web application server, the hyperlink including the unique signature and referencing the data to be sent to the client computer__;\n__generating, by a web browser on the client computer, an HTTP request from the hyperlink, the HTTP request containing the unique signature identifying a media request__;\n__transmitting the HTTP request to the media request broker__;\nselecting the first server computer based on the information __added to the locator and the media request broker's analysis of real-time server performance metrics__; and\nsending the data from the selected first server computer to the client computer.\n\n2. Claim 16 (Currently amended): The method of claim 15, __further comprising the steps of the media request broker receiving the HTTP request containing the unique signature, analyzing the unique signature to identify the requested media resource, and determining which of the plurality of server computers is optimal for delivering the requested media based on current server load, network conditions, and client location__.\n\n3. Claim 17 (Currently amended): The method of claim 15, __wherein the media request broker is a separate network entity distinct from both the client computer and the plurality of server computers, and the media request broker maintains a real-time database of server performance metrics__.\n\n4. Claim 18 (Currently amended): The method of claim 17, __the media request broker selecting the first server computer based on the information and the real-time performance metrics, and returning a server selection response to the client computer identifying the selected first server computer__.\n\n5. Claim 24 (Currently amended): A system for selecting an edge server computer from a plurality of server computers for sending data to a client computer, the system comprising:\na network path including one or more server computers;\na second server computer being a web application server comprising a web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature;\n__a media request broker comprising circuitry for receiving the unique signature from the client computer, analyzing server performance data including load, latency, and geographic proximity, and determining an optimal server selection__;\na first server computer selected from the plurality of server computers __by the media request broker based on analyzed performance data and the unique signature__; and\n__circuitry for the client computer to select the hyperlink and generate an HTTP request containing the unique signature identifying a media request, and transmitting the HTTP request to the media request broker__.\n\n6. Claim 25 (Currently amended): The system of claim 24, __further comprising circuitry for the media request broker to receive the HTTP request, parse the unique signature, and communicate the server selection to the client computer, enabling the client computer to establish a connection with the selected first server computer__.\n\n7. Claim 27 (Currently amended): A computer program product for selecting an edge server computer from a plurality of server computers for sending data to a client computer, the computer program product comprising a computer-readable medium having program instructions stored thereon, the program instructions comprising:\nprogram code for accessing a server computer through a path in a computer network, the path including one or more server computers;\nprogram code for adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier, __wherein the information is added by a media request broker that analyzes server load, latency, and geographic proximity data__;\n__program code for receiving, by the client computer, a hyperlink from a web application server, the hyperlink including the unique signature and referencing the data to be sent to the client computer__;\n__program code for generating, by a web browser on the client computer, an HTTP request from the hyperlink, the HTTP request containing the unique signature identifying a media request__;\n__program code for transmitting the HTTP request to the media request broker__;\nprogram code for selecting the first server computer based on the information __added to the locator and the media request broker's analysis of real-time server performance metrics__; and\nprogram code for sending the data from the selected first server computer to the client computer.\n\n8. Claim 28 (Currently amended): The computer program product of claim 27, __further comprising program code for the media request broker to receive the HTTP request containing the unique signature, analyze the unique signature to identify the requested media resource, and determine which of the plurality of server computers is optimal for delivering the requested media based on current server load, network conditions, and client location__.",
+  "usage": {
+    "input_tokens": 2834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1122,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 10.11,
+  "cost_usd": 0.00676,
+  "attempts": 1,
+  "timestamp": "2026-04-18T19:37:00Z"
+}

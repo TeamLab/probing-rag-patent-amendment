@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2018000427",
+  "condition": "A",
+  "rep": 1,
+  "proceeding_number": "2018000427",
+  "app_num": "14178780",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13594,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3246c088f5bf9995",
+  "response_text": "Claim 18 (Currently amended): A method for protecting blood vessels during a medical procedure, comprising: positioning the vessel protector system adjacent an open end of at least one blood vessel, wherein the vessel protector system comprises a vessel protector having a body formed from a filtering material with a collapsed configuration and a tubular expanded configuration with an open proximal end and an open distal end, a snare attached to one end of the body, and a pull-wire connected to the snare; and moving a sheath to a second position to deploy the body, whereby the body moves to the tubular expanded configuration covering the open end of the at least one blood vessel to filter blood passing through the body into the at least one blood vessel; __and thereafter contracting the snare by exerting a pulling force on the pull-wire to close the one end of the body prior to moving the sheath to a first position to compress the body to the collapsed configuration__.\n\nClaim 19 (Currently amended): The method according to claim 18, further comprising: __removing the vessel protector system from the patient's body after the snare has been contracted and the body has been compressed to the collapsed configuration__.",
+  "usage": {
+    "input_tokens": 3567,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 254,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 2.63,
+  "cost_usd": 0.00387,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:10:18Z"
+}

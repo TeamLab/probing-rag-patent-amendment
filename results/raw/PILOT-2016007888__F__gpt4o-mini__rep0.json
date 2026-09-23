@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18048,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "87c4db7cd77e73f1",
+  "response_text": "(Currently Amended) Claim 1: A method of using a finger palette to transfer cosmetics from a container to a destination, a. the finger palette including: i. a ring portion that is securable to a finger; and ii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to spread or blend cosmetic product on the surface portion; b. the method including the steps of: i. securing the finger palette to a finger; ii. depositing a cosmetic product onto the surface portion of the finger palette; and iii. transferring the cosmetic product from the surface portion of the finger palette to a destination, wherein the surface portion has a configuration that is distinct from the surface portion of Wu.\n\n(Currently Amended) Claim 4: The method of claim 1 wherein: a. a first quantity of the cosmetic product is deposited onto the surface portion; and b. a second quantity of the cosmetic product is transferred from the surface portion to the destination, the second quantity being smaller than the first quantity and the transferring step includes a specific technique that is not disclosed in Wu.\n\n(Currently Amended) Claim 5: The method of claim 1 wherein: a. the surface portion extends outwardly from a surface center to an outer perimeter; and b. the surface portion is free, from any first point on the outer perimeter to any second point on the outer perimeter, of features that could trap cosmetics and complicate cleaning of the surface portion, wherein the surface portion is designed to facilitate easier cleaning compared to the surface portion of Wu.\n\n(Currently Amended) Claim 6: The method of claim 1 wherein the surface portion is at least substantially without protrusions extending therefrom, and the surface portion is designed to provide a unique user experience that differs from that of Wu.\n\n(Currently Amended) Claim 7: The method of claim 1 wherein the surface portion is at least substantially planar, and the planar aspect of the surface portion is optimized for a specific application technique that is not taught in Wu.\n\n(Currently Amended) Claim 11: The method of claim 1 wherein the finger palette is secured to the finger by passing the finger through the ring portion, and the securing method provides a more secure fit than that described in Wu.",
+  "usage": {
+    "input_tokens": 3994,
+    "output_tokens": 465,
+    "total_tokens": 4459
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.74,
+  "cost_usd": 0.00088,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:46:26Z"
+}

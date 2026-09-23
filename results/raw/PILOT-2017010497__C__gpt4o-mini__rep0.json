@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017010497",
+  "condition": "C",
+  "rep": 0,
+  "proceeding_number": "2017010497",
+  "app_num": "13556032",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14686,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1ddbad6f5c742fd8",
+  "response_text": "Claim 31 (Currently amended): A system for treating obesity, the system comprising: a gastric space filler comprising a first balloon connected to a second balloon by a conduit, wherein the gastric space filler is configured to occupy a substantial volume of a gastric cavity in the human patient in an inflated state; and an instrument throughput channel extending through the conduit, wherein the instrument throughput channel is configured to receive instruments, and wherein the conduit has an axial length that is greater than 5 mm.\n\nClaim 32 (Currently amended): The system of claim 31 wherein the conduit comprises a first lumen in fluid communication with the first balloon, a second lumen in fluid communication with the second balloon, and a third lumen defining the instrument throughput channel.\n\nClaim 33 (Currently amended): The system of claim 31 wherein the conduit has an axial length, and wherein the instrument throughput channel extends along the axial length of the conduit.\n\nClaim 34 (Currently amended): The system of claim 31 wherein the gastric space filler further comprises a coupling mechanism configured to facilitate engagement with a retrieval device for removal of the gastric space filler from the gastric cavity via the esophagus, wherein the coupling mechanism is a suture or plug mechanism.\n\nClaim 35 (Currently amended): The system of claim 31 wherein the first and second balloons are made from at least one of the following: silicone, latex, polyethylene, polyurethane, and nylon, and wherein the first and second balloons are configured to withstand pressures of at least 2 atm.\n\nClaim 36 (Currently amended): The system of claim 31 wherein the conduit comprises an inter-balloon section spacing the first balloon apart from the second balloon, and wherein the inter-balloon section has a length of about 10-40 mm.\n\nClaim 41 (Currently amended): The system of claim 31, further comprising a delivery catheter configured to deliver the gastric space filler to the gastric cavity via an esophagus of the patient, wherein the delivery catheter is configured to receive the gastric space filler in a collapsed state.",
+  "usage": {
+    "input_tokens": 3395,
+    "output_tokens": 404,
+    "total_tokens": 3799
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.55,
+  "cost_usd": 0.00075,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:24:43Z"
+}

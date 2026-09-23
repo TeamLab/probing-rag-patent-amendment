@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2013001277",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2013001277",
+  "app_num": "11479493",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11802,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5394d411d15f979d",
+  "response_text": "1. (Currently amended) A gas generator comprising: a composition containing an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent, and a carboxylic acid as a fuel provided at about 25-75 weight percent, said percentages stated by weight of the total composition; and a desiccant in operable communication with said composition, __wherein said composition is free of sodium azide__.\n\n2. (Currently amended) The gas generator of claim 1 wherein said desiccant is mixed into said composition at about 10-35 weight percent of the total composition, __and wherein said composition is free of sodium azide__.\n\n3. (Currently amended) The gas generator of claim 1 wherein said desiccant is in vapor communication with, but physically separated from, said composition, and said desiccant is provided in amounts resulting in a mass differential of about -5.0 to 5.0% of the composition after heat aging at 107C for 400 hours, __and wherein said composition is free of sodium azide__.\n\n4. (Currently amended) The gas generator of claim 1 wherein said composition contains an extrusion aid provided at about 0.1-10 weight percent of the total gas generant composition, __and wherein said composition is free of sodium azide__.\n\n5. (Currently amended) The gas generator of claim 4 wherein said extrusion aid is selected from graphite, fumed silica, and mixtures thereof, __and wherein said composition is free of sodium azide__.\n\n6. (Currently amended) The gas generator of claim 1 wherein said alkali metal chlorate is potassium chlorate, __and wherein said composition is free of sodium azide__.\n\n7. (Currently amended) The gas generator of claim 1 wherein said carboxylic acid is selected from tartaric acid and its isomers, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof, __and wherein said composition is free of sodium azide__.\n\n8. (Currently amended) The gas generator of claim 1 wherein said carboxylic acid is DL-tartaric acid, __and wherein said composition is free of sodium azide__.\n\n9. (Original) A gas generating system comprising: a gas generator comprising a composition, said composition containing an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent, and said composition further containing a carboxylic acid as a fuel provided at about 25-75 weight percent, said percentages stated by weight of the total gas generant composition; and a desiccant in operable communication with said composition.\n\n10. (Original) The gas generating system of claim 9 wherein said desiccant is mixed into said composition at about 10-35 weight percent of the total composition.\n\n11. (Original) The gas generating system of claim 9 wherein said desiccant is in vapor communication with, but physically separated from, said composition.\n\n12. (Original) The gas generating system of claim 9 wherein said system is a vehicle occupant protection system.\n\n13. (Currently amended) A composition comprising: an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent; a carboxylic acid as a fuel provided at about 25-75 weight percent; and a desiccant provided at about 5-35 weight percent, said percentages stated by weight of the total gas generant composition, __wherein said composition is free of sodium azide__.\n\n14. (Currently amended) The composition of claim 13 wherein said carboxylic acid is selected from tartaric acid and its isomers, DL-tartaric acid, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof, __and wherein said composition is free of sodium azide__.\n\n15. (Currently amended) The composition of claim 13 wherein said alkali metal chlorate is potassium chlorate, __and wherein said composition is free of sodium azide__.\n\n16. (Currently amended) The composition of claim 13 wherein said desiccant is selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide, __and wherein said composition is free of sodium azide__.\n\n17. (Currently amended) The composition of claim 13 wherein said desiccant is zeolite, __and wherein said composition is free of sodium azide__.\n\n18. (Currently amended) The composition of claim 13 wherein said desiccant is selected to provide a mass differential of about -5.0% to 5.0% after heat aging at 107C for 400 hours, __and wherein said composition is free of sodium azide__.",
+  "usage": {
+    "input_tokens": 3491,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1061,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 19.25,
+  "cost_usd": 0.02639,
+  "attempts": 1,
+  "timestamp": "2026-04-19T00:29:51Z"
+}

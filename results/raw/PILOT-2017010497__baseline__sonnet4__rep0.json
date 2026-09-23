@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017010497",
+  "condition": "baseline",
+  "rep": 0,
+  "proceeding_number": "2017010497",
+  "app_num": "13556032",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14677,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "237dd6919b7d505e",
+  "response_text": "31. (Currently amended) A system for treating obesity, the system comprising:\na gastric space filler comprising a first balloon connected to a second balloon by a conduit, wherein the gastric space filler is configured to occupy a substantial volume of a gastric cavity in the human patient in an inflated state; and\nan instrument throughput channel extending through the conduit, wherein the instrument throughput channel is configured to receive __therapeutic instruments for performing therapeutic procedures within the gastric cavity__.\n\n32. (Currently amended) The system of claim 31 wherein the conduit comprises a first lumen in fluid communication with the first balloon, a second lumen in fluid communication with the second balloon, and a third lumen defining the instrument throughput channel, __wherein the first lumen, second lumen, and third lumen extend substantially parallel to each other through the conduit__.\n\n33. (Currently amended) The system of claim 31 wherein the conduit has an axial length, and wherein the instrument throughput channel extends along the axial length __and is configured to allow passage of therapeutic instruments having a length greater than the axial length of the conduit__.\n\n34. (Cancelled)\n\n35. (Currently amended) The system of claim 31 wherein the first and second balloons are made from __a biocompatible elastomeric material selected from__ at least one of the following: silicone, latex, polyethylene, polyurethane, and nylon.\n\n36. (Currently amended) The system of claim 31 wherein the conduit comprises an inter-balloon section spacing the first balloon apart from the second balloon, and wherein the inter-balloon section has a length of about __15-35__ mm.\n\n41. (Currently amended) The system of claim 31, further comprising a delivery catheter configured to deliver the gastric space filler to the gastric cavity via an esophagus of the patient, wherein the delivery catheter is configured to receive the gastric space filler in a collapsed state __and wherein the delivery catheter includes a lumen that aligns with the instrument throughput channel when the gastric space filler is loaded in the delivery catheter__.\n\n42. (Currently amended) A gastric space filler system, comprising:\na conduit having a first end and a second end opposite the first end, wherein the first end is operably coupled to a first balloon and the second end is operably coupled to a second balloon;\na first lumen through the conduit, wherein the lumen is configured for fluid infusion into the first balloon;\na second lumen through the conduit, wherein the second lumen is configured for fluid infusion into the second balloon; and\na third lumen extending through the conduit, wherein the third lumen is configured for __therapeutic__ instrument throughput __and has a diameter sufficient to accommodate endoscopic instruments__.\n\n43. (Currently amended) The gastric space filler system of claim 42 wherein:\nthe first lumen extends from the first end of the conduit to the first balloon; and\nthe second lumen extends from the first end of the conduit to the second balloon__; and\nwherein the first lumen and second lumen are fluidly isolated from the third lumen__.\n\n44. (Currently amended) The gastric space filler system of claim 42 wherein the third lumen extends from the first end of the conduit to a second end of the conduit __and maintains a substantially constant cross-sectional area along its length__.\n\n45. (Currently amended) The gastric space filler system of claim 42, further comprising a coupling mechanism at the first end of the conduit, wherein the coupling mechanism is configured for __therapeutic__ instrument throughput into the third lumen and configured to couple to a delivery catheter and/or a filling tube __and wherein the coupling mechanism includes a sealed interface that maintains fluid isolation between the third lumen and the first and second lumens__.\n\n46. (Currently amended) The gastric space filler system of claim 42 wherein the gastric space filler system is configured for delivery through an esophagus of a patient to a stomach of the patient __and wherein the third lumen is configured to remain patent during delivery and deployment__.\n\n47. (Currently amended) The gastric space filler system of claim 42 wherein the conduit is configured for attachment to a delivery catheter, and wherein the third lumen of the conduit is configured to receive __a therapeutic__ instrument passed through the delivery catheter __and wherein the third lumen provides a continuous pathway for instrument passage from the delivery catheter through the conduit__.",
+  "usage": {
+    "input_tokens": 3893,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 995,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 16.72,
+  "cost_usd": 0.0266,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:58:17Z"
+}

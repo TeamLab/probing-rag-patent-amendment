@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2020002332",
+  "condition": "D",
+  "rep": 2,
+  "proceeding_number": "2020002332",
+  "app_num": "12406916",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16469,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fd0da9794f3da02a",
+  "response_text": "1. (Currently amended) A method for providing an electronic value certificate to a mobile device, the method comprising: utilizing a certificate selection device to generate electronic certificate selection information; providing the electronic certificate selection information and associated recipient data to a merchant server; receiving, from the merchant server, electronic value certificate data derived from the certificate selection information and the associated recipient data; establishing a communications link with a mobile device corresponding to the recipient data; and provisioning the electronic value certificate data on the mobile device over the communications link via __over the air (OTA) communications, wherein the electronic value certificate data is personalized based on the recipient data and includes at least one of a certificate authorization code, a barcode image, or a URL link to a barcode__.\n\n2. (Original)\n\n3. (Original)\n\n4. (Original)\n\n5. (Currently amended) The method of claim 1 wherein the electronic value certificate data comprises a short message service (SMS) message containing a uniform resource locator (URL) link to a web page displaying a barcode.\n\n6. (Currently amended) The method of claim 1 wherein the electronic value certificate data comprises a control short message service (SMS) message instructing the mobile device to download at least one barcode image of at least one coupon associated with the certificate selection information.\n\n7. (Currently amended) The method of claim 1 wherein establishing a communications link with a mobile device comprises: sending a control short message service (SMS) message to the mobile device associated with the recipient data; and receiving, from the mobile device, an electronic value certificate download request for the electronic value certificate data.\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Currently amended) The method of claim 1 wherein the mobile device comprises a first near field communication (NFC) enabled device, and is configured to transfer the electronic value certificate to a second NFC enabled mobile device.\n\n13. (Currently amended) A system for electronically providing an electronic value certificate to a mobile device, the system comprising: a merchant server for receiving certificate selection information related to the selection of an electronic value certificate and associated recipient data from a certificate selection device and generating electronic value certificate data that is personalized based on the recipient data; and an over the air (OTA) provisioning server for receiving the electronic value certificate data from the merchant server, establishing a communications link with a mobile device associated with recipient data, and provisioning the electronic value certificate data to the mobile device over the communications link via over the air (OTA) communications, __wherein the electronic value certificate data includes at least one of a certificate authorization code, a barcode image, or a URL link to a barcode__.\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Currently amended) The system of claim 13 wherein the electronic value certificate data comprises a short message service (SMS) message containing a uniform resource locator (URL) link to a web page displaying a barcode.\n\n18. (Currently amended) The system of claim 13 wherein the electronic value certificate data comprises a control short message service (SMS) message instructing the mobile device to download at least one barcode image of at least one coupon associated with the certificate selection information.\n\n19. (Currently amended) The system of claim 13 wherein the OTA provisioning server is further configured to send a control short message service (SMS) message to the mobile device associated with the recipient data, and receive, from the mobile device, an electronic value certificate download request for the electronic value certificate data.\n\n20. (Original)\n\n21. (Original)\n\n22. (Original)\n\n23. (Original)\n\n24. (Currently amended) The system of claim 13 wherein the mobile device comprises a first near field communication (NFC) enabled device, and is configured to transfer the electronic value certificate to a second NFC enabled mobile device.\n\n25. (Cancelled)",
+  "usage": {
+    "input_tokens": 4036,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 848,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 6.14,
+  "cost_usd": 0.00662,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:35:47Z"
+}

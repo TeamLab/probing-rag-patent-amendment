@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "B",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 64634,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "eaf1f44d5cf04ee8",
+  "response_text": "281. (Currently amended) A tool comprising a lamination of at least two layers and at least two adhesive layers, the tool comprising first and second layers, a first adhesive layer configured to be cured on the first layer, a second adhesive layer configured to be cured on the second layer, the first adhesive layer and the second adhesive layer configured to be cured to each other, the tool __having__ a circular shape and __including__ a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to __a segmented weld ring at__ an outer perimeter of the first and second layers, __and__ a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer.\n\n282. (Currently amended) The tool of claim 281 wherein the segmented weld ring is __at least partially__ interposed between the perimeter of the first and second layers and the plurality of arc-shaped cutting segments.\n\n283. (Previously presented) The tool of claim 281 wherein the medial section comprises a metal.\n\n284. (Previously presented) The tool of claim 283 wherein the metal is a honeycomb structure.\n\n285. (Currently amended) The tool of claim 281 wherein the medial section is a composite material __and wherein the segmented weld ring is not continuous__.\n\n286. (Previously presented) The tool of claim 285 wherein the medial section comprises a metal.\n\n287. (Previously presented) The tool of claim 286 wherein the metal is a honeycomb structure.\n\n288. (Previously presented) The tool of claim 285 wherein the medial section is a composite material.\n\n289. (Cancelled)\n\n290. (Currently amended) The tool of claim 285 further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring, and wherein the inner ring includes __a__ central opening.\n\n291. (Currently amended) The tool of claim 290 wherein the inner ring includes a central opening for accommodating a drive shaft.\n\n293. (Currently amended) The tool of claim 281 wherein the first layer and the second layer are steel outer blade cores.\n\n294. (Currently amended) The tool of claim 293 wherein the medial section comprises a honeycomb material.\n\n295. (Cancelled)",
+  "usage": {
+    "input_tokens": 14096,
+    "output_tokens": 497,
+    "total_tokens": 14593
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.1,
+  "cost_usd": 0.02259,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:42:03Z"
+}

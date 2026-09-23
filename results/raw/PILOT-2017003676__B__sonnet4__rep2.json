@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-sonnet-4-20250514",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12093,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "adcbb710928e9f92",
+  "response_text": "1. (Currently amended) A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium __consisting essentially of water__; (b) obtaining DNA from the shed cellular material __by exposing the shed cellular material to cold and then heat followed by agitation__; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos.\n\n2. (Cancelled)\n\n3. (Currently amended) The method of claim 1 wherein __said cold, heat, and agitation steps are repeated__.\n\n4. (Currently amended) The method of claim 3 wherein said cold, heat, and agitation steps are repeated __at least three times__.\n\n5. (Currently amended) The method of claim 1 wherein the DNA is obtained by heating of the shed cellular material and agitation __wherein said heat and agitation steps are repeated__.\n\n6. (Currently amended) The method of claim 5 wherein said heat and agitation steps are repeated __at least three times__.\n\n7. (Currently amended) The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with an enzyme __selected from the group consisting of cellulase, pectinase, and hemicellulase__.\n\n8. (Currently amended) The method of claim 7 wherein the enzyme is __cellulase or__ VISCOZYME®.\n\n9. (Currently amended) The method of claim 1 wherein obtaining DNA from the shed cellular material comprises extracting the DNA __using a commercial DNA extraction kit__.\n\n10. (Currently amended) The method of claim 9, wherein said extracting is performed by adding magnetic particles to the shed cellular material __wherein the magnetic particles are silica-coated__.\n\n11. (Currently amended) The method of claim 1 wherein the one or more embryos comprise one or more immature embryos __that are less than 20 days after pollination__.\n\n12. (Currently amended) The method of claim 1 further comprising storing the one or more embryos prior to step (c) or (d) __in a quiescent condition__.\n\n13. (Currently amended) The method of claim 1, wherein said molecular analysis is genotyping __for trait-specific markers__.\n\n14. (Currently amended) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads __wherein the genotyping is performed using real-time PCR__.\n\n15. (Currently amended) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant __for agronomic traits__.\n\n16. (Currently amended) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed __using multiple displacement amplification__.\n\n17. (Currently amended) The method of claim 13 further comprising selecting one or more embryos based on genotype __for desired agronomic traits__.\n\n18. (Currently amended) The method of claim 17 further comprising germinating the one or more selected embryos __within 48 hours of selection__.\n\n19. (Currently amended) The method of claim 18 wherein __the steps of collecting shed cellular material, obtaining DNA, and performing molecular analysis__ resulting in selection of one or more embryos __are__ automated.",
+  "usage": {
+    "input_tokens": 3585,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 821,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 16.3,
+  "cost_usd": 0.02307,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:55:21Z"
+}

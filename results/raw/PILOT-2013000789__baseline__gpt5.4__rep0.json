@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "baseline",
+  "rep": 0,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15090,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "94132e565c14c3d5",
+  "response_text": "1. (Currently amended) A humeral implant comprising a first __humeral surface component__ removably attached to a second component, __wherein the second component is a stem adapted to be anchored in an epiphyseal-metaphyseal portion of a humerus__.\n\n2. (Currently amended) The humeral implant of claim 1 wherein said first component is a humeral surface __component__ and said second component is a removably attached stem.\n\n3. (Currently amended) The implant of claim 2 wherein said humeral surface __component__ has a coronal radius of curvature and an axial radius of curvature, __and wherein said humeral surface component has a concave undersurface__.\n\n9. (Previously presented) The implant of claim 3 wherein said humeral surface is spherically or elliptically shaped.\n\n12. (Currently amended) The implant of claim 3 further comprising a concave undersurface __configured for receiving__ bony ingrowth material.\n\n13. (Previously presented) The implant of claim 3 wherein said humeral surface has a smooth articulating surface.\n\n20. (Currently amended) The implant of claim 2 wherein said removably attached stem has [[a variable length wherein said stem extends]] __one of a plurality of different lengths, each length being selected such that the stem extends__ from a lateral cortex of said humerus to a center of a head of said humerus.\n\n21. (Currently amended) The implant of claim 2 wherein said humeral surface __component__ connects to said removably attached stem.\n\n22. (Currently amended) The implant of claim 21 wherein said humeral surface __component__ connects to said removably attached stem by a technique selected from the group consisting of morse taper, and a screw, __wherein the connection is a morse taper__.\n\n27. (Currently amended) A __glenohumeral joint implant comprising__ an implant adapted to be implanted in a glenohumeral joint to provide a transhumeral portal along a central axis of a neck of a proximal humerus.\n\n28. (Currently amended) The glenohumeral joint __implant__ of claim 27 wherein said implant is a humeral implant.\n\n29. (Currently amended) A __humerus bone implant__ comprising a modular implant with a humeral surface __component__ and a stem, wherein said stem is __adapted to be__ anchored in the epiphyseal-metaphyseal portion of said humerus bone.\n\n30. (Previously presented) The repaired humerus bone of claim 29 wherein said stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n31. (Previously presented) The repaired humerus bone of claim 30 wherein said stem is linear.",
+  "usage": {
+    "input_tokens": 3813,
+    "output_tokens": 573,
+    "total_tokens": 4386
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.26,
+  "cost_usd": 0.0105,
+  "attempts": 1,
+  "timestamp": "2026-04-18T23:07:39Z"
+}

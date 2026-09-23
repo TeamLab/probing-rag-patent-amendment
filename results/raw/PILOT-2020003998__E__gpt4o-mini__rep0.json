@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "E",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 64759,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e13ed902b6b4d164",
+  "response_text": "Claim 281 (Currently amended): A tool comprising: a lamination of at least two layers; a first adhesive layer and a second adhesive layer, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of a medial section; and an additional adhesive layer, wherein the first adhesive layer and the second adhesive layer are aligned with the additional adhesive layer.\n\nClaim 290 (Currently amended): The tool of claim 281, wherein the medial section comprises a metal honeycomb structure.\n\nClaim 291 (Currently amended): The tool of claim 290, wherein the ring includes __a__ central opening. \n\nClaim 293 (Currently amended): The tool of claim 281, further including a weld ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments.\n\nClaim 294 (Currently amended): The tool of claim 293, wherein the weld ring is continuous.",
+  "usage": {
+    "input_tokens": 14124,
+    "output_tokens": 185,
+    "total_tokens": 14309
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.75,
+  "cost_usd": 0.00223,
+  "attempts": 1,
+  "timestamp": "2026-04-18T21:26:27Z"
+}

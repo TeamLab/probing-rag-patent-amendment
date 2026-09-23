@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2018007979",
+  "condition": "A",
+  "rep": 0,
+  "proceeding_number": "2018007979",
+  "app_num": "15184502",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12286,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4eaff527f0f7297e",
+  "response_text": "1. (Currently amended) A moving picture coding device comprising:\na merging motion information candidate generation unit configured to generate a plurality of merging motion information candidates including a temporal merging motion information candidate derived from a prediction block of a coded picture different from a picture having a prediction block subject to coding;\na merging motion information selection unit configured to select one merging motion information candidate from the plurality of merging motion information candidates and to use the selected merging motion information candidate as motion information of the prediction block subject to coding; and\na coding unit configured to code an index for specifying the selected merging motion information candidate as a candidate specifying index,\nwherein the temporal merging motion information candidate is shared for all prediction blocks in a coding block consisting of greater than or equal to one prediction block.\n\n2. (Currently amended) A transmitting device comprising:\na packet processing unit configured to packetize a bitstream coded by a moving picture coding method; and\na transmitting unit configured to transmit the coding data that has been packetized,\nwherein the moving picture coding method adapted to code a coding block consisting of greater than or equal to one prediction block includes:\nderiving a temporal merging motion information candidate shared for all the prediction blocks in the coding block from a prediction block of a coded picture different from a picture having a prediction block subject to coding;\ngenerating a plurality of merging motion information candidates including the temporal merging motion information candidate;\nselecting one merging motion information candidate from the plurality of merging motion information candidates and using the selected merging motion information candidate as motion information of the prediction block subject to coding; and\ncoding an index for specifying the selected merging motion information candidate as a candidate specifying index.\n\n3. (Currently amended) A transmitting method comprising:\npacketizing a bitstream coded by a moving picture coding method; and\ntransmitting the coding data that has been packetized,\nwherein the moving picture coding method adapted to code a coding block consisting of greater than or equal to one prediction block includes:\nderiving a temporal merging motion information candidate shared for all the prediction blocks in the coding block from a prediction block of a coded picture different from a picture having a prediction block subject to coding;\ngenerating a plurality of merging motion information candidates including the temporal merging motion information candidate;\nselecting one merging motion information candidate from the plurality of merging motion information candidates and using the selected merging motion information candidate as motion information of the prediction block subject to coding; and\ncoding an index for specifying the selected merging motion information candidate as a candidate specifying index.",
+  "usage": {
+    "input_tokens": 3098,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 5.1,
+  "cost_usd": 0.00469,
+  "attempts": 1,
+  "timestamp": "2026-04-18T20:05:16Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "E",
+  "rep": 2,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15740,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e138b2c4d89457d3",
+  "response_text": "1. (Currently amended) A method of using a finger palette to transfer cosmetics from a container to a destination,  \na. the finger palette including:  \ni. a ring portion that is securable to a finger; and  \nii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to spread or blend cosmetic product on the surface portion, __the surface portion extending outwardly from a surface center to an outer perimeter and being free, from any first point on the outer perimeter to any second point on the outer perimeter, of features that could trap cosmetics and complicate cleaning of the surface portion__;  \nb. the method including the steps of:  \ni. securing the finger palette to a finger;  \nii. depositing a cosmetic product onto the surface portion of the finger palette; and  \niii. transferring the cosmetic product from the surface portion of the finger palette to a destination.\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Cancelled)\n\n11. (Currently amended) The method of claim 1 wherein the finger palette is secured to the finger by passing the finger through the ring portion.",
+  "usage": {
+    "input_tokens": 3561,
+    "output_tokens": 242,
+    "total_tokens": 3803
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.46,
+  "cost_usd": 0.00687,
+  "attempts": 1,
+  "timestamp": "2026-04-18T16:53:12Z"
+}

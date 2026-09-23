@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openai",
+  "model": "gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23949,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "de545828649549b1",
+  "response_text": "1) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than 2000 Da and a polyanion, said nanoparticle having a size of less than one micron, wherein said polyanion is not limited to sodium polyvinyl sulfonate.\n\n2) (Currently Amended) The composition of claim 1, said polyelectrolyte complex nanoparticle intimately associated with a multivalent cation crosslinker, wherein said multivalent cation crosslinker is not limited to zirconium compounds.\n\n3) (Currently Amended) The composition of claim 1, wherein said polyalkylenimine is polyethylenimine, and the molecular weight is less than 2000 Da.\n\n4) (Currently Amended) The composition of claim 1, wherein said polyanion is selected from sodium polyvinyl sulfonate, poly (sodium acrylate), poly(sodium styrene sulfonate), copolymers of sodium acrylate with sodium vinylsulfonate or sodium styrene sulfonate; dextran sulfate, and anionic surfactants, and wherein the polyanion is not limited to sodium salts.\n\n5) (Currently Amended) The composition of claim 2, wherein said multivalent cation crosslinker is a complexed zirconium compound selected from the group consisting of zirconium acetate, sodium zirconium lactate, zirconium sulfate, zirconium tetrachloride, zirconium orthosulfate, zirconium oxychloride, zirconium carbonate, zirconium ammonium carbonate, zirconium acetylacetonate, aluminum chloride, aluminum sulfate, aluminum citrate, tin chloride, tin sulfate, iron chloride, iron nitrate, titanium chloride, and titanium sulfate, and wherein the crosslinker is not limited to zirconium.\n\n6) (Currently Amended) The composition of claim 1, further comprising monovalent or divalent cations selected from the group consisting of sodium, potassium, magnesium or calcium ions, wherein the cations are not limited to these examples.\n\n8) (Currently Amended) The composition of claim 1, wherein said polyelectrolyte complex comprises a nanoparticle with an average particle size of about 100 to 900 nm in diameter, wherein the size range is not limited to this specification.\n\n10) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron, wherein the composition is not limited to PVS.\n\n12) (Currently Amended) The composition of claim 10, said nanoparticle entrapping a multivalent cation, wherein the cation is not limited to zirconium.\n\n13) (Currently Amended) The composition of claim 12, said multivalent cation comprising Zr, Cr, Ti, Fe or Al, wherein the multivalent cation is not limited to these examples.\n\n21) (Currently Amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer that can be crosslinked with a); and c) a fluid, wherein the polymer is not limited to acrylate-based polymers.\n\n24) (Currently Amended) The composition of claim 21, where said polymer is a polymer or copolymers of acrylate, acrylamide, N,N-dimethylacrylamide, tert-butyl acrylate, acryamido-2-methylpropane sulfonic acid, or sodium 2-acryamido-2-methylpropane sulfonate, or N,N-dimethylacrylamide, wherein the polymer is not limited to these examples.\n\n26) (Currently Amended) The composition of claim 21, where fluid is brine or seawater, wherein the fluid is not limited to these examples.",
+  "usage": {
+    "input_tokens": 5896,
+    "output_tokens": 829,
+    "total_tokens": 6725
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.96,
+  "cost_usd": 0.00138,
+  "attempts": 1,
+  "timestamp": "2026-04-18T17:03:12Z"
+}

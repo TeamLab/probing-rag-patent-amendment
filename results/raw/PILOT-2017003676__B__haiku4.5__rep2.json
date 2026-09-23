@@ -1,0 +1,41 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "B",
+  "rep": 2,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12093,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "adcbb710928e9f92",
+  "response_text": "1. (Currently amended) A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium __that does not chemically disrupt the embryo cell wall__; (b) obtaining DNA from the shed cellular material __by a method comprising exposing the shed cellular material to cold and then heat followed by agitation__; (c) performing a molecular analysis of the DNA obtained in step (b) __wherein the molecular analysis comprises genotyping__; and (d) germinating at least one of said one or more embryos __and selecting one or more embryos based on the genotype prior to germination__.\n\n2. (Currently amended) The method of claim 1 wherein the non-destructive medium consists essentially of water __and the embryos are immature embryos__.\n\n3. (Currently amended) The method of claim 1 wherein the DNA is obtained by exposing the shed cellular material to cold and then heat followed by agitation __wherein said cold, heat, and agitation steps are repeated at least twice__.\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Currently amended) The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with an enzyme __selected from cell wall degrading enzymes other than those disclosed in Bullock__.\n\n8. (Cancelled)\n\n9. (Currently amended) The method of claim 1 wherein obtaining DNA from the shed cellular material comprises extracting the DNA __by a method other than direct use of the soaking solution as template__.\n\n10. (Currently amended) The method of claim 9, wherein said extracting is performed by adding magnetic particles to the shed cellular material __and performing magnetic separation__.\n\n11. (Currently amended) The method of claim 1 wherein the one or more embryos comprise one or more immature embryos __that are corn embryos__.\n\n12. (Currently amended) The method of claim 1 further comprising storing the one or more embryos prior to step (c) or (d) __in a quiescent condition__.\n\n13. (Previously presented) The method of claim 1, wherein said molecular analysis is genotyping.\n\n14. (Currently amended) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads __and further comprises whole genome amplification prior to said genotyping__.\n\n15. (Currently amended) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant __to correlate phenotype with the genotype determined in step (c)__.\n\n16. (Currently amended) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed __on the extracted DNA__.\n\n17. (Currently amended) The method of claim 13 further comprising selecting one or more embryos based on genotype __wherein the selection is based on predetermined genotype criteria__.\n\n18. (Currently amended) The method of claim 17 further comprising germinating the one or more selected embryos __and growing said embryos into plants__.\n\n19. (Currently amended) The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is automated __using a robotic system__.",
+  "usage": {
+    "input_tokens": 3585,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 799,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "stop_reason": "end_turn",
+  "latency_sec": 7.7,
+  "cost_usd": 0.00606,
+  "attempts": 1,
+  "timestamp": "2026-04-18T15:45:07Z"
+}
