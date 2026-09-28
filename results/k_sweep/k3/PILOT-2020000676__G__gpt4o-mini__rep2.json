@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000676",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2020000676",
+  "app_num": "14634241",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21977,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "48ecd53910fceb14",
+  "response_text": "(Currently Amended) Claim 1: A system configured to process a plurality of sheets of sheet material, the system comprising: a sheet-accepting device configured to receive the plurality of sheets; at least one sensor configured to read an identifier on each sheet of the plurality of sheets, wherein one of said at least one sensor is further configured to detect anomaly information for the sheet, the anomaly information identifying an anomalous characteristic of the sheet; a processing system configured to determine, for each sheet of the plurality of sheets, information about the sheet from the identifier on the sheet, the information about the sheet including: accounting information for the sheet, the accounting information identifying an account associated with the sheet; and deposit information for the sheet, the deposit information comprising information about a deposit including the sheet, and the information about the deposit including a value associated with the deposit, wherein, for each sheet of the plurality of sheets, the processing system is further configured to perform a reconciling process when the anomaly information indicates a first anomalous characteristic of the sheet, the reconciling process comprising one or more of: debiting the account associated with the sheet based on the value associated with the deposit that included the sheet; and crediting the account associated with the sheet based on the value associated with the deposit including the sheet.\n\n(Currently Amended) Claim 2: The system according to claim 1, wherein the plurality of sheets are all sheets that have been previously associated with an anomalous characteristic and rejected based on said characteristic in a previous sheet handling process, and wherein the accounting information for each sheet and the deposit information for each sheet were associated with the identifier on the sheet as part of the previous sheet handling process.\n\n(Currently Amended) Claim 8: A method for processing one or more of a plurality of sheets of sheet material, the method comprising: receiving one or more sheet of the plurality of sheets in a sheet-accepting device; reading, by at least one sensor, an identifier on each sheet of the plurality of sheets, wherein reading the identifier further comprises detecting anomaly information for the sheet, the anomaly information identifying an anomalous characteristic of the sheet; determining, for each sheet of the plurality of sheets, information about the sheet from the identifier on the sheet, the information about the sheet including: accounting information for the sheet, the accounting information identifying an account associated with the sheet; and deposit information for the sheet, the deposit information comprising information about a deposit including the sheet, and the information about the deposit including a value associated with the deposit; and performing a reconciling process when the anomaly information indicates a first anomalous characteristic of the sheet, the reconciling process comprising one or more of: debiting the account associated with the sheet based on the value associated with the deposit that included the sheet; and crediting the account associated with the sheet based on the value associated with the deposit including the sheet.",
+  "usage": {
+    "input_tokens": 4397,
+    "output_tokens": 589,
+    "total_tokens": 4986
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.56,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:09:40Z"
+}

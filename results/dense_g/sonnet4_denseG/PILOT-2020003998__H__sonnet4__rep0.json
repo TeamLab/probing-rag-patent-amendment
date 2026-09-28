@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "",
+    "test_subsection": "(b)",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020001254",
+      "PILOT-2015001339",
+      "PILOT-2019002800"
+    ],
+    "retrieved_app_nums": [
+      "14634687",
+      "13470326",
+      "14043279"
+    ],
+    "retrieved_scores": [
+      0.8318,
+      0.8266,
+      0.8254
+    ],
+    "retrieved_chars_total": 3344,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 68348,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2ba89966d8b2bb39",
+  "response_text": "281. (Currently Amended) A tool comprising a lamination of at least two layers and at least two adhesive layers, the tool comprising first and second layers, a first adhesive layer configured to be cured on the first layer, a second adhesive layer configured to be cured on the second layer, __an additional adhesive layer,__ the first adhesive layer and the second adhesive layer configured to be cured to each other, the tool has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the first and second layers, a medial section, wherein __the additional adhesive layer and__ the __second__ adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are __in registration with__ the __additional__ adhesive layer and the __second__ adhesive layer.\n\n282. (Previously presented) The tool of claim 281 wherein the medial section comprises a metal.\n\n283. (Previously presented) The tool of claim 282 wherein the metal is a honeycomb structure.\n\n284. (Previously presented) The tool of claim 281 wherein the medial section is a composite material.\n\n285. (Previously presented) The tool of claim 281 further including a weld ring at least partially interposed between the perimeter of the first and second layers.\n\n286. (Previously presented) The tool of claim 285 wherein the weld ring is bonded to the medial section.\n\n287. (Previously presented) The tool of claim 285 wherein the plurality of cutting segments are also welded to an outer perimeter of the weld ring.\n\n288. (Previously presented) The tool of claim 285 wherein the weld ring is continuous.\n\n289. (Previously presented) The tool of claim 285 wherein the weld ring is segmented.\n\n290. (Previously presented) The tool of claim 285 further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring.\n\n291. (Currently Amended) The tool of claim 290 wherein the inner ring includes __a__ central opening.\n\n292. (Previously presented) The tool of claim 291 wherein the central opening accommodates a drive shaft.\n\n293. (Previously presented) The tool of claim 281 further including a weld ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, such that the plurality of cutting segments are located on an outer periphery of the weld ring.\n\n294. (Previously presented) The tool of claim 293 wherein the weld ring is continuous.\n\n295. (Previously presented) The tool of claim 293 wherein the weld ring is segmented.",
+  "usage": {
+    "input_tokens": 16304,
+    "output_tokens": 623,
+    "total_tokens": 16927
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.37,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:50:35Z"
+}

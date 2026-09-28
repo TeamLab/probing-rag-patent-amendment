@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016003042",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2016003042",
+  "app_num": "13928760",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23491,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8a9e13d96a005ecf",
+  "response_text": "1. (Currently Amended) A composite stiffener, comprising: first, second and third members formed from laminated composite tape, the first and second members defining a web and flanges extending from the web, the third member being joined to the flanges and extending generally transverse to the web, the first, second and third composite members intersecting to form a void; a filler disposed in and substantially filling the void; at least one layer of composite fabric on each of the members in the area of the filler; and, a layer of __structural__ adhesive surrounding the filler and joining the filler to the composite fabric.\n\n2. (Currently Amended) The composite stiffener of claim 1, wherein the first and second members include radius areas between the web and each of the flanges, and the fabric layer covers the radius areas__,__ [[21 07-1127 82,000-164 SVG13928760.06-27-2013.HIMZ8ZIGPXXIFW2.CLM_10914700.3.331.297.2107.343.svg0.1535.92DrawingBlack and white of adhesive includes a folded sheet of structural adhesive.]] __and wherein the layer of structural adhesive includes a folded sheet__.\n\n3. (Original) The composite stiffener of claim 1, wherein the layer [[of adhesive]] __of structural adhesive__ includes a folded sheet of structural adhesive.\n\n5. (Currently Amended) The composite stiffener of claim 1, wherein the layer of __structural__ adhesive and the at least one layer of composite fabric extend beyond the radius areas.\n\n6. (Currently Amended) The composite stiffener of claim 1, wherein the at least one layer of composite fabric __layers__ of the composite members are offset relative to each other __in a predetermined pattern__.\n\n7. (Currently Amended) A composite stiffener, comprising: a pair of composite channels joined together, each of the channels including a web, flanges extending from the web, and radius areas between the web and each of the flanges; a base extending transverse to the web and joined to each of the flanges, the radius areas of the channels and the base forming at least one radius filler zone; a reinforcing member filling the radius filler zone; a layer of composite fabric covering the radius areas of the channels and the base; and, a layer of __structural__ adhesive surrounding the filler and joining the filler to the composite fabric layer.\n\n12. (Currently Amended) The composite stiffener of claim 7, wherein the __layer of__ composite fabric layer includes three composite patches respectively on each of the channels and the base __positioned at predetermined locations__.\n\n13. (Currently Amended) The composite stiffener of claim 7, wherein the layer of __structural__ adhesive includes a sheet of structural adhesive wrapped around the filler__,__ [[SVG13928760.06-27-2013.HIMZ8ZIGPXXIFW2.CLM_10914702.9.341.1202.2115.1245.svg0.1435.913GraphBlack and white of adhesive extends beyond the radius filler zone into interfacial layers between the channels and between the base and each of the flanges.]] __and wherein the layer of structural adhesive extends beyond the radius filler zone into interfacial layers between the channels and between the base and each of the flanges__.\n\n14. (Currently Amended) The composite stiffener of claim 7, wherein the layer of __structural__ adhesive extends beyond the radius filler zone into interfacial layers between the channels and between the base and each of the flanges.\n\n15. (Currently Amended) The composite stiffener of claim 7, __wherein__ the channels are [[SVG13928760.06-27-2013.HIMZ8ZIGPXXIFW2.CLM_10914702.14.342.1884.1366.1928.svg0.1473.413GraphBlack and white]] __generally C-shaped in cross section__.\n\n25. (Currently Amended) A composite stiffener for aircraft applications, comprising: an I-section structure formed of laminated composite [[SVG13928760.06-27-2013.HIMZ8ZIGPXXIFW2.CLM_10914706.21.341.2329.2119.2377.svg0.165.927ChemistryBlack and white]] __tape and including a web and a pair of__ flanges on each end of the web, the structure including a [[SVG13928760.06-27-2013.HIMZ8ZIGPXXIFW2.CLM_10914706.23.341.2555.2119.2603.svg0.165.927ChemistryBlack and white]] __cap and a base, the structure__ including radius areas between the web and the flanges and [[SVG13928760.06-27-2013.HIMZ8ZIGPXXIFW2.CLM_10914706.25.343.2777.2122.2825.svg0.165.927ChemistryBlack and white]] __wherein the__ cap being joined to the first set of the flanges and the base being joined to the second set of flanges, the cap and the base each intersecting the web in the radius areas to define a radius filler zone; [[SVG13928760.06-27-2013.HIMZ8ZIGPXXIFW2.CLM_10914707.6.471.641.2101.686.svg0.155.433ChemistryBlack and white]] __a layer of composite fabric on the I-__ section structure defining the radius filler zone; a reinforcing filler in the radius filler zone; and [[SVG13928760.06-27-2013.HIMZ8ZIGPXXIFW2.CLM_10914707.9.474.977.2106.1023.svg0.1535.44ChemistryBlack and white]] __a layer of structural adhesive surrounding__ the filler to the composite fabric in the radius filler zone.",
+  "usage": {
+    "input_tokens": 6582,
+    "output_tokens": 1388,
+    "total_tokens": 7970
+  },
+  "stop_reason": "stop",
+  "latency_sec": 17.8,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:52:49Z"
+}

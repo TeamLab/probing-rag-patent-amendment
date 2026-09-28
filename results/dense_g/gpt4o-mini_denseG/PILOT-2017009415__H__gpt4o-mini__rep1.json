@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2017009415",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2017009415",
+  "app_num": "13468920",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018002107",
+      "PILOT-2016008625",
+      "PILOT-2018008770"
+    ],
+    "retrieved_app_nums": [
+      "14593771",
+      "13778839",
+      "13600589"
+    ],
+    "retrieved_scores": [
+      0.9819,
+      0.9287,
+      0.9132
+    ],
+    "retrieved_chars_total": 4201,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17314,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b089879e250e4f11",
+  "response_text": "Claim 1 (currently amended): A catheter system for delivering ultrasonic energy to a treatment site within a body lumen, the catheter comprising: a tubular body having a proximal end, a distal end and an energy delivery section positioned between the proximal end and the distal end; a plurality of ultrasound radiating members positioned within the energy delivery section, the plurality of ultrasound radiating members being allocated into electrical groups comprising more than one ultrasound radiating member; wherein the ultrasound radiating members of one electrical group are spatially interdigitated with the ultrasound radiating members of another electrical group, and wherein the ultrasound radiating members are interdigitated in a non-regular pattern.\n\nClaim 4 (currently amended): The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a non-regular pattern.\n\nClaim 5 (currently amended): The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a non-regular pattern.\n\nClaim 6 (currently amended): A system for treating a patient having pulmonary embolism, the system comprising: a first and a second ultrasound catheter, each of the first and the second ultrasound catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section having at least one ultrasound element, the tubular body also including at least one fluid delivery lumen; and a control system connected to and configured to operate both the first and the second ultrasound catheters.\n\nClaim 7 (currently amended): The system of Claim 6, wherein the control system operates both the first and the second ultrasound catheters simultaneously.\n\nClaim 8 (currently amended): The system of Claim 7, wherein the control system is configured to independently control the ultrasound radiating members on the first and the second ultrasound catheters.",
+  "usage": {
+    "input_tokens": 3923,
+    "output_tokens": 368,
+    "total_tokens": 4291
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.3,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:08:42Z"
+}

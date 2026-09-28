@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020004768",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020004768",
+  "app_num": "14521351",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13656,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5df73bad86d345cd",
+  "response_text": "1. (Currently Amended) A method of treating Argininosuccinate Synthetase Deficiency (ASD), the method comprising administering to a subject in need of treatment a composition comprising an mRNA encoding argininosuccinate synthetase (ASS1) __directly to the liver__ at an effective dose and an administration interval such that at least one symptom or feature of the ASD is reduced in intensity, severity, or frequency or __has its onset delayed__.\n\n2. (Currently Amended) The method of claim 1, wherein the mRNA is encapsulated within a liposome.\n\n3. (Currently Amended) The method of claim 2, wherein the liposome comprises one or more cationic lipids, one or more non-cationic lipids, one or more cholesterol-based lipids and one or more PEG-modified lipids.\n\n4. (Currently Amended) The method of claim 3, wherein the one or more cationic lipids comprise a cationic lipid selected from the group consisting of C12-200, MC3, DLinDMA, DLinkC2DMA, cKK-E12, ICE (Imidazol-based), HGT5000, HGT5001, DODAC, DDAB, DMRIE, DOSPA, DOGS, DODAP, DODMA and DMDMA, DLenDMA, CLinDMA, CpLinDMA, DMOBA, DOcarbDAP, DLinDAP, DLincarbDAP, DLinCDAP, KLin-K-DMA, DLin-K-XTC2-DMA, HGT4003, and combinations thereof.\n\n5. (Original) The method of claim 4, wherein the one or more cationic lipids comprise cKK-E12.\n\n6. (Original) The method of claim 3, wherein the one or more cholesterol-based lipids are cholesterol and/or PEGylated cholesterol.\n\n7. (Currently Amended) The method of claim 3, wherein each cationic lipid constitutes about 30-50% of the liposome by weight.\n\n8. (Currently Amended) The method of claim 3, wherein the ratio of cationic lipid:non-cationic lipid:cholesterol:PEGylated lipid is approximately 40:30:20:10 by molar ratio.\n\n9. (Original) The method of claim 2, wherein the liposome comprises a combination selected from: cKK-E12, DOPE, cholesterol and DMG-PEG2K; C12-200, DOPE, cholesterol and DMG-PEG2K; HGT4003, DOPE, cholesterol and DMG-PEG2K; or ICE, DOPE, cholesterol and DMG-PEG2K.\n\n10. (Original) The method of claim 2, wherein the liposome has a size less than about 100 nm.\n\n11. (Currently Amended) The method of claim 1, wherein the effective dose ranges from about 0.1 - 5.0 mg/kg body weight.\n\n12. (Currently Amended) The method of claim 1, wherein the composition is administered intravenously __directly to the liver__.\n\n13. (Original) The method of claim 1, wherein the composition is administered once a week.\n\n14. (Cancelled)\n\n15. (Currently Amended) The method of claim 1, wherein the administering of the composition results in reduced citrulline level in the subject as compared to the baseline citrulline level before the treatment.\n\n16. (Currently Amended) The method of claim 1, wherein the administering of the composition results in reduced ammonia level in the subject as compared to the baseline ammonia level before the treatment.\n\n17. (Original) The method of claim 1, wherein the mRNA is codon optimized.\n\n18. (Original) The method of claim 17, wherein the codon-optimized mRNA comprises SEQ ID NO:3.\n\n19. (Original) The method of claim 1, wherein the mRNA comprises one or more modified nucleotides.\n\n20. (Cancelled)",
+  "usage": {
+    "input_tokens": 4083,
+    "output_tokens": 975,
+    "total_tokens": 5058
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.79,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:41:17Z"
+}

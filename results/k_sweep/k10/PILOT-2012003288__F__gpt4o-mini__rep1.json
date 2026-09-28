@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 23512,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bb7caabd1d8e37c8",
+  "response_text": "1. (Currently amended) A system comprising: a plurality of network nodes of a local contention neighborhood of a random access network, wherein a first node is configured to transmit to a second node at an access attempt percentage, and wherein the first node and the second node are included in the plurality of network nodes, and wherein each of the nodes is configured to provide an indicia of its inter-node interference to other nodes of the plurality of network nodes, and wherein the first node is configured to adjust the access attempt percentage to transmit to the second node based on one of the provided indicia.\n\n3. (Currently amended) The system of claim 1, wherein the indicia of inter-node interference comprises an indicia of transmission success between the other nodes and the second node.\n\n4. (Currently amended) The system of claim 1, wherein the first node is configured to adjust the access attempt percentage based on the indicia of inter-node interference of the first node divided by an indicia of inter-node interference of one or more of the other nodes interfered with by transmissions from the first node.\n\n14. (Currently amended) The system of claim 13, comprising the first access point, wherein the first access point is configured to broadcast a dynamic weight associated with the second node to the first node, the dynamic weight indicating a measure of performance of the second node.\n\n17. (Currently amended) The system of claim 13, comprising a second access point, wherein the second node communicates with the second access point, and the first node interferes with communication between the second node and the second access point, wherein the first node is adapted to receive an indicia indicating the extent of said interference.",
+  "usage": {
+    "input_tokens": 5383,
+    "output_tokens": 341,
+    "total_tokens": 5724
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.06,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:22:51Z"
+}

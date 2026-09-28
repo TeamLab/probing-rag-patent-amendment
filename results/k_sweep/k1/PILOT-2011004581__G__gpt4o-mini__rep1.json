@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011004581",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2011004581",
+  "app_num": "10906716",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13554,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3ac8e8b93846f9d6",
+  "response_text": "Claim 2 (Currently Amended): The method of claim 1 further comprising: displaying the filtered EPG information on a user interface.\n\nClaim 3 (Currently Amended): The method of claim 1 wherein filtering comprises: obtaining channel accessibility information of the subscriber; and removing EPG information related to a channel that is not within the channel accessibility information of the subscriber.\n\nClaim 4 (Currently Amended): The method of claim 3 wherein obtaining comprises: retrieving channel subscription information of the subscriber from the content delivery provider; and creating a list of channel identifiers of channels accessible to the subscriber from the channel subscription information.\n\nClaim 5 (Currently Amended): The method of claim 3 wherein removing comprises: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of channel identifiers accessible to the subscriber.\n\nClaim 8 (Currently Amended): The article of manufacture of claim 7 wherein the data further comprises data that, when accessed by the machine, causes the machine to perform operations comprising: displaying the filtered EPG information on a user interface.\n\nClaim 9 (Currently Amended): The article of manufacture of claim 7 wherein the data causing the machine to perform filtering comprises data that, when accessed by the machine, causes the machine to perform operations comprising: obtaining channel accessibility information of the subscriber; and removing EPG information related to a channel that is not within the channel accessibility information of the subscriber.\n\nClaim 10 (Currently Amended): The article of manufacture of claim 9 wherein the data causing the machine to perform obtaining comprises data that, when accessed by the machine, causes the machine to perform operations comprising: retrieving channel subscription information of the subscriber from the content delivery provider; and creating a list of channel identifiers of channels accessible to the subscriber from the channel subscription information.\n\nClaim 11 (Currently Amended): The article of manufacture of claim 9 wherein the data causing the machine to perform removing comprises data that, when accessed by the machine, causes the machine to perform operations comprising: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of channel identifiers accessible to the subscriber.\n\nClaim 14 (Currently Amended): The program guide module of claim 13 wherein the enhanced EPG module further comprises: a module to display the filtered EPG information on a user interface.",
+  "usage": {
+    "input_tokens": 3205,
+    "output_tokens": 516,
+    "total_tokens": 3721
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.38,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:30:59Z"
+}

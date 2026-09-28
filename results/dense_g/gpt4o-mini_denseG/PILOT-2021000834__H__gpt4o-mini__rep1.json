@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2021000834",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2021000834",
+  "app_num": "16415181",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "",
+    "test_subsection": "(a)",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2017008513",
+      "PILOT-2017006742",
+      "PILOT-2017001281"
+    ],
+    "retrieved_app_nums": [
+      "13718427",
+      "13849258",
+      "13568390"
+    ],
+    "retrieved_scores": [
+      0.9439,
+      0.9429,
+      0.9382
+    ],
+    "retrieved_chars_total": 3213,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17085,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "53e4fde8960dac96",
+  "response_text": "1. (Currently amended) A column assembly comprising: a chromatography column comprising a compliant seal defining a fluid passage configured to seal against a tapered fluid conduit without the use of a ferrule or a threaded compression screw, wherein the compliant seal is formed of a material that exhibits a defined degree of flexibility.\n\n3. (Currently amended) The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit, wherein the tapered portion is configured to mate with a tapered fluid conduit at a diameter of less than 0.030 inches, and wherein the tapered fluid conduit is defined as a conduit having a decreasing diameter along its length.\n\n7. (Currently amended) The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit, wherein the tapered fluid conduit is defined as a conduit having a decreasing diameter along its length.\n\n9. (Currently amended) The column assembly of claim 1, wherein the compliant seal is formed of a polyimide, polyether-ether-ketone, or a deformable metal, and wherein the compliant seal is characterized by a defined degree of flexibility.\n\n10. (Currently amended) The column assembly of claim 1, further comprising a seal retainer that is removable to allow for removal and replacement of the compliant seal, wherein the seal retainer is configured to maintain the compliant seal in a fixed position during operation. \n\n11. (Currently amended) The column assembly of claim 1, wherein the compliant seal is configured to maintain a seal against a tapered fluid conduit at pressures up to 20,000 psi, and wherein the compliant seal is characterized by a defined degree of flexibility.",
+  "usage": {
+    "input_tokens": 4090,
+    "output_tokens": 346,
+    "total_tokens": 4436
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.14,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:38:41Z"
+}

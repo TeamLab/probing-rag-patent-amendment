@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2019005776",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2019005776",
+  "app_num": "14754496",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "",
+    "test_subsection": "a)(1",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2019001605",
+      "PILOT-2020000948",
+      "PILOT-2016008422"
+    ],
+    "retrieved_app_nums": [
+      "13946814",
+      "14155554",
+      "14171364"
+    ],
+    "retrieved_scores": [
+      0.9552,
+      0.949,
+      0.9461
+    ],
+    "retrieved_chars_total": 4645,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21117,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8ad59c79727eda69",
+  "response_text": "1. (Currently Amended) A computing system for authoring a document, comprising: a user input subsystem including a processor and memory configured to (1) receive first user input identifying content to be included in the document, the identified content being in a first form, and (2) receive second user input specifying a transformation operation to be performed on the identified content in order to transform the identified content from the first form into a second form; and a materialization subsystem including a processor and memory configured to apply the specified transformation operation to transform the identified content from the first form into the second form for display.\n\n2. (Currently Amended) The computing system of claim 1, wherein the first user input received by the user input subsystem identifies a data structure external to the document from which the identified content is available for retrieval.\n\n3. (Currently Amended) The computing system of claim 1, wherein the first user input received by the user input subsystem literally conveys the identified content.\n\n4. (Currently Amended) The computing system of claim 1, wherein the user input subsystem is configured to receive second user input specifying a plurality of transformation operations to be performed on the identified content.\n\n5. (Currently Amended) The computing system of claim 4, wherein the user input subsystem is configured to receive third user input specifying an order among the plurality of transformation operations in which the plurality of transformation operations is to be performed.\n\n6. (Currently Amended) The computing system of claim 4, further comprising a precedence inference subsystem including a processor and memory configured to infer an order among the plurality of transformation operations in which the plurality of transformation operations is to be performed.\n\n7. (Currently Amended) The computing system of claim 1, wherein the user input subsystem is configured to receive the second user input in response to a displayed literal representation of the content identified by the first user input received by the user input subsystem.\n\n8. (Currently Amended) The computing system of claim 1, wherein the user input subsystem is configured to receive the second user input in response to a displayed structural representation of the content identified by the first user input received by the user input subsystem.\n\n9. (Currently Amended) The computing system of claim 1, wherein the user input subsystem is further configured to receive third user input specifying at least one edit to the identified content in the second form, the computer system further comprising: a revision subsystem including a processor and memory configured to edit the identified content in the second form for display in accordance with the at least one edit specified by the third user input received by the user input subsystem.\n\n10. (Currently Amended) The computing system of claim 9, further comprising: a storage subsystem including a processor and memory causing the identified content as edited by the revision subsystem to be stored in the first form.\n\n11. (Original) A computer-readable medium having contents configured to cause a computing system to, in order to materialize a document: retrieve information specifying contents of the document, the retrieved information including a transformation specification, the transformation specification both (1) identifying content within the document that is to be the subject of a transformation operation and (2) specifying a transformation operation that is to be performed upon the identified content; cause the transformation operation specified by the transformation specification to be applied to the content identified by the transformation specification in order to transform the content identified by the transformation specification; and cause to be displayed contents of the document including the content identified by the transformation specification as transformed by the transformation operation specified by the transformation specification.\n\n12. (Original) The computer-readable medium of claim 11, having contents further configured to cause the computing system to cause to be displayed in connection with the content identified by the transformation specification as transformed by the transformation operation specified by the transformation specification an indication of the transformation operation.\n\n13. (Original) The computer-readable medium of claim 12, having contents further configured to cause the computing system to, in response to a user interaction with the displayed indication of the transformation operation, removing the transformation specification from the information specifying contents of the document.\n\n14. (Original) The computer-readable medium of claim 12, having contents further configured to cause the computing system to, in response to a user interaction with the displayed indication of the transformation operation, altering the transformation specification to specify a different transformation operation.\n\n15. (Original) A computer-readable medium storing a document data structure representing a document, the data structure comprising: first information specifying native content of the document; and second information constituting a content incorporation reference specifying incorporation into the document of content stored separately from the document, the second information comprising: a reference usable to retrieve the content stored separately from the document, and third information specifying at least one transformation function to be performed on the content stored separately from the document as part of its incorporation into the document, such that the contents of the data structure are usable to materialize the document to contain both the native content of the document and the content stored separately from the document as transformed by the at least one transformation function.\n\n16. (Original) The computer-readable medium of claim 15, wherein the reference among the second information is a document fragment identifier usable to retrieve the content stored separately from the document from a geographically-distributed online service.\n\n17. (Original) The computer-readable medium of claim 16, wherein the data structure is a document fragment that can be retrieved from the online service using a document fragment identifier different from the document fragment identifier among the second information.\n\n18. (Original) The computer-readable medium of claim 15, wherein the third information specifies a plurality of transformation functions, and wherein the third information further indicates a human-specified order among the plurality of transformation functions.\n\n19. (Original) The computer-readable medium of claim 15, wherein the third information specifies a plurality of transformation functions, and wherein the third information further indicates an automatically-inferred order among the plurality of transformation functions.\n\n20. (Original) The computer-readable medium of claim 15, wherein the third information specifies a transformation function selected from among a data charting transformation function, a natural language summarization transformation function, and a natural language translation transformation function.",
+  "usage": {
+    "input_tokens": 4905,
+    "output_tokens": 1317,
+    "total_tokens": 6222
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.81,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:14:50Z"
+}

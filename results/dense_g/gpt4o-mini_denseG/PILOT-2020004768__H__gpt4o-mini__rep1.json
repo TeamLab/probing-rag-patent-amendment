@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2020004768",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2020004768",
+  "app_num": "14521351",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "a)(1",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2015000875",
+      "PILOT-2020001589",
+      "PILOT-2018006436"
+    ],
+    "retrieved_app_nums": [
+      "12460678",
+      "14585041",
+      "14467783"
+    ],
+    "retrieved_scores": [
+      0.8646,
+      0.8511,
+      0.8457
+    ],
+    "retrieved_chars_total": 2839,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16067,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4dea0f87f09a37a2",
+  "response_text": "1. (Currently amended) A method of treating Argininosuccinate Synthetase Deficiency (ASD), comprising administering to a subject in need of treatment __the__ composition comprising an mRNA encoding argininosuccinate synthetase (ASS1) at an effective dose and an administration interval such that at least one symptom or feature of __the__ ASD is reduced in intensity, severity, or frequency __or has been delayed in onset__.\n\n14. (Currently amended) The method of claim 1, wherein the administering of the composition results in increased serum ASS1 protein level __in the subject__.\n\n15. (Currently amended) The method of claim 1, wherein the administering of the composition results in reduced citrulline level in the subject as compared to the baseline citrulline level before the treatment __with the composition__.\n\n16. (Currently amended) The method of claim 1, wherein the administering of the composition results in reduced ammonia level in the subject as compared to the baseline ammonia level before the treatment __with the composition__.\n\n20. (Currently amended) The method of claim 1, wherein the mRNA is __not modified__.",
+  "usage": {
+    "input_tokens": 4092,
+    "output_tokens": 242,
+    "total_tokens": 4334
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.86,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:40:54Z"
+}

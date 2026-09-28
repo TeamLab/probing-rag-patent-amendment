@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017001422",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017001422",
+  "app_num": "13995688",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13659,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e0de5ae7fa3b5e3c",
+  "response_text": "1. (Currently Amended) An immunogenic composition comprising: a modified, live bovine viral diarrhea virus Type lb (BVDV-lb), __wherein the modified, live BVDV-lb is not further comprised within a combination including BVDV Type 2, BRSV, IBR or PI3__, and a veterinary-acceptable carrier, and optionally an adjuvant.\n\n3. (Currently Amended) The immunogenic composition of claim 1, further comprising one or more of a parainfluenza virus Type 3 (PI3), a bovine respiratory syncytial virus (BRSV), a bovine herpes virus (BHV-1), a bovine viral diarrhea virus Type la (BVDV-la), a bovine viral diarrhea virus Type 2 (BVDV-2), or an infectious bovine rhinotracheitis (IBR) virus, or any combination thereof; or one or more viral-specific antigens obtained therefrom __that are not limited to inactivated bacteria cultures of Leptospira__.\n\n4. (Currently Amended) The immunogenic composition of claim 1, further comprising a modified, live IBRV, a modified, live BRSV, a modified, live BHV-1, a modified, live BVDV Type la, a modified, live BVDV Type 2, or a modified, live PI3, or a combination thereof __not specifically including BVDV Type 2 or any inactivated bacteria cultures__.\n\n6. (Currently Amended) The immunogenic composition of claim 1, further comprising an immunologically effective amount of at least a first antigen __that is not an inactivated bacterial component__.\n\n8. (Currently Amended) The immunogenic composition of claim 6, wherein the at least a first antigen is inactivated __and not derived from inactivated cultures of Leptospira__.\n\n12. (Currently Amended) The vaccine of claim 4, further comprising an immunologically-effective amount of at least one microbial pathogen-specific antigen __other than those derived from inactivated bacterial cultures__.",
+  "usage": {
+    "input_tokens": 3483,
+    "output_tokens": 435,
+    "total_tokens": 3918
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.14,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:52:11Z"
+}

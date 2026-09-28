@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16123,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "55cb6671bc6d58f6",
+  "response_text": "1. (Currently Amended) A method of treating a brain, comprising: inserting an elongated device into the brain to create a path; radially expanding the device to create a working channel along the path; and introducing a medical element into the working channel, wherein the medical element is a medicament, to perform a medical procedure on the brain.\n\n4. (Currently Amended) The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening without the elongated device being explicitly limited to being inserted through the opening.\n\n5. (Currently Amended) The method of claim 1, further comprising inserting the elongated device at an angle to create a path between tissue layers within the brain.\n\n3. (Currently Amended) The method of claim 1, wherein the medical element is a medicament delivered at the working channel not limited to being an instrument.",
+  "usage": {
+    "input_tokens": 3802,
+    "output_tokens": 184,
+    "total_tokens": 3986
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.63,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:59:47Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 82138,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "989f379d32b35408",
+  "response_text": "Claim 281 (currently amended): A tool comprising: a first adhesive layer; a second adhesive layer; and a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and are aligned with each other; and an additional adhesive layer in registration with the medial section.  \n\nClaim 291 (currently amended): The tool of claim 281 wherein the ring includes a central opening.  \n\nClaim 287 (currently amended): The tool of claim 281 further comprising a weld ring at least partially interposed between the perimeter of the first adhesive layer and the perimeter of the second adhesive layer. \n\nClaim 288 (currently amended): The tool of claim 287 wherein the weld ring is continuous.",
+  "usage": {
+    "input_tokens": 17437,
+    "output_tokens": 149,
+    "total_tokens": 17586
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.34,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:52:41Z"
+}

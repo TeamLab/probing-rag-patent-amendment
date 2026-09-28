@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13366,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b079c493243acb4f",
+  "response_text": "```plaintext\nClaim 1 (Currently Amended): A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating __the one or more embryos in a non-destructive medium consisting essentially of water__; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos.\n\nClaim 2 (Cancelled)\n\nClaim 3 (Currently Amended): The method of claim 1 wherein obtaining DNA from the shed cellular material comprises exposing the shed cellular material to cold and then heat followed by agitation.\n\nClaim 4 (Currently Amended): The method of claim 3 wherein said cold, heat, and agitation steps are repeated.\n\nClaim 5 (Currently Amended): The method of claim 1 wherein obtaining DNA from the shed cellular material comprises heating __the shed cellular material__ and agitation.\n\nClaim 6 (Currently Amended): The method of claim 5 wherein said heat and agitation steps are repeated.\n\nClaim 7 (Currently Amended): The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with an enzyme, __preferably a cell wall degrading enzyme__.\n\nClaim 8 (Original)\n\nClaim 9 (Currently Amended): The method of claim 1 wherein obtaining DNA from the shed cellular material comprises extracting the DNA.\n\nClaim 10 (Original)\n\nClaim 11 (Currently Amended): The method of claim 1 wherein the one or more embryos comprise one or more __immature embryos as defined by their developmental stage__.\n\nClaim 12 (Currently Amended): The method of claim 1 further comprising storing the one or more embryos in a __quiescent condition__ prior to step (c) or (d).\n\nClaim 13 (Currently Amended): The method of claim 1, wherein said molecular analysis is __selected from the group consisting of genotyping__.\n\nClaim 14 (Original)\n\nClaim 15 (Cancelled)\n\nClaim 16 (Currently Amended): The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is __optionally__ performed.\n\nClaim 17 (Cancelled)\n\nClaim 18 (Cancelled)\n\nClaim 19 (Cancelled)\n```",
+  "usage": {
+    "input_tokens": 3370,
+    "output_tokens": 470,
+    "total_tokens": 3840
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.08,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:26:55Z"
+}

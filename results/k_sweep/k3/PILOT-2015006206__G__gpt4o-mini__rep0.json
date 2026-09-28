@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015006206",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2015006206",
+  "app_num": "13401993",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22714,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "89f9d0b54587983d",
+  "response_text": "(Currently Amended) 1. An aircraft weapons control system comprising: a weapons stores processor panel for receiving input signals from a weapons input; a weapons interface for receiving fire signals from the weapons stores processor panel to control firing of aircraft weapons; and a flight management system in communication with the weapons stores processor panel and the weapons interface, the flight management system providing control signals to the weapons interface; wherein the weapons stores processor panel implements safety interlocks to prevent or enable firing of the aircraft weapons, and wherein the aircraft weapons control system does not include a systems configuration as disclosed in Ebert.\n\n(Previously presented) 2. The aircraft weapons control system of claim 1 wherein: the weapons interface includes a first weapons interface to a first weapon and a second weapons interface to a second weapon, the first weapon and the second weapon being of different types.\n\n(Previously presented) 3. The aircraft weapons control system of claim 2 wherein: the weapons interface includes a third weapons interface to a third weapon and a fourth weapons interface to a fourth weapon, the third weapon and the fourth weapon being of different types.\n\n(Currently Amended) 4. The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel communicates with the weapons interface using a MIL-STD-1760 standard.\n\n(Previously presented) 5. The aircraft weapons control system of claim 1 further comprising: a laser pointer coupled to the weapons stores processor panel.\n\n(Previously presented) 6. The aircraft weapons control system of claim 1 further comprising: a data concentrator unit that conditions outputs from the flight management system for display on a multi-function display.\n\n(Previously presented) 15. The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel provides display information for a helmet mounted display, control display unit, and a multifunction function display.\n\n(Previously presented) 16. The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel provides data for a weapons bus controller to implement firing of weapons.",
+  "usage": {
+    "input_tokens": 4918,
+    "output_tokens": 410,
+    "total_tokens": 5328
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.14,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:59:11Z"
+}

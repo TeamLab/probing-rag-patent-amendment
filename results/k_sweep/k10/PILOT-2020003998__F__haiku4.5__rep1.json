@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 84335,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6e4d7d93af9d50ea",
+  "response_text": "Claim 281 (Currently amended): A tool comprising a lamination of at least two layers and at least two adhesive layers, the tool comprising first and second layers and __a medial section positioned between the first and second layers__, a first adhesive layer __positioned__ on the first layer, a second adhesive layer __positioned__ on the second layer, the first adhesive layer and the second adhesive layer configured to be cured to each other, the tool has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the first and second layers, __wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer__.\n\nClaim 282 (Currently amended): The tool of claim 281, wherein the medial section comprises a metal __selected from the group consisting of steel and aluminum__.\n\nClaim 283 (Currently amended): The tool of claim 282, wherein the metal is a honeycomb structure __having a plurality of cells__.\n\nClaim 284 (Currently amended): The tool of claim 282, wherein the medial section is a composite material __comprising the metal and a second material different from the metal__.\n\nClaim 285 (Currently amended): The tool of claim 281, further including a weld ring __having a thickness of between 0.5 mm and 5 mm__ at least partially interposed between the perimeter of the first and second layers.\n\nClaim 286 (Currently amended): The tool of claim 285, wherein the weld ring is bonded to the medial section __by a bonding process selected from welding, brazing, and adhesive bonding__.\n\nClaim 287 (Currently amended): The tool of claim 285, wherein the plurality of cutting segments are also welded to an outer perimeter of the weld ring __such that the cutting segments are permanently affixed to the weld ring__.\n\nClaim 288 (Currently amended): The tool of claim 285, wherein the weld ring is continuous __around the entire perimeter of the tool__.\n\nClaim 289 (Currently amended): The tool of claim 285, further including a segmented weld ring __wherein the weld ring comprises a plurality of discrete segments that are not continuously connected to each other__.\n\nClaim 290 (Currently amended): The tool of claim 285, further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring.\n\nClaim 291 (Currently amended): The tool of claim 290, wherein the inner ring includes __a__ central opening for accommodating a drive shaft.\n\nClaim 293 (Currently amended): The tool of claim 281, further including a weld ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, such that the plurality of cutting segments are located on an outer periphery of the weld ring __and are removably attached to the weld ring__.\n\nClaim 294 (Currently amended): The tool of claim 293, wherein the weld ring is continuous __and comprises a single unbroken ring structure__.\n\nClaim 295 (Currently amended): The tool of claim 293, further including a segmented weld ring __wherein the weld ring comprises a plurality of discrete segments that are spaced apart from each other and not continuously connected__.",
+  "usage": {
+    "input_tokens": 20124,
+    "output_tokens": 784,
+    "total_tokens": 20908
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.75,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:32:35Z"
+}

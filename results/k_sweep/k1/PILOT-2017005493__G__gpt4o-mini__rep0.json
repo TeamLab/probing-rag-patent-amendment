@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13576,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fcd08e49a4d495b5",
+  "response_text": "(Currently Amended) Claim 1: A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member, wherein the shape of the columnar body is selected from a group consisting of a tetragon, pentagon, hexagon, heptagon, octagon, nonagon, decagon, hendecagon, or dodecagon.\n\n(Currently Amended) Claim 5: The lamp of claim 1 wherein said diodes are disposed in a non-uniform spacing around the columnar body.\n\n(Currently Amended) Claim 6: The lamp of claim 5 wherein said fins are positioned between some of said diodes.\n\n(Currently Amended) Claim 3: The lamp of claim 1 further including a light dispersing optic element overlapping at least some of said diodes.\n\n(Currently Amended) Claim 4: The lamp of claim 3 wherein said optic element includes a phosphor material.\n\n(Currently Amended) Claim 12: The lamp of claim 9 including a single optic element disposed between some adjacent fins overlapping at least one diode.\n\n(Currently Amended) Claim 14: The lamp of claim 1 wherein said electronics module comprises a printed circuit board including circuitry for converting AC to DC current, which supports driving of varying numbers of light emitting diodes. \n\n(Currently Amended) Claim 20: The method of claim 17 wherein said body has side walls that are not strictly vertical.",
+  "usage": {
+    "input_tokens": 3287,
+    "output_tokens": 357,
+    "total_tokens": 3644
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.75,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:31:14Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 17636,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "76f312ad6ab06008",
+  "response_text": "Claim 27 (Currently Amended): The gas tube arrangement according to claim 13, wherein each contact element is provided within the second portion and is configured to make electrical contact with the power supply when the connector is connected to the CPAP device.\n\nClaim 30 (Currently Amended): A connector according to claim 29, wherein each contact element is provided within the second portion and is configured to supply power to the heater when the connector is connected to the CPAP device.",
+  "usage": {
+    "input_tokens": 4196,
+    "output_tokens": 96,
+    "total_tokens": 4292
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.39,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:29:29Z"
+}

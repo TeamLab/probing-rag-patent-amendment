@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019002439",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2019002439",
+  "app_num": "12500756",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22761,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7b18b77c789a35cc",
+  "response_text": "``` \n(Previously presented) Claim 1: A computer-implemented method of providing a user with access to a resource of a contact center, comprising the steps of: (a) providing a search engine interface to a user's computer system for searching documents on one or more websites; (b) receiving a search query from the user's computer system via said interface; (c) sending a request based on said search query to a computerised system of a contact center; (d) receiving, in response to said request, data enabling a contact center link to be provided to said user, wherein said contact center link, when activated, initiates an interactive communications session between the user and a resource of the contact center; and (e) returning said contact center link to said user as part of a response to said search query.\n\n(Cancelled) Claim 19: A computer program product comprising a program carrier encoding instructions which, when executed by a search engine computer system, are effective to cause said search engine computer system to: (a) provide a search engine interface to a user's computer system for searching documents on one or more websites; (b) receive a search query from the user's computer system via said interface; (c) send a request based on said search query to a computerized system of a contact center; (d) receive, in response to said request, data enabling a contact center link to be provided to said user, wherein said contact center link, when activated, initiates an interactive communications session between the user and a resource of the contact center; and (e) return said contact center link to said user as part of a response to said search query.\n\n(Cancelled) Claim 28: A computer program product comprising a program carrier encoding instructions which, when executed by a computer system of a contact center, are effective to cause the computer system to: (a) receive from a search engine a request based on a search query submitted to the search engine by a user's computer system; (b) determine, from the request, the identity of at least one selected resource of the contact center based on stored rules; (c) send to the search engine, in response to the request, data enabling a contact center link to be provided to the user, whereby the contact center link, when activated, will initiate an interactive communications session between the user and the selected resource of the contact center; (d) receive, from the user, a communications session initiation from which the selected resource may be identified; and (e) direct the communications session to the selected resource.\n```",
+  "usage": {
+    "input_tokens": 5004,
+    "output_tokens": 519,
+    "total_tokens": 5523
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.79,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:32:41Z"
+}

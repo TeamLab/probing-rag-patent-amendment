@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019005776",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2019005776",
+  "app_num": "14754496",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20993,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e9da095f44d20b95",
+  "response_text": "1. (Currently amended) A computing system for authoring a document, comprising: __one or more processors; a display; a user input device; and memory storing instructions that, when executed by the one or more processors, cause the computing system to:__ (1) receive __via the user input device__ first user input identifying content to be included in the document, the identified content being in a first form, and (2) receive __via the user input device__ second user input specifying a transformation operation to be performed on the identified content in order to transform the identified content from the first form into a second form; and __apply, by the one or more processors,__ the specified transformation operation to transform the identified content from the first form into the second form for display __on the display__.\n\n2. (Previously presented) The computing system of claim 1 wherein the first user input received by the user input subsystem identifies a data structure external to the document from which the identified content is available for retrieval.\n\n3. (Previously presented) The computing system of claim 1 wherein the first user input received by the user input subsystem literally conveys the identified content.\n\n4. (Previously presented) The computing system of claim 1 wherein the user input subsystem is configured to receive second user input specifying a plurality of transformation operations to be performed on the identified content.\n\n5. (Previously presented) The computing system of claim 4 wherein the user input subsystem is configured to receive third user input specifying an order among the plurality of transformation operations in which the plurality of transformation operations is to be performed.\n\n6. (Previously presented) The computing system of claim 4, further comprising a precedence inference subsystem configured to infer an order among the plurality of transformation operations in which the plurality of transformation operations is to be performed.\n\n7. (Previously presented) The computing system of claim 1 wherein the user input subsystem is configured to receive the second user input relative to a displayed literal representation of the content identified by the first user input received by the user input subsystem.\n\n8. (Previously presented) The computing system of claim 1 wherein the user input subsystem is configured to receive the second user input relative to a displayed structural representation of the content identified by the first user input received by the user input subsystem.\n\n9. (Previously presented) The computing system of claim 1 wherein the user input subsystem is further configured to receive third user input specifying at least one edit to the identified content in the second form, the computer system further comprising: a revision subsystem configured to edit the identified content in the second form for display in accordance with the at least one edit specified by the third user input received by the user input subsystem.\n\n10. (Previously presented) The computing system of claim 9, further comprising: a storage subsystem causing the identified content as edited by the revision subsystem to be stored in the first form.",
+  "usage": {
+    "input_tokens": 4439,
+    "output_tokens": 583,
+    "total_tokens": 5022
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.34,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:34:37Z"
+}

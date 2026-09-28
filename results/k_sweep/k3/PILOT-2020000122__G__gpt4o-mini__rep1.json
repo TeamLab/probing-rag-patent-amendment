@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000122",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020000122",
+  "app_num": "14995989",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22963,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1c55541d11195a4d",
+  "response_text": "1 (Currently Amended): A control system comprising: a controller configured to be communicatively coupled to automation components in the control system and to facilitate performance of a process through interoperation with the automation components by generating a holistic state data, wherein the controller is configured to generate the holistic state data by: determining a model configured to describe the process used by the controller; determining input and output variables of the process; determining constraints on the input and output variables; determining an objective function associated with the process used by the controller; and storing the model, the input and output variables, the constraints, and the objective function in one of a plurality of fields in the holistic state data to enable the automation components to detect and operate with the controller upon receiving the holistic state data, wherein the controller includes a tangible means for processing the input and output variables.\n\n3 (Currently Amended): The control system of claim 1, wherein the controller is configured to be communicatively coupled to the automation components via a backplane and to communicate the holistic state data to the automation components upon connecting to the backplane, and wherein the backplane consists of an arrangement of wired components for transmitting data.\n\n10 (Currently Amended): A tangible, non-transitory computer-readable medium configured to store instructions executable by a processor of a controller, wherein the instructions comprise instructions to: receive, using the processor, control system configuration data; determine, using the processor, automation components communicatively coupled to the controller and characteristics of the automation components based at least in part on the control system configuration data; determine, using the processor, an optimization problem based at least in part on the automation components and the characteristics of each of the automation components; and instruct, using the processor, one or more of the automation components to perform a control action in a process, wherein the control action is determined based at least in part on the optimization problem, and wherein the instructions further include determining a feedback mechanism for analyzing the performance of the control action.\n\n12 (Currently Amended): The computer-readable medium of claim 10, wherein the characteristics of each of the automation components comprise a computing capability of the automation component, wherein the instructions to determine the optimization problem comprise instructions to determine the optimization problem based at least in part on computing compatibilities of each of the automation components, and further comprising instructions to optimize resource allocation based on the computing capabilities.",
+  "usage": {
+    "input_tokens": 5208,
+    "output_tokens": 475,
+    "total_tokens": 5683
+  },
+  "stop_reason": "stop",
+  "latency_sec": 21.17,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:08:20Z"
+}

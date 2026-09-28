@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2013004685",
+      "PILOT-2020006772",
+      "PILOT-2019005153"
+    ],
+    "retrieved_app_nums": [
+      "12938438",
+      "13985536",
+      "14783633"
+    ],
+    "retrieved_scores": [
+      0.722,
+      0.7212,
+      0.7184
+    ],
+    "retrieved_chars_total": 3525,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20749,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b6c323a43ea948a7",
+  "response_text": "1) (Currently amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than 2000 Da and a polyanion, said nanoparticle having a size of less than one micron, wherein said polyalkylenimine is not polyethylene sulfonic acid and said polyanion is not polyethylene sulfonic acid.\n\n2) (Currently amended) The composition of claim 1, said polyelectrolyte complex nanoparticle intimately associated with a multivalent cation crosslinker, wherein said multivalent cation crosslinker is not zirconium acetate.\n\n3) (Original) The composition of claim 1, wherein said polyalkylenimine is polyethylenimine.\n\n4) (Currently amended) The composition of claim 1, wherein said polyanion is selected from sodium polyvinyl sulfonate, poly (sodium acrylate), poly(sodium styrene sulfonate), copolymers of sodium acrylate with sodium vinylsulfonate or sodium styrene sulfonate; dextran sulfate, and anionic surfactants, provided that said polyanion is not polyethylene sulfonic acid.\n\n5) (Currently amended) The composition of claim 2, wherein said multivalent cation crosslinker is a complexed metal compound selected from the group consisting of sodium zirconium lactate, zirconium sulfate, zirconium tetrachloride, zirconium orthosulfate, zirconium oxychloride, zirconium carbonate, zirconium ammonium carbonate, zirconium acetylacetonate, aluminum chloride, aluminum sulfate, aluminum citrate, tin chloride, tin sulfate, iron chloride, iron nitrate, titanium chloride, and titanium sulfate.\n\n6) (Original) The composition of claim 1, further comprising monovalent or divalent cations selected from the group consisting of sodium, potassium, magnesium or calcium ions.\n\n8) (Currently amended) The composition of claim 1, wherein said polyelectrolyte complex nanoparticle comprises a nanoparticle with an average particle size of about 100 to 900 nm in diameter, and wherein said nanoparticle size is greater than 100 nm.\n\n9) (Original) The composition of claim 1, wherein said polyelectrolyte complex nanoparticles are stable in water, field brine and seawater.\n\n10) (Currently amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron, wherein said polyalkylenimine is not polyethylene sulfonic acid.\n\n12) (Currently amended) The composition of claim 10, said nanoparticle entrapping a multivalent cation, wherein said multivalent cation is not zirconium acetate.\n\n13) (Currently amended) The composition of claim 12, said multivalent cation comprising Zr, Cr, Ti, Fe or Al, provided that when Zr is present, the zirconium is not in the form of zirconium acetate.\n\n21) (Currently amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer that can be crosslinked with a); and c) a fluid, wherein said polymer is not Alcoflood 935.\n\n22) (Cancelled)\n\n23) (Cancelled)\n\n24) (Currently amended) The composition of claim 21, where said polymer is a polymer or copolymers of acrylate, acrylamide, N,N-dimethylacrylamide, tert-butyl acrylate, acrylamido-2-methylpropane sulfonic acid, or sodium 2-acrylamido-2-methylpropane sulfonate, provided that said polymer is not a polyacrylamide-co-acrylic acid.\n\n26) (Original) The composition of claim 21, where fluid is brine or seawater.",
+  "usage": {
+    "input_tokens": 6481,
+    "output_tokens": 952,
+    "total_tokens": 7433
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.42,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:06:28Z"
+}

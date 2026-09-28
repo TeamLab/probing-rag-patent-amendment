@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014008375",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2014008375",
+  "app_num": "13296572",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19132,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7436eed42eec7e44",
+  "response_text": "1. (Currently amended) A vehicle door comprising: a door outer panel defining an exterior surface of the vehicle door; a common door inner panel located inboard of the door outer panel and configured to mount door hardware, the common door inner panel having a periphery; and a panel extension extending around essentially all of the periphery of the common door inner panel, the panel extension being attached to the periphery of the common door inner panel, forming an inner panel-extension joint, and attached to the door outer panel, forming an outer panel-extension joint, to secure the common door inner panel to the door outer panel, __wherein the panel extension is formed separate from the common door inner panel and separate from the door outer panel__.\n\n2. (Currently amended) The vehicle door of claim 1 wherein the outer panel-extension joint is a hemmed joint.\n\n3. (Currently amended) The vehicle door of claim 1 wherein the inner panel-extension joint includes fasteners securing the panel extension to the common door inner panel.\n\n4. (Currently amended) The vehicle door of claim 1 including at least one hinge that is mounted to the common door inner panel.\n\n5. (Currently amended) A vehicle door comprising: one of a first door outer panel and a second door outer panel defining an exterior surface of the vehicle door; a common door inner panel located inboard of one of the first and second door outer panels and configured to mount door hardware, the common door inner panel having a periphery; and one of a first panel extension, configured to mate with the corresponding first door outer panel, [[and]] or a second panel extension, configured to mate with the corresponding second door outer panel, extending around essentially all of the periphery of the common door inner panel, the one of the first and second panel extensions being attached to the periphery of the common door inner panel and attached to the corresponding one of the first and second door outer panels to secure the common door inner panel to the corresponding door outer panel, __wherein the one of the first and second panel extensions is formed separate from the common door inner panel and separate from the corresponding one of the first and second door outer panels__.\n\n6. (Original) A method of assembling a vehicle door, the method comprising the steps of: (a) forming a panel extension separate from a common door inner panel and a door outer panel; (b) attaching the panel extension to the door outer panel; (c) mounting door hardware to the common door inner panel; and (d) attaching the panel extension to a periphery of the common door inner panel.\n\n7. (Original) The method of claim 6 wherein step (b) is further defined by hemming the panel extension to the door outer panel.\n\n8. (Original) The method of claim 6 wherein step (d) is further defined by attaching fasteners to the panel extension and the common door inner panel.\n\n9. (Original) The method of claim 8 wherein step (d) is further defined by the fasteners being rivets, and the panel extension being riveted to the common door inner panel.\n\n10. (Original) The method of claim 6 further comprising: (e) forming a second panel extension separate from a second 9 common door inner panel and a second door outer panel, the second common door inner panel being the same as the common door inner panel, the second panel extension and the second door outer panel being different from the panel extension and the door outer panel, respectively; (f) attaching the second panel extension to the second door outer panel; (c) mounting second door hardware to the second common door inner panel; and (d) attaching the second panel extension to a periphery of the second common door inner panel.",
+  "usage": {
+    "input_tokens": 4292,
+    "output_tokens": 767,
+    "total_tokens": 5059
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.55,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:11:09Z"
+}

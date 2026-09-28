@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2021001124",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2021001124",
+  "app_num": "14651281",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21211,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b4d95efc08b0024c",
+  "response_text": "(Currently Amended) 1. A method for content optimization, comprising: receiving a rule on probability factor, the rule on probability factor specifying a statistical probability that a piece of content expresses a particular value of a selected content attribute; generating a plurality of pieces of content in accordance with the rule on probability factor; collecting content performance data of the plurality of pieces of content when the plurality of pieces of content are in use; determining, by a processor, an aggregated performance data for the selected content attribute having the particular value based on the content performance data of the plurality of pieces of content; and modifying, by the processor, the rule on probability factor based on the aggregated performance data and feedback from user interactions with the plurality of pieces of content.\n\n(Currently Amended) 5. The method of claim 1, further comprising: determining, by the processor, a deviation value for aggregated performance data of the selected content attribute based on the content performance data of the plurality of pieces of content, wherein the modifying step comprises modifying the rule on probability factor based on both the aggregated performance data, feedback from user interactions with the plurality of pieces of content, and the deviation value for the aggregated performance data for the selected content attribute.\n\n(Currently Amended) 6. The method of claim 1, further comprising: receiving a set of rules for content generation; identifying a changeable content attribute based on the set of rules for content generation; and composing, by the processor, one or more rules on probability factor for the changeable content attribute, considering historical user interaction data.\n\n(Currently Amended) 8. A content optimization system, comprising: a rule management module maintaining a set of rules for content generation, the set of rules comprising a rule on probability factor, the rule on probability factor specifying a statistical probability that a piece of content expresses a particular value of a selected content attribute; a content generation module operative to generate a plurality of pieces of content based on the set of rules, the plurality of pieces of content designed with a particular optimization objective; and a content evaluation module operative to evaluate content performance on reaching the particular optimization objective based on data acquired when the plurality of pieces of content are displayed, wherein the content evaluation module is further operative to determine an aggregated performance data for the selected content attribute having the particular value based on the evaluated content performance, wherein the rule management module is operative to amend the rule on probability factor based on the aggregated content performance data and user feedback.\n\n(Currently Amended) 10. The system of claim 8, wherein the content evaluation module is further operative to determine a deviation value for the aggregated performance data for the selected content attribute based on the content performance data of the plurality of pieces of content, and wherein the rule management module is further operative to modify the rule on probability factor based on both the aggregated performance data, user feedback, and the deviation value for the aggregated performance data for the selected content attribute.\n\n(Currently Amended) 13. A method comprising: receiving a first rule on probability factor and a second rule on probability factor, the first rule on probability factor defining a statistical probability that a piece of content expresses a first value of a selected content attribute, the second rule on probability factor defining a statistical probability that a piece of content expresses a second value of the selected content attribute, the second value being different from the first value; generating a plurality of pieces of content in accordance with the first rule on probability factor and the second rule on probability factor; collecting content performance data of the plurality of pieces of content when the plurality of pieces of content are in use; determining, by a processor, a first aggregated performance data for the first value of the selected content attribute based on the content performance data of the plurality of pieces of content; determining, by the processor, a second aggregated performance data for the second value of the selected content attribute based on the content performance data of the plurality of pieces of content; and modifying, by the processor, the first rule on probability factor and the second rule on probability factor based on both the first aggregated performance data, the second aggregated performance data, and feedback from user interactions with the plurality of pieces of content.",
+  "usage": {
+    "input_tokens": 4538,
+    "output_tokens": 839,
+    "total_tokens": 5377
+  },
+  "stop_reason": "stop",
+  "latency_sec": 20.84,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:01:03Z"
+}

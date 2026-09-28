@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 7464,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6b8fc63dd53f8bc8",
+  "response_text": "1. (Currently Amended) A compound of formula (IIa)\n\nO\nNaO OR2\nO\n(IIa),\n\nin which substituent R2 is selected from the group consisting of __C3-C12-alkyl__, aryl, and arylalkyl.\n\n2. (Currently Amended) A compound according to Claim 1 of formula (IIa) in which R2 is __C3-C12-alkyl__, C6-aryl, or arylalkyl.\n\n3. (Cancelled)\n\n4. (Currently Amended) A compound of formula (IIb)\n\nO\nZO OMe\nO O\n(IIb)\n\nin which substituent Z is selected from the group consisting of __lithium, cesium, rubidium,__ alkaline earth metals __and ammonium__.\n\n5. (Currently Amended) A compound according to Claim __4__ of formula (IIb) in which Z is __lithium, cesium, rubidium, or ammonium__.",
+  "usage": {
+    "input_tokens": 2609,
+    "output_tokens": 241,
+    "total_tokens": 2850
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.39,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:40:27Z"
+}

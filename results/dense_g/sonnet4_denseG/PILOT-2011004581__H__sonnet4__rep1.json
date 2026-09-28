@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2011004581",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2011004581",
+  "app_num": "10906716",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2014004632",
+      "PILOT-2011007730",
+      "PILOT-2016001662"
+    ],
+    "retrieved_app_nums": [
+      "11620715",
+      "11114987",
+      "12786933"
+    ],
+    "retrieved_scores": [
+      0.9763,
+      0.9704,
+      0.9694
+    ],
+    "retrieved_chars_total": 1802,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14600,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "512815b653319ad2",
+  "response_text": "2. (Currently Amended) The method of claim 1 further comprising: displaying the filtered EPG information __on a set-top box display device__.\n\n3. (Currently Amended) The method of claim 1 wherein filtering comprises: obtaining channel accessibility of the subscriber __by querying a subscriber database maintained separately from the EPG provider__; and removing EPG information related to a channel that is not within the channel accessibility of the subscriber.\n\n4. (Currently Amended) The method of claim 3 wherein obtaining comprises: retrieving channel subscription information of the subscriber from the content delivery provider __via a secure communication protocol__; and creating a list of subscriber's channel identifiers of channels accessible to the subscriber from the channel subscription information.\n\n5. (Currently Amended) The method of claim 3 wherein removing comprises: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of the subscriber's channel identifiers __wherein the removing is performed by comparing the extracted channel identifier against the list using a matching algorithm__.\n\n6. (Original) The method of claim 1 wherein the programs are delivered by one of a television network, a cable operator, a direct satellite program provider, a digital cable content provider, and a network content provider.\n\n7. (Currently Amended) An article of manufacture comprising: a machine-accessible medium including data that, when accessed by a machine, causes the machine to perform operations comprising: retrieving electronic program guide (EPG) information from an EPG provider; and filtering the EPG information to retain program information related to programs delivered by a content delivery provider to a subscriber, the content delivery provider being different from the EPG provider, __wherein the filtering is performed by a processor system separate from both the EPG provider and the content delivery provider__.\n\n8. (Currently Amended) The article of manufacture of claim 7 wherein the data further comprises data that, when accessed by the machine, causes the machine to perform operations comprising: displaying the filtered EPG information __on a set-top box display device__.\n\n9. (Currently Amended) The article of manufacture of claim 7 wherein the data causing the machine to perform filtering comprises data that, when accessed by the machine, causes the machine to perform operations comprising: obtaining channel accessibility of the subscriber __by querying a subscriber database maintained separately from the EPG provider__; and removing EPG information related to a channel that is not within the channel accessibility of the subscriber.\n\n10. (Currently Amended) The article of manufacture of claim 9 wherein the data causing the machine to perform obtaining comprises data that, when accessed by the machine, causes the machine to perform operations comprising: retrieving channel subscription information of the subscriber from the content delivery provider __via a secure communication protocol__; and creating a list of subscriber's channel identifiers of channels accessible to the subscriber from the channel subscription information.\n\n11. (Currently Amended) The article of manufacture of claim 9 wherein the data causing the machine to perform removing comprises data that, when accessed by the machine, causes the machine to perform operations comprising: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of the subscriber's channel identifiers __wherein the removing is performed by comparing the extracted channel identifier against the list using a matching algorithm__.\n\n14. (Currently Amended) The program guide module of claim 13 wherein the enhanced EPG module further comprises: a module to display the filtered EPG information __on a set-top box display device__.",
+  "usage": {
+    "input_tokens": 3763,
+    "output_tokens": 788,
+    "total_tokens": 4551
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.6,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:36:58Z"
+}

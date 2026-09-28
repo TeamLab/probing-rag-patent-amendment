@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016004446",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2016004446",
+  "app_num": "11920521",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10639,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4177bcb642fd3318",
+  "response_text": "1. Claim 4 (Original)\n\n2. Claim 5 (Currently Amended) Use of the composition of claim 1 for preparation of a blocking vaccine to impede Leishmaniasis transmission in __dogs__, wherein said composition comprises a Fucose Mannose Ligand (FML) fraction from __Leishmania donovani__ and saponin.\n\n3. Claim 6 (Currently Amended) The method of claim 4 wherein said composition further comprises suitable pharmacological vehicles, for blocking Leishmaniasis transmission in __dogs__.\n\n4. Claim 7 (Currently Amended) The composition of claim 1, wherein the Leishmania __donovani__ promastigotes or amastigotes fractions called \"Fucose Mannose Ligand\" (FML) comprise a glycoprotein complex containing 29% of neutral sugar, 44% of protein, 11% of phosphate and hexoamines traces composed by protein bands with molecular weight ranging from 9 to 95 kDa, some protein bands having carbohydrates at 36 and 54 to 68 kDa, the FML glycidic portion presenting 10% of fucose and 47% of mannose, 30% of glucose, 12% of galactose and xylose traces, aminoacids containing 10 to 20% of glutamic acid, alanine, aspartic acid and glycine, 5 to 10% of serine, histidine, lysine, leucine, threonine, proline and valine, and 2 to 5% of arginine, methionine, isoleucine, tyrosine and phenylalanine.",
+  "usage": {
+    "input_tokens": 3031,
+    "output_tokens": 397,
+    "total_tokens": 3428
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.67,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:25:47Z"
+}

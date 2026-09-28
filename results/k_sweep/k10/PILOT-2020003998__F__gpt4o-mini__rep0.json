@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 84335,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6e4d7d93af9d50ea",
+  "response_text": "(Currently Amended) Claim 281: A tool comprising: a lamination of at least two layers; a first adhesive layer positioned adjacent to a first layer and a second adhesive layer positioned adjacent to a second layer, wherein the first adhesive layer and the second adhesive layer are aligned with each other; and an additional adhesive layer coupled to at least one of the first adhesive layer and the second adhesive layer.\n\n(Currently Amended) Claim 282: The tool of claim 281, wherein the additional adhesive layer is positioned on the medial section.\n\n(Currently Amended) Claim 283: The tool of claim 282, wherein the medial section comprises a metal layer.\n\n(Currently Amended) Claim 284: The tool of claim 283, wherein the metal layer is a honeycomb structure.\n\n(Currently Amended) Claim 285: The tool of claim 281, wherein a weld ring is at least partially interposed between a perimeter of the first and second layers and a plurality of cutting segments.\n\n(Currently Amended) Claim 286: The tool of claim 285, wherein the weld ring is bonded to the medial section.\n\n(Currently Amended) Claim 287: The tool of claim 286, wherein the plurality of cutting segments are welded to an outer perimeter of the weld ring.\n\n(Currently Amended) Claim 288: The tool of claim 285, wherein the weld ring is continuous.\n\n(Currently Amended) Claim 290: The tool of claim 285, further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring.\n\n(Currently Amended) Claim 291: The tool of claim 290, wherein the inner ring includes a central opening.\n\n(Currently Amended) Claim 293: The tool of claim 281, further including a weld ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments.\n\n(Currently Amended) Claim 294: The tool of claim 293, wherein the weld ring is continuous.",
+  "usage": {
+    "input_tokens": 18353,
+    "output_tokens": 413,
+    "total_tokens": 18766
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.02,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:52:37Z"
+}

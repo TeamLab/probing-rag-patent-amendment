@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2016008022",
+      "PILOT-2015007824",
+      "PILOT-2011011164"
+    ],
+    "retrieved_app_nums": [
+      "13056299",
+      "13158248",
+      "11356981"
+    ],
+    "retrieved_scores": [
+      0.8897,
+      0.884,
+      0.8823
+    ],
+    "retrieved_chars_total": 4448,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17499,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "408dbeea4732f725",
+  "response_text": "1. (Currently amended) A cooling system installable within a structure wall, comprising: in a housing, the housing disposed between a pair of studs of the wall, a water reservoir; a pump; a pad; a water distributor; a motor; and a fan, wherein the cooling system is __specifically configured for installation between studs spaced at standard building intervals and the housing protrudes from the wall less than three inches__.\n\n2. (Cancelled)\n\n3. (Cancelled)\n\n4. (Currently amended) The cooling system of claim 1, wherein the pump brings water from the water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad, __and the pump is powered by the motor__.\n\n5. (Currently amended) The cooling system of claim 4, wherein the fan causes air to flow through the pad moistened by the water, thereby cooling the air by evaporation, __and the fan is powered by the motor__.\n\n6. (Cancelled)\n\n7. (Currently amended) The cooling system of claim 4, wherein at least some of the water flows back to the reservoir for recirculation __through a drain line integrated into the housing__.\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Currently amended) The cooling system of claim 1, wherein the housing includes a front cover __that is removable for access to internal components__.\n\n12. (Original)\n\n13. (Currently amended) The cooling system of claim 1, wherein the wall is a load-bearing wall __constructed using standard wood frame construction__.\n\n14. (Original)\n\n15. (Currently amended) A cooling system kit, comprising: the cooling system of claim 1; mounting elements __including fasteners for securing the housing between wall studs__; and a ventilation grill.\n\n16. (Original)\n\n17. (Cancelled)\n\n18. (Cancelled)\n\n19. (Cancelled)\n\n20. (Cancelled)",
+  "usage": {
+    "input_tokens": 4617,
+    "output_tokens": 437,
+    "total_tokens": 5054
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.07,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:24:21Z"
+}

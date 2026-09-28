@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020001769",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020001769",
+  "app_num": "15297569",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 31548,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6d33f487c51f84da",
+  "response_text": "Claim 8 (Currently Amended): A composition comprising a lubricant comprising at least one selected from the group consisting of polyol ester and polyvinyl ether and a refrigerant comprising: from 1 to 99% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf); and from 1 to 99% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), wherein said composition exhibits a Hazen color of about 200 or less as measured by ASHRAE test 97-2007 after a sealed glass tube comprising the composition is welded closed and placed in an oven at 200°C for 14 days, __and wherein the lubricant is present in an amount of 1 to 500 parts by weight per 100 parts by weight of refrigerant__.\n\nClaim 9 (Previously presented): The composition according to Claim 8, wherein the lubricant comprises a polyol ester obtained from polyols having a neopentyl backbone.\n\nClaim 10 (Previously presented): The composition according to Claim 8, wherein the lubricant comprises a polyol ester obtained from a polyol selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol.\n\nClaim 11 (Previously presented): The composition according to Claim 8, wherein the lubricant comprises a polyol ester obtained from a linear or branched carboxylic acid containing from 2 to 15 carbon atoms.\n\nClaim 12 (Previously presented): The composition according to Claim 8, wherein the lubricant comprises a polyol ester obtained from at least one linear or branched carboxylic acid selected from the group consisting of n-pentanoic acid, n-hexanoic acid, n-heptanoic acid, n-octanoic acid, 2-ethylhexanoic acid, 2,2-dimethylpentanoic acid, 3,5,5-trimethylhexanoic acid, adipic acid and succinic acid.\n\nClaim 13 (Previously presented): The composition according to Claim 8, wherein the lubricant comprises a polyol ester obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms.\n\nClaim 14 (Previously presented): The composition according to Claim 8, wherein the composition comprises from 10 to 50% by weight of the at least one polyol ester.\n\nClaim 15 (Previously presented): The composition according to Claim 8, wherein the lubricant comprises at least one PVE, wherein the at least one PVE is a copolymer of the following two units: Unit 1: Unit 2:\n\nClaim 16 (Cancelled).\n\nClaim 17 (Previously presented): The composition according to Claim 8, wherein the refrigerant comprises from 5 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 95% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze).\n\nClaim 18 (Previously presented): The composition according to Claim 8, wherein the refrigerant comprises from 15 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze).\n\nClaim 19 (Previously presented): The composition according to Claim 8, wherein the refrigerant comprises from 15 to 35% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 65 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze).\n\nClaim 20 (Previously presented): The composition according to Claim 17, wherein the lubricant comprises a polyol ester obtained from polyols having a neopentyl backbone.\n\nClaim 21 (Previously presented): The composition according to Claim 17, wherein the lubricant comprises a polyol ester obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms.\n\nClaim 22 (Previously presented): The composition according to Claim 17, wherein the lubricant comprises a polyol ester obtained from at least one linear or branched carboxylic acid selected from the group consisting of n-pentanoic acid, n-hexanoic acid, n-heptanoic acid, n-octanoic acid, 2-ethylhexanoic acid, 2,2-dimethylpentanoic acid, 3,5,5-trimethylhexanoic acid, adipic acid and succinic acid.\n\nClaim 23 (Previously presented): The composition according to Claim 18, wherein the lubricant comprises a polyol ester obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms.\n\nClaim 24 (Previously presented): The composition according to Claim 18, wherein the lubricant comprises a polyol ester obtained from at least one linear or branched carboxylic acid selected from the group consisting of n-pentanoic acid, n-hexanoic acid, n-heptanoic acid, n-octanoic acid, 2-ethylhexanoic acid, 2,2-dimethylpentanoic acid, 3,5,5-trimethylhexanoic acid, adipic acid and succinic acid.\n\nClaim 25 (Cancelled).\n\nClaim 26 (Previously presented): The composition according to Claim 8, wherein the lubricant comprises a pentaerythritol ester.\n\nClaim 27 (Previously presented): The composition according to Claim 17, wherein the lubricant comprises a pentaerythritol ester.\n\nClaim 28 (Previously presented): The composition according to Claim 18, wherein the lubricant comprises a pentaerythritol ester.",
+  "usage": {
+    "input_tokens": 8377,
+    "output_tokens": 1501,
+    "total_tokens": 9878
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.76,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:32:33Z"
+}

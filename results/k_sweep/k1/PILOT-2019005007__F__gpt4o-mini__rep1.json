@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019005007",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2019005007",
+  "app_num": "12625143",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 18213,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8d563357b96b4bac",
+  "response_text": "1. (Currently amended) A battery assembly comprising: an enclosure; a first battery cell positioned within the enclosure; and a first sensor positioned within the enclosure for detecting at least one force influencing the first battery cell, wherein the first sensor comprises a contact sensor configured to detect force by being influenced by a physical change in contact pressure between the first battery cell and the first sensor.\n\n11. (Currently amended) The battery assembly of claim 1 further comprising a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell, and configured to detect at least one force influencing both the first battery cell and the second battery cell.\n\n17. (Currently amended) The battery assembly of claim 1 further comprising: a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell; a third battery cell stacked on top of the second battery cell; and a second sensor positioned between the third battery cell and the second battery cell for detecting at least one force influencing the third battery cell, wherein the second sensor is further configured to detect a change in pressure due to contact with the third battery cell. \n\n21. (Currently amended) The battery assembly of claim 1, wherein the first sensor comprises: force sensing material having a conductance that is configured to vary based on the at least one force influencing the first battery cell; and force sensing circuitry coupled to the force sensing material, wherein the force sensing circuitry is configured to produce a force output signal based on variations in conductance detected from the force sensing material in response to external forces. \n\n25. (Currently amended) The battery assembly of claim 1, wherein the first sensor comprises a contact sensor configured to detect variations in pressure applied to the first battery cell by external influences. \n\n26. (Currently amended) The battery assembly of claim 1, wherein the first sensor comprises a pressure sensitive ink configured to change conductance in response to varying pressure from the first battery cell. \n\n27. (Currently amended) The battery assembly of claim 1, wherein the first sensor comprises at least one of a polymer membrane binary switch or a discrete dome switch configured to detect mechanical pressure from the first battery cell.",
+  "usage": {
+    "input_tokens": 3886,
+    "output_tokens": 460,
+    "total_tokens": 4346
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.94,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:33:41Z"
+}

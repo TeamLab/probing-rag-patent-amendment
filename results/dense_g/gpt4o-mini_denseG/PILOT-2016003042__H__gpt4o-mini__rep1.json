@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2016003042",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2016003042",
+  "app_num": "13928760",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2019001743",
+      "PILOT-2018003087",
+      "PILOT-2020006027"
+    ],
+    "retrieved_app_nums": [
+      "14820151",
+      "14234062",
+      "14300662"
+    ],
+    "retrieved_scores": [
+      0.7491,
+      0.7459,
+      0.7451
+    ],
+    "retrieved_chars_total": 2480,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21079,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4409b93c46cbba1c",
+  "response_text": "1. (Currently amended) A composite stiffener, comprising: first, second and third members formed from laminated composite tape, the first and second members defining a web and a pair of flanges extending from the web, the third member being joined to the flanges and extending generally transverse to the web, the first, second and third composite members intersecting to form a void; a filler disposed in and substantially filling the void; at least one layer of composite fabric on each of the members in the area of the filler; and, a layer of adhesive surrounding the filler and joining the filler to the composite fabric.\n\n2. (Currently amended) The composite stiffener of claim 1, wherein the first and second members include radius areas between the web and each of the flanges, and the fabric layer covers the radius areas.\n\n5. (Currently amended) The composite stiffener of claim 1, wherein the layer of adhesive and the at least one layer of composite fabric extend beyond the radius areas.\n\n6. (Currently amended) The composite stiffener of claim 1, wherein the at least one layer of composite fabric of the composite members are offset relative to each other.\n\n7. (Currently amended) A composite stiffener, comprising: a pair of composite channels joined together, each of the channels including a web, flanges extending from the web, and radius areas between the web and each of the flanges; a base extending transverse to the web and joined to each of the flanges, the radius areas of the channels and the base forming at least one radius filler zone; a reinforcing member filling the radius filler zone; a layer of composite fabric covering the radius areas of the channels and the base; and, a layer of adhesive surrounding the filler and joining the filler to the composite fabric layer.\n\n12. (Currently amended) The composite stiffener of claim 1, wherein the at least one layer of composite fabric includes three composite patches respectively on each of the members.\n\n15. (Currently amended) The composite stiffener of claim 7, wherein the channels are formed from laminated composite tape.\n\n25. (Currently amended) A composite stiffener for aircraft applications, comprising: an I-section structure formed of laminated composite tape plies, the structure including a web and a pair of flanges on each end of the web, the structure including radius areas between the web and the flanges and a cap being joined to the first set of the flanges and the base being joined to the second set of flanges, the cap and the base each intersecting the web in the radius areas to define a radius filler zone; a reinforcing filler in the radius filler zone; and a layer of adhesive joining the filler to the composite fabric in the radius filler zone.",
+  "usage": {
+    "input_tokens": 5544,
+    "output_tokens": 555,
+    "total_tokens": 6099
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.07,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:19:18Z"
+}

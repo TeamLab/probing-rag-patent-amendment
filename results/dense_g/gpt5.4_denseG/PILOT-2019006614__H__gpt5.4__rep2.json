@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2019006614",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2019006614",
+  "app_num": "14090382",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020000966",
+      "PILOT-2017001990",
+      "PILOT-2016007474"
+    ],
+    "retrieved_app_nums": [
+      "13457338",
+      "13193905",
+      "13661669"
+    ],
+    "retrieved_scores": [
+      0.905,
+      0.9012,
+      0.9007
+    ],
+    "retrieved_chars_total": 984,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10098,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8c010d41b81a2992",
+  "response_text": "1. (Currently amended) A __computer-implemented__ method for assisting evaluation of a medical patient, comprising: receiving, by a processor, experimentally-determined data for a region of interest of the medical patient; storing __in a memory__ a receiver operating characteristic analysis of historical data for the region of interest on each of a plurality of different subjects; performing, by the processor, a comparison of the experimentally-determined data to the receiver operating characteristic analysis of the historical data __at each of a plurality of spatial locations in the region of interest__; identifying, by the processor, __based on the receiver operating characteristic analysis, a subset of the spatial locations in the region of interest where the experimentally-determined data is an accurate predictor of a medical condition, and identifying the experimentally-determined data at the subset of the spatial locations__ to be utilized to reach an at least preliminary conclusion regarding the medical patient based on the experimentally-determined data; and presenting, on a display device, a visible display graphically depicting a result of the comparison __for the subset of the spatial locations__.\n\n2. (Previously presented) The method of claim 1, wherein the historical data is associated with subjects having a common quality.\n\n3. (Previously presented) The method of claim 1, wherein the experimentally-determined data comprises eye data of the medical patient.\n\n4. (Previously presented) The method of claim 1, wherein the comparison comprises comparing patient eye data to the historical data.\n\n5. (Previously presented) The method of claim 1, wherein the receiver operating characteristic analysis comprises weighted data.\n\n6. (Previously presented) The method of claim 1, wherein the at least preliminary conclusion comprises a likelihood of a medical condition.\n\n7. (Previously presented) The method of claim 1, wherein the visible display graphically depicts the result of the comparison over the region of interest.\n\n8. (Currently amended) A non-transitory computer readable medium storing instructions that, when executed by a processor, cause the processor to perform the method of claim 1.\n\n9. (Previously presented) The non-transitory computer readable medium of claim 8, wherein the historical data is associated with subjects having a common quality.\n\n10. (Previously presented) The non-transitory computer readable medium of claim 8, wherein the experimentally-determined data comprises eye data of the medical patient.\n\n11. (Previously presented) The non-transitory computer readable medium of claim 8, wherein the comparison comprises comparing patient eye data to the historical data.\n\n12. (Previously presented) The non-transitory computer readable medium of claim 8, wherein the receiver operating characteristic analysis comprises weighted data.\n\n13. (Currently amended) A computer-implemented method for assisting evaluation of a medical patient, comprising: accessing, by a processor, a receiver operating characteristic analysis of historical data for a region of interest on each of a plurality of different subjects; receiving, by the processor, experimentally-determined data for the region of interest of the medical patient; identifying, by the processor, a subset of spatial locations in the region of interest where the experimentally-determined data is an accurate predictor of the medical condition to be utilized to reach an at least preliminary conclusion regarding the medical patient based on the receiver operating characteristic analysis of the historical data; comparing, by the processor, the experimentally-determined data at the subset of spatial locations of the medical patient to the receiver operating characteristic analysis of the historical data; and graphically expressing, on a display device, a result of said comparing __for the subset of spatial locations__.",
+  "usage": {
+    "input_tokens": 2235,
+    "output_tokens": 718,
+    "total_tokens": 2953
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.64,
+  "cost_usd": 0.00997,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:30:09Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004158",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2015004158",
+  "app_num": "13783908",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12859,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d0f6080effc887dc",
+  "response_text": "1. (Currently amended) A [[preventing or]] treating agent for glaucoma comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof.\n\n2. (Currently amended) A [[preventing or]] treating agent for ocular hypertension comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof.\n\n3. (Previously presented) A composition for eye drops comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof and a pharmaceutically accepted carrier.\n\n7. (Currently amended) A method for [[preventing or]] treating glaucoma wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered.\n\n8. (Currently amended) A method for [[preventing or]] treating ocular hypertension wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered.\n\n9. (Previously presented) A method for treating glaucoma comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\n10. (Currently amended) A method for treating ocular [[hypertention]] __hypertension__ comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\n11. (Currently amended) A method for enhancing an intraocular pressure-reducing action of (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or its salt, wherein phosphoric acid or a salt thereof is combined with (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof, __and wherein the phosphoric acid or salt thereof is not a counterion of the salt of (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine__.\n\n12. (Previously presented) A method for reducing intraocular pressure from the normal level, which method comprises administering a combination of (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine, or its salt, and phosphoric acid, or a salt thereof, to a person having normal intraocular pressure.",
+  "usage": {
+    "input_tokens": 3199,
+    "output_tokens": 663,
+    "total_tokens": 3862
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.66,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:36:03Z"
+}

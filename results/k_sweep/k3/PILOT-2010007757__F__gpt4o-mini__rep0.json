@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21190,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c3105a411d9fc609",
+  "response_text": "(Currently Amended) 1. A composition, comprising: cavity-generating particles having a size greater than 12 micrometers; a thermally conductive binder selected from the group comprising a premixed solder paste; and a solvent wherein the ratio of the cavity-generating particles to the thermally conductive binder is about 1 gram to 0.5-0.8 grams, and the solvent is present in an amount of about 10 ml per gram of particles.\n\n(Currently Amended) 2. The composition of claim 1, wherein the composition is applied to a surface of an electronic component.\n\n(Currently Amended) 3. The composition of claim 2, wherein the solvent is removed during application to the surface of the electronic component.",
+  "usage": {
+    "input_tokens": 4876,
+    "output_tokens": 154,
+    "total_tokens": 5030
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.38,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:53:08Z"
+}

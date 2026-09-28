@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012008496",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2012008496",
+  "app_num": "11752325",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21837,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1a331b63179f7ac0",
+  "response_text": "1 (Currently amended): A loading ramp, said loading ramp comprising: a support structure having a mounting member, said mounting member being compatible with a truck having a bed such that said support structure is adapted to be removably mounted to the truck; a first gradient member secured to said support structure, said first gradient member defining a first surface, a proximate end, and a distal end, the proximate end being opposite the distal end with respect to the first surface, the proximate end being proximate the bed of the truck when said support structure is mounted to the truck, the first surface being structured to support a small vehicle; and a second gradient member secured to said first gradient member at the distal end such that said second gradient member pivots at the distal end to the extent that said second gradient member is capable of an up position and a down position, said second gradient member defining a second surface, the second surface being structured to support the small vehicle, said first gradient member and said second gradient member defining a gradient between a ground surface and the bed of the truck when said second gradient member is at the down position and said support structure is mounted to the truck, the gradient being traversable by the small vehicle, said loading ramp being carried by the truck when said second gradient member is at the up position and said support structure is mounted to the truck, said loading ramp being structured to not interfere with an intended use of cargo space provided by the truck when said loading ramp is carried by the truck.\n\n24 (Currently amended): The loading ramp of Claim 1 wherein the truck is a vehicle equipped with a bed, including a pickup truck and a sports utility vehicle.\n\n25 (Currently amended): The loading ramp of Claim 1 wherein the small vehicle is a vehicle selected from the group consisting of a lawnmower, an ATV, and a snowmobile.",
+  "usage": {
+    "input_tokens": 5197,
+    "output_tokens": 374,
+    "total_tokens": 5571
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.01,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:32:41Z"
+}

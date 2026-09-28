@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2017004144",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2017004144",
+  "app_num": "14624666",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "103",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020003266",
+      "PILOT-2019000726",
+      "PILOT-2017008932"
+    ],
+    "retrieved_app_nums": [
+      "14798792",
+      "14741112",
+      "14720915"
+    ],
+    "retrieved_scores": [
+      1.0,
+      0.9958,
+      0.9944
+    ],
+    "retrieved_chars_total": 5160,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21300,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b4acd9745639a1ea",
+  "response_text": "```plaintext\n(Currently amended) Claim 21: The airfoil according to claim 20, wherein the leading edge sweep angle at the 0% span position and a leading edge sweep angle at the 100% span position are positive and within 10° of one another.\n\n(Currently amended) Claim 25: The airfoil according to claim 1, wherein the airfoil is a fan blade for a gas turbine engine, and the fan blade has a trailing edge sweep angle that is positive from 0% span to at least 95% span.\n```",
+  "usage": {
+    "input_tokens": 5173,
+    "output_tokens": 115,
+    "total_tokens": 5288
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.18,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:05:55Z"
+}

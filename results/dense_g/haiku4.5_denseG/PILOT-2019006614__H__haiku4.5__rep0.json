@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2019006614",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2019006614",
+  "app_num": "14090382",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020000966",
+      "PILOT-2017001990",
+      "PILOT-2016007474"
+    ],
+    "retrieved_app_nums": [
+      "13457338",
+      "13193905",
+      "13661669"
+    ],
+    "retrieved_scores": [
+      0.905,
+      0.9012,
+      0.9007
+    ],
+    "retrieved_chars_total": 984,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10098,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8c010d41b81a2992",
+  "response_text": "I cannot complete this task as requested because the current claim text is not available in the application materials provided. The section labeled \"Current claims (pre-amendment)\" states \"(no claim text available).\"\n\nTo draft amended claims that address the §101 and §103 rejections, I require:\n\n1. The full text of claims 1-13 as currently pending\n2. The specification text to identify supported limitations for potential amendments\n3. The complete Tobin reference and examiner's §103 analysis (the office action text was truncated)\n\nWithout the original claim language, I cannot apply the amendment principles of modifying only necessary limitations, avoiding new matter, and preserving scope while overcoming the rejections.\n\n**Recommendation:** Please provide the complete claim text for claims 1-13 and the full specification to enable proper claim drafting.",
+  "usage": {
+    "input_tokens": 2429,
+    "output_tokens": 183,
+    "total_tokens": 2612
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.39,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:31:07Z"
+}

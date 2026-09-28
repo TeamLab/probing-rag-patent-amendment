@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13807,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "749783b6816b5655",
+  "response_text": "(Currently Amended) Claim 1: A cooling system installable within a structure wall, comprising: in a housing, the housing disposed between a pair of studs of the wall, a water reservoir; a pump; a pad; a water distributor; a motor; and a fan, wherein the housing does not extend beyond three inches from the wall.\n\n(Currently Amended) Claim 2: The cooling system of claim 1, wherein the studs are spaced __not more than__ sixteen inches __on center__.\n\n(Currently Amended) Claim 4: The cooling system of claim 1, wherein the pump brings water from the water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad, and wherein at least some of the water flows back to the reservoir for recirculation.\n\n(Currently Amended) Claim 6: The cooling system of claim 5, wherein the fan causes the cooled air to flow through an __exterior opening in the housing__.\n\n(Currently Amended) Claim 11: The cooling system of claim 1, wherein the housing includes a front cover that is removable. \n\n(Currently Amended) Claim 13: The cooling system of claim 1, wherein the wall is a load-bearing wall __and supports the housing of the cooling system__. \n\n(Currently Amended) Claim 15: A cooling system kit, comprising: the cooling system of claim 1; mounting elements for installing the cooling system; and a ventilation grill for directing air flow. \n\n(Currently Amended) Claim 17: A cooling system, comprising: a housing configured for mounting within a structure wall, a water reservoir, a pump, a pad, a water distributor, a motor, and a fan, configured to operate to cool an indoor area by evaporative cooling. \n\n(Currently Amended) Claim 18: The cooling system of claim 17, wherein the housing includes features for mounting the cooling system securely between wall studs that are spaced __not more than__ sixteen inches __on center__.",
+  "usage": {
+    "input_tokens": 3404,
+    "output_tokens": 419,
+    "total_tokens": 3823
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.8,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:31:31Z"
+}

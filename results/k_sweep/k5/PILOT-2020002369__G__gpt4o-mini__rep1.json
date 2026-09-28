@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002369",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020002369",
+  "app_num": "14171413",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 24649,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "aa4f63f2e57fa72d",
+  "response_text": "1. (Currently Amended) A regenerative braking control system for an __electrified vehicle__, comprising: at least one sensor adapted to sense a front tire impact event and transmit a sensor signal responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the sensor signal from the at least one sensor.\n\n4. (Currently Amended) The system of claim 1 further comprising an electrical storage facility interfacing with and adapted to store electrical power from the regenerative powertrain for use during vehicle operation.\n\n14. (Currently Amended) The system of claim 13 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the __front axle__ of the vehicle responsive to receiving the sensor signal from the at least one sensor.",
+  "usage": {
+    "input_tokens": 5074,
+    "output_tokens": 170,
+    "total_tokens": 5244
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.59,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:41:05Z"
+}

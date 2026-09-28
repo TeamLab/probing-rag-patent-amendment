@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004158",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2015004158",
+  "app_num": "13783908",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16186,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5bad4c43c1b58c48",
+  "response_text": "1. (Currently Amended) A preventing or treating agent for glaucoma comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof, wherein the agent is formulated for __reducing intraocular pressure in a subject with glaucoma__.\n\n2. (Currently Amended) A preventing or treating agent for ocular hypertension comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof, wherein the agent is formulated for __reducing intraocular pressure in a subject with ocular hypertension__.\n\n3. (Currently Amended) A composition for eye drops comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof and a pharmaceutically accepted carrier, wherein the composition is formulated for __reducing intraocular pressure__.\n\n7. [[Cancelled]]\n\n8. [[Cancelled]]\n\n9. (Previously Presented) A method for treating glaucoma comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\n10. (Previously Presented) A method for treating ocular hypertention comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\n11. [[Cancelled]]\n\n12. (Previously Presented) A method for reducing intraocular pressure from the normal level, which method comprises administering a combination of (S)-(-)-l-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine, or its salt, and phosphoric acid, or a salt thereof, to a person having normal intraocular pressure.",
+  "usage": {
+    "input_tokens": 4222,
+    "output_tokens": 506,
+    "total_tokens": 4728
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.65,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:59:19Z"
+}

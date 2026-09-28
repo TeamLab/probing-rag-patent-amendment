@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2016000849",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2016000849",
+  "app_num": "11628379",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018004614",
+      "PILOT-2018000615",
+      "PILOT-2016008736"
+    ],
+    "retrieved_app_nums": [
+      "12631208",
+      "12062823",
+      "13697681"
+    ],
+    "retrieved_scores": [
+      0.8832,
+      0.8775,
+      0.8748
+    ],
+    "retrieved_chars_total": 5326,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 29431,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "40f9d3489bbba313",
+  "response_text": "1. A system for analysing risk associated with an investment portfolio of an investor, said system including means for use in generating a user interface for display on a user terminal, said user interface showing a distribution of assets of each investment of the investment portfolio over one or more asset classes and showing the distribution of assets over said one or more asset classes of a benchmark risk category representing a risk tolerance level of the investor, and further comprising means for adding an investment to the investment portfolio and means for removing an investment from the investment portfolio. (Currently amended)\n\n4. A system for managing an investment portfolio of an investor, said system including the system for analysing claimed in any one of claims 1 to 3 and including means for use in adding an investment to the investment portfolio and means for removing an investment from the investment portfolio. (Currently amended)\n\n5. A system for managing an investment portfolio of an investor, said system including the system for analysing claimed in any one of claims 1 to 3 and including means for use in removing an investment from the investment portfolio. (Currently amended)\n\n12. A computer program for analysing risk associated with an investment portfolio of an investor, said program for performing the step of generating a user interface for display on a user terminal, said user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing a distribution of assets over said one or more asset classes of a benchmark risk category representing the risk tolerance level of the investor, and further comprising means for adding an investment to the investment portfolio and means for removing an investment from the investment portfolio. (Currently amended)\n\n15. A computer program for managing an investment portfolio of an investor, said computer program for performing the steps claimed in any one of claims 12 to 14 and performing the step of adding an investment to the investment portfolio and removing an investment from the investment portfolio. (Currently amended)\n\n16. A computer program for managing an investment portfolio of an investor, said computer program for performing the steps claimed in any one of claims 12 to 14 and performing the step of removing an investment from the investment portfolio. (Currently amended)",
+  "usage": {
+    "input_tokens": 6391,
+    "output_tokens": 434,
+    "total_tokens": 6825
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.27,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:38:54Z"
+}

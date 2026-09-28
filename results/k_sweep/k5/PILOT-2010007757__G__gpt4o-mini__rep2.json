@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22181,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3690633285fa9cb3",
+  "response_text": "(Currently Amended) A composition, comprising: cavity-generating particles; a thermally conductive binder, wherein the binder is a thermally conductive epoxy; and a solvent.\n\n(Currently Amended) The composition of claim 1, wherein the composition is applied to an electronic component surface, wherein the electronic component is a silicon chip.\n\n(Currently Amended) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface, and wherein the solvent is an alcohol selected from the group consisting of ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, or a fluorocarbon.",
+  "usage": {
+    "input_tokens": 5183,
+    "output_tokens": 131,
+    "total_tokens": 5314
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.45,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:22:44Z"
+}

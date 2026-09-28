@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022001087",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2022001087",
+  "app_num": "15853199",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 34926,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a65765f42e67dbbf",
+  "response_text": "1. (Currently amended) A system for providing security in a computer system, the system comprising:\na hardware entropy source configured to provide a plurality of independent first entropy values;\none or more logic circuits operatively coupled to the hardware entropy source, wherein the one or more logic circuits comprise:\na first circuit configured to apply at least some of the plurality of independent first entropy values to a function to generate a second entropy value;\na second circuit configured to seed a pseudorandom number generator with the second entropy value;\na third circuit configured to generate a random number using the pseudorandom number generator seeded with the second entropy value; and\na fourth circuit configured to produce a block of ciphertext or message authentication code using the random number.\n\n2. (Currently amended) The system of claim 1, wherein the fourth circuit is configured to produce the block of ciphertext or message authentication code with a key composed of or derived from the random number.\n\n3. (Currently amended) The system of claim 1, wherein the fourth circuit is configured to at least:\nimplement a key-agreement protocol using the random number and in which a key is produced; and\nproduce the block of ciphertext or message authentication code using the key.\n\n4. (Currently amended) The system of claim 1, wherein the hardware entropy source is a ring oscillator.\n\n5. (Currently amended) The system of claim 1, wherein the hardware entropy source is a single hardware entropy source.\n\n6. (Currently amended) The system of claim 1, wherein the hardware entropy source comprises a plurality of independent hardware entropy sources.\n\n7. (Currently amended) The system of claim 1, wherein the function is a permutation function.\n\n8. (Currently amended) The system of claim 7, wherein the first circuit is configured to:\ndivide the plurality of independent first entropy values into multiple groups of independent first entropy values;\napply the multiple groups of independent first entropy values to the permutation function to generate permuted groups of entropy values; and\nconcatenate the permuted groups of entropy values to generate the second entropy value.\n\n9. (Currently amended) The system of claim 1, wherein the function is a hash function.\n\n10. (Currently amended) The system of claim 1, wherein the function is a bit-mixer.\n\n11. (Currently amended) The system of claim 1, wherein the first circuit is configured to selectively apply multiple entropy values of the plurality of independent first entropy values to the function to generate the second entropy value.\n\n12. (Cancelled)\n\n13. (Currently amended) A method of providing security in a computer system, comprising:\nreceiving a plurality of independent first entropy values from a hardware entropy source;\napplying at least some of the plurality of independent first entropy values to a function to generate a second entropy value;\nseeding a pseudorandom number generator with the second entropy value;\ngenerating a random number using the pseudorandom number generator seeded with the second entropy value; and\nproducing a block of ciphertext or message authentication code using the random number.\n\n14. (Currently amended) The method of claim 13, wherein producing the block of ciphertext or message authentication code includes producing the block of ciphertext or message authentication code with a key composed of or derived from the random number.\n\n15. (Currently amended) The method of claim 13, wherein producing the block of ciphertext or message authentication code includes at least:\nimplementing a key-agreement protocol using the random number and in which a key is produced; and\nproducing the block of ciphertext or message authentication code using the key.\n\n16. (Currently amended) The method of claim 13, wherein the hardware entropy source is a ring oscillator.\n\n17. (Currently amended) The method of claim 13, wherein the hardware entropy source is a single hardware entropy source.\n\n18. (Currently amended) The method of claim 13, wherein the hardware entropy source comprises a plurality of independent hardware entropy sources.\n\n19. (Currently amended) The method of claim 13, wherein the function is a permutation function.\n\n20. (Currently amended) The method of claim 19, wherein applying at least some of the plurality of independent first entropy values to the function includes:\ndividing the plurality of independent first entropy values into multiple groups of independent first entropy values;\napplying the multiple groups of independent first entropy values to the permutation function to generate permuted groups of entropy values; and\nconcatenating the permuted groups of entropy values to generate the second entropy value.\n\n21. (Currently amended) The method of claim 13, wherein the function is a hash function.\n\n22. (Currently amended) The method of claim 13, wherein the function is a bit-mixer.\n\n23. (Currently amended) The method of claim 13, wherein applying at least some of the plurality of independent first entropy values to the function includes selectively applying multiple entropy values of the plurality of independent first entropy values to the function to generate the second entropy value.\n\n24. (Cancelled)",
+  "usage": {
+    "input_tokens": 8139,
+    "output_tokens": 1072,
+    "total_tokens": 9211
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.94,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:40:57Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19967,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a22cb5a83436efdd",
+  "response_text": "Claim 13 (Currently Amended): A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides integrated contact elements by which power is supplied to said heater, wherein said contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater, __and wherein said contact elements are positioned within said second portion and extend generally parallel to a longitudinal axis of the gas passage__.\n\nClaim 14 (Previously Presented): The gas tube arrangement according to claim 13, further comprising an insulating sheathing body.\n\nClaim 15 (Cancelled): (Cancelled)\n\nClaim 16 (Cancelled): (Cancelled)\n\nClaim 17 (Previously Presented): The gas tube arrangement according to claim 14, wherein said sheathing body includes a multi-layered design.\n\nClaim 18 (Previously Presented): The gas tube arrangement according to claim 13, wherein the tube is a heatable respiratory gas tube.\n\nClaim 19 (Previously Presented): The gas tube arrangement according to claim 14, wherein the heater is integrated into the tube.\n\nClaim 20 (Cancelled): (Cancelled)\n\nClaim 21 (Cancelled): (Cancelled)\n\nClaim 22 (Cancelled): (Cancelled)\n\nClaim 23 (Cancelled): (Cancelled)\n\nClaim 24 (Previously Presented): The gas tube arrangement according to claim 13, wherein the flexible tube is made from a spirally reinforced plastic material.\n\nClaim 25 (Previously Presented): The gas tube arrangement according to claim 13, wherein the heater is an electrical resistance heater.\n\nClaim 26 (Cancelled): (Cancelled)\n\nClaim 27 (Currently Amended): The gas tube arrangement according to claim 13, wherein each __contact element__ is provided within the second portion.\n\nClaim 28 (Previously Presented): The gas tube arrangement according to claim 13, wherein the first portion is tubular and the second portion extends outwardly from the first portion.\n\nClaim 29 (Cancelled): (Cancelled)\n\nClaim 30 (Currently Amended): A connector according to claim 29, wherein each __contact element__ is provided within the second portion.\n\nClaim 31 (Cancelled): (Cancelled)",
+  "usage": {
+    "input_tokens": 5309,
+    "output_tokens": 616,
+    "total_tokens": 5925
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.17,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:33:56Z"
+}

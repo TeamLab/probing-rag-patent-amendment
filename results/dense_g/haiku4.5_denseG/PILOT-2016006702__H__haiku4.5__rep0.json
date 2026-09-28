@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2016006702",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2016006702",
+  "app_num": "14107154",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "103",
+    "test_subsection": "a",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018003818",
+      "PILOT-2015005568",
+      "PILOT-2017010047"
+    ],
+    "retrieved_app_nums": [
+      "13838130",
+      "13335600",
+      "14682502"
+    ],
+    "retrieved_scores": [
+      0.9377,
+      0.9362,
+      0.9336
+    ],
+    "retrieved_chars_total": 3515,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22361,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b31ee0719c358a43",
+  "response_text": "1. (Currently Amended) A system for facilitating a medical order/prescription of a prescription product for a patient covered by a provider, comprising: at least one memory device to store a plurality of predefined forms for the prescription product, the plurality of predefined forms corresponding to a plurality of providers, the prescription product including a biologic product __that requires prior authorization__; a receiver to receive prescription product information for the prescription product and patient intake information for the patient, including provider information for the patient, and to receive a benefits summary related to the patient in response to a benefits verification request; a transmitter to transmit the benefits verification request; and at least one processor configured to: generate the benefits verification request for the patient based on the patient intake information; select one of the predefined forms based on at least the patient provider information __and the benefits summary__; populate at least one field of the selected predefined form based on the user intake information; and release the populated predefined form to facilitate a medical order/prescription of the prescription product to the patient.\n\n2. (Previously presented)\n\n3. (Previously presented)\n\n4. (Previously presented)\n\n5. (Previously presented)\n\n6. (Previously presented)\n\n7. (Previously presented)\n\n8. (Previously presented)\n\n9. (Currently Amended) The system of claim 1, wherein the processor is configured to automatically select one of the predefined forms based on the patient provider information __and the benefits summary__.\n\n10. (Previously presented)\n\n11. (Currently Amended) The system of claim 10, wherein the receiver is further configured to receive information about the predefined forms from the benefits verifier, and the processor is configured to select one of the predefined forms further based on __both__ the information about the predefined forms received from the benefits verifier __and the benefits summary__.\n\n12. (Previously presented)\n\n13. (Currently Amended) The system of claim 12, wherein the processor is further configured to receive the additional patient information and populate at least one field of the selected predefined form with the additional patient information __to complete information required for prior authorization__.\n\n14. (Currently Amended) The system of claim 12, wherein the additional patient information includes information required for the selected predefined forms and not included in the patient intake information or the prescription product information for the prescription product, __and wherein the additional patient information is specific to prior authorization requirements__.\n\n15. (Previously presented)\n\n16. (Currently Amended) The system of claim 1, wherein the processor is further configured to generate a prescription document from at least a portion of the prescription product information and the patient intake information __after prior authorization has been obtained__ and release the prescription document to a pharmacy.\n\n17. (Previously presented)\n\n18. (Previously presented)\n\n19. (Previously presented)\n\n20. (Previously presented)\n\n21. (Currently Amended) The system of claim 19, wherein the processor of the at least one user device is further configured to: receive a healthcare provider signature __for the prior authorization form__; and generate a prescription document from the prescription product information.\n\n22. (Currently Amended) The system of claim 21, wherein the processor of the user device is further configured to transmit the prescription document to a pharmacy __upon completion of the prior authorization process__.\n\n23. (Previously presented)\n\n24. (Previously presented)\n\n25. (Currently Amended) A method for facilitating a medical order/prescription of a prescription product for a patient covered by a provider, comprising: providing at least one memory having stored therein a plurality of predefined forms for the prescription product, the plurality of predefined forms corresponding to a plurality of providers, the prescription product including a biologic product __that requires prior authorization__; receiving patient intake information including provider information of the patient and prescription product information for the prescription product; generating, by a processor, a benefits verification request for the patient based on the patient intake information; obtaining a benefits summary based on the benefits verification request; selecting one of the predefined forms based on at least one of the patient provider information and the benefits summary __and the prior authorization requirements of the prescription product__; populating at least one field of the selected predefined form based on the patient intake information; and facilitating, by the processor, a medical order/prescription of the prescription product to the patient with the selected predefined form.\n\n26. (Previously presented)\n\n27. (Previously presented)\n\n28. (Currently Amended) A non-transitory computer readable medium containing computer-executable instructions that when executed cause one or more user devices to perform a method of facilitating a medical order/prescription of a prescription product for a patient covered by a provider, the method comprising: providing a memory including a plurality of predefined forms corresponding to one or more providers stored therein; receiving patient intake information including patient provider and prescription product information for the prescription product, the prescription product including a biologic product __that requires prior authorization__; generating, by a processor, a benefits verification request for the patient based on the patient intake information; obtaining a benefits summary based on the benefits verification request; selecting one of the predefined forms based on at least one of the patient provider information and the benefits summary __and the prior authorization requirements of the prescription product__; populating at least one field of the selected predefined form based on the patient intake information; and facilitating, by the processor, a medical order/prescription of the prescription product to the patient with the selected predefined form.\n\n29. (Previously presented)\n\n30. (Previously presented)",
+  "usage": {
+    "input_tokens": 5361,
+    "output_tokens": 1172,
+    "total_tokens": 6533
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.52,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:36:00Z"
+}

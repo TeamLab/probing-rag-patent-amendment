@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 73142,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9358a8d8b4026361",
+  "response_text": "1. (Currently amended) A tool comprising a lamination of at least two layers and an adhesive layer, the tool comprising first and second layers and __a first adhesive layer and a second adhesive layer__ having a substantially uniform thickness produced by placing __sheets of adhesive each having a substantially uniform thickness__ between the first and second layers, a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer, __and an additional adhesive layer positioned between the medial section and at least one of the first or second layers__.\n\n2. (Currently amended) The tool of claim 281 wherein the medial section comprises a metal and the metal is a honeycomb structure __and wherein the additional adhesive layer is positioned between the honeycomb structure and at least one of the first or second layers__.\n\n3. (Currently amended) The tool of claim 282 wherein the medial section is a composite material __and wherein the composite material is formed by the additional adhesive layer combining with the honeycomb structure__.\n\n4. (Currently amended) The tool of claim 281 wherein the medial section is a composite material __and wherein the composite material includes the additional adhesive layer__.\n\n5. (Currently amended) The tool of claim 281 further including a weld ring at least partially interposed between the perimeter of the first and second layers, wherein the weld ring is bonded to the medial section, wherein the tool has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the weld ring, and wherein the weld ring is continuous.\n\n6. (Currently amended) The tool of claim 285 wherein the plurality of cutting segments are also welded to an outer perimeter of the weld ring.\n\n7. (Currently amended) The tool of claim 285 further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring, and wherein the inner ring includes __a__ central opening for accommodating a drive shaft.\n\n8. (Currently amended) The tool of claim 287 wherein the inner ring is bonded to the medial section.\n\n9. (Currently amended) The tool of claim 285 wherein the weld ring is segmented.\n\n10. (Currently amended) The tool of claim 281 further including a weld ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, such that the plurality of cutting segments are located on an outer periphery of the weld ring, and wherein the weld ring is continuous.\n\n11. (Currently amended) The tool of claim 290 wherein the weld ring is segmented.",
+  "usage": {
+    "input_tokens": 17244,
+    "output_tokens": 638,
+    "total_tokens": 17882
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.87,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:08:45Z"
+}

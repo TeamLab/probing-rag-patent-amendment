@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20685,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "795f4fc6496250a2",
+  "response_text": "(Currently amended) Claim 27 (Previously Presented): The gas tube arrangement according to claim 13, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, and each of the contact elements has a corresponding contact surface that is associated with a defined structure for engagement.\n\n(Currently amended) Claim 30 (Previously Presented): A connector according to claim 29, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage and each contact surface is provided within the second portion as a functional element of the connector.\n\n(Currently amended) Claim 13 (Previously Presented): A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides integrated contact elements by which power is supplied to said heater, wherein said contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater, and each of said contact elements has a corresponding contact surface accessible for engagement. \n\n(Currently amended) Claim 16 (Previously Presented): The gas tube arrangement according to claim 14, wherein the heater is integrated into the insulating sheathing body as a designed element for effective heat transfer.\n\n(Currently amended) Claim 20 (Previously Presented): The gas tube arrangement according to claim 13, wherein said second connector further includes a pressure measuring tube connection integrated into the design for monitoring respiratory gas pressure.",
+  "usage": {
+    "input_tokens": 4595,
+    "output_tokens": 381,
+    "total_tokens": 4976
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.91,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:53:21Z"
+}

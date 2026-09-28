@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19740,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "864579639a4a9413",
+  "response_text": "Claim 15 (Currently Amended): A method for selecting a first server computer for sending data to a client computer, the method comprising the steps of: accessing a second server computer through a path in a computer network, the path including one or more server computers; adding information indicative of at least one server computer of the one or more server computers to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier; and selecting the first server computer based on the information added to the locator, __wherein the selecting step comprises using a media request broker to analyze the information and select the first server computer based on load balancing criteria__.\n\nClaim 16 (Currently Amended): The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the http request and processes the unique signature to determine server selection__.\n\nClaim 17 (Currently Amended): The method of claim 16, __wherein the media request broker analyzes server load information and__ selecting the first server computer based on the information.\n\nClaim 18 (Currently Amended): The method of claim 17, the media request broker selecting the first server computer based on the information __and dynamically routing the media request to optimize server performance__.\n\nClaim 24 (Currently Amended): A system for selecting a first server computer for sending data to a client computer, the system comprising: circuitry for accessing a second server computer through a path in a computer network, the path including one or more server computers; circuitry for adding information indicative of at least one server computer of the one or more server computers to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier; and circuitry for selecting the first server computer based on the information added to the locator, __wherein the circuitry for selecting comprises a media request broker configured to analyze the information and select the first server computer based on load balancing criteria__.\n\nClaim 25 (Currently Amended): The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request, __wherein the media request broker receives the http request and processes the unique signature to determine server selection__.\n\nClaim 27 (Currently Amended): A computer program product for selecting a first server computer for sending data to a client computer, the computer program product comprising: the program step of accessing a second server computer through a path in a computer network, the path including one or more server computers; the program step of adding information indicative of at least one server computer of the one or more server computers to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier; and the program step of selecting the first server computer based on the information added to the locator, __wherein the program step of selecting comprises using a media request broker to analyze the information and select the first server computer based on load balancing criteria__.\n\nClaim 28 (Currently Amended): The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the http request and processes the unique signature to determine server selection__.",
+  "usage": {
+    "input_tokens": 4650,
+    "output_tokens": 902,
+    "total_tokens": 5552
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.9,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:24:41Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016000849",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2016000849",
+  "app_num": "11628379",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29047,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c2b96a677e92fcfc",
+  "response_text": "1. A system for analysing risk associated with an investment portfolio of an investor, said system including means for use in generating a user interface for display on a user terminal, said user interface showing a distribution of assets of each investment of the investment portfolio over one or more asset classes and showing the distribution of assets over said one or more asset classes of a benchmark risk category representing a risk tolerance level of the investor, __wherein the system further comprises means for adding an investment to the investment portfolio__.\n\n4. A system for managing an investment portfolio of an investor, said system including the system for analysing claimed in any one of claims 1 to 3 and including means for use in __removing an investment from the investment portfolio__.\n\n10. The system claimed in any one of claims 1 to 9, wherein said investments of the investment portfolio are fund managers __or direct shares__.\n\n12. A computer program for analysing risk associated with an investment portfolio of an investor, said program for performing the step of generating a user interface for display on a user terminal, said user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing a distribution of assets over said one or more asset classes of a benchmark risk category representing the risk tolerance level of the investor, __wherein the program further comprises means for adding an investment to the investment portfolio__.\n\n15. A computer program for managing an investment portfolio of an investor, said computer program for performing the steps claimed in any one of claims 12 to 14 and performing the step of __removing an investment from the investment portfolio__.\n\n19. The computer program claimed in claim 18, wherein each asset class of the one or more asset classes of a distribution of assets of an investment is shown as a proportion of the investor's assets allocated to the respective investment __including means for allocating a proportion of the investor's assets to each investment of the investment portfolio__.",
+  "usage": {
+    "input_tokens": 6244,
+    "output_tokens": 396,
+    "total_tokens": 6640
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.23,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:10:30Z"
+}

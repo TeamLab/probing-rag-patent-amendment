@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2014001187",
+      "PILOT-2011000669",
+      "PILOT-2016000476"
+    ],
+    "retrieved_app_nums": [
+      "13099677",
+      "11482217",
+      "12617514"
+    ],
+    "retrieved_scores": [
+      0.9686,
+      0.9679,
+      0.9588
+    ],
+    "retrieved_chars_total": 3572,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16161,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2203b610383096fc",
+  "response_text": "(Currently Amended) Claim 1: A method of treating a brain, comprising: inserting an elongated device into the brain to create a path; radially expanding the device to create a working channel along the path; and introducing a medical element into the working channel, wherein the medical element is a medicament, to perform a medical procedure on the brain.\n\n(Currently Amended) Claim 4: The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening, wherein the elongated device is inserted between tissue layers within the brain.\n\n(Currently Amended) Claim 5: The method of claim 1, further comprising inserting the elongated device between tissue layers within the brain, wherein the elongated device is configured to create a path through the tissue layers.\n\n(Currently Amended) Claim 7: A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; radially reinforcing the device against the tissue; and introducing a medical element, wherein the medical element is a medicament, through the device to perform a medical procedure on the tissue.\n\n(Currently Amended) Claim 10: The method of claim 7, further comprising inserting the elongated device between tissue layers, wherein the elongated device is configured to create a path through the tissue layers.",
+  "usage": {
+    "input_tokens": 3813,
+    "output_tokens": 291,
+    "total_tokens": 4104
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.37,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:35:21Z"
+}

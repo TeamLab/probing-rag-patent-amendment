@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017000093",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017000093",
+  "app_num": "13729015",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 24183,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d56403a3d85774e3",
+  "response_text": "Claim 26 (Currently amended): A non-transitory machine readable medium storing a program which when executed by at least one processing unit analyzes a document, the program comprising sets of instructions for: receiving a document that comprises a plurality of primitive graphic elements defined separately within the document, the document having a drawing order that indicates the order in which the primitive graphic elements are drawn when the document is displayed; calculating a first value for a first primitive graphic element and a second primitive graphic element that is subsequent to the first in the drawing order; and based on the comparison of the first value to other values calculated for additional primitive graphic elements that are subsequent in the drawing order, defining a single structural graphic element within the document from the first and second primitive graphic elements, wherein the first value is a calculated size value.\n\nClaim 27 (Currently amended): The non-transitory machine readable medium of claim 26, wherein the first value is a size value calculated based on the smallest bounding box that encompasses the first and second primitive graphic elements.\n\nClaim 28 (Currently amended): The non-transitory machine readable medium of claim 26, wherein the first value represents a size of a calculated bounding box that encompasses the first and second primitive graphic elements during document analysis.\n\nClaim 31 (Currently amended): The non-transitory machine readable medium of claim 26, wherein the set of instructions for calculating comprises a set of instructions for calculating a different value for each pair of primitive graphic elements subsequent in the drawing order, wherein the set of instructions for defining the single structural graphic element comprises sets of instructions for: using the calculated size values for pairs of primitive graphic elements to identify clusters of primitive graphic elements as candidates for joining as compound graphic elements; and identifying sequences of primitive graphic elements within a cluster whose bounding boxes intersect; and joining the sequences as single graphic elements based on defined criteria.\n\nClaim 37 (Currently amended): A method for analyzing a document, the method comprising: receiving a document that comprises a plurality of primitive graphic elements defined separately within the document, the document having a drawing order that indicates the order in which the primitive graphic elements are drawn when the document is displayed; calculating a first value for a first primitive graphic element and a second primitive graphic element that is subsequent to the first in the drawing order; and based on the comparison of the first value to other values calculated for additional primitive graphic elements that are subsequent in the drawing order, defining a single structural graphic element within the document from the first and second primitive graphic elements, wherein the first value is a calculated size value. \n\nClaim 41 (Currently amended): The method of claim 37, wherein the calculating comprises calculating a different value for each pair of primitive graphic elements subsequent in the drawing order, wherein defining the single structural graphic element comprises: using the calculated size values for pairs of primitive graphic elements to identify clusters of primitive graphic elements as candidates for joining as compound graphic elements; and identifying sequences of primitive graphic elements within a cluster whose bounding boxes intersect; and joining the sequences as single graphic elements based on defined criteria.",
+  "usage": {
+    "input_tokens": 5124,
+    "output_tokens": 611,
+    "total_tokens": 5735
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.99,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:49:10Z"
+}

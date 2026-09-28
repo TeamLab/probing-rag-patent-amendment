@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013007708",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2013007708",
+  "app_num": "13286129",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 31128,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b73ca138dc5fe263",
+  "response_text": "(Currently Amended) A golf tee comprising a long lasting combination of a golf tee and a force absorbing member in association therewith, said tee including a ground insertion end, a ball support end and a shaft in between, said member surrounding said shaft and being located below said ball support end and having an outer diameter less than that of a golf ball but large enough and located so as to protect said support end from impact from a golf club strike after a golf ball has been struck from said tee, wherein said force absorbing member is formed from a resilient material with shock-absorbing properties. \n\n(Currently Amended) The golf tee of claim 2, wherein said tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member, said material enabling durability and structural integrity during use. \n\n(Currently Amended) The golf tee of claim 3, wherein said tee is formed from a member selected from the group consisting of wood, plastic, metal, and combinations thereof. \n\n(Currently Amended) The golf tee of claim 4, wherein said tee is formed from a hardwood, said hardwood selected for its impact resistance. \n\n(Currently Amended) The golf tee of claim 5, wherein said tee is formed from an engineering plastic and selected for its flexibility and strength properties. \n\n(Currently Amended) The golf tee of claim 6, wherein said tee is formed from a polycarbonate, defined by its high impact resistance as well as its lightweight characteristics. \n\n(Currently Amended) The golf tee of claim 7, wherein said tee is formed from nylon, characterized by its toughness and resilience. \n\n(Currently Amended) The golf tee of claim 8, wherein said tee is formed from a malleable metal material that allows for deformation without compromising overall integrity. \n\n(Currently Amended) The golf tee of claim 9, wherein said tee is formed from aluminum, selected for its lightweight and corrosion-resistant properties. \n\n(Currently Amended) The golf tee of claim 10, wherein said force absorbing member is formed from a force absorbing material comprising a natural or man-made material with impact-dampening qualities. \n\n(Currently Amended) The golf tee of claim 11, wherein said force absorbing member is formed from a force absorbing material selected for its protective characteristics upon impact with a golf club. \n\n(Currently Amended) The golf tee of claim 12, wherein said force absorbing material has a hardness of from about 30 to about 90 durometer, providing a balanced cushioning effect. \n\n(Currently Amended) The golf tee of claim 13, wherein said force absorbing material comprises a neoprene having a hardness of from about 50 to about 60 durometer, selected for its optimal cushioning characteristics. \n\n(Currently Amended) The golf tee of claim 14, wherein said force absorbing material comprises a neoprene, chosen for its superior tensile and abrasion resistance. \n\n(Currently Amended) A method of making a golf tee for use when striking a golf ball, said method comprising the step of forming a long lasting combination of a golf tee and a force absorbing member in association therewith, the tee including a ground insertion end, a ball support end and a shaft in between, wherein the member surrounding the shaft is located below the ball support end and has an outer diameter less than that of a golf ball but large enough and located so as to protect the support end from impact from a golf club strike after a golf ball has been struck from the tee, the force absorbing member chosen for its ability to absorb and dissipate impact forces effectively. \n\n(Currently Amended) The method of claim 16, wherein the tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member, enhancing its durability during use. \n\n(Currently Amended) The method of claim 17, wherein the tee is formed from a member selected from the group consisting of wood, plastic, metal, and combinations thereof, allowing choice for optimal performance. \n\n(Currently Amended) The method of claim 18, wherein the tee is formed from a hardwood, selected for its natural durability and resilience under pressure. \n\n(Currently Amended) The method of claim 19, wherein the tee is formed from an engineering plastic, recognized for its excellent performance characteristics. \n\n(Currently Amended) The method of claim 20, wherein the tee is formed from a polycarbonate, selected specifically for its high endurance against impacts. \n\n(Currently Amended) The method of claim 21, wherein the tee is formed from nylon, providing suitable strength and elasticity. \n\n(Currently Amended) The method of claim 22, wherein the tee is formed from a malleable metal, enabling it to withstand various impacts without failing. \n\n(Currently Amended) The method of claim 23, wherein the tee is formed from aluminum, taking advantage of its lightweight and robust nature. \n\n(Currently Amended) The method of claim 24, wherein the force absorbing member is formed from a force absorbing material comprising a natural or man-made material selected for its cushioning properties upon impact. \n\n(Currently Amended) The method of claim 25, wherein the force absorbing member is formed from a force absorbing material that optimally protects the tee from damage during usage. \n\n(Currently Amended) The method of claim 26, wherein the force absorbing material has a hardness of from about 30 to about 90 durometer, allowing for a balance of flexibility and hardness. \n\n(Currently Amended) The method of claim 27, wherein the force absorbing material comprises a neoprene having a hardness of from about 50 to about 60 durometer, providing effective cushioning and protection qualities. \n\n(Currently Amended) The method of claim 28, wherein the force absorbing material comprises a neoprene, known for its excellent impact-resilient properties.",
+  "usage": {
+    "input_tokens": 7046,
+    "output_tokens": 1195,
+    "total_tokens": 8241
+  },
+  "stop_reason": "stop",
+  "latency_sec": 20.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:16:11Z"
+}

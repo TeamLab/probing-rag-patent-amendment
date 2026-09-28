@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 19740,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "864579639a4a9413",
+  "response_text": "(Currently Amended) Claim 15: The method of operating a data distribution system, comprising: receiving a media request at a first server computer; accessing a second server computer through a computer network, the second server computer being a Web application server; generating a path through the computer network to the second server computer, the path including one or more information servers; and providing data from the second server computer to a client computer, the data referencing the requested media, the data including a unique signature only if the unique signature is part of the media request.\n\n(Currently Amended) Claim 24: The system for data distribution, comprising: a first server computer; a second server computer, the second server computer being a Web application server; a computer network for accessing the second server computer; and a media request broker configured to select the first server computer based on the information, wherein the unique signature identifying a media request is only required if the media request contains such a signature.\n\n(Currently Amended) Claim 27: The computer program product for facilitating server communication in a data distribution system, comprising: software that, when executed, causes the computer to perform the steps of receiving a media request at a first server computer; accessing a second server computer through a computer network, the second server computer being a Web application server; and generating an http request, wherein the http request contains a unique signature identifying a media request only if such a signature is present in the media request.",
+  "usage": {
+    "input_tokens": 4251,
+    "output_tokens": 293,
+    "total_tokens": 4544
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.86,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:35:09Z"
+}

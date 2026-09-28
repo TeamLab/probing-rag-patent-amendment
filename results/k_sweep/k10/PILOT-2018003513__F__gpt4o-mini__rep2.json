@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018003513",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2018003513",
+  "app_num": "11742350",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 38642,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "445d2f0b5e36aecc",
+  "response_text": "Claim 1 (currently amended): (Currently amended) A method for treating an ocular condition, the method comprising: administering to the interior of an eye a composition comprising a therapeutically effective amount of a macromolecular anti-angiogenic component (MAAC) to a mammal suffering from an ocular condition, wherein the composition also comprises a viscosity inducing component in an amount effective to increase the viscosity of the composition to a viscosity at about 25°C of at least 10 cps at a shear rate of about 0.1/second, wherein said viscosity inducing component is injectable into the vitreous of a mammalian eye without permanently diminishing visual acuity.\n\nClaim 5 (currently amended): (Currently amended) The method of claim 1 wherein a symptom related to the ocular condition is the presence of angiogenesis and the MAAC comprises a direct or indirect inhibitor of vascular endothelial growth factor (VEGF) activity.\n\nClaim 6 (cancelled): (Cancelled) The method of claim 5 wherein the MAAC comprises an agent selected from the group consisting of a nucleic acid (an oligonucleotide) and a polypeptide.\n\nClaim 14 (currently amended): (Currently amended) The method of claim 1 wherein the MAAC comprises an angiogenesis inhibitor.\n\nClaim 16 (currently amended): (Currently amended) The method of claim 14 wherein said angiogenesis inhibitor is bevacizumab.\n\nClaim 20 (currently amended): (Currently amended) The method of claim 1 wherein said viscosity inducing component comprises a hyaluronic acid.",
+  "usage": {
+    "input_tokens": 9151,
+    "output_tokens": 313,
+    "total_tokens": 9464
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.16,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:11:19Z"
+}

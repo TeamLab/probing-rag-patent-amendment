@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2014008375",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2014008375",
+  "app_num": "13296572",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2015000814",
+      "PILOT-2011004255",
+      "PILOT-2014006846"
+    ],
+    "retrieved_app_nums": [
+      "13363296",
+      "11851089",
+      "12889610"
+    ],
+    "retrieved_scores": [
+      0.9233,
+      0.9201,
+      0.917
+    ],
+    "retrieved_chars_total": 3347,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16210,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "22a5b85737fba717",
+  "response_text": "(Currently amended) Claim 1: A vehicle door comprising: a door outer panel defining an exterior surface of the vehicle door; a common door inner panel located inboard of the door outer panel and configured to mount door hardware, the common door inner panel having a periphery; and a panel extension extending around essentially all of the periphery of the common door inner panel, the panel extension being attached to the periphery of the common door inner panel, forming an inner panel-extension joint, and attached to the door outer panel, forming an outer panel-extension joint, to secure the common door inner panel to the door outer panel, wherein the outer panel-extension joint is not limited to a hemmed joint.\n\n(Currently amended) Claim 2: The vehicle door of claim 1 wherein the outer panel-extension joint is a hemmed joint or a non-hemmed joint.\n\n(Currently amended) Claim 4: The vehicle door of claim 1 including at least one hinge that is mounted to the common door inner panel, wherein the hinge is not limited to a specific configuration. \n\n(Currently amended) Claim 5: A vehicle door comprising: one of a first door outer panel or a second door outer panel defining an exterior surface of the vehicle door; a common door inner panel located inboard of one of the first and second door outer panels and configured to mount door hardware, the common door inner panel having a periphery; and one of a first panel extension, configured to mate with the corresponding first door outer panel, or a second panel extension, configured to mate with the corresponding second door outer panel, extending around essentially all of the periphery of the common door inner panel, the one of the first and second panel extensions being attached to the periphery of the common door inner panel and attached to the corresponding one of the first and second door outer panels to secure the common door inner panel to the corresponding door outer panel.",
+  "usage": {
+    "input_tokens": 3745,
+    "output_tokens": 387,
+    "total_tokens": 4132
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.97,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:32:11Z"
+}

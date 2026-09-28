@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2018004436",
+      "PILOT-2016008609",
+      "PILOT-2014004797"
+    ],
+    "retrieved_app_nums": [
+      "13876675",
+      "13876950",
+      "13175743"
+    ],
+    "retrieved_scores": [
+      0.8295,
+      0.8128,
+      0.8076
+    ],
+    "retrieved_chars_total": 2480,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15573,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c880c7c68fab771d",
+  "response_text": "1. (Currently amended) A composition comprising a compound of formula I:\n\n[formula structure]\n\nwherein R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50 are as defined in the specification, and/or a physiologically acceptable salt thereof, __wherein the compound of formula I is not an indole derivative having the structure disclosed in Schacht et al. US 4,069,338__.\n\n2. (Cancelled)\n\n3. (Currently amended) Composition for topical use comprising a) the active ingredient according to Claim 1, b) one or more skin-tolerated vehicles, and c) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action, __wherein the composition is formulated for treatment of skin conditions rather than prophylaxis__.\n\n4. (Currently amended) Composition according to [[one or more of the]] Claim 1 or 3, wherein the active ingredient is contained in said composition in an amount of 0,00001 per cent by weight to 10 per cent by weight.\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Currently amended) Use of the active ingredient of Claim 1 for the manufacture of a cosmetic composition __for treatment of existing skin conditions__.\n\n8. (Currently amended) Use of the active ingredient of Claim 1 for the preparation of a composition which is suitable for the [[prophylaxis and/or]] treatment of skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation, [[in particular]] specifically for the treatment of acne vulgaris, acne comedonica, polymorphic acne, acne rosaceae, nodular acne, acne conglobata, age-related acne, acne occurring as a side effect, such as acne solaris, medicament-related acne or acne professionalis, for the treatment of other defects of keratinisation, [[in particular]] specifically ichthyosis, ichthyosiform states, Darier's disease, keratosis palmo-plantaris, leukoplakia, leukoplakiform states, skin and mucosal (buccal) eczema (lichen), for the treatment of other skin diseases which are associated with defective keratinisation and have an inflammatory and/or immunoallergic component, and [[in particular]] specifically all forms of psoriasis relating to the skin, mucous membranes and finger- and toenails, and psoriatic rheumatism and skin atopy, such as eczema, or respiratory atopy, or also hypertrophy of the gums.\n\n9. (Currently amended) Use according to Claim 8 for hair care and/or hair follicle __treatment__.\n\n10. (Currently amended) Use [[the]] __of the__ active ingredient of Claim 1 for the care, __treatment,__ preservation or improvement of the general state of the skin or hair.\n\n11. (Cancelled)\n\n12. (Cancelled)\n\n13. (Currently amended) Use [[the]] __of the__ active ingredient of Claim 1 for the [[prophylaxis against or]] reduction of skin unevenness, such as wrinkles, fine lines, rough skin or large-pored skin.\n\n14. (Currently amended) Use [[the]] __of the__ active ingredient of Claim 1 for the [[prophylaxis against]] __treatment of__ time- and/or light-induced ageing processes of the human skin or human hair, [[in particular for prophylaxis against]] __specifically for treatment of__ dry skin, wrinkle formation and/or pigment defects, and/or for the reduction [[or prevention]] of the harmful effects of UV rays on the skin.",
+  "usage": {
+    "input_tokens": 4282,
+    "output_tokens": 974,
+    "total_tokens": 5256
+  },
+  "stop_reason": "stop",
+  "latency_sec": 14.5,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:40:07Z"
+}

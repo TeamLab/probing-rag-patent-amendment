@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 24036,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f014793f58d3b332",
+  "response_text": "1. (Currently amended) A system comprising: a plurality of network nodes of a local contention neighborhood of a random access network, wherein a first node is configured to transmit to a second node at an access attempt percentage, and wherein each of the plurality of nodes is configured to provide an indicia of its inter-node interference to __one or more other nodes of the plurality__, and wherein the first node is configured to adjust the access attempt percentage to transmit to the second node based on one of the provided indicia.\n\n2. (Original)\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Original)\n\n13. (Currently amended) A system comprising: a first node adapted to communicate wirelessly with a first access point, the first node configured to calculate an access attempt percentage for communications with the first access point, wherein the calculation is based at least partially on a received indicia of inter-node interference __based on transmission success__ between the first node and a second node.\n\n14. (Cancelled)\n\n15. (Original)\n\n16. (Original)\n\n17. (Cancelled)\n\n18. (Original)\n\n19. (Cancelled)\n\n20. (Original)",
+  "usage": {
+    "input_tokens": 6326,
+    "output_tokens": 258,
+    "total_tokens": 6584
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.59,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:51:52Z"
+}

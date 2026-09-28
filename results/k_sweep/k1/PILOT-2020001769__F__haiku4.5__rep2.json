@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020001769",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020001769",
+  "app_num": "15297569",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16734,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "de5babf81cbde867",
+  "response_text": "8. (Currently amended) A composition comprising a lubricant comprising at least one selected from the group consisting of polyol ester and polyvinyl ether and a refrigerant comprising: from 1 to 99% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf); and from 1 to 99% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), wherein said composition exhibits a Hazen color of about 200 or less as measured by ASHRAE test 97-2007 after a sealed glass tube comprising the composition is welded closed and placed in an oven at 200°C for 14 days, __and wherein the lubricant comprises a polyol ester obtained from polyols having a neopentyl backbone or a polyol ester obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms__.\n\n9. (Currently amended) The composition according to Claim 8, __wherein the polyol ester is obtained from polyols selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol__.\n\n10. (Currently amended) The composition according to Claim 8, __wherein the polyol ester is obtained from at least one linear or branched carboxylic acid selected from the group consisting of n-pentanoic acid, n-hexanoic acid, n-heptanoic acid, n-octanoic acid, 2-ethylhexanoic acid, 2,2-dimethylpentanoic acid, 3,5,5-trimethylhexanoic acid, adipic acid and succinic acid__.\n\n11. (Cancelled)\n\n12. (Cancelled)\n\n13. (Cancelled)\n\n14. (Currently amended) The composition according to Claim 8, wherein the composition comprises from 10 to 50% by weight of the at least one polyol ester.\n\n15. (Currently amended) The composition according to Claim 8, __wherein the lubricant comprises at least one polyvinyl ether copolymer comprising ethyl vinyl ether and t-butyl vinyl ether units in a weight ratio of approximately 9:1__.\n\n16. (Cancelled)\n\n17. (Currently amended) The composition according to Claim 8, wherein the refrigerant comprises from 5 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 95% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), __and wherein the lubricant comprises a polyol ester obtained from polyols having a neopentyl backbone or a polyol ester obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms__.\n\n18. (Currently amended) The composition according to Claim 8, wherein the refrigerant comprises from 15 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), __and wherein the lubricant comprises a polyol ester obtained from polyols having a neopentyl backbone or a polyol ester obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms__.\n\n19. (Currently amended) The composition according to Claim 8, wherein the refrigerant comprises from 15 to 35% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 65 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), __and wherein the lubricant comprises a polyol ester obtained from polyols having a neopentyl backbone or a polyol ester obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms__.\n\n20. (Cancelled)\n\n21. (Cancelled)\n\n22. (Cancelled)\n\n23. (Cancelled)\n\n24. (Cancelled)\n\n25. (Cancelled)\n\n26. (Currently amended) The composition according to Claim 8, wherein the lubricant comprises a pentaerythritol ester __obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms__.\n\n27. (Currently amended) The composition according to Claim 17, wherein the lubricant comprises a pentaerythritol ester __obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms__.\n\n28. (Currently amended) The composition according to Claim 18, wherein the lubricant comprises a pentaerythritol ester __obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms__.",
+  "usage": {
+    "input_tokens": 5332,
+    "output_tokens": 1210,
+    "total_tokens": 6542
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.71,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:25:56Z"
+}

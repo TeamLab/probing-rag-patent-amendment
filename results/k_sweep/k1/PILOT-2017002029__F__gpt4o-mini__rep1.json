@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 15639,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "033f3b3391590661",
+  "response_text": "Claim 1 (Currently Amended): A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least two bacterial microcompartment (BMC) polypeptides.\n\nClaim 8 (Currently Amended): The cell of claim 1 wherein the proteinaceous shell comprises a plurality of different BMC polypeptides, wherein the plurality of different BMC polypeptides includes BMC polypeptides from at least two different bacterial species.\n\nClaim 10 (Currently Amended): The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from at least two different BMC operons.\n\nClaim 12 (Currently Amended): A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide and at least one enzyme that catalyzes conversion of a substrate to a product, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide.\n\nClaim 21 (Currently Amended): A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least two bacterial microcompartment (BMC) polypeptides, and at least one enzyme that catalyzes conversion of a substrate to a product; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product.",
+  "usage": {
+    "input_tokens": 3974,
+    "output_tokens": 322,
+    "total_tokens": 4296
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.9,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:31:23Z"
+}

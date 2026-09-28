@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2020000362",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2020000362",
+  "app_num": "15022252",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "",
+    "test_subsection": "a)(1",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2017006252",
+      "PILOT-2018002798",
+      "PILOT-2019003025"
+    ],
+    "retrieved_app_nums": [
+      "13724297",
+      "14330722",
+      "14802439"
+    ],
+    "retrieved_scores": [
+      0.912,
+      0.8952,
+      0.8896
+    ],
+    "retrieved_chars_total": 4641,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19225,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5e83a4858f527b85",
+  "response_text": "(Currently Amended) Claim 1: A system (100) for enabling review of a medical image, comprising: - an image interface (120) for obtaining the medical image (042); - a user interface subsystem (140) for enabling a user to apply one or more graphical elements (310) to the medical image during the review of the medical image, thereby establishing application data representing application of the one or more graphical elements to the medical image; and - a reporting subsystem (180) for: i) accessing a medical database (060) comprising medical information items (062-066) which each represent medical reference information (400-414), ii) retrieving a medical information item (062) from the medical database based on association data, the association data linking the application of the one or more graphical elements, as represented by the application data, to the medical information item, and iii) generating a report (182) based on the medical information item.\n\n(Currently Amended) Claim 15: A non-transitory computer program product (270) comprising instructions for causing a processor system to perform the method according to claim 14.",
+  "usage": {
+    "input_tokens": 4252,
+    "output_tokens": 228,
+    "total_tokens": 4480
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.58,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:10:07Z"
+}

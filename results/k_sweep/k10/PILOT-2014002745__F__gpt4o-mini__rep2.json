@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014002745",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2014002745",
+  "app_num": "12883873",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 31846,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "861226a790181592",
+  "response_text": "(Currently Amended) A non-aqueous composition comprising: a therapeutically effective amount of a non-steroidal anti-inflammatory drug (NSAID), said NSAID being admixed as a powder directly in a non-aqueous carrier wherein the non-aqueous carrier comprises a bio-compatible oil, which includes phosphatidylcholine, and from 20 wt.% to 80 wt.% phosphatidylcholine; the NSAID to non-aqueous carrier weight ratio is about 5:1 to about 1:5; and the NSAID is selected from the group consisting of a propionic acid NSAID, an acetic acid NSAID, or a salicylic acid NSAID, __wherein the phosphatidylcholine is present in an amount sufficient to reduce NSAID-associated gastro-intestinal ulceration and bleeding, and therapeutic activity of the NSAID for treatment of tissue inflammation, pain and fever is preserved__.\n\n(Previously Presented) The non-aqueous composition according to claim 26, wherein the non-aqueous carrier comprises from 20 wt.% to 60 wt.% phosphatidylcholine.\n\n(Cancelled) The composition according to claim 26, wherein the weight ratio of NSAID to non-aqueous carrier is about 5:1 to about 1:5.\n\n(Previously Presented) The non-aqueous composition according to claim 26, wherein the weight ratio of NSAID to non-aqueous carrier is about 2:1 to about 1:2.\n\n(Previously Presented) The non-aqueous composition according to claim 26, wherein the NSAID is a salicylic acid NSAID.\n\n(Previously Presented) The non-aqueous composition according to claim 26, wherein the NSAID is selected from the group consisting of salicylate, ibuprofen, ketoprofen, naproxen, oxaprozin, diclofenac, etodolac, indomethacin, ketorolac, aspirin, or combinations thereof.\n\n(Previously Presented) The non-aqueous composition according to claim 26, wherein the NSAID is selected from the group consisting of aspirin, salicylate, diclofenac, naproxen, ibuprofen, indomethacin, or combinations thereof.\n\n(Previously Presented) The non-aqueous composition according to claim 26, wherein the bio-compatible oil is a lecithin, essential oil, vegetable oil, animal oils, vitamin A, vitamin D, vitamin E, fish oil, or mixtures and combinations thereof.\n\n(Previously Presented) The non-aqueous composition according to claim 33, wherein the vegetable oil is selected from the group consisting of peanut oil, canola oil, avocado oil, safflower oil, olive oil, corn oil, soybean oil, sesame oil, or mixtures and combinations thereof.\n\n(Previously Presented) The non-aqueous composition according to claim 26, wherein the bio-compatible oil is lecithin.\n\n(Currently Amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including __phosphatidylcholine__ and indomethacin NSAID, said indomethacin NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of indomethacin NSAID to biocompatible oil of about 5:1 to about 1:5.\n\n(Previously Presented) The non-aqueous pharmaceutical composition of claim 47 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\n(Previously Presented) The non-aqueous pharmaceutical composition of claim 47 wherein the biocompatible oil is lecithin.\n\n(Currently Amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including __phosphatidylcholine__ and a salicylate NSAID, said salicylate NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of salicylate NSAID to biocompatible oil of about 5:1 to about 1:5.\n\n(Currently Amended) The non-aqueous pharmaceutical composition of claim 50 comprising from 10 wt % to 60 wt% phosphatidylcholine.",
+  "usage": {
+    "input_tokens": 7253,
+    "output_tokens": 873,
+    "total_tokens": 8126
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.9,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:54:05Z"
+}

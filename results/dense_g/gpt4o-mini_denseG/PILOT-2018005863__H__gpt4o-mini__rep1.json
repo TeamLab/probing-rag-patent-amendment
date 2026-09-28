@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2018005863",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2018005863",
+  "app_num": "14226008",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "103",
+    "test_subsection": "",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2011008461",
+      "PILOT-2019001844",
+      "PILOT-2015000276"
+    ],
+    "retrieved_app_nums": [
+      "11634434",
+      "15075119",
+      "13318796"
+    ],
+    "retrieved_scores": [
+      0.8447,
+      0.8255,
+      0.8221
+    ],
+    "retrieved_chars_total": 4971,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22785,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "018e3c0437b2da65",
+  "response_text": "Claim 1 (Currently amended): A computing device for mapping user movements captured by a capture device external to the computing device, to inputs events on the computing device, the computing device comprising: a display to display an application executing on the computing device; a client sharing module to: transmit video data of the application to a receiver device; and receive gesture data associated with the application, the gesture data based on movements of a user captured from a capture device communicatively coupled to the receiver device; and a mapping module to: map the gesture data into an input event on the computing device; and provide data simulating the input event to a sensor of the computing device, wherein the client sharing module is to establish a video channel between the computing device and receiver device and establish an input channel between the computing device and the receiver device.\n\nClaim 2 (Currently amended): The computing device of claim 1, wherein to map the gesture data into an input event on the computing device, the mapping module is to: retrieve a type of movement of the user from the gesture data; and determine the input event based on the type of movement, wherein the type of movement of the user is a swipe movement and the gesture data is mapped to a touch input event.\n\nClaim 4 (Currently amended): The computing device of claim 2, wherein when the type of movement of the user is a lean movement the gesture data is mapped to a rotate input event and data simulating the rotate input event is provided to a gyroscope sensor of the computing device.\n\nClaim 5 (Currently amended): The computing device of claim 1, wherein the client sharing module is to: establish a video channel between the computing device and receiver device; establish an input channel between the computing device and receiver device; and wherein the video data is transmitted over the video channel and gesture data is received via the input channel.\n\nClaim 6 (Currently amended): The computing device of claim 1, wherein to transmit video data of the application to a receiver device the sharing module is to: stream video displayed on the display of the computing device to the receiver device via the video channel.\n\nClaim 7 (Currently amended): The computing device of claim 1, wherein the client sharing module is to transmit updated video data to the receiver device based on the application updating in response to the input event.",
+  "usage": {
+    "input_tokens": 5007,
+    "output_tokens": 470,
+    "total_tokens": 5477
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.03,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:00:04Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017010497",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2017010497",
+  "app_num": "13556032",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 28260,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "29d9b754c44f25fa",
+  "response_text": "```\n(CURRENTLY AMENDED) A system for treating obesity, the system comprising: a gastric space filler comprising a first balloon connected to a second balloon by a conduit, wherein the gastric space filler is configured to occupy a substantial volume of a gastric cavity in the human patient in an inflated state; and an instrument throughput channel extending through the conduit, wherein the instrument throughput channel is configured to receive instruments, and wherein the conduit is configured with an axial length, and the instrument throughput channel extends along the axial length.\n\n(CURRENTLY AMENDED) The system of claim 35 wherein the first and second balloons are made from at least one of the following: silicone, latex, polyethylene, polyurethane, and nylon, and wherein the material has a defined thickness suitable for elasticity and structural integrity suitable for use in a gastric space filler application.\n\n(CURRENTLY AMENDED) The system of claim 34 wherein the gastric space filler further comprises a coupling mechanism configured to facilitate engagement with a retrieval device for removal of the gastric space filler from the gastric cavity via the esophagus, wherein the coupling mechanism is provided in a manner sufficiently specific to allow for secure engagement during the retrieval process.\n```",
+  "usage": {
+    "input_tokens": 6003,
+    "output_tokens": 234,
+    "total_tokens": 6237
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.8,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:05:24Z"
+}

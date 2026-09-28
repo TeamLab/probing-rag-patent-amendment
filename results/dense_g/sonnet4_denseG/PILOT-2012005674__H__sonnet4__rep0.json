@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2012005674",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2012005674",
+  "app_num": "11677766",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2011002383",
+      "PILOT-2015001471",
+      "PILOT-2013009151"
+    ],
+    "retrieved_app_nums": [
+      "11244662",
+      "11772969",
+      "10589227"
+    ],
+    "retrieved_scores": [
+      0.7824,
+      0.7815,
+      0.778
+    ],
+    "retrieved_chars_total": 2764,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23414,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0cd59d9950202ec9",
+  "response_text": "1. (Currently amended) A method for generating a superframe preamble for a superframe, the superframe preamble comprising a plurality of symbols, in an orthogonal frequency division multiplexing (OFDM) network, comprising: for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel __comprising a first primary broadcast channel operable to carry system information__, the first set of subcarriers distributed over substantially the entire carrier; and for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel __comprising a second primary broadcast channel operable to carry quick page and control information__.\n\n2. (Previously presented) The method as set forth in Claim 1, the first set of subcarriers distributed uniformly over substantially the entire carrier.\n\n3. (Previously presented) The method as set forth in Claim 1, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern.\n\n4. (Previously presented) The method as set forth in Claim 1, the second set of subcarriers distributed over substantially the entire carrier.\n\n5. (Previously presented) The method as set forth in Claim 1, further comprising, for a second one of the symbols, allocating substantially all the subcarriers to the second broadcast channel.\n\n6. (Previously presented) The method as set forth in Claim 1, the first broadcast channel comprising a first primary broadcast channel operable to carry system information, and the second broadcast channel comprising a second primary broadcast channel operable to carry quick Page and control information.\n\n7. (Previously presented) The method as set forth in Claim 6, further comprising setting a change indicator in the superframe preamble to indicate whether the system information for a subsequent superframe group has changed with respect to a previous superframe group.\n\n8. (Previously presented) The method as set forth in Claim 7, the subsequent superframe group comprising a first superframe, the first superframe comprising the superframe preamble.\n\n9. (Previously presented) The method as set forth in Claim 7, the previous superframe group comprising a first superframe, the first superframe comprising the superframe preamble.\n\n10. (Previously presented) The method as set forth in Claim 7, the change indicator comprising a single bit in the control information.\n\n11. (Previously presented) The method as set forth in Claim 7, a specified superframe comprising the superframe preamble, the superframe preamble comprising quick page and control information for the specified superframe, the control information for the specified superframe comprising the change indicator.\n\n12. (Previously presented) A method for generating a superframe preamble for a superframe in an OFDM network, comprising: determining whether first broadcast channel data for a subsequent superframe group has changed with respect to first broadcast channel data for a previous superframe group; and setting a change indicator in the superframe preamble to indicate whether the first broadcast channel data for the subsequent superframe group has changed with respect to the first broadcast channel data for the previous superframe group.\n\n13. (Previously presented) The method as set forth in Claim 12, the subsequent superframe group comprising a first superframe, the first superframe comprising the superframe preamble.\n\n14. (Previously presented) The method as set forth in Claim 12, the previous superframe group comprising a first superframe, the first superframe comprising the superframe preamble.\n\n15. (Previously presented) The method as set forth in Claim 12, the change indicator comprising a single bit.\n\n16. (Previously presented) The method as set forth in Claim 12, a specified superframe comprising the superframe preamble, the superframe preamble comprising second broadcast channel data for the specified superframe, the second broadcast channel data for the specified superframe comprising the change indicator.\n\n17. (Previously presented) The method as set forth in Claim 16, the superframe preamble comprising a plurality of symbols, a first one of the symbols operable to carry first broadcast channel data for the specified superframe and a first portion of second broadcast channel data for the specified superframe and a second one of the symbols operable to carry a second portion of the second broadcast channel data for the specified superframe.\n\n18. (Previously presented) The method as set forth in Claim 16, further comprising providing a second broadcast channel operable to carry the second broadcast channel data, the second broadcast channel comprising a physical layer channel, the physical layer channel comprising the change indicator.\n\n19. (Currently amended) A superframe generator in a base station in an OFDM network, comprising a preamble generator operable to generate a superframe preamble comprising a plurality of symbols for a superframe by (i) for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel __comprising a first primary broadcast channel operable to carry system information__, the first set of subcarriers distributed over substantially the entire carrier, and (ii) for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel __comprising a second primary broadcast channel operable to carry quick page and other control information__.\n\n20. (Previously presented) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed uniformly over substantially the entire carrier.\n\n21. (Previously presented) The superframe generator as set forth in Claim 19, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern.\n\n22. (Previously presented) The superframe generator as set forth in Claim 19, the first broadcast channel comprising a first primary broadcast channel operable to carry system information, and the second broadcast channel comprising a second primary broadcast channel operable to carry quick page and other control information.\n\n23. (Previously presented) The superframe generator as set forth in Claim 22, the preamble generator further operable to set a change indicator in the superframe preamble to indicate whether the system information for a superframe group comprising the superframe has changed with respect to a previous superframe group.\n\n24. (Previously presented) The superframe generator as set forth in Claim 23, the change indicator comprising a single bit.\n\n25. (Previously presented) The superframe generator as set forth in Claim 23, the second broadcast channel comprising a physical layer channel, the physical layer channel comprising the change indicator.\n\n26. (Previously presented) The superframe generator as set forth in Claim 22, the preamble generator further operable to set a change indicator in the superframe preamble to indicate whether the system information for a superframe group comprising the superframe will change in a subsequent superframe group.\n\n27. (Previously presented) A subscriber station in an OFDM network operable to receive a superframe comprising a superframe preamble, the superframe preamble comprising a plurality of symbols, and for a first one of the symbols, to decode first broadcast channel data in a first set of subcarriers of a carrier, the first set of subcarriers distributed over substantially the entire carrier.\n\n28. (Previously presented) The subscriber station as set forth in Claim 27, the first set of subcarriers distributed uniformly over substantially the entire carrier.\n\n29. (Previously presented) The subscriber station as set forth in Claim 27, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a predetermined pattern.\n\n30. (Previously presented) The subscriber station as set forth in Claim 27, further operable, for the first one of the symbols, to decode second broadcast channel data in a second set of subcarriers of the carrier, the first broadcast channel data comprising system information, and the second broadcast channel data comprising quick page and other control information.\n\n31. (Previously presented) The subscriber station as set forth in Claim 30, the control information comprising a change indicator operable to indicate whether the system information for a subsequent superframe group has changed with respect to a previous superframe group, the subscriber station further operable to decode the quick page and control information and to determine whether to decode the system information based on the change indicator.\n\n32. (Previously presented) The subscriber station as set forth in Claim 31, the subsequent superframe group comprising a first superframe, the first superframe comprising the superframe preamble.\n\n33. (Previously presented) The subscriber station as set forth in Claim 31, the previous superframe group comprising a first superframe, the first superframe comprising the superframe preamble.\n\n34. (Previously presented) A subscriber station in an OFDM network operable (i) to receive a superframe comprising a superframe preamble, the superframe preamble comprising a first symbol operable to provide system information and to provide a first portion of quick page and other control information, and the superframe preamble comprising a second symbol operable to provide a second portion of quick page and other control information, (ii) to decode the quick page and other control information, and (iii) to determine whether to decode the system information based on the control information.\n\n35. (Previously presented) The subscriber station as set forth in Claim 34, the control information comprising a change indicator operable to indicate whether the system information for a subsequent superframe group has changed with respect to a previous superframe group, the subscriber station operable to determine whether to decode the system information based on the control information by determining whether to decode the system information based on the change indicator.\n\n36. (Previously presented) The subscriber station as set forth in Claim 35, the subsequent superframe group comprising a first superframe, the first superframe comprising the superframe preamble.\n\n37. (Previously presented) The subscriber station as set forth in Claim 35, the previous superframe group comprising a first superframe, the first superframe comprising the superframe preamble.",
+  "usage": {
+    "input_tokens": 5908,
+    "output_tokens": 2183,
+    "total_tokens": 8091
+  },
+  "stop_reason": "stop",
+  "latency_sec": 20.55,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:58:29Z"
+}

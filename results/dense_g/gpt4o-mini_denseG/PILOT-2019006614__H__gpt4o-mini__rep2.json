@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2019006614",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2019006614",
+  "app_num": "14090382",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020000966",
+      "PILOT-2017001990",
+      "PILOT-2016007474"
+    ],
+    "retrieved_app_nums": [
+      "13457338",
+      "13193905",
+      "13661669"
+    ],
+    "retrieved_scores": [
+      0.905,
+      0.9012,
+      0.9007
+    ],
+    "retrieved_chars_total": 984,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10098,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8c010d41b81a2992",
+  "response_text": "(Currently Amended) A method for analyzing patient data, comprising: receiving a non-transitory computer-readable medium storing a receiver operating characteristic analysis of historical patient data for a region of interest on each of a plurality of different subjects; performing a comparison of experimentally-determined data to the receiver operating characteristic analysis of the historical data; identifying the experimentally-determined data to be utilized to reach an at least preliminary conclusion regarding a medical patient based on the experimentally-determined data; and presenting a visible display graphically depicting a result of the comparison.\n\n(Currently Amended) The method of claim 1, further comprising: accessing a receiver operating characteristic analysis of historical data for the region of interest on each of a plurality of different subjects; identifying a subset of spatial locations in the region of interest where the experimentally-determined data is an accurate predictor of the medical condition; comparing the experimentally-determined data at the subset of spatial locations of the medical patient to the receiver operating characteristic analysis of the historical data; and graphically expressing a result of said comparing.",
+  "usage": {
+    "input_tokens": 2236,
+    "output_tokens": 208,
+    "total_tokens": 2444
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.81,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:31:25Z"
+}

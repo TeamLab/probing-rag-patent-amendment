@@ -1,0 +1,10 @@
+[plan] cases=25  cond=2  reps=3  → total=150 calls  vendor=openrouter  model=sonnet4 (anthropic/claude-sonnet-4)  key_env=OPENROUTER_API_KEY
+[plan] conditions = ['F', 'G']
+[plan] out_dir = outputs/k_sweep/k1  skip_failed=False  overwrite=False
+
+[done] elapsed=0.0 min  total_in=0  total_out=0  total_cost=$0.0
+[per-condition]
+  cond           ok   skip   fail
+  F               0     75      0
+  G               0     75      0
+  TOTAL           0    150      0

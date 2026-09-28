@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012007524",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2012007524",
+  "app_num": "12422453",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19656,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "23badbc545e7fe0d",
+  "response_text": "1. (Currently Amended) An Internet system that supports a search service, the Internet system comprising: a search server comprising a processor and memory that is adapted to receive search criteria from a client device remote from the search server; a historical data repository coupled to the search server and comprising a processor, memory, and storage device, wherein the historical data repository contains historical data collected from over the Internet, and wherein the search server stores data retrieved from over the Internet and eventually stores the data as historical data within the historical data repository when the data is no longer preserved in the search server; and wherein the search server receives the search criteria to search for older historical data that was in existence on the Internet at a previous time, wherein the search server obtains search results to satisfy the search criteria by searching the historical data stored in the historical data repository, wherein the search server is configured to search for historical data that is associated with a specific date and time different from a current date and time.\n\n2. (Currently Amended) The Internet system of claim 1 wherein the historical data placed within the historical data repository is date tagged and indexed according to date so that the historical data is associated with a date representative of when the historical data was available on the Internet, and wherein the search server searches the indexed historical data repository using the date tag.\n\n3. (Currently Amended) The Internet system of claim 2 wherein the historical data placed within the historical data repository is time tagged and indexed according to time so that the historical data is associated with a time representative of when the historical data was available on the Internet, and wherein the search server searches the indexed historical data repository using the time tag.\n\n4. (Currently Amended) The Internet system of claim 1 wherein the historical data placed within the historical data repository is time tagged and indexed according to time so that the historical data is associated with a time representative of when the historical data was available on the Internet, and wherein the search server searches the indexed historical data repository using the time tag.\n\n6. (Currently Amended) The Internet system of claim 1 wherein the historical data repository comprises: central processing circuitry; communication circuitry coupled to the central processing circuitry for communicating data in to and out from the historical data repository; and local storage coupled to the central processing circuitry that contains an index storage module for storing historical data according to indices organized by user-specific criteria and a time based sorting module for storing historical data according to date and time, wherein the search server accesses the index storage module and time based sorting module to retrieve historical data responsive to user search criteria.\n\n7. (Currently Amended) The Internet system of claim 1 wherein certain data is removed from the historical data before it is placed for long-term storage within the historical data repository, wherein the removal of certain data is performed by the search server based on predefined filtering rules.\n\n20. (Currently Amended) A network browser in a computer for browsing websites, the network browser comprising: a processor and memory; a search criteria window that prompts a user to enter search terms and timeline information; a first module that enables a search of archived Internet content stored in a historical data repository to determine search results that existed within a time frame delineated by the timeline information, and wherein the search results correlate to the search terms; and a second module that receives the search results from the historical data repository.",
+  "usage": {
+    "input_tokens": 4666,
+    "output_tokens": 710,
+    "total_tokens": 5376
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.5,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:39:05Z"
+}

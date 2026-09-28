@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2015004158",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2015004158",
+  "app_num": "13783908",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "a",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018006567",
+      "PILOT-2010007976",
+      "PILOT-2016006484"
+    ],
+    "retrieved_app_nums": [
+      "14982220",
+      "10515698",
+      "14160725"
+    ],
+    "retrieved_scores": [
+      0.7369,
+      0.7163,
+      0.7023
+    ],
+    "retrieved_chars_total": 2247,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14031,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bcd5659608e3c7a2",
+  "response_text": "1. (Currently amended) A method for treating glaucoma wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered to a subject having glaucoma.\n\n2. (Currently amended) A method for treating ocular hypertension wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered to a subject having ocular hypertension.\n\n3. (Previously presented) A preventing or treating agent for glaucoma comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof.\n\n4. (Previously presented) A preventing or treating agent for ocular hypertension comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof.\n\n5. (Previously presented) A composition for eye drops comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof and a pharmaceutically accepted carrier.\n\n6. (Cancelled)\n\n7. (Previously presented) A method for preventing or treating glaucoma wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered.\n\n8. (Previously presented) A method for preventing or treating ocular hypertension wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered.\n\n9. (Previously presented) A method for treating glaucoma comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\n10. (Previously presented) A method for treating ocular hypertension comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\n11. (Cancelled)\n\n12. (Cancelled)",
+  "usage": {
+    "input_tokens": 3991,
+    "output_tokens": 624,
+    "total_tokens": 4615
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.15,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:15:13Z"
+}

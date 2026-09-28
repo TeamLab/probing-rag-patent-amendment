@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 5380,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9a2fdb02bd2a2d03",
+  "response_text": "Claim 1 (Currently Amended): A compound of formula (IIa) O NaO OR2 0 (II a), in which substituent R2 is selected from the group consisting of __C3-C12-__alkyl, aryl, and arylalkyl.\n\nClaim 2 (Currently Amended): A compound according to Claim 1 of formula (II a) in which R2 is C__3__-C12-alkyl, C6 -aryl, or arylalkyl.\n\nClaim 3 (Currently Amended): A compound according to Claim 1 of formula (II a) in which R2 is __propyl or butyl__.\n\nClaim 4 (Currently Amended): A compound of formula (Ilb) O __NaO__ OMe O O (I Ib) __in which the compound is the sodium salt of a β-keto methyl ester__.\n\nClaim 5 (Cancelled).",
+  "usage": {
+    "input_tokens": 1705,
+    "output_tokens": 230,
+    "total_tokens": 1935
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.35,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T10:29:25Z"
+}

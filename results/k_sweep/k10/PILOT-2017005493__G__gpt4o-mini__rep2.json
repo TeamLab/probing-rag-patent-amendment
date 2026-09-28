@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29333,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2562da58916bcd4f",
+  "response_text": "1. (Currently Amended) A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member, wherein said fins are configured to enhance heat dissipation.\n\n2. (Currently Amended) The lamp of claim 1 wherein a second end of said columnar body is open and configured to maintain airflow.\n\n5. (Currently Amended) The lamp of claim 1 wherein said diodes are arranged in a pattern allowing for enhanced light distribution and are substantially evenly spaced radially around the columnar body.\n\n7. (Currently Amended) The lamp of claim 1 wherein said columnar body comprises one of a tetragon, pentagon, hexagon, heptagon, or octagon in cross-section.\n\n10. (Currently Amended) The lamp of claim 9 wherein a single diode resides on each face and is positioned to optimize light output.\n\n11. (Currently Amended) The lamp of claim 1 wherein said columnar body and said fins are comprised of a material having a thermal conductivity greater than 120 W/mK.\n\n12. (Currently Amended) The lamp of claim 1 including a single optic element disposed between each adjacent fin overlapping said diode and enhancing light output.\n\n14. (Currently Amended) The lamp of claim 1 wherein said electronics module comprises a printed circuit board including circuitry for converting AC to DC current, wherein said circuitry is optimized for improved efficiency.",
+  "usage": {
+    "input_tokens": 6462,
+    "output_tokens": 346,
+    "total_tokens": 6808
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.3,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:51:35Z"
+}

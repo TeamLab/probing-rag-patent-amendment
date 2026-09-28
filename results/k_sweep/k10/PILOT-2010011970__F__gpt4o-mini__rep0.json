@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 27953,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e86b82ccb9fea5a6",
+  "response_text": "(Currently Amended) Claim 15: The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, wherein the hyperlink does not solely rely on the unique signature but also on other identifying parameters.\n\n(Currently Amended) Claim 24: The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, wherein the hyperlink does not solely rely on the unique signature but also on other identifying parameters.\n\n(Currently Amended) Claim 27: The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, wherein the hyperlink does not solely rely on the unique signature but also on other identifying parameters.",
+  "usage": {
+    "input_tokens": 5878,
+    "output_tokens": 335,
+    "total_tokens": 6213
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.37,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:04:03Z"
+}

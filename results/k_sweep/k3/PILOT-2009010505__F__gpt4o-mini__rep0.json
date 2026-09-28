@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2009010505",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2009010505",
+  "app_num": "10993377",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22741,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5ae7c74dc1c2fef1",
+  "response_text": "Claim 1 (Currently Amended): An apparatus for aligning document actions specified in a documented procedure with demonstrated user actions, comprising: an alignment device for computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric __that accounts for differences in user interaction types__.\n\nClaim 2 (Currently Amended): The apparatus of claim 1, wherein said alignment device identifies a current step in the documented procedure based on the alignment __and performs real-time updates__.\n\nClaim 5 (Currently Amended): The apparatus of claim 1, wherein said alignment device identifies a next step in the documented procedure based on the alignment __and confirms the identity of the next step through user engagement feedback__.\n\nClaim 9 (Currently Amended): The apparatus of claim 1, wherein the demonstrated user actions are performed with respect to a user interface, and the at least one similarity metric is based on common strings in the user interface and the documented procedure __including context-specific actions__.\n\nClaim 11 (Currently Amended): The apparatus of claim 1, wherein said alignment device computes the alignment further based on previous user experiences __with respect to said documented procedure and adaptation to varying user competencies__.\n\nClaim 12 (Currently Amended): The apparatus of claim 1, wherein the documented procedure has a plurality of steps specified therein, and the apparatus further comprises a document action extractor for extracting __and dynamically modifying__ at least some of the plurality of steps.\n\nClaim 13 (Currently Amended): An apparatus for guiding user actions with respect to a documented procedure displayed on a user interface, the documented procedure having a plurality of steps specified therein, the apparatus comprising: an alignment device for computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric; a highlighting device, connected in signal communication with said alignment device, for visually highlighting on the user interface at least a portion of a step in the documented procedure based on the alignment computed by said alignment device __and user-specific guidance preferences__; and a scrolling device, connected in signal communication with said alignment device, for automatically scrolling through each of the plurality of steps of the documented procedure on the user interface based on the alignment computed by said alignment device.\n\nClaim 15 (Currently Amended): The apparatus of claim 13, further comprising a camera, connected in signal communication with said alignment device, for capturing images of at least some of the demonstrated user actions, and wherein said alignment device uses at least some of the captured images __and interpretive data__ to calculate the alignment.\n\nClaim 16 (Currently Amended): The apparatus of claim 13, wherein said alignment device computes the alignment further based on previous user experiences __and behavior patterns with respect to performing the documented procedure__.\n\nClaim 18 (Currently Amended): The method of claim 17, further comprising the step of identifying a current step in the documented procedure based on the alignment __and adjusting the guidance dynamically based on user feedback__.\n\nClaim 20 (Currently Amended): The method of claim 17, further comprising the step of identifying a next step in the documented procedure based on the alignment __and validating user engagement through interactive prompts__.\n\nClaim 23 (Currently Amended): The method of claim 17, wherein the demonstrated user actions are performed with respect to a user interface, and the at least one similarity metric is based on common strings __and functional tasks in__ the user interface and the documented procedure.\n\nClaim 25 (Currently Amended): The method of claim 17, wherein said computing step computes the alignment further based on previous user experiences __and feedback mechanisms related to the documented procedure__.\n\nClaim 26 (Currently Amended): The method of claim 17, wherein the documented procedure has a plurality of steps specified therein, and the method further comprises the step of extracting __, updating, and confirming__ at least some of the plurality of steps from the documented procedure.\n\nClaim 28 (Currently Amended): A method for guiding user actions with respect to a documented procedure displayed on a user interface, the documented procedure having a plurality of steps specified therein, the method comprising the steps of: computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric; visually highlighting on the user interface at least a portion of a step in the documented procedure based on the computed alignment __and contextual relevance__; and automatically scrolling through each of the plurality of steps of the documented procedure on the user interface based on the computed alignment __and user interaction data__.\n\nClaim 30 (Currently Amended): The method of claim 28, wherein said computing step computes the alignment based on images of at least some of the demonstrated user actions captured by an imaging device __and relevant user interaction history__.\n\nClaim 31 (Currently Amended): The method of claim 28, wherein said computing step computes the alignment further based on previous user experiences __and automatic adjustment strategies__ with respect to performing the documented procedure.",
+  "usage": {
+    "input_tokens": 4926,
+    "output_tokens": 1004,
+    "total_tokens": 5930
+  },
+  "stop_reason": "stop",
+  "latency_sec": 17.96,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:58:10Z"
+}

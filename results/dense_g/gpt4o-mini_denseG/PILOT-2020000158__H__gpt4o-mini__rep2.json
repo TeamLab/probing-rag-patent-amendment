@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2020000158",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2020000158",
+  "app_num": "15481756",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2017004963",
+      "PILOT-2017005000",
+      "PILOT-2012000421"
+    ],
+    "retrieved_app_nums": [
+      "13920740",
+      "12772855",
+      "12367797"
+    ],
+    "retrieved_scores": [
+      0.9637,
+      0.9282,
+      0.9205
+    ],
+    "retrieved_chars_total": 4496,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18179,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "67db30151838178b",
+  "response_text": "(Currently Amended) Claim 1: A method, comprising: transmitting a sequence of light pulses having a first speed; receiving a second sequence of light pulses from a vehicle; and transmitting a message as a sequence of light pulses having a second speed based on the second sequence of light pulses received from the vehicle, wherein the first speed is different from the second speed, and wherein the method is performed using a non-transitory computer readable medium.\n\n(Currently Amended) Claim 11: An apparatus, comprising: a processor; a memory, the memory storing instructions executable by the processor to: transmit a sequence of light pulses having a first speed; receive a second sequence of light pulses from a vehicle; and transmit a message as a sequence of light pulses having a second speed based on the second sequence of light pulses received from the vehicle, wherein the first speed is different from the second speed, and wherein the apparatus is a non-transitory computer readable medium.",
+  "usage": {
+    "input_tokens": 3958,
+    "output_tokens": 193,
+    "total_tokens": 4151
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.4,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:19:01Z"
+}

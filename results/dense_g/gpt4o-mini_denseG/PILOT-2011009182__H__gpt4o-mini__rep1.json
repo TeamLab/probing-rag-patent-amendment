@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2011009182",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2011009182",
+  "app_num": "12183139",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2011010773",
+      "PILOT-2019001982",
+      "PILOT-2010004622"
+    ],
+    "retrieved_app_nums": [
+      "11050171",
+      "14030189",
+      "11361288"
+    ],
+    "retrieved_scores": [
+      0.7589,
+      0.7564,
+      0.7519
+    ],
+    "retrieved_chars_total": 4581,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 26038,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b24c53255db5731f",
+  "response_text": "(Presently Amended) 1. A prone positioning apparatus for an infant, such infant having a body including a head, a trunk, a spine, arms and legs, the prone positioning apparatus comprising: a support member structured to support such infant in a prone position, the support member including a first end, a second end disposed opposite and distal from the first end, a first side extending between the first end and the second end and including a first recess, a second side disposed opposite the first side and including a second recess disposed opposite the first recess, a top surface structured to face such infant, and a bottom surface opposite the top surface; a first portion disposed at or about the first end of the support member and being structured to support a corresponding one of the head of such infant and the trunk of such infant; and a second portion extending from the first portion and being structured to support the other of the corresponding one of the trunk of such infant and the head of such infant, wherein, when the support member is supporting such infant in the prone position, the head of such infant and the trunk of such infant are aligned and elevated with respect to at least a portion of the arms and at least a portion of the legs of such infant, in order that the spine of such infant is substantially straight, and wherein each of the first recess and the second recess is structured to receive at least a portion of a corresponding one of the arms of such infant, and wherein the support member is formed from a material that is different from foam.\n\n(Presently Amended) 2. The prone positioning apparatus of claim 1 wherein the arms of such infant include hands; and wherein the first recess of the support member and the second recess of the support member are structured to position the hands of the arms of such infant proximate the head of such infant, with the hands being movable to engage the head, in order to promote self-soothing of such infant.\n\n(Presently Amended) 3. The prone positioning apparatus of claim 1 wherein the first portion of the support member has a first width; wherein the second portion of the support member has a second width; wherein the support member has a third width between the first recess and the second recess; and wherein the third width is less than the first width and the second width.\n\n(Presently Amended) 4. The prone positioning apparatus of claim 3 wherein the support member has a thickness between the bottom surface of the support member and the top surface of the support member; and wherein the thickness is substantially uniform among the first portion of the support member and the second portion of the support member, in order that the head of such infant is supported at substantially the same elevation as the trunk of such infant.\n\n(Presently Amended) 5. The prone positioning apparatus of claim 3 wherein the first end of the support member is rounded; wherein the first portion of the support member has an oblong shape and is substantially devoid of any abrupt corners; wherein the second portion of the support member has a generally rectangular shape; and wherein the second end of the support member has a substantially straight edge.\n\n(Presently Amended) 6. The prone positioning apparatus of claim 1 wherein the second portion of the support member includes a first wing extending outwardly from the top surface of the support member at or about the first side of the support member, and a second wing extending outwardly from the top surface of the support member at or about the second side of the support member; and wherein the first wing and the second wing are structured to maintain the trunk of such infant in a desired position on the second portion of the support member, between the first wing and the second wing.\n\n(Presently Amended) 8. The prone positioning apparatus of claim 1 wherein the second portion of the support member comprises a tail extending outwardly from the second portion at or about the second end of the support member, between the first side of the support member and the second side of the support member; and wherein the tail is structured to be disposed between the legs of such infant.\n\n(Presently Amended) 13. The prone positioning apparatus of claim 1 wherein the support member comprises a non-foam support element.",
+  "usage": {
+    "input_tokens": 5371,
+    "output_tokens": 860,
+    "total_tokens": 6231
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.33,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:23:21Z"
+}

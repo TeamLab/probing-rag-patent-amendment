@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13875,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a4683dea1a1920ce",
+  "response_text": "(Currently Amended) Claim 1: A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a __lower__ base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the __lower__ base member.\n\n(Currently Amended) Claim 5: The lamp of claim 1 wherein said diodes are substantially evenly spaced radially around the columnar body and are arranged to form a pattern that differs from that shown in Chang.\n\n(Currently Amended) Claim 6: The lamp of claim 5 wherein said fins are substantially equally disposed between said diodes, such that the arrangement provides enhanced thermal performance compared to arrangements known in the prior art.\n\n(Currently Amended) Claim 8: The lamp of claim 7 wherein at least one diode resides on each face of said columnar body, with the arrangement of diodes differing from that in Chang.\n\n(Currently Amended) Claim 9: The lamp of claim 8 wherein one fin resides on each corner of said columnar body, configured to enhance heat dissipation beyond that disclosed in Chang.\n\n(Currently Amended) Claim 12: The lamp of claim 1 including a single optic element that is disposed between each adjacent fin, overlapping said diode in a manner that enhances the light output compared to structures described in Chang.\n\n(Currently Amended) Claim 14: The lamp of claim 1 wherein said electronics module comprises a printed circuit board including circuitry for converting AC to DC current and is arranged to provide a unique configuration that differs fundamentally from that shown in Chang.",
+  "usage": {
+    "input_tokens": 3324,
+    "output_tokens": 360,
+    "total_tokens": 3684
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.48,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:31:07Z"
+}

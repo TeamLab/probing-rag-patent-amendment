@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2021000834",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2021000834",
+  "app_num": "16415181",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 14351,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f755c2403d3f33f5",
+  "response_text": "1 (Currently Amended): A column assembly comprising: a chromatography column comprising a __flexible__ seal defining a fluid passage configured to seal against a tapered fluid conduit without the use of a ferrule or a threaded compression screw.\n\n3 (Currently Amended): The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit, wherein the tapered portion is configured to mate with a tapered fluid conduit at a diameter of less than __0.050 inches__.\n\n7 (Currently Amended): The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit __and is characterized by a small diameter portion having a diameter of less than 0.050 inches__.\n\n9 (Currently Amended): The column assembly of claim 1, wherein the flexible seal is formed of a polyimide, polyether-ether-ketone, or a deformable metal __and is not limited to a specific hardness or flexibility.__\n\n11 (Currently Amended): The column assembly of claim 1, wherein the flexible seal is configured to maintain a seal against a tapered fluid conduit at pressures up to __30,000 psi__.\n\n",
+  "usage": {
+    "input_tokens": 3533,
+    "output_tokens": 247,
+    "total_tokens": 3780
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.97,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:40:28Z"
+}

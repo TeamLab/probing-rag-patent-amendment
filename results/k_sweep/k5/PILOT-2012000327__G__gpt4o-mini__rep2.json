@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012000327",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2012000327",
+  "app_num": "11911726",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 23511,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "82923a6358500305",
+  "response_text": "1. (Currently Amended) A combination product comprising: (A) BH4, a __specifically identified__ functional derivative or biosynthetic precursor thereof, or a __pharmaceutically-acceptable derivative of a specifically identified functional derivative__ of BH4 or its derivative or precursor; and (B) an __identified__ inhibitor of the biosynthesis and/or vasopressor function of AII, or a __specifically identified pharmaceutically-acceptable derivative thereof__, wherein each of components (A) and (B) is formulated in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\n2. (Currently Amended) A combination product as claimed in Claim 1 that comprises a pharmaceutical formulation including BH4, a __specifically identified__ functional derivative or biosynthetic precursor thereof, or a __pharmaceutically-acceptable derivative of a specifically identified functional derivative__ of BH4 or its derivative or precursor, an __identified__ inhibitor of the biosynthesis and/or vasopressor function of AII, or a __specifically identified pharmaceutically-acceptable derivative thereof__, and a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\n3. (Currently Amended) A combination product as claimed in Claim 1 that comprises a kit of parts comprising components: (I) a pharmaceutical formulation including BH4, a __specifically identified__ functional derivative or biosynthetic precursor thereof, or a __pharmaceutically-acceptable derivative of a specifically identified functional derivative__ of BH4 or its derivative or precursor, in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier; and (II) a pharmaceutical formulation including an __identified__ inhibitor of the biosynthesis and/or vasopressor function of AII, or a __specifically identified pharmaceutically-acceptable derivative thereof__, in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier, which components (I) and (II) are each provided in a form that is suitable for administration in conjunction with the other.\n\n6. (Currently Amended) A combination product as claimed in any one of the preceding claims, wherein the component that is BH4 or a __specifically identified__ functional derivative or biosynthetic precursor thereof is a compound of formula I, O R HN R2 N R3 R -N N N R4 H R5 R wherein R1 and R2 either independently represent H or C12 alkyl, or together represent a bond between the C- and N-atoms to which they are attached; R3 represents aryl or C1.4 alkyl, which alkyl group is optionally substituted by one or more substituents selected from aryl, OR7 and oxo; R7 represents, independently at each occurrence, H or C(O)R8; R8 represents C1..4 alkyl, aryl, C1.4 alkoxy and C1.4 alkylamino; R4 and R5 either independently represent H or C1-2 alkyl, or together represent a bond between the C- and N-atoms to which they are attached; and R6 represents H or C(O)-C131 alkyl.\n\n13. (Currently Amended) A combination product as claimed in any one of the preceding claims, wherein the identified inhibitor of the biosynthesis and/or vasopressor function of AII is a __specifically identified__ renin inhibitor, an ACE inhibitor or an AT1 receptor antagonist.\n\n14. (Currently Amended) A combination product as claimed in Claim 13, wherein the __identified__ inhibitor of the biosynthesis and/or vasopressor function of AII is a compound selected from the group consisting of __specifically identified__ aliskiren, ditekiren, enalkiren, remikiren, terlakiren, zankiren, benazepril, captopril, cilazapril, enalapril, fosinopril, lisinopril, moexepril, perindopril, quinapril, ramipril, trandolapril, candesartan, eprosartan, irbesartan, losartan, olmesartan, telmisartan, tasosartan, valsartan, ciclosidomine, furosemide, and saralasin.",
+  "usage": {
+    "input_tokens": 5803,
+    "output_tokens": 888,
+    "total_tokens": 6691
+  },
+  "stop_reason": "stop",
+  "latency_sec": 18.66,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:22:14Z"
+}

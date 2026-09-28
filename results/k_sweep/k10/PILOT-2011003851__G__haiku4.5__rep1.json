@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011003851",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2011003851",
+  "app_num": "11673915",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 31514,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "de11c48504c219f9",
+  "response_text": "1. (Currently amended) A system, comprising:\na processor node comprising a processor and a network interface;\na plurality of memory nodes, wherein each memory node comprises a memory and a network interface;\na communication network configured to interconnect said processor node and said plurality of memory nodes via said network interfaces according to a network topology, wherein each of said memory nodes is removed from said processor node by a respective number of network hops according to said network topology;\nwherein said processor node is configured to:\nbroadcast a memory request message comprising a unique identifier of a given memory request and a requested memory size to a subset of said plurality of memory nodes;\nsend a confirmation message comprising the unique identifier to a particular one of the subset of memory nodes in response to receiving a reservation acknowledgment message from said particular one of the memory nodes, wherein the confirmation message is sent only after verifying that no other memory node in the subset has indicated availability to satisfy the given memory request;\nand access memory on the particular one of the memory nodes in response to receiving a commit message from the particular one of the memory nodes indicating that the memory has been allocated for the given memory request.\n\n2. (Currently amended) The system of claim 1, wherein the processor node is further configured to create a reservation structure for the given memory request comprising the unique identifier and a timeout value, and wherein if a timer reaches the timeout value before a reply message is received in response to a given message being sent by the processor node, the processor node is further configured to re-send the given message __only to memory nodes that have not yet responded to the initial broadcast__.\n\n3. (Previously presented)\n\n4. (Previously presented)\n\n5. (Previously presented)\n\n6. (Previously presented)\n\n7. (Previously presented)\n\n8. (Previously presented)\n\n9. (Previously presented)\n\n10. (Previously presented)\n\n11. (Previously presented)\n\n12. (Currently amended) A method, comprising:\na processor node broadcasting a memory request message comprising a unique identifier of a given memory request and a requested memory size to a plurality of memory nodes, wherein said plurality of memory nodes and said processor node are interconnected via a communication network according to a network topology;\nthe processor node sending a confirmation message to a particular one of the plurality of memory nodes in response to receiving a reservation acknowledgment message from said particular one of the plurality of memory nodes, wherein the confirmation message is sent only after verifying that no other memory node has indicated availability to satisfy the given memory request;\nand the processor accessing memory on the particular one of the memory nodes in response to receiving a commit message from the particular one of the memory nodes indicating that the memory has been allocated for the given memory request.\n\n13. (Previously presented)\n\n14. (Previously presented)\n\n15. (Previously presented)\n\n16. (Previously presented)\n\n17. (Currently amended) A processor node, comprising:\nan input/output interface configured for communicating with a communication network, wherein said communication network is configured to interconnect a plurality of memory nodes according to a network topology;\nand execution logic configured to:\nbroadcast a memory request message comprising a unique identifier of a given memory request and a requested memory size to the plurality of memory nodes;\nsend a confirmation message to a particular one of the memory nodes in response to receiving a reservation acknowledgment message from said particular one of the memory nodes, wherein the confirmation message is sent only after verifying that no other memory node has indicated availability to satisfy the given memory request;\nand access memory on the particular one of the memory nodes in response to receiving a commit message from the particular one of the memory nodes indicating that the memory has been allocated for the given memory request.\n\n18. (Previously presented)\n\n19. (Previously presented)\n\n20. (Previously presented)",
+  "usage": {
+    "input_tokens": 7199,
+    "output_tokens": 799,
+    "total_tokens": 7998
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.31,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:37:49Z"
+}

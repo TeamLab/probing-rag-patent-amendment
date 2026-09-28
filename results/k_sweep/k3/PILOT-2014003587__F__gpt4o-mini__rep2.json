@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014003587",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2014003587",
+  "app_num": "12895909",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 18346,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1fae10f1e10fa8d0",
+  "response_text": "(Currently Amended) Claim 1: A method for controlling a flow of air, the method comprising: establishing a level of vacuum in a booster device by generating the flow of air from the booster device using a pump; determining whether the level of vacuum in the booster device has reached a predetermined value; and terminating the flow of air from the booster device when the level of vacuum in the booster device has reached a predetermined value, the predetermined value being set to allow for proper operation of a vacuum assist mechanism.\n\n(Currently Amended) Claim 2: The method of claim 1, wherein said terminating the flow of air is accomplished via a directional control valve, such that a pressure differential across the pump is reduced while allowing for air flow adjustment in the vacuum assist mechanism.\n\n(Currently Amended) Claim 3: The method of claim 2, wherein said terminating the flow of air includes changing the direction of the flow of air and closing a flow path between the pump and the booster device, resulting in optimal performance of the vacuum assist mechanism.\n\n(Currently Amended) Claim 4: The method of claim 3, wherein said changing the direction of the flow of air includes opening a flow path between a negative pressure chamber of the pump and a positive pressure chamber of the pump, ensuring efficiency in the vacuum assist operation.\n\n(Currently Amended) Claim 5: The method of claim 3, wherein said changing the direction of the flow of air includes opening a path for a flow of air between the pump and the atmosphere, facilitating adjustments in the vacuum assist mechanism.\n\n(Currently Amended) Claim 7: The method of claim 1, wherein the booster device is a vacuum servo booster for an automobile braking system, configured for effective operation under varying conditions.\n\n(Currently Amended) Claim 8: A system for controlling a flow of air, the system comprising: a booster device configured to provide a vacuum assist when a level of vacuum has been established in the device; a pump configured to establish the level of vacuum in the booster device by generating the flow of air from the booster device; and a directional control valve adapted to terminate the flow of air from the booster device when the level of vacuum in the booster device has reached a predetermined value, such that a pressure differential across the pump is reduced while facilitating vacuum assist operation.\n\n(Currently Amended) Claim 9: The system of claim 8, wherein the directional control valve is further adapted to change the direction of the flow of air and close a flow path between the pump and the booster device, enhancing the operational characteristics of the vacuum assist mechanism.\n\n(Currently Amended) Claim 11: The system of claim 9, wherein to change the direction of the flow of air the directional control valve opens a flow path between the pump and the atmosphere, optimizing the vacuum assist performance.\n\n(Currently Amended) Claim 14: A motor vehicle comprising: an internal combustion engine; a booster device configured to provide a vacuum assist when a level of vacuum has been established in the device; and a system for controlling a flow of air from the booster device, the system including: a pump configured to establish the level of vacuum in the booster device by generating the flow of air from the booster device; and a directional control valve adapted to terminate the flow of air from the booster device when the level of vacuum in the booster device has reached a predetermined value, such that a pressure differential across the pump and a parasitic load on the engine are reduced, facilitating efficient operation of the vehicle's vacuum assist system.\n\n(Currently Amended) Claim 15: The vehicle of claim 14, wherein the directional control valve is further adapted to change the direction of the flow of air and close a flow path between the pump and the booster device, contributing to enhanced braking performance.\n\n(Currently Amended) Claim 17: The vehicle of claim 15, wherein to change the direction of the flow of air the directional control valve opens a flow path between the pump and the atmosphere, allowing for proper adjustment in the vacuum assist functionality.\n\n(Currently Amended) Claim 19: The vehicle of claim 14, further comprising a braking system, wherein the booster device is a vacuum servo booster for the braking system, ensuring reliable braking performance under various conditions.",
+  "usage": {
+    "input_tokens": 4165,
+    "output_tokens": 863,
+    "total_tokens": 5028
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.54,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:17:52Z"
+}

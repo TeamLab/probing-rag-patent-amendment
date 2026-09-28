@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21317,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c59e24887b37600f",
+  "response_text": "1. (Currently Amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising __a plurality of__ bacterial microcompartment (BMC) polypeptides.\n\n2. (Currently Amended) The cell of claim 1 wherein the non-native compartment is self-assembled in vivo.\n\n3. (Currently Amended) The cell of claim 1 wherein the non-native compartment further comprises at least one targeted enzyme selected from the group consisting of propanediol utilization enzymes.\n\n4. (Currently Amended) The cell of claim 3 wherein the non-native compartment comprises a plurality of different targeted enzymes for the conversion of propanediol.\n\n5. (Currently Amended) The cell of claim 3 wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence for efficient localization within the non-native compartment.\n\n8. (Currently Amended) The cell of claim 1 wherein the proteinaceous shell comprises a plurality of different BMC polypeptides from different bacterial species.\n\n9. (Currently Amended) The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different BMC operons linked to metabolic pathways.\n\n10. (Currently Amended) The cell of claim 1 wherein the BMC polypeptide comprises an affinity tag selected from the group consisting of histidine tags, GST tags, and Myc tags.\n\n11. (Currently Amended) The cell of claim 1 comprising a plurality of compartments, the compartments being distinct from one another.",
+  "usage": {
+    "input_tokens": 5104,
+    "output_tokens": 313,
+    "total_tokens": 5417
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.35,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:59:20Z"
+}

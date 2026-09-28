@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000122",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020000122",
+  "app_num": "14995989",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29091,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a8441dc7976ff3ef",
+  "response_text": "1. (Currently amended) A control system comprising: a controller configured to be communicatively coupled to automation components in the control system and to facilitate performance of a process through interoperation with the automation components by generating a holistic state data, wherein the controller is configured to generate the holistic state data by: determining a model configured to describe the process used by the controller; determining input and output variables of the process; determining constraints on the input and output variables; determining an objective function associated with the process used by the controller; and storing the model, the input and output variables, the constraints, and the objective function in a plurality of fields in the holistic state data to enable the automation components to detect and operate with the controller upon receiving the holistic state data.\n\n10. (Currently amended) A tangible, non-transitory computer-readable medium configured to store instructions executable by a processor of a controller, wherein the instructions comprise instructions to: receive, using the processor, control system configuration data; determine, using the processor, automation components communicatively coupled to the controller, each automation component having specific characteristics and interfaces; determine, using the processor, an optimization problem based at least in part on the automation components and the characteristics of each of the automation components; and instruct, using the processor, one or more of the automation components to perform a control action in a process, wherein the control action is determined based at least in part on the optimization problem.\n\n17. (Currently amended) A method for performing diagnostics on a control system comprising: determining, using a processor, holistic state data captured by a controller in the control system; simulating, using the processor, operation of the controller based at least in part on the holistic state data while the controller performs other operations; analyzing, using the processor, simulation of the controller to perform diagnostics on the controller; and adjusting, using the processor, operation of the control system based on the diagnostics to improve operational efficiency.",
+  "usage": {
+    "input_tokens": 6204,
+    "output_tokens": 388,
+    "total_tokens": 6592
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.2,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:08:57Z"
+}

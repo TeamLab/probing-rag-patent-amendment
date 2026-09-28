@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004926",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2015004926",
+  "app_num": "13847781",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16392,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "24146d5f424894f3",
+  "response_text": "1. (Currently Amended)A process for obtaining a valued material from an aqueous suspension, dispersion or solution containing the valued material comprising adding to the aqueous suspension, dispersion or solution a Maillard reaction product, the Maillard reaction product comprising an adduct of (1) an amine reactant and (2) a reducing sugar, [[a reducing sugar equivalent,]] or a mixture thereof, wherein the Maillard reaction product is produced by reacting the amine reactant and the reducing sugar.\n\n3. (Currently Amended)The process of claim 1, wherein the amine reactant contains at least one amine functional group, and wherein a molar ratio of the reducing sugar, [[the reducing sugar equivalent,]] or the mixture thereof to the amine functional group is about 1:1 to about 3:1.\n\n6. (Currently Amended)The process of claim 1, wherein the Maillard reaction product is produced by reacting the amine reactant with the reducing sugar.\n\n9. (Currently Amended)The process of claim 1, wherein the valued material is obtained by sedimentation, filtration, [[or]] flotation, and [[wherein the flotation method is performed without the use of additional flotation agents]].\n\n10. (Currently Amended)The process of claim 1, further comprising recovering the value material from the aqueous suspension, dispersion or solution after adding the Maillard reaction product thereto to produce a purified product, wherein the purified product contains a reduced concentration of at least one impurity relative to the aqueous suspension, dispersion, or solution and wherein the Maillard reaction product improves the efficiency of the recovery process.\n\n11. (Currently Amended)The process of claim 1, wherein the Maillard reaction product depresses the value material or an impurity in the aqueous suspension, dispersion, or solution within a specific pH range.\n\n13. (Currently Amended)A process for separating a valued material from a suspension, dispersion, or solution, comprising: treating the liquid suspension, dispersion, or solution with a Maillard reaction product of (1) an amine and (2) a reducing sugar, [[a reducing sugar equivalent,]] or a mixture thereof to provide a treated mixture; and removing a purified valued material from the treated mixture, wherein the removing step includes at least one technique selected from the group consisting of: sedimentation and flotation.\n\n15. (Currently Amended)The process of claim 13, wherein the Maillard reaction product is produced by reacting the amine and the reducing sugar, wherein the reaction is conducted under conditions that maximize the yield of the Maillard reaction product. \n\n19. (Currently Amended)The process of claim 13, wherein the Maillard reaction product depresses the value material or an impurity present in the treated mixture, or wherein the Maillard reaction product promotes flotation of the value material or the impurity in the treated mixture, [[resulting in a greater separation efficiency]].",
+  "usage": {
+    "input_tokens": 4114,
+    "output_tokens": 600,
+    "total_tokens": 4714
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.97,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:24:06Z"
+}

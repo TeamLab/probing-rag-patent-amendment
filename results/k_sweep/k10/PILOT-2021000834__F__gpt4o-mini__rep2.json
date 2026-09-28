@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2021000834",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2021000834",
+  "app_num": "16415181",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 26895,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "82e6a9b4e578af5d",
+  "response_text": "(Currently Amended) Claim 1: A column assembly comprising: a chromatography column comprising a __flexible__ seal defining a fluid passage configured to seal against a tapered fluid conduit without the use of a ferrule or a threaded compression screw.\n\n(Currently Amended) Claim 3: The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit, wherein the tapered portion is configured to mate with a tapered fluid conduit at a diameter of less than __0.035__ inches.\n\n(Currently Amended) Claim 7: The column assembly of claim 1, wherein the fluid passage includes __an additional__ tapered portion configured to seal against __the same__ tapered fluid conduit.\n\n(Currently Amended) Claim 9: The column assembly of claim 1, wherein the __flexible__ seal is formed of a polyimide, polyether-ether-ketone, or a deformable metal.\n\n(Currently Amended) Claim 10: The column assembly of claim 1, further comprising a seal retainer that is removable to allow for removal and replacement of the __flexible__ seal.\n\n(Currently Amended) Claim 11: The column assembly of claim 1, wherein the __flexible__ seal is configured to maintain a seal against a tapered fluid conduit at pressures up to 20,000 psi.",
+  "usage": {
+    "input_tokens": 6125,
+    "output_tokens": 281,
+    "total_tokens": 6406
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.66,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:10:54Z"
+}

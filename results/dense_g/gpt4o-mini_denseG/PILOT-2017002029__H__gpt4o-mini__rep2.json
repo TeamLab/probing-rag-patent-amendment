@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "",
+    "test_subsection": "b",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2016003514",
+      "PILOT-2016003940",
+      "PILOT-2017003295"
+    ],
+    "retrieved_app_nums": [
+      "13400481",
+      "12878801",
+      "13840560"
+    ],
+    "retrieved_scores": [
+      0.9592,
+      0.959,
+      0.9577
+    ],
+    "retrieved_chars_total": 3906,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18509,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4d36b06f67493fc3",
+  "response_text": "Claim 1 (currently amended): (Currently Amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, wherein the non-native compartment is formed by the self-assembly of the proteinaceous shell in vivo.\n\nClaim 8 (currently amended): (Currently Amended) The cell of claim1any preceding claim wherein the proteinaceous shell comprises a plurality of different BMC polypeptides, wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different bacterial species and from different BMC operons.\n\nClaim 12 (currently amended): (Currently Amended) A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide, wherein the method is used for enhancing metabolic processes in the host cell.\n\nClaim 21 (currently amended): (Currently Amended) A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, and at least one enzyme that catalyzes conversion of a substrate to a product, wherein the method is used for producing a desired product; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product.",
+  "usage": {
+    "input_tokens": 4524,
+    "output_tokens": 333,
+    "total_tokens": 4857
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.76,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:35:15Z"
+}

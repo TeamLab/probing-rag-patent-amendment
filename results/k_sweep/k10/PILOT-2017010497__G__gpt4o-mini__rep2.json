@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017010497",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017010497",
+  "app_num": "13556032",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29878,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ad3b97e3dbcd8c12",
+  "response_text": "(Currently Amended) A system for treating obesity, the system comprising: a gastric space filler comprising a first balloon connected to a second balloon by a conduit, wherein the gastric space filler is configured to occupy a substantial volume of a gastric cavity in the human patient in an inflated state; and an instrument throughput channel extending through the conduit, wherein the instrument throughput channel is configured to receive instruments and has a defined axial length that corresponds to the conduit.\n\n(Currently Amended) The system of claim 32 wherein the conduit comprises a first lumen in fluid communication with the first balloon, a second lumen in fluid communication with the second balloon, and a third lumen defining the instrument throughput channel.\n\n(Currently Amended) The system of claim 33 wherein the instrument throughput channel extends continuously along the defined axial length of the conduit.\n\n(Currently Amended) The system of claim 35 wherein the first and second balloons are made from one or more of the following materials: silicone, latex, polyethylene, polyurethane, and nylon.",
+  "usage": {
+    "input_tokens": 6225,
+    "output_tokens": 202,
+    "total_tokens": 6427
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.21,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:05:20Z"
+}

@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2015004926",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2015004926",
+  "app_num": "13847781",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2014003792",
+      "PILOT-2015008073",
+      "PILOT-2010011487"
+    ],
+    "retrieved_app_nums": [
+      "11647279",
+      "13490890",
+      "11602521"
+    ],
+    "retrieved_scores": [
+      0.9643,
+      0.9293,
+      0.9291
+    ],
+    "retrieved_chars_total": 2712,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16519,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "db4eeb63dd556184",
+  "response_text": "1. (Currently Amended) A process for obtaining a valued material from an aqueous suspension, dispersion or solution containing the valued material comprising adding to the aqueous suspension, dispersion or solution a Maillard reaction product __produced by heating an amine reactant with a reducing sugar at a temperature of at least 50°C__, the Maillard reaction product comprising an adduct of (1) an amine reactant and (2) a reducing sugar, a reducing sugar equivalent, or a mixture thereof.\n\n2. (Previously presented) A process for emulsifying a material comprising agitating the material in a suitable liquid in the presence of a Maillard reaction product, the Maillard reaction product comprising an adduct of (1), an amine reactant and (2) a reducing sugar, [[or]] a reducing sugar equivalent, or a mixture thereof.\n\n3. (Currently Amended) The process of claim 1, wherein the amine reactant contains at least one amine functional group, and wherein a molar ratio of the reducing sugar, the reducing sugar equivalent, or the mixture thereof to the amine functional group is about 1:1 to about 3:1, __and wherein the Maillard reaction product is a brown polymeric material__.\n\n4. (Currently Amended) The process of claim 1, wherein the reducing sugar, the reducing sugar equivalent, or the mixture thereof is selected from the group consisting of: dextrose, fructose, high fructose corn syrup, erythrulose, ribulose, xylulose, psicose, sorbose, tagatose, glyceraldehyde, erythrose, threose, ribose, arabinose, xylose, allose, altrose, mannose, gulose, galactose, talose, maltose, lactose, furfural, pyruvaldehyde, acetaldehyde, crotonaldehyde, 2- furaldehyde, glycolaldehyde, glycolaldehyde dimer, trans-3-(2-furyl)acrolein, acrolein, 5- hydroxymethylfurfural, 5-methylfurfural, 4-hydroxycrotonaldehyde, and cinnamaldehyde, and wherein the amine reactant is selected from the group consisting of: ammonia, ammonium hydroxide, hydrazine, guanidine, primary amines, secondary amines, quaternary ammonium compounds, polyamines, amino acids, and proteins, __and wherein the Maillard reaction product exhibits a brown color__.\n\n5. (Currently Amended) The process of claim 1, wherein the Maillard reaction product has a cationic functionality, a sulfur functionality, a phosphorus functionality, a sulfate functionality, a sulfonate functionality, a hydroxamic acid functionality, a silane functionality, a phenolic functionality, or an aza crown chelating functionality, __and wherein the Maillard reaction product is produced by thermal treatment of the amine reactant and the reducing sugar__.\n\n6. (Currently Amended) The process of claim 1, wherein the Maillard reaction product is produced by reacting the amine reactant and the reducing sugar __at a temperature sufficient to form a brown polymeric adduct__.\n\n7. (Currently Amended) The process of claim 1, wherein the Maillard reaction product is produced by reacting the amine reactant, the reducing sugar, and a non-carbohydrate polyhydroxy reactant __under conditions that produce a thermally-formed adduct__.\n\n8. (Currently Amended) The process of claim 1, wherein the Maillard reaction product is produced by reacting the amine reactant, the reducing sugar, and a polycarboxylic acid __under thermal conditions__.\n\n9. (Currently Amended) The process of claim 1, wherein the valued material is obtained by sedimentation, filtration, or flotation, __and wherein the Maillard reaction product is added prior to the sedimentation, filtration, or flotation step__.\n\n10. (Currently Amended) The process of claim 1, further comprising recovering the value material from the aqueous suspension, dispersion or solution after adding the Maillard reaction product thereto to produce a purified product, wherein the purified product contains a reduced concentration of at least one impurity relative to the aqueous suspension, dispersion, or solution, __and wherein the Maillard reaction product remains in the aqueous phase or associates with the impurity__.\n\n11. (Currently Amended) The process of claim 1, wherein the Maillard reaction product depresses the value material or an impurity in the aqueous suspension, dispersion, or solution, __and wherein depressing comprises reducing the flotation or suspension of the material or impurity__.\n\n12. (Original) The process of claim 1, wherein the Maillard reaction product promotes flotation of the value material or an impurity in the aqueous suspension, dispersion or solution.\n\n13. (Currently Amended) A process for separating a valued material from a suspension, dispersion, or solution, comprising: treating the liquid suspension, dispersion, or solution with a Maillard reaction product __produced by thermal reaction__ of (1) an amine and (2) a reducing sugar, a reducing sugar equivalent, or a mixture thereof to provide a treated mixture; and removing a purified valued material from the treated mixture.\n\n14. (Currently Amended) The process of claim 13, wherein the Maillard reaction product further comprises a non-carbohydrate polyhydroxy compound or a polycarboxylic acid, __and wherein the Maillard reaction product is a brown polymeric material__.\n\n15. (Currently Amended) The process of claim 13, wherein the Maillard reaction product is produced by reacting the amine and the reducing sugar __at elevated temperature to form a brown adduct__.\n\n16. (Currently Amended) The process of claim 13, wherein the amine contains at least one amine functional group, and wherein a molar ratio of the reducing sugar, the reducing sugar equivalent, or the mixture thereof to the amine functional group is about 1:1 to about 3:1, __and wherein the Maillard reaction product exhibits a brown color__.\n\n17. (Cancelled)\n\n18. (Currently Amended) The process of claim 13, wherein the reducing sugar, the reducing sugar equivalent, or the mixture thereof is selected from the group consisting of: dextrose, fructose, high fructose corn syrup, erythrulose, ribulose, xylulose, psicose, sorbose, tagatose, glyceraldehyde, erythrose, threose, ribose, arabinose, xylose, allose, altrose, mannose, gulose, galactose, talose, maltose, lactose, furfural, pyruvaldehyde, acetaldehyde, crotonaldehyde, 2- furaldehyde, glycolaldehyde, glycolaldehyde dimer, trans-3-(2-furyl)acrolein, acrolein, 5- hydroxymethylfurfural, 5-methylfurfural, 4-hydroxycrotonaldehyde, and cinnamaldehyde, and wherein the amine is selected from the group consisting of: ammonia, ammonium hydroxide, hydrazine, guanidine, primary amines, secondary amines, quaternary ammonium compounds, polyamines, amino acids, and proteins, __and wherein the Maillard reaction product is produced by thermal treatment__.\n\n19. (Currently Amended) The process of claim 13, wherein the Maillard reaction product depresses the value material or an impurity present in the treated mixture, or wherein the Maillard reaction product promotes flotation of the value material or the impurity in the treated mixture, __and wherein the Maillard reaction product is a thermally-formed brown polymer__.\n\n20. (Currently Amended) The process of claim 13, wherein the purified valued material is removed from the treated mixture by sedimentation, filtration, or flotation, __and wherein the Maillard reaction product is added to the suspension, dispersion, or solution prior to the removal step__.",
+  "usage": {
+    "input_tokens": 4619,
+    "output_tokens": 1848,
+    "total_tokens": 6467
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.53,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:08:26Z"
+}

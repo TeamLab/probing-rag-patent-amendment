@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017010632",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017010632",
+  "app_num": "14723654",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20152,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5cf21d2eee5a79e0",
+  "response_text": "1. An ophthalmic illumination system, comprising a light source operable to generate a source light beam; a beam splitter operable to split the source light beam into a first light beam and a second light beam; a first attenuator located in a path of the first light beam, the first attenuator operable to change an intensity of the first light beam; a second attenuator located in a path of the second light beam, the second attenuator operable to change an intensity of the second light beam; a first optical fiber port configured for connection to a first optical fiber, the first optical fiber delivering at least a portion of the first light beam to a patient's eye; a second optical fiber port configured for connection to a second optical fiber, the second optical fiber delivering at least a portion of the second light beam to the patient's eye; and a control unit communicatively coupled to the first attenuator and the second attenuator, the control unit operable to: adjust the first attenuator in order to control the intensity of the portion of the first light beam delivered to the patient's eye via the first optical fiber, wherein the first light beam is coupled to the first optical fiber, and adjust the second attenuator to control the intensity of the portion of the second light beam delivered to the patient's eye via the second optical fiber, wherein the second light beam is coupled to the second optical fiber. (Currently Amended)\n\n12. The ophthalmic illumination system of claim 1, wherein: the first optical fiber is integrated with a first surgical instrument connected to the first port, the first surgical instrument having a first identifier operable to store and transmit data specific to the first surgical instrument; the second optical fiber is integrated with a second surgical instrument connected to the second port, the second surgical instrument having a second identifier operable to store and transmit data specific to the second surgical instrument, and the first surgical instrument and the second surgical instrument each comprise one of a sclerotomy cannula, a vitreous cutter, an illumination probe, forceps, scissors, a spatula, and a pic, except the first and second surgical instruments are each configured as an illumination probe. (Currently Amended)",
+  "usage": {
+    "input_tokens": 4404,
+    "output_tokens": 440,
+    "total_tokens": 4844
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.17,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:32:55Z"
+}

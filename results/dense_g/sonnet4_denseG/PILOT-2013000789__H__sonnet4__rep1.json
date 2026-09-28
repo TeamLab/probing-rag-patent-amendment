@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2016001432",
+      "PILOT-2011012831",
+      "PILOT-2015008136"
+    ],
+    "retrieved_app_nums": [
+      "13299461",
+      "12319836",
+      "13333642"
+    ],
+    "retrieved_scores": [
+      0.8634,
+      0.8419,
+      0.8414
+    ],
+    "retrieved_chars_total": 3815,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19298,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fca4e75b8b245d1f",
+  "response_text": "1. (Currently amended) A humeral implant comprising a first component removably attached to a second component, __wherein the first component is a humeral surface component and the second component is a removably attached stem component__.\n\n2. (Currently amended) The humeral implant of claim 1 wherein said first component is a humeral __surface component__ and said second component is a removably attached stem.\n\n3. (Currently amended) The implant of claim 2 wherein said humeral __surface component__ has a coronal radius of curvature and an axial radius of curvature.\n\n4. (Previously presented) The implant of claim 3 wherein said coronal radius of curvature has a range of 10 to 50 mm.\n\n5. (Previously presented) The implant of claim 3 wherein said axial radius of curvature has a range of from 10 to 50 mm.\n\n6. (Currently amended) The implant of claim 3 wherein said humeral __surface component__ has a depth with a range of from 5 to 40 mm.\n\n7. (Currently amended) The implant of claim 3 wherein said humeral __surface component__ has a thickness with a range of from 0.1 to 10 mm.\n\n8. (Currently amended) The implant of claim 3 wherein a ratio of a depth of said humeral __surface component__ to said coronal radius of curvature is from about 0.7 to about 0.9.\n\n9. (Currently amended) The implant of claim 3 wherein said humeral __surface component__ is spherically or elliptically shaped __and has a textured articulating surface__.\n\n10. (Currently amended) The implant of claim 3 wherein said humeral __surface component__ is made of a material selected from the group consisting of cobalt chrome alloy, ceramic, metal, and magnet materials.\n\n11. (Currently amended) The implant of claim 3 wherein said humeral __surface component__ further comprises fins or spikes on a concave undersurface of said humeral __surface component__.\n\n12. (Previously presented) The implant of claim 3 further comprising a concave undersurface for bony ingrowth material.\n\n13. (Currently amended) The implant of claim 3 wherein said humeral __surface component__ has a __textured__ articulating surface.\n\n14. (Previously presented) The implant of claim 3 wherein said attachable stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n15. (Previously presented) The implant of claim 14 wherein said attachable stem is made of a material selected from the group consisting of titanium, stainless steel, tantalum, porous metal and trabecular metal.\n\n16. (Previously presented) The implant of claim 15 wherein said removably attached stem further comprises a smooth, textured or threaded surface.\n\n17. (Previously presented) The implant of claim 16 wherein said removably attached stem is round, square, or triangular.\n\n18. (Previously presented) The implant of claim 17 wherein said removably attached stem further comprises fins.\n\n19. (Previously presented) The implant of claim 17 wherein said removably attached stem further comprises a bony ingrowth surface.\n\n20. (Currently amended) The implant of claim 2 wherein said removably attached stem __is selected from a plurality of stems of different lengths, wherein the selected stem__ extends from a lateral cortex of said humerus to a center of a head of said humerus.\n\n21. (Currently amended) The implant of claim 2 wherein said humeral __surface component__ connects to said removably attached stem.\n\n22. (Currently amended) The implant of claim 21 wherein said humeral __surface component__ connects to said removably attached stem by a technique selected from the group consisting of morse taper__,__ and a screw.\n\n27. (Currently amended) A __humeral implant adapted to be implanted in a__ glenohumeral joint __to provide__ a transhumeral portal along a central axis of a neck of a proximal humerus __and comprising an implant component__.\n\n28. (Currently amended) The __humeral implant__ of claim 27 wherein said implant __component__ is a humeral implant __surface component__.\n\n29. (Currently amended) A __humeral implant adapted to be anchored in a__ humerus bone __comprising__ a modular implant with a humeral __surface component__ and a stem, wherein said stem is __adapted to be__ anchored in the epiphyseal-metaphyseal portion of said humerus bone.\n\n30. (Previously presented) The repaired humerus bone of claim 29 wherein said stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n31. (Previously presented) The repaired humerus bone of claim 30 wherein said stem is linear.",
+  "usage": {
+    "input_tokens": 5191,
+    "output_tokens": 1129,
+    "total_tokens": 6320
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.2,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T20:03:41Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 66117,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d9fa362d252e9430",
+  "response_text": "```plaintext\n(Currently amended) Claim 281: A tool comprising: a first adhesive layer and a second adhesive layer each located on opposite sides of a medial section, wherein the first adhesive layer and the second adhesive layer are aligned with each other and an additional adhesive layer is positioned in registration with the second adhesive layer.\n\n(Original) Claim 282: The tool of claim 281, further including a honeycomb structure in the medial section.\n\n(Original) Claim 283: The tool of claim 281, wherein the medial section includes a composite material.\n\n(Original) Claim 284: The tool of claim 281, further including a weld ring bonded to the medial section and at least partially interposed between the perimeter of the first and second layers.\n\n(Original) Claim 285: The tool of claim 281, further including a welding segment coupled to the medial section.\n\n(Original) Claim 286: The tool of claim 281, wherein the welding segment is continuous.\n\n(Original) Claim 287: The tool of claim 281, wherein the tool is a circular tool with a plurality of arc-shaped cutting segments.\n\n(Original) Claim 288: The tool of claim 281, wherein the tool includes an inner ring coupled to the medial section.\n```",
+  "usage": {
+    "input_tokens": 14425,
+    "output_tokens": 256,
+    "total_tokens": 14681
+  },
+  "stop_reason": "stop",
+  "latency_sec": 14.15,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:26:05Z"
+}

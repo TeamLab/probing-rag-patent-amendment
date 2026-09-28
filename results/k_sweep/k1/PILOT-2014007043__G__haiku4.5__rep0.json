@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014007043",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2014007043",
+  "app_num": "12396358",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16279,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "825cc3a3e9f134f5",
+  "response_text": "1. (Currently Amended) A system for generating a counter-stimulation in a patient suffering from RLS, the system comprising: a device configured and arranged to generate a counter-stimulation in a patient suffering from RLS, the counter-stimulation of an amplitude, intensity, and time duration __selected such that the counter-stimulation is either lower than that which would wake the patient and higher than that sufficient to relieve RLS symptoms, or sufficient to relieve RLS symptoms and allow the patient to return to sleep__; a controller configured and arranged to drive the counter-stimulation generation device, the controller in communication with the counter-stimulation device; and a base configured and arranged to hold the counter-stimulation generation device adjacent to a patient, the counter-stimulation device attached to the base, __wherein the device comprises a vibration generator__.\n\n2. (Currently Amended) The system according to Claim 1, wherein the device comprises __a vibration generator selected from the group consisting of a piezo-chip, a loudspeaker, a motor with an eccentric weight, and a solenoid, rather than__ [[a stimulator selected from the group consisting of a fluid pressure applicator, a mechanical point pressure applicator, a mechanical roller, a mechanical lift, a vibration generator, a nerve stimulator, a muscle stimulator, a heater, a cooler, a chemical applicator, and a magnet]].\n\n3. (Original)\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)\n\n14. (Original)\n\n15. (Currently Amended) A method of treating RLS, the method comprising: selecting a patient experiencing RLS; stimulating a portion of the patient at an amplitude, intensity, and duration sufficient to act as a counter-stimulation to RLS __via vibration__ and either to allow the patient to return to sleep or to not wake a sleeping patient.\n\n16. (Original)\n\n17. (Original)\n\n18. (Currently Amended) The method according to Claim 15, wherein said counter-stimulation is selected from the group consisting of [[pressure application, mechanical point pressure application, a mechanically rolling against the patient's skin, mechanically lifting at least a portion of the patient,]] vibration, [[a nerve stimulation, a muscle stimulation, heat, cold, a chemical application, and magnetism]].\n\n19. (Original)\n\n20. (Original)",
+  "usage": {
+    "input_tokens": 4202,
+    "output_tokens": 569,
+    "total_tokens": 4771
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.63,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:33:41Z"
+}

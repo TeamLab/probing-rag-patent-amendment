@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002688",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020002688",
+  "app_num": "15103344",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 24524,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "899d96f950d1be6d",
+  "response_text": "1. (Currently amended) An apparatus for profiling a beam of a light emitting semiconductor device, comprising: a light emitting semiconductor device comprising an active region formed on a substrate and configured to generate light when a suitable electrical current is applied to contacts on an upper surface of the device, and a light emitting surface defined by a lower surface of the substrate opposite the contacts; and a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the semiconductor device and a diffusion surface, opposite the first surface, __wherein the diffusion surface is configured to diffuse light emitted from the semiconductor device and transmitted through the transmission medium, and wherein the transmission medium is optically coupled to the light emitting surface with substantially no air gap therebetween__.\n\n3. (Currently amended) An apparatus according to claim 1 or 2, wherein the transmission medium has a refractive index substantially equal to a refractive index of the substrate of the light emitting semiconductor device, such that there is substantially no reflection at the interface between the transmission medium and the substrate of the light emitting semiconductor device, __and wherein the transmission medium is optically contacted directly to the light emitting surface__.\n\n9. (Currently amended) An apparatus according to any preceding claim, further comprising __a pair of electrical probes configured to apply an electrical current to the contacts of the light emitting semiconductor device for causing the active region to generate light, wherein the probes are positioned to contact the contacts without obstructing light emission from the light emitting surface__.\n\n23. (Currently amended) An apparatus according to any preceding claim, comprising a plurality of light emitting semiconductor devices grown on a silicon wafer, wherein the first surface of the transmission medium is in contact with the light emitting surfaces of more than one of the plurality of light emitting semiconductor devices, __and wherein each light emitting surface is optically coupled to the transmission medium with substantially no air gap therebetween__.\n\n25. (Currently amended) A method for profiling a beam of a light emitting semiconductor device, the method comprising: applying an electrical current to contacts on an upper surface of a light emitting semiconductor device, the light emitting semiconductor device comprising an active region formed on a substrate and a light emitting surface defined by a lower surface of the substrate opposite the contacts; transmitting light emitted from the light emitting semiconductor device through a transmission medium comprising a first surface in optical contact with at least part of the light emitting surface of the light emitting semiconductor device __with substantially no air gap therebetween__ and a diffusion surface, opposite the first surface, and configured to diffuse light emitted from the light emitting semiconductor device and transmitted through the transmission medium; and determining intensity power of light that would be emitted into air from the light emitting semiconductor device at one or more angles with respect to a normal __by processing an image of light at the diffusion surface captured by a camera__.\n\n26. (Currently amended) A method for profiling a beam of a light emitting semiconductor device, the method comprising: processing, by a beam profiler, an image to determine intensity power of light that would be emitted into air from the light emitting semiconductor device at one or more angles with respect to a normal, the image comprising light emitted from a light emitting semiconductor device comprising an active region formed on a substrate and configured to generate light when a suitable electrical current is applied to contacts on an upper surface of the device, and a light emitting surface defined by a surface of the substrate opposite the contacts, the light further being transmitted through a transmission medium comprising a first surface in optical contact with at least part of the light emitting surface of the light emitting semiconductor device __with substantially no air gap therebetween__ and a diffusion surface, opposite the first surface, and configured to diffuse light emitted from the light emitting semiconductor device and transmitted through the transmission medium, __wherein the beam profiler determines the intensity power by analyzing pixel intensity values from the image captured at the diffusion surface__.\n\n28. (Currently amended) A non-transitory computer readable medium comprising computer readable code configured, when read by a computer, to carry out the method according to claim 26 or 27, __wherein the code is configured to process image data from a camera positioned to capture light at a diffusion surface of a transmission medium and to calculate angles of light emission based on pixel positions and intensities__.\n\n29. (Currently amended) A computer program comprising computer readable code configured, when read by a computer, to carry out the method according to claim 26 or 27, __wherein the code is configured to process image data from a camera positioned to capture light at a diffusion surface of a transmission medium and to calculate angles of light emission based on pixel positions and intensities__.",
+  "usage": {
+    "input_tokens": 5884,
+    "output_tokens": 1014,
+    "total_tokens": 6898
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.98,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:56:31Z"
+}

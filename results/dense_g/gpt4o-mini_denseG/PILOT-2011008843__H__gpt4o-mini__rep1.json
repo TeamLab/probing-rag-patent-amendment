@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2011008843",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2011008843",
+  "app_num": "11427495",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2015001678",
+      "PILOT-2012009754",
+      "PILOT-2012005807"
+    ],
+    "retrieved_app_nums": [
+      "11902509",
+      "12653440",
+      "11670263"
+    ],
+    "retrieved_scores": [
+      0.8574,
+      0.8549,
+      0.8545
+    ],
+    "retrieved_chars_total": 2486,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22349,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3b9e28a09945caa4",
+  "response_text": "1. (Currently Amended) A semiconductor device comprising a field effect transistor (FET) having a channel region located in a semiconductor device structure, said semiconductor device structure having a top surface that is oriented along one of a first set of equivalent crystal planes and one or more additional surfaces that are oriented along a second, different set of equivalent crystal planes, wherein one or more stressor layers are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply stress to the channel region of the FET, wherein the one or more stressor layers have a lattice constant that is different from that of the semiconductor device structure, so that either compressive or tensile stress is created in the stressor layers due to lattice mismatch between the stressor layers and the semiconductor device structure.",
+  "usage": {
+    "input_tokens": 4909,
+    "output_tokens": 162,
+    "total_tokens": 5071
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.73,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:28:00Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020004768",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020004768",
+  "app_num": "14521351",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20175,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cec0a1f64638d2be",
+  "response_text": "```plaintext\nClaim 1 (Currently Amended): A method of treating Argininosuccinate Synthetase Deficiency (ASD), comprising administering to a subject in need of treatment a composition comprising an mRNA encoding argininosuccinate synthetase (ASS1) at an effective dose and an administration interval such that at least one symptom or feature of the ASD is reduced in intensity, severity, or frequency or has __delayed onset.__\n\nClaim 14 (Currently Amended): The method of claim 1, wherein the administering of the composition results in increased serum ASS1 protein level as compared to baseline serum ASS1 protein level before the treatment.\n\nClaim 15 (Currently Amended): The method of claim 1, wherein the administering of the composition results in reduced citrulline level in the subject as compared to the baseline citrulline level before the treatment, wherein the baseline citrulline level is the citrulline level before the treatment.\n\nClaim 16 (Currently Amended): The method of claim 1, wherein the administering of the composition results in reduced ammonia level in the subject as compared to the baseline ammonia level before the treatment, wherein the baseline ammonia level is the ammonia level before the treatment.\n\nClaim 20 (Currently Amended): The method of claim 1, wherein the mRNA is __not modified.__\n```",
+  "usage": {
+    "input_tokens": 4957,
+    "output_tokens": 280,
+    "total_tokens": 5237
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.92,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:46:29Z"
+}

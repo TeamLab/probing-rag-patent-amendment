@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004926",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2015004926",
+  "app_num": "13847781",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16150,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "734ad1d2cc92ec52",
+  "response_text": "Claim 1 (Currently Amended): A process for obtaining a valued material from an aqueous suspension, dispersion or solution containing the valued material comprising adding to the aqueous suspension, dispersion or solution a Maillard reaction product, the Maillard reaction product comprising an adduct of (1) an amine reactant containing at least one amine functional group and (2) a reducing sugar, a reducing sugar equivalent, or a mixture thereof, wherein the molar ratio of the reducing sugar, reducing sugar equivalent, or the mixture thereof to the amine functional group is about 1:1 to about 3:1.\n\nClaim 3 (Currently Amended): The process of claim 1, wherein a molar ratio of the reducing sugar, the reducing sugar equivalent, or the mixture thereof to the amine functional group is about 1:1 to about 3:1. \n\nClaim 6 (Currently Amended): The process of claim 1, wherein the Maillard reaction product is produced by reacting the amine reactant and the reducing sugar, wherein the reducing sugar is not a polysaccharide.\n\nClaim 10 (Currently Amended): The process of claim 1, further comprising recovering the valued material from the aqueous suspension, dispersion or solution after adding the Maillard reaction product thereto to produce a purified product, wherein the purified product contains a reduced concentration of at least one impurity relative to the aqueous suspension, dispersion, or solution, and wherein the recovery method does not specifically reference sedimentation, filtration, or flotation.\n\nClaim 11 (Currently Amended): The process of claim 1, wherein the Maillard reaction product modifies the value material or an impurity in the aqueous suspension, dispersion, or solution.\n\nClaim 20 (Currently Amended): The process of claim 13, wherein the purified valued material is removed from the treated mixture by a method that includes at least one of the following: sedimentation, filtration, or flotation, specifically excluding methods mentioned in Wright et al.",
+  "usage": {
+    "input_tokens": 4032,
+    "output_tokens": 403,
+    "total_tokens": 4435
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.74,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:24:29Z"
+}

@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2011000482",
+      "PILOT-2012009880",
+      "PILOT-2015002921"
+    ],
+    "retrieved_app_nums": [
+      "11622166",
+      "11416893",
+      "13484791"
+    ],
+    "retrieved_scores": [
+      0.9111,
+      0.898,
+      0.895
+    ],
+    "retrieved_chars_total": 3387,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17502,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0ee0456077521f45",
+  "response_text": "Claim 1 (Currently amended): A composition, comprising: cavity-generating particles; a thermally conductive binder __that is not a glue__; and a solvent.\n\nClaim 2 (Previously presented): The composition of claim 1, wherein the composition is applied to an electronic component surface.\n\nClaim 3 (Previously presented): The composition of claim 2, wherein the solvent is removed during application to the electronic component surface.\n\nClaim 9 (Previously presented): A composition comprising cavity generating particles, a binder, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles.\n\nClaim 10 (Previously presented): The composition of claim 9, wherein the carrier is selected from the group comprising ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, FC-72, or FC-87.\n\nClaim 11 (Previously presented): The composition of claim 9, wherein the binder is premixed solder paste.\n\nClaim 12 (Previously presented): The composition of claim 9, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys.\n\nClaim 13 (Previously presented): The composition of claim 9, wherein the cavity generating particles are 8-12 pm in size.\n\nClaim 14 (Previously presented): The composition of claim 9, wherein the cavity generating particles are 30-50 pm in size.\n\nClaim 15 (Currently amended): The composition of claim 9, wherein the cavity generating particles are __greater than 50 micrometers and__ 100-200 p m in size.\n\nClaim 16 (Previously presented): A composition of matter comprising carrier, binder, and cavity generating particles, wherein said composition of matter contains, in relative proportion: about 10 ml carrier; about 0.5 to 0.8 grams binder; and about 1 gram of cavity generating particles.\n\nClaim 17 (Previously presented): The composition of claim 16, wherein the carrier is selected from the group comprising ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, FC-72, or FC-87.\n\nClaim 18 (Previously presented): The composition of claim 16, wherein the binder is premixed solder paste.\n\nClaim 19 (Previously presented): The composition of claim 16, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys.\n\nClaim 20 (Previously presented): The composition of claim 16, wherein the cavity generating particles are 8-12 pm in size.\n\nClaim 21 (Previously presented): The composition of claim 16, wherein the cavity generating particles are 30-50 p m in size.\n\nClaim 22 (Currently amended): The composition of claim 16, wherein the cavity generating particles are __greater than 50 micrometers and__ 100-200 m in size.",
+  "usage": {
+    "input_tokens": 4805,
+    "output_tokens": 704,
+    "total_tokens": 5509
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.27,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:50:26Z"
+}

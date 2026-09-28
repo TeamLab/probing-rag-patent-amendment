@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2013004685",
+      "PILOT-2020006772",
+      "PILOT-2019005153"
+    ],
+    "retrieved_app_nums": [
+      "12938438",
+      "13985536",
+      "14783633"
+    ],
+    "retrieved_scores": [
+      0.722,
+      0.7212,
+      0.7184
+    ],
+    "retrieved_chars_total": 3525,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20749,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b6c323a43ea948a7",
+  "response_text": "1. (Currently amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than 2000 Da and a polyanion, said nanoparticle having a size of less than one micron, __wherein said polyanion is polyvinyl sulfonate and said nanoparticle is stable in water, field brine and seawater__.\n\n2. (Previously presented) The composition of claim 1, said polyelectrolyte complex nanoparticle intimately associated with a multivalent cation crosslinker.\n\n3. (Previously presented) The composition of claim 1, wherein said polyalkylenimine is polyethylenimine.\n\n4. (Previously presented) The composition of claim 1, wherein said polyanion is selected from sodium polyvinyl sulfonate, poly (sodium acrylate), poly(sodium styrene sulfonate), copolymers of sodium acrylate with sodium vinylsulfonate or sodium styrene sulfonate; dextran sulfate, and anionic surfactants.\n\n5. (Previously presented) The composition of claim 2, wherein said multivalent cation crosslinker is a complexed zirconium compound selected from the group consisting of zirconium acetate, sodium zirconium lactate, zirconium sulfate, zirconium tetrachloride, zirconium orthosulfate, zirconium oxychloride, zirconium carbonate, zirconium ammonium carbonate, zirconium acetylacetonate, aluminum chloride, aluminum sulfate, aluminum citrate, tin chloride, tin sulfate, iron chloride, iron nitrate, titanium chloride, and titanium sulfate.\n\n6. (Previously presented) The composition of claim 1, further comprising monovalent or divalent cations selected from the group consisting of sodium, potassium, magnesium or calcium ions.\n\n8. (Previously presented) The composition of claim 1, wherein said polyelectrolyte complex comprised a nanoparticle with an average particle size of about 100 to 900 nm in diameter.\n\n9. (Previously presented) The composition of claim 1, wherein said polyelectrolyte complex nanoparticles are stable in water, field brine and seawater.\n\n10. (Currently amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine __of less than 2000 Da__ and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron, __wherein said nanoparticles are stable in water, field brine and seawater__.\n\n11. (Currently amended) The composition of claim 10, said polyalkylenimine being less than 2000 Da __and being polyethylenimine__.\n\n12. (Currently amended) The composition of claim 10, said nanoparticle entrapping a multivalent cation __crosslinker__.\n\n13. (Currently amended) The composition of claim 12, said multivalent cation comprising Zr, Cr, Ti, Fe or Al __and being zirconium acetate__.\n\n21. (Currently amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer [[thai]] __that has anionic sites and__ can be crosslinked with a); and c) a fluid.\n\n22. (Currently amended) The composition of claim 21, where said polymer is an acrylate-based polymer __having anionic sites that can be crosslinked with said multivalent cation crosslinker__.\n\n23. (Currently amended) The composition of claim 21, where said polymer is partially hydrolyzed polyacrylamide __having anionic sites that can be crosslinked with said multivalent cation crosslinker__.\n\n24. (Currently amended) The composition of claim 21, where said polymer is a polymer or copolymers of acrylate, acrylamide, N,N-dimethyacrylamide, tert-butyl acrylate, acryamido-2-methylpropane sulfonic acid, or sodium 2-acryamido-2-methylpropane sulfonate, or NN, dimethy ac.ylamide __and has anionic sites that can be crosslinked with said multivalent cation crosslinker__.\n\n26. (Currently amended) The composition of claim 21, where __said__ fluid is brine or seawater.",
+  "usage": {
+    "input_tokens": 5753,
+    "output_tokens": 925,
+    "total_tokens": 6678
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.02,
+  "cost_usd": 0.01644,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:07:12Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011013110",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2011013110",
+  "app_num": "11962331",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 17954,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1c60fef1ff111db9",
+  "response_text": "Claim 1 (Currently Amended): A method comprising: providing, from a processor, a memory request and a first coherency state value for a coherency granule associated with the memory request; and providing, from the processor, __a select one of__ a first indicator or a second indicator in response to determining whether the first coherency state value __identifies a cumulative coherency state for the coherency granule__ __of__ a plurality of caches of the processor, the first indicator identifying the first coherency state value as representing a cumulative coherency state and the second indicator identifying the first coherency state value as representing a potentially non-cumulative coherency state.\n\nClaim 2 (Currently Amended): The method of claim 1, further comprising: receiving, at the processor, a request for the cumulative coherency state for the coherency granule in response to providing the second indicator; determining a second coherency state value for the coherency granule for the processor and providing the second coherency state value from the processor in response to the request, the second coherency state value representing the cumulative coherency state for the coherency granule; and providing, from the processor, the second coherency state value and the first indicator.\n\nClaim 6 (Currently Amended): The method of claim 1, further comprising: determining whether to request the cumulative coherency state for the coherency granule in response to receiving the second indicator from the processor; and providing an indicator of the request for the cumulative coherency state to the processor in response to determining __to make the request for__ the cumulative coherency state.\n\nClaim 8 (Currently Amended): A method comprising: receiving, from a processor, a first memory request and a first coherency state value for a first coherency granule associated with the first memory request; receiving, from the processor, __an indicator associated with the first coherency state value, the first indicator identifying the first coherency state value as potentially non-cumulative for the first coherency granule of__ a plurality of caches of the processor; determining whether to request a cumulative coherency state for the first coherency granule from the processor in response to receiving the first indicator; and providing a second indicator to the processor to request the cumulative coherency state for the first coherency granule in response to determining to request the cumulative coherency state for the first coherency granule.\n\nClaim 14 (Currently Amended): A system comprising: a first processor coupleable to a transaction management module associated with a plurality of processors, the first processor comprising: a processor core; a plurality of caches; and a coherency management module comprising: a first output configured to provide a memory transaction associated with a coherency granule; a second output configured to provide a first coherency state value for the coherency granule; and a third output configured to provide a first indicator, the first indicator indicating whether __the first coherency state value identifies__ a potentially non-cumulative coherency state for the coherency granule __associated with__ the plurality of caches.",
+  "usage": {
+    "input_tokens": 4055,
+    "output_tokens": 626,
+    "total_tokens": 4681
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.6,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:47:47Z"
+}

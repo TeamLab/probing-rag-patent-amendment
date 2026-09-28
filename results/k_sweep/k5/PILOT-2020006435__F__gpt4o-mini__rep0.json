@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020006435",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2020006435",
+  "app_num": "15352183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20189,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9c4cab6bcff86695",
+  "response_text": "(Currently Amended) Claim 1: A proofed frozen dough comprising: (a) a dough mixture of flour, water, and optionally additives, the dough mixture defining a dough matrix; (b) gas bubbles dispersed throughout the dough matrix; (c) a spent yeast component; and (d) a preserved yeast component, wherein the preserved yeast component is encapsulated yeast.\n\n(Currently Amended) Claim 3: The proofed frozen dough of claim 1, wherein the spent yeast component comprises yeast from cream yeast, compressed yeast, semi-dry yeast, frozen yeast, active dry yeast, instant yeast, or a combination thereof.\n\n(Currently Amended) Claim 6: The proofed frozen dough of claim 1, wherein the preserved yeast component has a yeast vitality of at least 50 % of its initial vitality, and is encapsulated yeast.\n\n(Currently Amended) Claim 8: The proofed frozen dough of claim 1, wherein the preserved yeast component comprises encapsulated yeast, fat-coated yeast, non-hydrated active dry yeast, non-hydrated instant yeast, non-hydrated semi-dry yeast, non-hydrated frozen yeast, or a combination thereof. \n\n(Currently Amended) Claim 2: The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 1 to about 8 wt.% of the spent yeast component.\n\n(Currently Amended) Claim 7: The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 0.1 to about 2 wt.% of the preserved yeast component. \n\n(Currently Amended) Claim 11: The proofed frozen dough of claim 1, wherein the gas bubbles comprise gas produced by the spent yeast component during proofing, and the encapsulated yeast contributes to carbon dioxide production.\n\n(Currently Amended) Claim 12: The proofed frozen dough of claim 1, wherein the frozen dough is in its final shape and form for baking and includes both preserved encapsulated yeast and spent yeast. \n\n(Currently Amended) Claim 13: A method for making a frozen dough product, the method comprising: (a) mixing dough ingredients to produce a dough composition, the dough ingredients comprising: i. water; ii. flour; iii. a first yeast; and iv. a second yeast, wherein the second yeast is encapsulated yeast; (b) proofing the dough, wherein during proofing the first yeast is spent and the second yeast is preserved; and (c) freezing the dough after proofing.\n\n(Currently Amended) Claim 19: The method of claim 13, wherein the second yeast comprises encapsulated yeast, fat-coated yeast, non-hydrated active dry yeast, non-hydrated instant yeast, non-hydrated semi-dry yeast, non-hydrated frozen yeast, or a combination thereof.",
+  "usage": {
+    "input_tokens": 4697,
+    "output_tokens": 589,
+    "total_tokens": 5286
+  },
+  "stop_reason": "stop",
+  "latency_sec": 20.05,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:36:28Z"
+}

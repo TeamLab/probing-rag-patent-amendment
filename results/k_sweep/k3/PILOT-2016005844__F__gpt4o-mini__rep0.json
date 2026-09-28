@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016005844",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2016005844",
+  "app_num": "14039251",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 18273,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d5ce26c5f223ad8d",
+  "response_text": "(Currently Amended) Claim 1: A system for identifying malicious threats on a network comprising: a computing device including a processor coupled to a system memory, the system memory storing instructions for execution on the processor, the instructions configured to cause the processor to: retrieve a network data associated with at least one of an IP address or a domain; analyze the network data and identify a malicious network threat based on patterns of network activity; and perform a mitigating action to neutralize the malicious network threat.\n\n(Currently Amended) Claim 5: The system of claim 1, wherein the instructions are further configured to cause the processor to push a notification through a secure communication channel including the mitigating action for the malicious network threat to a third party device.\n\n(Currently Amended) Claim 10: A method for identifying malicious threats on a network comprising: retrieving a network data associated with at least one of an IP address or a domain; analyzing the network data to identify a malicious network threat based on patterns of network activity; and performing a mitigating action to neutralize the malicious network threat.\n\n(Currently Amended) Claim 14: The method of claim 10, further comprising pushing a notification through a secure communication channel including the mitigating action for the malicious network threat to a third party device.",
+  "usage": {
+    "input_tokens": 4284,
+    "output_tokens": 257,
+    "total_tokens": 4541
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.29,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:11:40Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018001232",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2018001232",
+  "app_num": "14932354",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 23108,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "406f8048fa596d63",
+  "response_text": "(Currently Amended) Claim 1: A belly pan for a motor vehicle, comprising: a body panel having a forward section constructed from an open rib structure; and an aero cover carried on said body panel and spanning said open rib structure, wherein the body panel further includes at least one reinforcement member integrated within said open rib structure.\n\n(Currently Amended) Claim 15: A belly pan for a motor vehicle, comprising: a body panel having a first corner buttress, a second corner buttress, a first open rib structure reinforcing said first corner buttress, and a second open rib structure reinforcing said second corner buttress; a first aero cover spanning and closing said first open rib structure; and a second aero cover spanning and closing said second open rib structure, wherein said body panel includes at least one reinforcement member integrated within said first and second open rib structures.",
+  "usage": {
+    "input_tokens": 5116,
+    "output_tokens": 174,
+    "total_tokens": 5290
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.3,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:51:58Z"
+}

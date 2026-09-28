@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015000199",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2015000199",
+  "app_num": "12887121",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 41917,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "925523e706489a55",
+  "response_text": "1. (Currently Amended) A method for restoring efficiency of a photovoltaic cell, the method comprising: illuminating a photovoltaic cell such that the photovoltaic cell receives a __cumulative__ time integrated irradiance equivalent to at least 5 hours of solar illumination __under standard test conditions__; and annealing the photovoltaic cell at a temperature above 90 degrees Celsius for a minimum of 10 minutes, the annealing in response to illuminating the photovoltaic cell.\n\n2. (Currently Amended) The method of Claim 1, wherein the photovoltaic cell comprises a semiconductor wafer, and __wherein__ one of: __the photovoltaic cell receives a cumulative__ time integrated irradiance equivalent to at least 20 hours of solar illumination __under standard test conditions during the illuminating step__; __the photovoltaic cell receives a cumulative__ time integrated irradiance equivalent to at least 16 hours of solar illumination __under standard test conditions__ while being heated to at least 50 degrees Celsius __during the illuminating step, and wherein the annealing step is performed at a temperature above the at least 50 degrees Celsius__; and __the photovoltaic cell is irradiated in sunlight using a solar concentrator for at least 10 hours during the illuminating step__, and wherein the solar concentrator increases the irradiance of solar illumination on the photovoltaic cell by a factor of 2 to 5.\n\n3. (Currently Amended) The method of Claim 2, wherein the photovoltaic cell is annealed at a temperature above 130 degrees Celsius, and wherein annealing the photovoltaic cell further comprises illuminating the photovoltaic cell __during the annealing step__.\n\n4. (Currently Amended) The method of Claim 3, wherein illuminating the photovoltaic cell while annealing of the photovoltaic cell is performed such that the photovoltaic cell receives a __cumulative__ time integrated irradiance equivalent to at least 10 minutes of solar illumination __under standard test conditions during the annealing step__.\n\n5. (Currently Amended) The method of Claim 1, wherein the __photovoltaic cell comprises a__ semiconductor wafer __that__ is a silicon semiconductor wafer.\n\n6. (Original) The method of Claim 1, wherein the photovoltaic cell is annealed at a temperature between 140 degrees Celsius and 210 degrees Celsius for a minimum of 2 hours.\n\n7. (Original) The method of Claim 6, wherein the photovoltaic cell is a thin film photovoltaic cell.\n\n8. (Original) The method of Claim 6, wherein the photovoltaic cell is an amorphous silicon thin film photovoltaic cell.\n\n9. (Original) The method of claim 1, wherein the photovoltaic cell is illuminated after manufacturing of the photovoltaic cell is complete such that the photovoltaic cell produces electricity when illuminated.\n\n10. (Original) The method of claim 1, wherein the photovoltaic cell is illuminated with a light source that simulates light from the sun.",
+  "usage": {
+    "input_tokens": 9866,
+    "output_tokens": 729,
+    "total_tokens": 10595
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.41,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:37:39Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010008015",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2010008015",
+  "app_num": "11047016",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 34937,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a8d080b350bfc3e7",
+  "response_text": "1. (Currently amended) A method of providing information regarding a product, the method comprising: receiving, __with a user device__, a unique identifier identifying a package containing a product; and generating, __with the user device__, at least use information based at least partially on stored user information regarding past use of the product __stored in a data store in association with the unique identifier__.\n\n19. (Currently amended) The method of claim 1, wherein the unique identifier comprises a first unique identifier, the method further comprising: reading a second unique identifier identifying __a user__.\n\n23. (Currently amended) The method of claim 22, wherein generating the at least use information comprises generating the at least use information customized to the role of __the second user__.\n\n24. (Currently amended) The method of claim 1, wherein generating the at least use information comprises generating the at least use information of a type customized for __a user associated with the unique identifier__.\n\n27. (Currently amended) A system for providing information regarding a product, the system comprising: __a receiver configured to receive__ a unique identifier identifying a package containing a product; and __a processor configured to generate__ at least use information based at least partially on stored user information regarding past use of the product.",
+  "usage": {
+    "input_tokens": 7706,
+    "output_tokens": 264,
+    "total_tokens": 7970
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.53,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:57:24Z"
+}

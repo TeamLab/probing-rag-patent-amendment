@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020004768",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2020004768",
+  "app_num": "14521351",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18227,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2e8a20e135206be1",
+  "response_text": "1. (Currently Amended) A method of treating Argininosuccinate Synthetase Deficiency (ASD), the method comprising administering to a subject in need of treatment a composition comprising an mRNA encoding argininosuccinate synthetase (ASS1) at an effective dose and an administration interval such that at least one symptom or feature of the ASD is reduced in intensity, severity, or frequency or has its onset delayed.\n\n2. (Original)\n\n3. (Original)\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Currently Amended) The method of claim 3, wherein each of the one or more cationic lipids constitutes about 30-50% of the liposome by weight.\n\n8. (Currently Amended) The method of claim 3, wherein the ratio of cationic lipid to non-cationic lipid to cholesterol to PEGylated lipid is approximately 40:30:20:10 by molar ratio.\n\n9. (Original)\n\n10. (Original)\n\n11. (Currently Amended) The method of claim 1, wherein the effective dose ranges from about 0.1 to 5.0 mg/kg body weight.\n\n12. (Original)\n\n13. (Original)\n\n14. (Cancelled)\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)\n\n18. (Original)\n\n19. (Original)\n\n20. (Currently Amended) The method of claim 1, wherein the mRNA is unmodified and administered intravenously at an effective dose and administration interval such that at least one symptom or feature of the ASD is reduced in intensity, severity, or frequency or has its onset delayed, wherein the administering results in increased serum ASS1 protein level.",
+  "usage": {
+    "input_tokens": 4972,
+    "output_tokens": 412,
+    "total_tokens": 5384
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.61,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:26:11Z"
+}

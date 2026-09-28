@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 33253,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b726e5d1f08afdde",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is embedded in the test tube at a location near the bottom surface of the test tube.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in the test tube at a position oriented for viewing from a direction that is perpendicular to the test tube's longitudinal axis.\n\n3. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube.\n\n4. (Cancelled)\n\n5. (Original) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the test tube.\n\n7. (Cancelled)\n\n8. (Cancelled)\n\n9. (Cancelled)\n\n10. (Cancelled)\n\n11. (Cancelled)\n\n12. (Cancelled)\n\n13. (Original) A system for storing samples and comprising of the assembly of claim 1, and one or more of the following: a rack for biorepository test tubes; automated robot for moving racks or biorepository test tubes; and automated sampling device adapted to sample said racks or biorepository test tubes.\n\n14. (Original) The system of claim 13 adapted for low temperature operation, such that the racks/test tubes are handled at -20 C or less.\n\n15. (Currently Amended) A method of forming a test tube assembly of claim 1, comprising embedding a MTP in plastic or comprising heating the MTP to above the melting point of the plastic and melting a portion of the plastic with the heated MTP.\n\n16. (Currently Amended) A method of reading an embedded MTP in a test tube assembly of claim 1, comprising: providing an embedded MTP; and reading the MTP.\n\n17. (Original) The method of reading of claim 16, wherein the embedding material is frost coated.\n\n18. (Original) The method of claim 16, wherein the reader comprises a vial receptacle and wherein vial receptacle and the embedded MTP are maintained at a temperature of -20 C or less.\n\n19. (Cancelled)\n\n20. (Cancelled)\n\n21. (Cancelled)\n\n22. (Cancelled)\n\n23. (Cancelled)",
+  "usage": {
+    "input_tokens": 7258,
+    "output_tokens": 480,
+    "total_tokens": 7738
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.58,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:19:18Z"
+}

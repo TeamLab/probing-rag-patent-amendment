@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014008375",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2014008375",
+  "app_num": "13296572",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16062,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ba6f773b4c2d4659",
+  "response_text": "Claim 1 (Currently Amended): A vehicle door comprising: a door outer panel defining an exterior surface of the vehicle door; a common door inner panel located inboard of the door outer panel and configured to mount door hardware, the common door inner panel having a periphery; and a panel extension extending around essentially all of the periphery of the common door inner panel, the panel extension being attached to the periphery of the common door inner panel, forming an inner panel-extension joint, and attached to the door outer panel to secure the common door inner panel to the door outer panel, wherein the panel extension forms an outer panel-extension joint.\n\nClaim 2 (Currently Amended): The vehicle door of claim 1 wherein the outer panel-extension joint is a hemmed joint.\n\nClaim 4 (Currently Amended): The vehicle door of claim 1 including at least one hinge that is mounted to the common door inner panel, said hinge being configured to pivotally connect the vehicle door to a vehicle body. \n\nClaim 5 (Cancelled)",
+  "usage": {
+    "input_tokens": 3738,
+    "output_tokens": 210,
+    "total_tokens": 3948
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.93,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:53:05Z"
+}

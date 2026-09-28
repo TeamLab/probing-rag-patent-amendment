@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16183,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b0cd10b36d85757c",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is embedded beneath the bottom surface of the test tube and oriented for reading downwards.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer.\n\n3. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube.\n\n4. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom surface of the test tube.",
+  "usage": {
+    "input_tokens": 3881,
+    "output_tokens": 125,
+    "total_tokens": 4006
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.15,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:15:26Z"
+}

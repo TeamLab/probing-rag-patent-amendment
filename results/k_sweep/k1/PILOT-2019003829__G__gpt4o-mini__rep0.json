@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13405,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1637d0856834c1ff",
+  "response_text": "Claim 1 (Currently Amended): An assembly comprising a test tube with an affixed MTP, wherein the MTP is embedded in the test tube at a position not previously disclosed in reference to Maxell.\n\nClaim 3 (Currently Amended): The assembly of claim 1, wherein the MTP is embedded underneath the test tube at a specific location defined as near the bottom of the test tube, oriented for reading downwards.\n\nClaim 4 (Currently Amended): The assembly of claim 1, wherein the test tube is a biorepository test tube and the MTP is embedded in a polypropylene or acetal polymer.\n\nClaim 6 (Currently Amended): The assembly of claim 1, wherein the MTP is embedded near the center bottom of the test tube, such that it is distinguishable from the teachings of Maxell. \n\nClaim 22 (Currently Amended): The assembly of claim 4, wherein the MTP is embedded near the center bottom of the biorepository test tube, providing distinction over Maxell. \n\nClaim 23 (Currently Amended): The assembly of claim 4, wherein the MTP is embedded underneath the biorepository test tube at a distinct location, oriented for reading downwards, thereby distinguishing it from Maxell.",
+  "usage": {
+    "input_tokens": 3309,
+    "output_tokens": 258,
+    "total_tokens": 3567
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.3,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:45:33Z"
+}

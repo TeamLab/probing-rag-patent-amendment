@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016000849",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2016000849",
+  "app_num": "11628379",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 30580,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6b73a23f40763d5b",
+  "response_text": "1. A system for analysing risk associated with an investment portfolio of an investor, said system including means for use in generating user interface for display on a user terminal, said user interface showing a distribution of assets of each investment of the investment portfolio over one or more asset classes and __further__ showing the distribution of assets over said one or more asset classes of a benchmark risk category representing a risk tolerance level of the investor, and excluding means for removing an investment from the investment portfolio.\n\n4. A system for managing an investment portfolio of an investor, said system including the system for analysing claimed in any one of claims 1 to 3 and including means for use in adding an investment to the investment portfolio __while excluding means for removing an investment from the investment portfolio__.\n\n5. A system for managing an investment portfolio of an investor, said system including the system for analysing claimed in any one of claims 1 to 3 and including means for use in __removing an investment from the investment portfolio only if such means is not already disclosed__.\n\n10. The system claimed in any one of claims 1 to 9, wherein said investments of the investment portfolio are __not limited to__ fund managers.\n\n11. The system claimed in any one of claims 1 to 9, wherein said investments of the investment portfolio are __not limited to__ direct shares.\n\n12. A computer program for analysing risk associated with an investment portfolio of an investor, said program for performing the step of generating a user interface for display on a user terminal, said user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing a distribution of assets over said one or more asset classes of a benchmark risk category representing the risk tolerance level of the investor, and excluding means for removing an investment from the investment portfolio.\n\n15. A computer program for managing an investment portfolio of an investor, said computer program for performing the steps claimed in any one of claims 12 to 14 and performing the step of adding an investment to the investment portfolio __while excluding removing an investment from the investment portfolio__.\n\n16. A computer program for managing an investment portfolio of an investor, said computer program for performing the steps claimed in any one of claims 12 to 14 and performing the step of __removing an investment from the investment portfolio only if such means is not already disclosed__.\n\n20. The computer program claimed in any one of claims 18 to 19, said another user interface including means for allocating a proportion of the investor's assets to each investment of the investment portfolio __that is not already disclosed in the claims__.\n\n40. An analysis process, including comparing a distribution of assets of investments of an investment portfolio over one or more asset classes with a distribution of assets over said one or more asset classes associated with a benchmark risk category representing a risk tolerance level of the investor, __excluding means for removing an investment from the investment portfolio__.",
+  "usage": {
+    "input_tokens": 6556,
+    "output_tokens": 596,
+    "total_tokens": 7152
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:42:54Z"
+}

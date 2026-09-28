@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 4439,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "669cac500daea729",
+  "response_text": "1. (Currently amended) A compound of formula (IIa) O NaO OR2 O (IIa), in which substituent R2 is selected from the group consisting of alkyl, aryl, and arylalkyl, __wherein the compound exhibits a specific enolate reactivity distinct from corresponding potassium salts__.\n\n2. (Currently amended) A compound according to Claim 1 of formula (IIa) in which R2 is C1-C12-alkyl, C6-aryl, or arylalkyl, __wherein R2 is methyl or ethyl and the sodium salt exhibits enhanced selectivity in nucleophilic addition reactions compared to potassium analogs__.\n\n3. (Currently amended) A compound according to Claim 1 of formula (IIa) in which R2 is methyl, __wherein the sodium enolate of the β-keto methyl ester exhibits different reactivity characteristics than the corresponding potassium enolate of the β-keto ethyl ester__.\n\n4. (Currently amended) A compound of formula (IIb) O ZO OMe O O (IIb) in which substituent Z is selected from the group consisting of alkali metals and alkaline earth metals, __wherein the compound is specifically the sodium salt and exhibits distinct enolate reactivity properties__.\n\n5. (Currently amended) A compound according to Claim 4 of formula (IIb) in which Z is sodium, __wherein the sodium enolate exhibits enhanced regioselectivity or chemoselectivity in organic synthesis compared to other alkali metal analogs__.",
+  "usage": {
+    "input_tokens": 1525,
+    "output_tokens": 364,
+    "total_tokens": 1889
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.86,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:35:12Z"
+}

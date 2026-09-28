@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 25630,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "37db1459ad76fe5e",
+  "response_text": "(Currently Amended) Claim 1: A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a medium that does not harm the viability of the embryos; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos.\n\n(Currently Amended) Claim 12: The method of claim 1 further comprising storing the one or more embryos in a quiescent state prior to step (c) or (d).\n\n(Currently Amended) Claim 17: The method of claim 13 further comprising selecting one or more embryos based on genotype, where said selection is performed using molecular analysis of the DNA obtained.\n\n(Currently Amended) Claim 18: The method of claim 17 further comprising germinating the one or more selected embryos after the selection process.",
+  "usage": {
+    "input_tokens": 5822,
+    "output_tokens": 205,
+    "total_tokens": 6027
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.63,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:47:27Z"
+}

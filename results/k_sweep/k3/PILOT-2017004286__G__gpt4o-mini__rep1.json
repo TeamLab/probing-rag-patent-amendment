@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017004286",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017004286",
+  "app_num": "14264705",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 18607,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "49599ee95455dac8",
+  "response_text": "1. (Currently Amended) An ultrasonic surgical instrument assembly comprising: a handpiece; a transducer or generator of ultrasonic mechanical vibrations disposed in said handpiece; a probe attached to a distal end of said handpiece and operatively connected to said transducer or generator; and a light source attached to said handpiece so as to direct at least visible electromagnetic radiation along the probe towards a surgical site distal of the probe, wherein said light source is positioned at a predetermined location on said handpiece to achieve optimal illumination of the surgical site.\n\n2. (Currently Amended) The surgical instrument assembly defined in claim 2, further comprising a power supply mounted at least indirectly to said handpiece and operatively connected to said light source, wherein said power supply is configured to maintain electrical connection with said light source regardless of the position of said light source relative to said handpiece.\n\n12. (Currently Amended) The accessory defined in claim 11 wherein said power supply component includes a coil disposed about a power cable feeding said transducer or generator, further comprising a fastener for securing said coil in a retained position along the power cable.\n\n19. (Currently Amended) A surgical method comprising: providing a surgical instrument having a handpiece, a transducer or generator of ultrasonic mechanical vibrations disposed in said handpiece, and a probe attached to a distal end of said handpiece and operatively connected to said transducer or generator; providing a light source; applying a fastener to said handpiece to attach said light source thereto so that light from said light source is directed generally parallel along the probe toward a surgical site; operating said surgical instrument to apply ultrasonic vibratory energy to a surgical site; during the operating of said surgical instrument, conducting electrical energy from a power supply to said light source; and during the operating of said surgical instrument and the conducting of said electrical energy, illuminating said surgical site with light from said source, wherein the light from said light source is provided at an optimal angle for effective illumination of the surgical site.",
+  "usage": {
+    "input_tokens": 4407,
+    "output_tokens": 406,
+    "total_tokens": 4813
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.52,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:01:09Z"
+}

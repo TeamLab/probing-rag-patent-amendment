@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 73142,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9358a8d8b4026361",
+  "response_text": "```plaintext\n(Currently Amended) Claim 281: A tool comprising: a medial section; a first adhesive layer located on a first side of the medial section; a second adhesive layer located on a second side of the medial section opposite the first adhesive layer; and an additional adhesive layer located between and aligned with the first adhesive layer and the second adhesive layer, the additional adhesive layer having a substantially uniform thickness and being configured to bond the first adhesive layer to the second adhesive layer.\n\n(Original) Claim 282: The tool of claim 281, wherein the medial section comprises a metal.\n\n(Original) Claim 283: The tool of claim 282, wherein the metal is a honeycomb structure.\n\n(Original) Claim 284: The tool of claim 283, wherein the medial section is a composite material.\n\n(Original) Claim 285: The tool of claim 281, further including a weld ring at least partially interposed between the first adhesive layer and the second adhesive layer.\n\n(Original) Claim 286: The tool of claim 285, wherein the weld ring is bonded to the medial section.\n\n(Original) Claim 287: The tool of claim 286, wherein the weld ring is continuous.\n\n(Original) Claim 288: The tool of claim 287, wherein the tool has a circular shape and includes a plurality of arc-shaped cutting segments.\n```",
+  "usage": {
+    "input_tokens": 15744,
+    "output_tokens": 278,
+    "total_tokens": 16022
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.28,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:23:19Z"
+}

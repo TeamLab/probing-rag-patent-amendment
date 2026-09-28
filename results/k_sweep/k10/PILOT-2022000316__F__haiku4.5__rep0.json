@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022000316",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2022000316",
+  "app_num": "12503494",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 35226,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e59212c9d599eb20",
+  "response_text": "1. (Currently amended) A computer-implemented method for trading combinations of financial instruments, said method comprising: receiving, during a selected time period, combination orders to trade financial instruments; storing each eligible received combination order, wherein a received combination order is eligible if it satisfies at least one selected condition, wherein said at least one selected condition includes the necessary condition that all financial instruments specified by the legs of an eligible order are in a set of two or more selected financial instruments; and processing eligible orders or expanded eligible orders with a combinatorial matching algorithm (CMA) executed by a computer processor, wherein said processing begins at a selected time.\n\n2. (Previously presented)\n\n3. (Previously presented)\n\n4. (Previously presented)\n\n5. (Previously presented)\n\n6. (Previously presented)\n\n7. (Previously presented)\n\n8. (Previously presented)\n\n9. (Previously presented)\n\n10. (Previously presented)\n\n11. (Previously presented)\n\n12. (Previously presented)\n\n13. (Currently amended) A computer-readable medium having computer-executable instructions stored thereon for causing a computer to implement the steps of the method of claim 1, wherein the computer-executable instructions, when executed by a processor, cause the computer to: receive, during a selected time period, combination orders to trade financial instruments; store each eligible received combination order, wherein a received combination order is eligible if it satisfies at least one selected condition, wherein said at least one selected condition includes the necessary condition that all financial instruments specified by the legs of an eligible order are in a set of two or more selected financial instruments; and process eligible orders or expanded eligible orders with a combinatorial matching algorithm (CMA), wherein said processing begins at a selected time.\n\n14. (Currently amended) A computer-implemented method for trading combinations of financial instruments, said method comprising: receiving, during a first selected time period, combination orders to trade financial instruments; storing each eligible received combination order, wherein a received combination order is eligible if it satisfies at least one selected condition, wherein said at least one selected condition includes the necessary condition that all financial instruments specified by the legs of an eligible order are in a set of two or more selected financial instruments; and processing eligible or expanded eligible orders with a combinatorial matching algorithm (CMA) executed by a computer processor, wherein said processing begins at a selected time, wherein said CMA is not constrained by limit prices, and wherein said CMA is based on one of the following: a forward matching algorithm (FMA), and a reverse elimination algorithm (REA).\n\n15. (Previously presented)\n\n16. (Previously presented)\n\n17. (Previously presented)\n\n18. (Previously presented)\n\n19. (Previously presented)\n\n20. (Previously presented)\n\n21. (Previously presented)\n\n22. (Currently amended) A computer-implemented method for trading combinations of financial instruments, said method comprising: steps for obtaining combination orders to trade financial instruments executed by a computer processor; and steps for obtaining a matched collection of expanded eligible orders executed by the computer processor, wherein an obtained combination order is eligible if it satisfies at least one selected condition, and wherein said at least one selected condition includes the necessary condition that all financial instruments specified by the legs of an eligible order are in a set of two or more selected financial instruments.\n\n23. (Cancelled)\n\n24. (Cancelled)\n\n25. (Cancelled)",
+  "usage": {
+    "input_tokens": 7895,
+    "output_tokens": 715,
+    "total_tokens": 8610
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.3,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:54:23Z"
+}

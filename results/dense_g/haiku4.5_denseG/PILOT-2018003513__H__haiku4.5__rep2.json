@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2018003513",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2018003513",
+  "app_num": "11742350",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2016002505",
+      "PILOT-2011013571",
+      "PILOT-2013004387"
+    ],
+    "retrieved_app_nums": [
+      "13456111",
+      "11951152",
+      "12661567"
+    ],
+    "retrieved_scores": [
+      0.511,
+      0.4749,
+      0.474
+    ],
+    "retrieved_chars_total": 2067,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23181,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bdb42088fd2fcec9",
+  "response_text": "1. (Currently amended) A method for treating an ocular condition, the method comprising: administering to the interior of an eye a composition comprising a therapeutically effective amount of a macromolecular anti-angiogenic component (MAAC) to a mammal suffering from an ocular condition, wherein the composition also comprises a viscosity inducing component in an amount effective to increase the viscosity of the composition to a viscosity at about 25°C of __at least__ 10 cps at a shear rate of about 0.1/second, wherein said viscosity inducing component is injectable into the vitreous of a mammalian eye without permanently diminishing visual acuity.\n\n2. (Currently amended) The method of claim 1 wherein said composition comprises a solution __and wherein said MAAC comprises a polypeptide__.\n\n3. (Original) The method of claim 1 wherein said composition comprises a gel.\n\n4. (Original) The method of claim 1 wherein said composition comprises a suspension.\n\n5. (Currently amended) The method of claim 1 wherein __the MAAC comprises an angiogenesis inhibitor that inhibits a vascular endothelial growth factor (VEGF) activity__.\n\n6. (Currently amended) The method of claim 1 wherein said MAAC comprises __a polypeptide__.\n\n14. (Original) The method of claim 6 wherein said MAAC comprises a protein.\n\n15. (Currently amended) The method of claim 14 wherein said protein is __an angiogenesis inhibitor__.\n\n16. (Currently amended) The method of claim 14 wherein said protein comprises __bevacizumab__.\n\n20. (Currently amended) The method of claim 1 wherein said viscosity inducing component comprises __a hyaluronic acid__.\n\n21. (Original) The method of claim 1 wherein said viscosity inducing component comprises a compound having a molecular weight in the range from about 10,000 Daltons to about 2 million Daltons.\n\n22. (Original) The method of claim 17 wherein said viscosity inducing component comprises a compound having a molecular weight in the range of about 100,000 Daltons to about 1.5 million Daltons.\n\n23. (Original) The method of claim 17 wherein said viscosity inducing component comprises a compound having a molecular weight in the range of about 200,000 Daltons to about 1 million Daltons.\n\n24. (Currently amended) The method of claim 1 wherein said viscosity inducing component has a viscosity of __at least__ about 100 cps at a shear rate of 0.1/second at 25°C.\n\n25. (Currently amended) The method of claim 1 wherein said viscosity inducing component has a viscosity of __at least__ about 1000 cps at a shear rate of 0.1/second at 25°C.\n\n26. (Currently amended) The method of claim 1 wherein said viscosity inducing component has a viscosity of __at least__ about 10,000 cps at a shear rate of 0.1/second at 25°C.\n\n27. (Currently amended) The method of claim 1 wherein said viscosity inducing component has a viscosity of __at least__ about 70,000 cps at a shear rate of 0.1/second at 25°C.\n\n28. (Currently amended) The method of claim 1 wherein said viscosity inducing component has a viscosity of __at least__ about 200,000 cps at a shear rate of 0.1/second at 25°C.\n\n29. (Currently amended) The method of claim 1 wherein said viscosity inducing component has a viscosity of __at least__ about 250,000 cps at a shear rate of 0.1/second at 25°C.\n\n30. (Currently amended) The method of claim 1 wherein said viscosity inducing component has a viscosity of __at least__ about 300,000 cps at a shear rate of 0.1/second at 25°C.\n\n31. (Currently amended) The method of claim 1 wherein said composition is administered to the interior of said eye by placement into the posterior segment of the eye through a 27-gauge needle.\n\n32. (Currently amended) The method of claim 1 wherein said condition comprises a condition of the posterior segment of the eye.\n\n33. (Currently amended) The method of claim 1 wherein said condition is selected from the group consisting of macular degeneration, including non-exudative age related macular degeneration and exudative age related macular degeneration, choroidal neovascularization, retinopathy, diabetic retinopathy, acute and chronic macular neuroretinopathy, central serous chorioretinopathy, macular edema, acute multifocal placoid pigment epitheliopathy, Behcet's disease, birdshot retinochoroidopathy, posterior scleritis, serpignous choroiditis, subretinal fibrosis, uveitis syndrome, Vogt-Koyanagi-Harada syndrome, retinal arterial occlusive disease, central retinal vein occlusion, disseminated intravascular coagulopathy, branch retinal vein occlusion, hypertensive fundus changes, ocular ischemic syndrome, retinal arterial microaneurysms, Coat's disease, parafoveal telangiectasis, hemi-retinal vein occlusion, papillophlebitis, central retinal artery occlusion, branch retinal artery occlusion, carotid artery disease (CAD), frosted branch angitis, sickle cell retinopathy, angioid streaks, familial exudative vitreoretinopathy, Eales disease, proliferative vitreal retinopathy, proliferative diabetic retinopathy, retinal disease associated with tumors, congenital hypertrophy of the RPE, posterior uveal melanoma, choroidal hemangioma, choroidal osteoma, choroidal metastasis, combined hamartoma of the retina and retinal pigmented epithelium, retinoblastoma, vasoproliferative tumors of the ocular fundus, retinal astrocytoma, intraocular lymphoid tumors, myopic retinal degeneration, acute retinal pigment epithelitis.\n\n34. (Currently amended) The method of claim 1 wherein said condition is __macular degeneration__.\n\n36. (Currently amended) The method of claim 14 wherein said condition is __macular degeneration__.\n\n37. (Currently amended) A pharmaceutical composition for intravitreal administration to treat an ocular condition comprising a MAAC __that is a polypeptide angiogenesis inhibitor__ and a high viscosity hyaluronic acid carrier.",
+  "usage": {
+    "input_tokens": 6730,
+    "output_tokens": 1593,
+    "total_tokens": 8323
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.64,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:30:10Z"
+}

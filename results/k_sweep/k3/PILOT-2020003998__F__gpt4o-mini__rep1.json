@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 67908,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "44c7ef023b925412",
+  "response_text": "(Currently Amended) Claim 281: A tool comprising: a lamination of at least two layers; a first adhesive layer located on a first layer; a second adhesive layer located on a second layer; and a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and are aligned with each other.\n\n(Currently Amended) Claim 290: The tool of claim 281, wherein the first adhesive layer and the second adhesive layer are in registration with one another.\n\n(Currently Amended) Claim 291: The tool of claim 290, wherein the ring includes a central opening.",
+  "usage": {
+    "input_tokens": 14775,
+    "output_tokens": 130,
+    "total_tokens": 14905
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.78,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:53:50Z"
+}

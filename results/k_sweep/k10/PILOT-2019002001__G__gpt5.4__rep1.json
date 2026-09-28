@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019002001",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2019002001",
+  "app_num": "14388177",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 34443,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ad833c72c81acb82",
+  "response_text": "8. (Currently amended) A __non-transitory__ computer readable medium having instructions stored 2 thereon that when executed by a processing resource implement a system 3 comprising a file set engine, a presentation engine, and an association 4 engine, wherein: 5 the file set engine is configured to examine a plurality of unrecognized 6 files of two or more computing devices and identify candidate file sets from 7 the plurality, each candidate file set including a cluster of related but 8 unrecognized application files __that are associated with a same application 9 package, a same application version, or a same directory__; 10 the presentation engine is configured to present content indicative of 11 each identified candidate file set; and 12 the association engine is configured to detect a selection of content 13 indicative of one of the candidate file sets and associate an application with 14 an application file of that one of the candidate file sets.\n\n9. (Currently amended) The medium of claim 8, wherein the file set engine is 2 configured to identify candidate file sets that include at least one of a 3 frequent file set, a common application package file set, a common version 4 file set, and a common directory file set.\n\n14. (Currently amended) The medium of claim 8, wherein 2 the plurality of application files is a first plurality, wherein the 3 association engine is configured to generate a rule based on the association 4 between the application and its corresponding candidate file set, __the rule 5 including one or more file identifiers corresponding to one or more files of 6 the corresponding candidate file set__; and 7 the system includes a recognition engine configured to process the 8 rule to automatically associate unrecognized files of a second plurality of 9 application files with the application.\n\n15. (Currently amended) A system comprising a processing resource and a non- 2 transitory computer readable medium and instructions stored on the 3 medium, wherein the instructions, when executed, cause the processing 4 resource to implement a method, comprising: 5 examining a plurality of unrecognized application files of two or more 6 computing devices to identify candidate file sets from the plurality, __each 7 candidate file set including a cluster of related but unrecognized 8 application files that are associated with a same application package, a 9 same application version, or a same directory__; 10 presenting content indicative of each of the candidate file sets; and 11 associating an application with the application files of a given one of 12 the candidate file sets according to a selection of the content indicative of 13 that candidate file set.\n\n16. (Currently amended) The system of claim 15, wherein the identified candidate file 2 sets include at least one of a frequent file set, a common application 3 package file set, a common version file set, and a common directory file set.\n\n20. (Currently amended) The system of claim 15, wherein the plurality of application 2 files is a first plurality and wherein the method further comprises: 3 generating a rule based on the association between the application and its 4 associated candidate file set, __the rule including one or more file identifiers 5 corresponding to one or more files of the corresponding candidate file set__; 6 and 7 processing the rule to automatically associate unrecognized files of a 8 second plurality of application files with the application, the unrecognized 9 files corresponding to one or more files of the corresponding candidate file 10 set.",
+  "usage": {
+    "input_tokens": 7580,
+    "output_tokens": 718,
+    "total_tokens": 8298
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.58,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:38:21Z"
+}

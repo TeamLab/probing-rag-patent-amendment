@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2010005065",
+      "PILOT-2014001124",
+      "PILOT-2015000545"
+    ],
+    "retrieved_app_nums": [
+      "11403031",
+      "13228131",
+      "12752437"
+    ],
+    "retrieved_scores": [
+      0.8585,
+      0.8348,
+      0.8328
+    ],
+    "retrieved_chars_total": 5013,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16031,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b63437603e7994fb",
+  "response_text": "15. (Currently amended) The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the unique signature from the http request and uses the unique signature to identify the specific media content requested by the client computer__.\n\n16. (Currently amended) The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the unique signature from the http request and uses the unique signature to identify the specific media content requested by the client computer__.\n\n17. (Previously presented) The method of claim 17, the media request broker selecting the first server computer based on the information.\n\n18. (Previously presented) The method of claim 17, the media request broker selecting the first server computer based on the information.\n\n24. (Currently amended) The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request, __wherein the media request broker receives the unique signature from the http request and uses the unique signature to identify the specific media content requested by the client computer__.\n\n25. (Currently amended) The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request, __wherein the media request broker receives the unique signature from the http request and uses the unique signature to identify the specific media content requested by the client computer__.\n\n27. (Currently amended) The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the unique signature from the http request and uses the unique signature to identify the specific media content requested by the client computer__.\n\n28. (Currently amended) The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the unique signature from the http request and uses the unique signature to identify the specific media content requested by the client computer__.",
+  "usage": {
+    "input_tokens": 3845,
+    "output_tokens": 825,
+    "total_tokens": 4670
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.76,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:41:34Z"
+}

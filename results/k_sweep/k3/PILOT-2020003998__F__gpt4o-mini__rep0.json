@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 67908,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "44c7ef023b925412",
+  "response_text": "(Currently Amended) Claim 281: A tool comprising: a lamination of at least two layers; a first adhesive layer and a second adhesive layer located on opposite sides of a medial section; and an additional adhesive layer configured to bond with one of the first adhesive layer or the second adhesive layer.\n\n(Original) Claim 282: The tool of claim 281 wherein the medial section is formed from a composite material.\n\n(Original) Claim 283: The tool of claim 281 wherein the medial section includes a honeycomb structure.\n\n(Original) Claim 284: The tool of claim 281 wherein the medial section is filled with a second material.\n\n(Original) Claim 285: The tool of claim 281 further including a weld ring at least partially interposed between the perimeter of the first and second layers.\n\n(Original) Claim 286: The tool of claim 285 wherein the weld ring is bonded to the medial section.\n\n(Original) Claim 287: The tool of claim 286 wherein a plurality of cutting segments are welded to an outer perimeter of the weld ring.\n\n(Original) Claim 288: The tool of claim 281 wherein the tool has a circular shape. \n\n(Currently Amended) Claim 290: The tool of claim 281 further including a ring wherein the medial section is coupled on an inner perimeter to the ring.\n\n(Currently Amended) Claim 291: The tool of claim 290 wherein the ring includes a central opening. \n\n(Original) Claim 293: The tool of claim 285 further including a weld ring that is continuous. \n\n(Original) Claim 294: The tool of claim 291 wherein the ring includes an inner ring forming part of the tool. \n\n(Original) Claim 295: The tool of claim 290 wherein the weld ring is segmented.",
+  "usage": {
+    "input_tokens": 14775,
+    "output_tokens": 368,
+    "total_tokens": 15143
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.31,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:53:38Z"
+}

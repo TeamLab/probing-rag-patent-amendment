@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012008496",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2012008496",
+  "app_num": "11752325",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 25032,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a739ad026c0565a2",
+  "response_text": "1. (Currently amended) A loading ramp, said loading ramp comprising: a support structure having a mounting member, said mounting member being compatible with a truck having a bed such that said support structure is adapted to be removably mounted to the truck; a first gradient member secured to said support structure, said first gradient member defining a first surface, a proximate end, and a distal end, the proximate end being opposite the distal end with respect to the first surface, the proximate end being proximate the bed of the truck when said support structure is mounted to the truck, the first surface being structured to support a small vehicle; and a second gradient member secured to said first gradient member at the distal end such that said second gradient member pivots at the distal end to the extent that said second gradient member is capable of an up position and a down position, said second gradient member defining a second surface, the second surface being structured to support the small vehicle, said first gradient member and said second gradient member defining a gradient between a ground surface and the bed of the truck when said second gradient member is at the down position and said support structure is mounted to the truck, the gradient being traversable by the small vehicle, said loading ramp being carried by the truck when said second gradient member is at the up position and said support structure is mounted to the truck, said loading ramp not limiting the storage space provided by the truck when said loading ramp is carried by the truck, __wherein said second gradient member is independently pivotable from said first gradient member and is not fixed to said first gradient member__.\n\n2. (Currently amended) The loading ramp of Claim 1 wherein said loading ramp makes available storage space provided by the truck otherwise occupied when said loading ramp and the small vehicle are carried by the truck, __and wherein said second gradient member remains pivotable when said loading ramp and the small vehicle are carried by the truck__.\n\n3. (Currently amended) The loading ramp of Claim 2 wherein said loading ramp supports at least a portion of the small vehicle when said loading ramp and the small vehicle are carried by the truck, __and wherein said second gradient member is positioned at said up position while supporting said portion of the small vehicle__.\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Currently amended) The loading ramp of Claim 1 wherein the first surface defined by said first gradient member includes a solid surface __that is non-perforated and continuous__.\n\n10. (Original)\n\n11. (Original)\n\n12. (Currently amended) The loading ramp of Claim 1 wherein the second surface defined by said second gradient member includes a solid surface __that is non-perforated and continuous__.\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)\n\n18. (Original)\n\n19. (Currently amended) The loading ramp of Claim 1 further comprising a mechanical device, said mechanical device moving said second gradient member between the up position and down position, __wherein said mechanical device is hydraulically or pneumatically powered__.\n\n20. (Currently amended) The loading ramp of Claim 1 further comprising a locking member, said locking member locking said second gradient member at the up position, __wherein said locking member is engaged only when said second gradient member is at said up position and said loading ramp is carried by the truck__.\n\n21. (Original)\n\n22. (Original)\n\n23. (Currently amended) The loading ramp of Claim 20 wherein said locking member includes a mechanical device, __wherein said mechanical device includes a spring-loaded latch or pin mechanism__.\n\n24. (Cancelled)\n\n25. (Cancelled)\n\n26. (Currently amended) A loading ramp; said loading ramp comprising: a support structure adapted to be mounted to a truck having a bed; and a gradient secured to said support structure, said gradient having a first gradient member and a second gradient member, said second gradient member being secured to a distal end of said first gradient member such that said second gradient member pivots at the distal end to the extent that said second gradient member is capable of an up position and a down position, said gradient defining an inclined surface between a ground surface and the bed of the truck when said second gradient member is at the down position and said support structure is mounted to the truck, the inclined surface being traversable by a small vehicle, said loading ramp being carried by the truck when said second gradient member is at the up position and said support structure is mounted to the truck, said loading ramp not limiting the storage space provided by the truck when said loading ramp is carried by the truck, __wherein said second gradient member is independently pivotable from said first gradient member and is not fixed to said first gradient member__.\n\n27. (Currently amended) The loading ramp of Claim 26 wherein said loading ramp makes available storage space provided by the truck otherwise occupied when said loading ramp and the small vehicle are carried by the truck, __and wherein said second gradient member remains pivotable when said loading ramp and the small vehicle are carried by the truck__.\n\n28. (Currently amended) The loading ramp of Claim 27 wherein said loading ramp supports at least a portion of the small vehicle when said loading ramp and the small vehicle are carried by the truck, __and wherein said second gradient member is positioned at said up position while supporting said portion of the small vehicle__.\n\n29. (Original)\n\n30. (Cancelled)\n\n31. (Original)\n\n32. (Original)\n\n33. (Original)\n\n34. (Original)\n\n35. (Original)",
+  "usage": {
+    "input_tokens": 6453,
+    "output_tokens": 1243,
+    "total_tokens": 7696
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.24,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:54:36Z"
+}

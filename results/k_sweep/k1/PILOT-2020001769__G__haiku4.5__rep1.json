@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020001769",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020001769",
+  "app_num": "15297569",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15213,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5155420f2ad2194c",
+  "response_text": "8. (Currently amended) A composition comprising a lubricant comprising at least one selected from the group consisting of polyol ester and polyvinyl ether and a refrigerant comprising: from 1 to 99% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf); and from 1 to 99% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), wherein said composition __exhibits a Hazen color of about 200 or less as measured by ASHRAE test 97-2007 after a sealed glass tube comprising the composition is welded closed and placed in an oven at 200°C for 14 days, and wherein said polyol ester is obtained from polyols having a neopentyl backbone or from polyols selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol combined with linear or branched carboxylic acids containing from 5 to 9 carbon atoms__.\n\n9. (Currently amended) The composition according to Claim 8, __wherein the polyol ester is obtained from polyols having a neopentyl backbone__.\n\n10. (Currently amended) The composition according to Claim 8, __wherein the polyol ester is obtained from a polyol selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol__.\n\n11. (Currently amended) The composition according to Claim 8, __wherein the polyol ester is obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms__.\n\n12. (Currently amended) The composition according to Claim 8, __wherein the polyol ester is obtained from at least one linear or branched carboxylic acid selected from the group consisting of n-pentanoic acid, n-hexanoic acid, n-heptanoic acid, n-octanoic acid, 2-ethylhexanoic acid, 2,2-dimethylpentanoic acid, 3,5,5-trimethylhexanoic acid, adipic acid and succinic acid__.\n\n13. (Cancelled)\n\n14. (Currently amended) The composition according to Claim 8, __wherein the composition comprises from 10 to 50% by weight of the polyol ester__.\n\n15. (Currently amended) The composition according to Claim 8, __wherein the polyvinyl ether is a copolymer comprising ethyl vinyl ether units and t-butyl vinyl ether units in a weight ratio of approximately 9:1__.\n\n16. (Cancelled)\n\n17. (Currently amended) The composition according to Claim 8, __wherein the refrigerant comprises from 5 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 95% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), and wherein said polyol ester is obtained from pentaerythritol and/or dipentaerythritol with linear or branched carboxylic acids containing from 8 to 9 carbon atoms__.\n\n18. (Currently amended) The composition according to Claim 8, __wherein the refrigerant comprises from 15 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), and wherein said polyol ester is obtained from pentaerythritol and/or dipentaerythritol with linear or branched carboxylic acids containing from 8 to 9 carbon atoms__.\n\n19. (Currently amended) The composition according to Claim 8, __wherein the refrigerant comprises from 15 to 35% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 65 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), and wherein said polyol ester is obtained from pentaerythritol and/or dipentaerythritol with linear or branched carboxylic acids containing from 8 to 9 carbon atoms__.\n\n20. (Cancelled)\n\n21. (Cancelled)\n\n22. (Cancelled)\n\n23. (Cancelled)\n\n24. (Cancelled)\n\n25. (Currently amended) The composition according to Claim 8, __wherein the refrigerant further comprises 1,1,1,2-tetrafluoroethane__.\n\n26. (Currently amended) The composition according to Claim 8, __wherein the polyol ester is a pentaerythritol ester__.\n\n27. (Currently amended) The composition according to Claim 17, __wherein the polyol ester is a pentaerythritol ester__.\n\n28. (Currently amended) The composition according to Claim 18, __wherein the polyol ester is a pentaerythritol ester__.",
+  "usage": {
+    "input_tokens": 4955,
+    "output_tokens": 1256,
+    "total_tokens": 6211
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.89,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:25:49Z"
+}

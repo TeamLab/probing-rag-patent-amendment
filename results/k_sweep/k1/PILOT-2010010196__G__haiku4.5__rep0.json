@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010010196",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2010010196",
+  "app_num": "11949602",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12934,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6a9014760b387196",
+  "response_text": "1. (Currently amended) A wire container, comprising: a housing consisting essentially of a recyclable material, the housing comprising: a peripheral wall defining a boundary leading from a first end to a second end of the housing; a plurality of end portions of the housing folded inwardly across the boundary at the second end to define an end wall, wherein the plurality of end portions comprises triangular folds; and a plurality of support structures coplanar with and coupled to the end wall and extending across the plurality of end portions.\n\n2. (Original)\n\n3. (Cancelled)\n\n4. (Currently amended) The container of claim 1, wherein the plurality of end portions comprises radial folds directed inwardly toward a center of the boundary, wherein the radial folds generally meet at an imaginary central axis of the boundary.\n\n5. (Original)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Original)\n\n12. (Currently amended) A welding wire and container assembly, comprising: a housing consisting essentially of a recyclable material, the housing comprising: a cylindrical wall having a first end and a second end, wherein the cylindrical wall comprises a plurality of triangular portions folded radially inward at the second end; a support structure coupled to the plurality of triangular portions to provide a layered end assembly; and a coil of welding wire disposed in the housing and supported by the support structure.\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Currently amended) The assembly of claim 12, wherein the triangular portions generally meet at an imaginary central axis of the cylindrical wall.\n\n17. (Original)\n\n18. (Original)\n\n19. (Currently amended) A welding wire container, comprising: a recyclable cylinder comprising a laminated base, wherein the laminated base comprises a plurality of end portions of the recyclable cylinder folded inwardly toward a central region of the recyclable cylinder, wherein the plurality of end portions comprises triangular folds.\n\n20. (Cancelled)",
+  "usage": {
+    "input_tokens": 3640,
+    "output_tokens": 464,
+    "total_tokens": 4104
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.88,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:44:01Z"
+}

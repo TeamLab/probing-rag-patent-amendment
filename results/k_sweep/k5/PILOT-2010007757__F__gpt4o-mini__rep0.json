@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 26333,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9377c93050165257",
+  "response_text": "(Currently Amended) Claim 1: A composition, comprising: cavity-generating particles selected from the group consisting of nickel, copper, aluminum, silver, iron, brass, and alloys; a thermally conductive binder, wherein the binder is a premixed solder paste; and a solvent that is not a thermally conductive epoxy.\n\n(Currently Amended) Claim 2: The composition of claim 1, wherein the composition is specifically applied to a surface of a silicon chip.\n\n(Currently Amended) Claim 3: The composition of claim 2, wherein the solvent is evaporated during application to the electronic component surface.",
+  "usage": {
+    "input_tokens": 5760,
+    "output_tokens": 127,
+    "total_tokens": 5887
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.87,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:22:30Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 14207,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "802306294cf4e07e",
+  "response_text": "(currently amended) 1) Composition for topical use comprising a) an active ingredient that is an indole derivative as defined in the specification, b) one or more skin-tolerated vehicles, and c) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action.\n\n(currently amended) 3) Composition according to Claim 1, wherein the active ingredient is contained in said composition in an amount of 0.00001 percent by weight to 10 percent by weight, effective for treating skin diseases.\n\n(currently amended) 4) Composition according to Claim 1, wherein the active ingredient is contained in said composition in an amount effective for the prophylaxis and/or treatment of skin diseases associated with defective keratinisation.\n\n(currently amended) 6) Composition according to Claim 5, comprising as a further skin-care ingredient ectoine, preferably in an amount of 0.01 to 10 percent by weight, more preferably 0.1 to 5 percent by weight and especially 0.1 to 2 percent by weight, effective for skin care.\n\n(currently amended) 7) Use of the active ingredient of Claim 1 for the manufacture of a cosmetic composition effective for the treatment of skin diseases.\n\n(currently amended) 8) Use of the active ingredient of Claim 1 for the preparation of a cosmetic composition which is suitable for the prophylaxis and/or treatment of skin diseases associated with defective keratinisation relating to differentiation and cell proliferation.\n\n(currently amended) 12) Use of the composition according to Claim 1 for skin lightening and/or skin whitening, wherein the composition contains effective amounts of active ingredients for achieving said skin lightening and/or whitening effect.\n\n(currently amended) 14) Use of the active ingredient of Claim 1 for the prophylaxis against time- and/or light-induced ageing processes of the human skin or human hair, in particular effective for reducing dry skin, wrinkle formation and/or pigment defects.",
+  "usage": {
+    "input_tokens": 3561,
+    "output_tokens": 402,
+    "total_tokens": 3963
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.12,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:34:02Z"
+}

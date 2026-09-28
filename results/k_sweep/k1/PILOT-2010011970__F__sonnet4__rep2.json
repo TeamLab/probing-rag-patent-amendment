@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11695,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8910d0772750e41a",
+  "response_text": "Claim 15 (Currently Amended): The method of claim 15, further comprising __receiving a media request at a media request broker, the media request broker being distinct from the first server computer and the second server computer, and the media request broker__ selecting the first server computer based on the information.\n\nClaim 16 (Currently Amended): The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of __receiving the unique signature at a media request broker, the media request broker being distinct from the first server computer and the second server computer,__ selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.\n\nClaim 17 (Currently Amended): The method of claim 16, __the media request broker__ selecting the first server computer based on the information.\n\nClaim 18 (Previously presented)\n\nClaim 24 (Currently Amended): The system of claim 24, further comprising __a media request broker distinct from the first server computer and the second server computer, the media request broker including circuitry for receiving a media request and__ selecting the first server computer based on the information.\n\nClaim 25 (Currently Amended): The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising __the media request broker including circuitry for receiving the unique signature,__ circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request.\n\nClaim 27 (Currently Amended): The computer program product of claim 27, further comprising __program steps for implementing a media request broker distinct from the first server computer and the second server computer, the media request broker including a program step for receiving a media request and__ selecting the first server computer based on the information.\n\nClaim 28 (Currently Amended): The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising __the media request broker including a program step for receiving the unique signature,__ the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.",
+  "usage": {
+    "input_tokens": 3047,
+    "output_tokens": 603,
+    "total_tokens": 3650
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.58,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T11:41:14Z"
+}

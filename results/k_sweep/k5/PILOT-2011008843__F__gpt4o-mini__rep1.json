@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011008843",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2011008843",
+  "app_num": "11427495",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 28743,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6ab6edea14ecaf3c",
+  "response_text": "(Currently Amended) Claim 1: A semiconductor device comprising a field effect transistor (FET) having a channel region located in a semiconductor device structure, said semiconductor device structure having a top surface that is oriented along one of a first set of equivalent crystal planes and one or more additional surfaces that are oriented along a second, different set of equivalent crystal planes, wherein one or more stressor layers are located over said one or more additional surfaces of the semiconductor device structure and are arranged and constructed to apply stress to the channel region of the FET, wherein the semiconductor device structure is configured to generate a lattice mismatch with the one or more stressor layers that results in the application of stress to the channel region of the FET.",
+  "usage": {
+    "input_tokens": 6476,
+    "output_tokens": 148,
+    "total_tokens": 6624
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.4,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:37:47Z"
+}

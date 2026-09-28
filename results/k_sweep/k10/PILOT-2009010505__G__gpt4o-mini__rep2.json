@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2009010505",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2009010505",
+  "app_num": "10993377",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 31677,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a4e127bda0a20651",
+  "response_text": "```plaintext\n(Currently Amended) Claim 1: An apparatus for aligning document actions specified in a documented procedure with demonstrated user actions, comprising: an alignment device for computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric, wherein the alignment device is implemented in hardware or a combination of hardware and software.\n\n(Currently Amended) Claim 18: The method of claim 17, further comprising the step of identifying a current step in the documented procedure based on the alignment, wherein the alignment is derived from an apparatus that includes an alignment device implemented in hardware or a combination of hardware and software.\n```",
+  "usage": {
+    "input_tokens": 6698,
+    "output_tokens": 129,
+    "total_tokens": 6827
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.64,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:57:37Z"
+}

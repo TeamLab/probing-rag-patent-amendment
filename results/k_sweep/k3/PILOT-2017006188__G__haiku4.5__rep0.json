@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23937,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ff6c3fbe197585e1",
+  "response_text": "1) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than 2000 Da and a polyanion, said nanoparticle having a size of less than one micron, wherein said polyelectrolyte complex nanoparticle is intimately associated with a multivalent cation crosslinker.\n\n2) (Cancelled)\n\n3) (Original)\n\n4) (Original)\n\n5) (Original)\n\n6) (Original)\n\n8) (Currently Amended) The composition of claim 1, wherein said polyelectrolyte complex comprised a nanoparticle with an average particle size of about 100 to 900 nm in diameter, and wherein said nanoparticle is stabilized by said multivalent cation crosslinker.\n\n9) (Currently Amended) The composition of claim 1, wherein said polyelectrolyte complex nanoparticles are stable in water, field brine and seawater, and wherein the stability is enhanced by the presence of said multivalent cation crosslinker.\n\n10) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than 2000 Da and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron, wherein said polyelectrolyte complex nanoparticle is intimately associated with a multivalent metal cation crosslinker selected from the group consisting of zirconium, aluminum, iron, titanium, and chromium.\n\n11) (Cancelled)\n\n12) (Currently Amended) The composition of claim 10, said nanoparticle entrapping a multivalent cation and wherein the molar ratio of PVS to polyalkylenimine is greater than 1:1.\n\n13) (Currently Amended) The composition of claim 12, said multivalent cation comprising Zr, Cr, Ti, Fe or Al, and wherein said nanoparticle exhibits a predominance of negative surface charges.\n\n21) (Currently Amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer having anionic sites that can be crosslinked with said multivalent cation crosslinker of claim 1; and c) a fluid.\n\n22) (Cancelled)\n\n23) (Cancelled)\n\n24) (Currently Amended) The composition of claim 21, where said polymer is a polymer or copolymers of acrylate, acrylamide, N,N-dimethylacrylamide, tert-butyl acrylate, acrylamido-2-methylpropane sulfonic acid, or sodium 2-acrylamido-2-methylpropane sulfonate, and wherein said polymer has a molecular weight greater than 100 kDa.\n\n26) (Currently Amended) The composition of claim 21, where said fluid is brine or seawater, and wherein the composition exhibits delayed gelation upon aging.",
+  "usage": {
+    "input_tokens": 6580,
+    "output_tokens": 700,
+    "total_tokens": 7280
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.36,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:01:20Z"
+}

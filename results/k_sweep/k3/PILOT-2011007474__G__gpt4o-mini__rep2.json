@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011007474",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2011007474",
+  "app_num": "11613859",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20490,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "baf88b38a10b80bf",
+  "response_text": "(Currently Amended) 1. A method comprising: receiving requests and data records from a plurality of creditors to file bankruptcy documents with a plurality of different bankruptcy organizations; automatically generating the bankruptcy documents with the received data records, wherein the bankruptcy documents are suitable for filing with different bankruptcy organizations and each document includes unique identifiers for the creditors; and batch filing the bankruptcy documents with the different bankruptcy organizations.\n\n(Currently Amended) 6. A method comprising: receiving requests from a plurality of creditors to file proofs of claims for debts owed by debtors to the creditors with a plurality of different bankruptcy organizations, wherein each request includes a data record for generating a proof of claim; automatically generating the proofs of claims with the received data records, wherein the proofs of claims are suitable for filing with different bankruptcy organizations and each proof of claim includes unique identifiers for the creditors; and batch filing the proofs of claims with the different bankruptcy organizations.",
+  "usage": {
+    "input_tokens": 4574,
+    "output_tokens": 184,
+    "total_tokens": 4758
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.1,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:48:28Z"
+}

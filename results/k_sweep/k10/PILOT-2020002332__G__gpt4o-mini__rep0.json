@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002332",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020002332",
+  "app_num": "12406916",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 37025,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "15fe1e296b96015e",
+  "response_text": "(Currently Amended) 25. A computer readable medium comprising computer executable instructions that when executed by a processor of a computer perform steps comprising: utilizing a certificate selection device to generate electronic certificate selection information; providing the electronic certificate selection information and associated recipient data to a merchant server; receiving, from the merchant server, electronic value certificate data derived from the certificate selection information; establishing a communications link with a mobile device corresponding to the recipient data; and provisioning the electronic value certificate data on the mobile device over the communications link via over the air (OTA) communications.\n\n(Currently Amended) 5. The method of claim 1 wherein the electronic value certificate data comprises an SMS message containing a Uniform Resource Locator (URL) link to a web page displaying a barcode.\n\n(Currently Amended) 6. The method of claim 1 wherein the electronic value certificate data comprises a control Short Message Service (SMS) message instructing the mobile device to download at least one barcode image of at least one coupon associated with the certificate selection information.\n\n(Currently Amended) 12. The method of claim 1 wherein the mobile device comprises a first Near Field Communication (NFC) enabled device, and is configured to transfer the electronic value certificate to a second NFC enabled mobile device.\n\n(Currently Amended) 17. The system of claim 13 wherein the electronic value certificate data comprises an SMS message containing a Uniform Resource Locator (URL) link to a web page displaying a barcode.\n\n(Currently Amended) 18. The system of claim 13 wherein the electronic value certificate data comprises a control Short Message Service (SMS) message instructing the mobile device to download at least one barcode image of at least one coupon associated with the certificate selection information.\n\n(Currently Amended) 24. The system of claim 13 wherein the mobile device comprises a first Near Field Communication (NFC) enabled device, and is configured to transfer the electronic value certificate to a second NFC enabled mobile device.",
+  "usage": {
+    "input_tokens": 7897,
+    "output_tokens": 398,
+    "total_tokens": 8295
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.29,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:59:00Z"
+}

@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2018001232",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2018001232",
+  "app_num": "14932354",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "a)(1",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2019006320",
+      "PILOT-2018001509",
+      "PILOT-2018005358"
+    ],
+    "retrieved_app_nums": [
+      "14221360",
+      "14158709",
+      "14597553"
+    ],
+    "retrieved_scores": [
+      0.9946,
+      0.9942,
+      0.9941
+    ],
+    "retrieved_chars_total": 4909,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17745,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "37d61c7df3ba164c",
+  "response_text": "(Currently Amended) Claim 1: A belly pan for a motor vehicle, comprising: a body panel having a forward section constructed from an open rib structure; and an aero cover carried on said body panel and spanning said open rib structure, wherein said body panel further includes a first corner buttress and a second corner buttress.\n\n(Currently Amended) Claim 15: A belly pan for a motor vehicle, comprising: a body panel having a first corner buttress, a second corner buttress, a first open rib structure reinforcing said first corner buttress and a second open rib structure reinforcing said second corner buttress; a first aero cover spanning and closing said first open rib structure; and a second aero cover spanning and closing said second open rib structure, wherein said body panel further includes a plurality of closed ribs.",
+  "usage": {
+    "input_tokens": 4181,
+    "output_tokens": 166,
+    "total_tokens": 4347
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.17,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:01:21Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13405,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1637d0856834c1ff",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an MTP affixed to an external surface or embedded within a wall of the test tube.\n\n2. (Original) The assembly of claim 1, wherein the MTP is embedded in the test tube.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube configured for long-term storage of biological samples at cryogenic temperatures.\n\n5. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer and is capable of withstanding temperatures of -20°C or lower.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the test tube.\n\n13. (Currently Amended) A system for storing samples comprising: the assembly of claim 1; a rack for biorepository test tubes; an automated robot for moving racks or biorepository test tubes; and an automated sampling device adapted to sample said racks or biorepository test tubes, wherein the system is configured to track and manage sample data via the embedded MTP.\n\n14. (Currently Amended) The system of claim 13, wherein the system is adapted for low temperature operation such that the racks and test tubes are maintained and handled at -20°C or less during storage and retrieval operations.\n\n15. (Currently Amended) A method of forming a test tube assembly of claim 1, comprising: heating the MTP to above the melting point of the plastic; and melting a portion of the plastic with the heated MTP to embed the MTP within the plastic material.\n\n16. (Currently Amended) A method of reading an embedded MTP in a test tube assembly of claim 1, comprising: providing a test tube assembly with an embedded MTP; positioning the test tube assembly in a reader device; and reading the MTP through the embedding material.\n\n17. (Original) The method of reading of claim 16, wherein the embedding material is frost coated.\n\n18. (Original) The method of claim 16, wherein the reader comprises a vial receptacle and wherein the vial receptacle and the embedded MTP are maintained at a temperature of -20°C or less.\n\n19. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer and is capable of withstanding temperatures of -20°C or lower.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the test tube.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards.\n\n22. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded near the center bottom of the test tube.\n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards.",
+  "usage": {
+    "input_tokens": 3748,
+    "output_tokens": 707,
+    "total_tokens": 4455
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.83,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:42:54Z"
+}

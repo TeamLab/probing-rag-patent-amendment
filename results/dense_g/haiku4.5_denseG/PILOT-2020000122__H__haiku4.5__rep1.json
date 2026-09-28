@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2020000122",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2020000122",
+  "app_num": "14995989",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2021000678",
+      "PILOT-2020006314",
+      "PILOT-2017011409"
+    ],
+    "retrieved_app_nums": [
+      "14098511",
+      "14510840",
+      "14187719"
+    ],
+    "retrieved_scores": [
+      0.9542,
+      0.9405,
+      0.9329
+    ],
+    "retrieved_chars_total": 3210,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19382,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4ddd0150ffe4abc7",
+  "response_text": "1. (Currently amended) A control system comprising: a controller including a processor and memory, the controller configured to be communicatively coupled to automation components in the control system and to facilitate performance of a process through interoperation with the automation components by generating a holistic state data, wherein the controller is configured to generate the holistic state data by: determining a model configured to describe the process used by the controller; determining input and output variables of the process; determining constraints on the input and output variables; determining an objective function associated with the process used by the controller; and storing the model, the input and output variables, the constraints, and the objective function in one of a plurality of fields in the holistic state data to enable the automation components to detect and operate with the controller upon receiving the holistic state data, wherein the holistic state data is used by the automation components to perform physical control actions on industrial equipment in the process.\n\n2. (Currently amended) The control system of claim 1, wherein the controller is configured to be communicatively coupled to the automation components via a communication network and to communicate the holistic state data to each of the automation components upon connecting to the communication network, wherein the automation components use the holistic state data to coordinate physical control actions on the industrial equipment.\n\n3. (Currently amended) The control system of claim 1, wherein the controller is configured to be communicatively coupled to the automation components via a backplane and to communicate the holistic state data to the automation components upon connecting to the backplane, wherein the automation components use the holistic state data to coordinate physical control actions on the industrial equipment.\n\n4. (Currently amended) The control system of claim 1, wherein the holistic state data is a standardized format understood by each of the automation components, and wherein the standardized format enables the automation components to interpret and execute physical control actions based on the model, input and output variables, and constraints.\n\n5. (Original) The control system of claim 1, wherein the controller is configured to generate the holistic state data by: determining an intermediate search result of an optimization search; determining a state of the optimization search when the intermediate search result is determined; and storing the intermediate search result and the state in an optimization state field of the holistic state data.\n\n6. (Currently amended) The control system of claim 1, wherein the controller is configured to generate the holistic state data to facilitate performing an optimization search in conjunction with one or more of the automation components in the control system, wherein the optimization search determines control actions that optimize operation of the industrial equipment.\n\n7. (Currently amended) The control system of claim 1, wherein the controller is configured to generate the holistic state data by: determining computational capabilities of the controller; determining interconnections with the automation components in the control system; and storing the computational capabilities and the interconnections in a controller settings field of the holistic state data, wherein the computational capabilities and interconnections are used by the automation components to determine how to coordinate physical control actions.\n\n8. (Currently amended) The control system of claim 1, wherein the controller is configured to communicate the holistic state data to a server in the control system to facilitate determining an optimization problem, wherein the optimization problem is used to determine control actions for the industrial equipment.\n\n9. (Currently amended) The control system of claim 1, wherein the controller comprises an in-memory database configured to store the holistic state data, wherein the in-memory database enables rapid access to the model, input and output variables, constraints, and objective function for use in determining control actions.\n\n10. (Cancelled)\n\n11. (Cancelled)\n\n12. (Cancelled)\n\n13. (Cancelled)\n\n14. (Cancelled)\n\n15. (Cancelled)\n\n16. (Cancelled)\n\n17. (Currently amended) A method for performing diagnostics on a control system comprising: determining, using a processor, holistic state data captured by a controller in the control system, wherein the holistic state data includes a model, input and output variables, constraints, and an objective function; simulating, using the processor, operation of the controller based at least in part on the holistic state data while the controller performs other operations; analyzing, using the processor, the simulation of the controller to perform diagnostics on the controller, wherein the diagnostics include determining whether the model accurately predicts actual system behavior; adjusting, using the processor, operation of the control system based at least in part on the diagnostics, wherein the adjusting includes modifying the model or the objective function.\n\n18. (Original) The method of claim 17, wherein: simulating operation comprises simulating performance of various control actions by the controller; and analyzing the simulation comprises analyzing results of the various control actions.\n\n19. (Currently amended) The method of claim 17, wherein analyzing the simulation comprises: determining a predicted response to a control action determined by the controller using the model; and comparing the predicted response with an actual response to the control action to determine accuracy of the model, wherein the actual response is obtained from sensors monitoring the industrial equipment.\n\n20. (Currently amended) The method of claim 19, comprising adjusting the model when the predicted response and the actual response vary by a threshold amount, wherein the adjusted model is stored in the holistic state data for use by the automation components.",
+  "usage": {
+    "input_tokens": 4697,
+    "output_tokens": 1124,
+    "total_tokens": 5821
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.16,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:28:48Z"
+}

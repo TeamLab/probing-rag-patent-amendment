@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002729",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2020002729",
+  "app_num": "12809299",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29705,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d1f9b5cc81b4ce22",
+  "response_text": "``` \n(Currently Amended) 4. The apparatus according to claim 3, wherein the images comprise pixels having a pitch, and wherein the image processor is configured to compute the respective relative offsets with a precision that is finer than the pitch, and to combine the images using the respective relative offsets to produce a combined image having a resolution that is at least comparable to the pitch.\n\n(Currently Amended) 6. The apparatus according to claim 1, wherein the image processor is configured to recover a virtual position clock responsively to a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras during the scanning process and to use the virtual position clock in registering the respective images with one another.\n\n(Currently Amended) 18. The method according to claim 17, wherein the images comprise pixels having a pitch, and wherein computing the respective relative offsets comprises determining the respective relative offsets with a precision that is finer than the pitch, and wherein processing the images comprises combining the images using the respective relative offsets to produce a combined image having a resolution that is at least comparable to the pitch.\n\n(Currently Amended) 20. The method according to claim 16, wherein processing the images comprises recovering a virtual position clock responsively to a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras during scanning of the sample, using the virtual position clock in registering the respective images with one another.\n```",
+  "usage": {
+    "input_tokens": 6379,
+    "output_tokens": 298,
+    "total_tokens": 6677
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.01,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:07:37Z"
+}

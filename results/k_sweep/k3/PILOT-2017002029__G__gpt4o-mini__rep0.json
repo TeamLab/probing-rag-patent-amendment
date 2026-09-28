@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21317,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c59e24887b37600f",
+  "response_text": "1. (Currently Amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, wherein the non-native compartment is configured to perform biological functions.\n\n2. (Currently Amended) The cell of claim 1 wherein the non-native compartment is self-assembled in vivo and comprises at least one targeted enzyme involved in a metabolic pathway.\n\n3. (Currently Amended) The cell of claim 1 wherein the non-native compartment further comprises at least one targeted enzyme that catalyzes a reaction involving a substrate.\n\n4. (Currently Amended) The cell of claim 3 wherein the non-native compartment comprises a plurality of different targeted enzymes involved in various metabolic processes.\n\n5. (Currently Amended) The cell of claim 4 wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence that directs enzyme localization.\n\n8. (Currently Amended) The cell of claim 1 wherein the proteinaceous shell comprises a plurality of different BMC polypeptides that provide structural integrity and/or function.\n\n12. (Currently Amended) A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide, wherein the producing step results in the generation of functional microcompartments that carry out biochemical reactions.\n\n20. (Currently Amended) The method of claim 12 wherein the host cell comprises an alga and is transformed to enhance specific metabolic capabilities.\n\n21. (Currently Amended) A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide, and at least one enzyme that catalyzes a conversion of a substrate to a product, the method further comprising identifying that the product produced has potential applications in biotechnology or medicine; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product. \n\n28. (Currently Amended) The cell of claim 1 comprising a plurality of compartments that together enhance metabolic efficiency or compound production.",
+  "usage": {
+    "input_tokens": 5104,
+    "output_tokens": 487,
+    "total_tokens": 5591
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.3,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:59:08Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014007043",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2014007043",
+  "app_num": "12396358",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 25951,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "47a244092711cc7c",
+  "response_text": "1. (Currently Amended) A system for generating a counter-stimulation in a patient suffering from RLS, the system comprising: a device configured and arranged to generate a counter-stimulation in a patient suffering from RLS, the counter-stimulation of an amplitude, intensity, and time duration either lower than that which would wake the patient and higher than that sufficient to relieve RLS symptoms, or sufficient to relieve RLS symptoms and allow the patient to return to sleep, __wherein the device comprises a vibration generator__; a controller configured and arranged to drive the counter-stimulation generation device, the controller in communication with the counter-stimulation device; and a base configured and arranged to hold the counter-stimulation generation device adjacent to a patient, the counter-stimulation device attached to the base.\n\n2. (Currently Amended) The system according to Claim 1, wherein the device comprises __a vibration generator selected from the group consisting of a piezo-chip, a loudspeaker, a motor with an eccentric weight, and a solenoid__.\n\n15. (Currently Amended) A method of treating RLS, the method comprising: selecting a patient experiencing RLS; stimulating a portion of the patient at an amplitude, intensity, and duration sufficient to act as a counter-stimulation to RLS and either to allow the patient to return to sleep or to not wake a sleeping patient, __wherein said counter-stimulation comprises mechanical vibration__.\n\n16. (Previously presented)\n\n17. (Previously presented)\n\n18. (Currently Amended) The method according to Claim 15, wherein said counter-stimulation is selected from the group consisting of __mechanical vibration, a nerve stimulation, a muscle stimulation, heat, cold, a chemical application, and magnetism__.",
+  "usage": {
+    "input_tokens": 6340,
+    "output_tokens": 385,
+    "total_tokens": 6725
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.89,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:40:45Z"
+}

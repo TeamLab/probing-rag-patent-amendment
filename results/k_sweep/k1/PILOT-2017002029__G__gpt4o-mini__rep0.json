@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 15360,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e0183aac4640d7ae",
+  "response_text": "Claim 1 (currently amended): (Currently Amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide __and wherein the compartment comprises a plurality of different BMC polypeptides__.\n\nClaim 8 (currently amended): (Currently Amended) The cell of claim 1 __wherein at least one of the plurality of different BMC polypeptides is from a different bacterial species__.\n\nClaim 9 (currently amended): (Currently Amended) The cell of claim 8 __wherein at least one of the plurality of different BMC polypeptides is from a different BMC operon__.\n\nClaim 12 (currently amended): (Currently Amended) A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide __to facilitate specific substrate conversion__.\n\nClaim 21 (currently amended): (Currently Amended) A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide __and capable of catalyzing a specific substrate conversion__ and at least one enzyme that catalyzes conversion of a substrate to a product; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product.",
+  "usage": {
+    "input_tokens": 3920,
+    "output_tokens": 344,
+    "total_tokens": 4264
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.4,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:31:00Z"
+}

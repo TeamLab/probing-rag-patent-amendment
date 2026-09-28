@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2012010015",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2012010015",
+  "app_num": "13152534",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2011012179",
+      "PILOT-2013004567",
+      "PILOT-2011004935"
+    ],
+    "retrieved_app_nums": [
+      "11368755",
+      "12243139",
+      "11246466"
+    ],
+    "retrieved_scores": [
+      0.8732,
+      0.8626,
+      0.8565
+    ],
+    "retrieved_chars_total": 2360,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17875,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8a0ef77da85ee757",
+  "response_text": "Claim 2 (currently amended): The multi-layer coating of claim 1 in which the color-imparting particles are dispersed in aqueous medium by: (a) admixing the color-imparting particles with (1) one or more polymerizable, ethylenically unsaturated monomers, or (2) a mixture of one or more polymerizable ethylenically unsaturated monomers with one or more polymers, or (3) one or more polymers to form an admixture; (b) subjecting the admixture to __defined__ stress, shear conditions to particularize the admixture into microparticles; and (c) polymerizing the ethylenically unsaturated monomers when present (d) dispersing the particles in aqueous medium.\n\nClaim 4 (currently amended): The multi-layer coating of claim 2 in which the polymerizable ethylenically unsaturated monomers include a carboxylic acid group-containing monomer and/or the one or more polymers contain a carboxylic acid group.\n\nClaim 5 (currently amended): The multi-layer coating of claim 4 in which the carboxylic acid group is (meth)acrylic acid.\n\nClaim 12 (currently amended): The multi-layer coating of claim 1 applied over a reflective surface comprising a reflective material having a total reflectance of at least 30 percent __when measured in accordance with standard testing methods__.",
+  "usage": {
+    "input_tokens": 4574,
+    "output_tokens": 288,
+    "total_tokens": 4862
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.26,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:16:11Z"
+}

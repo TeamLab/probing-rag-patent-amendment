@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2015004151",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2015004151",
+  "app_num": "12702453",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2018003610",
+      "PILOT-2016001620",
+      "PILOT-2011002866"
+    ],
+    "retrieved_app_nums": [
+      "11645608",
+      "13127057",
+      "11837955"
+    ],
+    "retrieved_scores": [
+      0.7774,
+      0.7756,
+      0.7688
+    ],
+    "retrieved_chars_total": 3567,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14014,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2062aed566bfabe8",
+  "response_text": "1. (Currently Amended) A cleanable, waterborne polyurethane dispersion comprising the reaction product of: A) one or more OH-functional acrylic dispersions and B) one or more polyisocyanates modified with __3-(cyclohexylamino)-propanesulfonic acid (CAPS) and/or 2-(cyclohexylamino)-ethanesulfonic acid (CHES)__.\n\n2. (Currently Amended) The dispersion of claim 1, wherein component A) comprises __two or more different__ OH-functional acrylic dispersions.\n\n3. (Currently Amended) The dispersion of claim 1, wherein component B) comprises at least one polyisocyanate __derived from an aliphatic diisocyanate and modified with 3-(cyclohexylamino)-propanesulfonic acid (CAPS) and/or 2-(cyclohexylamino)-ethanesulfonic acid (CHES)__.\n\n4. (Currently Amended) The dispersion of claim 3, wherein the aliphatic diisocyanate is 1,6-diisocyanatohexane.\n\n5. (Original) A method of producing a cleanable coating on a substrate comprising applying the dispersion of claim 1 to the substrate and curing the coating composition.\n\n6. (Original) A coating produced according to the method of claim 5.\n\n7. (Currently Amended) The coating of claim 6, wherein the surface energy of the coating is __at least 31.0 dynes/cm__.\n\n8. (Currently Amended) The coating of claim 7, wherein the surface roughness of the coating, __measured as root mean square (RMS) roughness, is greater than 200 nm__.",
+  "usage": {
+    "input_tokens": 3947,
+    "output_tokens": 402,
+    "total_tokens": 4349
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.13,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:28:19Z"
+}

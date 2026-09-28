@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 29832,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0ce7c12d22c230b5",
+  "response_text": "1. (Currently amended) A cooling system installable within a structure wall, comprising: in a housing, the housing disposed between a pair of studs of the wall, a water reservoir; a pump; a pad; a water distributor; a motor; and a fan, __wherein the housing protrudes from the wall less than three inches__.\n\n2. (Currently amended) The cooling system of claim 1, wherein the studs are spaced [[about]] __sixteen inches__ on center.\n\n4. (Previously presented) The cooling system of claim 1, wherein the pump brings water from the water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad.\n\n5. (Previously presented) The cooling system of claim 4, wherein the fan causes air to flow through the pad moistened by the water, thereby cooling the air by evaporation.\n\n6. (Previously presented) The cooling system of claim 5, wherein the fan causes the cooled air to flow through an opening.\n\n7. (Previously presented) The cooling system of claim 4, wherein at least some of the water flows back to the reservoir for recirculation.\n\n11. (Previously presented) The cooling system of claim 1, wherein the housing includes a front cover.\n\n13. (Previously presented) The cooling system of claim 1, wherein the wall is a load-bearing wall.\n\n15. (Currently amended) A cooling system kit, comprising: the cooling system of claim 1; mounting elements; and a ventilation grill.\n\n17. (Currently amended) A cooling system, comprising: in a [[means for mounting within a structure wall, a means for evaporatively cooling an indoor area]] __housing disposed between a pair of studs of a structure wall, a water reservoir; a pump; a pad; a water distributor; a motor; and a fan for evaporatively cooling an indoor area__.\n\n18. (Currently amended) The cooling system of claim 17, wherein [[the means for mounting includes placing the means for evaporatively cooling between wall studs spaced about sixteen inches on center]] __the pair of studs are spaced sixteen inches on center__.\n\n19. (Currently amended) The cooling system of claim 17, wherein [[the means for mounting includes placing the means for evaporatively cooling within a structure wall, the structure wall constructed using one of structural insulated panels (SIP) and insulating concrete forms (ICF)]] __the structure wall is constructed using one of structural insulated panels (SIP) and insulating concrete forms (ICF)__.\n\n20. (Currently amended) The cooling system of claim 17, wherein [[the means for enclosing protrudes from the wall less than three inches]] __the housing protrudes from the wall less than three inches__.",
+  "usage": {
+    "input_tokens": 6595,
+    "output_tokens": 568,
+    "total_tokens": 7163
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.17,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:49:23Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016003042",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2016003042",
+  "app_num": "13928760",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 25103,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f0308df5a16174b8",
+  "response_text": "Claim 1 (currently amended): A composite stiffener, comprising: first, second and third members formed from laminated composite tape, the first and second members defining a web and a pair of flanges extending from the web, the third member being joined to the flanges and extending generally transverse to the web, the first, second and third composite members intersecting to form a void; a filler disposed in and substantially filling the void; at least one layer of composite fabric on each of the members in the area of the filler; and, a layer of adhesive surrounding the filler and joining the filler to the composite fabric.\n\nClaim 5 (currently amended): The composite stiffener of claim 1, wherein the layer of adhesive and the at least one layer of composite fabric extend beyond the radius areas into adjoining areas of the members.\n\nClaim 7 (currently amended): A composite stiffener, comprising: a pair of composite channels joined together, each of the channels including a web, flanges extending from the web, and radius areas between the web and each of the flanges; a base extending transverse to the web and joined to each of the flanges, the radius areas of the channels and the base forming at least one radius filler zone; a reinforcing member filling the radius filler zone; a layer of composite fabric covering the radius areas of the channels and the base; and, a layer of adhesive surrounding the filler and joining the filler to the composite fabric layer.\n\nClaim 12 (currently amended): The composite stiffener of claim 7, wherein the composite fabric layer includes three composite patches respectively on each of the channels and the base in the area of the radius filler zone.\n\nClaim 15 (currently amended): The composite stiffener of claim 7, wherein the channels are formed with a branched portion in their cross-section profile and include radius areas between the web and flanges, the base joined to the flanges.\n\nClaim 25 (currently amended): A composite stiffener for aircraft applications, comprising: an I-section structure formed of laminated composite tape plies, the structure including a web and a pair of flanges on each end of the web, the structure including radius areas between the web and the flanges; a cap being joined to the first set of the flanges and the base being joined to the second set of flanges, the cap and the base each intersecting the web in the radius areas to define a radius filler zone; a reinforcing filler in the radius filler zone; and a layer of adhesive joining the filler to the composite fabric in the radius filler zone.",
+  "usage": {
+    "input_tokens": 6168,
+    "output_tokens": 519,
+    "total_tokens": 6687
+  },
+  "stop_reason": "stop",
+  "latency_sec": 20.49,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:15:29Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013007708",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2013007708",
+  "app_num": "13286129",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 31164,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1e82dd5680f03b80",
+  "response_text": "1. (Currently amended) A golf tee comprising a long lasting combination of a golf tee and a force absorbing member in association therewith, said tee including a ground insertion end, a ball support end and a shaft in between, said member surrounding said shaft and being located below said ball support end [[and]] __, being separate from said ball support end, and__ having an outer diameter less than that of a golf ball but large enough and located so as to protect said support end from impact from a golf club strike after a golf ball has been struck from said tee.\n\n2. (Previously presented) The golf tee of claim 1, wherein said tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member.\n\n3. (Previously presented) The golf tee of claim 1, wherein said tee is formed from a member selected from the group consisting of wood, plastic and metal.\n\n4. (Previously presented) The golf tee of claim 3, wherein said tee is formed from a hardwood.\n\n5. (Previously presented) The golf tee of claim 3, wherein said tee is formed from an engineering plastic.\n\n6. (Previously presented) The golf tee of claim 5, wherein said tee is formed from a polycarbonate.\n\n7. (Previously presented) The golf tee of claim 3, wherein said tee is formed from nylon.\n\n8. (Previously presented) The golf tee of claim 3, wherein said tee is formed from a malleable metal.\n\n9. (Previously presented) The golf tee of claim 8, wherein said tee is formed from aluminum.\n\n10. (Previously presented) The golf tee of claim 9, wherein said force absorbing member is formed from a force absorbing material comprising a natural or man-made material.\n\n11. (Previously presented) The golf tee of claim 1, wherein said force absorbing member is formed from a force absorbing material comprising a natural or man-made material.\n\n12. (Previously presented) The golf tee of claim 11, wherein said force absorbing material has a hardness of from about 30 to about 90 durometer.\n\n13. (Previously presented) The golf tee of claim 12, wherein said force absorbing material comprises a neoprene having a hardness of from about 50 to about 60 durometer.\n\n14. (Previously presented) The golf tee of claim 11, wherein said force absorbing material comprises a neoprene.\n\n15. (Currently amended) A method of making a golf tee for use when striking a golf ball, said method comprising the step of forming a long lasting combination of a golf tee and a force absorbing member in association therewith, the tee including a ground insertion end, a ball support end and a shaft in between, wherein the member surrounding the shaft is located below the ball support end [[and]] __, is separate from said ball support end, and__ has an outer diameter less than that of a golf ball but large enough and located so as to protect the support end from impact from a golf club strike after a golf ball has been struck from the tee.\n\n16. (Previously presented) The method of claim 15, wherein the tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member.\n\n17. (Previously presented) The method of claim 15, wherein the tee is formed from a member selected from the group consisting of wood, plastic and metal.\n\n18. (Previously presented) The method of claim 17, wherein the tee is formed from a hardwood.\n\n19. (Previously presented) The method of claim 17, wherein the tee is formed from an engineering plastic.\n\n20. (Previously presented) The method of claim 19, wherein the tee is formed from a polycarbonate.\n\n21. (Previously presented) The method of claim 17, wherein the tee is formed from nylon.\n\n22. (Previously presented) The method of claim 17, wherein the tee is formed from a malleable metal.\n\n23. (Previously presented) The method of claim 22, wherein the tee is formed from aluminum.\n\n24. (Previously presented) The method of claim 23, wherein the force absorbing member is formed from a force absorbing material comprising a natural or man-made material.\n\n25. (Previously presented) The method of claim 15, wherein the force absorbing member is formed from a force absorbing material comprising a natural or man-made material.\n\n26. (Previously presented) The method of claim 25, wherein the force absorbing material has a hardness of from about 30 to about 90 durometer.\n\n27. (Previously presented) The method of claim 25, wherein the force absorbing material comprises a neoprene having a hardness of from about 50 to about 60 durometer.\n\n28. (Previously presented) The method of claim 25, wherein the force absorbing material comprises a neoprene.",
+  "usage": {
+    "input_tokens": 7046,
+    "output_tokens": 991,
+    "total_tokens": 8037
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.55,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:50:02Z"
+}

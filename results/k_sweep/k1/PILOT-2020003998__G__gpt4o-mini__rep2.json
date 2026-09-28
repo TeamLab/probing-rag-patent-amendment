@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 66117,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d9fa362d252e9430",
+  "response_text": "Claim 281 (currently amended): A tool comprising: a first adhesive layer; a second adhesive layer; and a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section, and the first adhesive layer and the second adhesive layer are aligned with each other. \n\nClaim 282 (currently amended): The tool of claim 281, wherein the medial section comprises a metal.\n\nClaim 283 (currently amended): The tool of claim 282, wherein the metal is a honeycomb structure.\n\nClaim 284 (currently amended): The tool of claim 283, wherein the medial section is a composite material.\n\nClaim 285 (currently amended): The tool of claim 281, further comprising a weld ring at least partially interposed between the perimeter of the first adhesive layer and the second adhesive layer.\n\nClaim 286 (currently amended): The tool of claim 285, wherein the weld ring is bonded to the medial section.\n\nClaim 287 (currently amended): The tool of claim 285, wherein a plurality of cutting segments are welded to an outer perimeter of the weld ring.\n\nClaim 288 (currently amended): The tool of claim 281, further comprising an inner ring coupled on an inner perimeter to the medial section. \n\nClaim 290 (currently amended): The tool of claim 285, wherein the weld ring is continuous.\n\nClaim 291 (currently amended): The tool of claim 290, wherein the inner ring includes a central opening.\n\nClaim 293 (currently amended): The tool of claim 281, further comprising a fluid flow element in the blade core extending from the driving portion to the nozzle. \n\nClaim 294 (currently amended): The tool of claim 293 wherein the fluid flow element is a tube having a tube end extending into a channel in the nozzle.",
+  "usage": {
+    "input_tokens": 14425,
+    "output_tokens": 366,
+    "total_tokens": 14791
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.98,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:26:42Z"
+}

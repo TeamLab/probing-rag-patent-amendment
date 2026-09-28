@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19556,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "238f68e035fbdda5",
+  "response_text": "1. (Currently amended) A composition comprising a compound of formula I:\n\n[formula structure as originally presented]\n\nwherein R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, R70, R71, R72, R73, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, R100 are as defined in the specification, __wherein the compound of formula I is other than the indole derivative disclosed in Schacht et al. US 4,069,338__.\n\n2. (Cancelled)\n\n3. (Currently amended) Composition for topical use comprising a) the active ingredient according to Claim 1, b) one or more skin-tolerated vehicles, and c) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action, __wherein the composition is formulated for treatment of existing skin conditions__.\n\n4. (Currently amended) Composition according to Claim 1 or 3, wherein the active ingredient is contained in said composition in an amount of 0,00001 per cent by weight to 10 per cent by weight.\n\n5. (Original) Composition according to claim 5, comprising as a further skin-care ingredient ectoine, preferably in an amount of 0.01 to 10 per cent by weight, more preferably 0.1 to 5 per cent by weight and especially 0.1 to 2 per cent by weight.\n\n7. (Currently amended) Use of the active ingredient of Claim 1 for the manufacture of a cosmetic composition __for treatment of existing skin conditions__.\n\n8. (Currently amended) Use of the active ingredient of Claim 1 for the preparation of a composition which is suitable for the [[prophylaxis and/or]] treatment of skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation, [[in particular]] specifically for the treatment of acne vulgaris, acne comedonica, polymorphic acne, acne rosaceae, nodular acne, acne conglobata, age-related acne, acne occurring as a side effect, such as acne solaris, medicament-related acne or acne professionalis, for the treatment of other defects of keratinisation, [[in particular]] specifically ichthyosis, ichthyosiform states, Darier's disease, keratosis palmo-plantaris, leukoplakia, leukoplakiform states, skin and mucosal (buccal) eczema (lichen), for the treatment of other skin diseases which are associated with defective keratinisation and have an inflammatory and/or immunoallergic component, and [[in particular]] specifically all forms of psoriasis relating to the skin, mucous membranes and finger- and toenails, and psoriatic rheumatism and skin atopy, such as eczema, or respiratory atopy, or also hypertrophy of the gums.\n\n9. (Currently amended) Use according to Claim 8 for hair care __treatment__ and/or hair follicle __treatment__ [[development]].\n\n10. (Currently amended) Use the active ingredient of Claim 1 for the care, preservation or improvement of the general state of the skin or hair __by treating existing skin or hair conditions__.\n\n12. (Currently amended) Use of the composition according to Claim 1 for skin lightening and/or skin whitening __by treating existing skin pigmentation conditions__.\n\n13. (Currently amended) Use the active ingredient of Claim 1 for the [[prophylaxis against or]] reduction of skin unevenness, such as wrinkles, fine lines, rough skin or large-pored skin __by treating existing skin conditions__.\n\n14. (Currently amended) Use the active ingredient of Claim 1 for the [[prophylaxis against]] treatment of time- and/or light-induced ageing processes of the human skin or human hair, [[in particular for prophylaxis against]] specifically for treatment of dry skin, wrinkle formation and/or pigment defects, and/or for the reduction [[or prevention]] of the harmful effects of UV rays on the skin.",
+  "usage": {
+    "input_tokens": 5210,
+    "output_tokens": 1186,
+    "total_tokens": 6396
+  },
+  "stop_reason": "stop",
+  "latency_sec": 20.73,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:21:48Z"
+}

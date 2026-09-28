@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2014009096",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2014009096",
+  "app_num": "13102968",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2016005605",
+      "PILOT-2014004644",
+      "PILOT-2014001272"
+    ],
+    "retrieved_app_nums": [
+      "13177807",
+      "12531494",
+      "11571312"
+    ],
+    "retrieved_scores": [
+      0.8793,
+      0.8778,
+      0.8772
+    ],
+    "retrieved_chars_total": 3434,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18027,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bee40fad4de12413",
+  "response_text": "1. (Original) [Claim 1 text not provided in office action but referenced as rejected]\n\n2. (Currently Amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to __the node by finding information that authorizes the source address stored within the automated communications system, and when the source address is authorized to send a message to the node, returning an indication of success__.\n\n3. (Currently Amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by finding information that authorizes the source address stored within the automated communications system, and when the source address is authorized to send a message to the node, __returning an indication of success, and when the source address is not authorized to send a message to the node, returning an indication of failure__.\n\n4. (Currently Amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes; and for each node of the ordered sequence of nodes, determines whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, and when the source address is authorized to send a message to the node, __returning an indication of success, and when the source address is not authorized to send a message to the node, returning an indication of failure__.\n\n5. (Currently Amended) The automated communications system of claim 1 wherein the routing-and-message-forwarding component determines whether or not the message is authorized to be forwarded by: parsing the destination address into an ordered sequence of nodes and/or node-token pairs; and for each node and/or node-token pair of the ordered sequence of nodes and/or node-token pairs, determining whether the source address is authorized to send a message to the node by failing to find information that blocks messages with the source address stored within the automated communications system, by finding information that authorizes the source address stored within the automated communications system, and/or by applying any rules that apply to the message stored within the automated communications system, and, when the source address is not authorized to send a message to the node, returning an indication of failure, and when the source address is authorized to send a message to the node, accessing stored information within the automated communications system to determine whether or not __a token associated with the node-token pair is valid, when the token is not valid, returning an indication of failure, and when the token is valid, returning an indication of success__.",
+  "usage": {
+    "input_tokens": 4352,
+    "output_tokens": 664,
+    "total_tokens": 5016
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.87,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:13:45Z"
+}

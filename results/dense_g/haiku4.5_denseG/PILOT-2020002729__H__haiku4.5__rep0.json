@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2020002729",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2020002729",
+  "app_num": "12809299",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "103",
+    "test_subsection": "a",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2016001762",
+      "PILOT-2019005470",
+      "PILOT-2017010554"
+    ],
+    "retrieved_app_nums": [
+      "12483583",
+      "14099820",
+      "13079505"
+    ],
+    "retrieved_scores": [
+      0.7765,
+      0.7727,
+      0.77
+    ],
+    "retrieved_chars_total": 4639,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 24158,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0e65721337e46674",
+  "response_text": "1. (Currently amended) Apparatus for inspection, comprising: an imaging assembly, comprising a plurality of cameras, which are mounted in different, respective locations in the imaging assembly and are configured to capture respective images of a sample; a motion assembly, which is configured to move at least one of the imaging assembly and the sample so as to cause the imaging assembly to scan the sample with a scan accuracy that is limited by a predetermined position tolerance; and an image processor, which is coupled to receive and process the images captured by the cameras so as to locate a defect in the sample with a position accuracy that is finer than the position tolerance, __wherein the image processor performs sub-pixel registration of the images to achieve the position accuracy finer than the position tolerance__.\n\n2. (Previously presented)\n\n3. (Previously presented)\n\n4. (Currently amended) The apparatus according to claim 3, wherein the images comprise pixels having a pitch, and wherein the image processor is configured to compute the respective relative offsets with a precision that is finer than the pitch by performing __sub-pixel image registration using interpolation or cross-correlation analysis__, and to combine the images using the respective relative offsets to produce a combined image having a resolution finer than the pitch.\n\n5. (Previously presented)\n\n6. (Currently amended) The apparatus according to claim 2, wherein the image processor is configured to recover a virtual position clock responsively to a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras and to relative movement between the sample and the imaging assembly that is applied by the motion assembly, and to use the virtual position clock in registering the respective images with one another, __wherein the virtual position clock is recovered by detecting phase shifts in the periodic pattern across the images__.\n\n7. (Previously presented)\n\n8. (Previously presented)\n\n9. (Currently amended) The apparatus according to claim 1, wherein the plurality of the cameras comprises at least twenty cameras __arranged to provide overlapping fields of view of the sample__.\n\n10. (Currently amended) The apparatus according to claim 9, wherein the plurality of the cameras comprises at least one hundred cameras __arranged in a two-dimensional array configuration to provide overlapping fields of view__.\n\n11. (Previously presented)\n\n12. (Previously presented)\n\n13. (Currently amended) The apparatus according to claim 1, wherein the motion assembly is configured to cause the imaging assembly to scan the sample in a scan direction, and wherein the apparatus comprises at least one post-inspection camera and a transverse motion unit, which is configured to shift the at least one post-inspection camera in a direction transverse to the scan direction while the imaging assembly scans the sample so that the at least one post-inspection camera images an area of the defect located by the image processor, __wherein the transverse motion unit operates independently of the motion assembly__.\n\n14. (Currently amended) The apparatus according to claim 13, wherein the image processor is configured to compute an error signal, indicative of a deviation of movement of the motion assembly relative to an ideal motion model, and to drive the at least one post-inspection camera to image the area of the defect responsively to the error signal, __wherein the error signal is computed based on the sub-pixel registration of the images__.\n\n15. (Previously presented)\n\n16. (Previously presented)\n\n17. (Previously presented)\n\n18. (Currently amended) The method according to claim 17, wherein the images comprise pixels having a pitch, and wherein computing the respective relative offsets comprises determining the respective relative offsets with a precision that is finer than the pitch by performing __sub-pixel image registration using interpolation or cross-correlation analysis__, and wherein processing the images comprises combining the images using the respective relative offsets to produce a combined image having a resolution finer than the pitch.\n\n19. (Previously presented)\n\n20. (Currently amended) The method according to claim 16, wherein processing the images comprises recovering a virtual position clock responsively to a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras and to relative movement between the sample and the imaging assembly while scanning the sample, using the virtual position clock in registering the respective images with one another, __wherein the virtual position clock is recovered by detecting phase shifts in the periodic pattern across the images__.\n\n21. (Previously presented)\n\n22. (Previously presented)\n\n23. (Currently amended) The method according to claim 15, wherein the plurality of the cameras comprises at least twenty cameras __arranged to provide overlapping fields of view of the sample__.\n\n24. (Previously presented)\n\n25. (Previously presented)\n\n26. (Currently amended) The method according to claim 15, wherein the sample is scanned by the imaging assembly in a scan direction, and wherein the method comprises shifting at least one post-inspection camera in a direction transverse to the scan direction while the imaging assembly scans the sample so as to position the at least one post-inspection camera over an area of the defect located by the image processor, and capturing an image of the area of the defect using the at least one post-inspection camera, __wherein the shifting of the at least one post-inspection camera operates independently of the scanning motion__.\n\n27. (Currently amended) The method according to claim 26, wherein capturing the image comprises computing an error signal that is indicative of a deviation of movement of the imaging assembly relative to an ideal motion model, and driving the at least one post-inspection camera to image the area of the defect responsively to the error signal, __wherein the error signal is computed based on sub-pixel registration of the images__.",
+  "usage": {
+    "input_tokens": 5676,
+    "output_tokens": 1198,
+    "total_tokens": 6874
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.44,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:27:50Z"
+}

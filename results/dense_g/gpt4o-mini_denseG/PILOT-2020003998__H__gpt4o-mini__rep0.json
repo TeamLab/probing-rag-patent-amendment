@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "",
+    "test_subsection": "(b)",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020001254",
+      "PILOT-2015001339",
+      "PILOT-2019002800"
+    ],
+    "retrieved_app_nums": [
+      "14634687",
+      "13470326",
+      "14043279"
+    ],
+    "retrieved_scores": [
+      0.8318,
+      0.8266,
+      0.8254
+    ],
+    "retrieved_chars_total": 3344,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 68348,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2ba89966d8b2bb39",
+  "response_text": "(Currently Amended) Claim 281: A tool comprising: a lamination of at least two layers; a first adhesive layer and a second adhesive layer located on opposite sides of a medial section, wherein the first adhesive layer and the second adhesive layer are aligned with each other; and an additional adhesive layer, wherein the additional adhesive layer is positioned between the first adhesive layer and the second adhesive layer.\n\n(Currently Amended) Claim 282: The tool of claim 281, wherein the medial section comprises a honeycomb structure.\n\n(Currently Amended) Claim 283: The tool of claim 281, wherein the medial section is a composite material.\n\n(Currently Amended) Claim 284: The tool of claim 281, further comprising a weld ring at least partially interposed between the perimeter of the first and second layers.\n\n(Currently Amended) Claim 285: The tool of claim 284, wherein the weld ring is bonded to the medial section.\n\n(Currently Amended) Claim 286: The tool of claim 284, further comprising a plurality of cutting segments located on an outer perimeter of the weld ring.\n\n(Currently Amended) Claim 287: The tool of claim 284, wherein the weld ring is continuous.\n\n(Currently Amended) Claim 288: The tool of claim 284, wherein the plurality of cutting segments are welded to an outer perimeter of the weld ring.\n\n(Currently Amended) Claim 290: The tool of claim 285, further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring.\n\n(Currently Amended) Claim 291: The tool of claim 290, wherein the inner ring includes a central opening for accommodating a drive shaft.\n\n(Currently Amended) Claim 293: The tool of claim 285, further including a weld ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments.\n\n(Currently Amended) Claim 294: The tool of claim 293, wherein the plurality of cutting segments are located on an outer periphery of the weld ring.",
+  "usage": {
+    "input_tokens": 14849,
+    "output_tokens": 427,
+    "total_tokens": 15276
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.92,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:32:24Z"
+}

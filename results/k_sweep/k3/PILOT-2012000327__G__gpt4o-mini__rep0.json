@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012000327",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2012000327",
+  "app_num": "11911726",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21841,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fbc0f8b9b7cd93be",
+  "response_text": "Claim 1 (Currently Amended): A combination product comprising: (A) BH4, a __specific__ functional derivative or __biosynthetic precursor of BH4 defined in the specification__, or a pharmaceutically-acceptable derivative of BH4 or its __specific__ derivative or precursor; and (B) an __identified__ inhibitor of the biosynthesis and/or vasopressor function of AII __as defined in the specification__, or a pharmaceutically-acceptable derivative thereof, wherein each of components (A) and (B) is formulated in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\nClaim 2 (Currently Amended): A combination product as claimed in Claim 1 that comprises a pharmaceutical formulation including BH4, a __specific__ functional derivative or __biosynthetic precursor of BH4 defined in the specification__, or a pharmaceutically-acceptable derivative of BH4 or its __specific__ derivative or precursor, an __identified__ inhibitor of the biosynthesis and/or vasopressor function of AII __as defined in the specification__, or a pharmaceutically-acceptable derivative thereof, and a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\nClaim 3 (Currently Amended): A combination product as claimed in Claim 1 that comprises a kit of parts comprising components: (I) a pharmaceutical formulation including BH4, a __specific__ functional derivative or __biosynthetic precursor of BH4 defined in the specification__, or a pharmaceutically-acceptable derivative of BH4 or its __specific__ derivative or precursor, in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier; and (II) a pharmaceutical formulation including an __identified__ inhibitor of the biosynthesis and/or vasopressor function of AII __as defined in the specification__, or a pharmaceutically-acceptable derivative thereof, in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier, which components (I) and (II) are each provided in a form that is suitable for administration in conjunction with the other.\n\nClaim 13 (Currently Amended): A combination product as claimed in any one of the preceding claims, wherein the inhibitor of the biosynthesis and/or vasopressor function of AII is selected from the group consisting of a __renin inhibitor, an ACE inhibitor, or an AT1 receptor antagonist as defined in the specification__.\n\nClaim 14 (Currently Amended): A combination product as claimed in Claim 13, wherein the inhibitor of the biosynthesis and/or vasopressor function of AII is a compound selected from the group consisting of __those identified in the specification__.\n\nClaim 15 (Currently Amended): A combination product as claimed in Claim 14, wherein the inhibitor of the biosynthesis and/or vasopressor function of AII is a compound selected from the group consisting of __identified compounds with known activity_.\n\nClaim 6 (Currently Amended): A combination product as claimed in any one of the preceding claims, wherein the component that is BH4 or a __specific__ functional derivative or biosynthetic precursor thereof is a compound of formula I, which is described in the specification.",
+  "usage": {
+    "input_tokens": 5376,
+    "output_tokens": 650,
+    "total_tokens": 6026
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.64,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:50:37Z"
+}

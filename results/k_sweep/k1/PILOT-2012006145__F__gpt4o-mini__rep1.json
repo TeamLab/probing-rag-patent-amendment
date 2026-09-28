@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012006145",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2012006145",
+  "app_num": "10979681",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16261,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "404e3a78a8fe0752",
+  "response_text": "Claim 1 (Currently amended): A method of cementing comprising: providing a cement composition comprising a carboxylated inulin derived from an inulin processed from chicory; and allowing the cement composition to set.\n\nClaim 3 (Currently amended): The method of claim 1 wherein a viscosity of the cement composition is about constant for a period of time after the cement composition is placed under wellbore conditions.\n\nClaim 4 (Currently amended): The method of claim 1 wherein a suspension aid is not intentionally added to the cement composition.\n\nClaim 6 (Currently amended): The method of claim 1 wherein the carboxylated inulin is derived from an inulin having an average molecular weight of about 600 or higher.\n\nClaim 7 (Currently amended): The method of claim 1 wherein the carboxylated inulin comprises carboxymethylated inulin having a degree of substitution of from about 0.2 to about 0.3.\n\nClaim 9 (Currently amended): The method of claim 1 wherein the cement composition comprises from about 0.5 to about 5 wt. % of carboxylated inulin.\n\nClaim 10 (Currently amended): The method of claim 1 wherein the cement composition further comprises borate salts, an organic acid comprising an alpha-hydroxycarboxylic acid, a synthetic polymer comprising a carboxylate group, or any combination thereof specifically excluding conventional hydrocarboxylic acid-based retarders.\n\nClaim 11 (Currently amended): The method of claim 1 wherein the cement composition is placed in a wellbore specifically in a subterranean formation.\n\nClaim 13 (Currently amended): A method of cementing in a subterranean formation comprising: providing a cement composition comprising a carboxylated inulin derived from an inulin processed from chicory; placing the cement composition in the subterranean formation; and allowing the cement composition to set therein.",
+  "usage": {
+    "input_tokens": 4071,
+    "output_tokens": 392,
+    "total_tokens": 4463
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.24,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:38:22Z"
+}

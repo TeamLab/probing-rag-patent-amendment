@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2018005420",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2018005420",
+  "app_num": "14937782",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2016007654",
+      "PILOT-2018000623",
+      "PILOT-2018002232"
+    ],
+    "retrieved_app_nums": [
+      "14053395",
+      "14925800",
+      "14299390"
+    ],
+    "retrieved_scores": [
+      0.9759,
+      0.9663,
+      0.9659
+    ],
+    "retrieved_chars_total": 4816,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22589,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "21c163cc18e43159",
+  "response_text": "(Currently Amended) Claim 1: A method for providing a graphical user interface to determine intent of a user based at least in part on movement of the user's eye or eyes using a detector, comprising: identifying, with the detector, when at least one eye of the user is directed at a starting location; identifying, with the detector, a first saccade of the at least one eye from the starting location towards a first object; confirming, with the detector, that the first saccade of the at least one eye is completed to within a predetermined distance from the location of the first object; presenting one or more __choice objects__ on a display at locations different than the location of the first object, wherein the __choice objects__ are defined as objects that the user may select; and thereafter monitoring, with the detector, the at least one eye to identify whether the at least one eye performs a second saccade towards one of the one or more __choice object__ locations.\n\n(Currently Amended) Claim 2: The method of claim 1, further comprising: confirming, with the detector, that the second saccade of the at least one eye is completed to within a predetermined distance from one of the one or more __choice objects__ thereby identifying a selected __choice object__; and performing an action related to one or more of the starting location, an object at the starting location, the first object, and the selected __choice object__.\n\n(Currently Amended) Claim 12: The method of claim 2, wherein the action comprises removing __choice objects__ from the display.\n\n(Currently Amended) Claim 13: The method of claim 2, wherein the action comprises presenting one or more additional __choice objects__ on a display at locations different than the selected __choice object__ location.\n\n(Currently Amended) Claim 14: The method of claim 13, further comprising: confirming, with the detector, that a third saccade of the at least one eye is completed to within a predetermined distance from the location of one of the one or more additional __choice objects__ and within a predetermined time, thereby identifying an additional selected __choice object__; and performing an additional action in relation to one or more of the starting location, an object at the starting location, the first object, the selected __choice object__, and the additional selected __choice object__.\n\n(Currently Amended) Claim 16: The method of claim 1, wherein thereafter monitoring the at least one eye comprises: monitoring the at least one eye to confirm that the at least one eye is not directed within a predetermined distance at any of the one or more __choice object__ locations within a predetermined time; and removing the one or more __choice objects__ from the display.",
+  "usage": {
+    "input_tokens": 5123,
+    "output_tokens": 564,
+    "total_tokens": 5687
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.01,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T18:59:27Z"
+}

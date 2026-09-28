@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 17898,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "97e7b829a07234b3",
+  "response_text": "1. (Currently Amended): A method of treating a brain, comprising: inserting an elongated device into the brain to create a path; radially expanding the device to create a working channel along the path, wherein the device is \\__configured to exert a radial force against tissue to facilitate expansion__; and introducing a medical element into the working channel to perform a medical procedure on the brain.\n\n2. (Currently Amended): The method of claim 1, wherein the medical element is __selected from the group consisting of__ an instrument and a medicament.\n\n4. (Currently Amended): The method of claim 1, further comprising __creating an opening in the cranium and inserting the elongated device through the opening or via a minimally invasive technique__.\n\n5. (Currently Amended): The method of claim 1, further comprising inserting the elongated device between tissue layers within the brain, wherein the device __is capable of maintaining a working channel while inserted__. \n\n7. (Currently Amended): A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; and introducing a medical element through the device to perform a medical procedure on the tissue, wherein the device __is designed to prevent collapse of the path during the procedure__.\n\n8. (Currently Amended): The method of claim 7, wherein the medical element is __selected from the group consisting of__ an instrument and a medicament.\n\n10. (Currently Amended): The method of claim 7, further comprising inserting the elongated device between tissue layers, wherein __the insertion is performed using a minimally invasive technique__. \n\n13. (Currently Amended): A method of treating a tissue, comprising: placing an elongated device, having a first radially expandable body, surrounded by a stent, which is surrounded by a second radially expandable body, into the tissue to create a path; radially expanding the second expandable body against the tissue to radially displace the tissue along the path; and introducing a medical element through the channel to perform a medical procedure on the tissue, wherein __the first expandable body is configured to reduce friction between the device and the tissue during insertion__.\n\n14. (Currently Amended): The method of claim 13, wherein the medical element is __selected from the group consisting of__ an instrument and a medicament. \n\n16. (Currently Amended): The method of claim 13, further comprising inserting the elongated device between tissue layers, wherein __the insertion technique is minimally invasive__. \n\n",
+  "usage": {
+    "input_tokens": 4218,
+    "output_tokens": 529,
+    "total_tokens": 4747
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.83,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:30:48Z"
+}

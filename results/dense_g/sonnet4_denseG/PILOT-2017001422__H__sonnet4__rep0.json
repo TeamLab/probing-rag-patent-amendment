@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2017001422",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2017001422",
+  "app_num": "13995688",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020001487",
+      "PILOT-2017005082",
+      "PILOT-2018001221"
+    ],
+    "retrieved_app_nums": [
+      "14563866",
+      "13803225",
+      "13832205"
+    ],
+    "retrieved_scores": [
+      0.9724,
+      0.9624,
+      0.9474
+    ],
+    "retrieved_chars_total": 2308,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12432,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cc6de2ba700f0fd7",
+  "response_text": "Claim 1 (Currently Amended): An immunogenic composition comprising: a modified, live bovine viral diarrhea virus type 1b (BVDV-1b) __that is cytopathic__, a veterinary-acceptable carrier, and optionally an adjuvant.\n\nClaim 2 (Original): The immunogenic composition of claim 1, wherein the modified, live bovine viral diarrhea virus is a cytopathic BVDV-1b virus.\n\nClaim 3 (Currently Amended): The immunogenic composition of claim 1, further comprising one or more of a parainfluenza virus Type 3 (PI3), a bovine respiratory syncytial virus (BRSV), a bovine herpes virus (BHV-1), a bovine viral diarrhea virus Type 1a (BVDV-1a), a bovine viral diarrhea virus Type 2 (BVDV-2), or an infectious bovine rhinotracheitis (IBR) virus, or any combination thereof; or one or more viral-specific antigens obtained therefrom, __wherein the composition does not comprise inactivated Leptospira__.\n\nClaim 4 (Currently Amended): The immunogenic composition of claim 1, further comprising a modified, live IBRV, a modified, live BRSV, a modified, live BHV-1, a modified, live BVDV Type 1a, a modified, live BVDV Type 2, or a modified, live PI3, or a combination thereof, __wherein the composition does not comprise inactivated bacterial cultures__.\n\nClaim 6 (Currently Amended): The immunogenic composition of claim 1, further comprising an immunologically effective amount of at least a first antigen, __wherein the at least a first antigen is not derived from Leptospira__.\n\nClaim 7 (Currently Amended): The immunogenic composition of claim 6, wherein the at least a first antigen is specific for an organism selected from the group consisting of Actinobacillus, Actinomyces, Bacillus, Bordetella, Brachyspira, Campylobacter, Clostridium, Ehrlichia, Erysipelothrix, Escherichia, Histophilus, Listeria, Mannheimia, Moraxella, Mycobacterium, Mycoplasma, Pasteurella, Salmonella, and Streptococcus, or a combination thereof.\n\nClaim 8 (Currently Amended): The immunogenic composition of claim 6, wherein the at least a first antigen is inactivated __and is not derived from Leptospira__.\n\nClaim 12 (Currently Amended): The vaccine of claim 4, further comprising an immunologically-effective amount of __at__ least one microbial pathogen-specific antigen __that is not derived from Leptospira__.",
+  "usage": {
+    "input_tokens": 3783,
+    "output_tokens": 687,
+    "total_tokens": 4470
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.31,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T18:59:28Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018003513",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2018003513",
+  "app_num": "11742350",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 38642,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "445d2f0b5e36aecc",
+  "response_text": "1. (Currently amended) A method for treating an ocular condition, the method comprising: administering to the interior of an eye a composition comprising a therapeutically effective amount of a macromolecular anti-angiogenic component (MAAC) to a mammal suffering from an ocular condition, wherein the composition also comprises a viscosity inducing component in an amount effective to increase the viscosity of the composition to a viscosity at about __25°C__ of at least __10 cps__ at a shear rate of about 0.1/second, wherein said viscosity inducing component is injectable into the vitreous of a mammalian eye without permanently diminishing visual acuity.\n\n2. (Currently amended) The method of claim 1 wherein said composition comprises a solution.\n\n3. (Currently amended) The method of claim 1 wherein said composition comprises a gel.\n\n4. (Currently amended) The method of claim 1 wherein said composition comprises a suspension.\n\n5. (Currently amended) The method of claim 1 wherein a symptom of the ocular condition is __related to angiogenesis__ and the MAAC comprises a direct or indirect inhibitor of a vascular endothelial growth factor (VEGF) activity.\n\n6. (Cancelled) The method of claim 5 wherein the MAAC comprises an agent selected from the group consisting of a nucleic acid (a oligonucleotide) and a polypeptide.\n\n14. (Currently amended) The method of claim 1 wherein said MAAC comprises a protein.\n\n15. (Currently amended) The method of claim 14 wherein said protein is selected from the group consisting of an antibody, an antibody mimic, an angiogenesis inhibitor and a receptor inhibitor.\n\n20. (Currently amended) The method of claim 1 wherein said viscosity inducing component comprises a compound selected from the group consisting of a hyaluronic acid, a cross-linked hyaluronic acid, a crosslinked polymer containing subunits derived from acrylic acid, polyacrylic acid, celluloses derivatives, polycarbophil, polyvinylpyrrolidone, gelatin, dextrin, polysaccharides, polyacrylamide, polyvinyl alcohol, polyvinyl acetate, and derivatives, mixtures and copolymers thereof.\n\n36. (Currently amended) A pharmaceutical composition for intravitreal administration to treat an ocular condition comprising a MAAC and a high viscosity hyaluronic acid carrier.",
+  "usage": {
+    "input_tokens": 9151,
+    "output_tokens": 476,
+    "total_tokens": 9627
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.4,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:11:02Z"
+}

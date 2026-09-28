@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010010196",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2010010196",
+  "app_num": "11949602",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 24317,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3d2ff6a2a75de981",
+  "response_text": "1. (Currently Amended) A wire container, comprising: a housing consisting essentially of a recyclable material, the housing comprising: a peripheral wall defining a boundary leading from a first end to a second end of the housing; a plurality of end portions of the housing folded inwardly across the boundary at the second end to define an end wall, __wherein the plurality of end portions comprises triangular folds__; and a plurality of support structures coplanar with and coupled to the end wall and extending across the plurality of end portions.\n\n2. (Original) The container of claim 1, wherein the plurality of support structures comprises a flanged support that extends across the boundary at the second end of the housing, wherein the flanged support comprises an outer lip coupled to the peripheral wall.\n\n3. (Original) The container of claim 1, wherein the plurality of end portions comprises triangular folds.\n\n4. (Original) The container of claim 1, wherein the plurality of end portions comprises radial folds directed inwardly toward a center of the boundary.\n\n5. (Original) The container of claim 1, comprising a plug inserted into the plurality of support structures.\n\n6. (Original) The container of claim 1, comprising a cover that extends across the boundary at the first end of the housing, wherein the cover comprises a peripheral lip that extends about an exterior of the peripheral wall.\n\n7. (Original) The container of claim 1, comprising a cover that extends across the boundary at the first end of the housing, wherein the cover comprises a peripheral lip that extends about an interior of the peripheral wall.\n\n8. (Original) The container of claim 1, comprising a cover that extends across the boundary at the first end of the housing, wherein the cover frictionally engages the boundary of the peripheral wall.\n\n9. (Original) The container of claim 1, wherein the housing is cylindrical.\n\n10. (Original) The container of claim 1, comprising a wire conduit.\n\n11. (Original) The container of claim 1, wherein the plurality of support structures is configured to strengthen the second end to enable lifting of the container from the first end.\n\n12. (Currently Amended) A welding wire and container assembly, comprising: a housing consisting essentially of a recyclable material, the housing comprising: a cylindrical wall having a first end and a second end, wherein the cylindrical wall comprises a plurality of triangular portions folded radially inward at the second end; a support structure coupled to the plurality of triangular portions to provide a layered end assembly; and a coil of welding wire disposed in the housing and supported by __the layered end assembly__.\n\n13. (Original) The assembly of claim 12, comprising a cover that extends across the first end of the cylindrical wall, wherein the cover frictionally engages the cylindrical wall to secure the cover to the housing.\n\n14. (Original) The cover of claim 13, wherein the cover comprises a wire passage extending therethrough.\n\n15. (Original) The cover of claim 13, wherein the cover comprises a conical extension having a wire passage extending therethrough.\n\n16. (Currently Amended) The assembly of claim 12, wherein the triangular portions generally meet at __an imaginary__ central axis of the cylindrical wall.\n\n17. (Original) The assembly of claim 12, wherein the layered end assembly comprises a plurality of support structures laminated with the plurality of triangular portions.\n\n18. (Original) The assembly of claim 12, wherein the support structure comprises a central planar portion and an outer lip coupled to the cylindrical wall.\n\n19. (Currently Amended) A welding wire container, comprising: a recyclable cylinder comprising a laminated base, wherein the laminated base comprises a plurality of end portions of the recyclable cylinder folded inwardly toward a central region of the recyclable cylinder, __wherein the plurality of end portions comprises triangular folds__.\n\n20. (Original) The container of claim 19, wherein the plurality of end portions are triangular folds.",
+  "usage": {
+    "input_tokens": 6278,
+    "output_tokens": 873,
+    "total_tokens": 7151
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.74,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:04:59Z"
+}

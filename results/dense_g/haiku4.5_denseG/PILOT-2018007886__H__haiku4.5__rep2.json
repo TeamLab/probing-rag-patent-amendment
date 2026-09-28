@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2018007886",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2018007886",
+  "app_num": "14135244",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2016006889",
+      "PILOT-2018001016",
+      "PILOT-2016007554"
+    ],
+    "retrieved_app_nums": [
+      "14542098",
+      "13841971",
+      "13282253"
+    ],
+    "retrieved_scores": [
+      0.9703,
+      0.9634,
+      0.9539
+    ],
+    "retrieved_chars_total": 4622,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19514,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0c67f3a114991086",
+  "response_text": "1. (Currently amended) A sensor system, comprising: a sensor device having an external surface on which is arranged at least one electrical test contact; and a cover device including at least partially an electrically insulating material, the cover device mechanically connected to the sensor device; wherein the cover device is configured to cover the at least one electrical test contact of the sensor device so as to prevent contact from being made to the at least one electrical test contact from outside the sensor system; and wherein __the cover device is bonded to the sensor device such that the cover device and sensor device form an integrated sealed unit that prevents external access to the at least one electrical test contact__.\n\n2. (Currently amended) The sensor system according to claim 1, wherein: the cover device has an internal surface configured to face the external surface including the at least one test contact, and at least one further metallization is arranged on the internal surface, the at least one further metallization __electrically and mechanically connected to the at least one electrical test contact through a direct contact interface__.\n\n3. (Currently amended) The sensor system according to claim 1, further comprising: at least one electrical connecting contact arranged on the external surface including the at least one test contact, wherein the cover device is configured to enable electrical contact to be made to the at least one electrical connecting contact from outside the sensor system; and wherein __the at least one electrical connecting contact is physically separated from and distinct from the at least one electrical test contact__.\n\n4. (Currently amended) The sensor system according to claim 3, wherein the cover device includes at least one of at least one first opening and at least one via electrically connected to the at least one electrical connecting contact to enable electrical contact to be made from outside the sensor system; and wherein __the at least one first opening and the at least one via do not provide access to the at least one electrical test contact__.\n\n5. (Currently amended) The sensor system according to claim 1, wherein: the sensor device includes a sensor substrate configured to form the external surface including the at least one test contact, the cover device includes a cover substrate having a first segment corresponding to the external surface, and the first segment of the cover device and the external surface including the at least one test contact are connected together at least partially; and wherein __the cover substrate is formed from a material different from the sensor substrate__.\n\n10. (Currently amended) The sensor system according to claim 1, wherein at least one of the sensor device and the cover device includes an integrated circuit; and wherein __the integrated circuit is configured to process sensor data and is electrically isolated from the at least one electrical test contact by the cover device__.",
+  "usage": {
+    "input_tokens": 4805,
+    "output_tokens": 560,
+    "total_tokens": 5365
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:07:49Z"
+}

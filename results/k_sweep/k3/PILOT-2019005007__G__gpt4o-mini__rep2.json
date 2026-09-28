@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019005007",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2019005007",
+  "app_num": "12625143",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22441,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f477f0b50922989e",
+  "response_text": "(Currently Amended) Claim 1: A battery assembly comprising: an enclosure; a first battery cell positioned within the enclosure; and a first sensor positioned within the enclosure for detecting at least one force influencing the first battery cell, wherein the first sensor is configured to detect changes in pressure exerted on the first battery cell.\n\n(Currently Amended) Claim 11: The battery assembly of claim 1 further comprising a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell and is adapted to monitor pressure variations resulting from the stacking configuration.\n\n(Currently Amended) Claim 17: The battery assembly of claim 1 further comprising: a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell; a third battery cell stacked on top of the second battery cell; and a second sensor positioned between the third battery cell and the second battery cell for detecting at least one force influencing the third battery cell, wherein the first and second sensors are independently configured to detect force variations within their respective battery cell arrangements.\n\n(Currently Amended) Claim 21: The battery assembly of claim 1, wherein the first sensor comprises: force sensing material having a conductance that is configured to vary based on the at least one force influencing the first battery cell, wherein the force sensing circuitry coupled to the force sensing material is configured to produce a force output signal based on the conductance of the force sensing material, and is further configured to provide output responsive to pressure variations detected near the first battery cell.",
+  "usage": {
+    "input_tokens": 4655,
+    "output_tokens": 331,
+    "total_tokens": 4986
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.96,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:59:28Z"
+}

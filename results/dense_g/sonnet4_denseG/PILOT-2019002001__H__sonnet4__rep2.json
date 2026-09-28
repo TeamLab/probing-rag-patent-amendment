@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2019002001",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2019002001",
+  "app_num": "14388177",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2020002257",
+      "PILOT-2017007541",
+      "PILOT-2015007448"
+    ],
+    "retrieved_app_nums": [
+      "14262123",
+      "14510347",
+      "13692228"
+    ],
+    "retrieved_scores": [
+      0.9148,
+      0.9097,
+      0.9071
+    ],
+    "retrieved_chars_total": 3147,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19293,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ac745056e560124f",
+  "response_text": "1. (Currently Amended) An association method, comprising:\nidentifying candidate file sets from a plurality of application files, each candidate file set including a cluster of related but unrecognized application files __wherein the candidate file sets are identified by examining application files of two or more computing devices__;\npresenting content indicative of each of the candidate file sets; and\nassociating an application with application files of one of the candidate file sets according to a detected selection of the content indicative of the one of the candidate file sets.\n\n2. (Currently Amended) The method of Claim 1, wherein the candidate file sets include at least one of a frequent file set, a common application package file set, a common version file set, and a common directory file set __wherein the common application package file set comprises application files that are part of a same application package__.\n\n3. (Original) The method of Claim 1, wherein identifying candidate file sets comprises constructing a frequent pattern tree from the found application files and identifying the candidate file sets that are frequent file sets from the frequent pattern tree.\n\n4. (Original) The method of Claim 1, wherein identifying candidate file sets comprises identifying candidate file sets having a support exceeding a predetermined threshold support.\n\n5. (Original) The method of Claim 1, wherein identifying candidate file sets comprises identifying candidate file sets of sizes exceeding a predetermined threshold size.\n\n6. (Original) The method of Claim 1, wherein, for each identified candidate file set, the content presented for that candidate file set is indicative of at least one of a support and a size of the candidate file set.\n\n7. (Original) The method of Claim 1, wherein the plurality of application files is a first plurality, the method comprising:\ngenerating a rule based on the association between the application and its corresponding candidate file set; and\nprocessing the rule to automatically associate unrecognized files of a second plurality of application files with the application.\n\n8. (Currently Amended) A __non-transitory__ computer readable medium having instructions stored thereon that when executed by a processing resource implement a system comprising a file set engine, a presentation engine, and an association engine, wherein:\nthe file set engine is configured to examine a plurality of unrecognized files of two or more computing devices and identify candidate file sets from the plurality, each candidate file set including a cluster of related but unrecognized application files __wherein the file set engine identifies the candidate file sets by analyzing file relationships across the two or more computing devices__;\nthe presentation engine is configured to present content indicative of each identified candidate file set; and\nthe association engine is configured to detect a selection of content indicative of one of the candidate file sets and associate an application with an application file of that one of the candidate file sets.\n\n9. (Currently Amended) The medium of Claim 8, wherein the file set engine is configured to identify candidate file sets that include at least one of a frequent file set, a common application package file set, a common version file set, and a common directory file set __wherein the common application package file set comprises application files that are part of a same application package__.\n\n10. (Currently Amended) The medium of Claim 8, wherein the file set engine is configured to construct a data structure representing quantitative information about frequent patterns found within the set of unrecognized files and identify the candidate file sets that are frequent file sets from the data structure __wherein the data structure comprises a frequent pattern tree__.\n\n11. (Currently Amended) The medium of Claim 8, wherein the file set engine is configured to identify candidate file sets having a support exceeding a predetermined threshold __wherein the support represents a frequency of occurrence of the candidate file set across the two or more computing devices__.\n\n12. (Currently Amended) The medium of Claim 8, wherein the file set engine is configured to identify candidate file sets of sizes exceeding a predetermined threshold __wherein the size represents a number of application files in the candidate file set__.\n\n13. (Currently Amended) The medium of Claim 8, wherein, for each identified candidate file set, the presentation engine is configured to present content for that candidate file set that is indicative of at least one of a support and a file set size of the candidate file set __wherein the support represents a frequency of occurrence of the candidate file set__.\n\n14. (Currently Amended) The medium of Claim 8, wherein\nthe plurality of application files is a first plurality, wherein the association engine is configured to generate a rule based on the association between the application and its corresponding candidate file set; and\nthe system includes a recognition engine configured to process the rule to automatically associate unrecognized files of a second plurality of application files with the application __wherein the rule defines a pattern for identifying application files belonging to the application__.\n\n15. (Currently Amended) A system comprising a processing resource and a non-transitory computer readable medium and instructions stored on the medium, wherein the instructions, when executed, cause the processing resource to implement a method, comprising:\nexamining a plurality of unrecognized application files of two or more computing devices to identify candidate file sets from the plurality __wherein each candidate file set includes a cluster of related but unrecognized application files and the examining comprises analyzing file relationships across the two or more computing devices__;\npresenting content indicative of each of the candidate file sets; and\nassociating an application with the application files of a given one of the candidate file sets according to a selection of the content indicative of that candidate file set.\n\n16. (Currently Amended) The system of Claim 15, wherein the identified candidate file sets include at least one of a frequent file set, a common application package file set, a common version file set, and a common directory file set __wherein the common application package file set comprises application files that are part of a same application package__.\n\n17. (Currently Amended) The system of Claim 15, wherein examining comprises\nconstructing a frequent pattern tree representing quantitative information about candidate patterns found within the set of unrecognized files and\nidentifying the candidate file sets that are frequent file sets utilizing the frequent pattern tree __wherein the frequent pattern tree represents file co-occurrence patterns across the two or more computing devices__.\n\n18. (Currently Amended) The system of Claim 15, wherein identifying the candidate pattern sets comprises identifying candidate pattern sets having a support exceeding a first predetermined threshold and a size exceeding a second predetermined threshold __wherein the support represents a frequency of occurrence of the candidate pattern set across the two or more computing devices__.\n\n19. (Currently Amended) The system of Claim 15, wherein, for each identified candidate pattern file set, the content presented for that candidate pattern set is indicative of at least one of a support and a file set size of the candidate pattern file set __wherein the support represents a frequency of occurrence of the candidate pattern file set__.\n\n20. (Currently Amended) The system of Claim 15, wherein the plurality of application files is a first plurality and wherein the method further comprises:\ngenerating a rule based on the association between the application and its associated candidate file set; and\nprocessing the rule to automatically associate unrecognized files of a second plurality of application files with the application, the unrecognized files corresponding to one or more files of the corresponding candidate file set __wherein the rule defines a pattern for identifying application files belonging to the application__.",
+  "usage": {
+    "input_tokens": 4962,
+    "output_tokens": 1581,
+    "total_tokens": 6543
+  },
+  "stop_reason": "stop",
+  "latency_sec": 17.19,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:16:27Z"
+}

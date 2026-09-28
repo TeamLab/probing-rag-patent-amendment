@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19666,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "31603465cab8a96c",
+  "response_text": "1. (Currently amended) A cooling system installable within a structure wall, comprising: in a housing, the housing disposed between a pair of studs of the wall, a water reservoir; a pump; a pad; a water distributor; a motor; __a fan; and a water level sensor configured to detect when water in the water reservoir falls below a predetermined level__.\n\n2. (Currently amended) The cooling system of claim 1, wherein the studs are spaced __sixteen__ inches on center.\n\n3. (Original) The cooling system of claim 1, wherein the studs are spaced about twenty-four inches on center.\n\n4. (Original) The cooling system of claim 1, wherein the pump brings water from the water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad.\n\n5. (Original) The cooling system of claim 4, wherein the fan causes air to flow through the pad moistened by the water, thereby cooling the air by evaporation.\n\n6. (Currently amended) The cooling system of claim 5, wherein the fan causes the cooled air to flow through an opening __in the housing__.\n\n7. (Original) The cooling system of claim 4, wherein at least some of the water flows back to the reservoir for recirculation.\n\n8. (Original) The cooling system of claim 1, wherein the water reservoir is filled with additional water when the water in the reservoir falls below a predetermined level.\n\n9. (Original) The cooling system of claim 8, further including a ball float valve that opens to fill the water reservoir with the additional water when the water in the reservoir falls below the predetermined level.\n\n10. (Original) The cooling system of claim 1, further including a water drain.\n\n11. (Currently amended) The cooling system of claim 1, wherein the housing includes a front cover __and the front cover is removable__.\n\n12. (Original) The cooling system of claim 1, wherein the housing protrudes from the wall less than three inches.\n\n13. (Currently amended) The cooling system of claim 1, wherein the wall is a load-bearing wall __and the housing is secured to the studs with mounting brackets__.\n\n14. (Original) The cooling system of claim 1, wherein the structure is a garage.\n\n15. (Currently amended) A cooling system kit, comprising: the cooling system of claim 1; __mounting brackets configured to secure the housing to the studs__; mounting elements; and a ventilation grill.\n\n16. (Original) The cooling system kit of claim 15, further including instructions.\n\n17. (Currently amended) A cooling system, comprising: __a housing configured for mounting__ within a structure wall, __an evaporative cooling assembly disposed within the housing and configured for evaporatively cooling__ an indoor area.\n\n18. (Currently amended) The cooling system of claim 17, wherein the __housing is configured for mounting__ includes placing the __evaporative cooling assembly__ between wall studs spaced __sixteen__ inches on center.\n\n19. (Original) The cooling system of claim 17, wherein the means for mounting includes placing the means for evaporatively cooling within a structure wall, the structure wall constructed using one of structural insulated panels (SIP) and insulating concrete forms (ICF).\n\n20. (Currently amended) The cooling system of claim 17, wherein the __housing__ protrudes from the wall less than three inches.",
+  "usage": {
+    "input_tokens": 5144,
+    "output_tokens": 752,
+    "total_tokens": 5896
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.35,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:15:47Z"
+}

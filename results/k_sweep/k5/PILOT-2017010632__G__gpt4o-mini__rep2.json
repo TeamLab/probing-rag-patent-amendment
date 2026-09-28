@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017010632",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017010632",
+  "app_num": "14723654",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 24723,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0337a9215e12fae3",
+  "response_text": "1. An ophthalmic illumination system, comprising a light source operable to generate a source light beam; a beam splitter operable to split the source light beam into a first light beam and a second light beam; a first attenuator located in a path of the first light beam, the first attenuator operable to change an intensity of the first light beam; a second attenuator located in a path of the second light beam, the second attenuator operable to change an intensity of the second light beam; a first optical fiber port configured for connection to a first optical fiber, the first optical fiber delivering at least a portion of the first light beam to a patient's eye; a second optical fiber port configured for connection to a second optical fiber, the second optical fiber delivering at least a portion of the second light beam to the patient's eye; and a control unit communicatively coupled to the first attenuator and the second attenuator, the control unit operable to: adjust the first attenuator in order to control the intensity of the portion of the first light beam delivered to the patient's eye via the first optical fiber; and adjust the second attenuator to control the intensity of the portion of the second light beam delivered to the patient's eye via the second optical fiber, wherein the first optical fiber and the second optical fiber are integrated with respective surgical instruments selected from the group consisting of a sclerotomy cannula, a vitreous cutter, an illumination probe, forceps, scissors, a spatula, and a pic. (Currently Amended)\n\n12. The ophthalmic illumination system of claim 1, wherein the first optical fiber is integrated with a first surgical instrument connected to the first port and the second optical fiber is integrated with a second surgical instrument connected to the second port, the first surgical instrument and the second surgical instrument each comprising a surgical instrument capable of functioning as an illumination probe. (Currently Amended)",
+  "usage": {
+    "input_tokens": 5230,
+    "output_tokens": 383,
+    "total_tokens": 5613
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.63,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:21:20Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 28760,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8625a9c2b87e211b",
+  "response_text": "1. (Currently amended) A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium __that does not chemically disrupt the cell wall__; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos __after step (c)__.\n\n2. (Currently amended) The method of claim 1 wherein the non-destructive medium consists essentially of water __and does not include cell wall disrupting chemicals__.\n\n3. (Currently amended) The method of claim 1 wherein the DNA is obtained by exposing the shed cellular material to cold and then heat followed by agitation __without adding chemical cell wall disrupting agents__.\n\n4. (Currently amended) The method of claim 3 wherein said cold, heat, and agitation steps are repeated __at least twice__.\n\n5. (Currently amended) The method of claim 1 wherein the DNA is obtained by heating of the shed cellular material and agitation __without adding chemical cell wall disrupting agents__.\n\n6. (Currently amended) The method of claim 5 wherein said heat and agitation steps are repeated __at least twice__.\n\n7. (Currently amended) The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with __a cell wall degrading__ enzyme __selected to preserve embryo viability__.\n\n8. (Original) The method of claim 7 wherein the enzyme is VISCOZYME@.\n\n9. (Currently amended) The method of claim 1 wherein obtaining DNA from the shed cellular material comprises extracting the DNA __using a method that does not involve chemical cell wall disruption__.\n\n10. (Currently amended) The method of claim 9, wherein said extracting is performed by adding magnetic particles to the shed cellular material __in the absence of chemical cell wall disrupting agents__.\n\n11. (Currently amended) The method of claim 1 wherein the one or more embryos comprise one or more immature embryos __and the method is performed without destroying embryo viability prior to germination__.\n\n12. (Original) The method of claim 1 further comprising storing the one or more embryos prior to step (c) or (d).\n\n13. (Currently amended) The method of claim 1, wherein said molecular analysis is genotyping __performed on DNA obtained from shed cellular material without prior chemical cell wall disruption__.\n\n14. (Original) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads.\n\n15. (Original) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant.\n\n16. (Original) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed.\n\n17. (Currently amended) The method of claim 13 further comprising selecting one or more embryos based on genotype __wherein the selection is made prior to any chemical cell wall disruption__.\n\n18. (Currently amended) The method of claim 17 further comprising germinating the one or more selected embryos __without prior chemical treatment that disrupts cell walls__.\n\n19. (Currently amended) The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is automated __and performed without chemical cell wall disruption__.",
+  "usage": {
+    "input_tokens": 6979,
+    "output_tokens": 828,
+    "total_tokens": 7807
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.29,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:31:47Z"
+}

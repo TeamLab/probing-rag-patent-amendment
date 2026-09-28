@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 17286,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b674941db3ed39bf",
+  "response_text": "(Currently Amended) Claim 1: A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member, wherein at least one of said diodes is positioned at a noncorner location along a side of said columnar body.\n\n(Currently Amended) Claim 2: The lamp of claim 1 wherein a second end of said columnar body is open, and includes a feature of a heat sink around said second end.\n\n(Currently Amended) Claim 5: The lamp of claim 1 wherein said diodes are substantially evenly spaced radially around the columnar body, and comprise at least one pair of adjacent diodes positioned at a uniform distance about an axis of said columnar body.\n\n(Currently Amended) Claim 6: The lamp of claim 5 wherein said fins are substantially equally disposed between said diodes, and each fin has a longitudinal axis that is parallel to a diameter of said columnar body at the location of the corresponding diodes.\n\n(Currently Amended) Claim 10: The lamp of claim 9 wherein a single diode resides on each face, and wherein the number of diodes is such that said diodes are distributed evenly across all said faces.\n\n(Currently Amended) Claim 11: The lamp of claim 1 wherein said columnar body and said fins are comprised of a material having a thermal conductivity greater than 150 W/mK.\n\n(Currently Amended) Claim 14: The lamp of claim 1 wherein said electronics module comprises a printed circuit board including circuitry for converting AC to DC current, and a further feature of compatibility with smart lighting control systems.\n\n(Currently Amended) Claim 15: The lamp of claim 3 wherein said optic element preferentially directs light substantially perpendicular to an elongated axis of the columnar body, and is further configured to allow for adjustable light direction.",
+  "usage": {
+    "input_tokens": 3939,
+    "output_tokens": 436,
+    "total_tokens": 4375
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.43,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:54:29Z"
+}

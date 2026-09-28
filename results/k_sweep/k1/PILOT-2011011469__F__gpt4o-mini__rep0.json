@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13167,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "dd2b1b338e7abf4f",
+  "response_text": "1 (Currently amended): A method of treating a brain, comprising: inserting an elongated device into the brain to create a path; radially expanding the device to create a working channel along the path; and introducing a __medical element different from an instrument__ into the working channel to perform a medical procedure on the brain.\n\n2 (Currently amended): The method of claim 1, wherein the medical element is an instrument __or a medicament__.\n\n4 (Currently amended): The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening __without limitations on entry point__.\n\n5 (Currently amended): The method of claim 1, further comprising inserting the elongated device between tissue layers within the brain __and other regions__.\n\n7 (Currently amended): A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; radially reinforcing the device against the tissue; and introducing a medical element __different from an instrument__ through the device to perform a medical procedure on the tissue.\n\n10 (Currently amended): The method of claim 7, further comprising inserting the elongated device between tissue layers __in the targeted tissue area__.",
+  "usage": {
+    "input_tokens": 3222,
+    "output_tokens": 263,
+    "total_tokens": 3485
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.11,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:32:00Z"
+}

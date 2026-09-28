@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2018000427",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2018000427",
+  "app_num": "14178780",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2017005082",
+      "PILOT-2015004239",
+      "PILOT-2018001221"
+    ],
+    "retrieved_app_nums": [
+      "13803225",
+      "13456574",
+      "13832205"
+    ],
+    "retrieved_scores": [
+      0.9735,
+      0.9413,
+      0.934
+    ],
+    "retrieved_chars_total": 2793,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17281,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "95c826e42108d8a5",
+  "response_text": "Claim 18 (Currently amended): A method for protecting blood vessels during a medical procedure, comprising: inserting a vessel protector system into a patient's body, the vessel protector system including a vessel protector and a sheath, the vessel protector having a body formed from a filtering material and having a collapsed configuration and a tubular expanded configuration, the sheath being movable relative to the body between a first position for holding the body in the collapsed configuration, and a second position for releasing the body for movement to the expanded configuration; positioning the vessel protector system adjacent an open end of at least one blood vessel; and moving the sheath to the second position to deploy the body, whereby the body moves to the tubular expanded configuration covering the open end of the at least one blood vessel to filter blood passing through the body into the at least one blood vessel, wherein the vessel protector system further includes a mechanism for closing the open end of the body in the tubular expanded configuration.\n\nClaim 19 (Currently amended): The method according to claim 18, further comprising: closing open ends of the body in the tubular expanded configuration; moving the sheath to the first position to compress the body to the collapsed configuration; and removing the vessel protector system from the patient's body, wherein the mechanism for closing the open ends of the body is activated prior to moving the sheath to the first position.",
+  "usage": {
+    "input_tokens": 3884,
+    "output_tokens": 267,
+    "total_tokens": 4151
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.9,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:38:05Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017000093",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017000093",
+  "app_num": "13729015",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 35863,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "802d44019e3a8758",
+  "response_text": "(Currently amended) A non-transitory machine readable medium storing a program which when executed by at least one processing unit analyzes a document, the program comprising sets of instructions for: receiving a document that comprises a plurality of primitive graphic elements defined separately within the document, the document having a __specific__ drawing order that indicates the order in which the primitive graphic elements are drawn when the document is displayed; calculating a first value for a first primitive graphic element and a second primitive graphic element that is subsequent to the first in the drawing order; and based on the comparison of the first value to other values calculated for additional primitive graphic elements that are subsequent in the drawing order, defining a single structural graphic element within the document from the first and second primitive graphic elements.\n\n(Currently amended) The non-transitory machine readable medium of claim 26, wherein the first value is a size value __that is distinct from other size-related values calculated for each of the primitive graphic elements__.\n\n(Currently amended) The non-transitory machine readable medium of claim 26, wherein the first value represents a size of a smallest bounding box that encompasses the first and second primitive graphic elements __and does not rely solely on the characteristics of other graphic elements__.\n\n(Currently amended) The non-transitory machine readable medium of claim 28, wherein the size of the smallest bounding box is calculated as a sum of a width and height of the bounding box divided by a sum of a width and height of a page containing the primitive graphic elements __which is distinct from other calculations performed in the analysis__.\n\n(Currently amended) The non-transitory machine readable medium of claim 28, wherein the size of the smallest bounding box is calculated as an area of the bounding box divided by an area of a page containing the primitive graphic elements __without reference to other bounding boxes__.\n\n(Currently amended) The non-transitory machine readable medium of claim 26, wherein the set of instructions for calculating comprises a set of instructions for calculating a different value for each pair of primitive graphic elements subsequent in the drawing order, wherein the set of instructions for defining the single structural graphic element comprises sets of instructions for: using the calculated values for pairs of primitive graphic elements to identify clusters of primitive graphic elements as candidates for joining as compound graphic elements; and identifying sequences of primitive graphic elements within a cluster whose bounding boxes intersect __in a manner that is not taught by Mansfield__; and joining the sequences as single graphic elements.\n\n(Currently amended) A non-transitory machine readable medium storing a program which when executed by at least one processing unit analyzes a document, the program comprising sets of instructions for: receiving a document that comprises a plurality of primitive graphic elements defined separately within the document; based on unique values calculated for pairs of primitive graphic elements, defining a set of successive primitive graphic elements as a candidate compound graphic element; using bounds of the primitive graphic elements in the cluster to identify one or more subsets of primitive graphic elements within the set; and defining each particular subset having more than one primitive graphic element as a single structural graphic element within the document, the structure graphic element comprising the primitive graphic elements in the particular subset __while ensuring that the definition accounts for the interaction between the elements in a unique manner__.\n\n(Currently amended) The apparatus of claim 42, wherein the set of instructions for using bounds of the primitive graphic elements in the cluster to identify one or more subsets of primitive graphic elements comprises sets of instructions for: selecting a first graphic element in the cluster and assigning the graphic element to a new sub-cluster; assigning a second graphic element in the cluster to the sub-cluster when a bounding box of the second graphic element overlaps a bounding box of the sub-cluster __in a method not described in Mansfield__.\n\n(Currently amended) The apparatus of claim 43, wherein the set of instructions for using bounds of the primitive graphic elements in the cluster to identify one or more subsets of primitive graphic elements further comprises a set of instructions for assigning a third graphic element to a second sub-cluster when a bounding box of the third graphic element does not overlap the bounding box of the sub-cluster __and handling the assignments involving sequence management relating to the clusters__.\n\n(Currently amended) The apparatus of claim 43, wherein the bounding box of the sub-cluster is an intersection of the bounding boxes of all primitive graphic elements already in the sub-cluster, __and the method of identifying and merging is distinct from that outlined in Mansfield__.\n\n(Currently amended) The apparatus of claim 42, wherein the document comprises an unstructured vector graphics document __which provides a differing format than prior art documents.__",
+  "usage": {
+    "input_tokens": 7454,
+    "output_tokens": 929,
+    "total_tokens": 8383
+  },
+  "stop_reason": "stop",
+  "latency_sec": 36.48,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:48:34Z"
+}

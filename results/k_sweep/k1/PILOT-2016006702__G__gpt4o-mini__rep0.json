@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016006702",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2016006702",
+  "app_num": "14107154",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 19820,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9894f1efbed2f87e",
+  "response_text": "Claim 1 (Currently Amended): A system for facilitating a medical order/prescription of a prescription product for a patient covered by a provider, comprising: at least one memory device to store a plurality of predefined forms for the prescription product, the plurality of predefined forms corresponding to a plurality of providers, the prescription product including a biologic product; a receiver to receive prescription product information for the prescription product and patient intake information for the patient, including provider information for the patient, and to receive a benefits summary related to the patient in response to a benefits verification request; a transmitter to transmit the benefits verification request; and at least one processor configured to: generate the benefits verification request for the patient based on the patient intake information; select one of the predefined forms based on at least the patient provider information and the benefits summary; populate at least one field of the selected predefined form based on the patient intake information; and release the populated predefined form to facilitate a medical order/prescription of the prescription product to the patient.\n\nClaim 2 (Currently Amended): The system of claim 1, wherein facilitating the medical order/prescription includes facilitating execution of a medical order/prescription of the prescription product or facilitating approval of a payment for the prescription product.\n\nClaim 9 (Currently Amended): The system of claim 1, wherein the processor is configured to automatically select one of the predefined forms based on at least the patient provider information and the benefits summary.\n\nClaim 12 (Currently Amended): The system of claim 1, wherein the transmitter is further configured to transmit a request for additional patient information and to transmit an insurance-related inquiry.\n\nClaim 15 (Currently Amended): The system of claim 1, wherein the processor is configured to release the populated predefined form to the provider of the patient or to a healthcare facility associated with the patient. \n\nClaim 17 (Currently Amended): The system of claim 1, further comprising at least one user device to introduce the patient intake information and prescription product information to the receiver, the user device further comprising a display for presenting forms related to the prescription product.\n\nClaim 28 (Currently Amended): A non-transitory computer readable medium containing computer-executable instructions that when executed cause one or more user devices to perform a method of facilitating a medical order/prescription of a prescription product for a patient covered by a provider, the method comprising: providing a memory including a plurality of predefined forms corresponding to one or more providers stored therein; receiving patient intake information including patient provider and prescription product information for the prescription product, the prescription product including a biologic product; generating, by a processor, a benefits verification request for the patient based on the patient intake information; obtaining a benefits summary based on the benefits verification request; selecting one of the predefined forms based on at least one of the patient provider information, the benefits summary, and additional information from the insurer; populating at least one field of the selected predefined form based on the patient intake information; and facilitating, by the processor, a medical order/prescription of the prescription product to the patient with the selected predefined form.",
+  "usage": {
+    "input_tokens": 4387,
+    "output_tokens": 628,
+    "total_tokens": 5015
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.05,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:34:07Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16183,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b0cd10b36d85757c",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, __wherein the MTP comprises a unique identifier that distinguishes the assembly from other assemblies__.\n\n2. (Previously presented) The assembly of claim 1, wherein the MTP is embedded in the test tube.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded underneath __the bottom of the test tube__, oriented for reading downwards.\n\n4. (Previously presented) The assembly of claim 1, wherein the test tube is a biorepository test tube.\n\n5. (Previously presented) The assembly claim 1, wherein the MTP is embedded in polypropylene or acetal polymer.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the __test tube__.\n\n13. (Previously presented) A system for storing samples and comprising of the assembly of claim 1, and one or more of the following: a rack for biorepository test tubes; automated robot for moving racks or biorepository test tubes; and automated sampling device adapted to sample said racks or biorepository test tubes.\n\n14. (Previously presented) The system of claim 13 adapted for low temperature operation, such that the racks/test tubes are handled at -20 C or less.\n\n19. (Previously presented) The assembly claim 4, wherein the MTP is embedded in polypropylene or acetal polymer.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the __test tube__.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded underneath __the bottom of the test tube__, oriented for reading downwards.\n\n22. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded near the center bottom of the __test tube__.\n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded underneath __the bottom of the test tube__, oriented for reading downwards.",
+  "usage": {
+    "input_tokens": 4402,
+    "output_tokens": 460,
+    "total_tokens": 4862
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.0,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:06:02Z"
+}

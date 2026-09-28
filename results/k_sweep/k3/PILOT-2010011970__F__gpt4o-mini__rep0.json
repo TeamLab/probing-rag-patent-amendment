@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 15890,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "090d096cc716026a",
+  "response_text": "(Currently Amended) Claim 15: The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature that is cryptographic in nature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.\n\n(Currently Amended) Claim 24: The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature that is cryptographic in nature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.\n\n(Currently Amended) Claim 27: The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature that is cryptographic in nature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.",
+  "usage": {
+    "input_tokens": 3530,
+    "output_tokens": 298,
+    "total_tokens": 3828
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:02:35Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012006145",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2012006145",
+  "app_num": "10979681",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21483,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5ff351f6edeb1ff9",
+  "response_text": "(Currently amended) Claim 1: A method of cementing comprising: providing a cement composition comprising a carboxylated inulin derived from inulin processed from chicory; and allowing the cement composition to set.\n\n(Currently amended) Claim 2: The method of claim 1 wherein the cement composition has a thickening time of from about 3 hours to about 11 hours at temperatures up to about 280 *F.\n\n(Currently amended) Claim 3: The method of claim 1 wherein a viscosity of the cement composition is maintained at about constant for a period of time after the cement composition is placed.\n\n(Currently amended) Claim 4: The method of claim 1 wherein a suspension aid is specifically excluded from the cement composition.\n\n(Currently amended) Claim 5: The method of claim 1 wherein the cement composition has a free water separation of from about 0.0 to about 1 wt.% of the cement composition.\n\n(Currently amended) Claim 6: The method of claim 1 wherein the carboxylated inulin is derived from an inulin having an average molecular weight of about 600 or higher.\n\n(Currently amended) Claim 7: The method of claim 1 wherein the carboxylated inulin comprises carboxymethylated inulin and natural inulin.\n\n(Currently amended) Claim 9: The method of claim 1 wherein the cement composition comprises from about 0.1 to about 4 wt. % of carboxylated inulin.\n\n(Currently amended) Claim 10: The method of claim 1 wherein the cement composition further comprises borate salts, an organic acid comprising an alpha-hydroxycarboxylic acid, a synthetic polymer comprising a carboxylate group, or any combination of these additives.\n\n(Currently amended) Claim 11: The method of claim 1 wherein the cement composition is placed in a subterranean formation, specifically a hydrocarbon well.\n\n(Currently amended) Claim 12: The method of claim 1 wherein the cement composition is placed in a wellbore selected from surface and subsurface applications. \n\n(Currently amended) Claim 13: A method of cementing in a subterranean formation comprising: providing a cement composition comprising a carboxylated inulin derived from inulin processed from chicory; placing the cement composition in the subterranean formation; and allowing the cement composition to set therein. \n\n(Currently amended) Claim 14: The method of claim 13 wherein the cement composition has a thickening time of from about 3 hours to about 11 hours at temperatures up to about 280 *F.\n\n(Currently amended) Claim 15: The method of claim 13 wherein a viscosity of the cement composition is maintained at about constant for a period of time after the cement composition is placed.\n\n(Currently amended) Claim 16: The method of claim 13 wherein a suspension aid is specifically excluded from the cement composition.\n\n(Currently amended) Claim 17: The method of claim 13 wherein the cement composition has a free water separation of from about 0.0 to about 1 wt.% of the cement composition.\n\n(Currently amended) Claim 18: The method of claim 13 wherein the carboxylated inulin is derived from an inulin having an average molecular weight of about 600 or higher.\n\n(Currently amended) Claim 19: The method of claim 13 wherein the carboxylated inulin comprises carboxymethylated inulin and natural inulin.\n\n(Currently amended) Claim 21: The method of claim 13 wherein the cement composition comprises from about 0.1 to about 4 wt. % of carboxylated inulin.\n\n(Currently amended) Claim 22: The method of claim 13 wherein the cement composition further comprises borate salts, an organic acid comprising an alpha-hydroxycarboxylic acid, a synthetic polymer comprising a carboxylate group, or any combination of these additives.\n\n(Currently amended) Claim 23: The method of claim 13 wherein the cement composition is placed in a wellbore selected from surface and subsurface applications.",
+  "usage": {
+    "input_tokens": 4995,
+    "output_tokens": 847,
+    "total_tokens": 5842
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.07,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:39:31Z"
+}

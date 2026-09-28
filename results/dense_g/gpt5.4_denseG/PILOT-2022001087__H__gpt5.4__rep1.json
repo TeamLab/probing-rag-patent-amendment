@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2022001087",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2022001087",
+  "app_num": "15853199",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "",
+    "test_subsection": "a)(1) and/or 102(a)(2",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018004372",
+      "PILOT-2017011823",
+      "PILOT-2016002033"
+    ],
+    "retrieved_app_nums": [
+      "15346862",
+      "14510829",
+      "13589155"
+    ],
+    "retrieved_scores": [
+      0.9472,
+      0.9393,
+      0.9379
+    ],
+    "retrieved_chars_total": 2618,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22226,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "86812ba64115c057",
+  "response_text": "1. (Currently amended) A system for providing security in a computer system, the system comprising __a hardware source, a pseudorandom number generator, and one or more logic circuits coupled to the hardware source and to the pseudorandom number generator,__ the __one or more__ logic circuits configured to at least: receive a plurality of independent first entropy values from the hardware source; apply at least some of the plurality of independent first entropy values to a function to generate a second entropy value; seed the pseudorandom number generator with the second entropy value; generate a random number using the pseudorandom number generator seeded with the second entropy value; and produce a block of ciphertext or message authentication code using the random number.\n\n2. (Currently amended) The system of claim 1, wherein the __one or more__ logic circuits __are further__ configured to produce the block of ciphertext or message authentication code with a key composed of or derived from the random number.\n\n3. (Currently amended) The system of claim 1, wherein the __one or more__ logic circuits __are further__ configured to at least: implement a key-agreement protocol using the random number and in which a key is produced; and produce the block of ciphertext or message authentication code using the key.\n\n4. (Previously presented) The system of claim 1, wherein the hardware source is a ring oscillator, and the one or more logic circuits being configured to receive the plurality of independent first entropy values includes being configured to receive the plurality of independent first entropy values from the ring oscillator.\n\n5. (Previously presented) The system of claim 1, wherein the hardware source is a single hardware source, and the one or more logic circuits being configured to receive the plurality of independent first entropy values includes being configured to receive the plurality of independent first entropy values from the single hardware source.\n\n6. (Currently amended) The system of claim 1, wherein the __hardware source comprises__ a plurality of independent hardware sources, and the one or more logic circuits being configured to receive the plurality of independent first entropy values includes being configured to receive the plurality of independent first entropy values from the plurality of independent hardware sources.\n\n7. (Previously presented) The system of claim 1, wherein the function is a permutation function, and the one or more logic circuits being configured to apply at least some of the plurality of independent first entropy values to the function includes being configured to apply at least some of the plurality of independent first entropy values to the permutation function.\n\n8. (Previously presented) The system of claim 7, wherein the one or more logic circuits being configured to apply at least some of the plurality of independent first entropy values to the function includes being configured to: divide the plurality of independent first entropy values into multiple groups of independent first entropy values; apply the multiple groups of independent first entropy values to the permutation function to generate permuted groups of entropy values; and concatenate the permuted groups of entropy values to generate the second entropy value.\n\n9. (Previously presented) The system of claim 1, wherein the function is a hash function, and the one or more logic circuits being configured to apply at least some of the plurality of independent first entropy values to the function includes being configured to apply at least some of the plurality of independent first entropy values to the hash function.\n\n10. (Previously presented) The system of claim 1, wherein the function is a bit-mixer, and the one or more logic circuits being configured to apply at least some of the plurality of independent first entropy values to the function includes being configured to apply at least some of the plurality of independent first entropy values to the bit-mixer.\n\n11. (Previously presented) The system of claim 1, wherein the one or more logic circuits being configured to apply at least some of the plurality of independent first entropy values to the function includes being configured to selectively apply multiple entropy values of the plurality of independent first entropy values to the function to generate the second entropy value.\n\n12. (Previously presented) The system of claim 1, wherein the one or more logic circuits being configured to apply at least some of the plurality of independent first entropy values to the function includes being configured to apply at least some of the plurality of independent first entropy values and a secret key to the function to generate the second entropy value.\n\n13. (Currently amended) A method of providing security in a computer system, comprising: receiving a plurality of independent first entropy values from a hardware source; applying at least some of the plurality of independent first entropy values to a function to generate a second entropy value; seeding a pseudorandom number generator with the second entropy value; generating a random number using the pseudorandom number generator seeded with the second entropy value; and producing a block of ciphertext or message authentication code using the random number, __wherein the function is a permutation function, and wherein applying at least some of the plurality of independent first entropy values to the function includes: dividing the plurality of independent first entropy values into multiple groups of independent first entropy values; applying the multiple groups of independent first entropy values to the permutation function to generate permuted groups of entropy values; and concatenating the permuted groups of entropy values to generate the second entropy value.__\n\n14. (Currently amended) The method of claim 13, wherein producing the block of ciphertext or message authentication code includes producing the block of ciphertext or message authentication code with a key composed of or derived from the random number.\n\n15. (Original) The method of claim 13, wherein producing the block of ciphertext or message authentication code includes at least: implementing a key-agreement protocol using the random number and in which a key is produced; and producing the block of ciphertext or message authentication code using the key.\n\n16. (Previously presented) The method of claim 13, wherein the hardware source is a ring oscillator, and wherein receiving the plurality of independent first entropy values includes receiving the plurality of independent first entropy values from the ring oscillator.\n\n17. (Previously presented) The method of claim 13, wherein the hardware source is a single hardware source, and wherein receiving the plurality of independent first entropy values includes receiving the plurality of independent first entropy values from the single hardware source.\n\n18. (Currently amended) The method of claim 13, wherein the hardware source __comprises__ a plurality of independent hardware sources, and wherein receiving the plurality of independent first entropy values includes receiving the plurality of independent first entropy values from the plurality of independent hardware sources.\n\n19. (Previously presented) The method of claim 13, wherein the function is a permutation function, and wherein applying at least some of the plurality of independent first entropy values to the function includes applying at least some of the plurality of independent first entropy values to the permutation function.\n\n20. (Previously presented) The method of claim 19, wherein applying at least some of the plurality of independent first entropy values to the function includes: dividing the plurality of independent first entropy values into multiple groups of independent first entropy values; applying the multiple groups of independent first entropy values to the permutation function to generate permuted groups of entropy values; and concatenating the permuted groups of entropy values to generate the second entropy value.\n\n21. (Previously presented) The method of claim 13, wherein the function is a hash function, and wherein applying at least some of the plurality of independent first entropy values to the function includes applying at least some of the plurality of independent first entropy values to the hash function.\n\n22. (Previously presented) The method of claim 13, wherein the function is a bit-mixer, and wherein applying at least some of the plurality of independent first entropy values to the function includes applying at least some of the plurality of independent first entropy values to the bit-mixer.\n\n23. (Previously presented) The method of claim 13, wherein applying at least some of the plurality of independent first entropy values to the function includes selectively applying multiple entropy values of the plurality of independent first entropy values to the function to generate the second entropy value.\n\n24. (Original) The method of claim 13, wherein applying at least some of the plurality of independent first entropy values to the function includes applying at least some of the plurality of independent first entropy values and a secret key to the function to generate the second entropy value.",
+  "usage": {
+    "input_tokens": 4868,
+    "output_tokens": 1679,
+    "total_tokens": 6547
+  },
+  "stop_reason": "stop",
+  "latency_sec": 20.78,
+  "cost_usd": 0.02287,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:35:41Z"
+}

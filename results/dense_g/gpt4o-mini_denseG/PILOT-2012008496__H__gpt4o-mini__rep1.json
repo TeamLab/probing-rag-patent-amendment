@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2012008496",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2012008496",
+  "app_num": "11752325",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2011007499",
+      "PILOT-2012003695",
+      "PILOT-2017005100"
+    ],
+    "retrieved_app_nums": [
+      "10581102",
+      "11844410",
+      "11882059"
+    ],
+    "retrieved_scores": [
+      0.8577,
+      0.8404,
+      0.8393
+    ],
+    "retrieved_chars_total": 1553,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22596,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e95f42e87e4f4038",
+  "response_text": "(Currently Amended) Claim 1: A loading ramp, said loading ramp comprising: a support structure having a mounting member, said mounting member being compatible with a truck having a bed such that said support structure is adapted to be removably mounted to the truck; a first gradient member secured to said support structure, said first gradient member defining a first surface, a proximate end, and a distal end, the proximate end being opposite the distal end with respect to the first surface, the proximate end being proximate the bed of the truck when said support structure is mounted to the truck, the first surface being structured to support a small vehicle; and a second gradient member secured to said first gradient member at the distal end such that said second gradient member pivots at the distal end to the extent that said second gradient member is capable of an up position and a down position, said second gradient member defining a second surface, the second surface being structured to support the small vehicle, said first gradient member and said second gradient member defining a gradient between a ground surface and the bed of the truck when said second gradient member is at the down position and said support structure is mounted to the truck, the gradient being traversable by the small vehicle, said loading ramp being carried by the truck when said second gradient member is at the up position and said support structure is mounted to the truck, said loading ramp not limiting the storage space provided by the truck when said loading ramp is carried by the truck, and wherein said loading ramp is configured to be used with a variety of small vehicles.\n\n(Currently Amended) Claim 2: The loading ramp of Claim 1 wherein said loading ramp makes available storage space provided by the truck otherwise occupied when said loading ramp and the small vehicle are carried by the truck, and wherein said loading ramp is adapted to accommodate different types of small vehicles.\n\n(Currently Amended) Claim 3: The loading ramp of Claim 2 wherein said loading ramp supports at least a portion of the small vehicle when said loading ramp and the small vehicle are carried by the truck, and wherein said loading ramp is structured to provide stability for the small vehicle during transport.\n\n(Currently Amended) Claim 4: The loading ramp of Claim 1 wherein said mounting member is compatible with a receiver-type hitch, and wherein said mounting member is designed for easy attachment and detachment from the truck.\n\n(Currently Amended) Claim 5: The loading ramp of Claim 1 wherein said support structure is adjustable such that the proximate end of said first gradient member is proximate the bed of the truck when said support structure is mounted to the truck regardless of the size of the truck, and wherein said support structure includes adjustable components to accommodate various truck heights.\n\n(Currently Amended) Claim 6: The loading ramp of Claim 1 wherein the proximate end of said first gradient member rests against a rear bumper of the truck when said support structure is mounted to the truck, and wherein said first gradient member is designed to provide additional support when in this position.\n\n(Currently Amended) Claim 7: The loading ramp of Claim 1 wherein the proximate end of said first gradient member rests against the bed of the truck when said support structure is mounted to the truck, and wherein said first gradient member is structured to prevent slipping during loading.\n\n(Currently Amended) Claim 9: The loading ramp of Claim 1 wherein the first surface defined by said first gradient member includes a solid surface, and wherein said solid surface is constructed from a material that provides traction for the small vehicle.\n\n(Currently Amended) Claim 12: The loading ramp of Claim 1 wherein the second surface defined by said second gradient member includes a solid surface, and wherein said solid surface is constructed from a material that provides traction for the small vehicle.\n\n(Currently Amended) Claim 19: The loading ramp of Claim 1 further comprising a mechanical device, said mechanical device moving said second gradient member between the up position and down position, and wherein said mechanical device is operable by a user from a distance.\n\n(Currently Amended) Claim 20: The loading ramp of Claim 1 further comprising a locking member, said locking member locking said second gradient member at the up position, and wherein said locking member is designed for easy engagement and disengagement.\n\n(Currently Amended) Claim 30: The loading ramp of Claim 1 wherein the truck is selected from the group consisting of a pickup truck, a sports utility vehicle, and other vehicles having a bed suitable for loading small vehicles.",
+  "usage": {
+    "input_tokens": 5294,
+    "output_tokens": 917,
+    "total_tokens": 6211
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.96,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:25:32Z"
+}

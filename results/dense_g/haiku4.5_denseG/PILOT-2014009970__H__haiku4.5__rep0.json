@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2014009970",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2014009970",
+  "app_num": "12376918",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2015001085",
+      "PILOT-2017003663",
+      "PILOT-2016006889"
+    ],
+    "retrieved_app_nums": [
+      "12815085",
+      "11415308",
+      "14542098"
+    ],
+    "retrieved_scores": [
+      0.8236,
+      0.821,
+      0.8172
+    ],
+    "retrieved_chars_total": 3877,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12488,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bb041701295272b9",
+  "response_text": "1. (Currently Amended) An air braking unit for use in an air braking system, the air braking unit being arranged to be positioned, in use, at a vehicle wheel, and comprising: an inlet for receiving, in use, compressed air from a central source; at least one first valve arranged to selectively allow compressed air from the inlet to enter a wheel brake chamber in use; at least one second valve arranged to selectively allow air from the brake chamber to be released via an outlet to the atmosphere in use; control means for controlling the first and second valves to operate to selectively control the air pressure in the brake chamber in use; and __a modulation control system configured to modulate the first and second valves at variable frequencies to achieve fine pressure control in the brake chamber__.\n\n2. (Currently Amended) The air braking unit of claim 1, further comprising __at least three__ plural first valves and/or plural second valves.\n\n3. (Currently Amended) The air braking unit of claim 2, wherein the plural valves may comprise __at least two__ one or more larger valves arranged to allow large volumes of air to pass therethrough and __at least two__ one or more smaller valves arranged to allow passage of smaller volumes of air therethrough, __wherein the larger valves and smaller valves operate in coordinated sequence__.\n\n4. (Currently Amended) The air braking unit of claim 3, wherein the one or more smaller valves are arranged to operate at high speed __in response to rapid pressure changes detected by the control means__.\n\n5. (Currently Amended) The air braking unit of any preceding claim, wherein one or more of the valves are driven by binary actuators __and wherein the control means coordinates actuation timing of the binary actuators to achieve proportional braking force modulation__.\n\n6. (Original) An air braking unit according to any preceding claim, wherein the control means is arranged to receive control signals from a wheel speed sensor and an air pressure sensor for determining the pressure in the brake chamber.\n\n7. (Currently Amended) An air braking unit according to claim 6, wherein the control means is arranged to receive data from a vehicle speed sensor, and reference data indicative of an optimum braking force for given vehicle and wheel speeds and control braking force based thereon, __and wherein the control means further comprises a processor configured to calculate individual wheel slip ratios and adjust valve actuation accordingly__.\n\n8. (Currently Amended) An air braking unit according to claim 6 or claim 7, wherein the control means is arranged to determine, from the sensors, and stored reference data, an optimum speed for each wheel and to control the braking force on each wheel in accordance with the calculated optimum speed, __wherein the control means implements a dynamic braking force distribution algorithm that continuously adjusts pressure in each brake chamber independent of other wheels__.\n\n9. (Currently Amended) An air braking system comprising one or more units according to any preceding claim; a pump for generating compressed air; and a central compressed air storage tank; __wherein the system further comprises a central electronic control unit in communication with the control means of each air braking unit, configured to coordinate braking operations across multiple wheels__.",
+  "usage": {
+    "input_tokens": 3516,
+    "output_tokens": 696,
+    "total_tokens": 4212
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.63,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T18:59:09Z"
+}

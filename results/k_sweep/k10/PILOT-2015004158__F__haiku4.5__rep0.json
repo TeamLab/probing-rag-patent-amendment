@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004158",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2015004158",
+  "app_num": "13783908",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 35443,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "14a4efcf55634937",
+  "response_text": "Claim 1 (Currently Amended): A preventing or treating agent for glaucoma comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof, wherein the agent is administered to a subject with diagnosed glaucoma or a subject at elevated risk of glaucoma based on clinical assessment.\n\nClaim 2 (Currently Amended): A preventing or treating agent for ocular hypertension comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof, wherein the agent is administered to a subject with diagnosed ocular hypertension or a subject at elevated risk of ocular hypertension based on clinical assessment.\n\nClaim 3 (Previously Presented): A composition for eye drops comprising (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof and a pharmaceutically accepted carrier.\n\nClaim 7 (Currently Amended): A method for treating glaucoma wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered to a subject having glaucoma.\n\nClaim 8 (Currently Amended): A method for treating ocular hypertension wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered to a subject having ocular hypertension.\n\nClaim 9 (Previously Presented): A method for treating glaucoma comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\nClaim 10 (Previously Presented): A method for treating ocular hypertention comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof.\n\nClaim 11 (Cancelled)",
+  "usage": {
+    "input_tokens": 8161,
+    "output_tokens": 570,
+    "total_tokens": 8731
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.34,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:44:08Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002369",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020002369",
+  "app_num": "14171413",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 35995,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7b43c9ada0daec6c",
+  "response_text": "```\n(Currently Amended) Claim 1: A regenerative braking control system for a __vehicle capable of operating on electric power__ [Previously presented], comprising: at least one sensor adapted to sense a front tire impact event and transmit a sensor signal responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the sensor signal from the at least one sensor.\n\n(Currently Amended) Claim 9: A regenerative braking control system for a __vehicle capable of operating on electric power__ [Previously presented], comprising: at least one of a wheel slip sensor and a vehicle motion sensor adapted to sense a front tire impact event and transmit at least one of a wheel slip sensor signal and a motion sensor signal, respectively, responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque responsive to receiving the at least one of a wheel slip sensor signal and a motion sensor signal from the at least one of a wheel slip sensor and a vehicle motion sensor.\n```",
+  "usage": {
+    "input_tokens": 7231,
+    "output_tokens": 232,
+    "total_tokens": 7463
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.91,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:09:17Z"
+}

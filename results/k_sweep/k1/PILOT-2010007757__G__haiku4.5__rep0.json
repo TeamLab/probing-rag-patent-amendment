@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14871,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ed33485668b24dc9",
+  "response_text": "1. (Currently Amended) A composition, comprising: cavity-generating particles; a thermally conductive binder; a solvent; and __a substrate surface to which the composition is applied, wherein the thermally conductive binder comprises a material selected from the group consisting of thermally conductive epoxy and solder paste__.\n\n2. (Currently Amended) The composition of claim 1, wherein the composition is applied to an electronic component surface __and the thermally conductive binder is a material distinct from those disclosed in You et al. Patent No. 5,814,392 as a glue__.\n\n3. (Currently Amended) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface __and the binder remains on the surface after solvent removal__.",
+  "usage": {
+    "input_tokens": 4215,
+    "output_tokens": 176,
+    "total_tokens": 4391
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.61,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:24:43Z"
+}

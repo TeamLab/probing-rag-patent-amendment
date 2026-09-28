@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011004581",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2011004581",
+  "app_num": "10906716",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13554,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3ac8e8b93846f9d6",
+  "response_text": "(Currently Amended) Claim 2: The method of claim 1 further comprising: __visually__ displaying the filtered EPG information.\n\n(Currently Amended) Claim 7: An article of manufacture comprising: a machine-accessible medium including data that, when accessed by a machine, causes the machine to perform operations comprising: retrieving electronic program guide (EPG) information from an EPG provider; and filtering the EPG information to retain program information related to programs delivered by a content delivery provider __to the subscriber, wherein the content delivery provider is different from the EPG provider and specifies that programs can be delivered by at least one of a television network, a cable operator, a direct satellite program provider, and a digital cable content provider__.\n\n(Currently Amended) Claim 8: The article of manufacture of claim 7 wherein the data further comprises data that, when accessed by the machine, causes the machine to perform operations comprising: __visually__ displaying the filtered EPG information.\n\n(Currently Amended) Claim 9: The article of manufacture of claim 7 wherein the data causing the machine to perform filtering comprises data that, when accessed by the machine, causes the machine to perform operations comprising: obtaining channel accessibility of the subscriber; and removing EPG information related to a channel that is not within the channel accessibility of the subscriber, __with the filtering process specifically identifying the channels restricted by the channel accessibility. \n\n(Currently Amended) Claim 11: The article of manufacture of claim 9 wherein the data causing the machine to perform removing comprises data that, when accessed by the machine, causes the machine to perform operations comprising: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to the list of the subscriber's channel identifiers, __with the filtering process ensuring only allowed channel identifiers remain in the EPG information.__ \n\n(Currently Amended) Claim 14: The program guide module of claim 13 wherein the enhanced EPG module further comprises: a module to __visually__ display the filtered EPG information.",
+  "usage": {
+    "input_tokens": 3205,
+    "output_tokens": 438,
+    "total_tokens": 3643
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.39,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:30:20Z"
+}

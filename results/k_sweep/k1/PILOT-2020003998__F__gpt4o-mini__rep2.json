@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 65571,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0b62f52d72c6c8e5",
+  "response_text": "(Currently amended) Claim 281: A tool comprising: a lamination of at least two layers; a first adhesive layer and a second adhesive layer located on opposite sides of a medial section, wherein the first adhesive layer and the second adhesive layer are aligned with each other and configured to bond the first and second layers together, and an additional adhesive layer facilitating adhesion between the layers.\n\n(Original) Claim 282: The tool of claim 281 wherein the medial section is selected from the group consisting of metal and composite material.\n\n(Original) Claim 283: The tool of claim 281 wherein the medial section is a honeycomb structure.\n\n(Original) Claim 284: The tool of claim 283 further including a plurality of arc-shaped cutting segments bonded to the outer perimeter of the first and second layers.\n\n(Original) Claim 285: The tool of claim 281 wherein the additional adhesive layer is configured to allow for improved bonding.\n\n(Original) Claim 286: The tool of claim 285 further including a weld ring at least partially interposed between the perimeter of the first and second layers.\n\n(Original) Claim 287: The tool of claim 286 wherein the weld ring is continuous.\n\n(Original) Claim 288: The tool of claim 287 wherein the plurality of cutting segments are located on an outer periphery of the weld ring.\n\n(Currently amended) Claim 290: The tool of claim 281, further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring, the inner ring includes a central opening for accommodating a drive shaft.\n\n(Currently amended) Claim 291: The tool of claim 290 wherein the inner ring includes a central opening.",
+  "usage": {
+    "input_tokens": 14323,
+    "output_tokens": 344,
+    "total_tokens": 14667
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.26,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:26:55Z"
+}

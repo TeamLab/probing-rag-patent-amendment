@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011013110",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2011013110",
+  "app_num": "11962331",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 31269,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3099aaad9f98fe3f",
+  "response_text": "(Currently amended) 1. A method comprising: providing, from a processor, a memory request and a first coherency state value for a coherency granule associated with the memory request; and providing, from the processor, a select one of a first indicator or a second indicator in response to determining whether the first coherency state value represents a cumulative coherency state for a plurality of caches of the processor, the first indicator identifying the first coherency state value as representing a cumulative coherency state and the second indicator identifying the first coherency state value as representing a potentially non-cumulative coherency state, wherein the first coherency state value is provided directly from the coherency management module of the processor.\n\n(Currently amended) 2. The method of claim 1, further comprising: receiving, at the processor, a request for the cumulative coherency state for the coherency granule in response to providing the second indicator; determining a second coherency state value for the coherency granule for the processor and providing the second coherency state value from the processor in response to the request, the second coherency state value representing the cumulative coherency state for the coherency granule; and providing, from the processor, the second coherency state value and the first indicator.\n\n(Currently amended) 6. The method of claim 1, further comprising: determining whether to request the cumulative coherency state for the coherency granule in response to receiving the second indicator from the processor; and providing an indicator of the request for the cumulative coherency state to the processor in response to determining to request the cumulative coherency state, wherein said determining includes evaluating a condition based on the first indicator.\n\n(Currently amended) 8. A method comprising: receiving, from a processor, a first memory request and a first coherency state value for a first coherency granule associated with the first memory request; receiving, from the processor, a first indicator associated with the first coherency state value, the first indicator identifying the first coherency state value as representing a potentially non-cumulative coherency state of the first coherency granule for a plurality of caches of the processor; determining whether to request a cumulative coherency state for the first coherency granule from the processor in response to receiving the first indicator; and providing a second indicator to the processor to request the cumulative coherency state for the first coherency granule in response to determining to request the cumulative coherency state for the first coherency granule, wherein the request includes a conditional evaluation based on caches' states.\n\n(Currently amended) 14. A system comprising: a first processor coupleable to a transaction management module associated with a plurality of processors, the first processor comprising: a processor core; a plurality of caches; and a coherency management module comprising: a first output configured to provide a memory transaction associated with a coherency granule; a second output configured to provide a first coherency state value for the coherency granule; and a third output configured to provide a first indicator, the first indicator indicating whether the first coherency state value represents a potentially non-cumulative coherency state for the coherency granule for the plurality of caches, wherein the first indicator is generated based on evaluations related to coherency state assessments across the caches.",
+  "usage": {
+    "input_tokens": 6539,
+    "output_tokens": 666,
+    "total_tokens": 7205
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.82,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:19:34Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016004446",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2016004446",
+  "app_num": "11920521",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 10639,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4177bcb642fd3318",
+  "response_text": "Claim 5 (Currently Amended): Use of the composition of claim 1 for preparation of a method for blocking Leishmaniasis transmission, wherein said composition is in the form of a blocking vaccine to __impede__ and __prevent__ Leishmaniasis transmission.\n\nClaim 6 (Currently Amended): Use of the composition of claim 1 for preparation of a reagent, wherein the method of claim 4 further comprises suitable pharmacological vehicles for blocking Leishmaniasis transmission in __humans, dogs, or other animals__.\n\nClaim 7 (Currently Amended): The composition of claim 1, wherein the Leishmania promastigotes or Leishmania amastigotes fractions called \"Fucose Mannose Ligand\" (FML) comprise a glycoprotein complex containing 29% of neutral sugar, 44% of protein, 11% of phosphate and hexosamines traces composed by protein bands with molecular weight ranging from 9 to 95 kDa, some protein bands having carbohydrates: 36 and 54 to 68 kDa, __wherein the FML glycidic portion presents compositions in varying percentages of fucose, manose, glucose, galactose, and xylose.__",
+  "usage": {
+    "input_tokens": 2719,
+    "output_tokens": 252,
+    "total_tokens": 2971
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.07,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:27:06Z"
+}

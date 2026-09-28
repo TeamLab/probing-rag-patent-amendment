@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 34779,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "74e46ebfc674ade5",
+  "response_text": "13. (Currently amended) A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides integrated contact elements by which power is supplied to said heater, wherein said contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater, __and wherein the contact elements are electrically isolated from the respiratory gas passage__.\n\n14. (Currently amended) The gas tube arrangement according to claim 13, further comprising an insulating sheathing body __that surrounds at least a portion of the flexible tube__.\n\n15. (Currently amended) The gas tube arrangement according to claim 14, wherein the insulating sheathing body is removably attachable to the flexible tube __via mechanical fasteners or snap-fit connections__.\n\n16. (Currently amended) The gas tube arrangement according to claim 14, wherein the heater is integrated into the sheathing body __and is thermally coupled to the flexible tube__.\n\n17. (Currently amended) The gas tube arrangement according to claim 14, wherein said sheathing body includes a multi-layered design __comprising an inner thermal layer and an outer protective layer__.\n\n18. (Previously presented) The gas tube arrangement according to claim 13, wherein the tube is a heatable respiratory gas tube.\n\n19. (Currently amended) The gas tube arrangement according to claim 14, wherein the heater is integrated into the tube __and is in direct contact with the flexible tube material__.\n\n24. (Currently amended) The gas tube arrangement according to claim 13, wherein the flexible tube is made from a spirally reinforced plastic material __having a tensile strength of at least 5 MPa__.\n\n25. (Currently amended) The gas tube arrangement according to claim 13, wherein the heater is an electrical resistance heater __comprising a resistive wire or film element__.\n\n27. (Currently amended) The gas tube arrangement according to claim 13, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, __and wherein each contact element is a contact surface__.\n\n28. (Currently amended) The gas tube arrangement according to claim 13, wherein the first portion is tubular and the second portion extends outwardly from the first portion __in a radial direction__.\n\n29. (Currently amended) A connector for connecting a CPAP device to a respiratory gas tube arrangement for supplying a respiratory gas to a person, the respiratory gas tube arrangement including a heater, the connector comprising: a first portion that provides a respiratory gas passage; and a second portion that provides integrated contact elements by which power is supplied to the heater, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, __and wherein the contact elements are electrically isolated from the respiratory gas passage__.\n\n30. (Currently amended) A connector according to claim 29, wherein each contact element is a contact surface provided within the second portion __and extends parallel to the longitudinal axis__.\n\n31. (Currently amended) A connector according to claim 29, wherein the first portion is tubular and the second portion extends outwardly from the first portion __in a radial direction__.",
+  "usage": {
+    "input_tokens": 8014,
+    "output_tokens": 807,
+    "total_tokens": 8821
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.8,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:36:12Z"
+}

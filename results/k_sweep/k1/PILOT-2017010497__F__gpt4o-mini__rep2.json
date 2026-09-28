@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017010497",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2017010497",
+  "app_num": "13556032",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 15811,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "305197faf1f8c07b",
+  "response_text": "Claim 31 (Currently amended): A system for treating obesity, the system comprising: a gastric space filler comprising a first balloon connected to a second balloon by a conduit, wherein the gastric space filler is configured to occupy a substantial volume of a gastric cavity in the human patient in an inflated state; and an instrument throughput channel extending through the conduit, wherein the instrument throughput channel is configured to receive instruments, and further wherein the instrument throughput channel has an axial length extending along the conduit.\n\nClaim 32 (Currently amended): The system of claim 31 wherein the conduit comprises a first lumen in fluid communication with the first balloon, a second lumen in fluid communication with the second balloon, and a third lumen defining the instrument throughput channel.\n\nClaim 33 (Currently amended): The system of claim 31, wherein the conduit has an axial length, and wherein the instrument throughput channel extends along the axial length of the conduit.\n\nClaim 34 (Cancelled): The system of claim 31 wherein the gastric space filler further comprises a coupling mechanism configured to facilitate engagement with a retrieval device for removal of the gastric space filler from the gastric cavity via the esophagus.\n\nClaim 35 (Currently amended): The system of claim 31, wherein the first and second balloons are made from at least one of the following: silicone, latex, polyethylene, polyurethane, and nylon, wherein the first and second balloons each comprise a wall.\n\nClaim 36 (Currently amended): The system of claim 31 wherein the conduit comprises an inter-balloon section spacing the first balloon apart from the second balloon, and wherein the inter-balloon section has a length of about 10-40 mm, discretely varying between said limits.\n\nClaim 41 (Currently amended): The system of claim 31, further comprising a delivery catheter configured to deliver the gastric space filler to the gastric cavity via an esophagus of the patient, wherein the delivery catheter is configured to receive the gastric space filler in a collapsed state.\n\nClaim 42 (Currently amended): A gastric space filler system, comprising: a conduit having a first end and a second end opposite the first end, wherein the first end is operably coupled to a first balloon and the second end is operably coupled to a second balloon; a first lumen through the conduit, wherein the lumen is configured for fluid infusion into the first balloon; a second lumen through the conduit, wherein the second lumen is configured for fluid infusion into the second balloon; and a third lumen extending through the conduit, wherein the third lumen is configured for instrument throughput.\n\nClaim 43 (Currently amended): The gastric space filler system of claim 42 wherein: the first lumen extends from the first end of the conduit to the first balloon; and the second lumen extends from the first end of the conduit to the second balloon.\n\nClaim 44 (Previously presented): The gastric space filler system of claim 42 wherein the third lumen extends from the first end of the conduit to a second end of the conduit.\n\nClaim 45 (Previously presented): The gastric space filler system of claim 42, further comprising a coupling mechanism at the first end of the conduit, wherein the coupling mechanism is configured for instrument throughput into the third lumen and configured to couple to a delivery catheter and/or a filling tube.\n\nClaim 46 (Previously presented): The gastric space filler system of claim 42 wherein the gastric space filler system is configured for delivery through an esophagus of a patient to a stomach of the patient.\n\nClaim 47 (Previously presented): The gastric space filler system of claim 42 wherein the conduit is configured for attachment to a delivery catheter, and wherein the third lumen of the conduit is configured to receive an instrument passed through the delivery catheter.",
+  "usage": {
+    "input_tokens": 3581,
+    "output_tokens": 739,
+    "total_tokens": 4320
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.9,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:38:02Z"
+}

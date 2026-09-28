@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 69673,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b45d6a00fd79a3a0",
+  "response_text": "(Currently Amended) Claim 281: A tool comprising: a lamination of at least two layers; a first adhesive layer; a second adhesive layer; and a medial section, wherein the first adhesive layer and the second adhesive layer are positioned on opposite sides of the medial section, and wherein the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer, and wherein an additional adhesive layer is provided.\n\n(Currently Amended) Claim 290: The tool of claim 281, wherein the medial section comprises a metal structure.\n\n(Currently Amended) Claim 291: The tool of claim 290, wherein the metal structure is a honeycomb structure.\n\n(Currently Amended) Claim 293: The tool of claim 290, further including a weld ring at least partially interposed between the perimeter of the first and second layers. \n\n(Currently Amended) Claim 294: The tool of claim 291, wherein the weld ring is bonded to the medial section. \n\n(Currently Amended) Claim 282: The tool of claim 281, wherein the medial section is filled with a second material, forming a composite material.\n\n(Currently Amended) Claim 283: The tool of claim 281, wherein the adhesive layers are configured to be cured to each other.\n\n(Currently Amended) Claim 284: The tool of claim 281, wherein the adhesive layers are configured to be cured on the first layer and the second layer. \n\n(Currently Amended) Claim 287: The tool of claim 281, further including a ring that is completely bonded to the medial section. \n\n(Currently Amended) Claim 288: The tool of claim 281, wherein the tool has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape.",
+  "usage": {
+    "input_tokens": 15092,
+    "output_tokens": 373,
+    "total_tokens": 15465
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.49,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:54:08Z"
+}

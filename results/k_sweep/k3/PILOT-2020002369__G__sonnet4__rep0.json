@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002369",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020002369",
+  "app_num": "14171413",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21041,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6a4235675a3d252d",
+  "response_text": "1. (Currently Amended) A regenerative braking control system for a [[electrified]] __hybrid electric__ vehicle, comprising: at least one sensor adapted to sense a front tire impact event and transmit a sensor signal responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque __at a rear axle of the vehicle__ responsive to receiving the sensor signal from the at least one sensor.\n\n2. (Previously presented) The system of claim 1 wherein the vehicle comprises a hybrid electric vehicle.\n\n3. (Currently Amended) The system of claim 1 wherein the vehicle comprises a plug-in hybrid electric vehicle.\n\n4. (Previously presented) The system of claim 1 further comprising an electrical storage facility interfacing with and adapted to store electrical power from the regenerative powertrain.\n\n5. (Previously presented) The system of claim 1 wherein the regenerative powertrain is adapted to apply regenerative braking torque to at least one of a front axle and a rear axle of the vehicle.\n\n6. (Previously presented) The system of claim 5 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\n7. (Previously presented) The system of claim 1 wherein the regenerative powertrain is adapted to apply regenerative braking torque to a selected one of front wheels and rear wheels of the vehicle.\n\n8. (Previously presented) The system of claim 7 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\n9. (Currently Amended) A regenerative braking control system for a [[electrified]] __hybrid electric__ vehicle, comprising: at least one of a wheel slip sensor and a vehicle motion sensor adapted to sense a front tire impact event and transmit at least one of a wheel slip sensor signal and a motion sensor signal, respectively, responsive to the front tire impact event during vehicle braking; and a regenerative powertrain interfacing with the at least one sensor and adapted to reduce regenerative braking torque __at a rear axle of the vehicle__ responsive to receiving the at least one of a wheel slip sensor signal and a motion sensor signal from the at least one of a wheel slip sensor and a vehicle motion sensor.\n\n10. (Previously presented) The system of claim 9 wherein the vehicle comprises a hybrid electric vehicle.\n\n11. (Currently Amended) The system of claim 9 wherein the vehicle comprises a plug-in hybrid electric vehicle.\n\n12. (Previously presented) The system of claim 9 further comprising an electrical storage facility interfacing with and adapted to store electrical power from the regenerative powertrain.\n\n13. (Previously presented) The system of claim 9 wherein the regenerative powertrain is adapted to apply regenerative braking torque to at least one of a front axle and a rear axle of the vehicle.\n\n14. (Previously presented) The system of claim 13 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\n15. (Previously presented) The system of claim 9 wherein the regenerative powertrain is adapted to apply regenerative braking torque to a selected one of front wheels and rear wheels of the vehicle.\n\n16. (Previously presented) The system of claim 15 wherein the regenerative powertrain is adapted to reduce regenerative braking torque at the rear axle of the vehicle responsive to receiving the sensor signal from the at least one sensor.\n\n17. (Currently Amended) A regenerative braking control method comprising, reducing application of regeneration torque __at rear wheels of a vehicle__ if a front tire impact event is sensed.\n\n18. (Previously presented) The method of claim 17 further comprising sensing the front tire impact event by using wheel slip data.\n\n19. (Previously presented) The method of claim 17 further comprising sensing the front tire impact event by using vehicle motion data.\n\n20. (Previously presented) The method of claim 17 wherein reducing application of regeneration torque if the front tire impact event is sensed comprises reducing application of regeneration torque at rear wheels of a vehicle if the front tire impact event is sensed.",
+  "usage": {
+    "input_tokens": 4997,
+    "output_tokens": 986,
+    "total_tokens": 5983
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.91,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:52:40Z"
+}

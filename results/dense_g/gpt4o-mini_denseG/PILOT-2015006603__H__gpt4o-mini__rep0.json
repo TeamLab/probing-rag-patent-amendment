@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2015006603",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2015006603",
+  "app_num": "13138239",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018008647",
+      "PILOT-2014002772",
+      "PILOT-2013007939"
+    ],
+    "retrieved_app_nums": [
+      "11817121",
+      "12266850",
+      "11609100"
+    ],
+    "retrieved_scores": [
+      0.8263,
+      0.8262,
+      0.8186
+    ],
+    "retrieved_chars_total": 3879,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22320,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8e2e8f80ceecb530",
+  "response_text": "```\n(Currently Amended) Claim 1: An apparatus, comprising: an encoder (300) for encoding mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, including at least one of a resolution of the picture and a frequency of mode usage.\n\n(Currently Amended) Claim 17: An apparatus, comprising: a decoder (400) for decoding mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, including at least one of a resolution of the picture and a frequency of mode usage.\n\n(Currently Amended) Claim 9: A method, comprising: encoding (740, 970) mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, including at least one of a resolution of the picture and a frequency of mode usage (740, 940, 960).\n\n(Currently Amended) Claim 25: A method, comprising: decoding (820, 1030) mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, including at least one of a resolution of the picture and a frequency of mode usage.\n\n(Currently Amended) Claim 33: A non-transitory computer-readable storage medium having video signal data encoded thereupon, comprising: mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, including at least one of a resolution of the picture and a frequency of mode usage.\n```",
+  "usage": {
+    "input_tokens": 5192,
+    "output_tokens": 448,
+    "total_tokens": 5640
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.85,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:41:57Z"
+}

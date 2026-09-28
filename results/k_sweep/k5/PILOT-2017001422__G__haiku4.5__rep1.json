@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017001422",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017001422",
+  "app_num": "13995688",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18191,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "13e88eaf6da8f3d0",
+  "response_text": "1. (Currently Amended) An immunogenic composition comprising: a modified, live bovine viral diarrhea virus type 1b (BVDV-1b) that is __non-cytopathic__, a veterinary-acceptable carrier, and optionally an adjuvant.\n\n2. (Original) The immunogenic composition of claim 1, wherein the modified, live bovine viral diarrhea virus is a cytopathic BVDV-1b virus.\n\n3. (Currently Amended) The immunogenic composition of claim 1, further comprising __one or more additional modified, live viruses selected from__ a parainfluenza virus Type 3 (PI3), a bovine respiratory syncytial virus (BRSV), a bovine herpes virus (BHV-1), a bovine viral diarrhea virus Type 1a (BVDV-1a), a bovine viral diarrhea virus Type 2 (BVDV-2), or an infectious bovine rhinotracheitis (IBR) virus, or any combination thereof; or one or more viral-specific antigens obtained therefrom.\n\n4. (Currently Amended) The immunogenic composition of claim 1, further comprising a modified, live IBRV, a modified, live BRSV, a modified, live BHV-1, a modified, live BVDV Type 1a, a modified, live BVDV Type 2, or a modified, live PI3, or a combination thereof, __wherein the BVDV-1b virus is non-cytopathic__.\n\n6. (Currently Amended) The immunogenic composition of claim 1, further comprising an immunologically effective amount of at least a first __inactivated bacterial__ antigen.\n\n7. (Original) The immunogenic composition of claim 6, wherein the at least a first antigen is specific for an organism selected from the group consisting of Actinobacillus, Actinomyces, Bacillus, Bordetella, Brachyspira, Campylobacter, Clostridium, Ehrlichia, Erysipelothrix, Escherichia, Histophilus, Leptospira, Listeria, Mannheimia, Moraxella, Mycobacterium, Mycoplasma, Pasteurella, Salmonella, and Streptococcus, or a combination thereof.\n\n8. (Original) The immunogenic composition of claim 6, wherein the at least a first antigen is inactivated.\n\n12. (Currently Amended) The immunogenic composition of claim 4, further comprising an immunologically-effective amount of at least one __inactivated bacterial__ microbial pathogen-specific antigen.",
+  "usage": {
+    "input_tokens": 4943,
+    "output_tokens": 639,
+    "total_tokens": 5582
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.89,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:08:23Z"
+}

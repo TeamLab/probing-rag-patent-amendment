@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014003587",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2014003587",
+  "app_num": "12895909",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16329,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ba37dd2b89cf2db1",
+  "response_text": "1. (Currently Amended) A method for controlling a flow of air, the method comprising: establishing a level of vacuum in a booster device by generating the flow of air from the booster device using a pump; determining whether the level of vacuum in the booster device has reached a predetermined value; terminating the flow of air from the booster device when the level of vacuum in the booster device has reached the predetermined value; and __maintaining the level of vacuum in the booster device by preventing re-establishment of air flow to the booster device after termination__.\n\n2. (Currently Amended) The method of claim 1, wherein said terminating the flow of air is accomplished via a directional control valve __that is actively controlled based on the predetermined value__, such that a pressure differential across the pump is reduced.\n\n3. (Currently Amended) The method of claim 2, wherein said terminating the flow of air includes __simultaneously__ changing the direction of the flow of air and closing a flow path between the pump and the booster device __to prevent backflow__.\n\n4. (Currently Amended) The method of claim 3, wherein said changing the direction of the flow of air includes opening a flow path between a negative pressure chamber of the pump and a positive pressure chamber of the pump __in a controlled manner to equalize pressure__.\n\n5. (Currently Amended) The method of claim 3, wherein said changing the direction of the flow of air includes opening a path for a flow of air between the pump and the atmosphere __via the directional control valve__.\n\n6. (Currently Amended) The method of claim 5, further comprising filtering the flow of air between the atmosphere and the pump via a filter __to prevent contamination of the pump__.\n\n7. (Original) The method of claim 1, wherein the booster device is a vacuum servo booster for an automobile braking system.\n\n8. (Currently Amended) A system for controlling a flow of air, the system comprising: a booster device configured to provide a vacuum assist when a level of vacuum has been established in the device; a pump configured to establish the level of vacuum in the booster device by generating the flow of air from the booster device; and a directional control valve __with active control logic__ adapted to terminate the flow of air from the booster device when the level of vacuum in the booster device has reached a predetermined value, such that a pressure differential across the pump is reduced __and the booster device maintains vacuum assist capability__.\n\n9. (Currently Amended) The system of claim 8, wherein the directional control valve is further adapted to __simultaneously__ change the direction of the flow of air and close a flow path between the pump and the booster device __to prevent backflow of air__.\n\n10. (Currently Amended) The system of claim 9, wherein to change the direction of the flow of air the directional control valve opens a flow path between a negative pressure chamber of the pump and a positive pressure chamber of the pump __in a controlled manner__.\n\n11. (Currently Amended) The system of claim 9, wherein to change the direction of the flow of air the directional control valve opens a flow path between the pump and the atmosphere __via the directional control valve__.\n\n12. (Currently Amended) The system of claim 11, further comprising a filter adapted for filtering a flow of air between the atmosphere and the pump __to prevent contamination__.\n\n13. (Original) The system of claim 8, wherein the booster device is a vacuum servo booster for an automobile braking system.\n\n14. (Currently Amended) A motor vehicle comprising: an internal combustion engine; a booster device configured to provide a vacuum assist when a level of vacuum has been established in the device; and a system for controlling a flow of air from the booster device, the system including: a pump configured to establish the level of vacuum in the booster device by generating the flow of air from the booster device; and a directional control valve __with active control logic__ adapted to terminate the flow of air from the booster device when the level of vacuum in the booster device has reached a predetermined value, such that a pressure differential across the pump and a parasitic load on the engine are reduced __and the booster device maintains vacuum assist capability__.\n\n15. (Currently Amended) The vehicle of claim 14, wherein the directional control valve is further adapted to __simultaneously__ change the direction of the flow of air and close a flow path between the pump and the booster device __to prevent backflow__.\n\n16. (Currently Amended) The vehicle of claim 15, wherein to change the direction of the flow of air the directional control valve opens a flow path between a negative pressure chamber of the pump and a positive pressure chamber of the pump __in a controlled manner__.\n\n17. (Currently Amended) The vehicle of claim 15, wherein to change the direction of the flow of air the directional control valve opens a flow path between the pump and the atmosphere __via the directional control valve__.\n\n18. (Currently Amended) The vehicle of claim 17, further comprising a filter adapted for filtering the flow of air between the atmosphere and the pump __to prevent contamination of the pump__.\n\n19. (Original) The vehicle of claim 14, further comprising a braking system, wherein the booster device is a vacuum servo booster for the braking system.\n\n20. (Currently Amended) The vehicle of claim 14, wherein the engine is a compression-ignition type __and the directional control valve is configured to reduce parasitic load during idle conditions__.",
+  "usage": {
+    "input_tokens": 4220,
+    "output_tokens": 1199,
+    "total_tokens": 5419
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.18,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:43:54Z"
+}

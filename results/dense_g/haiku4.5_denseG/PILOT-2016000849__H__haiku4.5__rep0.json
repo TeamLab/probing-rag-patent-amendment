@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2016000849",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2016000849",
+  "app_num": "11628379",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018004614",
+      "PILOT-2018000615",
+      "PILOT-2016008736"
+    ],
+    "retrieved_app_nums": [
+      "12631208",
+      "12062823",
+      "13697681"
+    ],
+    "retrieved_scores": [
+      0.8832,
+      0.8775,
+      0.8748
+    ],
+    "retrieved_chars_total": 5326,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 29431,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "40f9d3489bbba313",
+  "response_text": "1. (Currently amended) A system for analysing risk associated with an investment portfolio of an investor, said system including means for use in generating user interface for display on a user terminal, said user interface showing a distribution of assets of each investment of the investment portfolio over one or more asset classes and showing the distribution of assets over said one or more asset classes of a benchmark risk category representing a risk tolerance level of the investor, __wherein the system does not include means for adding an investment to the investment portfolio or means for removing an investment from the investment portfolio__.\n\n2. (Previously presented)\n\n3. (Previously presented)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Currently amended) A system for creating an investment portfolio for an investor, said system for performing the steps of: (a) categorising the investor as one of a plurality of benchmark risk categories; (b) generating user interface data for display of a user interface on a user terminal, the user interface showing a plurality of investments and including means for selecting investments for inclusion in the investment portfolio; and (c) generating further user interface data for display of another user interface, said another user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing a distribution of assets over said one or more asset classes of said benchmark risk category representing the risk tolerance level of the investor, __wherein the system does not include means for adding an investment to the investment portfolio or means for removing an investment from the investment portfolio__.\n\n8. (Previously presented)\n\n9. (Previously presented)\n\n10. (Previously presented)\n\n11. (Previously presented)\n\n12. (Currently amended) A computer program for analysing risk associated with an investment portfolio of an investor, said program for performing the step of generating a user interface for display on a user terminal, said user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing a distribution of assets over said one or more asset classes of a benchmark risk category representing the risk tolerance level of the investor, __wherein the program does not perform the step of adding an investment to the investment portfolio or removing an investment from the investment portfolio__.\n\n13. (Previously presented)\n\n14. (Previously presented)\n\n15. (Cancelled)\n\n16. (Cancelled)\n\n17. (Cancelled)\n\n18. (Currently amended) A computer program for creating an investment portfolio for an investor, said computer program for performing the steps of: (a) categorising the investor as one of a plurality of benchmark risk categories; (b) generating user interface data for display of a user interface on a user terminal, the user interface showing a plurality of investments and including means for selecting investments for inclusion in the investment portfolio; and (c) generating further user interface data for display of another user interface on said user terminal, said another user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing the distribution of assets over said one or more asset classes of said benchmark risk category representing the risk tolerance level of the investor, __wherein the program does not perform the step of adding an investment to the investment portfolio or removing an investment from the investment portfolio__.\n\n19. (Previously presented)\n\n20. (Previously presented)\n\n21. (Previously presented)\n\n22. (Previously presented)\n\n23. (Cancelled)\n\n24. (Currently amended) A method of analysing risk associated with an investment portfolio of an investor, including the steps of: (a) arranging investments of the investment portfolio to show a distribution of assets of each investment of said investments over one or more asset classes; and (b) determining the degree to which the distribution of assets over said one or more asset classes of said investments corresponds to the distribution of assets over said one or more asset classes of a benchmark risk category representing the risk tolerance level of the investor, __wherein the method does not include the step of adding an investment to the investment portfolio or removing an investment from the investment portfolio__.\n\n25. (Previously presented)\n\n26. (Previously presented)\n\n27. (Previously presented)\n\n28. (Cancelled)\n\n29. (Cancelled)\n\n30. (Cancelled)\n\n31. (Cancelled)\n\n32. (Cancelled)\n\n33. (Cancelled)\n\n34. (Currently amended) A method of creating an investment portfolio for an investor, including the steps of: (a) categorising the investor as one of a plurality of benchmark risk categories; (b) selecting a plurality of investments for the investment portfolio; and (c) analysing the risk associated with the investment portfolio by performing the method claimed in any one of claims 24 to 27, wherein said one of a plurality of benchmark risk categories represents the risk tolerance level of the investor, __and wherein the method does not include the step of adding an investment to the investment portfolio or removing an investment from the investment portfolio__.\n\n35. (Cancelled)\n\n36. (Previously presented)\n\n37. (Previously presented)\n\n38. (Previously presented)\n\n39. (Previously presented)\n\n40. (Currently amended) An analysis process, including comparing a distribution of assets of investments of an investment portfolio over one or more asset classes with a distribution of assets over said one or more asset classes associated with a benchmark risk category representing a risk tolerance level of the investor, __wherein the process does not include adding an investment to the investment portfolio or removing an investment from the investment portfolio__.",
+  "usage": {
+    "input_tokens": 7041,
+    "output_tokens": 1159,
+    "total_tokens": 8200
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.4,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:38:46Z"
+}

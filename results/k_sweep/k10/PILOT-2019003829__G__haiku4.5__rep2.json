@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 29430,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ca66efd6aa23b607",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is __a machine-readable tag that is not disclosed in Maxell Corp. of America as of April 29, 2004__.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in the test tube __and wherein the embedded MTP comprises a specific identifier or data structure not taught by Maxell__.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards, __and wherein the embedding configuration includes a protective layer between the MTP and the test tube material__.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube __designed for long-term storage of biological samples at temperatures below -20°C__.\n\n5. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer __and wherein the polypropylene or acetal polymer is selected to maintain structural integrity and MTP readability at cryogenic temperatures of -20°C or below__.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the test tube __and wherein the test tube is a biorepository test tube__.\n\n19. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer __and wherein the material is selected to withstand cryogenic storage conditions while maintaining MTP readability__.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the test tube __and wherein the embedding maintains the structural integrity of the test tube during cryogenic storage__.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards, __and wherein the embedding configuration is optimized for automated reading at cryogenic temperatures__.\n\n22. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded near the center bottom of the test tube __and wherein the embedding is configured to facilitate automated sample tracking and retrieval__.\n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards, __and wherein the assembly is compatible with automated laboratory handling systems__.",
+  "usage": {
+    "input_tokens": 7216,
+    "output_tokens": 557,
+    "total_tokens": 7773
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.2,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:51:12Z"
+}

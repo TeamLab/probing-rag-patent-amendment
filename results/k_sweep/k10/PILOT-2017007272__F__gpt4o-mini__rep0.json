@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29208,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "001d4440fb19f615",
+  "response_text": "(Currently amended) Claim 1: A cooling system installable within a structure wall, comprising: in a housing, the housing disposed between a pair of studs of the wall, a water reservoir; a pump; a pad; a water distributor; a motor; and a fan, wherein the studs are spaced precisely sixteen inches on center.\n\n(Currently amended) Claim 2: The cooling system of claim 1, wherein the studs are spaced exactly sixteen inches on center.\n\n(Currently amended) Claim 4: The cooling system of claim 1, wherein the pump brings water from the water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad for evaporation.\n\n(Currently amended) Claim 6: The cooling system of claim 5, wherein the fan causes the cooled air to flow out through an opening.\n\n(Currently amended) Claim 11: The cooling system of claim 1, wherein the housing includes a front cover with a designated access panel.\n\n(Currently amended) Claim 13: The cooling system of claim 1, wherein the wall is formed as a load-bearing wall. \n\n(Currently amended) Claim 17: A cooling system, comprising: a housing configured to mount within a structure wall, said housing containing an evaporative cooling mechanism for cooling an indoor area. \n\n(Currently amended) Claim 18: The cooling system of claim 17, wherein the housing is positioned between wall studs that are spaced precisely sixteen inches on center. \n\n",
+  "usage": {
+    "input_tokens": 6549,
+    "output_tokens": 303,
+    "total_tokens": 6852
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.06,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:58:38Z"
+}

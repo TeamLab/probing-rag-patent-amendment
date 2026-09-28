@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2015000199",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2015000199",
+  "app_num": "12887121",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018000263",
+      "PILOT-2019006661",
+      "PILOT-2015002420"
+    ],
+    "retrieved_app_nums": [
+      "13444550",
+      "12903521",
+      "12806073"
+    ],
+    "retrieved_scores": [
+      0.9711,
+      0.9672,
+      0.9559
+    ],
+    "retrieved_chars_total": 2921,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22293,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4799cd35a5f76239",
+  "response_text": "1. (Currently Amended) A method for restoring efficiency of a photovoltaic cell, the method comprising: illuminating a photovoltaic cell such that the photovoltaic cell receives a time integrated irradiance __measured in units of energy per unit area__ equivalent to at least 5 hours of solar illumination; and annealing the photovoltaic cell at a temperature above 90 degrees Celsius for a minimum of 10 minutes, the annealing in response to illuminating the photovoltaic cell.\n\n2. (Currently Amended) The method of Claim 1, wherein the photovoltaic cell comprises a semiconductor wafer, and further comprising one of the following: __illuminating the photovoltaic cell such that__ the photovoltaic cell receives a time integrated irradiance equivalent to at least 20 hours of solar illumination; __illuminating the photovoltaic cell such that__ the photovoltaic cell receives a time integrated irradiance equivalent to at least 16 hours of solar illumination while being heated to at least 50 degrees Celsius during the illuminating step; and __illuminating the photovoltaic cell in sunlight__ using a solar concentrator for at least 10 hours, wherein the solar concentrator increases the irradiance of solar illumination on the photovoltaic cell by a factor of 2 to 5.\n\n3. (Currently Amended) The method of Claim 2, wherein the photovoltaic cell is annealed at a temperature above 130 degrees Celsius, and wherein annealing the photovoltaic cell further comprises __simultaneously__ illuminating the photovoltaic cell.\n\n4. (Currently Amended) The method of Claim 3, wherein illuminating the photovoltaic cell while annealing of the photovoltaic cell is performed such that the photovoltaic cell receives a time integrated irradiance equivalent to at least __5 hours__ of solar illumination.\n\n5. (Original) The method of Claim 1, wherein the semiconductor wafer is a silicon semiconductor wafer.\n\n6. (Original) The method of Claim 1, wherein the photovoltaic cell is annealed at a temperature between 140 degrees Celsius and 210 degrees Celsius for a minimum of 2 hours.\n\n7. (Original) The method of Claim 6, wherein the photovoltaic cell is a thin film photovoltaic cell.\n\n8. (Original) The method of Claim 6, wherein the photovoltaic cell is an amorphous silicon thin film photovoltaic cell.\n\n9. (Original) The method of claim 1, wherein the photovoltaic cell is illuminated after manufacturing of the photovoltaic cell is complete such that the photovoltaic cell produces electricity when illuminated.\n\n10. (Original) The method of claim 1, wherein the photovoltaic cell is illuminated with a light source that simulates light from the sun.",
+  "usage": {
+    "input_tokens": 6123,
+    "output_tokens": 665,
+    "total_tokens": 6788
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.04,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:11:01Z"
+}

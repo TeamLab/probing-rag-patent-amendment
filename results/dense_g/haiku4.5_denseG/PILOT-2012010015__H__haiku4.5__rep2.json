@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2012010015",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2012010015",
+  "app_num": "13152534",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2011012179",
+      "PILOT-2013004567",
+      "PILOT-2011004935"
+    ],
+    "retrieved_app_nums": [
+      "11368755",
+      "12243139",
+      "11246466"
+    ],
+    "retrieved_scores": [
+      0.8732,
+      0.8626,
+      0.8565
+    ],
+    "retrieved_chars_total": 2360,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17875,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8a0ef77da85ee757",
+  "response_text": "1. (Currently amended) A multi-layer coating comprising: (a) a color-imparting, non-hiding coating layer deposited from a protective coating composition comprising an aqueous dispersion comprising color-imparting particles stably dispersed in aqueous medium in admixture with one or more polymers, and (b) a clear coat layer deposited over at least a portion of the color-imparting, non-hiding layer, wherein the color-imparting particles have an average primary particle size less than 150 nanometers.\n\n2. (Cancelled)\n\n3. (Original) The multi-layer coating of claim 1 in which the color-imparting particles are present in the aqueous dispersion in an amount of 0.1 to 50 percent by weight based on total solids present in the aqueous dispersion.\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Original) The multi-layer coating of claim 1 in which the one or more polymers contain a functional group that is reactive with a curing agent.\n\n7. (Original) The multi-layer coating of claim 6 wherein the functional groups are selected from the group consisting of epoxy groups, carboxylic acid groups, hydroxyl groups, isocyanate groups, amide groups, carbamate groups, carboxylate groups and mixtures thereof.\n\n8. (Original) The multi-layer coating of claim 6 in which the aqueous dispersion contains a curing agent.\n\n9. (Original) The multi-layer coating of claim 8 in which the curing agent is an aminoplast and/or a polyisocyanate including blocked polyisocyanates.\n\n10. (Original) The multi-layer coating of claim 1 in which the one or more polymers are present in the aqueous dispersion in amounts of 10 to 70 percent by weight based on total weight of solids in the aqueous dispersion.\n\n11. (Cancelled)\n\n12. (Currently amended) The multi-layer coating of claim 1 applied over a reflective surface comprising a reflective material __selected from metallic pigments including aluminum, bronze, or copper powders,__ having a total reflectance of at least 30 percent.\n\n13. (Original) The multi-layer coating of claim 12 wherein the reflective material is a base coat deposited from a coating composition.\n\n14. (Original) A substrate coated with the multi-layer coating of claim 1.\n\n15. (Original) A substrate coated with the multi-layer coating of claim 13.\n\n16. (Original) The multi-layer coating of claim 1 in which the one or more polymers are selected from acrylic polymers, polyester polymers, polyurethane polymers, polyether polymers, including mixtures thereof.",
+  "usage": {
+    "input_tokens": 5297,
+    "output_tokens": 637,
+    "total_tokens": 5934
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.78,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:14:30Z"
+}

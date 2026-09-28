@@ -1,0 +1,47 @@
+[plan] cases=25  cond=2  reps=3  → total=150 calls  vendor=openrouter  model=sonnet4 (anthropic/claude-sonnet-4)  key_env=OPENROUTER_API_KEY
+[plan] conditions = ['F', 'G']
+[plan] out_dir = outputs/k_sweep/k1  skip_failed=False  overwrite=False
+  [114/150] OK   PILOT-2012007524/G/rep2  in=4666  out=1441  $0.0  19.02s  att=1
+  [115/150] OK   PILOT-2013000789/G/rep0  in=4523  out=1165  $0.0  13.66s  att=1
+  [116/150] OK   PILOT-2013000789/F/rep0  in=4426  out=1261  $0.0  14.19s  att=1
+  [117/150] OK   PILOT-2013000789/G/rep1  in=4523  out=1199  $0.0  15.95s  att=1
+  [118/150] OK   PILOT-2013000789/F/rep1  in=4426  out=1169  $0.0  14.79s  att=1
+  [119/150] OK   PILOT-2013000789/F/rep2  in=4426  out=1256  $0.0  15.71s  att=1
+  [120/150] OK   PILOT-2013000789/G/rep2  in=4523  out=1285  $0.0  14.87s  att=1
+  [121/150] OK   PILOT-2020004768/G/rep0  in=4083  out=1125  $0.0  14.08s  att=1
+  [122/150] OK   PILOT-2020004768/F/rep0  in=4177  out=1227  $0.0  15.33s  att=1
+  [123/150] OK   PILOT-2020004768/G/rep1  in=4083  out=1109  $0.0  14.91s  att=1
+  [124/150] OK   PILOT-2020004768/F/rep1  in=4177  out=1169  $0.0  14.49s  att=1
+  [125/150] OK   PILOT-2020004768/F/rep2  in=4177  out=1128  $0.0  14.48s  att=1
+  [126/150] OK   PILOT-2020004768/G/rep2  in=4083  out=1078  $0.0  9.94s  att=1
+  [127/150] OK   PILOT-2011012180/F/rep0  in=4725  out=1232  $0.0  14.08s  att=1
+  [128/150] OK   PILOT-2011012180/G/rep0  in=4258  out=655  $0.0  8.43s  att=1
+  [129/150] OK   PILOT-2011012180/G/rep1  in=4258  out=1188  $0.0  10.83s  att=1
+  [130/150] OK   PILOT-2011012180/F/rep1  in=4725  out=1214  $0.0  13.49s  att=1
+  [131/150] OK   PILOT-2011012180/G/rep2  in=4258  out=675  $0.0  8.79s  att=1
+  [132/150] OK   PILOT-2011012180/F/rep2  in=4725  out=1186  $0.0  13.29s  att=1
+  [133/150] OK   PILOT-2019003829/F/rep0  in=3897  out=654  $0.0  8.73s  att=1
+  [134/150] OK   PILOT-2019003829/G/rep0  in=3748  out=638  $0.0  8.13s  att=1
+  [135/150] OK   PILOT-2019003829/F/rep1  in=3897  out=646  $0.0  8.02s  att=1
+  [136/150] OK   PILOT-2019003829/G/rep1  in=3748  out=646  $0.0  8.08s  att=1
+  [137/150] OK   PILOT-2019003829/F/rep2  in=3897  out=650  $0.0  8.05s  att=1
+  [138/150] OK   PILOT-2019003829/G/rep2  in=3748  out=655  $0.0  8.29s  att=1
+  [139/150] OK   PILOT-2017007595/G/rep0  in=4638  out=2601  $0.0  25.14s  att=1
+  [140/150] OK   PILOT-2017007595/F/rep0  in=4821  out=2734  $0.0  25.71s  att=1
+  [141/150] OK   PILOT-2017007595/F/rep1  in=4821  out=2531  $0.0  25.27s  att=1
+  [142/150] OK   PILOT-2017007595/G/rep1  in=4638  out=2579  $0.0  24.48s  att=1
+  [143/150] OK   PILOT-2017007595/G/rep2  in=4638  out=2567  $0.0  24.07s  att=1
+  [144/150] OK   PILOT-2017007595/F/rep2  in=4821  out=2659  $0.0  25.18s  att=1
+  [145/150] OK   PILOT-2015006603/F/rep0  in=5147  out=1084  $0.0  10.29s  att=1
+  [146/150] OK   PILOT-2015006603/G/rep0  in=5281  out=1084  $0.0  11.03s  att=1
+  [147/150] OK   PILOT-2015006603/F/rep1  in=5147  out=1176  $0.0  11.22s  att=1
+  [148/150] OK   PILOT-2015006603/G/rep1  in=5281  out=2047  $0.0  17.83s  att=1
+  [149/150] OK   PILOT-2015006603/G/rep2  in=5281  out=1084  $0.0  11.49s  att=1
+  [150/150] OK   PILOT-2015006603/F/rep2  in=5147  out=1099  $0.0  11.48s  att=1
+
+[done] elapsed=8.9 min  total_in=165838  total_out=48896  total_cost=$0.0
+[per-condition]
+  cond           ok   skip   fail
+  F              18     57      0
+  G              19     56      0
+  TOTAL          37    113      0

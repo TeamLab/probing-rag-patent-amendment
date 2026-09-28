@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022000316",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2022000316",
+  "app_num": "12503494",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 31262,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1834412d334705f2",
+  "response_text": "``` \nClaim 13 (Cancelled)\n\nClaim 23 (Currently amended): A computer-based system for trading combinations of financial instruments, said system comprising: a processor; a memory device storing instructions that, when executed by the processor, cause the processor to perform the following steps: obtaining combination orders to trade financial instruments; and obtaining a matched collection of expanded eligible orders, wherein an obtained order is eligible if it satisfies at least one selected condition, and wherein said at least one selected condition includes the necessary condition that all financial instruments specified by the legs of an eligible order are in a set of two or more selected financial instruments.\n\nClaim 24 (Currently amended): The system of claim 23, further comprising components and processes for increasing, at least in principle, the quality of said matched collection.\n\nClaim 25 (Currently amended): The system of claim 23, further comprising components and processes for providing additional trading functionality.\n```",
+  "usage": {
+    "input_tokens": 6501,
+    "output_tokens": 185,
+    "total_tokens": 6686
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.91,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:47:16Z"
+}

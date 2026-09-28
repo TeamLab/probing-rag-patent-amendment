@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2010008015",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2010008015",
+  "app_num": "11047016",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018002351",
+      "PILOT-2018006772",
+      "PILOT-2013003241"
+    ],
+    "retrieved_app_nums": [
+      "11965494",
+      "12272204",
+      "11551896"
+    ],
+    "retrieved_scores": [
+      0.9567,
+      0.9506,
+      0.9446
+    ],
+    "retrieved_chars_total": 3767,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22191,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f3d7b5a4526260c9",
+  "response_text": "(Currently Amended) 1. A method of providing information regarding a product, the method comprising: receiving a unique identifier identifying a package containing a product; and generating at least use information based at least partially on stored user information regarding past use of the product, wherein the method is performed using a computing device.\n\n(Currently Amended) 19. The method of claim 1, wherein the unique identifier comprises a first unique identifier, the method further comprising: reading a second unique identifier identifying a user using a user device.\n\n(Currently Amended) 23. The method of claim 22, wherein generating the at least use information comprises generating the at least use information customized to the role of a user identified by the second unique identifier. \n\n(Currently Amended) 24. The method of claim 1, wherein generating the at least use information comprises generating the at least use information of a type customized for a user identified by the second unique identifier.",
+  "usage": {
+    "input_tokens": 5042,
+    "output_tokens": 194,
+    "total_tokens": 5236
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:29:44Z"
+}

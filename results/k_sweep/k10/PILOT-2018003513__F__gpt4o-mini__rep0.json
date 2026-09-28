@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018003513",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2018003513",
+  "app_num": "11742350",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 38642,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "445d2f0b5e36aecc",
+  "response_text": "Claim 1 (currently amended): (Currently amended) A method for treating an ocular condition, the method comprising: administering to the interior of an eye a composition comprising a therapeutically effective amount of a macromolecular anti-angiogenic component (MAAC) to a mammal suffering from an ocular condition, wherein the composition also comprises a viscosity inducing component in an amount effective to increase the viscosity of the composition to a viscosity at about 25°C of at least 10 cps at a shear rate of about 0.1/second, wherein said viscosity inducing component is injectable into the vitreous of a mammalian eye without permanently diminishing visual acuity.\n\nClaim 5 (currently amended): (Currently amended) The method of claim 1 wherein a symptom of the ocular condition is the formation of new blood vessels, and the MAAC comprises a direct or indirect inhibitor of a vascular endothelial growth factor (VEGF) activity.\n\nClaim 6 (cancelled): (Cancelled) The method of claim 5 wherein the MAAC comprises an agent selected from the group consisting of a nucleic acid (a oligonucleotide) and a polypeptide.\n\nClaim 14 (currently amended): (Currently amended) The method of claim 1 wherein said MAAC comprises an angiogenesis inhibitor. \n\nClaim 15 (currently amended): (Currently amended) The method of claim 14 wherein said protein is selected from the group consisting of an antibody, an antibody mimic, an angiogenesis inhibitor, and a receptor inhibitor.\n\nClaim 20 (currently amended): (Currently amended) The method of claim 1 wherein said viscosity inducing component comprises a compound selected from the group consisting of a hyaluronic acid, a cross-linked hyaluronic acid, a crosslinked polymer containing subunits derived from acrylic acid, polyacrylic acid, celluloses derivatives, polycarbophil, polyvinylpyrrolidone, gelatin, dextrin, polysaccharides, polyacrylamide, polyvinyl alcohol, polyvinyl acetate, and derivatives, mixtures and copolymers thereof, wherein at least one of said compounds has a viscosity of at least 10 cps at a shear rate of 0.1/second at 25°C.\n\nClaim 36 (currently amended): (Currently amended) A pharmaceutical composition for intravitreal administration to treat an ocular condition comprising a MAAC and a high viscosity hyaluronic acid carrier, wherein the composition is formulated to provide a sustained release of the MAAC to the target tissue.",
+  "usage": {
+    "input_tokens": 9151,
+    "output_tokens": 508,
+    "total_tokens": 9659
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.96,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:10:37Z"
+}

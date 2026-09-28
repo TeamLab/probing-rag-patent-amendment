@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2009010505",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2009010505",
+  "app_num": "10993377",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22741,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5ae7c74dc1c2fef1",
+  "response_text": "Claim 1 (Currently Amended): An apparatus for aligning document actions specified in a documented procedure with demonstrated user actions, comprising: an alignment device for computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric, __wherein the alignment device is configured to adjust the alignment based on real-time user interaction data__.\n\nClaim 17 (Currently Amended): A method for aligning document actions specified in a documented procedure with demonstrated user actions, comprising the steps of: computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric, __wherein the computing step adjusts the alignment based on real-time user interaction data__.",
+  "usage": {
+    "input_tokens": 4926,
+    "output_tokens": 138,
+    "total_tokens": 5064
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.85,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:58:57Z"
+}

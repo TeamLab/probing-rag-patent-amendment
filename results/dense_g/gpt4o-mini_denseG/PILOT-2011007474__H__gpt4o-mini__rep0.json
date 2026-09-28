@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2011007474",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2011007474",
+  "app_num": "11613859",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2015001404",
+      "PILOT-2010001033",
+      "PILOT-2014008880"
+    ],
+    "retrieved_app_nums": [
+      "12759449",
+      "11388411",
+      "12928028"
+    ],
+    "retrieved_scores": [
+      0.8491,
+      0.8421,
+      0.8403
+    ],
+    "retrieved_chars_total": 2548,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17646,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e565dc39a0a70a1b",
+  "response_text": "Claim 1 (Currently Amended): WHAT IS CLAIMED IS: 1 1. A method comprising: 2 receiving requests and data records from a plurality of creditors to file 3 bankruptcy documents with a plurality of different bankruptcy organizations; 4 automatically generating the bankruptcy documents with the received data 5 records, wherein the bankruptcy documents are suitable for filing with different bankruptcy 6 organizations; and 7 batch filing the bankruptcy documents with the different bankruptcy 8 organizations, wherein the bankruptcy documents include at least one unique identifier for each creditor.\n\nClaim 2 (Currently Amended): 1 2. The method of claim 1 wherein the different bankruptcy organizations 2 are different courts with different filing system configurations, and wherein the unique identifier corresponds to a specific creditor's account.\n\nClaim 6 (Currently Amended): 1 6. A method comprising: 2 receiving requests from a plurality of creditors to file proofs of claims for 3 debts owed by debtors to the creditors with a plurality of different bankruptcy organizations, 4 wherein each request includes a data record for generating a proof of claim; 5 automatically generating the proofs of claims with the received data records, 6 wherein the proofs of claims are suitable for filing with different bankruptcy organizations; 7 and 8 batch filing the proofs of claims with the different bankruptcy organizations, wherein each proof of claim includes at least one unique identifier for each creditor.\n\nClaim 7 (Currently Amended): 1 7. The method of claim 6 wherein the different bankruptcy organizations 2 are different bankruptcy courts having different filing system configurations, and wherein the unique identifier corresponds to a specific creditor's account.",
+  "usage": {
+    "input_tokens": 4063,
+    "output_tokens": 335,
+    "total_tokens": 4398
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.4,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:21:26Z"
+}

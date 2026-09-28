@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004151",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2015004151",
+  "app_num": "12702453",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 12182,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2a035737aacc9c70",
+  "response_text": "(Currently Amended) Claim 1: A cleanable, waterborne polyurethane dispersion comprising the reaction product of: A) one or more OH-functional acrylic dispersions and B) one or more __specifically defined__ polyisocyanates modified by 3-(cyclohexylamino)-propanesulfonic acid.\n\n(Currently Amended) Claim 2: The dispersion of claim 1, wherein component A) comprises at least two distinct OH-functional acrylic dispersions.\n\n(Currently Amended) Claim 3: The dispersion of claim 1, wherein component B) comprises at least one polyisocyanate that is modified by 3-(cyclohexylamino)-propanesulfonic acid and is derived from an aliphatic diisocyanate.\n\n(Currently Amended) Claim 7: The coating of claim 6, wherein the surface energy of the coating is greater than 31.0 dynes/cm, measured using a contact angle method.\n\n(Currently Amended) Claim 8: The coating of claim 7, wherein the surface roughness of the coating is described as having a root mean square roughness greater than 200 nm, as measured by atomic force microscopy.",
+  "usage": {
+    "input_tokens": 3089,
+    "output_tokens": 253,
+    "total_tokens": 3342
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.72,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:40:07Z"
+}

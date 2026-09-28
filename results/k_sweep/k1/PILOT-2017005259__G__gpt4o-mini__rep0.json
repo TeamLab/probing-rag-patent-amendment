@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005259",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017005259",
+  "app_num": "13380428",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 9087,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "144e3e3de3c5a847",
+  "response_text": "Claim 1 (Currently Amended): A speaker comprising a permanent magnet (2), and a coil (8) positioned around the permanent magnet and attached to a membrane (10), wherein the membrane (10) comprises an elastomer of thickness less than 0.3mm and with a Young's modulus __of at least 10MPa but below 100MPa__.\n\nClaim 2 (Currently Amended): A speaker as claimed in claim 1, wherein the elastomer (10) comprises a silicone.\n\nClaim 5 (Currently Amended): A speaker as claimed in any preceding claim, wherein the membrane (10) comprises a flat central region and a supporting edge region, and wherein the speaker further comprises a stiffening element (16) on the flat central region on the opposite side of the membrane (10) to the coil (8).\n\nClaim 10 (Currently Amended): A method of manufacturing a speaker, comprising: forming a membrane (10) from an elastomer, wherein the membrane has thickness less than 0.3mm and has a Young's modulus __of at least 10MPa but below 100MPa__; attaching a coil (8) to the membrane; and assembling the speaker by suspending the membrane (10), such that the coil (8) is positioned around a permanent magnet (2).",
+  "usage": {
+    "input_tokens": 2359,
+    "output_tokens": 272,
+    "total_tokens": 2631
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.15,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:23:33Z"
+}

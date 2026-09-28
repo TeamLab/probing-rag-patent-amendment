@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012005674",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2012005674",
+  "app_num": "11677766",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 35457,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2d294c49b6358047",
+  "response_text": "(Currently Amended) Claim 1: A method for generating a superframe preamble for a superframe, the superframe preamble comprising a plurality of symbols, in an orthogonal frequency division multiplexing (OFDM) network, comprising: for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed __either uniformly or non-uniformly__ over substantially the entire carrier; and for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel.\n\n(Currently Amended) Claim 2: The method as set forth in Claim 1, the first set of subcarriers distributed uniformly over substantially the entire carrier.\n\n(Currently Amended) Claim 3: The method as set forth in Claim 1, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern.\n\n(Currently Amended) Claim 4: The method as set forth in Claim 1, the second set of subcarriers distributed __at least partially__ over substantially the entire carrier.\n\n(Currently Amended) Claim 19: A superframe generator in a base station in an OFDM network, comprising a preamble generator operable to generate a superframe preamble comprising a plurality of symbols for a superframe by (i) for a first one of the symbols, allocating a first set of subcarriers of a carrier to a first broadcast channel, the first set of subcarriers distributed __either uniformly or non-uniformly__ over substantially the entire carrier, and (ii) for the first one of the symbols, allocating a second set of subcarriers of the carrier to a second broadcast channel.\n\n(Currently Amended) Claim 20: The superframe generator as set forth in Claim 19, the first set of subcarriers distributed uniformly over substantially the entire carrier.\n\n(Currently Amended) Claim 21: The superframe generator as set forth in Claim 19, the first set of subcarriers distributed non-uniformly over substantially the entire carrier, according to a pre-determined pattern.",
+  "usage": {
+    "input_tokens": 7563,
+    "output_tokens": 451,
+    "total_tokens": 8014
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.18,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:10:08Z"
+}

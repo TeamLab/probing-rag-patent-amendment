@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21297,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e81783a5d4c0aca6",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, __wherein the MTP comprises a radio frequency identification (RFID) tag configured to store sample identification data__.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in the test tube __and wherein the RFID tag is programmed with unique sample tracking information__.\n\n3. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded __underneath the bottom of the test tube__, oriented for reading downwards.\n\n4. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube __configured for automated sample handling and tracking__.\n\n5. (Previously presented) The assembly claim 1, wherein the MTP is embedded in polypropylene or acetal polymer.\n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the __test tube__.\n\n13. (Previously presented) A system for storing samples and comprising of the assembly of claim 1, and one or more of the following: a rack for biorepository test tubes; automated robot for moving racks or biorepository test tubes; and automated sampling device adapted to sample said racks or biorepository test tubes.\n\n14. (Previously presented) The system of claim 13 adapted for low temperature operation, such that the racks/test tubes are handled at -20 C or less.\n\n15. (Previously presented) A method of forminq a test tube assembly of claim 1, comp risinq embedding a MTP in plastic or comprising heating the MTP to above the melting point of the plastic and melting a portion of the plastic with the heated MTP.\n\n16. (Previously presented) A method of reading an embedded MTP in a test tube assembly of claim 1, comprising: providing an embedded MTP; and reading the MTP.\n\n17. (Previously presented) The method of reading of claim 16, wherein the embedding material is frost coated.\n\n18. (Previously presented) The method of claim 16, wherein the reader comprises a vial receptacle and wherein vial receptacle and the embedded MTP are maintained at a temperature of -20 C or less.\n\n19. (Previously presented) The assembly claim 4, wherein the MTP is embedded in polypropylene or acetal polymer.\n\n20. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the __test tube__.\n\n21. (Currently Amended) The assembly of claim 19, wherein the MTP is embedded __underneath the bottom of the test tube__, oriented for reading downwards.\n\n22. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded near the center bottom of the __test tube__.\n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded __underneath the bottom of the test tube__, oriented for reading downwards.",
+  "usage": {
+    "input_tokens": 5330,
+    "output_tokens": 662,
+    "total_tokens": 5992
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.59,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:05:55Z"
+}

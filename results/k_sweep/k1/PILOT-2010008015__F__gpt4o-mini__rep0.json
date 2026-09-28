@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010008015",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2010008015",
+  "app_num": "11047016",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21212,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fbda60d770384d1e",
+  "response_text": "Claim 1 (Currently Amended): A method of providing information regarding a product, the method comprising: receiving a unique identifier identifying a package containing a product; and generating at least use information based at least partially on stored user information regarding past use of the product, wherein the method is implemented using a computing device.\n\nClaim 19 (Currently Amended): The method of claim 1, wherein the unique identifier comprises a first unique identifier, the method further comprising: reading a second unique identifier identifying a user, wherein the second unique identifier is associated with a user device.\n\nClaim 23 (Currently Amended): The method of claim 22, wherein generating the at least use information comprises generating the at least use information customized to the specific role of the user within a healthcare setting. \n\nClaim 24 (Currently Amended): The method of claim 1, wherein generating the at least use information comprises generating the at least use information of a type customized for a specific user profile associated with the unique identifier. \n\nClaim 27 (Currently Amended): A system for providing information regarding a product, the system comprising: a computing device configured to receive a unique identifier identifying a package containing a product and generate at least use information based at least partially on stored user information regarding past use of the product associated with the unique identifier, the computing device further configured to communicate with a user device.",
+  "usage": {
+    "input_tokens": 4852,
+    "output_tokens": 276,
+    "total_tokens": 5128
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.96,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:42:55Z"
+}

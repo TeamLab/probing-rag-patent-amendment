@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22566,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cf11b91669a1c8b2",
+  "response_text": "1. (Currently amended) A method of using a finger palette to transfer cosmetics from a container to a destination, the method comprising:\na. providing a finger palette including:\ni. a ring portion that is securable to a finger; and\nii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to spread or blend cosmetic product on the surface portion;\nb. securing the finger palette to a finger;\nc. depositing a cosmetic product onto the surface portion of the finger palette __using an applicator tool__; and\nd. transferring the cosmetic product from the surface portion of the finger palette to a destination __using the applicator tool or a separate transfer tool__.\n\n2. (Currently amended) The method of claim 1, further including the step of __removing the cosmetic product from a container using an applicator tool__ before depositing the cosmetic product onto the surface portion of the finger palette.\n\n4. (Currently amended) The method of claim 1, wherein:\na. a first quantity of the cosmetic product is deposited onto the surface portion; and\nb. a second quantity of the cosmetic product is transferred from the surface portion to the destination, the second quantity being smaller than the first quantity, __wherein the cosmetic product remaining on the surface portion after transfer is retained for blending with additional cosmetic products or for subsequent application__.\n\n5. (Original)\n\n6. (Currently amended) The method of claim 1, wherein the surface portion is at least substantially without protrusions extending therefrom __and is configured to facilitate scraping motion of an applicator across the surface portion without interruption__.\n\n7. (Currently amended) The method of claim 1, wherein the surface portion is at least substantially planar __and extends from a surface center to an outer perimeter without intervening ridges, grooves, or recesses__.\n\n11. (Currently amended) The method of claim 1, wherein the finger palette is secured to the finger by passing the finger through the ring portion __such that the ring portion is removably and replaceably securable to the finger__.",
+  "usage": {
+    "input_tokens": 5376,
+    "output_tokens": 462,
+    "total_tokens": 5838
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.31,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:57:54Z"
+}

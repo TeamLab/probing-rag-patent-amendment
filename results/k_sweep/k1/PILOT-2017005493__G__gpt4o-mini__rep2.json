@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13576,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fcd08e49a4d495b5",
+  "response_text": "1 (Currently Amended): A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a __removable__ base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member.\n\n5 (Currently Amended): The lamp of claim 1 wherein said diodes are substantially evenly spaced radially around the columnar body with at least one diode positioned at each face of the columnar body.\n\n7 (Currently Amended): The lamp of claim 1 wherein said columnar body comprises one of a tetragon, pentagon, hexagon, heptagon, octagon, nonagon, decagon, hendecagon, or dodecagon in cross-section __and each face is flat__.\n\n11 (Currently Amended): The lamp of claim 1 wherein said columnar body and said fins are comprised of a material having a thermal conductivity greater than __about__ 100 W/ mK.\n\n16 (Currently Amended): A lamp comprising an elongated hollow polygonal body comprised of a material having a thermal conductivity greater than 100 W/ mK, a fin extending radially from each corner of said body, a light emitting diode mounted to each side of said body, a screw or wedge base connector closing a first end of said body, a second end of said body being open, an electronics module disposed within said body in electrical communication with said connector and said light emitting diodes, said lamp having a general A19 outline __with flat faces.",
+  "usage": {
+    "input_tokens": 3287,
+    "output_tokens": 347,
+    "total_tokens": 3634
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.02,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:31:30Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022001087",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2022001087",
+  "app_num": "15853199",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 28690,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "46b9e914f4aa5762",
+  "response_text": "(Currently amended) Claim 1: A system for providing security in a computer system, the system comprising one or more logic circuits configured to receive a plurality of independent first entropy values from a hardware source; to combine the plurality of independent first entropy values in a defined manner to generate a second entropy value; to seed a pseudorandom number generator with the second entropy value; to generate a random number using the pseudorandom number generator seeded with the second entropy value; and to produce a block of ciphertext or message authentication code using the random number.\n\n(Currently amended) Claim 3: The system of claim 1, wherein the one or more logic circuits are configured to produce the block of ciphertext or message authentication code by implementing a key-agreement protocol using the random number, in which a key is produced, and producing the block of ciphertext or message authentication code using the key.\n\n(Currently amended) Claim 4: The system of claim 1, wherein the hardware source is a ring oscillator, and the one or more logic circuits are configured to receive the plurality of independent first entropy values from the ring oscillator.\n\n(Currently amended) Claim 5: The system of claim 1, wherein the hardware source is a single hardware source, and the one or more logic circuits are configured to receive the plurality of independent first entropy values from the single hardware source.\n\n(Currently amended) Claim 6: The system of claim 1, wherein the hardware source is a plurality of independent hardware sources, and the one or more logic circuits are configured to receive the plurality of independent first entropy values from the plurality of independent hardware sources.\n\n(Currently amended) Claim 7: The system of claim 1, wherein the function is a permutation function, and the one or more logic circuits are configured to apply at least some of the plurality of independent first entropy values to the permutation function.\n\n(Currently amended) Claim 8: The system of claim 7, wherein the one or more logic circuits are configured to divide the plurality of independent first entropy values into multiple groups of independent first entropy values, apply the multiple groups of independent first entropy values to the permutation function to generate permuted groups of entropy values, and concatenate the permuted groups of entropy values to generate the second entropy value.\n\n(Currently amended) Claim 16: The method of claim 13, wherein the hardware source is a ring oscillator, and wherein receiving the plurality of independent first entropy values includes receiving the plurality of independent first entropy values from the ring oscillator.\n\n(Currently amended) Claim 17: The method of claim 13, wherein the hardware source is a single hardware source, and wherein receiving the plurality of independent first entropy values includes receiving the plurality of independent first entropy values from the single hardware source.\n\n(Currently amended) Claim 18: The method of claim 13, wherein the hardware source is a plurality of independent hardware sources, and wherein receiving the plurality of independent first entropy values includes receiving the plurality of independent first entropy values from the plurality of independent hardware sources.\n\n(Currently amended) Claim 19: The method of claim 13, wherein the function is a permutation function, and wherein applying at least some of the plurality of independent first entropy values to the function includes applying at least some of the plurality of independent first entropy values to the permutation function.\n\n(Currently amended) Claim 20: The method of claim 19, wherein applying at least some of the plurality of independent first entropy values to the function includes dividing the plurality of independent first entropy values into multiple groups of independent first entropy values, applying the multiple groups of independent first entropy values to the permutation function to generate permuted groups of entropy values, and concatenating the permuted groups of entropy values to generate the second entropy value.",
+  "usage": {
+    "input_tokens": 6126,
+    "output_tokens": 755,
+    "total_tokens": 6881
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.18,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:37:31Z"
+}

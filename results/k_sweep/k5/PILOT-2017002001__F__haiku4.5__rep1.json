@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23552,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cfb076eec4565dd3",
+  "response_text": "13. (Currently amended) A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides integrated contact elements by which power is supplied to said heater, wherein said contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater, __the contact elements being electrically isolated from the respiratory gas passage__.\n\n14. (Currently amended) The gas tube arrangement according to claim 13, further comprising an insulating sheathing body __surrounding at least a portion of the flexible tube__.\n\n15. (Currently amended) The gas tube arrangement according to claim 14, wherein the insulating sheathing body is removably attachable to the flexible tube __via mechanical fasteners or snap-fit connections__.\n\n16. (Cancelled)\n\n17. (Currently amended) The gas tube arrangement according to claim 14, wherein said sheathing body includes a multi-layered design __comprising at least an inner insulating layer and an outer protective layer__.\n\n18. (Currently amended) The gas tube arrangement according to claim 13, wherein the tube is a heatable respiratory gas tube __having heating elements embedded within or along the tube wall__.\n\n19. (Currently amended) The gas tube arrangement according to claim 14, wherein the heater is integrated into the tube __such that the heater is in direct contact with the respiratory gas__.\n\n20. (Currently amended) The gas tube arrangement according to claim 13, wherein said second connector further includes a pressure measuring tube connection __in fluid communication with the first portion__.\n\n21. (Currently amended) The gas tube arrangement according to claim 13, further comprising a respiratory gas humidifier __positioned upstream of the first connector__.\n\n22. (Currently amended) The gas tube arrangement according to claim 21, wherein said humidifier is adapted to be connected to a water source via a humidification line __that is separate from the respiratory gas passage__.\n\n23. (Currently amended) The gas tube arrangement according to claim 21, wherein said humidifier is in the form of a flexible tube piece disposed between the breathing mask and the respiratory gas tube __and configured to add moisture to the respiratory gas__.\n\n24. (Currently amended) The gas tube arrangement according to claim 13, wherein the flexible tube is made from a spirally reinforced plastic material __having a tensile strength of at least 5 MPa__.\n\n25. (Currently amended) The gas tube arrangement according to claim 13, wherein the heater is an electrical resistance heater __comprising a resistive wire or film element__.\n\n26. (Currently amended) The gas tube arrangement according to claim 13, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, __the contact elements being spaced radially around the gas passage__.\n\n27. (Currently amended) The gas tube arrangement according to claim 13, wherein each contact element is provided within the second portion __and extends inwardly toward the gas passage__.\n\n28. (Currently amended) The gas tube arrangement according to claim 13, wherein the first portion is tubular and the second portion extends outwardly from the first portion __in a radial direction__.\n\n29. (Currently amended) A connector for connecting a CPAP device to a respiratory gas tube arrangement for supplying a respiratory gas to a person, the respiratory gas tube arrangement including a heater, the connector comprising: a first portion that provides a respiratory gas passage; and a second portion that provides integrated contact elements by which power is supplied to the heater, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, __the contact elements being electrically isolated from the respiratory gas passage__.\n\n30. (Currently amended) A connector according to claim 29, wherein each contact element is provided within the second portion __and extends inwardly toward the gas passage__.\n\n31. (Currently amended) A connector according to claim 29, wherein the first portion is tubular and the second portion extends outwardly from the first portion __in a radial direction__.",
+  "usage": {
+    "input_tokens": 5773,
+    "output_tokens": 993,
+    "total_tokens": 6766
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.43,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:13:29Z"
+}

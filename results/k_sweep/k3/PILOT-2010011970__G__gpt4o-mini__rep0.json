@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 14552,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d138fe183d79b773",
+  "response_text": "```\n(Currently Amended) Claim 15: The method of selecting a server computer for sending data to a client computer, the method comprising: accessing a first server computer in a computer network through a path; adding information indicative of at least one first server computer to a locator of a resource on a second server computer; wherein the resource has a unique signature as part of its identifier; and selecting the first server computer based on the information added to the locator.\n\n(Currently Amended) Claim 24: The system of selecting a server computer for sending data to a client computer, the system comprising: a first server computer accessible through a path in a computer network; a second server computer comprising a Web application server having a Web page with a hyperlink referencing the data to be sent to the client computer; the hyperlink including a unique signature; circuitry for selecting the hyperlink by the client computer and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.\n\n(Currently Amended) Claim 27: The computer program product for selecting a server computer for sending data to a client computer, the computer program product comprising: a second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer; the hyperlink including a unique signature; and a program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.\n```",
+  "usage": {
+    "input_tokens": 3340,
+    "output_tokens": 312,
+    "total_tokens": 3652
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.05,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:02:40Z"
+}

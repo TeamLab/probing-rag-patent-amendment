@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2012000327",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2012000327",
+  "app_num": "11911726",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2018002423",
+      "PILOT-2013004567",
+      "PILOT-2011004935"
+    ],
+    "retrieved_app_nums": [
+      "14347694",
+      "12243139",
+      "11246466"
+    ],
+    "retrieved_scores": [
+      0.905,
+      0.8927,
+      0.8819
+    ],
+    "retrieved_chars_total": 1580,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19552,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "af80aa5a32e44c74",
+  "response_text": "1. (Currently amended) A combination product comprising: (A) BH4 [[, a functional derivative or biosynthetic precursor thereof, or a pharmaceutically-acceptable derivative of BH4 or its derivative or precursor]] __or a biosynthetic precursor thereof__; and (B) an inhibitor of the biosynthesis and/or vasopressor function of __angiotensin II (AII), wherein the inhibitor is a renin inhibitor, an ACE inhibitor or an AT1 receptor antagonist,__ [[or a pharmaceutically-acceptable derivative thereof,]] wherein each of components (A) and (B) is formulated in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\n2. (Currently amended) A combination product as claimed in Claim 1 that comprises a pharmaceutical formulation including BH4 [[, a functional derivative or biosynthetic precursor thereof, or a pharmaceutically-acceptable derivative of BH4 or its derivative or precursor]], __or a biosynthetic precursor thereof,__ an inhibitor of the biosynthesis and/or vasopressor function of __angiotensin II (AII), wherein the inhibitor is a renin inhibitor, an ACE inhibitor or an AT1 receptor antagonist,__ [[or a pharmaceutically-acceptable derivative thereof,]] and a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\n3. (Currently amended) A combination product as claimed in Claim 1 that comprises a kit of parts comprising components: (I) a pharmaceutical formulation including BH4 [[, a functional derivative or biosynthetic precursor thereof, or a pharmaceutically-acceptable derivative of BH4 or its derivative or precursor]], __or a biosynthetic precursor thereof,__ in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier; and (II) a pharmaceutical formulation including an inhibitor of the biosynthesis and/or vasopressor function of __angiotensin II (AII), wherein the inhibitor is a renin inhibitor, an ACE inhibitor or an AT1 receptor antagonist,__ [[or a pharmaceutically-acceptable derivative thereof,]] in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier, which components (I) and (II) are each provided in a form that is suitable for administration in conjunction with the other.\n\n4. (Previously presented) A kit of parts as claimed in Claim 3, wherein components (I) and (II) are suitable for sequential, separate and/or simultaneous use in the treatment of hypertension and/or conditions characterised by microvascular dysfunction and/or lesions.\n\n5. (Previously presented) A kit of parts as claimed in Claim 4, wherein the condition is hypertension, diabetic retinopathy, diabetic nephropathy, glomerulonephritis and/or glomerulosclerosis.\n\n6. (Cancelled)\n\n7. (Cancelled)\n\n8. (Cancelled)\n\n9. (Cancelled)\n\n10. (Cancelled)\n\n11. (Cancelled)\n\n12. (Cancelled)\n\n13. (Cancelled)\n\n14. (Cancelled)\n\n15. (Cancelled)\n\n16. (Currently amended) A method of making a kit of parts as defined in any one of Claims 3 to [[15]] __5__, which method comprises bringing a component (I), as defined in any one of Claims 3 to [[15]] __5__, into association with a component (II), as defined in any one of Claims 3 to [[15]] __5__, thus rendering the two components suitable for administration in conjunction with each other.\n\n17. (Currently amended) A kit of parts comprising: (1) one of components (I) and (II), as defined in any one of Claims 3 to [[15]] __5__; together with (2) instructions to use that component in conjunction with the other of the two components.",
+  "usage": {
+    "input_tokens": 4738,
+    "output_tokens": 770,
+    "total_tokens": 5508
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.37,
+  "cost_usd": 0.01362,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:21:30Z"
+}

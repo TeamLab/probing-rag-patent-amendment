@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2012006145",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2012006145",
+  "app_num": "10979681",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2015003218",
+      "PILOT-2010012232",
+      "PILOT-2011006973"
+    ],
+    "retrieved_app_nums": [
+      "13333287",
+      "11691099",
+      "12025615"
+    ],
+    "retrieved_scores": [
+      0.8529,
+      0.8443,
+      0.839
+    ],
+    "retrieved_chars_total": 3089,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18868,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1bbddfafa368af33",
+  "response_text": "1. (Currently amended) A method of cementing comprising: providing a cement composition comprising a carboxylated inulin __derived from chicory__; and allowing the cement composition to set.\n\n2. (Original)\n\n3. (Original)\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Currently amended) The method of claim 1 wherein the cement composition is placed in a subterranean formation __and wherein the carboxylated inulin is present in an amount of from about 0.5 to about 5 wt. % of the cement composition__.\n\n12. (Currently amended) The method of claim 1 wherein the cement composition is placed in a wellbore __and wherein the cement composition has a free water separation of from about 0.0 to about 2 wt.% of the cement composition__.\n\n13. (Currently amended) A method of cementing in a subterranean formation comprising: providing a cement composition comprising a carboxylated inulin __derived from chicory__; placing the cement composition in the subterranean formation; and allowing the cement composition to set therein.\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Original)\n\n18. (Original)\n\n19. (Original)\n\n20. (Original)\n\n21. (Original)\n\n22. (Original)\n\n23. (Currently amended) The method of claim 13 wherein the cement composition is placed in a wellbore __and wherein the cement composition has a thickening time of from about 2 hours to about 11 hours at temperatures up to about 280 °F__.",
+  "usage": {
+    "input_tokens": 5342,
+    "output_tokens": 400,
+    "total_tokens": 5742
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:36:55Z"
+}

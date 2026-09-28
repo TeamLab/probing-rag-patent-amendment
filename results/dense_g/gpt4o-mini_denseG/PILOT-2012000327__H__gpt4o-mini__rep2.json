@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2012000327",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2012000327",
+  "app_num": "11911726",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2018002423",
+      "PILOT-2013004567",
+      "PILOT-2011004935"
+    ],
+    "retrieved_app_nums": [
+      "14347694",
+      "12243139",
+      "11246466"
+    ],
+    "retrieved_scores": [
+      0.905,
+      0.8927,
+      0.8819
+    ],
+    "retrieved_chars_total": 1580,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19552,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "af80aa5a32e44c74",
+  "response_text": "Claim 1 (currently amended): A combination product comprising: (A) BH4, a functional derivative thereof, or a pharmaceutically-acceptable derivative of BH4; and (B) an inhibitor of the biosynthesis and/or vasopressor function of angiotensin II (AII), or a pharmaceutically-acceptable derivative thereof, wherein each of components (A) and (B) is formulated in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\nClaim 2 (currently amended): A combination product as claimed in Claim 1 that comprises a pharmaceutical formulation including BH4, a functional derivative thereof, or a pharmaceutically-acceptable derivative of BH4, an inhibitor of the biosynthesis and/or vasopressor function of AII, or a pharmaceutically-acceptable derivative thereof, and a pharmaceutically-acceptable adjuvant, diluent or carrier.\n\nClaim 3 (currently amended): A combination product as claimed in Claim 1 that comprises a kit of parts comprising components: (I) a pharmaceutical formulation including BH4, a functional derivative thereof, or a pharmaceutically-acceptable derivative of BH4, in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier; and (II) a pharmaceutical formulation including an inhibitor of the biosynthesis and/or vasopressor function of AII, or a pharmaceutically-acceptable derivative thereof, in admixture with a pharmaceutically-acceptable adjuvant, diluent or carrier, which components (I) and (II) are each provided in a form that is suitable for administration in conjunction with the other.\n\nClaim 13 (currently amended): A combination product as claimed in any one of the preceding claims, wherein the inhibitor of the biosynthesis and/or vasopressor function of AII is a renin inhibitor, an ACE inhibitor or an AT1 receptor antagonist.\n\nClaim 14 (currently amended): A combination product as claimed in Claim 13, wherein the inhibitor of the biosynthesis and/or vasopressor function of AII is a compound selected from the group consisting of aliskiren, ditekiren, enalkiren, remikiren, terlakiren, zankiren, benazepril, captopril, cilazapril, enalapril, fosinopril, lisinopril, moexepril, perindopril, quinapril, ramipril, trandolapril, candesartan, eprosartan, irbesartan, losartan, olmesartan, telmisartan, tasosartan, valsartan, ciclosidomine, furosemide and saralasin.\n\nClaim 15 (currently amended): A combination product as claimed in Claim 14, wherein the inhibitor of the biosynthesis and/or vasopressor function of AII is a compound selected from the group consisting of eprosartan, irbesartan, losartan, olmesartan, telmisartan, tasosartan, valsartan or, particularly, candesartan (optionally in prodrug form, such as candesartan cilexetil).",
+  "usage": {
+    "input_tokens": 4739,
+    "output_tokens": 645,
+    "total_tokens": 5384
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.8,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:23:00Z"
+}

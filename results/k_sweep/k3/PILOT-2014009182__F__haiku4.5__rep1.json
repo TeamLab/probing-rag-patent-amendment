@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014009182",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2014009182",
+  "app_num": "13593995",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 18318,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e00b5369911dcb04",
+  "response_text": "1. (Currently Amended) A method, comprising: applying a first coating material on a threaded region of an opening in a multi-piece assembly, wherein the first coating material is applied __solely within the opening and in a substantially uniform thickness upon the threads__; inserting at least one fastener to the threaded region, the fastener including a mating thread selectively secured to the threaded region of the opening to create a first friction interface between the fastener and the multi-piece assembly; and tensioning the fastener between a load surface of the multi-piece assembly and a mating thread of the fastener to define a second friction interface between the multi-piece assembly and the fastener, the second friction interface being spaced away from the threaded region such that the first coating material does not influence the second friction interface, __wherein the first coating material is a thread locking adhesive__.\n\n2. (Currently Amended) The method of claim 1, further comprising __adjusting the first friction interface independent of the second friction interface by adjusting an amount of the first coating material applied to the threaded region, thereby increasing friction at the first friction interface without affecting friction at the second friction interface__.\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Original) The method of claim 1, further comprising establishing the multi-piece assembly as a connecting rod, the opening defined by the connecting rod and extending through a bearing cap and a crankshaft portion of the connecting rod, wherein the fastener selectively secures the bearing cap to the crankshaft portion.\n\n6. (Original) The method of claim 1, wherein applying the first coating material includes inserting at least one plunger into the opening.\n\n7. (Original) The method of claim 6, wherein applying the first coating material includes rotating the plunger within the opening.\n\n8. (Currently Amended) The method of claim 1, wherein applying the first coating material includes filling the opening at least partially with a coating fluid, __and further comprising providing a second coating material at the second friction interface, the second coating material including a corrosion-resistant coating__.\n\n9. (Cancelled)\n\n10. (Cancelled)\n\n11. (Cancelled)\n\n12. (Currently Amended) A method, comprising: applying a first coating material on a threaded region of an opening in a first multi-piece assembly included in a plurality of multi-piece assemblies, wherein the first coating material is applied solely within the opening and in a substantially uniform thickness upon the threads; inserting at least one fastener to the threaded region, the fastener including a mating thread selectively secured to the threaded region of [[the aperture]] __the opening__ to create a first friction interface between the fastener and the first multi-piece assembly, the fastener having a second coating material; tensioning the fastener between a load surface of the multi-piece assembly and a mating thread of the fastener to define a second friction interface between the multi-piece assembly and the fastener, the second friction interface being spaced away from the threaded region such that the first coating material does not influence the second friction interface; adjusting an amount of the first coating material applied to the threaded region in a subsequent multi-piece assembly, thereby increasing friction at the first friction interface of the subsequent multi-piece assembly compared with the first multi-piece assembly, the friction at the second friction interfaces of the first multi-piece assembly and the subsequent multi-piece assembly being substantially equal, __wherein the first coating material is a thread locking adhesive and the second coating material includes a corrosion-resistant coating__.\n\n13. (Cancelled)\n\n14. (Cancelled)\n\n15. (Cancelled)\n\n16. (Cancelled)\n\n17. (Original) A connecting rod assembly, comprising: a connecting rod portion defining an aperture configured to receive a piston pin at a first end, the connecting rod portion defining an opening having a first thread, the first thread having a coating material applied thereon, the coating material defining a substantially uniform thickness axially with respect to the opening along the first thread; and a bearing cap secured to the connecting rod portion with a fastener defining a mating thread engaged with the first thread of the connecting rod portion.\n\n18. (Original) The connecting rod assembly of claim 17, wherein the fastener is tensioned against the bearing cap at an end of the fastener spaced away from the first thread, such that the fastener defines first and second friction interfaces between the connecting rod assembly and the fastener that are spaced axially from each other such that the first coating material does not influence the second friction interface.\n\n19. (Original) The connecting rod assembly of claim 17, further comprising a fastener coating, the fastener coating covering the fastener at least at the second friction interface.\n\n20. (Original) The connecting rod assembly of claim 17, wherein the coating material is a thread locking adhesive.",
+  "usage": {
+    "input_tokens": 4614,
+    "output_tokens": 1063,
+    "total_tokens": 5677
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.23,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:46:53Z"
+}

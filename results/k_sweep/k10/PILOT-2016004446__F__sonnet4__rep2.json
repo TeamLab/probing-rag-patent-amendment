@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016004446",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2016004446",
+  "app_num": "11920521",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 24894,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "adb7648a7975dbba",
+  "response_text": "Claim 4 (Currently amended): The method of claim 4 wherein said composition is in the form of a blocking vaccine __for impeding Leishmaniasis transmission in dogs__.\n\nClaim 5 (Currently amended): The method of claim 4 wherein said composition further comprises suitable pharmacological vehicles, for blocking Leishmaniasis transmission __in dogs__.\n\nClaim 6 (Currently amended): The method of claim 4 wherein the Leishmania promastigotes or Leishmania amastigotes fractions called \"Fucose Mannose Ligand\" (FML) comprise a glycoprotein complex containing 29% of neutral sugar, 44% of protein, 11% of phosphate and hexoamines traces composed by protein bands with molecular weight ranging from 9 to 95 kDa, some protein bands having carbohydrates: 36 and 54 to 68 kDa, the FML glycidic portion presenting 10% of fucose and 47% of manose, 30% of glucose, 12% of galactose and xylose traces, aminoacids containing 10 to 20% of glutamic acid, alanine, aspartic acid and glycine, 5 to 10% of serine, histidine, lisin, leucine, threonine, proline and valine, and 2 to 5% of arginine, methionine, isoleucine, tyrosine and phenylalanine, __wherein the FML is derived from Leishmania donovani__.",
+  "usage": {
+    "input_tokens": 6038,
+    "output_tokens": 360,
+    "total_tokens": 6398
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.11,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:33:41Z"
+}

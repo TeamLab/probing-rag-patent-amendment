@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016003042",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2016003042",
+  "app_num": "13928760",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23491,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8a9e13d96a005ecf",
+  "response_text": "1. (Currently amended) A composite stiffener, comprising: first, second and third members formed from laminated composite tape, the first and second members defining a web and flange member being joined to the flanges and extending generally transverse to the web, the first, second and third composite members intersecting to form a void; a filler disposed in and substantially filling the void, wherein the filler comprises __at least one of a formed unidirectional composite tape, a composite laminate, a hybrid tape-fabric member, or a titanium member__; at least one layer of composite fabric on each of the members in the area of the filler; and, a layer of adhesive surrounding the filler and joining the filler to the composite fabric, wherein the adhesive comprises __a structural adhesive that is distinct from and does not include the laminated composite tape or the composite fabric layers__.\n\n2. (Currently amended) The composite stiffener of claim 1, wherein the first and second members include radius areas between the web and each of the flanges, and the fabric layer covers the radius areas, and __the adhesive layer is applied as a discrete layer distinct from the composite tape and fabric layers__.\n\n3. (Original) [Claim 3 text not provided in original claims list]\n\n5. (Currently amended) The composite stiffener of claim 1, wherein the layer of adhesive and the at least one layer of composite fabric extend beyond the radius areas, and __the adhesive layer is applied as a structural adhesive layer that is physically distinct from the composite fabric layers__.\n\n6. (Currently amended) The composite stiffener of claim 1, wherein the at least one layer of composite fabric of the composite members are offset relative to each other, and __the offset fabric layers are intentionally positioned to create controlled wrinkles or gaps between the fabric layers__.\n\n7. (Currently amended) A composite stiffener, comprising: a pair of composite channels joined together, each of the channels including a web, flanges extending from the web, and radius areas between the web and each of the flanges; a base extending transverse to the web and joined to each of the flanges, the radius areas of the channels and the base forming at least one radius filler zone; a reinforcing member filling the radius filler zone, wherein the reinforcing member comprises __at least one of a formed unidirectional composite tape, a composite laminate, a hybrid tape-fabric member, or a titanium member__; a layer of composite fabric covering the radius areas of the channels and the base; and, a layer of adhesive surrounding the filler and joining the filler to the composite fabric layer, wherein the adhesive comprises __a structural adhesive that is applied as a discrete layer distinct from the reinforcing member and the composite fabric layers__.\n\n12. (Currently amended) The composite stiffener of claim 7, wherein the composite fabric layer includes __at least three composite patches respectively positioned on each of the channels and the base, with each patch being applied as a discrete layer__.\n\n13. (Currently amended) The composite stiffener of claim 7, wherein the layer of adhesive includes a sheet of structural adhesive wrapped around the filler, and __the structural adhesive sheet is applied as a distinct layer that does not form an integral part of the composite tape or fabric layers__.\n\n14. (Original) [Claim 14 text not provided in original claims list]\n\n15. (Currently amended) The composite stiffener of claim 7, wherein the channels are __formed from laminated composite tape and the base comprises a distinct structural element that is joined to the channels through the adhesive layer and composite fabric layers__.\n\n25. (Currently amended) A composite stiffener for aircraft applications, comprising: an I-section structure formed of laminated composite tape with a web and flanges on each end of the web, the structure including radius areas between the web and the flanges and a cap and base, the cap being joined to the first set of the flanges and the base being joined to the second set of flanges, the cap and the base each intersecting the web in the radius areas to define a radius filler zone; a layer of composite fabric covering the radius areas in the radius filler zone; a reinforcing filler in the radius filler zone, wherein the reinforcing filler comprises __at least one of a formed unidirectional composite tape, a composite laminate, a hybrid tape-fabric member, or a titanium member__; and a layer of structural adhesive surrounding and joining the filler to the composite fabric in the radius filler zone, wherein the structural adhesive comprises __a discrete adhesive layer that is distinct from and does not form an integral part of the laminated composite tape or the composite fabric layers__.",
+  "usage": {
+    "input_tokens": 6582,
+    "output_tokens": 1023,
+    "total_tokens": 7605
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.18,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:03:22Z"
+}

@@ -1,0 +1,103 @@
+{
+  "flat_threshold": 0.05,
+  "predicted_directions": {
+    "D:c5": "UP",
+    "F:c5": "UP",
+    "G:c5": "UP",
+    "B:c1": "FLAT",
+    "B:c3": "FLAT",
+    "C_decoy:c1": "DOWN",
+    "C_mechtrue:c1": "UP"
+  },
+  "per_probe_channel": {
+    "D:c5": {
+      "predicted": "UP",
+      "n_cases": 100,
+      "hit_rate": 0.43,
+      "delta_mean": -0.0402,
+      "delta_min": -5.601,
+      "delta_max": 1.8623
+    },
+    "F:c5": {
+      "predicted": "UP",
+      "n_cases": 100,
+      "hit_rate": 0.45,
+      "delta_mean": -0.1713,
+      "delta_min": -5.2005,
+      "delta_max": 1.4102
+    },
+    "G:c5": {
+      "predicted": "UP",
+      "n_cases": 100,
+      "hit_rate": 0.47,
+      "delta_mean": -0.1082,
+      "delta_min": -3.9998,
+      "delta_max": 1.7474
+    },
+    "B:c1": {
+      "predicted": "FLAT",
+      "n_cases": 97,
+      "hit_rate": 0.959,
+      "delta_mean": -0.0006,
+      "delta_min": -0.1017,
+      "delta_max": 0.0724
+    },
+    "B:c3": {
+      "predicted": "FLAT",
+      "n_cases": 98,
+      "hit_rate": 0.714,
+      "delta_mean": -0.0064,
+      "delta_min": -0.2554,
+      "delta_max": 0.1828
+    },
+    "C_decoy:c1": {
+      "predicted": "DOWN",
+      "n_cases": 43,
+      "hit_rate": 0.558,
+      "delta_mean": -0.0037,
+      "delta_min": -0.0444,
+      "delta_max": 0.0063
+    },
+    "C_mechtrue:c1": {
+      "predicted": "UP",
+      "n_cases": 45,
+      "hit_rate": 0.533,
+      "delta_mean": 0.0008,
+      "delta_min": -0.0087,
+      "delta_max": 0.0176
+    }
+  },
+  "per_probe": {
+    "D": {
+      "c4": 0.43,
+      "n_hits": 43,
+      "n_total": 100
+    },
+    "F": {
+      "c4": 0.45,
+      "n_hits": 45,
+      "n_total": 100
+    },
+    "G": {
+      "c4": 0.47,
+      "n_hits": 47,
+      "n_total": 100
+    },
+    "B": {
+      "c4": 0.836,
+      "n_hits": 163,
+      "n_total": 195
+    },
+    "C_decoy": {
+      "c4": 0.558,
+      "n_hits": 24,
+      "n_total": 43
+    },
+    "C_mechtrue": {
+      "c4": 0.533,
+      "n_hits": 24,
+      "n_total": 45
+    }
+  },
+  "c4_grand": 0.593
+}

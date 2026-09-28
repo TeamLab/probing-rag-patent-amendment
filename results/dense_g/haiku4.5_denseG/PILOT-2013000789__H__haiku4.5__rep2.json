@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2016001432",
+      "PILOT-2011012831",
+      "PILOT-2015008136"
+    ],
+    "retrieved_app_nums": [
+      "13299461",
+      "12319836",
+      "13333642"
+    ],
+    "retrieved_scores": [
+      0.8634,
+      0.8419,
+      0.8414
+    ],
+    "retrieved_chars_total": 3815,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19298,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fca4e75b8b245d1f",
+  "response_text": "1. (Currently amended) A humeral implant comprising a first component removably attached to a second component, wherein said first component is a humeral surface component that is not spherically shaped.\n\n2. (Currently amended) The humeral implant of claim 1 wherein said first component is a humeral surface component and said second component is a removably attached stem.\n\n3. (Currently amended) The implant of claim 2 wherein said humeral surface component has a coronal radius of curvature and an axial radius of curvature that are different from one another.\n\n9. (Currently amended) The implant of claim 3 wherein said humeral surface component is elliptically shaped.\n\n13. (Currently amended) The implant of claim 3 wherein said humeral surface component has a smooth articulating surface with a surface finish that is polished or burnished.\n\n20. (Currently amended) The implant of claim 2 wherein said removably attached stem has a selectable length from a plurality of available stem lengths, wherein a selected stem extends from a lateral cortex of said humerus to a center of a head of said humerus.\n\n21. (Currently amended) The implant of claim 2 wherein said humeral surface component connects to said removably attached stem.\n\n22. (Currently amended) The implant of claim 21 wherein said humeral surface component connects to said removably attached stem by a technique selected from the group consisting of morse taper and a threaded screw connection.\n\n27. (Currently amended) A glenohumeral joint implant adapted to be implanted in a glenohumeral joint, comprising an implant adapted to provide a transhumeral portal along a central axis of a neck of a proximal humerus.\n\n28. (Currently amended) The glenohumeral joint implant of claim 27 wherein said implant is a humeral implant.\n\n29. (Currently amended) A humerus bone implant comprising a modular implant with a humeral surface component and a stem, wherein said stem is adapted to be anchored in the epiphyseal-metaphyseal portion of a humerus bone.",
+  "usage": {
+    "input_tokens": 5191,
+    "output_tokens": 475,
+    "total_tokens": 5666
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.53,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:40:43Z"
+}

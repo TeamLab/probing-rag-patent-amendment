@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022000316",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2022000316",
+  "app_num": "12503494",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 23639,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "199b7e020009ca22",
+  "response_text": "```\n(Currently amended) Claim 1: A computer-implemented method for trading combinations of financial instruments using a computer system, said method comprising: receiving, during a selected time period, combination orders to trade financial instruments; storing each eligible received combination order, wherein a received combination order is eligible if it satisfies at least one selected condition, wherein said at least one selected condition includes the necessary condition that all financial instruments specified by the legs of an eligible order are in a set of two or more selected financial instruments; and processing eligible orders or expanded eligible orders with a combinatorial matching algorithm (CMA), wherein said processing begins at a selected time.\n\n(Currently cancelled) Claim 13.\n\n(Currently amended) Claim 23: A computer-based system for trading combinations of financial instruments using a computer system, said system comprising: a processor for obtaining combination orders to trade financial instruments; and a processor for obtaining a matched collection of expanded eligible orders, wherein an obtained order is eligible if it satisfies at least one selected condition, and wherein said at least one selected condition includes the necessary condition that all financial instruments specified by the legs of an eligible order are in a set of two or more selected financial instruments.\n\n(Currently amended) Claim 24: The system of claim 23, further comprising a database and instructions for increasing, at least in principle, the quality of said matched collection.\n\n(Currently amended) Claim 25: The system of claim 23, further comprising a user interface and instructions for providing additional trading functionality.\n```",
+  "usage": {
+    "input_tokens": 4959,
+    "output_tokens": 305,
+    "total_tokens": 5264
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.88,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:47:51Z"
+}

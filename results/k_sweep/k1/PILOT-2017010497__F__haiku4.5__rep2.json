@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017010497",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2017010497",
+  "app_num": "13556032",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15811,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "305197faf1f8c07b",
+  "response_text": "1. (Currently amended) A system for treating obesity, the system comprising: a gastric space filler comprising a first balloon connected to a second balloon by a conduit, wherein the gastric space filler is configured to occupy a substantial volume of a gastric cavity in the human patient in an inflated state; an instrument throughput channel extending through the conduit, wherein the instrument throughput channel is configured to receive instruments; and __wherein the first balloon and second balloon are positioned in spaced relation within the gastric cavity such that the conduit extends between them in a non-linear configuration__.\n\n2. (Currently amended) The system of claim 31 wherein the conduit comprises a first lumen in fluid communication with the first balloon, a second lumen in fluid communication with the second balloon, and a third lumen defining the instrument throughput channel, __wherein the first, second, and third lumens are arranged in a triangular cross-sectional configuration__.\n\n3. (Currently amended) The system of claim 31 wherein the conduit has an axial length, and wherein the instrument throughput channel extends along the axial length __and is positioned off-center relative to the conduit axis__.\n\n4. (Cancelled)\n\n5. (Currently amended) The system of claim 31 wherein the first and second balloons are made from at least one of the following: silicone, latex, polyethylene, polyurethane, and nylon, __and wherein the balloons have a wall thickness of at least 0.5 mm__.\n\n6. (Currently amended) The system of claim 31 wherein the conduit comprises an inter-balloon section spacing the first balloon apart from the second balloon, and wherein the inter-balloon section has a length of about 10-40 mm, __wherein the inter-balloon section is configured with a reduced diameter relative to the first and second balloons__.\n\n7. (Previously presented)\n\n8. (Previously presented)\n\n9. (Previously presented)\n\n10. (Previously presented)\n\n11. (Currently amended) The system of claim 31, further comprising a delivery catheter configured to deliver the gastric space filler to the gastric cavity via an esophagus of the patient, wherein the delivery catheter is configured to receive the gastric space filler in a collapsed state, __and wherein the delivery catheter comprises a proximal handle assembly with a control mechanism for regulating fluid infusion into the first and second balloons__.\n\n12. (Currently amended) A gastric space filler system, comprising: a conduit having a first end and a second end opposite the first end, wherein the first end is operably coupled to a first balloon and the second end is operably coupled to a second balloon; a first lumen through the conduit, wherein the lumen is configured for fluid infusion into the first balloon; a second lumen through the conduit, wherein the second lumen is configured for fluid infusion into the second balloon; and a third lumen extending through the conduit, wherein the third lumen is configured for instrument throughput, __wherein the first and second balloons are configured to inflate sequentially rather than simultaneously__.\n\n13. (Previously presented)\n\n14. (Previously presented)\n\n15. (Currently amended) The gastric space filler system of claim 42 wherein the third lumen extends from the first end of the conduit to a second end of the conduit, __and wherein the third lumen has a minimum inner diameter of at least 1.5 mm to accommodate passage of therapeutic instruments__.\n\n16. (Previously presented)\n\n17. (Previously presented)\n\n18. (Previously presented)",
+  "usage": {
+    "input_tokens": 4101,
+    "output_tokens": 784,
+    "total_tokens": 4885
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.92,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:38:12Z"
+}

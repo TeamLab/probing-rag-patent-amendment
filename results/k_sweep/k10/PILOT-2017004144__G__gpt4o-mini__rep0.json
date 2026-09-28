@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017004144",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017004144",
+  "app_num": "14624666",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 27420,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1c722dff0376260f",
+  "response_text": "Claim 21 (currently amended): The airfoil according to claim 20, wherein the leading edge sweep angle at the 0% span position and a leading edge sweep angle at the 100% span position are __greater than or equal to__ 0°.\n\nClaim 25 (currently amended): The airfoil according to claim 1, wherein the airfoil is a fan blade for a __turbine engine__. \n\nClaim 26 (currently amended): A gas turbine engine comprising: a combustor section arranged between a compressor section and a turbine section; a fan section having an array of twenty-six or fewer fan blades; a geared architecture coupling the fan section to the turbine section or the compressor section; and wherein the fan blades include an airfoil having pressure and suction sides, the airfoil extends in a radial direction from a 0% span position at an inner flow path location to a 100% span position at an airfoil tip, wherein the airfoil has a curve corresponding to a relationship between a trailing edge sweep angle and a span position, __wherein the trailing edge sweep angle is in a range of 100 to 200 in a range of 40-70% span position, and the trailing edge sweep angle is positive from 0% span to at least 95% span__.\n\nClaim 28 (currently amended): The gas turbine engine according to claim 27, wherein the low fan pressure ratio is __greater than or equal to__ 1.50. \n\nClaim 29 (currently amended): The gas turbine engine according to claim 28, wherein the low fan pressure ratio is __greater than or equal to__ 1.48. \n\nClaim 30 (currently amended): The gas turbine engine according to claim 29, wherein the low fan pressure ratio is __greater than or equal to__ 1.46.",
+  "usage": {
+    "input_tokens": 6848,
+    "output_tokens": 378,
+    "total_tokens": 7226
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.74,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:03:14Z"
+}

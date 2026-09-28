@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017010497",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017010497",
+  "app_num": "13556032",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20325,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "067df87510c8e0ff",
+  "response_text": "31. (Currently amended) A system for treating obesity, the system comprising: a gastric space filler comprising a first balloon connected to a second balloon by a conduit, wherein the gastric space filler is configured to occupy a substantial volume of a gastric cavity in the human patient in an inflated state; and an instrument throughput channel extending through the conduit, wherein the instrument throughput channel is configured to receive instruments __and wherein the instrument throughput channel is configured to allow passage of therapeutic instruments for performing therapeutic procedures within the gastric cavity__.\n\n32. (Currently amended) The system of claim 31 wherein the conduit comprises a first lumen in fluid communication with the first balloon, a second lumen in fluid communication with the second balloon, and a third lumen defining the instrument throughput channel, __wherein the third lumen is sized and configured to accommodate therapeutic instruments__.\n\n33. (Currently amended) The system of claim 31 wherein the conduit has an axial length, and wherein the instrument throughput channel extends along the axial length __and is configured to provide unobstructed access for therapeutic instruments along the entire axial length__.\n\n34. (Cancelled)\n\n35. (Currently amended) The system of claim 31 wherein the first and second balloons are made from at least one of the following: silicone, latex, polyethylene, polyurethane, and nylon, __and wherein the balloons are configured to maintain structural integrity during therapeutic procedures performed through the instrument throughput channel__.\n\n36. (Currently amended) The system of claim 31 wherein the conduit comprises an inter-balloon section spacing the first balloon apart from the second balloon, and wherein the inter-balloon section has a length of about 10-40 mm __and is configured to provide working space for therapeutic instruments__.\n\n37. (Previously presented) The system of claim 31 wherein the first and second balloons each comprise a wall having an exterior surface, and wherein the system further comprises a drug coated onto at least a portion of the exterior surface of at least one of the first and second balloons.\n\n38. (Previously presented) The system of claim 31 wherein the first and second balloons each comprise a wall, and wherein the system further comprises a drug impregnated in the wall of at least one of the first and second balloons.\n\n39. (Previously presented) The system of claim 31, further comprising a drug disposed on at least a portion of the first and second balloons, wherein the drug is configured to resist adhesion.\n\n41. (Currently amended) The system of claim 31, further comprising a delivery catheter configured to deliver the gastric space filler to the gastric cavity via an esophagus of the patient, wherein the delivery catheter is configured to receive the gastric space filler in a collapsed state __and wherein the delivery catheter includes a separate lumen from the instrument throughput channel__.\n\n42. (Currently amended) A gastric space filler system, comprising: a conduit having a first end and a second end opposite the first end, wherein the first end is operably coupled to a first balloon and the second end is operably coupled to a second balloon; a first lumen through the conduit, wherein the lumen is configured for fluid infusion into the first balloon; a second lumen through the conduit, wherein the second lumen is configured for fluid infusion into the second balloon; and a third lumen extending through the conduit, wherein the third lumen is configured for instrument throughput __and is sized to accommodate therapeutic instruments for performing therapeutic procedures__.\n\n43. (Currently amended) The gastric space filler system of claim 42 wherein: the first lumen extends from the first end of the conduit to the first balloon; and the second lumen extends from the first end of the conduit to the second balloon __and wherein the third lumen is separate and distinct from the first and second lumens__.\n\n44. (Currently amended) The gastric space filler system of claim 42 wherein the third lumen extends from the first end of the conduit to a second end of the conduit __and provides unobstructed access for therapeutic instruments__.\n\n45. (Currently amended) The gastric space filler system of claim 42, further comprising a coupling mechanism at the first end of the conduit, wherein the coupling mechanism is configured for instrument throughput into the third lumen and configured to couple to a delivery catheter and/or a filling tube __and wherein the coupling mechanism includes separate ports for the third lumen and the delivery catheter__.\n\n46. (Currently amended) The gastric space filler system of claim 42 wherein the gastric space filler system is configured for delivery through an esophagus of a patient to a stomach of the patient __and is configured to allow therapeutic procedures to be performed through the third lumen while positioned in the stomach__.\n\n47. (Currently amended) The gastric space filler system of claim 42 wherein the conduit is configured for attachment to a delivery catheter, and wherein the third lumen of the conduit is configured to receive an instrument passed through the delivery catheter __and wherein the third lumen maintains a separate pathway from the delivery catheter lumen__.",
+  "usage": {
+    "input_tokens": 5132,
+    "output_tokens": 1124,
+    "total_tokens": 6256
+  },
+  "stop_reason": "stop",
+  "latency_sec": 15.76,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:25:53Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 26333,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9377c93050165257",
+  "response_text": "1. (Currently Amended) A composition, comprising: cavity-generating particles; a thermally conductive binder; and a solvent, wherein the composition is formulated with a particle to binder ratio of about 1 gram to 0.5-0.8 grams and a solvent amount of about 10 ml per gram of particles.\n\n2. (Currently Amended) The composition of claim 1, wherein the composition is applied to an electronic component surface and the cavity-generating particles are selected from the group consisting of nickel, copper, aluminum, silver, iron, brass and alloys.\n\n3. (Currently Amended) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface and the cavity-generating particles have a size in the range of 8-12 micrometers.",
+  "usage": {
+    "input_tokens": 6338,
+    "output_tokens": 185,
+    "total_tokens": 6523
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.14,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:08:30Z"
+}

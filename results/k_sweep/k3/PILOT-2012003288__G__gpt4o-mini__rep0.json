@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16191,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cf1409b351632897",
+  "response_text": "1. (Currently Amended) A system comprising: a plurality of network nodes of a local contention neighborhood of a random access network, wherein a first node is configured to transmit to a second node at an access attempt percentage, and wherein each of the plurality of nodes is configured to provide an indicia of its inter-node interference to other nodes within the local contention neighborhood, and wherein the first node is configured to adjust the access attempt percentage to transmit to the second node based on one of the provided indicia.\n\n3. (Currently Amended) The system of claim 1, wherein the indicia of inter-node interference is based on a minimum desired throughput for each particular node of the plurality of nodes.\n\n4. (Currently Amended) The system of claim 1, wherein the first node is configured to adjust the access attempt percentage based on the indicia of inter-node interference of the first node divided by an indicia of inter-node interference of one or more other nodes that are interfered with by transmissions from the first node.\n\n14. (Currently Amended) The system of claim 13, comprising the first access point, wherein the first access point is configured to broadcast a dynamic weight associated with the second node to the first node.\n\n17. (Currently Amended) The system of claim 13, comprising a second access point, wherein the second node communicates with the second access point and the first node interferes with communication between the second node and the second access point through its own transmissions.",
+  "usage": {
+    "input_tokens": 4180,
+    "output_tokens": 301,
+    "total_tokens": 4481
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.67,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:18:11Z"
+}

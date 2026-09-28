@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019002439",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2019002439",
+  "app_num": "12500756",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 34517,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d14bfad1682c6aef",
+  "response_text": "(Currently Amended) Claim 1: A computer-implemented method of providing a user with access to a resource of a contact center, comprising the steps of: (a) providing a search engine interface to a user's computer system for searching documents on one or more websites; (b) receiving a search query from the user's computer system via said interface; (c) sending a request based on said search query to a computerized system of a contact center; (d) receiving, in response to said request, data enabling a contact center link to be provided to said user, wherein said contact center link, when activated, initiates an interactive communications session between the user and a resource of the contact center; and (e) returning said contact center link to said user as part of a response to said search query, wherein said data include an identifier linked to the user's query as part of enabling the contact center link.\n\n(Currently Amended) Claim 2: A computer-implemented method as claimed in claim 1, further comprising the steps of conducting a search within said documents on one or more websites in response to said search query, and returning at least one document link to one of said documents as part of said response to said search query, wherein said document link corresponds to search results generated at least partially based on said search query.\n\n(Currently Amended) Claim 7: A computer-implemented method as claimed in claim 1, wherein said contact center link is generated uniquely for said user, whereby activation of the link initiates an interactive communications session identifiable to the contact center as relating to said request from said search engine, and reflecting user-specific parameters for tailoring communication.\n\n(Currently Amended) Claim 19: A computer program product comprising a program carrier encoding instructions which, when executed by a search engine computer system, are effective to cause said search engine computer system to: (a) provide a search engine interface to a user's computer system for searching documents on one or more websites; (b) receive a search query from the user's computer system via said interface; (c) send a request based on said search query to a computerized system of a contact center; (d) receive, in response to said request, data enabling a contact center link to be provided to said user, wherein said contact center link, when activated, initiates an interactive communications session between the user and a resource of the contact center, and wherein said data include an identifier related to the user's query that is used for generating said contact center link; and (e) return said contact center link to said user as part of a response to said search query.",
+  "usage": {
+    "input_tokens": 7381,
+    "output_tokens": 529,
+    "total_tokens": 7910
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.03,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:01:23Z"
+}

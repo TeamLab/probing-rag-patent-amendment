@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "a",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2019000796",
+      "PILOT-2018002639",
+      "PILOT-2016007277"
+    ],
+    "retrieved_app_nums": [
+      "15132673",
+      "13960940",
+      "13927481"
+    ],
+    "retrieved_scores": [
+      0.8523,
+      0.8436,
+      0.8425
+    ],
+    "retrieved_chars_total": 3294,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15806,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a1c74f1c6358a55e",
+  "response_text": "(Currently Amended) Claim 1: A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos, wherein the non-destructive medium consists essentially of a solution that does not harm the viability of the embryos.\n\n(Currently Amended) Claim 7: The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with a cell wall degrading enzyme.\n\n(Currently Amended) Claim 11: The method of claim 1 wherein the one or more embryos comprise one or more immature embryos, wherein the immature embryos are retained in a quiescent condition prior to analysis.\n\n(Currently Amended) Claim 13: The method of claim 1, wherein said molecular analysis is genotyping, wherein the genotyping is performed using PCR-based methods.\n\n(Currently Amended) Claim 17: The method of claim 13 further comprising selecting one or more embryos based on genotype, wherein the selection is based on the results of the molecular analysis.",
+  "usage": {
+    "input_tokens": 3775,
+    "output_tokens": 263,
+    "total_tokens": 4038
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.85,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T18:59:36Z"
+}

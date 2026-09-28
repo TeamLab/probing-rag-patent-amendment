@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2015000199",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2015000199",
+  "app_num": "12887121",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018000263",
+      "PILOT-2019006661",
+      "PILOT-2015002420"
+    ],
+    "retrieved_app_nums": [
+      "13444550",
+      "12903521",
+      "12806073"
+    ],
+    "retrieved_scores": [
+      0.9711,
+      0.9672,
+      0.9559
+    ],
+    "retrieved_chars_total": 2921,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22293,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4799cd35a5f76239",
+  "response_text": "(Currently Amended) 1. A method for restoring efficiency of a photovoltaic cell, the method comprising: illuminating a photovoltaic cell such that the photovoltaic cell receives a time integrated irradiance equivalent to at least 5 hours of solar illumination; and annealing the photovoltaic cell at a temperature above 90 degrees Celsius for a minimum of 10 minutes, the annealing in response to the illuminating step of the photovoltaic cell.\n\n(Currently Amended) 2. The method of Claim 1, wherein the photovoltaic cell comprises a semiconductor wafer, and one of: wherein the photovoltaic cell receives a time integrated irradiance equivalent to at least 20 hours of solar illumination; wherein the photovoltaic cell receives a time integrated irradiance equivalent to at least 16 hours of solar illumination while being heated to at least 50 degrees Celsius; and wherein the photovoltaic cell is irradiated in sunlight using a solar concentrator for at least 10 hours, and wherein the solar concentrator increases the irradiance of solar illumination on the photovoltaic cell by a factor of 2 to 5.\n\n(Currently Amended) 3. The method of Claim 2, wherein the photovoltaic cell is annealed at a temperature above 130 degrees Celsius, and wherein annealing the photovoltaic cell further comprises illuminating the photovoltaic cell during the annealing step.\n\n(Currently Amended) 4. The method of Claim 3, wherein illuminating the photovoltaic cell while annealing the photovoltaic cell is performed such that the photovoltaic cell receives a time integrated irradiance equivalent to at least 10 minutes of solar illumination.\n\n(Original) 5. The method of Claim 1, wherein the semiconductor wafer is a silicon semiconductor wafer.\n\n(Original) 6. The method of Claim 1, wherein the photovoltaic cell is annealed at a temperature between 140 degrees Celsius and 210 degrees Celsius for a minimum of 2 hours.\n\n(Original) 7. The method of Claim 6, wherein the photovoltaic cell is a thin film photovoltaic cell.\n\n(Original) 8. The method of Claim 6, wherein the photovoltaic cell is an amorphous silicon thin film photovoltaic cell.\n\n(Original) 9. The method of claim 1, wherein the photovoltaic cell is illuminated after manufacturing of the photovoltaic cell is complete such that the photovoltaic cell produces electricity when illuminated.\n\n(Original) 10. The method of claim 1, wherein the photovoltaic cell is illuminated with a light source that simulates light from the sun.",
+  "usage": {
+    "input_tokens": 5097,
+    "output_tokens": 498,
+    "total_tokens": 5595
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.89,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:11:50Z"
+}

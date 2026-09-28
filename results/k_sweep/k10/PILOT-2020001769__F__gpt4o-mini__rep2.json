@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020001769",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020001769",
+  "app_num": "15297569",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 31548,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6d33f487c51f84da",
+  "response_text": "(Currently Amended) Claim 8: A composition comprising a lubricant comprising at least one selected from the group consisting of polyol ester and polyvinyl ether and a refrigerant comprising: from 1 to 99% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf); and from 1 to 99% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), wherein said composition exhibits a Hazen color of about 200 or less as measured by ASHRAE test 97-2007 after a sealed glass tube comprising the composition is welded closed and placed in an oven at 200 °C for 14 days.\n\n(Currently Amended) Claim 17: The composition according to Claim 8, wherein the refrigerant comprises from 5 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 95% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze).\n\n(Currently Amended) Claim 18: The composition according to Claim 8, wherein the refrigerant comprises from 15 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze).\n\n(Currently Amended) Claim 19: The composition according to Claim 8, wherein the refrigerant comprises from 15 to 35% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 65 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze).",
+  "usage": {
+    "input_tokens": 7518,
+    "output_tokens": 434,
+    "total_tokens": 7952
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.29,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:51:26Z"
+}

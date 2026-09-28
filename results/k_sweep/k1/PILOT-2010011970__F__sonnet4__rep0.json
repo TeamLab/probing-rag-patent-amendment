@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11695,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8910d0772750e41a",
+  "response_text": "Claim 15 (Currently Amended): The method of claim 15, further comprising __receiving a media request from the client computer at a media request broker, the media request broker analyzing the media request to determine server selection criteria, and the media request broker selecting the first server computer based on the server selection criteria__.\n\nClaim 16 (Currently Amended): The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __and providing the unique signature to a media request broker for server selection__.\n\nClaim 17 (Currently Amended): The method of claim 17, __further comprising analyzing the information at a media request broker to determine optimal server selection criteria__, the media request broker selecting the first server computer based on the information.\n\nClaim 18 (Previously Presented): The method of claim 17, the media request broker selecting the first server computer based on the information.\n\nClaim 24 (Currently Amended): The system of claim 24, __further comprising a media request broker configured to receive media requests from client computers, analyze the media requests to determine server selection criteria, and select the first server computer based on the server selection criteria__.\n\nClaim 25 (Currently Amended): The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request, __and circuitry for providing the unique signature to a media request broker for server selection__.\n\nClaim 27 (Currently Amended): The computer program product of claim 27, __further comprising program instructions for implementing a media request broker that receives media requests from client computers, analyzes the media requests to determine server selection criteria, and selects the first server computer based on the server selection criteria__.\n\nClaim 28 (Currently Amended): The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __and program instructions for providing the unique signature to a media request broker for server selection__.",
+  "usage": {
+    "input_tokens": 3047,
+    "output_tokens": 625,
+    "total_tokens": 3672
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.6,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T11:40:46Z"
+}

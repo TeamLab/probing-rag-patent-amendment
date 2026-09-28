@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2016007603",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2016007603",
+  "app_num": "12165025",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2010005065",
+      "PILOT-2014001124",
+      "PILOT-2019002515"
+    ],
+    "retrieved_app_nums": [
+      "11403031",
+      "13228131",
+      "13103689"
+    ],
+    "retrieved_scores": [
+      0.8904,
+      0.8848,
+      0.8594
+    ],
+    "retrieved_chars_total": 3130,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16249,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "39b9381e1a06db81",
+  "response_text": "1. (Currently amended) An alarm system comprising: a physiological monitor capable of triggering a first alarm in response to an alarm condition; and a station located remotely from the physiological monitor, wherein the station is capable of receiving an input from the physiological monitor and triggering a second alarm in response to the alarm condition, and wherein when the second alarm is not acknowledged within a predetermined time period, the station is capable of sending an output to the physiological monitor to initiate an escalated alarm at the physiological monitor, wherein the escalated alarm is perceptually distinct from the first alarm.\n\n2. (Original) The system of claim 1, wherein the second alarm is capable of being acknowledged by an operator input before expiration of a timer.\n\n3. (Original) The system of claim 1, wherein the first alarm comprises an inaudible alarm.\n\n4. (Original) The system of claim 1, wherein the escalated alarm comprises an audible alarm.\n\n5. (Original) The system of claim 1, wherein the first alarm comprises an audible alarm and the escalated alarm comprises an audible alarm that is louder than the first alarm.\n\n6. (Original) The system of claim 1, wherein the first alarm and the second alarm are triggered substantially simultaneously.\n\n7. (Original) The system of claim 1, wherein the station located remotely from the physiological monitor is part of a central patient management system.\n\n16. (Currently amended) A system comprising: a processor programmed to trigger an alarm in response to an alarm condition and to track escalation status of the alarm; a memory capable of storing alarm data associated with the alarm, wherein the alarm data comprises an alarm type, a time that the alarm was triggered, and escalation status information; and a display capable of displaying the alarm data.\n\n17. (Currently amended) The system of claim 16, wherein the system is part of a physiological monitor or a central management system.\n\n18. (Currently amended) The system of claim 16, wherein the alarm data comprises information about a level of escalation of the alarm.\n\n19. (Currently amended) The system of claim 16, wherein the alarm data comprises information about an acknowledgement of the alarm.\n\n20. (Currently amended) The system of claim 16, wherein the processor is programmed to send the alarm data to one or more wireless devices.",
+  "usage": {
+    "input_tokens": 4014,
+    "output_tokens": 509,
+    "total_tokens": 4523
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.74,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:02:23Z"
+}

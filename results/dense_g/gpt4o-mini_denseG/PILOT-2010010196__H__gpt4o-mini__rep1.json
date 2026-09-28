@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2010010196",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2010010196",
+  "app_num": "11949602",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2012003695",
+      "PILOT-2014007458",
+      "PILOT-2011013428"
+    ],
+    "retrieved_app_nums": [
+      "11844410",
+      "13447910",
+      "11748779"
+    ],
+    "retrieved_scores": [
+      0.8309,
+      0.8216,
+      0.819
+    ],
+    "retrieved_chars_total": 2369,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13766,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "616e7599741ebe14",
+  "response_text": "(CURRENTLY AMENDED) Claim 12: A welding wire and container assembly, comprising: a housing consisting essentially of a recyclable material, the housing comprising: a cylindrical wall having a first end and a second end, wherein the cylindrical wall comprises a plurality of triangular portions folded radially inward at the second end; a support structure coupled to the plurality of triangular portions to provide a layered end assembly; and a coil of welding wire disposed in the housing and supported by the support structure at the second end.\n\n(CURRENTLY AMENDED) Claim 16: The assembly of claim 12, wherein the triangular portions generally meet at a central axis located within the cylindrical wall.",
+  "usage": {
+    "input_tokens": 3247,
+    "output_tokens": 134,
+    "total_tokens": 3381
+  },
+  "stop_reason": "stop",
+  "latency_sec": 1.85,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:30:31Z"
+}

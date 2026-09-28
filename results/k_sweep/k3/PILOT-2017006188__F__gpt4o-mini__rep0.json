@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 23106,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c33a2ef3694552b0",
+  "response_text": "1) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of __greater than 500 Da and less than 2000 Da__ and a polyanion, said nanoparticle having a size of less than one micron.\n\n2) (Currently Amended) The composition of claim 1, said polyelectrolyte complex nanoparticle intimately associated with a __different__ multivalent cation crosslinker.\n\n3) (Currently Amended) The composition of claim 1, wherein said polyalkylenimine is __a derivative of polyethylenimine. \n\n4) (Currently Amended) The composition of claim 1, wherein said polyanion is __selected from sodium polyvinyl sulfonate, poly (sodium acrylate), poly(sodium styrene sulfonate), copolymers of sodium acrylate with sodium vinylsulfonate or sodium styrene sulfonate; dextran sulfate, and excluding anionic surfactants__.\n\n6) (Currently Amended) The composition of claim 1, further comprising __at least one__ monovalent or divalent cation selected from the group consisting of sodium, potassium, magnesium or calcium ions, wherein said ions are present in an __effective amount__ to stabilize the polyelectrolyte complex.\n\n10) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine __having a molecular weight in a range of about 600 to 2000 Da__ and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron.\n\n12) (Currently Amended) The composition of claim 10, said nanoparticle entrapping a multivalent cation __with a molecular weight greater than 100 Da__.\n\n13) (Currently Amended) The composition of claim 12, said multivalent cation comprising __at least one of Zr, Cr, Ti, Fe or Al. \n\n21) (Currently Amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer __that can undergo crosslinking reactions with the cation crosslinker; and c) a fluid. \n\n24) (Currently Amended) The composition of claim 21, where said polymer is a polymer or __copolymers __of acrylate, acrylamide, N,N-dimethylacrylamide, tert-butyl acrylate, acryamido-2-methylpropane sulfonic acid, or sodium 2-acryamido-2-methylpropane sulfonate, __with an average molecular weight in the range of 50,000 to 1,000,000 Da__. \n\n26) (Currently Amended) The composition of claim 21, where fluid is __water, brine or seawater__.\n\n",
+  "usage": {
+    "input_tokens": 5719,
+    "output_tokens": 618,
+    "total_tokens": 6337
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.94,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:09:52Z"
+}

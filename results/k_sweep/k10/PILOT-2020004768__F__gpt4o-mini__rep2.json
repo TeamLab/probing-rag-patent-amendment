@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020004768",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020004768",
+  "app_num": "14521351",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 25561,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7b94a68cc5cea1fe",
+  "response_text": "(Currently Amended) A method of treating Argininosuccinate Synthetase Deficiency (ASD), comprising administering to a subject in need of treatment __the__ composition comprising an mRNA encoding argininosuccinate synthetase (ASS1) at an effective dose and an administration interval such that at least one symptom or feature of __the__ ASD is reduced in intensity, severity, or frequency or __is delayed__ in onset.\n\n(Currently Amended) The method of claim 14, wherein the administering of the composition results in increased serum ASS1 protein level in the subject as compared to a baseline serum ASS1 protein level before the treatment.\n\n(Currently Amended) The method of claim 15, wherein the administering of the composition results in reduced citrulline level in the subject as compared to __the baseline citrulline level__ before the treatment.\n\n(Currently Amended) The method of claim 16, wherein the administering of the composition results in reduced ammonia level in the subject as compared to __the baseline ammonia level__ before the treatment.\n\n(Currently Amended) The method of claim 20, wherein the mRNA is __not__ modified.",
+  "usage": {
+    "input_tokens": 6038,
+    "output_tokens": 241,
+    "total_tokens": 6279
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.11,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:17:37Z"
+}

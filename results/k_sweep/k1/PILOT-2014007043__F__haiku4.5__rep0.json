@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014007043",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2014007043",
+  "app_num": "12396358",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14067,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a946c7c521c9ba16",
+  "response_text": "1. (Currently amended) A system for generating a counter-stimulation in a patient suffering from RLS, the system comprising: a device configured and arranged to generate a counter-stimulation in a patient suffering from RLS via __mechanical vibration__, the counter-stimulation of an amplitude, intensity, and time duration either lower than that which would wake the patient and higher than that sufficient to relieve RLS symptoms, or sufficient to relieve RLS symptoms and allow the patient to return to sleep; a controller configured and arranged to drive the counter-stimulation generation device, the controller in communication with the counter-stimulation device; and a base configured and arranged to hold the counter-stimulation generation device adjacent to a patient, the counter-stimulation device attached to the base.\n\n2. (Currently amended) The system according to Claim 1, wherein the device comprises a stimulator selected from the group consisting of __a mechanical vibration generator, a mechanical point pressure applicator, a mechanical roller, a mechanical lift, a nerve stimulator, a muscle stimulator, a heater, a cooler, a chemical applicator, and a magnet__.\n\n3. (Original) The system according to Claim 2, wherein the device comprises a vibration generator selected from the group consisting of a piezo-chip, a loudspeaker, a motor with an eccentric weight, and a solenoid.\n\n4. (Original) The system according to Claim 3, wherein the vibration generator comprises an electric motor having a shaft, and a weight having a hole therein, the weight positioned on the shaft, the hole located at a position offset from a center of mass of the weight.\n\n5. (Original) The system according to Claim 4, further comprising: a housing attached to the base; and wherein the weight is located in the housing.\n\n6. (Original) The system according to Claim 1, wherein the base comprises a flexible sheet.\n\n7. (Original) The system according to Claim 6, wherein the sheet comprises a foam sheet, the counter-stimulation device positioned in the foam sheet.\n\n8. (Original) The system according to Claim 1, wherein the base comprises a rigid shell having at least one housing, the counter-stimulation device located in the housing.\n\n9. (Original) The system according to Claim 8, wherein the counter-stimulation device comprises a mechanical vibrator.\n\n10. (Original) The system according to Claim 8, wherein the rigid shell comprises a hole sized and adapted to receive the kneecap of the patient.\n\n11. (Original) The system according to Claim 8, wherein the rigid shell is shaped to at least in part conformingly fit over the thigh of the patient.\n\n12. (Original) The system according to Claim 8, wherein the rigid shell is shaped to conformingly fit over the calf of the patient.\n\n13. (Original) The system according to Claim 1, wherein the base comprises a flexible and elastic sleeve having at least one pocket, the counter-stimulation device positioned in the at least one pocket.\n\n14. (Original) The system according to Claim 1, further comprising: a plurality of counter-stimulation devices attached to the base and in communication with the controller.\n\n15. (Currently amended) A method of treating RLS, the method comprising: selecting a patient experiencing RLS; stimulating a portion of the patient via __mechanical vibration__ at an amplitude, intensity, and duration sufficient to act as a counter-stimulation to RLS and either to allow the patient to return to sleep or to not wake a sleeping patient.\n\n16. (Original) The method according to Claim 15, wherein said patient is asleep; and wherein said counter-stimulation is insufficient to wake the patient.\n\n17. (Original) The method according to Claim 15, wherein the patient is awake; and wherein said counter-stimulation is insufficient to prevent the patient from falling asleep.\n\n18. (Currently amended) The method according to Claim 15, wherein said counter-stimulation is selected from the group consisting of __mechanical vibration, mechanical point pressure application, a mechanically rolling against the patient's skin, mechanically lifting at least a portion of the patient, a nerve stimulation, a muscle stimulation, heat, cold, a chemical application, and magnetism__.\n\n19. (Original) The method according to Claim 18, wherein said counter-stimulation comprises mechanical vibration.\n\n20. (Original) The method according to Claim 19, wherein said mechanical vibration is generated by an electric motor.",
+  "usage": {
+    "input_tokens": 3780,
+    "output_tokens": 994,
+    "total_tokens": 4774
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.83,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:33:35Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018007979",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2018007979",
+  "app_num": "15184502",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14227,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "497e1d724e1d1558",
+  "response_text": "1. (Currently amended) A moving picture coding device adapted to code a coding block consisting of greater than or equal to one prediction block, comprising: a processor configured to execute instructions stored in a non-transitory computer-readable medium to: derive, when information indicating whether or not to derive a temporal merging motion information candidate shared for all prediction blocks in the coding block is information indicating the derivation of a temporal merging motion information candidate shared for all the prediction blocks in the coding block, a temporal merging motion information candidate shared for all the prediction blocks in the coding block from a prediction block of a coded picture different from a picture having a prediction block subject to coding; generate a plurality of merging motion information candidates including the temporal merging motion information candidate; select one merging motion information candidate from the plurality of merging motion information candidates and use the selected merging motion information candidate as motion information of the prediction block subject to coding; and code an index for specifying the selected merging motion information candidate as a candidate specifying index; and a memory coupled to the processor and configured to store the coded index.\n\n2. (Currently amended) A transmitting device comprising: a processor configured to execute instructions stored in a non-transitory computer-readable medium to: packetize a bitstream coded by a moving picture coding method adapted to code a coding block consisting of greater than or equal to one prediction block so as to obtain coding data, wherein the moving picture coding method includes: deriving, when information indicating whether or not to derive a temporal merging motion information candidate shared for all prediction blocks in the coding block is information indicating the derivation of a temporal merging motion information candidate shared for all the prediction blocks in the coding block, a temporal merging motion information candidate shared for all the prediction blocks in the coding block from a prediction block of a coded picture different from a picture having a prediction block subject to coding; generating a plurality of merging motion information candidates including the temporal merging motion information candidate; selecting one merging motion information candidate from the plurality of merging motion information candidates and using the selected merging motion information candidate as motion information of the prediction block subject to coding; and coding an index for specifying the selected merging motion information candidate as a candidate specifying index; and a transmitter coupled to the processor and configured to transmit the packetized coding data.\n\n3. (Currently amended) A transmitting method comprising: packetizing, by a processor, a bitstream coded by a moving picture coding method adapted to code a coding block consisting of greater than or equal to one prediction block so as to obtain coding data; and transmitting, by a transmitter coupled to the processor, the coding data that has been packetized, wherein the moving picture coding method includes: deriving, when information indicating whether or not to derive a temporal merging motion information candidate shared for all prediction blocks in the coding block is information indicating the derivation of a temporal merging motion information candidate shared for all the prediction blocks in the coding block, a temporal merging motion information candidate shared for all the prediction blocks in the coding block from a prediction block of a coded picture different from a picture having a prediction block subject to coding; generating a plurality of merging motion information candidates including the temporal merging motion information candidate; selecting one merging motion information candidate from the plurality of merging motion information candidates and using the selected merging motion information candidate as motion information of the prediction block subject to coding; and coding an index for specifying the selected merging motion information candidate as a candidate specifying index.",
+  "usage": {
+    "input_tokens": 3483,
+    "output_tokens": 740,
+    "total_tokens": 4223
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.05,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:43:46Z"
+}

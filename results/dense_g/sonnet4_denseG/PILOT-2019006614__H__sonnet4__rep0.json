@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2019006614",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2019006614",
+  "app_num": "14090382",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020000966",
+      "PILOT-2017001990",
+      "PILOT-2016007474"
+    ],
+    "retrieved_app_nums": [
+      "13457338",
+      "13193905",
+      "13661669"
+    ],
+    "retrieved_scores": [
+      0.905,
+      0.9012,
+      0.9007
+    ],
+    "retrieved_chars_total": 984,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10098,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8c010d41b81a2992",
+  "response_text": "I cannot provide amended claims because the current claims (pre-amendment) were not provided in the application materials. The office action indicates that claims 1-13 are rejected, but the actual text of these claims is not available for amendment.\n\nTo draft proper amendments addressing the §101 and §103 rejections, I would need:\n1. The complete text of claims 1-13 as currently pending\n2. The specification content to ensure any amendments are supported by the original disclosure\n\nWithout the existing claim language, I cannot determine what specific limitations need to be added or modified to overcome the abstract idea rejection under §101 or the obviousness rejection over Tobin under §103.",
+  "usage": {
+    "input_tokens": 2429,
+    "output_tokens": 147,
+    "total_tokens": 2576
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.12,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:48:56Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29370,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "aedd65f4a1fc9746",
+  "response_text": "(Currently Amended) A method of treating a brain, comprising: inserting an elongated device into the brain to create a path; radially expanding the device __against tissue within the brain__ to create a working channel along the path; and introducing a medical element __through the working channel__ to perform a medical procedure on the brain.\n\n(Currently Amended) The method of claim 1, wherein the medical element is a medicament.\n\n(Currently Amended) The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening __to access the brain.__\n\n(Currently Amended) The method of claim 1, further comprising inserting the elongated device between tissue layers __in the brain.__\n\n(Currently Amended) A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device __against the tissue__ to radially displace the tissue along the path; introducing a medical element __through the device__ to perform a medical procedure on the tissue.",
+  "usage": {
+    "input_tokens": 6422,
+    "output_tokens": 217,
+    "total_tokens": 6639
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.91,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:00:03Z"
+}

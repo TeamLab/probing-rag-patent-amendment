@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004151",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2015004151",
+  "app_num": "12702453",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 27312,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "58d66029b2a0997c",
+  "response_text": "1. (Currently Amended) A cleanable, waterborne polyurethane dispersion comprising the reaction product of: A) one or more OH-functional acrylic dispersions and B) one or more polyisocyanates modified with __at least one sulfonic acid compound selected from 2-(cyclohexylamino)-ethanesulfonic acid (CHES) and 3-(cyclohexylamino)-propanesulfonic acid (CAPS)__.\n\n2. (Currently Amended) The dispersion of claim 1, wherein component A) comprises __two or more different__ OH-functional acrylic dispersions.\n\n3. (Currently Amended) The dispersion of claim 1, wherein component B) comprises at least one polyisocyanate __derived from an aliphatic diisocyanate and modified with at least one sulfonic acid compound selected from 2-(cyclohexylamino)-ethanesulfonic acid (CHES) and 3-(cyclohexylamino)-propanesulfonic acid (CAPS)__.\n\n4. (Currently Amended) The dispersion of claim 3, wherein the aliphatic diisocyanate is 1,6-diisocyanatohexane.\n\n5. (Original) A method of producing a cleanable coating on a substrate comprising applying the dispersion of claim 1 to the substrate and curing the coating composition.\n\n6. (Original) A coating produced according to the method of claim 5.\n\n7. (Currently Amended) The coating of claim 6, wherein the surface energy of the coating is __at least__ 31.0 dynes/cm.\n\n8. (Currently Amended) The coating of claim 7, wherein the surface roughness __measured as root mean square roughness__ of the coating is __at least__ 200 nm.",
+  "usage": {
+    "input_tokens": 7253,
+    "output_tokens": 415,
+    "total_tokens": 7668
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.09,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:48:15Z"
+}

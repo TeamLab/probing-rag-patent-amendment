@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19740,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "864579639a4a9413",
+  "response_text": "15. (Currently Amended) A method of selecting a server computer for sending data to a client computer, the method comprising the steps of: accessing a server computer through a path in a computer network, the path including one or more server computers; adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer, wherein the information is __dynamically generated based on real-time server load metrics and is not merely stored as static application information__; the resource having a unique signature as part of its identifier; and selecting the first server computer based on the information added to the locator, __wherein the selection is performed by a media request broker that evaluates the dynamically generated information to determine server availability and capacity__.\n\n16. (Currently Amended) The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the http request and uses the unique signature to identify and route the media request to the selected first server computer based on the dynamically generated server load metrics__.\n\n17. (Currently Amended) The method of claim 15, __further comprising the step of the media request broker receiving the information added to the locator and analyzing the information to determine which of the one or more server computers is optimal for fulfilling the request__.\n\n18. (Currently Amended) The method of claim 17, the media request broker selecting the first server computer based on the information __by comparing real-time performance characteristics and availability status of each server computer in the first set of one or more server computers__.\n\n24. (Currently Amended) A system for selecting a server computer for sending data to a client computer, the system comprising: a client computer; a first set of one or more server computers in a computer network accessible via a path; a second server computer; and a media request broker, wherein the media request broker is configured to add information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer, __wherein the information is dynamically generated based on real-time server load metrics and is not merely static application information__, the resource having a unique signature as part of its identifier, and to select the first server computer based on the information added to the locator, __wherein the selection is performed by evaluating the dynamically generated information to determine server availability and capacity__.\n\n25. (Currently Amended) The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the http request and uses the unique signature to identify and route the media request to the selected first server computer based on the dynamically generated server load metrics__.\n\n27. (Currently Amended) A computer program product for selecting a server computer for sending data to a client computer, the computer program product comprising a computer-readable storage medium having program instructions stored thereon, the program instructions comprising: instructions for accessing a server computer through a path in a computer network, the path including one or more server computers; instructions for adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer, __wherein the information is dynamically generated based on real-time server load metrics and is not merely static application information__; the resource having a unique signature as part of its identifier; and instructions for selecting the first server computer based on the information added to the locator, __wherein the selection is performed by a media request broker that evaluates the dynamically generated information to determine server availability and capacity__.\n\n28. (Currently Amended) The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the http request and uses the unique signature to identify and route the media request to the selected first server computer based on the dynamically generated server load metrics__.",
+  "usage": {
+    "input_tokens": 4650,
+    "output_tokens": 1047,
+    "total_tokens": 5697
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.67,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:21:50Z"
+}

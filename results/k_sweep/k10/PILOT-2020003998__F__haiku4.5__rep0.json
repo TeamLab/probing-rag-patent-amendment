@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 84335,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6e4d7d93af9d50ea",
+  "response_text": "Claim 281 (Currently amended): A tool comprising a lamination of at least two layers and at least two adhesive layers, the tool comprising first and second layers, a first adhesive layer configured to be cured on the first layer, a second adhesive layer configured to be cured on the second layer, the first adhesive layer and the second adhesive layer configured to be cured to each other, the tool has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the first and second layers, __an additional adhesive layer distinct from the first and second adhesive layers__, a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer.\n\nClaim 282 (Currently amended): The tool of claim 281, wherein the medial section comprises a metal __material that is not a honeycomb structure__.\n\nClaim 283 (Currently amended): The tool of claim 281, wherein the medial section comprises a composite material __formed by combining the metal material with a second material different from the metal__.\n\nClaim 284 (Currently amended): The tool of claim 281, wherein the medial section comprises __a fiber reinforced plastic material__.\n\nClaim 285 (Currently amended): The tool of claim 281, further including a weld ring __that is segmented into a plurality of discrete segments__ at least partially interposed between the perimeter of the first and second layers, wherein the weld ring is bonded to the medial section, wherein the plurality of cutting segments are also welded to an outer perimeter of the weld ring, wherein the weld ring is continuous __along its radial extent__.\n\nClaim 286 (Currently amended): The tool of claim 285, wherein the weld ring __includes a plurality of non-continuous sections separated by gaps__.\n\nClaim 287 (Currently amended): The tool of claim 285, wherein the weld ring __has a thickness that varies around its circumference__.\n\nClaim 288 (Currently amended): The tool of claim 285, wherein the weld ring __is formed from a material different from the first and second layers__.\n\nClaim 289 (Currently amended): The tool of claim 285, further including __a segmented weld ring structure wherein the segments are non-continuous and__ an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring, wherein the inner ring includes a central opening for accommodating a drive shaft.\n\nClaim 290 (Currently amended): The tool of claim 285, further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring, wherein the inner ring includes __a__ central opening for accommodating a drive shaft.\n\nClaim 291 (Currently amended): The tool of claim 290, wherein the inner ring includes __a plurality of__ central opening__s__.\n\nClaim 293 (Currently amended): The tool of claim 281, further including a weld ring __formed as a plurality of discrete arc-shaped segments__ at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, such that the plurality of cutting segments are located on an outer periphery of the weld ring, wherein the weld ring __segments are__ continuous __individually along their respective arc lengths__.\n\nClaim 294 (Currently amended): The tool of claim 293, wherein the weld ring __segments are__ bonded to the medial section __at discrete bonding locations__.\n\nClaim 295 (Cancelled)",
+  "usage": {
+    "input_tokens": 20124,
+    "output_tokens": 831,
+    "total_tokens": 20955
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.99,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:32:20Z"
+}

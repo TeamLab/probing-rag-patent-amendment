@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22181,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3690633285fa9cb3",
+  "response_text": "1. (Currently Amended) A composition, comprising: cavity-generating particles; a thermally conductive binder comprising a thermally conductive epoxy; and a solvent.\n\n2. (Currently Amended) The composition of claim 1, wherein the composition is applied to a surface of a microelectronic component.\n\n3. (Currently Amended) The composition of claim 2, wherein the solvent is removed during application to the surface of the microelectronic component. \n\n9. (Currently Amended) A composition comprising cavity-generating particles, a binder comprising a thermally conductive premixed solder paste, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles.\n\n11. (Currently Amended) The composition of claim 9, wherein the binder is chosen from the group consisting of thermally conductive premixed solder paste and traditional epoxy.\n\n12. (Currently Amended) The composition of claim 9, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass, and alloys with an average size significantly below 100 microns. \n\n20. (Currently Amended) The composition of claim 16, wherein the cavity generating particles are 8-12 microns in size. \n\n21. (Currently Amended) The composition of claim 16, wherein the cavity generating particles are 30-50 microns in size. \n\n22. (Currently Amended) The composition of claim 16, wherein the cavity generating particles are 100-200 microns in size.",
+  "usage": {
+    "input_tokens": 5183,
+    "output_tokens": 333,
+    "total_tokens": 5516
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.42,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:22:42Z"
+}

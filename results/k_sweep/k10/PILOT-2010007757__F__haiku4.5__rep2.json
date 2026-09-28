@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 33281,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8200f09dda36251f",
+  "response_text": "1. (Currently amended) A composition, comprising: cavity-generating particles; a thermally conductive binder that is __a premixed solder paste__; and a solvent.\n\n2. (Currently amended) The composition of claim 1, wherein the composition is applied to an electronic component surface __and wherein the binder is thermally conductive epoxy__.\n\n3. (Previously presented) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface.",
+  "usage": {
+    "input_tokens": 7825,
+    "output_tokens": 109,
+    "total_tokens": 7934
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:32:12Z"
+}

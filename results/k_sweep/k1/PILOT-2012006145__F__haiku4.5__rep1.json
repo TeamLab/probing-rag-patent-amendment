@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012006145",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2012006145",
+  "app_num": "10979681",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16261,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "404e3a78a8fe0752",
+  "response_text": "1. (Currently amended) A method of cementing comprising: providing a cement composition comprising a carboxylated inulin __derived from chicory__; and allowing the cement composition to set.\n\n2. (Previously presented)\n\n3. (Previously presented)\n\n4. (Previously presented)\n\n5. (Previously presented)\n\n6. (Previously presented)\n\n7. (Previously presented)\n\n8. (Previously presented)\n\n9. (Previously presented)\n\n10. (Previously presented)\n\n11. (Currently amended) The method of claim 1 wherein the cement composition is placed in a subterranean formation __at a depth greater than 5,000 feet__.\n\n12. (Currently amended) The method of claim 1 wherein the cement composition is placed in a wellbore __at a depth greater than 5,000 feet__.\n\n13. (Currently amended) A method of cementing in a subterranean formation comprising: providing a cement composition comprising a carboxylated inulin __derived from chicory__; placing the cement composition in the subterranean formation; and allowing the cement composition to set therein.\n\n14. (Previously presented)\n\n15. (Previously presented)\n\n16. (Previously presented)\n\n17. (Previously presented)\n\n18. (Previously presented)\n\n19. (Previously presented)\n\n20. (Previously presented)\n\n21. (Previously presented)\n\n22. (Previously presented)\n\n23. (Currently amended) The method of claim 13 wherein the cement composition is placed in a wellbore __at a depth greater than 5,000 feet__.",
+  "usage": {
+    "input_tokens": 4688,
+    "output_tokens": 350,
+    "total_tokens": 5038
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.73,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:33:44Z"
+}

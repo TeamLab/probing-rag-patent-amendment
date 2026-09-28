@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010008015",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2010008015",
+  "app_num": "11047016",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 37677,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e087097de1eb361b",
+  "response_text": "(Currently Amended) Claim 1: A method of providing information regarding a product, the method comprising: receiving a unique identifier identifying a package containing a product; and generating at least use information based at least partially on stored user information regarding past use of the product using a computer processing device.\n\n(Currently Amended) Claim 19: The method of claim 1, wherein the unique identifier comprises a first unique identifier, the method further comprising: reading a second unique identifier identifying the user from a user device.\n\n(Currently Amended) Claim 23: The method of claim 19, wherein generating the at least use information comprises generating the at least use information customized to the role of a user identified by the second unique identifier.\n\n(Currently Amended) Claim 24: The method of claim 1, wherein generating the at least use information comprises generating the at least use information of a type customized for a user identified by the unique identifier.",
+  "usage": {
+    "input_tokens": 7903,
+    "output_tokens": 190,
+    "total_tokens": 8093
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.08,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:09:46Z"
+}

@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "103",
+    "test_subsection": "a",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2015006373",
+      "PILOT-2015000965",
+      "PILOT-2014003550"
+    ],
+    "retrieved_app_nums": [
+      "12844857",
+      "12758571",
+      "12985807"
+    ],
+    "retrieved_scores": [
+      0.9461,
+      0.9037,
+      0.9002
+    ],
+    "retrieved_chars_total": 4706,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17462,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c1750b2328b64d01",
+  "response_text": "(Currently Amended) Claim 3: A system comprising: a plurality of network nodes of a local contention neighborhood of a random access network, wherein a first node is configured to transmit to a second node at an access attempt percentage, and wherein each of the nodes is configured to provide an indicia of its inter-node interference to others of the plurality of nodes, and wherein the first node is configured to adjust the access attempt percentage to transmit to the second node based on one of the provided indicia, wherein the indicia of inter-node interference is based on a minimum desired throughput for each particular node.\n\n(Currently Amended) Claim 4: The system of claim 1, wherein the first node is configured to adjust the access attempt percentage based on the indicia of inter-node interference of the first node divided by an indicia of inter-node interference of one or more of the plurality of nodes interfered with by transmissions from the first node.\n\n(Currently Amended) Claim 14: The system of claim 13, comprising the first access point, wherein the first access point is configured to broadcast a dynamic weight associated with the second node to the first node.\n\n(Currently Amended) Claim 17: The system of claim 13, comprising a second access point, wherein the second node communicates with the second access point and the first node interferes with communication between the second node and the second access point, wherein the first node is configured to calculate its access attempt percentage based on the inter-node interference experienced by the second node when communicating with the second access point.",
+  "usage": {
+    "input_tokens": 4078,
+    "output_tokens": 315,
+    "total_tokens": 4393
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.29,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:20:41Z"
+}

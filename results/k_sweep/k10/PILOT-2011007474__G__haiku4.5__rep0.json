@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011007474",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2011007474",
+  "app_num": "11613859",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 29905,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "4447bcc0a0ea81cd",
+  "response_text": "1. (Currently Amended) A method comprising:\nreceiving requests and data records from a plurality of creditors to file bankruptcy documents with a plurality of different bankruptcy organizations, wherein the bankruptcy documents are specifically formatted and configured for filing with each respective bankruptcy organization;\nautomatically generating the bankruptcy documents with the received data records by applying organization-specific formatting rules, wherein the bankruptcy documents are suitable for filing with different bankruptcy organizations; and\nbatch filing the bankruptcy documents with the different bankruptcy organizations __by transmitting the formatted documents directly to each bankruptcy organization's filing system__.\n\n2. (Currently Amended) The method of claim 1 wherein the different bankruptcy organizations are different courts with different filing system configurations, and wherein the automatically generating step includes __adapting the bankruptcy documents to comply with each court's specific filing requirements and document format specifications__.\n\n6. (Currently Amended) A method comprising:\nreceiving requests from a plurality of creditors to file proofs of claims for debts owed by debtors to the creditors with a plurality of different bankruptcy organizations, wherein each request includes a data record for generating a proof of claim __specific to the debtor and creditor relationship__;\nautomatically generating the proofs of claims with the received data records by __applying organization-specific formatting and validation rules__, wherein the proofs of claims are suitable for filing with different bankruptcy organizations; and\nbatch filing the proofs of claims with the different bankruptcy organizations __by transmitting the formatted proofs directly to each bankruptcy organization's filing system__.\n\n7. (Currently Amended) The method of claim 6 wherein the different bankruptcy organizations are different bankruptcy courts having different filing system configurations, and wherein the automatically generating step includes __adapting the proofs of claims to comply with each court's specific filing requirements and proof of claim form specifications__.\n\n8. (Previously Presented) The method of claim 6 further comprising sending bankruptcy notification messages to the plurality of creditors, wherein the bankruptcy notification messages notify the creditors that various debtors have filed for bankruptcy.\n\n9. (Currently Amended) The method of claim 6 wherein receiving requests from the plurality of creditors comprises receiving the requests using a secure file transfer protocol __and validating the authenticity of each creditor before processing the request__.\n\n10. (Currently Amended) The method of claim 6 wherein receiving requests comprises receiving requests via a Web site __with creditor authentication and encrypted data transmission__.\n\n11. (Currently Amended) The method of claim 6 where batch filing comprises aggregating the proofs of claims __by organization and__ filing the proofs of claims in a batch mode at least once per day __to each respective bankruptcy organization__.\n\n12. (Currently Amended) The method of claim 6 further comprising:\ngenerating a report __specific to each creditor's filed proofs of claims__; and\nsending the report to a particular creditor.\n\n13. (Previously Presented) The method of claim 12 wherein generating the report comprises enabling a user to request the report using a Web site.\n\n14. (Previously Presented) The method of claim 12 wherein generating the report comprises generating an aging report specifying a reason some proofs of claims have not been filed.\n\n15. (Previously Presented) The method of claim 12 further comprising receiving a filing receipt for a filed proof of claim.\n\n16. (Currently Amended) The method of claim 6 wherein batch filing is performed by a server computer __that maintains separate connections to each bankruptcy organization's filing system__.\n\n17. (Currently Amended) The method of claim 6 further comprising validating the data record __against organization-specific requirements before generating the proof of claim__.",
+  "usage": {
+    "input_tokens": 6964,
+    "output_tokens": 778,
+    "total_tokens": 7742
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.76,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:30:00Z"
+}

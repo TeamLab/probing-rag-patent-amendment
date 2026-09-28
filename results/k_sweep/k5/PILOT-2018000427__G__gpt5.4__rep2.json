@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018000427",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2018000427",
+  "app_num": "14178780",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23236,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1b7fdfeffcebe5eb",
+  "response_text": "18. (Currently amended) A method for protecting blood vessels during a medical procedure, comprising: inserting a vessel protector system into a patient's body, the vessel protector system including a vessel protector and a sheath, the vessel protector having a body formed from a filtering material and having a collapsed configuration and a tubular expanded configuration __with an open proximal end and an open distal end__, the sheath being movable relative to the body between a first position for holding the body in the collapsed configuration, and a second position for releasing the body for movement to the expanded configuration; positioning the vessel protector system adjacent an open end of at least one blood vessel; and moving the sheath to the second position to deploy the body, whereby the body moves to the tubular expanded configuration covering the open end of the at least one blood vessel to filter blood passing through the body into the at least one blood vessel.\n\n19. (Currently amended) The method according to claim 18, further comprising: __exerting a pulling force on a first pull-wire connected to a first snare attached to one end of the body to contract the first snare and thereby__ closing __one open end__ of the body in the tubular expanded configuration; moving the sheath to the first position to compress the body to the collapsed configuration; and removing the vessel protector system from the patient's body.",
+  "usage": {
+    "input_tokens": 5002,
+    "output_tokens": 271,
+    "total_tokens": 5273
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.51,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:21:28Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13783,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e292d3864d350510",
+  "response_text": "Claim 3 (currently amended): (currently amended) The system of claim 1, wherein the indicia of inter-node interference is based on a minimum desired throughput for each particular node, with the minimum desired throughput for each particular node being defined as the minimum data rate that the particular node must achieve for an acceptable quality of service.\n\nClaim 4 (currently amended): (currently amended) The system of claim 1, wherein the first node is configured to adjust the access attempt percentage based on the indicia of inter-node interference of the first node relative to an indicia of inter-node interference of one or more other nodes interfered with by transmissions from the first node.\n\nClaim 14 (currently amended): (currently amended) The system of claim 13, comprising the first access point, wherein the first access point is configured to broadcast a dynamic weight associated with the second node based on transmission success rates to the first node.\n\nClaim 17 (currently amended): (currently amended) The system of claim 13, comprising a second access point, wherein the second node communicates with the second access point, and there is an interference observed between the communications of the second node and the second access point attributable to transmissions from the first node.",
+  "usage": {
+    "input_tokens": 3299,
+    "output_tokens": 247,
+    "total_tokens": 3546
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.6,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:49:53Z"
+}

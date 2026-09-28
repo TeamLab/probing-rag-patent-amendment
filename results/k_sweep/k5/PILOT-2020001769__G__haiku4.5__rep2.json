@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020001769",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2020001769",
+  "app_num": "15297569",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17908,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "db2d770e08fb1467",
+  "response_text": "Claim 8 (Currently amended): A composition comprising a lubricant comprising at least one selected from the group consisting of polyol ester and polyvinyl ether and a refrigerant comprising: from 1 to 99% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf); and from 1 to 99% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), wherein said composition exhibits a Hazen color of about 200 or less as measured by ASHRAE test 97-2007 after a sealed glass tube comprising the composition is welded closed and placed in an oven at 200°C for 14 days, __and wherein the lubricant comprises a polyol ester obtained from polyols selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol, and linear or branched carboxylic acids containing from 5 to 9 carbon atoms__.\n\nClaim 9 (Cancelled)\n\nClaim 10 (Cancelled)\n\nClaim 11 (Cancelled)\n\nClaim 12 (Cancelled)\n\nClaim 13 (Cancelled)\n\nClaim 14 (Cancelled)\n\nClaim 15 (Cancelled)\n\nClaim 16 (Cancelled)\n\nClaim 17 (Currently amended): The composition according to Claim 8, wherein the refrigerant comprises from 5 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 95% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze)__; and wherein the lubricant comprises a polyol ester obtained from polyols selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol, and linear or branched carboxylic acids containing from 5 to 9 carbon atoms__.\n\nClaim 18 (Currently amended): The composition according to Claim 8, wherein the refrigerant comprises from 15 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze)__; and wherein the lubricant comprises a polyol ester obtained from polyols selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol, and linear or branched carboxylic acids containing from 5 to 9 carbon atoms__.\n\nClaim 19 (Currently amended): The composition according to Claim 8, wherein the refrigerant comprises from 15 to 35% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 65 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze)__; and wherein the lubricant comprises a polyol ester obtained from polyols selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol, and linear or branched carboxylic acids containing from 5 to 9 carbon atoms__.\n\nClaim 20 (Cancelled)\n\nClaim 21 (Cancelled)\n\nClaim 22 (Cancelled)\n\nClaim 23 (Cancelled)\n\nClaim 24 (Cancelled)\n\nClaim 25 (Cancelled)\n\nClaim 26 (Cancelled)\n\nClaim 27 (Cancelled)\n\nClaim 28 (Cancelled)",
+  "usage": {
+    "input_tokens": 5571,
+    "output_tokens": 952,
+    "total_tokens": 6523
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.47,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:09:42Z"
+}

@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2018003513",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2018003513",
+  "app_num": "11742350",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2016002505",
+      "PILOT-2011013571",
+      "PILOT-2013004387"
+    ],
+    "retrieved_app_nums": [
+      "13456111",
+      "11951152",
+      "12661567"
+    ],
+    "retrieved_scores": [
+      0.511,
+      0.4749,
+      0.474
+    ],
+    "retrieved_chars_total": 2067,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23181,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bdb42088fd2fcec9",
+  "response_text": "1. (Currently amended) A method for treating an ocular condition, the method comprising: administering to the interior of an eye a composition comprising a therapeutically effective amount of a macromolecular anti-angiogenic component (MAAC) to a mammal suffering from an ocular condition, wherein the composition also comprises a viscosity inducing component in an amount effective to increase the viscosity of the composition to a viscosity at about 25°C of at least 10 cps at a shear rate of about 0.1/second, wherein said viscosity inducing component is injectable into the vitreous of a mammalian eye without permanently diminishing visual acuity.\n\n5. (Currently amended) The method of claim 1 wherein a symptom of the ocular condition is angiogenesis and the MAAC comprises a direct or indirect inhibitor of vascular endothelial growth factor (VEGF) activity.\n\n6. (Currently amended) The method of claim 5 wherein the MAAC comprises an agent selected from the group consisting of a nucleic acid (an oligonucleotide) and a polypeptide.\n\n14. (Currently amended) The method of claim 6 wherein said MAAC comprises a polypeptide.\n\n20. (Currently amended) The method of claim 1 wherein said viscosity inducing component comprises a compound selected from the group consisting of hyaluronic acid, cross-linked hyaluronic acid, crosslinked polymer containing subunits derived from acrylic acid, polyacrylic acid, cellulose derivatives, polycarbophil, polyvinylpyrrolidone, gelatin, dextrin, polysaccharides, polyacrylamide, polyvinyl alcohol, polyvinyl acetate, and derivatives, mixtures and copolymers thereof.\n\n36. (Currently amended) A pharmaceutical composition for intravitreal administration to treat an ocular condition comprising a MAAC and a high viscosity hyaluronic acid carrier.",
+  "usage": {
+    "input_tokens": 5715,
+    "output_tokens": 373,
+    "total_tokens": 6088
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.56,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:29:59Z"
+}

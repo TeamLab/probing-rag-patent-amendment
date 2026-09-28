@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012006145",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2012006145",
+  "app_num": "10979681",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29016,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "90a9ebf2ef7174a8",
+  "response_text": "(Currently amended) A method of cementing comprising: providing a cement composition comprising a carboxylated inulin having an average molecular weight of about 600 or higher; and allowing the cement composition to set.\n\n(Currently amended) The method of claim 1 wherein the cement composition has a thickening time of from about 3 hours to about 11 hours at temperatures up to about 280 *F.\n\n(Currently amended) The method of claim 1 wherein a viscosity of the cement composition is about constant for a period of time after the cement composition is placed and is substantially maintained at temperatures between 200 *F and 280 *F.\n\n(Currently amended) The method of claim 1 wherein a suspension aid is specifically excluded from the cement composition, thereby enhancing the performance in the intended application. \n\n(Currently amended) The method of claim 1 wherein the cement composition has a free water separation of from about 0.0 to about 1 wt.% of the cement composition.\n\n(Currently amended) The method of claim 1 wherein the carboxylated inulin is derived from an inulin processed from chicory and has an average molecular weight of about 600 or higher.\n\n(Currently amended) The method of claim 1 wherein the carboxylated inulin comprises carboxymethylated inulin at a ratio satisfying unique flow characteristics.\n\n(Currently amended) The method of claim 7 wherein the carboxymethylated inulin has a degree of substitution by carboxymethylated of from about 0.2 to about 0.5.\n\n(Currently amended) The method of claim 1 wherein the cement composition comprises from about 0.5 to about 5 wt. % of carboxylated inulin.\n\n(Currently amended) The method of claim 1 wherein the cement composition further comprises a unique combination of borate salts, an organic acid excluding known alpha-hydroxycarboxylic acids, a synthetic polymer having a specific molecular structure, or any combination thereof.\n\n(Currently amended) The method of claim 1 wherein the cement composition is specifically placed in a subterranean formation requiring enhanced sealing characteristics.\n\n(Currently amended) The method of claim 1 wherein the cement composition is placed in a wellbore specifically designed to accommodate high temperature settings.\n\n(Currently amended) A method of cementing in a subterranean formation comprising: providing a cement composition comprising a carboxylated inulin having an average molecular weight of about 600 or higher; placing the cement composition in the subterranean formation; and allowing the cement composition to set within conditions differing from ambient temperature.\n\n(Currently amended) The method of claim 13 wherein the cement composition has a thickening time of from about 3 hours to about 11 hours at temperatures up to about 280 *F.\n\n(Currently amended) The method of claim 13 wherein a viscosity of the cement composition is about constant for a period of time after the cement composition is placed and is maintained under high temperature conditions.\n\n(Currently amended) The method of claim 13 wherein a suspension aid is specifically excluded from the cement composition, promoting cohesion during the setting.\n\n(Currently amended) The method of claim 13 wherein the cement composition has a free water separation of from about 0.0 to about 1 wt.% of the cement composition.\n\n(Currently amended) The method of claim 13 wherein the carboxylated inulin is derived from an inulin processed from chicory and has an average molecular weight of about 600 or higher.\n\n(Currently amended) The method of claim 13 wherein the carboxylated inulin comprises carboxymethylated inulin enhanced for specific application characteristics.\n\n(Currently amended) The method of claim 19 wherein the carboxymethylated inulin has a degree of substitution by carboxymethylated of from about 0.2 to about 0.5.\n\n(Currently amended) The method of claim 13 wherein the cement composition comprises from about 0.5 to about 5 wt. % of carboxylated inulin.\n\n(Currently amended) The method of claim 13 wherein the cement composition further comprises a unique combination of borate salts, an organic acid excluding known alpha-hydroxycarboxylic acids, a synthetic polymer having a specific molecular structure, or any combination thereof.\n\n(Currently amended) The method of claim 13 wherein the cement composition is specifically placed in a wellbore designed for high-temperature applications.",
+  "usage": {
+    "input_tokens": 6436,
+    "output_tokens": 906,
+    "total_tokens": 7342
+  },
+  "stop_reason": "stop",
+  "latency_sec": 35.5,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:07:31Z"
+}

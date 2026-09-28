@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 66117,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d9fa362d252e9430",
+  "response_text": "1. (Currently amended) A dynamic laminar structure, for example for working tools and machines, comprising a lamination of at least two layers and an adhesive layer, the structure comprising first and second layers and __a first adhesive layer__ configured to be cured on the first layer, __a second adhesive layer__ configured to be cured on the second layer, the first adhesive layer and the second adhesive layer configured to be cured to each other, the structure has a circular shape and includes a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the first and second layers, __a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer__.\n\n2. (Currently amended) The dynamic laminar structure of claim 281 wherein the medial section comprises a metal.\n\n3. (Currently amended) The dynamic laminar structure of claim 282 wherein the metal is a honeycomb structure.\n\n4. (Currently amended) The dynamic laminar structure of claim 281 wherein the medial section is a composite material.\n\n5. (Currently amended) The dynamic laminar structure of claim 281 further including a weld ring at least partially interposed between the perimeter of the first and second layers.\n\n6. (Currently amended) The dynamic laminar structure of claim 285 wherein the weld ring is bonded to the medial section.\n\n7. (Currently amended) The dynamic laminar structure of claim 286 wherein the plurality of cutting segments are also welded to an outer perimeter of the weld ring.\n\n8. (Currently amended) The dynamic laminar structure of claim 287 wherein the weld ring is continuous.\n\n9. (Currently amended) The dynamic laminar structure of claim 285 wherein the weld ring is __segmented__.\n\n10. (Currently amended) The dynamic laminar structure of claim 281 further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring.\n\n11. (Currently amended) The dynamic laminar structure of claim 290 wherein the inner ring includes __a__ central opening for accommodating a drive shaft.\n\n12. (Currently amended) The dynamic laminar structure of claim 281 further including a weld ring at least partially interposed between the perimeter of the first and second layers and the plurality of cutting segments, such that the plurality of cutting segments are located on an outer periphery of the weld ring.\n\n13. (Currently amended) The dynamic laminar structure of claim 293 wherein the weld ring is continuous.\n\n14. (Currently amended) The dynamic laminar structure of claim 293 wherein the weld ring is __segmented__.",
+  "usage": {
+    "input_tokens": 15831,
+    "output_tokens": 640,
+    "total_tokens": 16471
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.93,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:25:29Z"
+}

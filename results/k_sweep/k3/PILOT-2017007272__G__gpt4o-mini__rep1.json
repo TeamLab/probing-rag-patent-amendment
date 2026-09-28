@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16585,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b30934ff938af883",
+  "response_text": "1. (Currently Amended) A cooling system installable within a structure wall, comprising: in a housing, the housing disposed between a pair of studs of the wall, a water reservoir; a pump; a pad; a water distributor; a motor; and a fan, wherein the studs are spaced at intervals of sixteen inches on center.\n\n2. (Currently Amended) The cooling system of claim 1, wherein the studs are spaced at intervals of twenty-four inches on center.\n\n4. (Currently Amended) The cooling system of claim 1, wherein the pump brings water from the water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad and enhancing evaporative cooling.\n\n6. (Currently Amended) The cooling system of claim 5, wherein the fan causes the cooled air to flow through an opening configured as an outlet.\n\n11. (Currently Amended) The cooling system of claim 1, wherein the housing includes a front cover component.\n\n13. (Currently Amended) The cooling system of claim 1, wherein the wall is defined as a load-bearing wall structure.\n\n15. (Currently Amended) A cooling system kit, comprising: the cooling system of claim 1; a set of mounting elements; and a ventilation grill element. \n\n17. (Currently Amended) A cooling system, comprising: a housing installable within a structure wall, the housing being adapted for evaporatively cooling an indoor area. \n\n18. (Currently Amended) The cooling system of claim 17, wherein the housing includes features that allow installation between wall studs spaced at intervals of sixteen inches on center.",
+  "usage": {
+    "input_tokens": 3976,
+    "output_tokens": 336,
+    "total_tokens": 4312
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.77,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:56:05Z"
+}

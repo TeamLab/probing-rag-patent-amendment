@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012007524",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2012007524",
+  "app_num": "12422453",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 31594,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "71654693706bd533",
+  "response_text": "1. (Currently amended) An Internet system that supports a search service, the Internet system comprising: a __hardware-implemented__ search server that is adapted to receive search criteria from a client device remote from the search server; a historical data repository coupled to the search server, wherein the historical data repository contains historical data collected from over the Internet, and wherein the search server stores data retrieved from over the Internet and eventually stores the data as historical data within the historical data repository when the data is no longer preserved in the search server; and wherein the search server receives the search criteria to search for older historical data that was in existence on the Internet at a previous time, wherein the search server obtains search results to satisfy the search criteria by searching the historical data stored in the historical data repository, __wherein the historical data comprises data retrieved from predetermined Internet locations by periodically crawling the Internet, and wherein the historical data repository stores historical data for websites other than only websites visited by a user__.\n\n2. (Currently amended) The Internet system of claim 1 wherein the historical data placed within the historical data repository is date tagged so that the historical data is associated with a date representative of when the historical data was available on the Internet.\n\n3. (Currently amended) The Internet system of claim 2 wherein the historical data placed within the historical data repository is time tagged so that the historical data is associated with a time representative of when the historical data was available on the Internet.\n\n4. (Currently amended) The Internet system of claim 1 wherein the historical data placed within the historical data repository is time tagged so that the historical data is associated with a time representative of when the historical data was available on the Internet.\n\n6. (Currently amended) The Internet system of claim 1 wherein the historical data repository comprises: central processing circuitry; communication circuitry coupled to the central processing circuitry for communicating data in to and out from the historical data repository; and local storage coupled to the central processing circuitry that contains an index storage module for storing historical data according to indices and a time based sorting module for storing historical data according to date and time, __wherein the historical data stored in the local storage comprises data retrieved from predetermined Internet locations by periodically crawling the Internet__.\n\n7. (Currently amended) The Internet system of claim 1 wherein certain data is removed from the historical data before it is placed for long-term storage within the historical data repository, __the certain data comprising one type of data selected from the group consisting of advertisements, illegal content, and non-value added content__.\n\n20. (Currently amended) A __hardware-implemented__ network browser in a computer for browsing websites, the network browser comprising: a search criteria window that prompts a user to enter search terms and timeline information; a first module that enables a search of the Internet to determine search results that existed within a time frame delineated by the timeline information, and wherein the search results correlate to the search terms; and a second module that receives the search results from over the Internet, __wherein the search criteria window further prompts the user to enter the timeline information as a time frame delineating when the search results existed__.",
+  "usage": {
+    "input_tokens": 7341,
+    "output_tokens": 638,
+    "total_tokens": 7979
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.13,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:56:59Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 15317,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1084d030d16ed14b",
+  "response_text": "(Currently Amended) Claim 1: A composition, comprising: cavity-generating particles; a __thermally conductive epoxy-based__ binder; and a solvent.\n\n(Currently Amended) Claim 2: The composition of claim 1, wherein the composition is applied to an __electronic component selected from the group consisting of a silicon chip and a microelectronic component surface__.\n\n(Currently Amended) Claim 3: The composition of claim 2, wherein the solvent is removed during application to the electronic component surface __such that the binder remains thermally conductive and cohesive over the component surface__. \n\n(Currently Amended) Claim 9: A composition comprising cavity generating particles, a __thermally conductive epoxy-based__ binder, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles.\n\n(Currently Amended) Claim 10: The composition of claim 9, wherein the carrier is selected from the group comprising __ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, or fluorocarbon solvents__.\n\n(Currently Amended) Claim 12: The composition of claim 9, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, __and alloys thereof__.\n\n(Currently Amended) Claim 16: A composition of matter comprising carrier, __thermally conductive epoxy-based__ binder, and cavity generating particles, wherein said composition of matter contains, in relative proportion: about 10 ml carrier; about 0.5 to 0.8 grams binder; and about 1 gram of cavity generating particles.",
+  "usage": {
+    "input_tokens": 3854,
+    "output_tokens": 351,
+    "total_tokens": 4205
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.75,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:25:27Z"
+}

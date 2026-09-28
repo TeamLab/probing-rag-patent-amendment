@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018005863",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2018005863",
+  "app_num": "14226008",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 30402,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b1f73e532a79adff",
+  "response_text": "(Currently Amended) Claim 1: A computing device for mapping user movements captured by a capture device external to the computing device, to inputs events on the computing device, the computing device comprising: a display to display an application executing on the computing device; a client sharing module to: __transmit video data of the application to a receiver device and thereby establish a video channel;__ and receive gesture data associated with the application, the gesture data based on movements of a user captured from a capture device communicatively coupled to the receiver device; and a mapping module to: map the gesture data into an input event on the computing device; and provide data simulating the input event to a sensor of the computing device.\n\n(Currently Amended) Claim 2: The computing device of claim 1, wherein to map the gesture data into an input event on the computing device, the mapping module is to: retrieve a type of movement of the user from the gesture data; and determine the input event based on the type of movement, wherein the type of movement of the user includes __at least__ a swipe movement or a lean movement.\n\n(Currently Amended) Claim 3: The computing device of claim 2, wherein when the type of movement of the user is a swipe movement, the gesture data is mapped to a touch input event and data simulating the touch input event is provided to a touch sensor of the computing device.\n\n(Currently Amended) Claim 5: The computing device of claim 1, wherein the client sharing module is to: establish a video channel between the computing device and receiver device; __establish an input channel between the computing device and receiver device;__ and wherein the video data is transmitted over the video channel and gesture data is received via the input channel.\n\n(Currently Amended) Claim 16: The method of claim 10, further comprising: establishing a video channel between the computing device and receiver device; __establishing an input channel between the computing device and the receiver device;__ and wherein the video data is transmitted over the video channel and gesture data is received via the input channel.",
+  "usage": {
+    "input_tokens": 6507,
+    "output_tokens": 430,
+    "total_tokens": 6937
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.28,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:48:19Z"
+}

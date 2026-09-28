@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2010005065",
+      "PILOT-2014001124",
+      "PILOT-2015000545"
+    ],
+    "retrieved_app_nums": [
+      "11403031",
+      "13228131",
+      "12752437"
+    ],
+    "retrieved_scores": [
+      0.8585,
+      0.8348,
+      0.8328
+    ],
+    "retrieved_chars_total": 5013,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16031,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b63437603e7994fb",
+  "response_text": "(Currently amended) Claim 15: The method of selecting a server computer for sending data to a client computer, the method comprising: accessing a first server computer through a path in a computer network, the path including one or more server computers; adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on a second server computer, the resource having a unique signature as part of its identifier; and selecting the first server computer based on the information added to the locator.\n\n(Currently amended) Claim 24: The system of selecting a server computer for sending data to a client computer, the system comprising: a first server computer; a second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature; and circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.\n\n(Currently amended) Claim 27: The computer program product of selecting a server computer for sending data to a client computer, the computer program product comprising: a second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature; and program steps for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.",
+  "usage": {
+    "input_tokens": 3493,
+    "output_tokens": 316,
+    "total_tokens": 3809
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.73,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:27:39Z"
+}

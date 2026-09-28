@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2017001422",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2017001422",
+  "app_num": "13995688",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020001487",
+      "PILOT-2017005082",
+      "PILOT-2018001221"
+    ],
+    "retrieved_app_nums": [
+      "14563866",
+      "13803225",
+      "13832205"
+    ],
+    "retrieved_scores": [
+      0.9724,
+      0.9624,
+      0.9474
+    ],
+    "retrieved_chars_total": 2308,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 12432,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cc6de2ba700f0fd7",
+  "response_text": "1. (Currently Amended) An immunogenic composition comprising: a modified, live bovine viral diarrhea virus type lb (BVDV-lb) that is cytopathic, a veterinary-acceptable carrier, and optionally an adjuvant.\n\n2. (Currently Amended) The immunogenic composition of claim 1, wherein the modified, live bovine viral diarrhea virus is a cytopathic BVDV-lb virus __derived from a non-pestivirus source or obtained through a specific attenuation process distinct from naturally occurring BVDV-lb strains__.\n\n3. (Currently Amended) The immunogenic composition of claim 1, further comprising one or more of a parainfluenza virus Type 3 (PI3), a bovine respiratory syncytial virus (BRSV), a bovine herpes virus (BHV-1), a bovine viral diarrhea virus Type la (BVDV-la), a bovine viral diarrhea virus Type 2 (BVDV-2), or an infectious bovine rhinotracheitis (IBR) virus, or any combination thereof; or one or more viral-specific antigens obtained therefrom; __wherein at least one of the additional viruses is a modified, live virus__.\n\n4. (Currently Amended) The immunogenic composition of claim 1, further comprising a modified, live IBRV, a modified, live BRSV, a modified, live BHV-1, a modified, live BVDV Type la, a modified, live BVDV Type 2, or a modified, live PI3, or a combination thereof, __wherein the combination comprises at least two different modified, live viruses in a synergistic formulation__.\n\n6. (Currently Amended) The immunogenic composition of claim 1, further comprising an immunologically effective amount of at least a first antigen __that is a live attenuated pathogen or a recombinant antigen not derived from inactivated bacterial cultures__.\n\n7. (Currently Amended) The immunogenic composition of claim 6, wherein the at least a first antigen is specific for an organism selected from the group consisting of Actinobacillus, Actinomyces, Bacillus, Bordetella, Brachyspira, Campylobacter, Clostridium, Ehrlichia, Erysipelothrix, Escherichia, Histophilus, Leptospira, Listeria, Mannheimia, Moraxella, Mycobacterium, Mycoplasma, Pasteurella, Salmonella, and Streptococcus, or a combination thereof, __wherein the antigen is a live attenuated form of the organism or a recombinant protein thereof__.\n\n8. (Currently Amended) The immunogenic composition of claim 6, wherein the at least a first antigen is __a live attenuated pathogen or a recombinant antigen, rather than inactivated__.\n\n12. (Currently Amended) The vaccine of claim 4, further comprising an immunologically-effective amount of at least one microbial pathogen-specific antigen __that is a live attenuated form or recombinant antigen__.",
+  "usage": {
+    "input_tokens": 3783,
+    "output_tokens": 746,
+    "total_tokens": 4529
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.08,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T18:58:56Z"
+}

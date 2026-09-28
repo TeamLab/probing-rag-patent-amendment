@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015004158",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2015004158",
+  "app_num": "13783908",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19704,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6d2bb117cbe670c4",
+  "response_text": "1. (Currently Amended) A method for treating glaucoma comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof, wherein the subject has been diagnosed with glaucoma.\n\n2. (Currently Amended) A method for treating ocular hypertension comprising administering (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof to a subject in need thereof, wherein the subject has been diagnosed with ocular hypertension.\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Currently Amended) A method for treating glaucoma wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered to a patient diagnosed with glaucoma.\n\n8. (Currently Amended) A method for treating ocular hypertension wherein (S)-(-)-1-(4-fluoro-5-isoquinolinesulfonyl)-2-methyl homopiperazine or a salt thereof and phosphoric acid or a salt thereof are administered to a patient diagnosed with ocular hypertension.\n\n9. (Cancelled)\n\n10. (Cancelled)\n\n11. (Cancelled)\n\n12. (Cancelled)",
+  "usage": {
+    "input_tokens": 4937,
+    "output_tokens": 369,
+    "total_tokens": 5306
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.15,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:19:39Z"
+}

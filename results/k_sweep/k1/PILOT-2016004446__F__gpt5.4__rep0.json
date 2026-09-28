@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016004446",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2016004446",
+  "app_num": "11920521",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10542,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b9fd360760c3d809",
+  "response_text": "4. (Currently amended) A method of impeding Leishmaniasis transmission in __dogs__ by means of administering to __a dog__ a composition comprising a Fucose Mannose Ligand (FML) fraction from __Leishmania donovani__ promastigotes or amastigotes and saponin.\n\n5. (Currently amended) The method of claim 4 wherein said composition is in the form of a blocking vaccine.\n\n6. (Currently amended) The method of claim 4 wherein said composition further comprises suitable pharmacological vehicles, for blocking Leishmaniasis transmission in __dogs__.\n\n7. (Currently amended) The method of claim 4 wherein the Leishmania promastigotes or Leishmania amastigotes fractions called \"Fucose Mannose Ligand\" (FML) comprise a glycoprotein complex containing 29% of neutral sugar, 44% of protein, 11% of phosphate and hexoamines traces composed by protein bands with molecular weight ranging from 9 to 95 kDa, some protein bands having carbohydrates: 36 and 54 to 68 kDa, the FML glycidic portion presenting 10% of fucose and 47% of manose, 30% of glucose, 12% of galactose and xylose traces, aminoacids containing 10 to 20% of glutamic acid, alanine, aspartic acid and glycine, 5 to 10% of serine, histidine, lisin, leucine, threonine, proline and valine, and 2 to 5% of arginine, methionine, isoleucine, tyrosine and phenylalanine.",
+  "usage": {
+    "input_tokens": 2729,
+    "output_tokens": 360,
+    "total_tokens": 3089
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.59,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:25:10Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012006145",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2012006145",
+  "app_num": "10979681",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 19802,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "217f6647f3146261",
+  "response_text": "(Currently amended) Claim 1: A method of cementing comprising: providing a cement composition comprising a carboxylated inulin processed from chicory; and allowing the cement composition to set.\n\n(Currently amended) Claim 11: The method of claim 1 wherein the cement composition is placed in a subterranean formation having a temperature of up to about 280 °F.\n\n(Currently amended) Claim 12: The method of claim 1 wherein the cement composition is placed in a wellbore having a temperature of up to about 280 °F. \n\n(Currently amended) Claim 13: A method of cementing in a subterranean formation comprising: providing a cement composition comprising a carboxylated inulin processed from chicory; placing the cement composition in the subterranean formation; and allowing the cement composition to set therein. \n\n(Currently amended) Claim 1: A method of cementing comprising: providing a cement composition comprising a carboxylated inulin processed from chicory; and allowing the cement composition to set.",
+  "usage": {
+    "input_tokens": 4681,
+    "output_tokens": 213,
+    "total_tokens": 4894
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.37,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:07:02Z"
+}

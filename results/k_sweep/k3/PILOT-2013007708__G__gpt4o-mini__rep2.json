@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013007708",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2013007708",
+  "app_num": "13286129",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21364,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "784473b99c88531f",
+  "response_text": "1. (Currently Amended) A golf tee comprising a long lasting combination of a golf tee and a force absorbing member in association therewith, said tee including a ground insertion end, a ball support end and a shaft in between, said member surrounding said shaft and being located below said ball support end and having an outer diameter less than that of a golf ball but large enough and located so as to protect said support end from impact from a golf club strike after a golf ball has been struck from said tee, wherein said member is not a washer made from rubber.\n\n2. (Currently Amended) The golf tee of claim 1, wherein said tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member, wherein said material is not rubber.\n\n10. (Currently Amended) The golf tee of claim 9, wherein said force absorbing member is formed from a force absorbing material comprising a natural or man-made material that is not rubber.\n\n11. (Currently Amended) The golf tee of claim 1, wherein said force absorbing member is formed from a force absorbing material comprising a natural or man-made material that is not rubber.\n\n15. (Currently Amended) A method of making a golf tee for use when striking a golf ball, said method comprising the step of forming a long lasting combination of a golf tee and a force absorbing member in association therewith, the tee including a ground insertion end, a ball support end and a shaft in between, wherein the member surrounding the shaft is located below the ball support end and has an outer diameter less than that of a golf ball but large enough and located so as to protect the support end from impact from a golf club strike after a golf ball has been struck from the tee, wherein said member is not a washer made from rubber. \n\n16. (Currently Amended) The method of claim 15, wherein the tee is formed from a material that enables the shaft to withstand damage from a strike on the resilient member, wherein said material is not rubber.\n\n25. (Currently Amended) The method of claim 15, wherein the force absorbing member is formed from a force absorbing material comprising a natural or man-made material that is not rubber.",
+  "usage": {
+    "input_tokens": 5056,
+    "output_tokens": 451,
+    "total_tokens": 5507
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.29,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:12:46Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005259",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017005259",
+  "app_num": "13380428",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17548,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fd01729f9fc8e2e3",
+  "response_text": "1. (Currently amended) A speaker comprising a permanent magnet (2), and a coil (8) positioned around the permanent magnet and attached to a membrane (10), wherein the membrane (10) comprises an elastomer of thickness less than 0.3mm and with a Young's modulus below 100MPa, __wherein the membrane (10) comprises a single layer monolithic structure__.\n\n2. (Currently amended) A speaker as claimed in claim 1, wherein the elastomer (10) comprises a silicone.\n\n3. (Currently amended) A speaker as claimed in claim 1 or 2, wherein the membrane (10) is injection moulded.\n\n4. (Original) A speaker as claimed in any preceding claim, wherein the membrane (10) comprises a single layer monolithic structure.\n\n5. (Currently amended) A speaker as claimed in any preceding claim, wherein the membrane (10) comprises a flat central region and a supporting edge region, and wherein the speaker further comprises a stiffening element (16) on the flat central region on the opposite side of the membrane (10) to the coil (8).\n\n6. (Currently amended) A speaker as claimed in any preceding claim, further comprising a support structure (32,34) which defines a back volume (36), wherein the back volume is less than 1cm3.\n\n7. (Original) A speaker as claimed in claim 6, wherein the back volume (36) is less than 0.5cm3.\n\n8. (Currently amended) A speaker as claimed in any preceding claim, wherein the resonant frequency is below 300 Hz.\n\n9. (Currently amended) A speaker as claimed in any preceding claim, wherein the resonant frequency is below 250 Hz.\n\n10. (Currently amended) A method of manufacturing a speaker, comprising: forming a membrane (10) from an elastomer, wherein the membrane has thickness less than 0.3mm and a Young's modulus below 100MPa __and comprises a single layer monolithic structure__; attaching a coil (8) to the membrane; and assembling the speaker by suspending the membrane (10), such that the coil (8) is positioned around a permanent magnet (2).\n\n11. (Currently amended) A method as claimed in claim 10, wherein the elastomer (10) comprises silicone.\n\n12. (Original) A method as claimed in claim 10 or 11, wherein the membrane (10) comprises a single layer monolithic structure.\n\n13. (Currently amended) A method as claimed in claim 10 or 11 [[or 12]], wherein the membrane (10) is formed using injection moulding.\n\n14. (Currently amended) A method as claimed in any one of claims 10 to 13, wherein the membrane (10) is formed with a flat central region and a supporting edge region, and wherein the method further comprises providing a stiffening element (16) on the flat central region on the opposite side of the membrane to the coil (8).",
+  "usage": {
+    "input_tokens": 3966,
+    "output_tokens": 622,
+    "total_tokens": 4588
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.43,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:07:02Z"
+}

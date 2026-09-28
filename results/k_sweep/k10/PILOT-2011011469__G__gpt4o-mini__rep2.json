@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29370,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "aedd65f4a1fc9746",
+  "response_text": "1. (Currently Amended) A method of treating a brain, comprising: inserting an elongated device through an __opening in a cranium__ into the brain to create a path; radially expanding the device to create a working channel along the path; and introducing a medical element into the working channel to perform a medical procedure on the brain.\n\n2. (Currently Amended) The method of claim 1, wherein the medical element is a __medicament that provides therapeutic treatment__.\n\n4. (Currently Amended) The method of claim 1, further comprising inserting the elongated device between __distinct tissue layers__ within the brain.\n\n5. (Currently Amended) The method of claim 4, further comprising radially contracting and removing the device from the brain __after performing the medical procedure__.\n\n7. (Currently Amended) A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; radially reinforcing the device against the tissue; and introducing a medical element through the device __after the device is radially expanded__ to perform a medical procedure on the tissue.\n\n10. (Currently Amended) The method of claim 7, further comprising inserting the elongated device between __two different tissue layers__.\n\n12. (Currently Amended) The method of claim 7, further comprising treating the tissue in contact with the device with a haemostatic compound to reduce __the risk of bleeding during a medical procedure__.\n\n13. (Currently Amended) A method of treating a tissue, comprising: placing an elongated device, having a first radially expandable body, surrounded by a stent, which is surrounded by a second radially expandable body, into the tissue to create a path; radially expanding the second expandable body against the tissue to radially displace the tissue along the path; radially expanding the first expandable body to radially expand the stent to reinforce the second expandable body against the tissue; radially contracting and removing the first expandable body to create a working channel through the stent; introducing a medical element through the channel to perform a medical procedure on the tissue; and radially contracting the second expandable body and removing the device from the tissue __after the medical procedure is complete__.\n\n14. (Currently Amended) The method of claim 13, wherein the medical element is a __specific therapeutic agent__.",
+  "usage": {
+    "input_tokens": 6422,
+    "output_tokens": 498,
+    "total_tokens": 6920
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.48,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:00:24Z"
+}

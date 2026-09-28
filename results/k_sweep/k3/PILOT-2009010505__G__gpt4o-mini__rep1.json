@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2009010505",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2009010505",
+  "app_num": "10993377",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 23452,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5894cdd4a33874d2",
+  "response_text": "``` \n(Currently amended) Claim 1: An apparatus for aligning document actions specified in a documented procedure with demonstrated user actions, comprising: an alignment device for computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric, wherein said alignment device operates in conjunction with a processing unit that enables the functionality of the apparatus.\n\n(Currently amended) Claim 2: The apparatus of claim 1, wherein said alignment device identifies a current step in the documented procedure based on the alignment and provides feedback indicating the current step to a user through the user interface.\n\n(Currently amended) Claim 4: The apparatus of claim 2, further comprising a user interface, in signal communication with said alignment device, for displaying the documented procedure, and wherein said alignment device outputs an identification of the current step to the user interface, and said user interface highlights the current step based on the identification while interacting with the processing unit.\n\n(Currently amended) Claim 5: The apparatus of claim 1, wherein said alignment device identifies a next step in the documented procedure based on the alignment, and provides a prompt to the user either visually or through audible feedback as part of the user interface.\n\n(Currently amended) Claim 6: The apparatus of claim 5, wherein the documented procedure is displayed on a user interface, and said alignment device provides an identification of the next step to the user interface for use in highlighting the next step on the user interface, enabling user comprehension of the procedure.\n\n(Currently amended) Claim 11: The apparatus of claim 1, wherein said alignment device computes the alignment further based on previous user experiences and contextual data with respect to performing the documented procedure as recorded by the processing unit.\n\n(Currently amended) Claim 12: The apparatus of claim 1, wherein the documented procedure has a plurality of steps specified therein, and the apparatus further comprises a document action extractor for extracting at least some of the plurality of steps, and for utilizing those steps in conjunction with the alignment device for enhanced accuracy of the alignment.\n\n(Currently amended) Claim 17: A method for aligning document actions specified in a documented procedure with demonstrated user actions, comprising the steps of: computing an alignment between the document actions and the demonstrated user actions based on at least one similarity metric, wherein the method is executed by a processing unit that governs the functionality of the apparatus.\n\n(Currently amended) Claim 18: The method of claim 17, further comprising the step of identifying a current step in the documented procedure based on the alignment and providing feedback indicating the current step to a user.\n\n(Currently amended) Claim 20: The method of claim 17, further comprising the step of identifying a next step in the documented procedure based on the alignment and generating a prompt for the user indicating the next step.\n\n(Currently amended) Claim 25: The method of claim 17, wherein said computing step computes the alignment further based on previous user experiences and contextual data with respect to performing the documented procedure as recorded by the processing unit.\n\n(Currently amended) Claim 26: The method of claim 17, wherein the documented procedure has a plurality of steps specified therein, and the method further comprises the step of extracting at least some of the plurality of steps from the documented procedure for deeper analysis in the alignment computation.\n```",
+  "usage": {
+    "input_tokens": 5103,
+    "output_tokens": 665,
+    "total_tokens": 5768
+  },
+  "stop_reason": "stop",
+  "latency_sec": 14.32,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:58:34Z"
+}

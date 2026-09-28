@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016003042",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2016003042",
+  "app_num": "13928760",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 25103,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f0308df5a16174b8",
+  "response_text": "1. (Currently amended) A composite stiffener, comprising: first, second and third members formed from laminated composite tape, the first and second members defining a web and flange member being joined to the flanges and extending generally transverse to the web, the first, second and third composite members intersecting to form a void; a filler disposed in and substantially filling the void; at least one layer of composite fabric on each of the members in the area of the filler, wherein the composite fabric is __applied as discrete patches that do not continuously cover the radius areas__; and, a layer of adhesive surrounding the filler and joining the filler to the composite fabric.\n\n2. (Currently amended) The composite stiffener of claim 1, wherein the first and second members include radius areas between the web and each of the flanges, and the fabric layer covers the radius areas __in a non-continuous manner with gaps between fabric patches__.\n\n3. (Original)\n\n4. (Original)\n\n5. (Currently amended) The composite stiffener of claim 1, wherein the layer of adhesive and the at least one layer of composite fabric __are configured such that the adhesive layer is not applied over the surface of the composite fabric but rather is disposed between the filler and the composite fabric in a manner distinct from surface application__.\n\n6. (Currently amended) The composite stiffener of claim 1, wherein the at least one layer of composite fabric of the composite members are offset relative to each other __and are not aligned to form wrinkles in the layered structure__.\n\n7. (Currently amended) A composite stiffener, comprising: a pair of composite channels joined together, each of the channels including a web, flanges extending from the web, and radius areas between the web and each of the flanges; a base extending transverse to the web and joined to each of the flanges, the radius areas of the channels and the base forming at least one radius filler zone; a reinforcing member filling the radius filler zone; a layer of composite fabric covering the radius areas of the channels and the base, __wherein the composite fabric is applied as discrete patches with non-covered areas between the patches__; and, a layer of adhesive surrounding the filler and joining the filler to the composite fabric layer.\n\n12. (Currently amended) The composite stiffener of claim 7, wherein the composite fabric layer includes __more than three composite patches, with patches distributed across the channels and the base in a non-uniform pattern__.\n\n13. (Currently amended) The composite stiffener of claim 7, wherein the layer of adhesive includes a sheet of structural adhesive wrapped around the filler __and wherein the adhesive is not applied as a surface coating over the composite fabric but is instead positioned between the filler and the fabric__.\n\n14. (Original)\n\n15. (Currently amended) The composite stiffener of claim 7, wherein the channels are __formed with a specific fiber orientation pattern that differs from standard C-channel construction and includes unidirectional fibers oriented at angles other than those disclosed in the prior art__.\n\n25. (Currently amended) A composite stiffener for aircraft applications, comprising: an I-section structure formed of laminated composite tape with a web and flanges on each end of the web, the structure including a cap and a base, the cap and base each including radius areas between the web and the flanges and __wherein the cap is joined to the first set of the flanges and the base is joined to the second set of flanges through a bonding process that includes an intermediate adhesive layer distinct from the filler adhesive__; the cap and the base each intersecting the web in the radius areas to define a radius filler zone; a layer of composite fabric in the radius filler zone; a reinforcing filler in the radius filler zone; and __an adhesive system comprising a primary adhesive layer surrounding the filler and a secondary adhesive layer at the interfaces between the cap and flanges and between the base and flanges, wherein the primary and secondary adhesive layers are applied separately and sequentially__.",
+  "usage": {
+    "input_tokens": 6862,
+    "output_tokens": 879,
+    "total_tokens": 7741
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.28,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:04:03Z"
+}

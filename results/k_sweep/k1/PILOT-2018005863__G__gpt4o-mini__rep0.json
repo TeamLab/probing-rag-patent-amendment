@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018005863",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2018005863",
+  "app_num": "14226008",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 18255,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c8bef9ab3832b6e1",
+  "response_text": "```\n1. (Currently amended) A computing device for mapping user movements captured by a capture device external to the computing device, to inputs events on the computing device, the computing device comprising: a display to display an application executing on the computing device; a client sharing module to: __transmit video data of the application to a receiver device over a video channel__; and receive gesture data associated with the application, the gesture data based on movements of a user captured from a capture device communicatively coupled to the receiver device; and a mapping module to: map the gesture data into an input event on the computing device; and provide data simulating the input event to a sensor of the computing device.\n\n5. (Currently amended) The computing device of claim 1, wherein the client sharing module is to: establish a video channel between the computing device and receiver device; establish an input channel between the computing device and receiver device; and wherein the video data is transmitted over the video channel and gesture data is received via the input channel.\n\n10. (Currently amended) A method of mapping user movements captured by a capture device external to a computing device, to inputs events on the computing device, the method comprising: executing an application on the computing device, using at least one processor of the computing device; __transmitting video data of the application to a receiver device over a video channel__; receiving, at the computing device from the receiver device, gesture data associated with the application, the gesture data based on movements of a user captured from a capture device communicatively coupled to the receiver device; mapping the gesture data to an input event on the computing device; and providing data simulating the input event to a sensor on the computing device.\n\n16. (Currently amended) The method of claim 10, further comprising: establishing a video channel between the computing device and receiver device; establishing an input channel between the computing device and the receiver device; and wherein the video data is transmitted over the video channel and gesture data is received via the input channel.\n```",
+  "usage": {
+    "input_tokens": 4088,
+    "output_tokens": 410,
+    "total_tokens": 4498
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.83,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:27:28Z"
+}

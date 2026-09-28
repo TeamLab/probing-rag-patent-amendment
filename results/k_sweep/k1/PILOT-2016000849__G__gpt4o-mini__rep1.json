@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016000849",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2016000849",
+  "app_num": "11628379",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 26448,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6ec95540d3a07f1d",
+  "response_text": "1. A system for analysing risk associated with an investment portfolio of an investor, said system including means for use in generating user interface for display on a user terminal, said user interface showing a distribution of assets of each investment of the investment portfolio over one or more asset classes and showing the distribution of assets over said one or more asset classes of a benchmark risk category representing a risk tolerance level of the investor, __wherein said system does not include means for adding an investment to or removing an investment from the investment portfolio.__ (Currently Amended)\n\n4. A system for managing an investment portfolio of an investor, said system including the system for analysing claimed in any one of claims 1 to 3, and including means for use in __excluding additions or removals of investments to or from__ the investment portfolio. (Currently Amended)\n\n5. A system for managing an investment portfolio of an investor, said system including the system for analysing claimed in any one of claims 1 to 3 and including means for use in __excluding removals of investments from__ the investment portfolio. (Currently Amended)\n\n12. A computer program for analysing risk associated with an investment portfolio of an investor, said program for performing the step of generating a user interface for display on a user terminal, said user interface showing the distribution of assets of each investment of the investment portfolio over one or more asset classes and also showing a distribution of assets over said one or more asset classes of a benchmark risk category representing the risk tolerance level of the investor, __wherein said program does not perform the step of adding or removing an investment from the investment portfolio.__ (Currently Amended)\n\n15. A computer program for managing an investment portfolio of an investor, said computer program for performing the steps claimed in any one of claims 12 to 14, and performing the step of __excluding additions or removals of investments to or from__ the investment portfolio. (Currently Amended)\n\n16. A computer program for managing an investment portfolio of an investor, said computer program for performing the steps claimed in any one of claims 12 to 14, and performing the step of __excluding removals of investments from__ the investment portfolio. (Currently Amended)",
+  "usage": {
+    "input_tokens": 5762,
+    "output_tokens": 447,
+    "total_tokens": 6209
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:41:26Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016003042",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2016003042",
+  "app_num": "13928760",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 29067,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3a55d1bf993fdfbb",
+  "response_text": "1. (Currently Amended) A composite stiffener, comprising: first, second and third members formed from laminated composite tape, the first and second members defining a web and flanges extending from the web, the third member being joined to the flanges and extending generally transverse to the web, the first, second and third composite members intersecting to form a void; a filler disposed in and substantially filling the void; at least one layer of composite fabric on each of the members in the area of the filler; and, a layer of __structural__ adhesive surrounding the filler and joining the filler to the composite fabric.\n\n2. (Currently Amended) The composite stiffener of claim 1, wherein the first and second members include radius areas between the web and each of the flanges, and the fabric layer covers the radius areas, __and wherein the layer of structural adhesive includes a folded sheet of structural adhesive__.\n\n3. (Original) The composite stiffener of claim 1, wherein the layer of adhesive includes a folded sheet of structural adhesive.\n\n5. (Original) The composite stiffener of claim 1, wherein the layer of adhesive and the at least one layer of composite fabric extend beyond the radius areas.\n\n6. (Original) The composite stiffener of claim 1, wherein the at least one layer of composite fabric of the composite members are offset relative to each other.\n\n7. (Currently Amended) A composite stiffener, comprising: a pair of composite channels joined together, each of the channels including a web, flanges extending from the web, and radius areas between the web and each of the flanges; a base extending transverse to the web and joined to each of the flanges, the radius areas of the channels and the base forming at least one radius filler zone; a reinforcing member filling the radius filler zone; a layer of composite fabric covering the radius areas of the channels and the base; and, a layer of __structural__ adhesive surrounding the filler and joining the filler to the composite fabric layer.\n\n12. (Original) The composite stiffener of claim 7, wherein the composite fabric layer includes three composite patches respectively on each of the channels and the base.\n\n13. (Currently Amended) The composite stiffener of claim 7, wherein the layer of __structural__ adhesive includes a sheet of structural adhesive wrapped around the filler, __and wherein the layer of structural adhesive extends beyond the radius filler zone into interfacial layers between the channels and between the base and each of the flanges__.\n\n14. (Original) The composite stiffener of claim 7, wherein the layer of adhesive extends beyond the radius filler zone into interfacial layers between the channels and between the base and each of the flanges.\n\n15. (Currently Amended) The composite stiffener of claim 7, __wherein__ the channels are __generally C-shaped in cross section__.\n\n25. (Currently Amended) A composite stiffener for aircraft applications, comprising: an I-section structure formed of laminated composite __tape plies and having__ a web and __first and second sets of__ flanges on each end of the web, the structure including a __cap and a base, the cap and base each__ including radius areas between the web and the flanges __with the__ cap being joined to the first set of the flanges and the base being joined to the second set of flanges, the cap and the base each intersecting the web in the radius areas to define a radius filler zone; __a layer of composite fabric on the I-__ section structure defining the radius filler zone; a reinforcing filler in the radius filler zone; and __a layer of structural adhesive surrounding__ the filler to the composite fabric in the radius filler zone.",
+  "usage": {
+    "input_tokens": 7770,
+    "output_tokens": 823,
+    "total_tokens": 8593
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.88,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:58:26Z"
+}

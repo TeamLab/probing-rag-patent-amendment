@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014007043",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2014007043",
+  "app_num": "12396358",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21724,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "29772bfc125bf414",
+  "response_text": "1. (Currently amended) A system for generating a counter-stimulation in a patient suffering from RLS, the system comprising: a device configured and arranged to generate a counter-stimulation in a patient suffering from RLS, the counter-stimulation of an amplitude, intensity, and time duration either lower than that which would wake the patient and higher than that sufficient to relieve RLS symptoms, or sufficient to relieve RLS symptoms and allow the patient to return to sleep; a controller configured and arranged to drive the counter-stimulation generation device, the controller in communication with the counter-stimulation device; and a base configured and arranged to hold the counter-stimulation generation device adjacent to a patient, the counter-stimulation device attached to the base, __wherein the base comprises a flexible and elastic sleeve having at least one pocket, the counter-stimulation device positioned in the at least one pocket__.\n\n2. (Currently amended) The system according to Claim 1, wherein the device comprises an [[stimulator]] __stimulator__ selected from the group consisting of a fluid pressure applicator, a mechanical point pressure applicator, a mechanical roller, a mechanical lift, a vibration generator, a nerve stimulator, a muscle stimulator, a heater, a cooler, a chemical applicator, and a magnet.\n\n15. (Currently amended) A method of treating RLS, the method comprising: selecting a patient experiencing RLS; stimulating a portion of the patient at an amplitude, intensity, and duration sufficient to act as a counter-stimulation to RLS and either to allow the patient to return to sleep or to not wake a sleeping patient, __wherein stimulating the portion of the patient comprises applying the counter-stimulation from a device positioned in at least one pocket of a flexible and elastic sleeve worn by the patient__.\n\n16. (Currently amended) The method according to Claim 15, wherein said patient is asleep; and wherein said counter-stimulation is insufficient to wake the patient.\n\n17. (Currently amended) The method according to Claim 15, wherein the patient is awake; and wherein said counter-stimulation is insufficient to prevent the patient from falling asleep.\n\n18. (Currently amended) The method according to Claim 15, wherein said counter-stimulation is selected from the group consisting of pressure application, mechanical point pressure application, a mechanically rolling against the patient's skin, mechanically lifting at least a portion of the patient, vibration, a nerve stimulation, a muscle stimulation, heat, cold, a chemical application, and magnetism.",
+  "usage": {
+    "input_tokens": 4855,
+    "output_tokens": 512,
+    "total_tokens": 5367
+  },
+  "stop_reason": "stop",
+  "latency_sec": 21.5,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:18:08Z"
+}

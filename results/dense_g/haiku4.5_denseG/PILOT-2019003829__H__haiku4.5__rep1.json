@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2017000623",
+      "PILOT-2020002858",
+      "PILOT-2015000381"
+    ],
+    "retrieved_app_nums": [
+      "12823319",
+      "11885716",
+      "12377508"
+    ],
+    "retrieved_scores": [
+      0.9232,
+      0.91,
+      0.8989
+    ],
+    "retrieved_chars_total": 2700,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15349,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "742cc2bcc23a6322",
+  "response_text": "1. (Currently amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is embedded in the test tube at a depth of at least 0.5 mm below the outer surface of the test tube.\n\n2. (Currently amended) The assembly of claim 1, wherein the MTP is embedded in the test tube __and is not visible from the exterior surface without magnification__.\n\n3. (Currently amended) The assembly of claim 1, wherein the MTP is embedded underneath the bottom of the test tube, __recessed within the plastic material__, oriented for reading downwards.\n\n4. (Currently amended) The assembly of claim 1, wherein the test tube is a biorepository test tube __designed for long-term storage of biological samples at temperatures below ambient__.\n\n5. (Currently amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer __such that the polymer material surrounds at least three sides of the MTP__.\n\n6. (Currently amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the __test tube__, __with the MTP positioned between 2 mm and 5 mm from the bottom surface__.\n\n13. (Currently amended) A system for storing samples and comprising of the assembly of claim 1, and __at least two of the following: a rack for biorepository test tubes; an automated robot for moving racks or biorepository test tubes; and an automated sampling device adapted to sample said racks or biorepository test tubes, wherein the system is configured for integrated sample tracking and retrieval__.\n\n14. (Currently amended) The system of claim 13 adapted for low temperature operation, such that the racks/test tubes are handled at -20°C or less, __wherein the assembly of claim 1 maintains structural integrity and MTP readability at such temperatures__.\n\n15. (Currently amended) A method of forming a test tube assembly of claim 1, comprising: __heating the MTP to above the melting point of the plastic and melting a portion of the plastic with the heated MTP such that the MTP becomes embedded within the plastic material__.\n\n16. (Currently amended) A method of reading an embedded MTP in a test tube assembly of claim 1, comprising: providing an embedded MTP; __positioning the test tube with the embedded MTP in a reader device; and reading the MTP through the plastic material__.\n\n17. (Original) The method of reading of claim 16, wherein the embedding material is frost coated.\n\n18. (Original) The method of claim 16, wherein the reader comprises a vial receptacle and wherein vial receptacle and the embedded MTP are maintained at a temperature of -20°C or less.\n\n19. (Currently amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer __such that the polymer material surrounds at least three sides of the MTP__.\n\n20. (Currently amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the __test tube__, __with the MTP positioned between 2 mm and 5 mm from the bottom surface__.\n\n21. (Currently amended) The assembly of claim 19, wherein the MTP is embedded underneath the bottom of the test tube, __recessed within the plastic material__, oriented for reading downwards.\n\n22. (Cancelled)\n\n23. (Cancelled)",
+  "usage": {
+    "input_tokens": 4277,
+    "output_tokens": 756,
+    "total_tokens": 5033
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.32,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:41:51Z"
+}

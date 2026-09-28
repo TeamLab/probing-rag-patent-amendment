@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000122",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020000122",
+  "app_num": "14995989",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 34469,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fb9dd7baabe0984c",
+  "response_text": "(Currently Amended) Claim 1: A control system comprising: a controller __having sufficient structure to generate holistic state data__ configured to be communicatively coupled to automation components in the control system and to facilitate performance of a process through interoperation with the automation components by generating a holistic state data, wherein the controller is configured to generate the holistic state data by: determining a model configured to describe the process used by the controller; determining input and output variables of the process; determining constraints on the input and output variables; determining an objective function associated with the process used by the controller; and storing the model, the input and output variables, the constraints, and the objective function in one of a plurality of fields in the holistic state data to enable the automation components to detect and operate with the controller upon receiving the holistic state data.\n\n(Currently Amended) Claim 2: The control system of claim 1, wherein the controller __having sufficient structure to generate holistic state data__ is configured to be communicatively coupled to the automation components via a communication network and to communicate the holistic state data to each of the automation components upon connecting to the communication network.\n\n(Currently Amended) Claim 3: The control system of claim 1, wherein the controller __having sufficient structure to generate holistic state data__ is configured to be communicatively coupled to the automation components via a backplane and to communicate the holistic state data to the automation components upon connecting to the backplane.\n\n(Currently Amended) Claim 4: The control system of claim 1, wherein the holistic state data is a standardized format understood by each of the automation components.\n\n(Currently Amended) Claim 5: The control system of claim 1, wherein the controller __having sufficient structure to generate holistic state data__ is configured to generate the holistic state data by: determining an intermediate search result of an optimization search; determining a state of the optimization search when the intermediate search result is determined; and storing the intermediate search result and the state in an optimization state field of the holistic state data.\n\n(Currently Amended) Claim 6: The control system of claim 1, wherein the controller __having sufficient structure to generate holistic state data__ is configured to generate the holistic state data to facilitate performing an optimization search in conjunction with one or more of the automation components in the control system.\n\n(Currently Amended) Claim 7: The control system of claim 1, wherein the controller __having sufficient structure to generate holistic state data__ is configured to generate the holistic state data by: determining computational capabilities of the controller; determining interconnections with the automation components in the control system; and storing the computational capabilities and the interconnections in a controller settings field of the holistic state data.\n\n(Currently Amended) Claim 9: The control system of claim 1, wherein the controller __having sufficient structure to generate holistic state data__ comprises an in-memory database configured to store the holistic state data.",
+  "usage": {
+    "input_tokens": 7292,
+    "output_tokens": 595,
+    "total_tokens": 7887
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.12,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:08:30Z"
+}

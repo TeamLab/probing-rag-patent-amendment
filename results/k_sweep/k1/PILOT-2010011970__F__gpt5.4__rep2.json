@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 11695,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8910d0772750e41a",
+  "response_text": "15. (Currently amended) A method for selecting a first server computer for sending data to a client computer, the method comprising:\naccessing a second server computer through a path in a computer network, the path including one or more server computers;\nadding information indicative of at least one server computer of a first set of one or more server computers to a locator of a resource on the second server computer, __the information being added to the locator as a unique signature__;\nproviding the locator to the client computer;\nreceiving, from the client computer, a request comprising the locator __including the unique signature__; and\nselecting the first server computer based on the information __in the unique signature__.\n\n16. (Currently amended) The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including __said__ unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.\n\n17. (Currently amended) The method of claim [[15]] __16__, further comprising providing the information to a media request broker in response to __the selection of the hyperlink by the client computer and__ the request, the media request broker selecting the first server computer based on the information.\n\n18. (Previously presented) The method of claim 17, the media request broker selecting the first server computer based on the information.\n\n24. (Currently amended) A system for selecting a first server computer for sending data to a client computer, comprising:\na second server computer accessible through a path in a computer network, the path including one or more server computers, the second server computer being configured to add information indicative of at least one server computer of a first set of one or more server computers to a locator of a resource on the second server computer, __the information being added to the locator as a unique signature__, and to provide the locator to the client computer; and\na selector configured to receive, from the client computer, a request comprising the locator __including the unique signature__, and to select the first server computer based on the information __in the unique signature__.\n\n25. (Currently amended) The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including __said__ unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request.\n\n27. (Currently amended) A computer program product for selecting a first server computer for sending data to a client computer, the computer program product comprising program code for:\naccessing a second server computer through a path in a computer network, the path including one or more server computers;\nadding information indicative of at least one server computer of a first set of one or more server computers to a locator of a resource on the second server computer, __the information being added to the locator as a unique signature__;\nproviding the locator to the client computer;\nreceiving, from the client computer, a request comprising the locator __including the unique signature__; and\nselecting the first server computer based on the information __in the unique signature__.\n\n28. (Currently amended) The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including __said__ unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request.",
+  "usage": {
+    "input_tokens": 2756,
+    "output_tokens": 801,
+    "total_tokens": 3557
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.03,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:34:59Z"
+}

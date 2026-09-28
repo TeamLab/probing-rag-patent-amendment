@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020006264",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2020006264",
+  "app_num": "15040495",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 17624,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8eecaca01fc5c9a9",
+  "response_text": "Claim 1 (Currently Amended): A method comprising: determining, by a processor, that a benefit payment is due to be made to a recipient; accessing, by the processor, a data store containing records of payment transactions made by the recipient; receiving, by the processor, an indication from the data store that the recipient had successfully performed a biometric user authentication with respect to at least one of the payment transactions; accepting, by the processor, the received indication as proof-of-life with respect to the recipient; and making the benefit payment to the recipient in response to said proof-of-life.\n\nClaim 2 (Currently Amended): The method of claim 1, wherein said at least one payment transaction occurred during a pre-determined period of time prior to said accessing step.\n\nClaim 3 (Currently Amended): The method of claim 2, wherein said pre-determined period of time is seven days.\n\nClaim 4 (Currently Amended): The method of claim 2, wherein said pre-determined period of time is 24 hours.\n\nClaim 5 (Currently Amended): The method of claim 1, wherein the benefit payment is a social insurance transfer payment.\n\nClaim 6 (Currently Amended): The method of claim 1, wherein the at least one of the payment transactions includes a credit card account transaction and/or a debit card account transaction initiated by the recipient.\n\nClaim 7 (Currently Amended): The method of claim 6, wherein a mobile device was used by the recipient to initiate the at least one payment transaction.\n\nClaim 8 (Currently Amended): The method of claim 1, wherein the benefit payment is made via an electronic monetary transfer to an account owned by the recipient.\n\nClaim 9 (Currently Amended): The method of claim 1, wherein the benefit payment is made by sending a check to the recipient.\n\nClaim 10 (Currently Amended): A method comprising: determining, by a processor, that a benefit payment is due to be made to a recipient; accessing, by the processor, at a first point in time, a data store containing records of payment transactions made by the recipient; determining, by the processor, that the data store contains an indication that the recipient had successfully performed a biometric user authentication most recently with respect to one of said payment transactions at a second point in time earlier than the first point in time; comparing, by the processor, a time interval defined by the second and first points in time with a pre-determined permissive time interval; making, by the processor, the benefit payment, without requiring proof-of-life authentication of the recipient, in a case where the time interval defined by the second and first points in time does not exceed the pre-determined permissive time interval; and requiring, by the processor, proof-of-life authentication of the recipient, prior to making the benefit payment, in a case where the time interval defined by the second and first points in time exceeds the pre-determined permissive time interval.\n\nClaim 11 (Currently Amended): The method of claim 10, wherein the pre-determined permissive time interval is seven days.\n\nClaim 12 (Currently Amended): The method of claim 10, wherein the pre-determined permissive time interval is 24 hours.\n\nClaim 13 (Currently Amended): The method of claim 10, wherein the benefit payment is a social insurance transfer payment.\n\nClaim 14 (Currently Amended): An apparatus comprising: a processor; and a memory in communication with the processor, the memory storing program instructions, the processor operative with the program instructions to perform functions as follows: determining that a benefit payment is due to be made to a recipient; accessing a data store containing records of payment transactions made by the recipient; receiving an indication from the data store that the recipient had successfully performed a biometric user authentication with respect to at least one of the payment transactions; accepting the received indication as proof-of-life with respect to the recipient; and making the benefit payment to the recipient in response to said proof-of-life.\n\nClaim 15 (Currently Amended): The apparatus of claim 14, wherein said at least one payment transaction occurred during a pre-determined period of time prior to said accessing.\n\nClaim 16 (Currently Amended): The apparatus of claim 15, wherein said pre-determined period of time is seven days.\n\nClaim 17 (Currently Amended): The apparatus of claim 15, wherein said pre-determined period of time is 24 hours.\n\nClaim 18 (Currently Amended): The apparatus of claim 14, wherein the benefit payment is a social insurance transfer payment.\n\nClaim 19 (Currently Amended): The apparatus of claim 14, wherein the at least one of the payment transactions includes a credit card account transaction and/or a debit card account transaction initiated by the recipient.\n\nClaim 20 (Currently Amended): The apparatus of claim 19, wherein a mobile device was used by the recipient to initiate the at least one payment transaction.",
+  "usage": {
+    "input_tokens": 4117,
+    "output_tokens": 1007,
+    "total_tokens": 5124
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.18,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:53:01Z"
+}

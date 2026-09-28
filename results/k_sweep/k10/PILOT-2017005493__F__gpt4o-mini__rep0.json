@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 26763,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c84ca5ac7d4300ba",
+  "response_text": "(Currently Amended) Claim 1: A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of fins disposed on said columnar body, a base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member, wherein said columnar body has a polygonal configuration.\n\n(Currently Amended) Claim 5: The lamp of claim 1 wherein said diodes are substantially evenly spaced radially around the columnar body, with at least two diodes on each face of the polygonal configuration of the columnar body.\n\n(Currently Amended) Claim 7: The lamp of claim 1 wherein said columnar body comprises one of a tetragon, pentagon, hexagon, heptagon, octagon, nonagon, decagon, hendecagon, or dodecagon in cross-section, with a diode mounted on each respective face.\n\n(Currently Amended) Claim 10: The lamp of claim 9 wherein a single diode resides on each face, with at least one diode being positioned at the center of each face.\n\n(Currently Amended) Claim 11: The lamp of claim 1 wherein said columnar body and said fins are comprised of a material having a thermal conductivity greater than 150 W/mK.\n\n(Currently Amended) Claim 14: The lamp of claim 1 wherein said electronics module comprises a printed circuit board including circuitry for converting AC to DC current, and further includes a dimming control feature.\n\n(Currently Amended) Claim 6: The lamp of claim 1 wherein said fins are arranged in a staggered configuration, creating equal angular spacing between adjacent fins and diodes.",
+  "usage": {
+    "input_tokens": 5851,
+    "output_tokens": 374,
+    "total_tokens": 6225
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.05,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:51:03Z"
+}

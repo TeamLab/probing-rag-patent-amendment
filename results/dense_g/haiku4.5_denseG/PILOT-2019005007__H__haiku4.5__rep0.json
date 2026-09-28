@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2019005007",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2019005007",
+  "app_num": "12625143",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "e",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2014006353",
+      "PILOT-2011009677",
+      "PILOT-2011006973"
+    ],
+    "retrieved_app_nums": [
+      "12791534",
+      "12033799",
+      "12025615"
+    ],
+    "retrieved_scores": [
+      0.8777,
+      0.8688,
+      0.8675
+    ],
+    "retrieved_chars_total": 2884,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19240,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cea19a5b931194fc",
+  "response_text": "1. (Currently Amended) A battery assembly comprising: an enclosure; a first battery cell positioned within the enclosure; and a first sensor positioned within the enclosure for detecting at least one force influencing the first battery cell, wherein the first sensor comprises __force sensing material having a conductance that varies based on the at least one force influencing the first battery cell__.\n\n2. (Original) The battery assembly of claim 1 further comprising an adhesive layer positioned between the first battery cell and the enclosure, wherein the first sensor is positioned between the first battery cell and the enclosure.\n\n3. (Original) The battery assembly of claim 2, wherein at least a portion of the adhesive layer is positioned adjacent at least a portion the first sensor in a plane between the first battery cell and the enclosure.\n\n4. (Original) The battery assembly of claim 3, wherein the adhesive layer extends around at least a portion of the first sensor in the plane.\n\n5. (Original) The battery assembly of claim 2, wherein a portion of the first sensor extends through a gap in the adhesive layer towards an edge of the first battery cell.\n\n6. (Original) The battery assembly of claim 2, wherein a portion of the adhesive layer is positioned between the first sensor and one of the first battery cell and the enclosure.\n\n7. (Original) The battery assembly of claim 1 further comprising a deformable element positioned between the first battery cell and the enclosure, wherein the first sensor is positioned between the first battery cell and the enclosure.\n\n8. (Original) The battery assembly of claim 1, wherein: the enclosure comprises an enclosure portion of protective film; and the first sensor is positioned between first battery cell and the enclosure portion.\n\n9. (Original) The battery assembly of claim 8, wherein the protective film is a polyester film.\n\n10. (Original) The battery assembly of claim 1, wherein: the enclosure comprises a plastic case portion; and the first sensor is positioned between first battery cell and the plastic case portion.\n\n11. (Currently Amended) The battery assembly of claim 1 further comprising a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell, and wherein the first sensor comprises __force sensing material having a conductance that varies based on the at least one force influencing the first battery cell__.\n\n12. (Original) The battery assembly of claim 11 further comprising an adhesive layer between the first battery cell and the second battery cell.\n\n13. (Original) The battery assembly of claim 12, wherein at least a portion of the adhesive layer is positioned adjacent at least a portion the first sensor in a plane between the first battery cell and the second battery cell.\n\n14. (Original) The battery assembly of claim 13, wherein the adhesive layer extends around at least a portion of the first sensor in the plane.\n\n15. (Original) The battery assembly of claim 12, wherein a portion of the first sensor extends through a gap in the adhesive layer towards an edge of the first battery cell.\n\n16. (Original) The battery assembly of claim 12, wherein a portion of the adhesive layer is positioned between the first sensor and one of the first battery cell and the second battery cell.\n\n17. (Currently Amended) The battery assembly of claim 1 further comprising: a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell; a third battery cell stacked on top of the second battery cell; and a second sensor positioned between the third battery cell and the second battery cell for detecting at least one force influencing the third battery cell, wherein __the first sensor and the second sensor each comprise force sensing material having a conductance that varies based on the at least one force influencing the respective battery cell__.\n\n18. (Original) The battery assembly of claim 17 further comprising a processor configured to: receive a first sensor output signal from the first sensor; receive a second sensor output signal from the second sensor; conduct an evaluation based at least on the received output signals; and generate at least one processor output signal based on the evaluation.\n\n19. (Original) The battery assembly of claim 18, wherein the processor is further configured to alter an operation of the third battery cell independently from an operation of the first battery cell based on the at least one processor output signal.\n\n20. (Original) The battery assembly of claim 18, wherein the processor is further configured to turn off the third battery cell and to maintain operation of the first battery cell based on the at least one processor output signal.\n\n21. (Currently Amended) The battery assembly of claim 1, wherein the first sensor comprises: force sensing material having a conductance that is configured to vary based on the at least one force influencing the first battery cell; and force sensing circuitry coupled to the force sensing material, wherein the force sensing circuitry is configured to produce a force output signal based on the conductance of the force sensing material, and wherein __the force sensing material comprises at least one variable electrical conductor that has a first level of electrical conductance when quiescent and a second level of conductance when mechanical stress is applied__.\n\n22. (Cancelled) [[The battery assembly of claim 21, wherein the force sensing material comprises at least one variable electrical conductor.]]\n\n23. (Cancelled) [[The battery assembly of claim 22, wherein the at least one variable electrical conductor has a first level of electrical conductance when the at least one variable electrical conductor is quiescent, and wherein the at least one variable electrical conductor has a second level of conductance when a mechanical stress is applied to the at least one variable electrical conductor.]]\n\n24. (Cancelled) [[The battery assembly of claim 22, wherein the at least one variable electrical conductor is a quantum tunneling composite.]]\n\n25. (Cancelled) [[The battery assembly of claim 1, wherein the first sensor comprises a contact sensor.]]\n\n26. (Cancelled) [[The battery assembly of claim 1, wherein the first sensor comprises a pressure sensitive ink.]]\n\n27. (Cancelled) [[The battery assembly of claim 1, wherein the first sensor comprises at least one of a polymer membrane binary switch and a discrete dome switch.]]\n\n28. (Cancelled) [[A method for monitoring a battery comprising a first cell and a second cell stacked within an enclosure, the method comprising: positioning a first sensor material between the first cell and one of the second cell and the enclosure; varying the conductance of the first material based on at least one force influencing the first cell; and producing a first force output signal based on the conductance of the first material.]]\n\n29. (Cancelled) [[The method of claim 28 further comprising controlling a facility of the first cell based on the force output signal.]]\n\n30. (Cancelled) [[The method of claim 28 further comprising: receiving a battery status signal, wherein the battery status signal is responsive to at least one of a voltage, a current, and a temperature of the first cell; evaluating the first force output signal and the battery status signal; and generating at least one evaluated output signal based on the evaluation of the first force output signal and the battery status signal.]]",
+  "usage": {
+    "input_tokens": 4634,
+    "output_tokens": 1570,
+    "total_tokens": 6204
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.88,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:25:19Z"
+}

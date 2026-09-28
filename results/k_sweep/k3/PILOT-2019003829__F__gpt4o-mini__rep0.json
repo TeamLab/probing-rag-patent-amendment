@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21297,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e81783a5d4c0aca6",
+  "response_text": "1. (Currently Amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is embedded near the center bottom of the test tube and oriented for reading upwards.\n\n2. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer.\n\n3. (Currently Amended) The assembly of claim 1, wherein the test tube is a biorepository test tube.\n\n4. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded at a specific depth below the top end of the test tube, allowing for effective reading downwards. \n\n6. (Currently Amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the test tube and oriented for reading upwards. \n\n23. (Currently Amended) The assembly of claim 4, wherein the MTP is embedded underneath at a specific depth, oriented for reading upwards.",
+  "usage": {
+    "input_tokens": 4779,
+    "output_tokens": 201,
+    "total_tokens": 4980
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.87,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:15:21Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002029",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017002029",
+  "app_num": "14354183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15360,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e0183aac4640d7ae",
+  "response_text": "1. (Currently Amended) A cell comprising: a non-native compartment comprising a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide __that is heterologous to the cell__.\n\n2. (Currently Amended) The cell of claim 1 wherein the non-native compartment is self-assembled in vivo __and the BMC polypeptide is expressed from an exogenous polynucleotide__.\n\n3. (Original) The cell of claim 1 wherein the non-native compartment further comprises at least one targeted enzyme.\n\n4. (Original) The cell of claim 3 wherein the non-native compartment comprises a plurality of different targeted enzymes.\n\n5. (Currently Amended) The cell of claim 3 or claim 4 wherein the at least one targeted enzyme comprises a compartment-specific targeting signal sequence __and is not natively associated with the BMC polypeptide in its native bacterial source__.\n\n6. (Currently Amended) The cell of claim 1 wherein the BMC polypeptide comprises a Eut polypeptide __from a bacterial species different from the host cell species__.\n\n7. (Currently Amended) The cell of claim 6 wherein the Eut polypeptide comprises a EutS polypeptide __and at least one additional Eut polypeptide from the same Eut operon__.\n\n8. (Currently Amended) The cell of claim 1 wherein the proteinaceous shell comprises a plurality of different BMC polypeptides __from at least two different bacterial microcompartment operons__.\n\n9. (Original) The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different bacterial species.\n\n10. (Original) The cell of claim 8 wherein the plurality of different BMC polypeptides comprises BMC polypeptides from different BMC operons.\n\n11. (Currently Amended) The cell of claim 1 wherein at least one BMC polypeptide comprises an affinity tag __that is not present in the native bacterial source of the BMC polypeptide__.\n\n12. (Currently Amended) A method comprising: introducing into a host cell a polynucleotide that encodes at least one BMC polypeptide that is heterologous to the host cell, thereby producing a transformed cell; and growing the transformed cell under conditions effective for the transformed cell to express the polynucleotide that encodes at least one BMC polypeptide and produce a non-native compartment comprising a proteinaceous shell comprising the at least one BMC polypeptide __for the purpose of providing the host cell with a new metabolic capability__.\n\n13. (Original) The method of claim 12 wherein the host cell comprises a bacterium.\n\n14. (Original) The method of claim 13 wherein the bacterium comprises a member of the family Enterobacteriaceae.\n\n15. (Original) The method of claim 14 wherein the member of the family Enterobacteriaceae comprises E. coli.\n\n16. (Original) The method of claim 13 wherein the bacterium comprises a member of the family Shewanellaceae.\n\n17. (Original) The method of claim 12 wherein the host cell comprises a yeast.\n\n18. (Original) The method of claim 17 wherein the yeast comprises a member of the family Saccharomycetaceae.\n\n19. (Original) The method of claim 18 wherein the member of the family Saccharomycetaceae comprises Saccharomyces cerevisiae.\n\n20. (Original) The method of claim 12 wherein the host cell comprises an alga.\n\n21. (Currently Amended) A method comprising: providing a cell comprising a non-native compartment comprising: a proteinaceous shell comprising at least one bacterial microcompartment (BMC) polypeptide that is heterologous to the cell, and at least one enzyme that catalyzes conversion of a substrate to a product __wherein the enzyme is targeted to the compartment by a compartment-specific targeting signal__; and growing the cell under conditions effective for the at least one enzyme to catalyze conversion of the substrate to a product __for the purpose of producing a desired metabolite__.\n\n22. (Original) The method of claim 21 wherein the product comprises a bioactive product.\n\n23. (Original) The method of claim 21 wherein the product comprises a drug or a drug precursor.\n\n24. (Original) The method of claim 21 wherein the product comprises a biofuel or a precursor of biofuel production.\n\n25. (Original) The method of claim 21 wherein the at least one enzyme catalyzes a step in degrading or detoxifying a toxic substrate.\n\n26. (Currently Amended) The method of claim 21 further comprising isolating at least a portion of the non-native compartments __using an affinity purification method__.\n\n27. (Original) The method of claim 26 wherein at least a portion of the non-native compartment comprise an affinity tag and isolating at least a portion of the non-native compartments comprises contacting a sample comprising the non-native compartments with an affinity substrate having selective affinity for the affinity tag.\n\n28. (Currently Amended) The cell of claim 1 comprising a plurality of compartments __wherein each compartment comprises a different set of BMC polypeptides or enzymes__.",
+  "usage": {
+    "input_tokens": 4472,
+    "output_tokens": 1226,
+    "total_tokens": 5698
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.15,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:28:48Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 28760,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8625a9c2b87e211b",
+  "response_text": "1. (Currently amended) A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium __that does not comprise an alkali solution__; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos.\n\n2. (Previously presented) The method of claim 1 wherein the non-destructive medium consists essentially of water.\n\n3. (Previously presented) The method of claim 1 wherein the DNA is obtained by exposing the shed cellular material to cold and then heat followed by agitation.\n\n4. (Previously presented) The method of claim 3 wherein said cold, heat, and agitation steps are repeated.\n\n5. (Previously presented) The method of claim 1 wherein the DNA is obtained by heating of the shed cellular material and agitation.\n\n6. (Previously presented) The method of claim 5 wherein said heat and agitation steps are repeated.\n\n7. (Currently amended) The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with an enzyme __selected from the group consisting of cellulase, pectinase, and hemicellulase__.\n\n8. (Previously presented) The method of claim 7 wherein the enzyme is VISCOZYME@.\n\n9. (Currently amended) The method of claim 1 wherein obtaining DNA from the shed cellular material comprises extracting the DNA [[Error! Reference source not found.]].\n\n10. (Previously presented) The method of claim 9, wherein said extracting is performed by adding magnetic particles to the shed cellular material.\n\n11. (Currently amended) The method of claim 1 wherein the one or more embryos comprise one or more immature embryos __and wherein the molecular analysis comprises determining the presence or absence of a specific genetic marker__.\n\n12. (Currently amended) The method of claim 1 further comprising storing the one or more embryos __in a quiescent condition__ prior to step (c) or (d).\n\n13. (Currently amended) The method of claim 1, wherein said molecular analysis is genotyping __for breeding selection purposes__.\n\n14. (Previously presented) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads.\n\n15. (Previously presented) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant.\n\n16. (Previously presented) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed.\n\n17. (Currently amended) The method of claim 13 further comprising selecting one or more embryos based on genotype __for enhanced agronomic traits__.\n\n18. (Currently amended) The method of claim 17 further comprising germinating the one or more selected embryos __while maintaining embryos not selected in storage__.\n\n19. (Currently amended) The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is automated __using robotic handling systems__.",
+  "usage": {
+    "input_tokens": 6979,
+    "output_tokens": 768,
+    "total_tokens": 7747
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.58,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:27:44Z"
+}

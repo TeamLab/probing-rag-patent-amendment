@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22566,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cf11b91669a1c8b2",
+  "response_text": "Claim 1 (Currently amended): A method of using a finger palette to transfer cosmetics from a container to a destination, a. the finger palette including: i. a ring portion that is securable to a finger; and ii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to blend and apply cosmetic product on the surface portion; b. the method including the steps of: i. securing the finger palette to a finger; ii. depositing a cosmetic product onto the surface portion of the finger palette; and iii. transferring the cosmetic product from the surface portion of the finger palette to a destination, wherein the transferred cosmetic product is not applied by a user directly from the container. \n\nClaim 4 (Currently amended): The method of claim 1 wherein: a. a first quantity of the cosmetic product is deposited onto the surface portion; and b. a second quantity of the cosmetic product is transferred from the surface portion to the destination, the second quantity being smaller than the first quantity, wherein the second quantity is specifically the portion of the cosmetic product that has been blended before transfer. \n\nClaim 5 (Currently amended): The method of claim 1 wherein: a. the surface portion extends outwardly from a surface center to an outer perimeter; and b. the surface portion is free, from any first point on the outer perimeter to any second point on the outer perimeter, of excess features that could trap cosmetics and complicate cleaning of the surface portion, ensuring an easy cleaning experience for the user.\n\nClaim 6 (Currently amended): The method of claim 1 wherein the surface portion is at least substantially without protrusions extending therefrom apart from any necessary structural features to maintain stability.\n\nClaim 7 (Currently amended): The method of claim 1 wherein the surface portion is at least substantially planar, with a tolerance for minor variances that do not affect usability. \n\nClaim 11 (Currently amended): The method of claim 1 wherein the finger palette is secured to the finger by passing the finger through the ring portion, which is designed for easy removal and adjustment for the user.",
+  "usage": {
+    "input_tokens": 4891,
+    "output_tokens": 431,
+    "total_tokens": 5322
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.95,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:05:19Z"
+}

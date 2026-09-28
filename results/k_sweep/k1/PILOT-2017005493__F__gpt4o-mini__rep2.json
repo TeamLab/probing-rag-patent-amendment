@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017005493",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2017005493",
+  "app_num": "12942053",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13875,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a4683dea1a1920ce",
+  "response_text": "(Currently Amended) Claim 1: A lamp comprised of an at least substantially hollow columnar body, a plurality of light emitting diodes disposed on said columnar body, a plurality of cooling fins disposed on said columnar body, a base member disposed at a first end of the columnar body and providing a means for electrical connection, and an electronics module disposed within the columnar body and in electrical communication with the base member.\n\n(Currently Amended) Claim 5: The lamp of claim 1 wherein said light emitting diodes are substantially evenly spaced radially around the columnar body.\n\n(Currently Amended) Claim 8: The lamp of claim 7 wherein at least one light emitting diode resides on each face of said columnar body.\n\n(Currently Amended) Claim 9: The lamp of claim 8 wherein one cooling fin resides on each corner of said columnar body.\n\n(Currently Amended) Claim 11: The lamp of claim 1 wherein said columnar body and said cooling fins are comprised of a material having a thermal conductivity greater than 150 W/ mK.\n\n(Currently Amended) Claim 13: The lamp of claim 1 wherein said base member comprises one of an Edison screw base or a wedge base.\n\n(Currently Amended) Claim 16: A lamp comprising an elongated hollow polygonal body comprised of a material having a thermal conductivity greater than 150 W/ mK, a cooling fin extending radially from each corner of said body, a light emitting diode mounted to each side of said body, a screw or wedge base connector closing a first end of said body, a second end of said body being open, an electronics module disposed within said body in electrical communication with said connector and said light emitting diodes, said lamp having a general A19 outline.\n\n(Currently Amended) Claim 20: The method of claim 17 wherein said elongated hollow body has substantially straight side walls.",
+  "usage": {
+    "input_tokens": 3324,
+    "output_tokens": 394,
+    "total_tokens": 3718
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.06,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:31:40Z"
+}

@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2013001277",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2013001277",
+  "app_num": "11479493",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "103",
+    "test_subsection": "a",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2018007677",
+      "PILOT-2017003072",
+      "PILOT-2014008429"
+    ],
+    "retrieved_app_nums": [
+      "12774894",
+      "13173139",
+      "13057408"
+    ],
+    "retrieved_scores": [
+      0.9571,
+      0.9558,
+      0.9214
+    ],
+    "retrieved_chars_total": 9249,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21495,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d901ec5b6630df47",
+  "response_text": "(Currently Amended) Claim 1: A gas generator comprising: a composition containing an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent, and a carboxylic acid as a fuel provided at about 25-75 weight percent, said percentages stated by weight of the total composition; and a desiccant in operable communication with said composition, wherein said desiccant is selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide.\n\n(Currently Amended) Claim 2: The gas generator of claim 1 wherein said desiccant is mixed into said composition at about 10-35 weight percent of the total composition.\n\n(Currently Amended) Claim 3: The gas generator of claim 1 wherein said desiccant is in vapor communication with, but physically separated from, said composition, and said desiccant is provided in amounts resulting in a mass differential of about -5.0 to 5.0% of the composition after heat aging at 107C for 400 hours.\n\n(Currently Amended) Claim 4: The gas generator of claim 1 wherein said composition contains an extrusion aid provided at about 0.1-10 weight percent of the total gas generant composition.\n\n(Currently Amended) Claim 5: The gas generator of claim 4 wherein said extrusion aid is selected from graphite, fumed silica, and mixtures thereof.\n\n(Currently Amended) Claim 6: The gas generator of claim 1 wherein said alkali metal chlorate is potassium chlorate.\n\n(Currently Amended) Claim 7: The gas generator of claim 1 wherein said carboxylic acid is selected from tartaric acid and its isomers, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof.\n\n(Currently Amended) Claim 8: The gas generator of claim 1 wherein said carboxylic acid is DL-tartaric acid.\n\n(Currently Amended) Claim 13: A composition comprising: an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent; a carboxylic acid as a fuel provided at about 25-75 weight percent; and a desiccant provided at about 5-35 weight percent, said percentages stated by weight of the total gas generant composition, wherein said desiccant is selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide.\n\n(Currently Amended) Claim 14: The composition of claim 13 wherein said carboxylic acid is selected from tartaric acid and its isomers, DL-tartaric acid, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof.\n\n(Currently Amended) Claim 15: The composition of claim 13 wherein said alkali metal chlorate is potassium chlorate.\n\n(Currently Amended) Claim 16: The composition of claim 13 wherein said desiccant is selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide.\n\n(Currently Amended) Claim 17: The composition of claim 13 wherein said desiccant is zeolite.\n\n(Currently Amended) Claim 18: The composition of claim 13 wherein said desiccant is selected to provide a mass differential of about -5.0% to 5.0% after heat aging at 107C for 400 hours.",
+  "usage": {
+    "input_tokens": 4985,
+    "output_tokens": 713,
+    "total_tokens": 5698
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.45,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:31:53Z"
+}

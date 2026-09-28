@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2017000093",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2017000093",
+  "app_num": "13729015",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2016006889",
+      "PILOT-2018001016",
+      "PILOT-2016007554"
+    ],
+    "retrieved_app_nums": [
+      "14542098",
+      "13841971",
+      "13282253"
+    ],
+    "retrieved_scores": [
+      0.939,
+      0.9262,
+      0.9245
+    ],
+    "retrieved_chars_total": 4622,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 24204,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f21dbc304c68790a",
+  "response_text": "(Currently Amended) Claim 26: A non-transitory machine readable medium storing a program which when executed by at least one processing unit analyzes a document, the program comprising sets of instructions for: receiving a document that comprises a plurality of primitive graphic elements defined separately within the document, the document having a drawing order that indicates the order in which the primitive graphic elements are drawn when the document is displayed; calculating a first value for a first primitive graphic element and a second primitive graphic element that is subsequent to the first in the drawing order, wherein the first value is a size value that represents a size of a smallest bounding box that encompasses the first and second primitive graphic elements; and based on the comparison of the first value to other values calculated for additional primitive graphic elements that are subsequent in the drawing order, defining a single structural graphic element within the document from the first and second primitive graphic elements.\n\n(Currently Amended) Claim 27: The non-transitory machine readable medium of claim 26, wherein the first value is a size value that represents a size of a smallest bounding box that encompasses the first and second primitive graphic elements.\n\n(Currently Amended) Claim 28: The non-transitory machine readable medium of claim 26, wherein the first value represents a size of a smallest bounding box that encompasses the first and second primitive graphic elements.\n\n(Currently Amended) Claim 31: The non-transitory machine readable medium of claim 26, wherein the set of instructions for calculating comprises a set of instructions for calculating a different value for each pair of primitive graphic elements subsequent in the drawing order, wherein the set of instructions for defining the single structural graphic element comprises sets of instructions for: using the calculated values for pairs of primitive graphic elements to identify clusters of primitive graphic elements as candidates for joining as compound graphic elements; and identifying sequences of primitive graphic elements within a cluster whose bounding boxes intersect; and joining the sequences as single graphic elements.\n\n(Currently Amended) Claim 32: A non-transitory machine readable medium storing a program which when executed by at least one processing unit analyzes a document, the program comprising sets of instructions for: receiving a document that comprises a plurality of primitive graphic elements defined separately within the document; based on values calculated for pairs of primitive graphic elements, defining a set of successive primitive graphic elements as a candidate compound graphic element; using bounds of the primitive graphic elements in the cluster to identify one or more subsets of primitive graphic elements within the set; and defining each particular subset having more than one primitive graphic element as a single structural graphic element within the document, the structural graphic element comprising the primitive graphic elements in the particular subset.\n\n(Currently Amended) Claim 41: The method of claim 37, wherein the calculating comprises calculating a different value for each pair of primitive graphic elements subsequent in the drawing order, wherein defining the single structural graphic element comprises: using the calculated values for pairs of primitive graphic elements to identify clusters of primitive graphic elements as candidates for joining as compound graphic elements; and identifying sequences of primitive graphic elements within a cluster whose bounding boxes intersect; and joining the sequences as single graphic elements.",
+  "usage": {
+    "input_tokens": 5099,
+    "output_tokens": 628,
+    "total_tokens": 5727
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.48,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:21:53Z"
+}

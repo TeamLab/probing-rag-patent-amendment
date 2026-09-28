@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2015005752",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2015005752",
+  "app_num": "13668077",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2013009486",
+      "PILOT-2010010676",
+      "PILOT-2015000464"
+    ],
+    "retrieved_app_nums": [
+      "12416061",
+      "12041710",
+      "12126191"
+    ],
+    "retrieved_scores": [
+      0.9676,
+      0.9619,
+      0.9596
+    ],
+    "retrieved_chars_total": 1489,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16190,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bbb25a364744dc39",
+  "response_text": "1. (Currently amended) A packaging substrate comprising: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having a plurality of conductive paths formed between the chip mounting surface and the bottom surface, the conductive paths configured to provide electrical connection between an integrated circuit chip disposed on the chip mounting surface and the bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure, __wherein the opening is formed through a solder mask layer disposed on the packaging structure__; and a stiffening microstructure disposed in the opening and coupled to the packaging structure, __wherein the stiffening microstructure is bonded to at least one of a bottom surface or a sidewall of the opening, and wherein the stiffening microstructure is in contact with a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure__.\n\n2. (Cancelled)\n\n3. (Cancelled)\n\n4. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure __comprises a structure that__ extends above the chip mounting surface __and is configured to facilitate thermal management__.\n\n5. (Currently amended) The packaging substrate of claim 1, wherein __a core layer is disposed below the solder mask layer, and the opening exposes a portion of the core layer__.\n\n6. (Cancelled)\n\n7. (Currently amended) The packaging substrate of claim 1 further comprising: an integrated circuit chip mounted on the chip mounting surface, __wherein the stiffening microstructure is positioned to provide structural support and thermal dissipation__.\n\n8. (Currently amended) The packaging substrate of claim 7, wherein the stiffening microstructure __includes a lid__.\n\n9. (Currently amended) The packaging substrate of claim 8 further comprising: a heat transfer medium providing a thermally conductive pathway between the lid and the integrated circuit chip, __wherein the heat transfer medium is in direct contact with both the lid and the integrated circuit chip__.\n\n10. (Currently amended) The packaging substrate of claim 1, wherein the stiffening microstructure is a ring __having a thickness greater than 1 micrometer__.\n\n11. (Cancelled)\n\n12. (Previously presented) The packaging substrate of claim 1 further comprising a dielectric bonding agent coupling the stiffening microstructure to the packaging structure.\n\n13. (Previously presented) The packaging substrate of claim 1 further comprising a conductive bonding agent coupling the stiffening microstructure to the packaging structure.\n\n14. (Currently amended) A computing device, comprising: a memory; and a packaged semiconductor device communicatively coupled to the memory, wherein the packaged semiconductor device comprises: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure, __wherein the opening is formed through a solder mask layer disposed on the packaging structure__; an integrated circuit chip disposed on the chip mounting surface and communicatively coupled to the memory through the packaging structure; and a stiffening microstructure disposed in the opening and coupled to the packaging structure, __wherein the stiffening microstructure is bonded to at least one of a bottom surface or a sidewall of the opening, and wherein the stiffening microstructure is in contact with a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure__.\n\n15. (Cancelled)\n\n16. (Currently amended) The packaging substrate of claim 14, wherein the stiffening microstructure __comprises a structure that__ extends above the chip mounting surface __and is configured to facilitate thermal management__.\n\n17. (Currently amended) The packaging substrate of claim 14, wherein __a core layer is disposed below the solder mask layer, and the opening exposes a portion of the core layer__.\n\n18. (Cancelled)\n\n19. (Currently amended) The packaging substrate of claim 14, wherein the stiffening microstructure __includes one of a ring or a lid__.\n\n20. (Cancelled)",
+  "usage": {
+    "input_tokens": 4188,
+    "output_tokens": 887,
+    "total_tokens": 5075
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.61,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:03:44Z"
+}

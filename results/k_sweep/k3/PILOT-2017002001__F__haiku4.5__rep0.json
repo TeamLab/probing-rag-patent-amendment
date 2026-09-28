@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20685,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "795f4fc6496250a2",
+  "response_text": "13. (Currently amended) A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides integrated contact elements by which power is supplied to said heater, wherein said contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater, __and wherein the contact elements are positioned to provide both pneumatic and electrical connection when the connector is connected to the CPAP device__.\n\n14. (Previously presented) The gas tube arrangement according to claim 13, further comprising an insulating sheathing body.\n\n15. (Cancelled)\n\n16. (Cancelled)\n\n17. (Currently amended) The gas tube arrangement according to claim 14, wherein the insulating sheathing body __surrounds and is in thermal contact with__ the flexible tube.\n\n18. (Currently amended) The gas tube arrangement according to claim 14, wherein the tube __includes a heating element integrated therein and__ is a heatable respiratory gas tube.\n\n19. (Cancelled)\n\n20. (Cancelled)\n\n21. (Cancelled)\n\n22. (Cancelled)\n\n23. (Cancelled)\n\n24. (Currently amended) The gas tube arrangement according to claim 13, wherein the flexible tube is made from __a reinforced plastic material comprising spiral reinforcement__.\n\n25. (Currently amended) The gas tube arrangement according to claim 13, wherein the heater is __an electrical heating element comprising a resistance heater__.\n\n26. (Cancelled)\n\n27. (Currently amended) The gas tube arrangement according to claim 13, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device.\n\n28. (Currently amended) The gas tube arrangement according to claim 13, wherein the first portion is tubular and the second portion __extends radially outwardly from the first portion__.\n\n29. (Currently amended) A connector for connecting a CPAP device to a respiratory gas tube arrangement for supplying a respiratory gas to a person, the respiratory gas tube arrangement including a heater, the connector comprising: a first portion that provides a respiratory gas passage; and a second portion that provides integrated contact elements by which power is supplied to the heater, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device, __and wherein the contact elements are positioned within the second portion__.\n\n30. (Currently amended) A connector according to claim 29, wherein each contact element is provided within the second portion.\n\n31. (Previously presented) A connector according to claim 29, wherein the first portion is tubular and the second portion extends outwardly from the first portion.",
+  "usage": {
+    "input_tokens": 5122,
+    "output_tokens": 697,
+    "total_tokens": 5819
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.79,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:50:11Z"
+}

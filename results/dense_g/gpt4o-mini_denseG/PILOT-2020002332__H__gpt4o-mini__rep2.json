@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2020002332",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2020002332",
+  "app_num": "12406916",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2017003271",
+      "PILOT-2017000317",
+      "PILOT-2016001943"
+    ],
+    "retrieved_app_nums": [
+      "12764413",
+      "14010612",
+      "12105049"
+    ],
+    "retrieved_scores": [
+      0.8622,
+      0.8549,
+      0.8439
+    ],
+    "retrieved_chars_total": 3866,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20074,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2f9996d35daa5039",
+  "response_text": "(Currently Amended) 25. A computer readable medium having stored thereon comprising computer executable instructions that when executed by a processor of a computer performs steps comprising: utilizing a certificate selection device to generate electronic certificate selection information; providing the electronic certificate selection information and associated recipient data to a merchant server; receiving, from the merchant server, electronic value certificate data derived from the certificate selection information; establishing a communications link with a mobile device corresponding to the recipient data; and provisioning the electronic value certificate data on the mobile device over the communications link via over the air (OTA) communications, wherein the computer readable medium is not directed to transitory signals. \n\n(Currently Amended) 5. The method of claim 1 wherein the electronic value certificate data comprises an SMS (short message service) message containing a URL (uniform resource locator) link to a web page displaying a barcode.\n\n(Currently Amended) 6. The method of claim 1 wherein the electronic value certificate data comprises a control SMS (short message service) message instructing the mobile device to download at least one barcode image of at least one coupon associated with the certificate selection information.\n\n(Currently Amended) 12. The method of claim 1 wherein the mobile device comprises a first NFC (near field communication) enabled device, and is configured to transfer the electronic value certificate to a second NFC (near field communication) enabled mobile device.\n\n(Currently Amended) 17. The system of claim 13 wherein the electronic value certificate data comprises an SMS (short message service) message containing a URL (uniform resource locator) link to a web page displaying a barcode.\n\n(Currently Amended) 18. The system of claim 13 wherein the electronic value certificate data comprises a control SMS (short message service) message instructing the mobile device to download at least one barcode image of at least one coupon associated with the certificate selection information.\n\n(Currently Amended) 24. The system of claim 13 wherein the mobile device comprises a first NFC (near field communication) enabled device, and is configured to transfer the electronic value certificate to a second NFC (near field communication) enabled mobile device.",
+  "usage": {
+    "input_tokens": 4235,
+    "output_tokens": 434,
+    "total_tokens": 4669
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.45,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:04:49Z"
+}

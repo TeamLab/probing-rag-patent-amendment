@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2017005259",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2017005259",
+  "app_num": "13380428",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "103",
+    "test_subsection": "a",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2017001202",
+      "PILOT-2017002949",
+      "PILOT-2015007321"
+    ],
+    "retrieved_app_nums": [
+      "13250521",
+      "12852224",
+      "12886618"
+    ],
+    "retrieved_scores": [
+      0.9131,
+      0.9101,
+      0.9042
+    ],
+    "retrieved_chars_total": 5507,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14183,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6f198cdef9219206",
+  "response_text": "(Currently amended) Claim 1: A speaker comprising a permanent magnet (2), and a coil (8) positioned around the permanent magnet and attached to a membrane (10), wherein the membrane (10) comprises an elastomer of thickness less than 0.3mm and with a Young's modulus below __80 MPa__.\n\n(Currently amended) Claim 2: A speaker as claimed in claim 1, wherein the elastomer (10) comprises a silicone.\n\n(Currently amended) Claim 5: A speaker as claimed in any preceding claim, wherein the membrane (10) comprises a flat central region and a supporting edge region, and wherein the speaker further comprises a stiffening element (16) on the flat central region on the opposite side of the membrane (10) to the coil (8), wherein the stiffening element (16) is configured to enhance the low frequency response of the speaker. \n\n(Currently amended) Claim 10: A method of manufacturing a speaker, comprising: forming a membrane (10) from an elastomer, wherein the membrane has thickness less than 0.3mm and a Young's modulus below __80 MPa__; attaching a coil (8) to the membrane; and assembling the speaker by suspending the membrane (10), such that the coil (8) is positioned around a permanent magnet (2). \n\n(Currently amended) Claim 14: A method as claimed in any one of claims 10 to 13, wherein the membrane (10) is formed with a flat central region and a supporting edge region, and wherein the method further comprises providing a stiffening element (16) on the flat central region on the opposite side of the membrane to the coil (8), wherein the stiffening element (16) is configured to enhance the low frequency response of the speaker.",
+  "usage": {
+    "input_tokens": 3313,
+    "output_tokens": 369,
+    "total_tokens": 3682
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.66,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T18:58:19Z"
+}

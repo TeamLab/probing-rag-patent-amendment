@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2015004151",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2015004151",
+  "app_num": "12702453",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2018003610",
+      "PILOT-2016001620",
+      "PILOT-2011002866"
+    ],
+    "retrieved_app_nums": [
+      "11645608",
+      "13127057",
+      "11837955"
+    ],
+    "retrieved_scores": [
+      0.7774,
+      0.7756,
+      0.7688
+    ],
+    "retrieved_chars_total": 3567,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14014,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2062aed566bfabe8",
+  "response_text": "(Currently Amended) Claim 1: A cleanable, waterborne polyurethane dispersion comprising the reaction product of: A) one or more OH-functional acrylic dispersions and B) one or more polyisocyanates modified with 3-(cyclohexylamino)-propanesulfonic acid.\n\n(Currently Amended) Claim 2: The dispersion of claim 1, wherein component A) comprises at least two distinct OH-functional acrylic dispersions.\n\n(Currently Amended) Claim 3: The dispersion of claim 1, wherein component B) comprises at least one polyisocyanate modified with 3-(cyclohexylamino)-propanesulfonic acid based on an aliphatic diisocyanate.\n\n(Currently Amended) Claim 8: The coating of claim 7, wherein the surface roughness of the coating is characterized by a root mean square roughness greater than 200 nm.",
+  "usage": {
+    "input_tokens": 3532,
+    "output_tokens": 195,
+    "total_tokens": 3727
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.33,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:28:38Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017007595",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017007595",
+  "app_num": "11416767",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 26711,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c8ac1f8f643d074b",
+  "response_text": "1. (Currently Amended) A method of providing advertisements in a traffic message comprising: - obtaining traffic data having a traffic condition of a location description on a road network; - assessing a location reference code associated with the location description assigned by a traffic message supplier; - assessing an advertising reference code associated with the location reference code; - determining whether an advertising provider device is present that can utilize the advertising reference code; and - generating a traffic message having the location reference code and the advertising reference code when the advertising reference code is present.\n\n14. (Currently Amended) A method of providing advertisement messages using location reference codes comprising: - assessing a location reference code of a location description; - assessing an advertising reference code associated with the location reference code; - generating an advertising message having the advertising reference code; and - providing the advertising message for broadcast to navigation systems utilizing an advertising provider device.\n\n25. (Currently Amended) A method of providing advertisements comprising: - generating a message having an advertising reference code; and - providing the message for broadcast to navigation systems via an advertising provider device, wherein the advertising reference code comprises a substantially unique code that identifies at least a portion of an advertisement stored and displayed on a recipient device of the message.\n\n27. (Currently Amended) A method of providing advertisements via a traffic channel comprising: - generating a message having advertisements; and - serially transmitting the message for broadcast to navigation systems via the traffic channel using an advertising provider device.\n\n29. (Currently Amended) A method of providing advertisements using location reference codes comprising: - receiving a message from a traffic supplier, wherein the message contains a location reference and an advertising reference code; - assessing at least one advertisement associated with the advertising reference code; and - presenting the at least one advertisement to a user of the navigation system at a location based on the location reference code utilizing a user interface of an advertising provider device.",
+  "usage": {
+    "input_tokens": 5667,
+    "output_tokens": 382,
+    "total_tokens": 6049
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.8,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:48:45Z"
+}

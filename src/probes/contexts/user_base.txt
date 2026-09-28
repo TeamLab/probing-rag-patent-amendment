@@ -1,0 +1,21 @@
+## Application
+
+Title: {title}
+Application Number: {app_num}
+Technology Center: {tech_center}
+
+## Current claims (pre-amendment)
+
+{pre_claims}
+
+## Office Action — rejection rationale
+
+{rejection_text}
+
+## Cited prior art references
+
+{prior_art_list}
+
+## Task
+
+Draft amended version(s) of the rejected claim(s) that address the examiner's rejection while minimizing scope narrowing. Return the amended claim listing in USPTO format (see system instructions). Output only the claim text — no commentary.

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 69673,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b45d6a00fd79a3a0",
+  "response_text": "(Currently Amended) Claim 281: A tool comprising: a lamination of at least two layers, including a first layer and a second layer; a first adhesive layer on the first layer; a second adhesive layer on the second layer; and a medial section, wherein the first adhesive layer and the second adhesive layer are located on opposite sides of the medial section and are aligned with each other; and an additional adhesive layer located in registration with the medial section.\n\n(Currently Amended) Claim 290: The tool of claim 281, wherein the medial section is a honeycomb structure.\n\n(Currently Amended) Claim 291: The tool of claim 290, wherein the medial section includes a central opening for accommodating a drive shaft.\n\n(Currently Amended) Claim 293: The tool of claim 281, further including a weld ring at least partially interposed between the perimeter of the first and second layers.\n\n(Currently Amended) Claim 294: The tool of claim 281, further including a plurality of cutting segments located on an outer periphery of the weld ring.",
+  "usage": {
+    "input_tokens": 15092,
+    "output_tokens": 219,
+    "total_tokens": 15311
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.31,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:53:59Z"
+}

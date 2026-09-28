@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16688,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cf75874ced1641c0",
+  "response_text": "(Currently amended) Claim 13: A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides integrated contact elements by which power is supplied to said heater, wherein said integrated contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater.\n\n(Currently amended) Claim 27: The gas tube arrangement according to claim 13, wherein each contact element is provided within the second portion.\n\n(Currently amended) Claim 30: A connector according to claim 29, wherein each contact element is provided within the second portion.",
+  "usage": {
+    "input_tokens": 3882,
+    "output_tokens": 205,
+    "total_tokens": 4087
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.08,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:29:22Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017009415",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017009415",
+  "app_num": "13468920",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22046,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6a4c0a7bcf5ae054",
+  "response_text": "Claim 1 (Currently amended): A catheter system for delivering ultrasonic energy to a treatment site within a body lumen, the catheter comprising: a tubular body having a proximal end, a distal end and an energy delivery section positioned between the proximal end and the distal end; a plurality of ultrasound radiating members positioned within the energy delivery section, the plurality of ultrasound radiating members being allocated into electrical groups comprising more than one ultrasound radiating member; wherein the ultrasound radiating members of one electrical group are spatially interdigitated with the ultrasound radiating members of another electrical group; and wherein the ultrasound radiating members are interdigitated in a spatial arrangement that is not solely regular.\n\nClaim 4 (Currently amended): The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a spatial arrangement that is not solely regular.\n\nClaim 5 (Currently amended): The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a spatial arrangement that is pseudo random. \n\nClaim 6 (Currently amended): A system for treating a patient having pulmonary embolism, the system comprising: a first and a second ultrasound catheter, each of the first and the second ultrasound catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section having at least one ultrasound element, the tubular body also including at least one fluid delivery lumen; and a control system connected to and configured to operate at least one elongate inner core of each of the first and the second ultrasound catheter.\n\nClaim 9 (Currently amended): A method for treating a patient having pulmonary embolism, the method comprising: advancing an ultrasound catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section comprising at least one ultrasound element and at least one fluid delivery lumen; advancing the distal portion of the ultrasound catheter to a treatment site in the patient's pulmonary artery; inflating a balloon on the distal portion of the ultrasound catheter; delivering a thrombolytic drug to the treatment site through the at least one fluid delivery lumen; and emitting ultrasonic energy to promote diffusion of the thrombolytic drug at the treatment site. \n\nClaim 11 (Currently amended): An ultrasound catheter for treating a patient having pulmonary embolism, the catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section comprising at least one ultrasound element and at least one fluid delivery lumen, the tubular body defining a guidewire lumen extending through the proximal portion to the ultrasound energy delivery section and not solely through the at least one ultrasound element.",
+  "usage": {
+    "input_tokens": 4829,
+    "output_tokens": 532,
+    "total_tokens": 5361
+  },
+  "stop_reason": "stop",
+  "latency_sec": 15.77,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:41:46Z"
+}

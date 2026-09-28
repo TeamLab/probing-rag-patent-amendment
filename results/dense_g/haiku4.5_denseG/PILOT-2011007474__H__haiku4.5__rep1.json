@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2011007474",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2011007474",
+  "app_num": "11613859",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2015001404",
+      "PILOT-2010001033",
+      "PILOT-2014008880"
+    ],
+    "retrieved_app_nums": [
+      "12759449",
+      "11388411",
+      "12928028"
+    ],
+    "retrieved_scores": [
+      0.8491,
+      0.8421,
+      0.8403
+    ],
+    "retrieved_chars_total": 2548,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17646,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e565dc39a0a70a1b",
+  "response_text": "1. (Currently Amended) A method comprising:\nreceiving requests and data records from a plurality of creditors to file bankruptcy documents with a plurality of different bankruptcy organizations, wherein the requests are specifically directed to bankruptcy proceedings;\nautomatically generating the bankruptcy documents with the received data records, wherein the bankruptcy documents are suitable for filing with different bankruptcy organizations and comprise bankruptcy-specific forms and supporting documentation required by bankruptcy courts; and\nbatch filing the bankruptcy documents with the different bankruptcy organizations via direct electronic submission to bankruptcy court filing systems.\n\n2. (Currently Amended) The method of claim 1 wherein the different bankruptcy organizations are different courts with different filing system configurations, and wherein the bankruptcy documents are formatted and adapted to comply with the specific filing requirements and procedures of each different court.\n\n6. (Currently Amended) A method comprising:\nreceiving requests from a plurality of creditors to file proofs of claims for debts owed by debtors to the creditors with a plurality of different bankruptcy organizations, wherein each request includes a data record for generating a proof of claim specific to bankruptcy proceedings;\nautomatically generating the proofs of claims with the received data records, wherein the proofs of claims are suitable for filing with different bankruptcy organizations and are formatted according to the specific requirements of each bankruptcy court; and\nbatch filing the proofs of claims with the different bankruptcy organizations via direct electronic submission to bankruptcy court filing systems.\n\n7. (Currently Amended) The method of claim 6 wherein the different bankruptcy organizations are different bankruptcy courts having different filing system configurations, and wherein the proofs of claims are adapted to comply with the specific filing requirements of each different bankruptcy court.\n\n8. (Currently Amended) The method of claim 6 further comprising sending bankruptcy notification messages to the plurality of creditors, wherein the bankruptcy notification messages notify the creditors that various debtors have filed for bankruptcy and include information regarding the status of filed proofs of claims.\n\n9. (Currently Amended) The method of claim 6 wherein receiving requests from the plurality of creditors comprises receiving the requests using a secure file transfer protocol with encryption and authentication mechanisms specific to bankruptcy filing systems.\n\n10. (Currently Amended) The method of claim 6 wherein receiving requests comprises receiving requests via a Web site that is specifically configured for bankruptcy document submission and management.\n\n11. (Currently Amended) The method of claim 6 where batch filing comprises aggregating the proofs of claims and filing the proofs of claims in a batch mode at least once per day directly with bankruptcy court filing systems.\n\n12. (Currently Amended) The method of claim 6 further comprising:\ngenerating a report specific to bankruptcy filings; and\nsending the report to a particular creditor.\n\n13. (Currently Amended) The method of claim 12 wherein generating the report comprises enabling a user to request the report using a Web site configured for bankruptcy filing management.\n\n14. (Currently Amended) The method of claim 12 wherein generating the report comprises generating an aging report specifying a reason some proofs of claims have not been filed with bankruptcy courts.\n\n15. (Previously Presented) The method of claim 12 further comprising receiving a filing receipt for a filed proof of claim.\n\n16. (Currently Amended) The method of claim 6 wherein batch filing is performed by a server computer that directly interfaces with bankruptcy court filing systems.\n\n17. (Currently Amended) The method of claim 6 further comprising validating the data record to ensure compliance with bankruptcy court filing requirements.",
+  "usage": {
+    "input_tokens": 4571,
+    "output_tokens": 742,
+    "total_tokens": 5313
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.99,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:19:57Z"
+}

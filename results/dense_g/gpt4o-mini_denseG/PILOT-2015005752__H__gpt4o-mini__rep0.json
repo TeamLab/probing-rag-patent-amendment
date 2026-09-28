@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2015005752",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2015005752",
+  "app_num": "13668077",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2013009486",
+      "PILOT-2010010676",
+      "PILOT-2015000464"
+    ],
+    "retrieved_app_nums": [
+      "12416061",
+      "12041710",
+      "12126191"
+    ],
+    "retrieved_scores": [
+      0.9676,
+      0.9619,
+      0.9596
+    ],
+    "retrieved_chars_total": 1489,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16190,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bbb25a364744dc39",
+  "response_text": "1. (Currently amended) A packaging substrate comprising: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having a plurality of conductive paths formed between the chip mounting surface and the bottom surface, the conductive paths configured to provide electrical connection between an integrated circuit chip disposed on the chip mounting surface and the bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure; and a stiffening microstructure disposed in the opening and coupled to the packaging structure, wherein the stiffening microstructure is not limited to being bonded to a bottom surface or a sidewall of the opening.\n\n2. (Currently amended) The packaging substrate of claim 2, wherein the stiffening microstructure is bonded to a bottom surface of the opening or a sidewall of the opening.\n\n3. (Currently amended) The packaging substrate of claim 1, further comprising: an integrated circuit chip mounted on the chip mounting surface, wherein the integrated circuit chip is electrically connected to the conductive paths.\n\n8. (Currently amended) The packaging substrate of claim 7, wherein the stiffening microstructure includes a lid.\n\n11. (Currently amended) The packaging substrate of claim 1, wherein the packaging structure further comprises: a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure, wherein the ground reference plane layer is in contact with the stiffening microstructure, and the ground reference plane layer is not limited to being in contact with only the stiffening microstructure.",
+  "usage": {
+    "input_tokens": 3727,
+    "output_tokens": 310,
+    "total_tokens": 4037
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.92,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:04:19Z"
+}

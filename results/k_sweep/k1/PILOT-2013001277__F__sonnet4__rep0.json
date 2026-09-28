@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013001277",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2013001277",
+  "app_num": "11479493",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13855,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "126a1b19be7a026e",
+  "response_text": "1. (Currently amended) A gas generator comprising: a composition containing an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent, and a carboxylic acid as a fuel provided at about 25-75 weight percent, said percentages stated by weight of the total composition; and a desiccant in operable communication with said composition, __wherein said desiccant is provided to maintain thermal stability of said composition during storage at elevated temperatures__.\n\n2. (Currently amended) The gas generator of claim 1 wherein said desiccant is mixed into said composition at about 10-35 weight percent of the total composition, __and wherein said desiccant comprises zeolite__.\n\n3. (Currently amended) The gas generator of claim 1 wherein said desiccant is in vapor communication with, but physically separated from, said composition, and said desiccant is provided in amounts resulting in a mass differential of about -5.0 to 5.0% of the composition after heat aging at 107C for 400 hours, __wherein said desiccant comprises activated calcium sulfate__.\n\n4. (Currently amended) The gas generator of claim 1 wherein said composition contains an extrusion aid provided at about 0.1-10 weight percent of the total gas generant composition, __wherein said extrusion aid is fumed silica__.\n\n5. (Previously presented) The gas generator of claim 4 wherein said extrusion aid is selected from graphite, fumed silica, and mixtures thereof.\n\n6. (Previously presented) The gas generator of claim 1 wherein said alkali metal chlorate is potassium chlorate.\n\n7. (Previously presented) The gas generator of claim 1 wherein said carboxylic acid is selected from tartaric acid and its isomers, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof.\n\n8. (Previously presented) The gas generator of claim 1 wherein said carboxylic acid is DL-tartaric acid.\n\n13. (Currently amended) A composition comprising: an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent; a carboxylic acid as a fuel provided at about 25-75 weight percent; and a desiccant provided at about 5-35 weight percent, said percentages stated by weight of the total gas generant composition, __wherein said desiccant is provided to maintain thermal stability of said composition during storage at elevated temperatures__.\n\n14. (Previously presented) The composition of claim 13 wherein said carboxylic acid is selected from tartaric acid and its isomers, DL-tartaric acid, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof.\n\n15. (Previously presented) The composition of claim 13 wherein said alkali metal chlorate is potassium chlorate.\n\n16. (Currently amended) The composition of claim 13 wherein said desiccant is selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide, __and wherein said desiccant is present in an amount effective to inhibit decomposition of said carboxylic acid fuel__.\n\n17. (Currently amended) The composition of claim 13 wherein said desiccant is zeolite __present in an amount effective to inhibit decomposition of said carboxylic acid fuel__.\n\n18. (Currently amended) The composition of claim 13 wherein said desiccant is selected to provide a mass differential of about -5.0% to 5.0% after heat aging at 107C for 400 hours, __and wherein said desiccant comprises activated calcium sulfate__.",
+  "usage": {
+    "input_tokens": 3988,
+    "output_tokens": 842,
+    "total_tokens": 4830
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.87,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T11:57:57Z"
+}

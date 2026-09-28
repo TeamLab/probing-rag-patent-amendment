@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014007043",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2014007043",
+  "app_num": "12396358",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 18829,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9411a66061e9d1d9",
+  "response_text": "(Currently Amended) Claim 1: A system for generating a counter-stimulation in a patient suffering from RLS, the system comprising: a device configured and arranged to generate a counter-stimulation in a patient suffering from RLS, the counter-stimulation of an amplitude, intensity, and time duration sufficient to relieve RLS symptoms and either to allow the patient to return to sleep or to not wake a sleeping patient; a controller configured and arranged to drive the counter-stimulation generation device, the controller in communication with the counter-stimulation device; and a base configured and arranged to hold the counter-stimulation generation device adjacent to a patient, the counter-stimulation device attached to the base.\n\n(Currently Amended) Claim 2: The system according to Claim 1, wherein the device comprises a stimulator selected from the group consisting of a fluid pressure applicator, a mechanical point pressure applicator, a mechanical roller, a mechanical lift, a vibration generator, a nerve stimulator, a muscle stimulator, a heater, a cooler, a chemical applicator, and a magnet.\n\n(Currently Amended) Claim 15: A method of treating RLS, the method comprising: selecting a patient experiencing RLS; stimulating a portion of the patient at an amplitude, intensity, and duration sufficient to act as a counter-stimulation to RLS and either to allow the patient to return to sleep or to not wake a sleeping patient.\n\n(Currently Amended) Claim 18: The method according to Claim 15, wherein said counter-stimulation is selected from the group consisting of pressure application, mechanical point pressure application, a mechanically rolling against the patient's skin, mechanically lifting at least a portion of the patient, vibration, a nerve stimulation, a muscle stimulation, heat, cold, a chemical application, and magnetism.",
+  "usage": {
+    "input_tokens": 4306,
+    "output_tokens": 367,
+    "total_tokens": 4673
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.49,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:30:13Z"
+}

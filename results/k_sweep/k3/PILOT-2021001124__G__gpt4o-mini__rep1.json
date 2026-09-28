@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2021001124",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2021001124",
+  "app_num": "14651281",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21055,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2a007b166034b404",
+  "response_text": "(Currently Amended) Claim 1: A method for content optimization, comprising: receiving a [[strikethrough]]rule on probability factor[[strikethrough]] __set of rules including one or more rules on probability factor__, the [[strikethrough]]rule on probability factor[[strikethrough]] __one or more rules on probability factor__ specifying a statistical probability that a piece of content expresses a particular value of a selected content attribute; generating a plurality of pieces of content in accordance with the [[strikethrough]]rule on probability factor[[strikethrough]] __set of rules__; collecting content performance data of the plurality of pieces of content when the plurality of pieces of content are in use; determining, by a processor, an aggregated performance data for the selected content attribute having the particular value based on the content performance data of the plurality of pieces of content; and modifying, by the processor, the [[strikethrough]]rule on probability factor[[strikethrough]] __set of rules including one or more rules on probability factor__ based on the aggregated performance data.\n\n(Currently Amended) Claim 5: The method of claim 1, further comprising: determining, by the processor, a deviation value for aggregated performance data __associated with__ the selected content attribute based on the content performance data of the plurality of pieces of content, wherein the modifying step comprises modifying the [[strikethrough]]rule on probability factor[[strikethrough]] __set of rules including one or more rules on probability factor__ based on both the aggregated performance data and the deviation value for the aggregated performance data for the selected content attribute.\n\n(Currently Amended) Claim 6: The method of claim 1, further comprising: receiving a set of rules for content generation; identifying a changeable content attribute based on the set of rules for content generation; and composing, by the processor, one or more rules on probability factor __for at least one changeable content attribute__.\n\n(Currently Amended) Claim 10: The system of claim 8, wherein the content evaluation module is further operative to determine a deviation value for the aggregated performance data for the selected content attribute based on the content performance data of the plurality of pieces of content, and wherein the rule management module is further operative to modify the [[strikethrough]]rule on probability factor[[strikethrough]] __set of rules including one or more rules on probability factor__ based on both the aggregated performance data and the deviation value for the aggregated performance data for the selected content attribute.\n\n(Currently Amended) Claim 13: A method comprising: receiving a first rule on probability factor and a second rule on probability factor, the first rule on probability factor defining a statistical probability that a piece of content expresses a first value of a selected content attribute, the second rule on probability factor defining a statistical probability that a piece of content expresses a second value of the selected content attribute, the second value being different from the first value; generating a plurality of pieces of content in accordance with the first rule on probability factor and the second rule on probability factor; collecting content performance data of the plurality of pieces of content when the plurality of pieces of content are in use; determining, by a processor, a first aggregated performance data for the first value of the selected content attribute based on the content performance data of the plurality of pieces of content; determining, by the processor, a second aggregated performance data for the second value of the selected content attribute based on the content performance data of the plurality of pieces of content; and modifying, by the processor, the first rule on probability factor and the second rule on probability factor based on both the first aggregated performance data and the second aggregated performance data, wherein the modification considers performance trends over time.\n\n",
+  "usage": {
+    "input_tokens": 4479,
+    "output_tokens": 767,
+    "total_tokens": 5246
+  },
+  "stop_reason": "stop",
+  "latency_sec": 15.92,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:01:29Z"
+}

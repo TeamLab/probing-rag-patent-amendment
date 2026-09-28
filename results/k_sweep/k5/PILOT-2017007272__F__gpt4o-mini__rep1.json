@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017007272",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2017007272",
+  "app_num": "13182307",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 19666,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "31603465cab8a96c",
+  "response_text": "(Currently amended) Claim 1: A cooling system installable within a structure wall, comprising: in a housing, the housing disposed between a pair of studs of the wall, a water reservoir; a pump; a pad; a water distributor; a motor; and a fan, wherein the studs are spaced either sixteen inches on center or twenty-four inches on center.\n\n(Currently amended) Claim 2: The cooling system of claim 1, wherein the studs are spaced sixteen inches on center.\n\n(Currently amended) Claim 4: The cooling system of claim 1, wherein the pump brings water from the water reservoir to the water distributor and the water distributor distributes the water to the pad thereby moistening the pad.\n\n(Currently amended) Claim 5: The cooling system of claim 4, wherein the fan causes air to flow through the pad moistened by the water, thereby cooling the air by evaporation.\n\n(Currently amended) Claim 6: The cooling system of claim 5, wherein the fan causes the cooled air to flow through an opening of the cooling system.\n\n(Currently amended) Claim 11: The cooling system of claim 1, wherein the housing includes a front cover.\n\n(Currently amended) Claim 13: The cooling system of claim 1, wherein the wall is a load-bearing wall.\n\n(Currently amended) Claim 15: A cooling system kit, comprising: the cooling system of claim 1; mounting elements; and a ventilation grill.\n\n(Currently amended) Claim 17: A cooling system, comprising: a housing that is mountable within a structure wall, the housing including components for evaporatively cooling an indoor area.",
+  "usage": {
+    "input_tokens": 4609,
+    "output_tokens": 336,
+    "total_tokens": 4945
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:27:05Z"
+}

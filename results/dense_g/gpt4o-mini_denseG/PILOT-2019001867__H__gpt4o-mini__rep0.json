@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2019001867",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2019001867",
+  "app_num": "15375238",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2019006670",
+      "PILOT-2017006232",
+      "PILOT-2021000343"
+    ],
+    "retrieved_app_nums": [
+      "13441358",
+      "13864682",
+      "14460482"
+    ],
+    "retrieved_scores": [
+      0.8843,
+      0.871,
+      0.866
+    ],
+    "retrieved_chars_total": 5654,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 26073,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "23617e8b015de2af",
+  "response_text": "1 (Currently amended): A hinge arrangement adapted for reducing wear and noise, comprising: a first hinge component including a first hinge plate and at least first and second vertically spaced apart and aligned knuckles at a hinge side of the first hinge plate; a second hinge component including a second hinge plate and at least a third knuckle at a hinge side of the second hinge plate, wherein the hinge side of the second hinge plate is disposed proximate the hinge side of the first hinge plate, wherein the third knuckle is disposed between and aligned with the first and second knuckles to provide a pin passage therethrough; a plurality of bushing washers comprised of plastic, including: a first bushing washer that functions both as a bushing and a washer, the first bushing washer having a first tubular bushing body inserted within the first knuckle, and a first annular washer rim unitary with the first tubular bushing body and disposed atop the first knuckle, a second bushing washer that functions both as a bushing and a washer, the second bushing washer having a second tubular bushing body inserted within the second knuckle, and a second annular washer rim unitary with the second tubular bushing body and disposed atop the second knuckle, and a third bushing washer that functions both as a bushing and a washer, the third bushing washer having a third tubular bushing body inserted within the third knuckle, and a third annular washer rim unitary with the third tubular bushing body and disposed atop the third knuckle; wherein the first, second and third bushing washers cooperate to support bearing loads, support lateral loads, provide alignment, and to limit wear and squeak noise in the hinge arrangement; wherein a bottom side of the first knuckle seats atop the third annular washer rim to prevent contact between the first knuckle and the third knuckle and to act as a reduced friction bearing between the first knuckle and the third knuckle that limits wear and noise resulting from relative movement between the first knuckle and the third knuckle, and a bottom side of the second knuckle seats atop the second annular washer rim to prevent contact between the second knuckle and the third knuckle and to act as a reduced friction bearing between the second knuckle and the third knuckle that limits wear and noise resulting from relative movement between the second knuckle and the third knuckle.\n\n3 (Currently amended): The hinge arrangement of claim 1, further comprising: a hinge pin disposed through the pin passage formed by the aligned first, second and third knuckles and, correspondingly, through the first tubular bushing body, the second tubular bushing body and the third tubular bushing body, which collectively isolate the hinge pin from internal surfaces of the first, second and third knuckles, where the hinge pin includes a pin cap seated atop the first annular washer rim to reduce wear and noise resulting from relative movement between the pin cap and the first knuckle.",
+  "usage": {
+    "input_tokens": 5787,
+    "output_tokens": 601,
+    "total_tokens": 6388
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.87,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:13:51Z"
+}

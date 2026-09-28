@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017009415",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017009415",
+  "app_num": "13468920",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 31919,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "19742fb931ab9642",
+  "response_text": "1. (Currently amended) A catheter system for delivering ultrasonic energy to a treatment site within a body lumen, the catheter comprising: a tubular body having a proximal end, a distal end and an energy delivery section positioned between the proximal end and the distal end; a plurality of ultrasound radiating members positioned within the energy delivery section, the plurality of ultrasound radiating members being allocated into at least three electrical groups comprising more than one ultrasound radiating member each; wherein the ultrasound radiating members of one electrical group are spatially interdigitated with the ultrasound radiating members of at least two other electrical groups in a non-uniform distribution pattern.\n\n2. (Original) The catheter system of Claim 1, wherein the plurality of ultrasound radiating members are mounted on an inner core, wherein the inner core is configured for insertion into the tubular body.\n\n3. (Original) The catheter system of Claim 1, further comprising at least one therapeutic compound delivery lumen that extends through the tubular body and terminates at least one outlet positioned in the energy delivery section.\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Currently amended) A system for treating a patient having pulmonary embolism, the system comprising: a first ultrasound catheter and a second ultrasound catheter, each of the first and the second ultrasound catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section having at least one ultrasound element, the tubular body also including at least one fluid delivery lumen; and a control system connected to and configured to operate both the first and the second ultrasound catheters by controlling ultrasound energy delivery from the ultrasound elements of each catheter.\n\n7. (Currently amended) The system of Claim 6, wherein the control system operates both the first and the second ultrasound catheters simultaneously with coordinated ultrasound energy delivery.\n\n8. (Currently amended) The system of Claim 7, wherein the control system is configured to independently control the ultrasound energy delivery from the ultrasound elements on the first and the second ultrasound catheters.\n\n9. (Original) A method for treating a patient having pulmonary embolism, the method comprising: advancing an ultrasound catheter comprising an tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section comprising at least one ultrasound element and at least one fluid delivery lumen; advancing the distal portion of the ultrasound catheter to a treatment site in the patient's pulmonary artery; inflating a balloon on the distal portion of the ultrasound catheter; delivering a thrombolytic drug to the treatment site through the at least one fluid delivery lumen; and emitting ultrasonic energy to thereby promote diffusion of the thrombolytic drug at the treatment site.\n\n10. (Original) The method of Claim 9, wherein delivering the thrombolytic drug and emitting ultrasonic energy are performed simultaneously.\n\n11. (Original) An ultrasound catheter for treating a patient having pulmonary embolism, the catheter comprising an tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section comprising at least one ultrasound element and at least one fluid delivery lumen, the tubular body defining a guidewire lumen extending through the proximal portion and the ultrasound energy delivery section.\n\n12. (Original) The ultrasound catheter of Claim 11, wherein the guidewire lumen extends through the at least one ultrasound element.\n\n13. (Original) The ultrasound catheter of Claim 11, further comprising at least one balloon positioned at the distal portion of the ultrasound catheter.",
+  "usage": {
+    "input_tokens": 7538,
+    "output_tokens": 864,
+    "total_tokens": 8402
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.87,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:50:47Z"
+}

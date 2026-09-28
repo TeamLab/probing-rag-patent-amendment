@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002729",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2020002729",
+  "app_num": "12809299",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 24578,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f6b8db5945401dcc",
+  "response_text": "```plaintext\n(Currently Amended) 4. The apparatus according to claim 3, wherein the images comprise pixels having a pitch, and wherein the image processor is configured to compute the respective relative offsets with a precision that is finer than the pitch, and to combine the images using the respective relative offsets to produce a combined image having a resolution that preserves or exceeds the pitch.\n\n(Currently Amended) 6. The apparatus according to claim 1, wherein the image processor is configured to recover a virtual position clock responsively to a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras and to relative movement between the sample and the imaging assembly that is applied by the motion assembly, and to use the virtual position clock in registering the respective images with one another while confirming the alignment of the images.\n\n(Currently Amended) 18. The method according to claim 17, wherein the images comprise pixels having a pitch, and wherein computing the respective relative offsets comprises determining the respective relative offsets with a precision that is finer than the pitch, and wherein processing the images comprises combining the images using the respective relative offsets to produce a combined image having a resolution that preserves or exceeds the pitch.\n\n(Currently Amended) 20. The method according to claim 16, wherein processing the images comprises recovering a virtual position clock responsively to a periodic pattern on the sample that appears in the respective images captured by at least one of the cameras and to relative movement between the sample and the imaging assembly while scanning the sample, using the virtual position clock in registering the respective images with one another while confirming the alignment of the images.\n\n(Currently Amended) 9. The apparatus according to claim 1, wherein the plurality of the cameras comprises at least twenty cameras whereby at least a subset of the cameras arranged in a configuration that enhances the capability for defect detection.\n\n(Currently Amended) 10. The apparatus according to claim 9, wherein the plurality of the cameras comprises at least one hundred cameras, configured to optimize image capturing over the sample.\n\n(Currently Amended) 13. The apparatus according to claim 1, wherein the motion assembly is configured to cause the imaging assembly to scan the sample in a scan direction, and wherein the apparatus comprises at least one post-inspection camera and a transverse motion unit, which is configured to shift the at least one post-inspection camera in a direction transverse to the scan direction and to confirm accurate imaging while the imaging assembly scans the sample so that the at least one post-inspection camera images an area of the defect located by the image processor.\n\n(Currently Amended) 14. The apparatus according to claim 13, wherein the image processor is configured to compute an error signal, indicative of a deviation of movement of the motion assembly relative to an ideal motion model, and to drive the at least one post-inspection camera to image the area of the defect responsively to the error signal to optimize imaging of the defect.\n```",
+  "usage": {
+    "input_tokens": 5328,
+    "output_tokens": 603,
+    "total_tokens": 5931
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.43,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:38:47Z"
+}

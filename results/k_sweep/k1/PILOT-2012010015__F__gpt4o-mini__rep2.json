@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012010015",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2012010015",
+  "app_num": "13152534",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16205,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "159c95a24755a95c",
+  "response_text": "(Currently Amended) Claim 2: The multi-layer coating of claim 1 in which the color-imparting particles are dispersed in aqueous medium by: (a) admixing the color-imparting particles with (1) one or more polymerizable, ethylenically unsaturated monomers, or (2) a mixture of one or more polymerizable, ethylenically unsaturated monomers with one or more polymers, or (3) one or more polymers to form an admixture; (b) subjecting the admixture to conditions of high stress and shear to particularize the admixture into microparticles; and (c) polymerizing the ethylenically unsaturated monomers when present; (d) dispersing the particles in aqueous medium.\n\n(Currently Amended) Claim 12: The multi-layer coating of claim 1 applied over a reflective surface comprising a reflective material having a total reflectance of at least 30 percent, wherein the total reflectance refers to the reflective surface. \n\n(Currently Amended) Claim 4: The multi-layer coating of claim 2 in which the polymerizable ethylenically unsaturated monomers include a carboxylic acid group-containing monomer and/or the one or more polymers contain a carboxylic acid functional group. \n\n(Currently Amended) Claim 5: The multi-layer coating of claim 4 in which the carboxylic acid group is (meth)acrylic acid.",
+  "usage": {
+    "input_tokens": 3980,
+    "output_tokens": 301,
+    "total_tokens": 4281
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.15,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:41:18Z"
+}

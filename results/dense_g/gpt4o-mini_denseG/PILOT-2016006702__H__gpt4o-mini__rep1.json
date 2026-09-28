@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2016006702",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2016006702",
+  "app_num": "14107154",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "103",
+    "test_subsection": "a",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018003818",
+      "PILOT-2015005568",
+      "PILOT-2017010047"
+    ],
+    "retrieved_app_nums": [
+      "13838130",
+      "13335600",
+      "14682502"
+    ],
+    "retrieved_scores": [
+      0.9377,
+      0.9362,
+      0.9336
+    ],
+    "retrieved_chars_total": 3515,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22361,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b31ee0719c358a43",
+  "response_text": "(Currently Amended) Claim 1: A system for facilitating a medical order/prescription of a prescription product for a patient covered by a provider, comprising: at least one memory device to store a plurality of predefined forms for the prescription product, the plurality of predefined forms corresponding to a plurality of providers, the prescription product including a biologic product; a receiver to receive prescription product information for the prescription product and patient intake information for the patient, including provider information for the patient, and to receive a benefits summary related to the patient in response to a benefits verification request; a transmitter to transmit the benefits verification request; and at least one processor configured to: generate the benefits verification request for the patient based on the patient intake information; select one of the predefined forms based on at least the patient provider information; populate at least one field of the selected predefined form based on the patient intake information; and release the populated predefined form to facilitate a medical order/prescription of the prescription product to the patient.\n\n(Currently Amended) Claim 2: The system of claim 1, wherein facilitating the medical order/prescription includes facilitating execution of a medical order/prescription of the prescription product or facilitating approval of a payment for the prescription product, wherein the approval of payment is based on the benefits summary.\n\n(Currently Amended) Claim 11: The system of claim 10, wherein the receiver is further configured to receive information about the predefined forms from the benefits verifier, and the processor is configured to select one of the predefined forms further based on the information about the predefined forms received from the benefits verifier, wherein the information about the predefined forms includes availability status for the predefined forms.\n\n(Currently Amended) Claim 16: The system of claim 1, wherein the processor is further configured to generate a prescription document from at least a portion of the prescription product information and the patient intake information and release the prescription document to a pharmacy, wherein the prescription document includes the selected predefined form.\n\n(Currently Amended) Claim 23: The system of claim 17, further comprising a scanning device communicatively coupled to the at least one user device, and wherein the processor of the at least one user device is further configured to: receive one or more images of a patient identification document from the scanning device; extract at least part of the patient intake information from the patient identification document; and automatically populate at least one field of the user interface based on the extracted patient intake information.",
+  "usage": {
+    "input_tokens": 4823,
+    "output_tokens": 496,
+    "total_tokens": 5319
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.5,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:36:34Z"
+}

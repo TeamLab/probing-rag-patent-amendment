@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2021000834",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2021000834",
+  "app_num": "16415181",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 26895,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "82e6a9b4e578af5d",
+  "response_text": "1 (Currently Amended): A column assembly comprising: a chromatography column comprising a compliant seal defining a fluid passage configured to seal against a tapered fluid conduit without the use of a ferrule or a threaded compression screw, wherein the compliant seal is formed of a specific elastomer selected from a group consisting of polyimide, polyether-ether-ketone, or a deformable metal.\n\n3 (Currently Amended): The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit, wherein the tapered portion is configured to mate with a tapered fluid conduit at a diameter of less than 0.030 inches, which is less than the diameter specified in Lemelin.\n\n7 (Currently Amended): The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit, and further comprises a distinct second tapered fluid conduit referenced elsewhere in the claims.\n\n9 (Currently Amended): The column assembly of claim 1, wherein the compliant seal is formed of a specific elastomer selected from a group consisting of polyimide, polyether-ether-ketone, or a deformable metal, and the terminology used is consistent with that in claims 1 and 12 to avoid informality. \n\n10 (Currently Amended): The column assembly of claim 1, further comprising a seal retainer that is removable to allow for removal and replacement of the compliant seal, ensuring clarity on the compatible materials used in conjunction with the column assembly. \n\n11 (Currently Amended): The column assembly of claim 1, wherein the compliant seal is configured to maintain a seal against a tapered fluid conduit at pressures up to 20,000 psi, differentiating from disclosures in Lemelin and Ford where applicable.",
+  "usage": {
+    "input_tokens": 6125,
+    "output_tokens": 362,
+    "total_tokens": 6487
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.67,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:10:35Z"
+}

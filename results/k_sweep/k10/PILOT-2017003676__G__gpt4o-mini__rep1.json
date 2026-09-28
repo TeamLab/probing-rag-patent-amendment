@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 25630,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "37db1459ad76fe5e",
+  "response_text": "(Currently Amended) Claim 1: A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating __the embryos in a non-destructive medium that does not comprise a chemical causing cell disruption__; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b); and (d) germinating at least one of said one or more embryos.\n\n(Currently Amended) Claim 2: The method of claim 1 wherein the non-destructive medium consists essentially of water, and does not comprise a pH adjusting chemical.\n\n(Currently Amended) Claim 7: The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with an enzyme __that facilitates the breakdown of cellular structures while maintaining embryo viability__.\n\n(Currently Amended) Claim 13: The method of claim 1, wherein said molecular analysis is genotyping __utilizing PCR based techniques__.\n\n(Currently Amended) Claim 17: The method of claim 13 further comprising selecting one or more embryos based on genotype __through a genotyping process__.\n\n(Currently Amended) Claim 19: The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is __performed through a computerized evaluation system which may include automated features__.",
+  "usage": {
+    "input_tokens": 5822,
+    "output_tokens": 283,
+    "total_tokens": 6105
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.03,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:47:23Z"
+}

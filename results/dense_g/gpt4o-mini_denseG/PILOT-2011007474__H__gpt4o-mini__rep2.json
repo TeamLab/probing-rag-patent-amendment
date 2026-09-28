@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2011007474",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2011007474",
+  "app_num": "11613859",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "112",
+    "tech": "3600",
+    "year": "2010-14",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2015001404",
+      "PILOT-2010001033",
+      "PILOT-2014008880"
+    ],
+    "retrieved_app_nums": [
+      "12759449",
+      "11388411",
+      "12928028"
+    ],
+    "retrieved_scores": [
+      0.8491,
+      0.8421,
+      0.8403
+    ],
+    "retrieved_chars_total": 2548,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17646,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e565dc39a0a70a1b",
+  "response_text": "Claim 1 (Currently Amended): WHAT IS CLAIMED IS: 1 1. A method comprising: 2 receiving requests and data records from a plurality of creditors to file 3 bankruptcy documents with a plurality of different bankruptcy organizations, 4 wherein the requests are received through a secure communication channel; 5 automatically generating the bankruptcy documents with the received data 6 records, wherein the bankruptcy documents are suitable for filing with different bankruptcy 7 organizations; and 8 batch filing the bankruptcy documents with the different bankruptcy 9 organizations.\n\nClaim 2 (Currently Amended): 1 2. The method of claim 1 wherein the different bankruptcy organizations 2 are different courts with different filing system configurations, 3 and wherein the method further comprises validating the data records prior to 4 generating the bankruptcy documents.\n\nClaim 6 (Currently Amended): 1 6. A method comprising: 2 receiving requests from a plurality of creditors to file proofs of claims for 3 debts owed by debtors to the creditors with a plurality of different bankruptcy organizations, 4 wherein each request includes a data record for generating a proof of claim, 5 and the requests are received through a secure communication channel; 6 automatically generating the proofs of claims with the received data records, 7 wherein the proofs of claims are suitable for filing with different bankruptcy organizations; 8 and 9 batch filing the proofs of claims with the different bankruptcy organizations. \n\nClaim 7 (Currently Amended): 1 7. The method of claim 6 wherein the different bankruptcy organizations 2 are different bankruptcy courts having different filing system configurations, 3 and wherein the method further comprises validating the data records prior to 4 generating the proofs of claims. \n\nClaim 8 (Currently Amended): 1 8. The method of claim 6 further comprising sending bankruptcy 2 notification messages to the plurality of creditors, wherein the bankruptcy notification 3 messages notify the creditors that various debtors have filed for bankruptcy, 4 and wherein the notifications are sent through a secure communication channel. \n\nClaim 9 (Currently Amended): 1 9. The method of claim 6 wherein receiving requests from the plurality of 2 creditors comprises receiving the requests using a secure file transfer protocol, 3 and wherein the requests are encrypted during transmission. \n\nClaim 10 (Currently Amended): 1 10. The method of claim 6 wherein receiving requests comprises receiving 2 requests via a Web site that employs secure communication protocols. \n\nClaim 11 (Currently Amended): 1 11. The method of claim 6 where batch filing comprises aggregating the 2 proofs of claims and filing the proofs of claims in a batch mode at least once per day, 3 and wherein the batch filing is performed over a secure communication channel. \n\nClaim 12 (Currently Amended): 1 12. The method of claim 6 further comprising: 2 generating a report; and 3 sending the report to a particular creditor through a secure communication channel. \n\nClaim 13 (Currently Amended): 1 13. The method of claim 12 wherein generating the report comprises 2 enabling a user to request the report using a Web site that employs secure communication protocols. \n\nClaim 14 (Currently Amended): 1 14. The method of claim 12 wherein generating the report comprises 2 generating an aging report specifying a reason some proofs of claims have not been filed, 3 and wherein the report is sent through a secure communication channel. \n\nClaim 15 (Currently Amended): 1 15. The method of claim 12 further comprising receiving a filing receipt 2 for a filed proof of claim, wherein the filing receipt is transmitted through a secure communication channel. \n\nClaim 16 (Currently Amended): 1 16. The method of claim 6 wherein batch filing is performed by a server 2 computer that operates over a secure communication channel. \n\nClaim 17 (Currently Amended): 1 17. The method of claim 6 further comprising validating the data record 2 prior to generating the proofs of claims.",
+  "usage": {
+    "input_tokens": 4063,
+    "output_tokens": 838,
+    "total_tokens": 4901
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.32,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:21:45Z"
+}

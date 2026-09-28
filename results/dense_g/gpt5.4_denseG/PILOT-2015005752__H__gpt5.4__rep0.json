@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2015005752",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2015005752",
+  "app_num": "13668077",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2013009486",
+      "PILOT-2010010676",
+      "PILOT-2015000464"
+    ],
+    "retrieved_app_nums": [
+      "12416061",
+      "12041710",
+      "12126191"
+    ],
+    "retrieved_scores": [
+      0.9676,
+      0.9619,
+      0.9596
+    ],
+    "retrieved_chars_total": 1489,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 16190,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bbb25a364744dc39",
+  "response_text": "1. (Currently amended) A packaging substrate comprising: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having at a plurality of conductive paths formed between the chip mounting surface and the bottom surface, the conductive paths configured to provide electrical connection between an integrated circuit chip disposed on the chip mounting surface and the bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure, __wherein the chip mounting surface is on a solder mask layer, and the opening extends through the solder mask layer__; and a stiffening microstructure disposed in the opening and coupled to the packaging structure.\n\n2. (Previously presented) The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a bottom surface of the opening.\n\n3. (Previously presented) The packaging substrate of claim 1, wherein the stiffening microstructure is bonded to a sidewall of the opening.\n\n4. (Previously presented) The packaging substrate of claim 1, wherein the stiffening microstructure extends above the chip mounting surface.\n\n5. (Cancelled)\n\n6. (Previously presented) The packaging substrate of claim 5, wherein the packaging structure further comprises: a core layer disposed below the solder mask layer, the opening exposing a portion of the core layer.\n\n7. (Previously presented) The packaging substrate of claim 1 further comprising: an integrated circuit chip mounted on the chip mounting surface.\n\n8. (Currently amended) The packaging substrate of claim 7, wherein the stiffening microstructure [[is a lid]] __includes a lid__.\n\n9. (Previously presented) The packaging substrate of claim 8 further comprising: a heat transfer medium providing a thermally conductive pathway between the lid and the integrated circuit chip.\n\n10. (Previously presented) The packaging substrate of claim 1, wherein the stiffening microstructure is a ring.\n\n11. (Previously presented) The packaging substrate of claim 1, wherein the packaging structure further comprises: a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure, wherein the ground reference plane layer is in contact with the stiffening microstructure.\n\n12. (Original) The packaging substrate of claim 1 further comprising a dielectric bonding agent coupling the stiffening microstructure to the packaging structure.\n\n13. (Original) The packaging substrate of claim 1 further comprising a conductive bonding agent coupling the stiffening microstructure to the packaging structure.\n\n14. (Currently amended) A computing device, comprising: a memory; and a packaged semiconductor device communicately [[communicately]] __communicatively__ coupled to the memory, wherein the packaged semiconductor device comprises: a packaging structure having a chip mounting surface and a bottom surface, the packaging structure having an opening formed in the chip mounting surface proximate a perimeter of the packaging structure; an integrated circuit chip disposed on the chip mounting surface and communicatively coupled to the memory though the packaging structure; and a stiffening microstructure disposed in the opening and coupled to the packaging structure, __wherein the chip mounting surface is on a solder mask layer, and the opening extends through the solder mask layer__.\n\n15. (Previously presented) The packaging substrate of claim 14, wherein the stiffening microstructure is bonded to at least one of a bottom surface and a sidewall of the opening.\n\n16. (Previously presented) The packaging substrate of claim 14, wherein the stiffening microstructure extends above the chip mounting surface.\n\n17. (Cancelled)\n\n18. (Previously presented) The packaging substrate of claim 17, wherein the packaging structure further comprises: a core layer disposed below the solder mask layer, the opening exposing a portion of the core layer.\n\n19. (Previously presented) The packaging substrate of claim 14, wherein the stiffening microstructure is one of a ring or a lid.\n\n20. (Previously presented) The packaging substrate of claim 14, wherein the packaging structure further comprises: a ground reference plane layer disposed between the chip mounting surface and the bottom surface of the packaging structure, wherein the stiffening microstructure is in contact with ground reference plane layer.",
+  "usage": {
+    "input_tokens": 3726,
+    "output_tokens": 838,
+    "total_tokens": 4564
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.37,
+  "cost_usd": 0.01304,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:04:44Z"
+}

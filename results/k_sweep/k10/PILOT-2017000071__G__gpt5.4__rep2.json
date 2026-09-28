@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017000071",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017000071",
+  "app_num": "13266564",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 30320,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "688b9df31cea7816",
+  "response_text": "1. (Currently amended) A vibration absorption device comprising: a first mounting member that is coupled to one of a vibration generating portion or a vibration receiving portion; a second mounting member that is tubular and is coupled to the other of the vibration generating portion or the vibration receiving portion; an elastic body that is disposed between the first mounting member and the second mounting member and is coupled to both the mounting members; a primary chamber constituted at an inner side of the second mounting member, the elastic body serving as a portion of a dividing wall of the primary chamber, and liquid being sealed in the primary chamber; a secondary chamber in which liquid is sealed, at least a portion of a dividing wall of the secondary chamber being formed by a diaphragm, and the secondary chamber being capable of expanding and contracting; a dividing member that divides the primary chamber from the secondary chamber, the dividing member including a tubular tube portion, a flange portion that is structured to extend to a radial direction outer side from [[the primary chamber side end]] __a primary chamber side end__ of the tube portion, an outer periphery of the flange portion being disposed along an inner periphery of the second mounting member, and a movable elastic film that is disposed at the radial direction inner side of the tube portion; and a restriction channel member that is an annular body separate from the dividing member, that is disposed between the tube portion of the dividing member and the second mounting member, that includes a channel outer tube portion disposed along an inner periphery of the second mounting member and a floor portion formed continuously from the channel outer tube portion, disposed opposing the flange portion, and disposed within the tube portion in a tube axial direction, and that structures a restriction channel between the dividing member and the restriction channel member, the restriction channel causing fluid communication between the primary chamber and the secondary chamber, and an outer periphery end of the diaphragm being adhered to at least an inner periphery of the floor portion, __wherein the floor portion is disposed between the flange portion and the movable elastic film in the tube axial direction__.\n\n2. (Currently amended) The vibration absorption device according to claim 1, further comprising a channel inner tube portion that is formed continuously [[form]] __from the floor portion as a continuous part of the restriction channel member__ and is disposed along an outer periphery of the tube portion.\n\n3. (Currently amended) The vibration absorption device according to claim 2, wherein the channel inner tube portion is extended toward the secondary chamber side from an inner end portion of the floor portion.\n\n4. (Currently amended) The vibration absorption device according to [[any-one-of-claims-1-to 3-claim 1]] __any one of claims 1 to 3__, wherein the outer periphery end of the diaphragm is adhered to at least the inner periphery of the floor portion, an aperture in fluid communication with the secondary chamber is formed in a circumferential direction portion of the floor portion and, at a position corresponding with the aperture, the diaphragm is adhered to the restriction channel member at the radial direction outer side relative to the aperture.\n\n5. (Original) The vibration absorption device according to claim 4, wherein the diaphragm structures the secondary chamber at the radial direction inner side relative to the inner periphery end of the floor portion, and the diaphragm is protruded to the radial direction outer side at a fluid communication position corresponding with the aperture in the floor portion.\n\n6. (Original) The vibration absorption device according to claim 5, wherein the diaphragm is structured with a greater thickness at the fluid communication position than at other portions of the diaphragm that structure the secondary chamber.\n\n7. (Currently amended) The vibration absorption device according to [[any one of claims 1 to 3-claim 1]] __any one of claims 1 to 3__, wherein a retracted portion that is retracted to the radial direction inner side is structured at a circumferential direction portion of the tube portion of the dividing member, and the restriction channel and the secondary chamber are in fluid communication via an aperture portion that is opened from the restriction channel toward an outer face of the retracted portion.",
+  "usage": {
+    "input_tokens": 6597,
+    "output_tokens": 842,
+    "total_tokens": 7439
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.41,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:39:19Z"
+}

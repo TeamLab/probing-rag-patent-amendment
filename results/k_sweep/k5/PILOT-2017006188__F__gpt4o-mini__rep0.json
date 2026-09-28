@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 26139,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3a332e8c8a93317a",
+  "response_text": "1) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than __1000__ Da and a polyanion, said nanoparticle having a size of less than one micron.\n\n3) (Currently Amended) The composition of claim 1, wherein said polyalkylenimine is __selected from the group consisting of polyethylenimine and polypropylenimine__.\n\n4) (Currently Amended) The composition of claim 1, wherein said polyanion is selected from sodium polyvinyl sulfonate, poly (sodium acrylate), poly(sodium styrene sulfonate), copolymers of sodium acrylate with sodium vinylsulfonate or sodium styrene sulfonate; dextran sulfate, and anionic surfactants, __wherein the polyanion is selected from the group consisting of polyvinyl sulfonic acid sodium salt__.\n\n10) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of less than __1000__ Da and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron.\n\n12) (Currently Amended) The composition of claim 10, said nanoparticle entrapping a multivalent cation, wherein said multivalent cation is __selected from the group consisting of zirconium, chromium, titanium, iron, and aluminum__.\n\n21) (Currently Amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer that can be crosslinked with a); and c) a fluid, __wherein the fluid is selected from the group consisting of brine and seawater__. \n\n24) (Currently Amended) The composition of claim 21, where said polymer is a polymer or copolymer of acrylate, acrylamide, N,N-dimethylacrylamide, tert-butyl acrylate, acryamido-2-methylpropane sulfonic acid, or sodium 2-acryamido-2-methylpropane sulfonate, or N,N-dimethylacrylamide __with a molecular weight greater than 10,000 Da__. \n\n26) (Currently Amended) The composition of claim 21, where fluid is __a brine solution or seawater solution__.",
+  "usage": {
+    "input_tokens": 6365,
+    "output_tokens": 513,
+    "total_tokens": 6878
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.82,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:39:50Z"
+}

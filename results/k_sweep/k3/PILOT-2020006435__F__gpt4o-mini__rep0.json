@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020006435",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2020006435",
+  "app_num": "15352183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 17552,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "46eb4f8f03fb70a9",
+  "response_text": "1. (Currently Amended) A proofed frozen dough comprising: (a) a dough mixture of flour, water, and optionally additives, the dough mixture defining a dough matrix; (b) gas bubbles dispersed throughout the dough matrix; (c) a spent yeast component; and (d) a preserved yeast component, wherein the preserved yeast component comprises encapsulated yeast or a combination thereof.\n\n2. (Currently Amended) The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 1 to about 8 wt.% of the spent yeast component.\n\n7. (Currently Amended) The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 0.1 to about 2 wt.% of the preserved yeast component.\n\n11. (Currently Amended) The proofed frozen dough of claim 1, wherein the gas bubbles comprise gas produced by the spent yeast component during proofing and the preserved yeast component functions to enhance the shelf stability of the dough after freezing. \n\n12. (Currently Amended) The proofed frozen dough of claim 1, wherein the frozen dough is in its final shape and form for baking, the final shape enhancing the effectiveness of the preserved yeast component during thawing. \n\n18. (Currently Amended) The method of claim 13, wherein the second yeast is different from the first yeast and the second yeast comprises encapsulated yeast, fat-coated yeast, non-hydrated active dry yeast, non-hydrated instant yeast, non-hydrated semi-dry yeast, non-hydrated frozen yeast, or a combination thereof, thereby yielding a dough with improved shelf life.\n\n28. (Currently Amended) The method of claim 25, wherein the dough does not comprise chemical leaveners, and further comprises a proofed frozen dough that includes a spent yeast component and a preserved yeast component, wherein the preserved yeast component enhances the proofing process and subsequent baking quality.",
+  "usage": {
+    "input_tokens": 4226,
+    "output_tokens": 399,
+    "total_tokens": 4625
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.33,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:10:03Z"
+}

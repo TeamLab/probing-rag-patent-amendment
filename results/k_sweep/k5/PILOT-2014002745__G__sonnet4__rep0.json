@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014002745",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2014002745",
+  "app_num": "12883873",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21520,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "9c62c0292647dfa6",
+  "response_text": "Claim 26 (Currently amended): A non-aqueous composition comprising: a therapeutically effective amount of a non-steroidal anti-inflammatory drug (NSAID), said NSAID being admixed as a powder directly in a non-aqueous carrier wherein the non-aqueous carrier comprises a bio-compatible oil and from 20 wt.% to 80 wt.% phosphatidylcholine; the NSAID to non-aqueous carrier weight ratio is about 5:1 to about 1:5; and the NSAID is __selected from the group consisting of__ a propionic acid NSAID, an acetic acid NSAID __and__ a salicylic acid NSAID, wherein the phosphatidylcholine is present in an amount sufficient to reduce NSAID-associated gastro-intestinal ulceration and bleeding, and therapeutic activity of the NSAID for treatment of tissue inflammation, pain and fever is preserved.\n\nClaim 27 (Previously presented): The non-aqueous composition according to claim 26, wherein the non-aqueous carrier comprises from 20 wt.% to 60 wt.% phosphatidylcholine.\n\nClaim 28 (Cancelled)\n\nClaim 29 (Previously presented): The non-aqueous composition according to claim 26, wherein the weight ratio of NSAID to non-aqueous carrier is about 2:1 to about 1:2.\n\nClaim 30 (Previously presented): The non-aqueous composition according to claim 26, wherein the NSAID is a salicylic acid NSAID.\n\nClaim 31 (Previously presented): The non-aqueous composition according to claim 26, wherein the NSAID is salicylate, ibuprofen, ketoprofen, naproxen, oxaprozin, diclofenac, etodolac, indomethacin, ketorolac, aspirin, or combinations thereof.\n\nClaim 32 (Previously presented): The non-aqueous composition according to claim 26, wherein the NSAID is aspirin, salicylate, diclofenac, naproxen, ibuprofen, indomethacin, or combinations thereof.\n\nClaim 33 (Currently amended): The non-aqueous composition according to claim 26, wherein the bio-compatible oil __comprises__ lecithin.\n\nClaim 34 (Previously presented): The non-aqueous composition according to claim 33, wherein the vegetable oil is peanut oil, canola oil, avocado oil, safflower oil, olive oil, corn oil, soy bean oil, sesame oil, or mixtures and combinations thereof.\n\nClaim 35 (Currently amended): The non-aqueous composition according to claim 26, wherein the bio-compatible oil __comprises__ lecithin.\n\nClaim 36 (Cancelled)\n\nClaim 37 (Previously presented): The non-aqueous composition of claim 26 further defined as comprising phosphatidylserine, phosphatidylethanolamine, sphingomyelin, dipalmitoylphosphatidylcholine, or combinations thereof.\n\nClaim 38 (Cancelled)\n\nClaim 39 (Previously presented): The non-aqueous composition according to claim 26, wherein the composition does not include a solvent.\n\nClaim 40 (Previously presented): The non-aqueous composition according to claim 26, wherein the composition does not include methanol, ethanol, or chloroform.\n\nClaim 41 (Previously presented): A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and aspirin NSAID, said aspirin NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of aspirin NSAID to biocompatible oil carrier of about 5:1 to about 1:5.\n\nClaim 42 (Previously presented): The non-aqueous pharmaceutical composition of claim 41 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\nClaim 43 (Currently amended): The non-aqueous pharmaceutical composition of claim 41 wherein the non-aqueous biocompatible oil __comprises__ lecithin.\n\nClaim 44 (Previously presented): A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and ibuprofen NSAID, said ibuprofen NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of ibuprofen NSAID to non-aqueous biocompatible oil of about 5:1 to about 1:5.\n\nClaim 45 (Previously presented): The non-aqueous pharmaceutical composition of claim 44 comprising from 10 wt % to 60 wt% NSAID to phosphatidylcholine.\n\nClaim 46 (Currently amended): The non-aqueous pharmaceutical composition of claim 44 wherein the biocompatible oil __comprises__ lecithin.\n\nClaim 47 (Currently amended): A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and indomethacin NSAID, said indomethacin NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of indomethacin NSAID to biocompatible oil of about 5:1 to about 1:5.\n\nClaim 48 (Previously presented): The non-aqueous pharmaceutical composition of claim 47 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\nClaim 49 (Currently amended): The non-aqueous pharmaceutical composition of claim 47 wherein the biocompatible oil __comprises__ lecithin.\n\nClaim 50 (Currently amended): A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and __a__ salicylate NSAID, said salicylate NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of salicylate NSAID to biocompatible oil of about 5:1 to about 1:5.\n\nClaim 51 (Currently amended): The non-aqueous pharmaceutical composition of claim 50 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\nClaim 52 (Currently amended): The non-aqueous pharmaceutical composition of claim 50 wherein the biocompatible oil __comprises__ lecithin.",
+  "usage": {
+    "input_tokens": 6344,
+    "output_tokens": 1534,
+    "total_tokens": 7878
+  },
+  "stop_reason": "stop",
+  "latency_sec": 14.82,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:06:05Z"
+}

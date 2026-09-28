@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017000093",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2017000093",
+  "app_num": "13729015",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21980,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "f48777b2881390df",
+  "response_text": "Claim 26 (Currently amended): A non-transitory machine readable medium storing a program which when executed by at least one processing unit analyzes a document, the program comprising sets of instructions for: receiving a document that comprises a plurality of primitive graphic elements defined separately within the document, the document having a drawing order that indicates the order in which the primitive graphic elements are drawn when the document is displayed; calculating a first value for a first primitive graphic element and a second primitive graphic element that is subsequent to the first in the drawing order, wherein the first and second primitive graphic elements each include unique identified attributes; and based on the comparison of the first value to other values calculated for additional primitive graphic elements that are subsequent in the drawing order, defining a single structural graphic element within the document from the first and second primitive graphic elements.\n\nClaim 27 (Currently amended): The non-transitory machine readable medium of claim 26, wherein the first value is a size value that corresponds specifically to the area occupied by the first primitive graphic element.\n\nClaim 28 (Currently amended): The non-transitory machine readable medium of claim 26, wherein the first value represents a size of a smallest bounding box that encompasses both the first and second primitive graphic elements and is calculated based solely on dimensions dictated by the specific shape and size of the graphic elements.\n\nClaim 31 (Currently amended): The non-transitory machine readable medium of claim 26, wherein the set of instructions for calculating comprises a set of instructions for calculating a distinct value for each pair of primitive graphic elements subsequent in the drawing order, wherein the set of instructions for defining the single structural graphic element comprises sets of instructions for: using the calculated values for pairs of primitive graphic elements to identify clusters of distinct primitive graphic elements as candidates for joining as compound graphic elements; and identifying sequences of primitive graphic elements within a cluster whose bounding boxes intersect based on explicit criteria; and joining the sequences as single graphic elements.\n\nClaim 41 (Currently amended): The method of claim 37, wherein the calculating comprises calculating a unique value for each individual pair of primitive graphic elements subsequent in the drawing order, wherein defining the single structural graphic element comprises: using the calculated values for pairs of primitive graphic elements to identify clusters of distinct primitive graphic elements as candidates for merging into composite graphic elements; and identifying sequences of primitive graphic elements within a cluster whose bounding boxes intersect based on explicit evaluation criteria; and joining the sequences as single graphic elements.",
+  "usage": {
+    "input_tokens": 4742,
+    "output_tokens": 488,
+    "total_tokens": 5230
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.3,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:24:35Z"
+}

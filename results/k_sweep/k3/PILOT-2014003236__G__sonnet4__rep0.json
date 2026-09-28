@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014003236",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2014003236",
+  "app_num": "13591431",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 7464,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6b8fc63dd53f8bc8",
+  "response_text": "1. (Currently Amended) A compound of formula (IIa)\n\nO\nNaO OR2\n0\n(II a),\n\nin which substituent R2 is selected from the group consisting of __C3-C12__ alkyl, aryl, and arylalkyl.\n\n2. (Currently Amended) A compound according to Claim 1 of formula (II a) in which R2 is C[[1]]__3__ -C12-alkyl, C6 -aryl, or arylalkyl.\n\n3. (Cancelled)\n\n4. (Currently Amended) A compound of formula (IIb)\n\nO\nZO OMe\nO O\n(I Ib)\n\nin which substituent Z is selected from the group consisting of alkali metals and alkaline earth metals, __wherein Z is not potassium__.\n\n5. (Currently Amended) A compound according to Claim [[1]]__4__ of formula (Il b) in which Z is sodium [[or potassium]].",
+  "usage": {
+    "input_tokens": 2609,
+    "output_tokens": 235,
+    "total_tokens": 2844
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.75,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:40:08Z"
+}

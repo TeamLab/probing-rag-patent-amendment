@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2018007886",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2018007886",
+  "app_num": "14135244",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 38471,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "16d6ad7b5ed12616",
+  "response_text": "1. (Currently Amended) A sensor system, comprising: a sensor device having an external surface on which is arranged at least one electrical test contact; and a cover device including at least partially an electrically insulating material, the cover device mechanically connected to the sensor device; wherein the cover device is configured to cover the at least one electrical test contact of the sensor device so as to prevent contact from being made to the at least one electrical test contact from outside the sensor system; __and wherein the cover device is electrically isolated from the at least one electrical test contact__.\n\n2. (Currently Amended) The sensor system according to claim 1, wherein: the cover device has an internal surface configured to face the external surface including the at least one test contact, and at least one further metallization is arranged on the internal surface, __the at least one further metallization being electrically isolated from and not mechanically connected to the at least one electrical test contact__.\n\n3. (Currently Amended) The sensor system according to claim 1, further comprising: at least one electrical connecting contact arranged on the external surface including the at least one test contact, wherein the cover device is configured to enable electrical contact to be made to the at least one electrical connecting contact from outside the sensor system; __and wherein the at least one electrical connecting contact is electrically distinct from the at least one electrical test contact__.\n\n4. (Currently Amended) The sensor system according to claim 3, wherein the cover device includes at least one of at least one first opening and at least one via electrically connected to the at least one electrical connecting contact to enable electrical contact to be made from outside the sensor system; __and wherein the at least one via or first opening does not provide electrical access to the at least one electrical test contact__.\n\n5. (Currently Amended) The sensor system according to claim 1, wherein: the sensor device includes a sensor substrate configured to form the external surface including the at least one test contact, the cover device includes a cover substrate having a first segment corresponding to the external surface, and the first segment of the cover device and the external surface including the at least one test contact are connected together at least partially; __and wherein the cover substrate is formed from a material that is electrically insulating and prevents electrical coupling between the cover device and the at least one electrical test contact__.\n\n10. (Currently Amended) The sensor system according to claim 1, wherein at least one of the sensor device and the cover device includes an integrated circuit; __and wherein the integrated circuit is electrically isolated from the at least one electrical test contact by the electrically insulating material of the cover device__.",
+  "usage": {
+    "input_tokens": 9149,
+    "output_tokens": 557,
+    "total_tokens": 9706
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.61,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:51:27Z"
+}

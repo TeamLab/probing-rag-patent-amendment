@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013001277",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2013001277",
+  "app_num": "11479493",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15681,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7652526fa7110bfe",
+  "response_text": "1. (Currently amended) A gas generator comprising: a composition containing an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent, and a carboxylic acid as a fuel provided at about 25-75 weight percent, said percentages stated by weight of the total composition; and a desiccant in operable communication with said composition, wherein said desiccant is selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide, and is provided in an amount of about 5-35 weight percent of the total composition.\n\n2. (Currently amended) The gas generator of claim 1 wherein said desiccant is mixed into said composition at about 10-35 weight percent of the total composition.\n\n3. (Currently amended) The gas generator of claim 1 wherein said desiccant is in vapor communication with, but physically separated from, said composition, and said desiccant is provided in amounts resulting in a mass differential of about -5.0 to 5.0% of the composition after heat aging at 107°C for 400 hours, wherein the composition demonstrates improved thermal stability compared to the same composition without said desiccant.\n\n4. (Original) The gas generator of claim 1 wherein said composition contains an extrusion aid provided at about 0.1-10 weight percent of the total gas generant composition.\n\n5. (Original) The gas generator of claim 4 wherein said extrusion aid is selected from graphite, fumed silica, and mixtures thereof.\n\n6. (Original) The gas generator of claim 1 wherein said alkali metal chlorate is potassium chlorate.\n\n7. (Original) The gas generator of claim 1 wherein said carboxylic acid is selected from tartaric acid and its isomers, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof.\n\n8. (Currently amended) The gas generator of claim 1 wherein said carboxylic acid is DL-tartaric acid, and wherein the use of DL-tartaric acid provides increased thermal stability and decreased combustion temperature compared to individual enantiomers of tartaric acid.\n\n9. (Currently amended) A gas generating system comprising: a gas generator comprising a composition, said composition containing an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent, and said composition further containing a carboxylic acid as a fuel provided at about 25-75 weight percent, said percentages stated by weight of the total gas generant composition; and a desiccant in operable communication with said composition, wherein said desiccant is selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide, and is provided in an amount of about 5-35 weight percent of the total composition.\n\n10. (Currently amended) The gas generating system of claim 9 wherein said desiccant is mixed into said composition at about 10-35 weight percent of the total composition.\n\n11. (Original) The gas generating system of claim 9 wherein said desiccant is in vapor communication with, but physically separated from, said composition.\n\n12. (Original) The gas generating system of claim 9 wherein said system is a vehicle occupant protection system.\n\n13. (Currently amended) A composition comprising: an alkali metal chlorate as an oxidizer provided at about 25-75 weight percent; a carboxylic acid as a fuel provided at about 25-75 weight percent; and a desiccant selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide, provided at about 5-35 weight percent, said percentages stated by weight of the total gas generant composition, wherein the desiccant increases thermal stability of the composition by adsorbing decomposition products of the fuel.\n\n14. (Original) The composition of claim 13 wherein said carboxylic acid is selected from tartaric acid and its isomers, DL-tartaric acid, succinic acid, glutamic acid, adipic acid, and mucic acid, and mixtures thereof.\n\n15. (Original) The composition of claim 13 wherein said alkali metal chlorate is potassium chlorate.\n\n16. (Original) The composition of claim 13 wherein said desiccant is selected from activated calcium sulfate, silica, zeolite, clay, and calcium oxide.\n\n17. (Currently amended) The composition of claim 13 wherein said desiccant is zeolite, and wherein zeolite is the preferred adsorbent for increasing thermal stability of the composition.\n\n18. (Currently amended) The composition of claim 13 wherein said desiccant is selected to provide a mass differential of about -5.0% to 5.0% after heat aging at 107°C for 400 hours, and wherein the composition demonstrates improved thermal stability compared to the same composition without said desiccant.",
+  "usage": {
+    "input_tokens": 4803,
+    "output_tokens": 1123,
+    "total_tokens": 5926
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.81,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:45:06Z"
+}

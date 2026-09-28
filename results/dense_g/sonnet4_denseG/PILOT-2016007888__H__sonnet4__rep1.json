@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2017010391",
+      "PILOT-2016003071",
+      "PILOT-2017000694"
+    ],
+    "retrieved_app_nums": [
+      "13689598",
+      "13171888",
+      "13972257"
+    ],
+    "retrieved_scores": [
+      0.814,
+      0.8102,
+      0.8073
+    ],
+    "retrieved_chars_total": 5426,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21488,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "803c29e1dbbb3489",
+  "response_text": "1. (Currently Amended) A method of using a finger palette to transfer cosmetics from a container to a destination, \na. the finger palette including: \ni. a ring portion that is securable to a finger; and \nii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to spread or blend cosmetic product on the surface portion; \nb. the method including the steps of: \ni. securing the finger palette to a finger; \nii. __removing cosmetic product from a container using an instrument;__\niii. depositing [[a]] __the__ cosmetic product onto the surface portion of the finger palette; and \n[[iii.]] __iv.__ transferring the cosmetic product from the surface portion of the finger palette to a destination __using the same instrument__.\n\n4. (Currently Amended) The method of claim 1 wherein: \na. a first quantity of the cosmetic product is deposited onto the surface portion; and \nb. a second quantity of the cosmetic product is transferred from the surface portion to the destination, the second quantity being smaller than the first quantity__; and\nc. the cosmetic product transferred to the destination is applied to achieve a desired cosmetic effect__.\n\n5. (Currently Amended) The method of claim 1 wherein: \na. the surface portion extends outwardly from a surface center to an outer perimeter; and \nb. the surface portion is free, from any first point on the outer perimeter to any second point on the outer perimeter, of features that could trap cosmetics and complicate cleaning of the surface portion__; and\nc. the surface portion is configured to facilitate complete removal of cosmetic product during cleaning__.\n\n6. (Currently Amended) The method of claim 1 wherein the surface portion is at least substantially without protrusions extending therefrom __and is specifically configured as a mixing surface for cosmetic products__.\n\n7. (Currently Amended) The method of claim 1 wherein the surface portion is at least substantially planar __and provides a uniform mixing surface for blending cosmetic products__.\n\n11. (Currently Amended) The method of claim 1 wherein the finger palette is secured to the finger by passing the finger through the ring portion __and the ring portion is sized to provide a secure but removable fit on the finger__.",
+  "usage": {
+    "input_tokens": 5276,
+    "output_tokens": 523,
+    "total_tokens": 5799
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.54,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:08:11Z"
+}

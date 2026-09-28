@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2017004286",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2017004286",
+  "app_num": "14264705",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "112",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2016001986",
+      "PILOT-2018002115",
+      "PILOT-2018005735"
+    ],
+    "retrieved_app_nums": [
+      "12944444",
+      "14917961",
+      "14211031"
+    ],
+    "retrieved_scores": [
+      0.8641,
+      0.8637,
+      0.8632
+    ],
+    "retrieved_chars_total": 4567,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21806,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "3583badfa44740b8",
+  "response_text": "1. (Currently Amended) An ultrasonic surgical instrument assembly comprising: a handpiece; a transducer or generator of ultrasonic mechanical vibrations disposed in said handpiece; a probe attached to a distal end of said handpiece and operatively connected to said transducer or generator; and a light source attached to said handpiece so as to direct at least visible electromagnetic radiation along the probe towards a surgical site distal of the probe, wherein said light source is positioned at a defined location on said handpiece.\n\n2. (Currently Amended) The surgical method defined in claim 19, further comprising removably mounting said power supply at least indirectly to said handpiece, wherein said power supply is a battery.\n\n12. (Currently Amended) The accessory defined in claim 11 wherein said power supply component includes a coil that is configured to be disposed about a power cable feeding said transducer or generator, further comprising an additional fastener for removably attaching said coil about the power cable.",
+  "usage": {
+    "input_tokens": 5108,
+    "output_tokens": 196,
+    "total_tokens": 5304
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.49,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:04:03Z"
+}

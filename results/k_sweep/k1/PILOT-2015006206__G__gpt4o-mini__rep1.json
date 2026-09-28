@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015006206",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2015006206",
+  "app_num": "13401993",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 19665,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "657f20d353a3fa11",
+  "response_text": "(Currently Amended) Claim 1: An aircraft weapons control system comprising: a weapons stores processor panel for receiving input signals from a weapons input; a weapons interface for receiving fire signals from the weapons stores processor panel to control firing of aircraft weapons; and a flight management system in communication with the weapons stores processor panel and the weapons interface, the flight management system providing control signals to the weapons interface; wherein the weapons stores processor panel implements safety interlocks to prevent or enable firing of the aircraft weapons, and wherein the weapons interface is configured to manage a plurality of weapons, including at least two different types of weapons.\n\n(Currently Amended) Claim 4: The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel communicates with the weapons interface using a MIL-STD-1760 standard for exchanging signals between the weapons stores processor panel and the weapons interface.\n\n(Currently Amended) Claim 6: The aircraft weapons control system of claim 1 further comprising: a data concentrator unit that conditions outputs from the flight management system for display on a multi-function display, providing enhanced situational awareness to the crew.\n\n(Currently Amended) Claim 15: The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel provides display information for a helmet mounted display, control display unit, and a multifunction display, facilitating effective monitoring of weapon systems.\n\n(Currently Amended) Claim 16: The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel provides data for a weapons bus controller to implement firing of weapons, ensuring synchronization with flight management commands.",
+  "usage": {
+    "input_tokens": 4309,
+    "output_tokens": 322,
+    "total_tokens": 4631
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.18,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:36:18Z"
+}

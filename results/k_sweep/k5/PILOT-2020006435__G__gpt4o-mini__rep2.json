@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020006435",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2020006435",
+  "app_num": "15352183",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 18425,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2e08ebc48260b4b7",
+  "response_text": "1. (Currently Amended) A proofed frozen dough comprising: (a) a dough mixture of flour, water, and optionally additives, the dough mixture defining a dough matrix; (b) gas bubbles dispersed throughout the dough matrix; (c) a spent yeast component; and (d) a preserved yeast component, wherein the preserved yeast component comprises encapsulated yeast, fat-coated yeast, non-hydrated active dry yeast, non-hydrated instant yeast, non-hydrated semi-dry yeast, non-hydrated frozen yeast, or a combination thereof.\n\n2. (Currently Amended) The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 1 to about 8 wt.% of the spent yeast component.\n\n7. (Currently Amended) The proofed frozen dough of claim 1, wherein the proofed frozen dough comprises about 0.1 to about 2 wt.% of the preserved yeast component.\n\n8. (Currently Amended) The proofed frozen dough of claim 1, wherein the preserved yeast component comprises encapsulated yeast, fat-coated yeast, non-hydrated active dry yeast, non-hydrated instant yeast, non-hydrated semi-dry yeast, non-hydrated frozen yeast, or a combination thereof, and the preserved yeast component has a yeast vitality of at least 50 % of its initial vitality.\n\n11. (Currently Amended) The proofed frozen dough of claim 1, wherein the gas bubbles comprise gas produced by the spent yeast component during proofing, wherein at least 60 % of the first yeast is spent during proofing.\n\n13. (Currently Amended) A method for making a frozen dough product, the method comprising: (a) mixing dough ingredients to produce a dough composition, the dough ingredients comprising: i. water; ii. flour; iii. a first yeast; and iv. a second yeast, wherein the second yeast comprises encapsulated yeast; (b) proofing the dough, wherein during proofing the first yeast is spent and the second yeast is preserved; and (c) freezing the dough after proofing.\n\n14. (Currently Amended) The method of claim 13, wherein at least 60 % of the first yeast is spent during proofing.\n\n15. (Currently Amended) The method of claim 13, wherein at least 50 % of the second yeast is preserved during proofing.\n\n22. (Currently Amended) The method of claim 13 further comprising: shaping and cutting the dough to produce a pizza crust prior to proofing; freezing the pizza crust; and applying toppings to the frozen pizza crust.",
+  "usage": {
+    "input_tokens": 4893,
+    "output_tokens": 538,
+    "total_tokens": 5431
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.64,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:37:34Z"
+}

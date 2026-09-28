@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016007888",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2016007888",
+  "app_num": "14490835",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 35941,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bc24118c16bc0523",
+  "response_text": "1. (Currently amended) A method of using a finger palette to transfer cosmetics from a container to a destination, a. the finger palette including: i. a ring portion that is securable to a finger; and ii. a surface portion secured to the ring portion, the surface portion being at least substantially smooth to allow a user to spread or blend cosmetic product on the surface portion, __the surface portion extending outwardly from a surface center to an outer perimeter, wherein the surface portion is free, from any first point on the outer perimeter to any second point on the outer perimeter, of features that could trap cosmetics and complicate cleaning of the surface portion__; b. the method including the steps of: i. securing the finger palette to a finger; ii. depositing a cosmetic product onto the surface portion of the finger palette; and iii. transferring the cosmetic product from the surface portion of the finger palette to a destination.\n\n4. (Currently amended) The method of claim 1 wherein: a. a first quantity of the cosmetic product is deposited onto the surface portion; and b. a second quantity of the cosmetic product is transferred from the surface portion to the destination, the second quantity being smaller than the first quantity.\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Cancelled)\n\n11. (Currently amended) The method of claim 1 wherein the finger palette is secured to the finger by passing the finger through the ring portion.",
+  "usage": {
+    "input_tokens": 7555,
+    "output_tokens": 295,
+    "total_tokens": 7850
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.12,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:45:14Z"
+}

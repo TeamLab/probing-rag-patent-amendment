@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 13345,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a70d3565ffe37e9a",
+  "response_text": "(Currently Amended) Claim 1: A method of treating a brain, comprising: inserting an elongated device into the brain to create a path; radially expanding the device to create a working channel along the path; and introducing a medical element selected from the group consisting of an instrument and a medicament into the working channel to perform a medical procedure on the brain.\n\n(Currently Amended) Claim 4: The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening.\n\n(Currently Amended) Claim 5: The method of claim 1, further comprising inserting the elongated device at a location between tissue layers within the brain. \n\n(Currently Amended) Claim 7: A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; radially reinforcing the device against the tissue; and introducing a medical element selected from the group consisting of an instrument and a medicament through the device to perform a medical procedure on the tissue.\n\n(Currently Amended) Claim 10: The method of claim 7, further comprising inserting the elongated device at a location between tissue layers.",
+  "usage": {
+    "input_tokens": 3230,
+    "output_tokens": 258,
+    "total_tokens": 3488
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.45,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:32:33Z"
+}

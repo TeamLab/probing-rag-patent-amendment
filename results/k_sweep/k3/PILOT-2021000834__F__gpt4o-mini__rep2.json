@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2021000834",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2021000834",
+  "app_num": "16415181",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "other",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 15643,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "247dfbbdd9b15d7c",
+  "response_text": "1 (Currently Amended): A column assembly comprising: a chromatography column comprising a compliant seal defining a fluid passage configured to seal against a tapered fluid conduit without the use of a ferrule or a threaded compression screw, wherein the compliant seal is defined as having sufficient elasticity to provide an effective sealing function.\n\n3 (Currently Amended): The column assembly of claim 1, wherein the fluid passage includes a tapered portion configured to seal against a tapered fluid conduit, wherein the tapered portion is configured to mate with a tapered fluid conduit at a diameter of less than 0.030 inches, and the tapered portion includes a fluid flow path that transitions from a larger diameter to the smaller diameter.\n\n7 (Currently Amended): The column assembly of claim 1, wherein the fluid passage includes a tapered portion that is distinct from any other tapered fluid conduit within the assembly and is configured to seal against a tapered fluid conduit.\n\n9 (Currently Amended): The column assembly of claim 1, wherein the compliant seal is formed of a polyimide, polyether-ether-ketone, or an elastically deformable metal. \n\n10 (Currently Amended): The column assembly of claim 1, further comprising a seal retainer that is removable to allow for removal and replacement of the compliant seal, wherein the compliant seal is positioned within the seal retainer to ensure alignment during operation.\n\n11 (Currently Amended): The column assembly of claim 1, wherein the compliant seal is configured to maintain a seal against a tapered fluid conduit under varying pressure conditions, including at pressures up to 20,000 psi.",
+  "usage": {
+    "input_tokens": 3873,
+    "output_tokens": 320,
+    "total_tokens": 4193
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.06,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:10:15Z"
+}

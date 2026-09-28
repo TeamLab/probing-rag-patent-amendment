@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012010015",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2012010015",
+  "app_num": "13152534",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17052,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "74ab2aa662c62eb0",
+  "response_text": "1. (Currently amended) A multi-layer coating comprising: (a) a color-imparting, non-hiding coating layer deposited from a protective coating composition comprising an aqueous dispersion comprising color-imparting particles stably dispersed in aqueous medium in admixture with one or more polymers, and (b) a clear coat layer deposited over at least a portion of the color-imparting, non-hiding layer, wherein the color-imparting particles are present in an amount of 0.1 to 50 percent by weight based on total solids present in the aqueous dispersion.\n\n2. (Cancelled)\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Original)\n\n10. (Original)\n\n11. (Currently amended) The multi-layer coating of claim 1 wherein the color-imparting particles have an average primary particle size of less than 150 nanometers, wherein such particle size is selected to reduce haze and improve light transparency of the color-imparting, non-hiding coating layer.\n\n12. (Currently amended) The multi-layer coating of claim 1 applied over a reflective surface comprising a reflective material __selected from metallic pigments__ having a total reflectance of at least 30 percent.\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Currently amended) The multi-layer coating of claim 1 in which the one or more polymers are selected from acrylic polymers, polyester polymers, polyurethane polymers, polyether polymers, including mixtures thereof, and wherein the aqueous dispersion comprises a water-soluble or water-dispersible acrylic resin formed from polymerizable monomers including (meth)acrylic acid in an amount of about 50 to about 90% by weight and a crosslinking agent selected from amino resins and polyisocyanates.\n\n17. (Cancelled)\n\n18. (Cancelled)\n\n19. (Cancelled)\n\n20. (Cancelled)\n\n21. (Cancelled)\n\n22. (Cancelled)\n\n23. (Cancelled)\n\n24. (Cancelled)\n\n25. (Cancelled)\n\n26. (Cancelled)\n\n27. (Cancelled)\n\n28. (Cancelled)\n\n29. (Cancelled)\n\n30. (Cancelled)\n\n31. (Cancelled)",
+  "usage": {
+    "input_tokens": 4971,
+    "output_tokens": 567,
+    "total_tokens": 5538
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.0,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:35:50Z"
+}

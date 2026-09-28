@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017001422",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017001422",
+  "app_num": "13995688",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 10881,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bb3691cb31c0934a",
+  "response_text": "1. (Currently amended) An immunogenic composition comprising: a modified, live bovine viral diarrhea virus type lb (BVDV-lb) __and not comprising a modified, live bovine viral diarrhea virus Type 2 (BVDV-2)__, [[and ]]a veterinary-acceptable carrier, and optionally an adjuvant.\n\n2. (Currently amended) The immunogenic composition of claim 1, wherein the modified, live bovine viral diarrhea virus is a cytopathic BVDV-lb virus.\n\n3. (Currently amended) The immunogenic composition of claim 1, further comprising one or more of a parainfluenza virus Type 3 (PI3), a bovine respiratory syncytial virus (BRSV), a bovine herpes virus (BHV-1), a bovine viral diarrhea virus Type la (BVDV-la), [[a bovine viral diarrhea virus Type 2 (BVDV-2),]] or an infectious bovine rhinotracheitis (IBR) virus, or any combination thereof; or one or more viral-specific antigens obtained therefrom.\n\n4. (Currently amended) The immunogenic composition of claim 1, further comprising a modified, live IBRV, a modified, live BRSV, a modified, live BHV-1, a modified, live BVDV Type la, [[a modified, live BVDV Type 2,]] or a modified, live PI3, or a combination thereof.\n\n6. (Currently amended) The immunogenic composition of claim 1, further comprising an immunologically effective amount of at least a first antigen __that is not derived from Leptospira__.\n\n7. (Currently amended) The immunogenic composition of claim 6, wherein the at least a first antigen is specific for an organism selected from the group consisting of Actinobacillus, DCO1/3166885.1 ATTORNEY DOCKET NO. 210287-0008-00-US-499134Application No.: NEWPage 4Actinomyces, Bacillus, Bordetella, Brachyspira, Campylobacter, Clostridium, Ehrlichia, Erysipelothrix, Escherichia, Histophilus, [[Leptospira,]] Listeria, Mannheimia, Moraxella, Mycobacterium, Mycoplasma, Pasteurella, Salmonella, and Streptococcus, or a combination thereof.\n\n8. (Currently amended) The immunogenic composition of claim 6, wherein the at least a first antigen is inactivated.\n\n12. (Currently amended) The vaccine of claim [[11]]4, further comprising an immunologically-effective amount of a least one microbial pathogen-specific antigen __that is not derived from Leptospira__.",
+  "usage": {
+    "input_tokens": 2910,
+    "output_tokens": 581,
+    "total_tokens": 3491
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.0,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:26:55Z"
+}

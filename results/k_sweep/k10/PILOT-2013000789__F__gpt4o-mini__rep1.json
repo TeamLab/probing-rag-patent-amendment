@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 29568,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fe102fb9514b7da9",
+  "response_text": "1. (Currently Amended) A humeral implant comprising a first component removably attached to a second component, wherein said first component is a humeral surface component and said second component is a removably attached stem.\n\n2. (Currently Amended) The humeral implant of claim 1 wherein said first component is a humeral surface component and said second component is a removably attached stem that has a diameter with a range of from 0.1 to 5.0 cm.\n\n3. (Currently Amended) The implant of claim 2 wherein said humeral surface component has a coronal radius of curvature and an axial radius of curvature and a smooth articulating surface.\n\n9. (Currently Amended) The implant of claim 3 wherein said humeral surface component is spherically or elliptically shaped and further comprises fins or spikes on a concave undersurface of said humeral surface component.\n\n20. (Currently Amended) The implant of claim 2 wherein said removably attached stem has a length that is adjustable wherein said stem extends from a lateral cortex of said humerus to a center of a head of said humerus.\n\n21. (Currently Amended) The implant of claim 20 wherein said humeral surface component connects to said removably attached stem by a technique selected from the group consisting of morse taper, and a screw.\n\n22. (Currently Amended) The implant of claim 21 wherein said humeral surface component connects to said removably attached stem with a screw that is adjustable in length.",
+  "usage": {
+    "input_tokens": 6918,
+    "output_tokens": 311,
+    "total_tokens": 7229
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.13,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:16:23Z"
+}

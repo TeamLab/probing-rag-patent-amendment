@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2016000830",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2016000830",
+  "app_num": "13657312",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 24748,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7e922e422794731f",
+  "response_text": "1. (Currently amended) Composition comprising an active ingredient which is a compound of formula I\n\n__wherein R1, R2, R3, R4, R5, R6, R7, R8, R9 and R10 independently of one another are hydrogen, halogen, hydroxyl, C1-C8-alkyl, C1-C8-alkoxy, nitro, amino, C1-C8-alkylamino, di-(C1-C8-alkyl)amino, C1-C8-alkylcarbonyl, C1-C8-alkoxycarbonyl, carboxyl, C1-C8-alkylcarbonyloxy, aminocarbonyl, C1-C8-alkylaminocarbonyl, di-(C1-C8-alkyl)aminocarbonyl, aminocarbonyloxy, C1-C8-alkylaminocarbonyloxy, di-(C1-C8-alkyl)aminocarbonyloxy, C1-C8-alkylcarbonylamino, aminosulphonyl, C1-C8-alkylaminosulphonyl, di-(C1-C8-alkyl)aminosulphonyl, C1-C8-alkylsulphonylamino, cyano or trifluoromethyl, and/or a physiologically acceptable salt thereof, for treating skin diseases.__\n\n2. (Cancelled)\n\n3. (Currently amended) Composition for topical use comprising a) the active ingredient according to Claim 1, b) one or more skin-tolerated vehicles, and c) optionally one or more further active compounds having a skin-care and/or inflammation-inhibiting action.\n\n4. (Currently amended) Composition according to Claim 1 or 3, wherein the active ingredient is contained in said composition in an amount of 0.00001 per cent by weight to 10 per cent by weight.\n\n5. (Currently amended) Composition according to claim 1 or 3, comprising as a further skin-care ingredient ectoine __in an amount of 0.01 to 10 per cent by weight__.\n\n6. (Currently amended) Composition according to claim 5, comprising as a further skin-care ingredient ectoine __in an amount of 0.1 to 5 per cent by weight__.\n\n7. (Currently amended) Use of the active ingredient of Claim 1 for the manufacture of a cosmetic composition __for treating skin diseases__.\n\n8. (Currently amended) Use of the active ingredient of Claim 1 for the preparation of a composition which is suitable for the treatment of skin diseases which are associated with defective keratinisation relating to differentiation and cell proliferation, __specifically__ for the treatment of acne vulgaris, acne comedonica, polymorphic acne, acne rosaceae, nodular acne, acne conglobata, age-related acne, acne occurring as a side effect, such as acne solaris, medicament-related acne or acne professionalis, for the treatment of other defects of keratinisation, __specifically__ ichthyosis, ichthyosiform states, Darier's disease, keratosis palmo-plantaris, leukoplakia, leukoplakiform states, skin and mucosal (buccal) eczema (lichen), for the treatment of other skin diseases which are associated with defective keratinisation and have an inflammatory and/or immunoallergic component, and __specifically__ all forms of psoriasis relating to the skin, mucous membranes and finger- and toenails, and psoriatic rheumatism and skin atopy, such as eczema, or respiratory atopy, or also hypertrophy of the gums.\n\n9. (Currently amended) Use according to Claim 8 for hair care and/or hair follicle development __for treating hair-related conditions__.\n\n10. (Currently amended) Use of the active ingredient of Claim 1 for the care, preservation or improvement of the general state of the skin or hair __for treating skin or hair conditions__.\n\n12. (Currently amended) Use of the composition according to Claim 1 or 3 for skin lightening and/or skin whitening __for treating hyperpigmentation conditions__.\n\n13. (Currently amended) Use of the active ingredient of Claim 1 for the __treatment of__ skin unevenness, such as wrinkles, fine lines, rough skin or large-pored skin.\n\n14. (Currently amended) Use of the active ingredient of Claim 1 for the __treatment of__ time- and/or light-induced ageing processes of the human skin or human hair, __specifically__ for __treatment of__ dry skin, wrinkle formation and/or pigment defects, and/or for the reduction of the harmful effects of UV rays on the skin.",
+  "usage": {
+    "input_tokens": 6360,
+    "output_tokens": 1120,
+    "total_tokens": 7480
+  },
+  "stop_reason": "stop",
+  "latency_sec": 15.55,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:48:40Z"
+}

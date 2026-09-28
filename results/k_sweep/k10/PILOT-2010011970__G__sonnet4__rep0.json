@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010011970",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2010011970",
+  "app_num": "12171744",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 27799,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0ae9c47c0f7a3fdd",
+  "response_text": "15. (Currently Amended) A method for accessing a server computer through a path in a computer network, the path including one or more server computers, the method comprising the steps of: adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier; and selecting the first server computer based on the information added to the locator, __wherein the selecting is performed by a media request broker that receives the information from the locator in response to a client computer request__.\n\n16. (Currently Amended) The method of claim 15, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the method further comprising the steps of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the information from the hyperlink selection__.\n\n17. (Previously presented) The method of claim 16, __wherein the information is at least temporarily stored on the second server computer__.\n\n18. (Currently Amended) The method of claim 17, the media request broker selecting the first server computer based on the information __received from the second server computer__.\n\n24. (Currently Amended) A system for accessing a server computer through a path in a computer network, the path including one or more server computers, the system comprising: circuitry for adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier; and circuitry for selecting the first server computer based on the information added to the locator, __wherein the selecting is performed by a media request broker that receives the information from the locator in response to a client computer request__.\n\n25. (Currently Amended) The system of claim 24, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the system further comprising circuitry for selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser this http request containing the unique signature identifying a media request, __wherein the media request broker receives the information from the hyperlink selection__.\n\n27. (Currently Amended) A computer program product for accessing a server computer through a path in a computer network, the path including one or more server computers, the computer program product comprising: the program step of adding information indicative of at least one server computer of the first set of one or more server computers to a locator of a resource on the second server computer, the resource having a unique signature as part of its identifier; and the program step of selecting the first server computer based on the information added to the locator, __wherein the selecting is performed by a media request broker that receives the information from the locator in response to a client computer request__.\n\n28. (Currently Amended) The computer program product of claim 27, the second server computer being a Web application server comprising a Web page with a hyperlink referencing the data to be sent to the client computer, the hyperlink including a unique signature, the computer program product further comprising the program step of selecting the hyperlink by the client computer, and subsequently generating an http request out of this hyperlink by a web browser, this http request containing the unique signature identifying a media request, __wherein the media request broker receives the information from the hyperlink selection__.",
+  "usage": {
+    "input_tokens": 6520,
+    "output_tokens": 801,
+    "total_tokens": 7321
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.66,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:51:21Z"
+}

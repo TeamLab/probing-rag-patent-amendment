@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20655,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fa7e08643507beea",
+  "response_text": "1. (Currently Amended) A method of treating a brain, comprising: inserting an elongated device into the brain to create a path; radially expanding the device to create a working channel along the path; and introducing a medical element into the working channel to perform a medical procedure on [[strikethrough]] the brain [[underlined]] tissues [[/underlined]].\n\n2. (Currently Amended) The method of claim 1, wherein the medical element is an instrument [[strikethrough]] chosen from a surgical instrument, catheter, or guide wire [[/strikethrough]].\n\n4. (Currently Amended) The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening [[strikethrough]] into the brain [[/strikethrough]].\n\n5. (Currently Amended) The method of claim 1, further comprising inserting the elongated device between tissue layers within [[strikethrough]] the brain [[/strikethrough]] a patient.\n\n7. (Currently Amended) A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; radially reinforcing the device against the tissue; and introducing a medical element through the device to perform a medical procedure on [[strikethrough]] the tissue [[/strikethrough]] a treatment area.\n\n10. (Currently Amended) The method of claim 7, further comprising inserting the elongated device between tissue layers [[strikethrough]] of the tissue [[/strikethrough]].\n\n13. (Currently Amended) A method of treating a tissue, comprising: placing an elongated device, having a first radially expandable body, surrounded by a stent, which is surrounded by a second radially expandable body, into the tissue to create a path; radially expanding the second expandable body against the tissue to radially displace the tissue along the path; radially expanding the first expandable body to radially expand the stent to reinforce the second expandable body against the tissue; radially contracting and removing the first expandable body to create a working channel through the stent; introducing a medical element through the channel to perform a medical procedure on [[strikethrough]] the tissue [[/strikethrough]] a treatment area; and radially contracting the second expandable body and removing the device from the tissue [[strikethrough]]the tissue [[/strikethrough]].\n\n16. (Currently Amended) The method of claim 13, further comprising inserting the elongated device between tissue layers [[strikethrough]] of the tissue [[/strikethrough]].",
+  "usage": {
+    "input_tokens": 4667,
+    "output_tokens": 563,
+    "total_tokens": 5230
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.45,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:30:15Z"
+}

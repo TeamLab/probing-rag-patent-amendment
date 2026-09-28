@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022001087",
+  "condition": "F",
+  "rep": 1,
+  "proceeding_number": "2022001087",
+  "app_num": "15853199",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2020-25",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20262,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5f1d3545b310f51e",
+  "response_text": "Claim 1 (Currently Amended): A system for providing security in a computer system, the system comprising one or more logic circuits configured to perform the following functions: __receive at least two independent first entropy values from at least one hardware source;__ apply at least some of the at least two independent first entropy values __to a function configured to__ generate a second entropy value; seed a pseudorandom number generator with the second entropy value; generate a random number using the pseudorandom number generator seeded with the second entropy value; and produce a block of ciphertext or message authentication code using the random number.\n\nClaim 2 (Currently Amended): The system of claim 1, wherein the one or more logic circuits being configured to produce the block of ciphertext or message authentication code includes being configured to produce the block of ciphertext or message authentication code with a key composed of or derived from the random number.\n\nClaim 4 (Currently Amended): The system of claim 1, wherein the at least one hardware source is a ring oscillator, and the one or more logic circuits being configured to receive the at least two independent first entropy values includes being configured to receive the at least two independent first entropy values from the ring oscillator.\n\nClaim 5 (Currently Amended): The system of claim 1, wherein the at least one hardware source is a single hardware source, and the one or more logic circuits being configured to receive the at least two independent first entropy values includes being configured to receive the at least two independent first entropy values from the single hardware source.\n\nClaim 6 (Currently Amended): The system of claim 1, wherein the at least one hardware source is a plurality of independent hardware sources, and the one or more logic circuits being configured to receive the at least two independent first entropy values includes being configured to receive the at least two independent first entropy values from the plurality of independent hardware sources.\n\nClaim 11 (Currently Amended): The system of claim 1, wherein the one or more logic circuits being configured to apply at least some of the at least two independent first entropy values to the function includes being configured to selectively apply __at least two__ of the at least two independent first entropy values to the function to generate the second entropy value.\n\nClaim 13 (Currently Amended): A method of providing security in a computer system, comprising: receiving at least two independent first entropy values from at least one hardware source; applying at least some of the at least two independent first entropy values to a function configured to generate a second entropy value; seeding a pseudorandom number generator with the second entropy value; generating a random number using the pseudorandom number generator seeded with the second entropy value; and producing a block of ciphertext or message authentication code using the random number.\n\nClaim 14 (Currently Amended): The method of claim 13, wherein producing the block of ciphertext or message authentication code includes producing the block of ciphertext or message authentication code with a key composed of or derived from the random number.\n\nClaim 16 (Currently Amended): The method of claim 13, wherein the at least one hardware source is a ring oscillator, and wherein receiving the at least two independent first entropy values includes receiving the at least two independent first entropy values from the ring oscillator.\n\nClaim 17 (Currently Amended): The method of claim 13, wherein the at least one hardware source is a single hardware source, and wherein receiving the at least two independent first entropy values includes receiving the at least two independent first entropy values from the single hardware source.\n\nClaim 18 (Currently Amended): The method of claim 13, wherein the at least one hardware source is a plurality of independent hardware sources, and wherein receiving the at least two independent first entropy values includes receiving the at least two independent first entropy values from the plurality of independent hardware sources.",
+  "usage": {
+    "input_tokens": 4397,
+    "output_tokens": 772,
+    "total_tokens": 5169
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.24,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:36:58Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2014002745",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2014002745",
+  "app_num": "12883873",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20170,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "154bf6267cc923dd",
+  "response_text": "26. (Currently amended) A non-aqueous composition comprising: a therapeutically effective amount of a non-steroidal anti-inflammatory drug (NSAID), said NSAID being admixed as a powder directly in a non-aqueous carrier wherein the non-aqueous carrier comprises a bio-compatible oil and from 20 wt.% to 80 wt.% phosphatidylcholine; the NSAID to non-aqueous carrier weight ratio is about 5:1 to about 1:5; and the NSAID is __selected from ibuprofen, ketoprofen, naproxen, oxaprozin, diclofenac, etodolac, indomethacin, ketorolac, aspirin, salicylate, and combinations thereof,__ [[a propionic acid NSAID, an acetic acid NSAID or a salicylic acid NSAID, and]] wherein the phosphatidylcholine is present in an amount sufficient to reduce NSAID-associated gastro-intestinal ulceration and bleeding, and therapeutic activity of the NSAID for treatment of tissue inflammation, pain and fever is preserved, __and wherein the composition does not include water.__\n\n27. (Previously presented) The non-aqueous composition according to claim 26, wherein the non-aqueous carrier comprises from 20 wt.% to 60 wt.% phosphatidylcholine.\n\n28. (Cancelled)\n\n29. (Previously presented) The non-aqueous composition according to claim 26, wherein the weight ratio of NSAID to non-aqueous carrier is about 2:1 to about 1:2.\n\n30. (Previously presented) The non-aqueous composition according to claim 26, wherein the NSAID is a salicylic acid NSAID.\n\n31. (Previously presented) The non-aqueous composition according to claim 26, wherein the NSAID is salicylate, ibuprofen, ketoprofen, naproxen, oxaprozin, diclofenac, etodolac, indomethacin, ketorolac, aspirin, or combinations thereof.\n\n32. (Previously presented) The non-aqueous composition according to claim 26, wherein the NSAID is aspirin, salicylate, diclofenac, naproxen, ibuprofen, indomethacin, or combinations thereof.\n\n33. (Currently amended) The non-aqueous composition according to claim 26, wherein the bio-compatible oil __comprises one or more of__ [[is]] a lecithin, essential oil, vegetable oil, animal oils, vitamin A, vitamin D, vitamin E, fish oil, or mixtures and combinations thereof.\n\n34. (Previously presented) The non-aqueous composition according to claim 33, wherein the vegetable oil is peanut oil, canola oil, avocado oil, safflower oil, olive oil, corn oil, soy bean oil, sesame oil, or mixtures and combinations thereof.\n\n35. (Currently amended) The non-aqueous composition according to claim 26, wherein the bio-compatible oil __comprises lecithin__ [[is lecithin]].\n\n36. (Cancelled)\n\n37. (Previously presented) The non-aqueous composition of claim 26 further defined as comprising phosphatidylserine, phosphatidylethanolamine, sphingomyelin, dipalmitoylphosphatidylcholine, or combinations thereof.\n\n38. (Cancelled)\n\n39. (Previously presented) The non-aqueous composition according to claim 26, wherein the composition does not include a solvent.\n\n40. (Previously presented) The non-aqueous composition according to claim 26, wherein the composition does not include methanol, ethanol, or chloroform.\n\n41. (Currently amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and aspirin NSAID, said aspirin NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of aspirin NSAID to biocompatible oil carrier of about 5:1 to about 1:5, __and wherein the composition does not include water.__\n\n42. (Previously presented) The non-aqueous pharmaceutical composition of claim 41 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\n43. (Currently amended) The non-aqueous pharmaceutical composition of claim 41 wherein the biocompatible oil __comprises lecithin__ [[is lecithin]].\n\n44. (Currently amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including phosphatidylcholine and ibuprofen NSAID, said ibuprofen NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of ibuprofen NSAID to non-aqueous biocompatible oil of about 5:1 to about 1:5, __and wherein the composition does not include water.__\n\n45. (Previously presented) The non-aqueous pharmaceutical composition of claim 44 comprising from 10 wt % to 60 wt% NSAID to phosphatidylcholine.\n\n46. (Currently amended) The non-aqueous pharmaceutical composition of claim 44 wherein the biocompatible oil __comprises lecithin__ [[is lecithin]].\n\n47. (Currently amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including [[a]] phospatidylcholine and indomethacin NSAID, said indomethacin NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of indomethacin NSAID to biocompatible oil of about 5:1 to about 1:5, __and wherein the composition does not include water.__\n\n48. (Previously presented) The non-aqueous pharmaceutical composition of claim 47 comprising from 10 wt % to 60 wt% phosphatidylcholine.\n\n49. (Currently amended) The non-aqueous pharmaceutical composition of claim 47 wherein the biocompatible oil __comprises lecithin__ [[is lecithin]].\n\n50. (Currently amended) A non-aqueous pharmaceutical composition comprising a biocompatible oil carrier including [[a]] phosphatidylcholine and salicylate NSAID, said [[salicylic acid]] salicylate NSAID being admixed as a powder directly in the biocompatible oil carrier, said composition having a weight ratio of [[salicylic acid]] salicylate NSAID to biocompatible oil of about 5:1 to about 1:5, __and wherein the composition does not include water.__\n\n51. (Currently amended) The non-aqueous pharmaceutical composition of claim 50 comprising from 10 wt % to 60 wt% phosphatidylcholine [[phospholipid]].\n\n52. (Currently amended) The non-aqueous pharmaceutical composition of claim 50 wherein the biocompatible oil __comprises lecithin__ [[is lecithin]].",
+  "usage": {
+    "input_tokens": 4972,
+    "output_tokens": 1457,
+    "total_tokens": 6429
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.47,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:49:56Z"
+}

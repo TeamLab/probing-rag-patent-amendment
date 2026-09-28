@@ -1,0 +1,78 @@
+{
+  "run_label": "k-ablation (F/G at k=1 and k=5)",
+  "status": "PREP COMPLETE -- retrieval + prompts built locally, validated, zero cost. GENERATION NOT RUN (no API credentials in this environment; real spend requires explicit go-ahead). See BLOCKERS below.",
+  "scope": {
+    "k_values_new": [1, 5],
+    "k_value_reused": 3,
+    "k3_source": "existing main-run outputs, NOT regenerated -- scored tables reused as-is: submission_repo/outputs/_analysis/{c1,c2,c3,c5}_main.tsv (lexical C1-C3,C5, all 4 models, cond in {baseline,A..G}, N=300/cell) and experiment_run/outputs/_analysis/c1_embedding_scores.tsv (semantic C1, same coverage).",
+    "conditions": ["F", "G"],
+    "models": ["sonnet4", "haiku4.5", "gpt5.4", "gpt4o-mini"],
+    "cohort": "data/parsed/cohort_batch0.json (same 100-case stratified cohort, seed 42, as the main run -- not resampled)",
+    "reps": 3,
+    "cases_per_condition_per_k": 100,
+    "new_calls_planned": 4800,
+    "new_calls_breakdown": "100 cases x 3 reps x 2 conditions (F,G) x 2 k-values (1,5) x 4 models = 4,800"
+  },
+  "retrieval": {
+    "pool": "data/parsed/retrieval_pool_v1.json (pool_version v1, 4,221 entries, same pool as k=3 F/G, pool cap cohort = empty set by construction -- unchanged)",
+    "exemplar_fields": "app_num, pre_text, post_text -- identical to k=3 F/G",
+    "injection_point_format": "before ## Task, _format_retrieved_block -- byte-identical function reused from build_probe_prompts.py",
+    "base_prompt": "byte-identical reuse of data/parsed/prompts_main/<case_id>__baseline.json -- NOT reconstructed from beta_parsed/alpha, so base prompt is guaranteed identical to the k=3 run's base prompt",
+    "probe_G_k_ablation": "deterministic top-k by (statute_section, statute_subsection, limitation-pattern Jaccard) score, same _g_score() as frozen G. VALIDATED NESTED vs k=3: G1's single pick == frozen G(k=3)'s top-1 pick for all 100 cases (0 mismatches); G5's first 3 picks == frozen G(k=3)'s all 3 picks for all 100 cases (0 mismatches). G's ranking does not depend on k, so this nesting is structural, not incidental.",
+    "probe_F_k_ablation": "uniform random via random.Random(sha256(case_id+'::F')[:8]).sample(pool, k=k) -- SAME seed tag as frozen k=3 F, for reproducibility. CAVEAT (documented, not a hidden default): Python's random.sample() does not guarantee that the k=1 draw is a prefix of the k=3 draw or that k=5 is a superset of it -- sample() takes different internal code paths depending on k relative to len(pool). F1/F3/F5 for a given case are same-seeded but NOT guaranteed-nested random subsets of the 4,221-entry pool.",
+    "validation": "checked all 400 rendered files (100 cases x {F1,F5,G1,G5}): 0 self-retrievals, 0 duplicate-app_num-within-a-case's-picks, retrieved-count exactly matches requested k in every file."
+  },
+  "prompt_size": {
+    "method": "mean user_chars, measured directly on rendered prompts (not estimated)",
+    "baseline_mean_chars": 15556,
+    "F_k3_mean_chars": 20262,
+    "F_k1_mean_chars": 17201,
+    "F_k5_mean_chars": 23278,
+    "G_k3_mean_chars": 20876,
+    "G_k1_mean_chars": 17536,
+    "G_k5_mean_chars": 23913,
+    "note": "k=1 prompts run ~15% smaller than k=3, k=5 prompts ~15% larger, roughly linear in number of injected exemplars (~1.5-1.8k chars/exemplar) -- used below for cost projection."
+  },
+  "generation": {
+    "models_planned": {
+      "sonnet4": {"vendor": "anthropic", "canonical_id": "claude-sonnet-4-20250514"},
+      "haiku4.5": {"vendor": "anthropic", "canonical_id": "claude-haiku-4-5-20251001"},
+      "gpt5.4": {"vendor": "openai", "canonical_id": "gpt-5.4"},
+      "gpt4o-mini": {"vendor": "openai", "canonical_id": "gpt-4o-mini"}
+    },
+    "temperature": 0.3,
+    "max_tokens": 4096,
+    "reps": 3,
+    "condition_order_shuffle_seed": 42,
+    "seed_caveat": "No true LLM sampling seed is passed to any provider in this codebase's run_main.py -- same caveat as the main run and dense-G. Temperature=0.3 + 3 reps is the design's actual answer to stochasticity.",
+    "parse_failure_policy": "unchanged from main run / dense-G: call_with_retry retries on 429/5xx up to max_retries=4 with backoff, hard-fails immediately on 400/401/403/404; failures logged to outputs/<model>_kablation/_failures.jsonl, resumable via --skip-failed.",
+    "baseline_and_k3_reuse": "baseline and k=3 (F,G) NOT regenerated -- existing scored tables reused as-is (see scope.k3_source above). Only F1, F5, G1, G5 are new generation.",
+    "invocation_once_authorized_per_model_per_condition": "python3 scripts/run_main.py --cohort data/parsed/cohort_batch0.json --model <M> --prompts-dir data/parsed/prompts_kablation --conditions F1,F5,G1,G5 --reps 3 --out-dir outputs/<M>_kablation"
+  },
+  "cost_projection_usd": {
+    "method": "historical real per-call $/call from the k=3 Probe G run (dense_G_run_config.json), scaled by the measured prompt_size char-ratio for each k (input-token-dominated approximation -- output length is roughly k-independent, so this likely mildly overstates the swing at k=1 and k=5; not an observed number, will be replaced by real cost_usd once generation runs, same as the dense-G precedent).",
+    "k3_reference_$_per_call": {"sonnet4": 0.03522, "gpt5.4": 0.01695, "haiku4.5": 0.00918, "gpt4o-mini": 0.00111},
+    "per_condition_per_k_projection": {
+      "F1_all_4_models_300_calls": 15.91,
+      "G1_all_4_models_300_calls": 15.74,
+      "F5_all_4_models_300_calls": 21.53,
+      "G5_all_4_models_300_calls": 21.46
+    },
+    "total_4800_calls_all_new_conditions": 74.64,
+    "comparable_reference": "dense-G's own 1,200-call run projected at $18.74, actual real cost came in at $18.32 -- i.e. this style of projection has historically landed within ~2% of real spend on this exact harness."
+  },
+  "scoring_plan_once_generated": {
+    "pipeline": "same deterministic scorers as k=3/dense-G: compute_c1.py score (lexical), compute_c1_embedding.py (semantic, all-MiniLM-L6-v2), compute_c2.py score, compute_c3.py score, compute_c5.py score -- pointed at outputs/<model>_kablation/ for all 4 models at once via --roots.",
+    "output_tables": ["outputs/_analysis/c1_kablation_scores.tsv", "outputs/_analysis/c1_embedding_kablation_scores.tsv", "outputs/_analysis/c2_kablation_scores.tsv", "outputs/_analysis/c3_kablation_scores.tsv", "outputs/_analysis/c5_kablation_scores.tsv"]
+  },
+  "stats_plan": {
+    "script": "scripts/wilcoxon_kablation.py -- adapted from wilcoxon_denseG.py, same method: per-case mean of 3 reps, paired Wilcoxon signed-rank (baseline vs probe) two-sided, bootstrap 95% CI on median diff (10k resamples, seed 42), Holm-Bonferroni within the family of NEW tests only (F1,F5,G1,G5 x 4 metrics x 4 models = 64 tests), consistent with how dense-G's H family (16 tests) was corrected separately from the frozen F/G-at-k3 tests.",
+    "k3_baseline_note": "F(k=3) and G(k=3) vs baseline p-values are reported alongside for context (same as dense-G's table showed baseline->F and baseline->G p next to baseline->H p) but are NOT part of the new-test Holm family -- they are the pre-existing main-run comparisons.",
+    "headline_focus": "C5 (H1/prior-injection) and C2 (revision locality) called out per the request; full 64-test table (C1 lexical, C1 semantic, C2, C3, C5 x F1/F5/G1/G5 x 4 models) also produced.",
+    "NOT_YET_RUN": "requires F1/F5/G1/G5 generation + scoring, which is blocked -- see BLOCKERS. Script is written and tested to fail loudly (exit 1, list missing files) rather than fabricate numbers if the score tables don't exist, same discipline as wilcoxon_denseG.py."
+  },
+  "BLOCKERS": [
+    "No API credentials in this environment: ANTHROPIC_API_KEY / OPENAI_API_KEY / OPENROUTER_API_KEY are all unset, no .env file found. Generation cannot run here regardless of authorization.",
+    "Real spend (~$75 projected for the full 4,800-call ablation) requires the user's explicit go-ahead even once a key is available -- not assumed by this prep work, consistent with how the dense-G run was authorized."
+  ]
+}

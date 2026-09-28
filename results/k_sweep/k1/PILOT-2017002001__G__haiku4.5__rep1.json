@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17636,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "76f312ad6ab06008",
+  "response_text": "13. (Currently Amended) A flexible respiratory gas tube arrangement for supplying a respiratory gas to a person, the tube arrangement comprising: a flexible tube; a heater to heat the gas as it is delivered through the tube; a first connector provided to one end of the tube and adapted to connect the tube with a breathing mask; and a second connector provided to the other end of the tube and adapted to connect the tube with a CPAP device, said second connector including a first portion that provides a respiratory gas passage and a second portion that provides __integrated contact elements positioned to extend generally parallel to a longitudinal axis of the gas passage__ by which power is supplied to said heater, wherein said contact elements are adapted to be engaged with a power supply provided on the CPAP device for supplying power to said heater.\n\n14. (Previously Presented) The gas tube arrangement according to claim 13, further comprising an insulating sheathing body.\n\n15. (Currently Amended) The gas tube arrangement according to claim 14, wherein the insulating sheathing body is __permanently__ attachable to the flexible tube.\n\n16. (Cancelled)\n\n17. (Currently Amended) The gas tube arrangement according to claim 14, wherein __the insulating__ sheathing body includes a multi-layered design.\n\n18. (Currently Amended) The gas tube arrangement according to claim 13, wherein the tube is __a flexible tube with integrated heating elements__.\n\n19. (Currently Amended) The gas tube arrangement according to claim 14, wherein __heating elements are integrated into the tube__.\n\n24. (Currently Amended) The gas tube arrangement according to claim 13, wherein the flexible tube is made from __a spirally reinforced plastic material having a wall thickness of at least 2 millimeters__.\n\n25. (Currently Amended) The gas tube arrangement according to claim 13, wherein the heater is __an electrical resistance heating element__.\n\n26. (Cancelled)\n\n27. (Currently Amended) The gas tube arrangement according to claim 13, wherein each contact element extends generally parallel to a longitudinal axis of the gas passage such that both an electric and pneumatic connection is provided when the connector is connected to the CPAP device.\n\n28. (Currently Amended) The gas tube arrangement according to claim 13, wherein __contact elements are provided within the second portion__.\n\n29. (Currently Amended) A connector for connecting a CPAP device to a respiratory gas tube arrangement for supplying a respiratory gas to a person, the respiratory gas tube arrangement including a heater, the connector comprising: a first portion that provides a respiratory gas passage; and a second portion that provides __integrated contact elements positioned to extend generally parallel to a longitudinal axis of the gas passage__ by which power is supplied to the heater, wherein __both an electric and pneumatic connection is provided when the connector is connected to the CPAP device__.\n\n30. (Currently Amended) A connector according to claim 29, wherein __contact elements are provided within the second portion__.\n\n31. (Currently Amended) A connector according to claim 29, wherein the first portion is tubular and the second portion extends outwardly from the first portion __to accommodate the contact elements__.",
+  "usage": {
+    "input_tokens": 4712,
+    "output_tokens": 695,
+    "total_tokens": 5407
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.68,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:29:34Z"
+}

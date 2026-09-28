@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 65571,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "0b62f52d72c6c8e5",
+  "response_text": "(Currently amended) Claim 281: A tool comprising: a lamination of at least two layers; a first adhesive layer and a second adhesive layer located on opposite sides of a medial section, wherein the first adhesive layer and the second adhesive layer are aligned with each other; and an additional adhesive layer bonded to at least one of the first or second adhesive layers. \n\n(Original) Claim 282: The tool of claim 281 wherein the first adhesive layer is configured to bond a first layer to a second layer.\n\n(Original) Claim 283: The tool of claim 281 wherein the medial section comprises a composite material.\n\n(Original) Claim 284: The tool of claim 283 wherein the composite material is filled with a second material.\n\n(Cancelled) Claim 285: [Cancelled]\n\n(Cancelled) Claim 286: [Cancelled]\n\n(Cancelled) Claim 287: [Cancelled]\n\n(Cancelled) Claim 288: [Cancelled]\n\n(Previously presented) Claim 290: The tool of claim 289 wherein the ring includes a central opening. \n\n(Original) Claim 291: The tool of claim 290 wherein the ring includes a central opening defining an area for accommodating a drive shaft.\n\n(Original) Claim 293: The tool of claim 291 wherein the weld ring is continuous.\n\n(Original) Claim 294: The tool of claim 293 wherein the weld ring is bonded to the medial section.",
+  "usage": {
+    "input_tokens": 14323,
+    "output_tokens": 291,
+    "total_tokens": 14614
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.49,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:25:51Z"
+}

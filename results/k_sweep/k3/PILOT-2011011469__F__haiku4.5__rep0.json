@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15482,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "17ac3848c482b786",
+  "response_text": "1. (Currently amended): A method of treating a brain, comprising: inserting an elongated device into the brain to create a path __between non-adjacent tissue layers__; radially expanding the device to create a working channel along the path; and introducing a medical element into the working channel to perform a medical procedure on the brain __that is distinct from merely creating access to the tissue__.\n\n2. (Currently amended): The method of claim 1, wherein the medical element is an instrument __configured to perform a therapeutic intervention beyond tissue displacement__.\n\n3. (Original): The method of claim 1, wherein the medical element is a medicament.\n\n4. (Cancelled)\n\n5. (Currently amended): The method of claim 1, further comprising inserting the elongated device between tissue layers within the brain __such that the device creates a working channel that remains patent after partial or complete removal of the device__.\n\n6. (Currently amended): The method of claim 1, further comprising radially contracting and removing the device from the brain __while maintaining the working channel through use of a reinforcing structure__.\n\n7. (Currently amended): A method of treating a tissue, comprising: placing an elongated device into the tissue to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; radially reinforcing the device against the tissue __with a stent or similar structure__; and introducing a medical element through the device to perform a medical procedure on the tissue __that includes delivery of a therapeutic agent or performance of a surgical intervention__.\n\n8. (Currently amended): The method of claim 7, wherein the medical element is an instrument __that performs a function beyond tissue displacement__.\n\n9. (Currently amended): The method of claim 7, wherein the medical element is a medicament __delivered to treat a pathological condition__.\n\n10. (Currently amended): The method of claim 7, further comprising inserting the elongated device between tissue layers __in a manner that creates a stable working channel__.\n\n11. (Currently amended): The method of claim 7, further comprising radially contracting and removing the device from the tissue __while the reinforcing structure remains in place to maintain the working channel__.\n\n12. (Currently amended): The method of claim 7, further comprising treating the tissue in contact with the device with a haemostatic compound to reduce bleeding __during or after introduction of the medical element__.\n\n13. (Currently amended): A method of treating a tissue, comprising: placing an elongated device, having a first radially expandable body, surrounded by a stent, which is surrounded by a second radially expandable body, into the tissue to create a path; radially expanding the second expandable body against the tissue to radially displace the tissue along the path; radially expanding the first expandable body to radially expand the stent to reinforce the second expandable body against the tissue; radially contracting and removing the first expandable body to create a working channel through the stent; introducing a medical element through the channel to perform a medical procedure on the tissue __that includes therapeutic delivery or surgical intervention beyond tissue displacement__; and radially contracting the second expandable body and removing the device from the tissue __while the stent remains in place__.\n\n14. (Currently amended): The method of claim 13, wherein the medical element is an instrument __that performs a therapeutic function__.\n\n15. (Original): The method of claim 13, wherein the medical element is a medicament.\n\n16. (Currently amended): The method of claim 13, further comprising inserting the elongated device between tissue layers __such that the stent provides permanent or semi-permanent structural support__.\n\n17. (Original): The method of claim 13, further comprising treating the tissue in contact with the device with a haemostatic compound to reduce bleeding.",
+  "usage": {
+    "input_tokens": 4145,
+    "output_tokens": 821,
+    "total_tokens": 4966
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.47,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:50:57Z"
+}

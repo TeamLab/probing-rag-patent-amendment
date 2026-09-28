@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2015006206",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2015006206",
+  "app_num": "13401993",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "3600",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2014009901",
+      "PILOT-2019001959",
+      "PILOT-2010006989"
+    ],
+    "retrieved_app_nums": [
+      "13529674",
+      "13826090",
+      "11323665"
+    ],
+    "retrieved_scores": [
+      0.79,
+      0.7874,
+      0.7871
+    ],
+    "retrieved_chars_total": 4606,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 21928,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "bc8ce81ea21f322f",
+  "response_text": "(Currently Amended) Claim 1: An aircraft weapons control system comprising: a weapons stores processor panel for receiving input signals from a weapons input; a weapons interface for receiving fire signals from the weapons stores processor panel to control firing of aircraft weapons; and a flight management system in communication with the weapons stores processor panel and the weapons interface, the flight management system providing control signals to the weapons interface; wherein the weapons stores processor panel implements safety interlocks to prevent or enable firing of the aircraft weapons, and the weapons stores processor panel is configured to communicate with a plurality of weapon types.\n\n(Currently Amended) Claim 4: The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel communicates with the weapons interface using a MIL-STD-1760 standard.\n\n(Currently Amended) Claim 6: The aircraft weapons control system of claim 1 further comprising: a data concentrator unit that conditions outputs from the flight management system for display on a multi-function display.\n\n(Currently Amended) Claim 15: The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel provides display information for a helmet mounted display, control display unit, and a multifunction display.\n\n(Currently Amended) Claim 16: The aircraft weapons control system of claim 1 wherein: the weapons stores processor panel provides data for a weapons bus controller to implement firing of weapons.",
+  "usage": {
+    "input_tokens": 4695,
+    "output_tokens": 280,
+    "total_tokens": 4975
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.3,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:03:20Z"
+}

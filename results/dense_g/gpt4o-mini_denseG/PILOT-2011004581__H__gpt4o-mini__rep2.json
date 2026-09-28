@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2011004581",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2011004581",
+  "app_num": "10906716",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2014004632",
+      "PILOT-2011007730",
+      "PILOT-2016001662"
+    ],
+    "retrieved_app_nums": [
+      "11620715",
+      "11114987",
+      "12786933"
+    ],
+    "retrieved_scores": [
+      0.9763,
+      0.9704,
+      0.9694
+    ],
+    "retrieved_chars_total": 1802,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14600,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "512815b653319ad2",
+  "response_text": "(Currently amended) Claim 2: The method of claim 1 further comprising: __displaying the filtered EPG information on a user interface.__\n\n(Currently amended) Claim 3: The method of claim 1 wherein filtering comprises: obtaining channel accessibility of the subscriber; and __removing EPG information related to channels that are not within the channel accessibility of the subscriber.__\n\n(Currently amended) Claim 4: The method of claim 3 wherein obtaining comprises: retrieving channel subscription information of the subscriber from the content delivery provider; and creating a list of __channel identifiers corresponding to channels__ accessible to the subscriber from the channel subscription information.\n\n(Currently amended) Claim 5: The method of claim 3 wherein removing comprises: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to __the created list of channel identifiers.__\n\n(Currently amended) Claim 8: The article of manufacture of claim 7 wherein the data further comprises data that, when accessed by the machine, causes the machine to perform operations comprising: __displaying the filtered EPG information on a user interface.__\n\n(Currently amended) Claim 9: The article of manufacture of claim 7 wherein the data causing the machine to perform filtering comprises data that, when accessed by the machine, causes the machine to perform operations comprising: obtaining channel accessibility of the subscriber; and __removing EPG information related to channels that are not within the channel accessibility of the subscriber.__\n\n(Currently amended) Claim 10: The article of manufacture of claim 9 wherein the data causing the machine to perform obtaining comprises data that, when accessed by the machine, causes the machine to perform operations comprising: retrieving channel subscription information of the subscriber from the content delivery provider; and creating a list of __channel identifiers corresponding to channels__ accessible to the subscriber from the channel subscription information.\n\n(Currently amended) Claim 11: The article of manufacture of claim 9 wherein the data causing the machine to perform removing comprises data that, when accessed by the machine, causes the machine to perform operations comprising: reading the EPG information; extracting a channel identifier from the EPG information; and removing the EPG information corresponding to the extracted channel identifier if the extracted channel identifier does not belong to __the created list of channel identifiers.__\n\n(Currently amended) Claim 14: The program guide module of claim 13 wherein the enhanced EPG module further comprises: a module to __display the filtered EPG information on a user interface.__",
+  "usage": {
+    "input_tokens": 3441,
+    "output_tokens": 527,
+    "total_tokens": 3968
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.96,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:24:44Z"
+}

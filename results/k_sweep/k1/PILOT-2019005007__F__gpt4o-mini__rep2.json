@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019005007",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2019005007",
+  "app_num": "12625143",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 18213,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "8d563357b96b4bac",
+  "response_text": "Claim 21 (Currently amended): The battery assembly of claim 1, wherein the first sensor comprises: force sensing material having a conductance that is configured to vary based on the at least one force influencing the first battery cell; and force sensing circuitry coupled to the force sensing material, wherein the force sensing circuitry is configured to produce a force output signal based on the conductance of the force sensing material, __wherein the force sensing material is a quantum tunneling composite or a contact sensor.__\n\nClaim 22 (Currently amended): The battery assembly of claim 21, wherein the force sensing material comprises at least one variable electrical conductor.\n\nClaim 23 (Currently amended): The battery assembly of claim 22, wherein the at least one variable electrical conductor has a first level of electrical conductance when the at least one variable electrical conductor is quiescent, and wherein the at least one variable electrical conductor has a second level of conductance when a mechanical stress is applied to the at least one variable electrical conductor.\n\nClaim 24 (Currently amended): The battery assembly of claim 22, wherein the at least one variable electrical conductor __is a quantum tunneling composite or a pressure sensitive ink.__\n\nClaim 25 (Currently amended): The battery assembly of claim 1, wherein the first sensor comprises __a contact sensor or at least one of a polymer membrane binary switch and a discrete dome switch.__",
+  "usage": {
+    "input_tokens": 3886,
+    "output_tokens": 280,
+    "total_tokens": 4166
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.08,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:33:47Z"
+}

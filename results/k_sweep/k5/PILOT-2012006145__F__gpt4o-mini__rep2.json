@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012006145",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2012006145",
+  "app_num": "10979681",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21483,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "5ff351f6edeb1ff9",
+  "response_text": "```\n(Currently amended) Claim 1: A method of cementing comprising: providing a cement composition comprising a __modified__ carboxylated inulin; and allowing the cement composition to set.\n\n(Currently amended) Claim 11: The method of claim 1 wherein the cement composition is placed in a subterranean formation and has a unique setting characteristic.\n\n(Currently amended) Claim 12: The method of claim 1 wherein the cement composition is placed in a wellbore and has a unique setting characteristic.\n```",
+  "usage": {
+    "input_tokens": 4995,
+    "output_tokens": 107,
+    "total_tokens": 5102
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.22,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:39:51Z"
+}

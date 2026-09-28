@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "a",
+    "test_patterns": [
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2019000796",
+      "PILOT-2018002639",
+      "PILOT-2016007277"
+    ],
+    "retrieved_app_nums": [
+      "15132673",
+      "13960940",
+      "13927481"
+    ],
+    "retrieved_scores": [
+      0.8523,
+      0.8436,
+      0.8425
+    ],
+    "retrieved_chars_total": 3294,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15806,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a1c74f1c6358a55e",
+  "response_text": "1. (Currently Amended) A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium __that does not substantially reduce embryo viability__; (b) obtaining DNA from the shed cellular material __by a method selected from the group consisting of: exposing the shed cellular material to cold and then heat followed by agitation; heating the shed cellular material and agitation; or incubating the shed cellular material with an enzyme__; (c) performing a molecular analysis of the DNA obtained in step (b) __selected from the group consisting of genotyping, phenotyping, or whole genome sequencing__; and (d) germinating at least one of said one or more embryos __that was not selected against based on the molecular analysis results__.\n\n2. (Currently Amended) The method of claim 1 wherein the non-destructive medium consists essentially of water __and the embryos are immature embryos__.\n\n3. (Cancelled)\n\n4. (Cancelled)\n\n5. (Cancelled)\n\n6. (Cancelled)\n\n7. (Currently Amended) The method of claim 1 wherein the DNA is obtained by incubating the shed cellular material with an enzyme __selected from the group consisting of cell wall degrading enzymes, cellulase, pectinase, or combinations thereof__.\n\n8. (Currently Amended) The method of claim 7 wherein the enzyme is VISCOZYME® __or another cell wall degrading enzyme that does not substantially reduce embryo viability__.\n\n9. (Cancelled)\n\n10. (Currently Amended) The method of claim 1, wherein said obtaining DNA from the shed cellular material comprises extracting the DNA __using magnetic particles or other solid phase extraction methods__.\n\n11. (Currently Amended) The method of claim 1 wherein the one or more embryos comprise one or more immature embryos __selected from the group consisting of corn embryos, soybean embryos, or wheat embryos__.\n\n12. (Currently Amended) The method of claim 1 further comprising storing the one or more embryos __in a quiescent condition__ prior to step (c) or (d).\n\n13. (Currently Amended) The method of claim 1, wherein said molecular analysis is genotyping __performed on DNA obtained from shed cellular material without requiring whole embryo destruction__.\n\n14. (Currently Amended) The method of claim 13, wherein said genotyping occurs by way of: single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads __using DNA extracted from the shed cellular material__.\n\n15. (Currently Amended) The method of claim 1 further comprising growing a germinated embryo into a plant and phenotyping the plant __to correlate genotype with phenotype__.\n\n16. (Currently Amended) The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed __on the DNA extracted from the shed cellular material__.\n\n17. (Currently Amended) The method of claim 13 further comprising selecting one or more embryos based on genotype __wherein the selection is performed prior to germination and the selected embryos retain viability__.\n\n18. (Currently Amended) The method of claim 17 further comprising germinating the one or more selected embryos __and growing them into plants__.\n\n19. (Currently Amended) The method of claim 18 wherein any of the steps resulting in selection of one or more embryos is automated __including automated genotyping, data analysis, and embryo sorting__.",
+  "usage": {
+    "input_tokens": 4369,
+    "output_tokens": 846,
+    "total_tokens": 5215
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.79,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T18:58:00Z"
+}

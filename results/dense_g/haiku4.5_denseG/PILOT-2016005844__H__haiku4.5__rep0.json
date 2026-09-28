@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2016005844",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2016005844",
+  "app_num": "14039251",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2017011221",
+      "PILOT-2017008426",
+      "PILOT-2022001830"
+    ],
+    "retrieved_app_nums": [
+      "14214694",
+      "14033082",
+      "14846595"
+    ],
+    "retrieved_scores": [
+      0.9208,
+      0.9119,
+      0.9113
+    ],
+    "retrieved_chars_total": 8414,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23086,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "414dd9f6ce1ae6c1",
+  "response_text": "1. (Currently Amended) A system for identifying malicious threats on a network comprising: a computing device including a processor coupled to a system memory, the system memory storing instructions for execution on the processor, the instructions configured to cause the processor to: retrieve network data associated with at least one of an IP address or a domain from at least one of an edge router or a border gateway protocol table; analyze the network data using a threat detection algorithm that compares new activity to historical activity patterns and generates a risk score based on deviation from known benign behavior; identify a malicious network threat based on the risk score exceeding a predetermined threshold; and perform a mitigating action to neutralize the malicious network threat, wherein the mitigating action comprises at least one of null routing, adjusting an access control list, or logically separating the identified threat from the network.\n\n2. (Currently Amended) The system of claim 1, wherein the network data is retrieved from an edge router, wherein the network data comprises a snapshot of traffic being routed through the edge router, and wherein the analysis includes measuring at least one of an amount of data transceived by the edge router or a rate of data transceived by the edge router.\n\n3. (Currently Amended) The system of claim 2, further comprising a traffic measurement aggregator module logically connected to an edge router interface, wherein the traffic measurement aggregator module measures and aggregates the network data prior to analysis.\n\n4. (Currently Amended) The system of claim 1, wherein the network data comprises data from a border gateway protocol table associated with a primary computer network's connectivity relationships with at least one secondary network, and wherein the analysis identifies anomalous routing patterns or connectivity changes indicative of malicious activity.\n\n5. (Currently Amended) The system of claim 1, wherein the instructions are further configured to cause the processor to push a notification including the mitigating action and the risk score for the malicious network threat to a third party device only when the risk score exceeds the predetermined threshold.\n\n6. (Currently Amended) The system of claim 1, wherein the instructions are further configured to cause the processor to: normalize the network data to a standard format; decorate the network data with at least one tag that identifies the network activity data and its source; store the normalized and decorated network data in a database; weight the network data according to a threat level associated with the data; and generate a risk score for the weighted data based on comparison to historical threat profiles.\n\n7. (Currently Amended) The system of claim 6, wherein the instructions are further configured to cause the processor to generate the risk score by: comparing a new activity at the IP address or the domain to a past activity at the IP address or the domain stored in the database; determining whether the new activity deviates from a profile for benign activity at the IP address or domain; correlating the deviation with a previous malicious threat; and adjusting the risk score according to the correlation and the degree of deviation.\n\n8. (Currently Amended) The system of claim 7, wherein the instructions are further configured to cause the processor to predict a network-based attack based at least on the risk score and historical attack patterns associated with similar deviations.\n\n9. (Currently Amended) The system of claim 1, wherein the mitigating action comprises at least one of null routing the malicious network threat, adjusting an access control list (ACL) to block the malicious network threat, publishing a list identifying a bad actor committing the malicious network threat, or logically separating the IP address or domain from the network based on the risk score.\n\n10. (Currently Amended) A method for identifying malicious threats on a network comprising: retrieving network data associated with at least one of an IP address or a domain from at least one of an edge router or a border gateway protocol table; analyzing the network data using a threat detection algorithm that compares new activity to historical activity patterns and generates a risk score based on deviation from known benign behavior; identifying a malicious network threat based on the risk score exceeding a predetermined threshold; and performing a mitigating action to neutralize the malicious network threat, wherein the mitigating action comprises at least one of null routing, adjusting an access control list, or logically separating the identified threat from the network.\n\n11. (Currently Amended) The method of claim 10, wherein the network data is retrieved from an edge router, wherein the network data comprises a snapshot of traffic being routed through the edge router, and wherein the analysis includes measuring at least one of an amount of data transceived by the edge router or a rate of data transceived by the edge router.\n\n12. (Currently Amended) The method of claim 11, further comprising measuring at least one of an amount of data transceived by the edge router or a rate of data transceived by the edge router at a measurement aggregator module logically connected to an edge router interface prior to the analyzing step.\n\n13. (Currently Amended) The method of claim 10, wherein the network data comprises data from a border gateway protocol table associated with a primary computer network's connectivity relationships with at least one secondary network, and wherein the analysis identifies anomalous routing patterns or connectivity changes indicative of malicious activity.\n\n14. (Currently Amended) The method of claim 10, further comprising pushing a notification including the mitigating action and the risk score for the malicious network threat to a third party device only when the risk score exceeds the predetermined threshold.\n\n15. (Currently Amended) The method of claim 10, further comprising: normalizing the network data to a standard format; decorating the network data with at least one tag that identifies the network activity data and its source; storing the normalized and decorated network data in a database; weighing the network data according to a threat level associated with the data; and generating a risk score for the weighted data based on comparison to historical threat profiles.\n\n16. (Currently Amended) The method of claim 15, wherein the risk score is generated by: comparing a new activity at the IP address or the domain to a past activity at the IP address or the domain stored in the database; determining whether the new activity deviates from a profile for benign activity at the IP address or domain; correlating the deviation with a previous malicious threat; and adjusting the risk score according to the correlation and the degree of deviation.\n\n17. (Currently Amended) The method of claim 16, further comprising predicting a network-based attack based at least on the risk score and historical attack patterns associated with similar deviations.\n\n18. (Currently Amended) The method of claim 10, wherein the mitigating action comprises at least one of null routing the malicious network threat, adjusting an access control list (ACL) to block the malicious network threat, publishing a list identifying a bad actor committing the malicious network threat, or logically separating the IP address or domain from the network based on the risk score.",
+  "usage": {
+    "input_tokens": 5443,
+    "output_tokens": 1500,
+    "total_tokens": 6943
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.28,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:16:00Z"
+}

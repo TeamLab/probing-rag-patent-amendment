@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "H",
+  "rep": 2,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "",
+    "test_subsection": "(b)",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2020001254",
+      "PILOT-2015001339",
+      "PILOT-2019002800"
+    ],
+    "retrieved_app_nums": [
+      "14634687",
+      "13470326",
+      "14043279"
+    ],
+    "retrieved_scores": [
+      0.8318,
+      0.8266,
+      0.8254
+    ],
+    "retrieved_chars_total": 3344,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 68348,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "2ba89966d8b2bb39",
+  "response_text": "1. (Currently Amended) A dynamic laminar structure, for example for working tools and machines, comprising a lamination of first and second outer layers and __a medial section__, wherein __a first adhesive layer__ is positioned between the first outer layer and the medial section, __a second adhesive layer__ is positioned between the medial section and the second outer layer, the first and second outer layers have a circular shape and include a plurality of arc-shaped cutting segments having an inner arc shape and an outer arc shape, wherein the inner arc shape of each of the arc-shaped cutting segments is directly affixed to an outer perimeter of the first and second outer layers, and wherein the first outer layer and the second outer layer are aligned with the first adhesive layer and the second adhesive layer.\n\n2. (Currently Amended) The dynamic laminar structure of claim 281, wherein the medial section comprises a metal.\n\n3. (Currently Amended) The dynamic laminar structure of claim 282, wherein the metal is a honeycomb structure.\n\n4. (Currently Amended) The dynamic laminar structure of claim 282, wherein the medial section is a composite material.\n\n5. (Currently Amended) The dynamic laminar structure of claim 281, further including a weld ring at least partially interposed between the perimeter of the first and second outer layers and the plurality of arc-shaped cutting segments.\n\n6. (Currently Amended) The dynamic laminar structure of claim 285, wherein the weld ring is bonded to the medial section.\n\n7. (Currently Amended) The dynamic laminar structure of claim 285, wherein the plurality of arc-shaped cutting segments are welded to an outer perimeter of the weld ring.\n\n8. (Currently Amended) The dynamic laminar structure of claim 285, wherein the weld ring is continuous.\n\n9. (Currently Amended) The dynamic laminar structure of claim 285, wherein the weld ring is segmented, and wherein it would have been obvious to a person having ordinary skill in the art to segment the weld ring.\n\n10. (Currently Amended) The dynamic laminar structure of claim 285, further including an inner ring, wherein the medial section is coupled on an inner perimeter to the inner ring.\n\n11. (Currently Amended) The dynamic laminar structure of claim 290, wherein the inner ring includes a central opening for accommodating a drive shaft.\n\n12. (Currently Amended) The dynamic laminar structure of claim 281, wherein the weld ring is at least partially interposed between the perimeter of the first and second outer layers and the plurality of arc-shaped cutting segments, such that the plurality of arc-shaped cutting segments are located on an outer periphery of the weld ring.\n\n13. (Currently Amended) The dynamic laminar structure of claim 293, wherein the weld ring is continuous.\n\n14. (Currently Amended) The dynamic laminar structure of claim 293, wherein the weld ring is segmented.",
+  "usage": {
+    "input_tokens": 16304,
+    "output_tokens": 653,
+    "total_tokens": 16957
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.49,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:32:29Z"
+}

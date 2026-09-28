@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012003288",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2012003288",
+  "app_num": "11241684",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "2400",
+    "year": "2010-14",
+    "pattern": "modify_only",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 13166,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6d519b71979fc65b",
+  "response_text": "1. (Currently Amended) A system comprising: a plurality of network nodes of a local contention neighborhood of a random access network, wherein a first node is configured to transmit to a second node at an access attempt percentage, and wherein each of the plurality of nodes is configured to provide an indicia of its inter-node interference to other nodes in the plurality, and wherein the first node is configured to adjust the access attempt percentage to transmit to the second node based on one of the provided indicia.\n\n2. (Previously Presented)\n\n3. (Currently Amended) The system of claim 1, wherein the indicia of inter-node interference comprises an indicia of transmission success rate between the other nodes and the second node.\n\n4. (Currently Amended) The system of claim 1, wherein the first node is configured to adjust the access attempt percentage based on a ratio of an indicia of inter-node interference of the first node divided by an indicia of inter-node interference of one or more of the nodes interfered with by transmissions from the first node.\n\n5. (Previously Presented)\n\n13. (Previously Presented)\n\n14. (Currently Amended) The system of claim 13, comprising the first access point, wherein the first access point is configured to broadcast a dynamic weight associated with the second node to the first node, wherein the dynamic weight is based on a transmission success rate of the second node.\n\n15. (Previously Presented)\n\n16. (Previously Presented)\n\n17. (Currently Amended) The system of claim 13, comprising a second access point, wherein the second node communicates with the second access point and the first node interferes with communication between the second node and the second access point, wherein the first node calculates the access attempt percentage based at least partially on the interference with the second node's communication with the second access point.\n\n18. (Previously Presented)\n\n19. (Currently Amended) The system of claim 13, wherein the first node is configured to communicate with the first access point using I.E.E.E. 802.11 wireless protocol standard.\n\n20. (Previously Presented)",
+  "usage": {
+    "input_tokens": 3534,
+    "output_tokens": 461,
+    "total_tokens": 3995
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.84,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:44:23Z"
+}

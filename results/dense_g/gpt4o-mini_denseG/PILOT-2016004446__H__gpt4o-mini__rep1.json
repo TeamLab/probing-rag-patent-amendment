@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2016004446",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2016004446",
+  "app_num": "11920521",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "112",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2014008359",
+      "PILOT-2015004142",
+      "PILOT-2017005684"
+    ],
+    "retrieved_app_nums": [
+      "12934286",
+      "12133139",
+      "13051814"
+    ],
+    "retrieved_scores": [
+      0.8617,
+      0.8441,
+      0.8436
+    ],
+    "retrieved_chars_total": 5434,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15316,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "a02d0f2fc4756cc5",
+  "response_text": "Claim 5 (Currently Amended): Use of the composition of claim 1 for preparation of a blocking vaccine to __impede__ and __reduce__ Leishmaniasis transmission in __humans or animals__.\n\nClaim 6 (Currently Amended): Use of the composition of claim 1 for preparation of __a reagent__ for blocking Leishmaniasis transmission in __humans or animals__, wherein said composition further comprises suitable pharmacological vehicles.\n\nClaim 7 (Currently Amended): The composition of claim 1, wherein the Leishmania promastigotes or Leishmania amastigotes fractions called \"Fucose Mannose Ligand\" (FML) comprise a glycoprotein complex containing 29% of neutral sugar, 44% of protein, 11% of phosphate and hexosamines traces composed by protein bands with molecular weight ranging from 9 to 95 kDa, some protein bands having carbohydrates: 36 and 54 to 68 kDa, the FML glycidic portion presenting 10% of fucose and 47% of mannose, 30% of glucose, 12% of galactose and xylose traces, amino acids containing 10 to 20% of glutamic acid, alanine, aspartic acid and glycine, 5 to 10% of serine, histidine, lysine, leucine, threonine, proline and valine, and 2 to 5% of arginine, methionine, isoleucine, tyrosine and phenylalanine, __and wherein the composition is effective for inducing a protective immune response in humans__.",
+  "usage": {
+    "input_tokens": 3633,
+    "output_tokens": 342,
+    "total_tokens": 3975
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.68,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:32:37Z"
+}

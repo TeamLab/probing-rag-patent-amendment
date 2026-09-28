@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 29568,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "fe102fb9514b7da9",
+  "response_text": "1. (Currently Amended) A humeral implant comprising a first component removably attached to a second component, __wherein said first component is a humeral head component and said second component is a stem component__.\n\n2. (Currently Amended) The humeral implant of claim 1 wherein said first component is a humeral __head component__ and said second component is a removably attached stem.\n\n3. (Currently Amended) The implant of claim 2 wherein said humeral __head component__ has a coronal radius of curvature and an axial radius of curvature.\n\n4. (Original) The implant of claim 3 wherein said coronal radius of curvature has a range of 10 to 50 mm.\n\n5. (Original) The implant of claim 3 wherein said axial radius of curvature has a range of from 10 to 50 mm.\n\n6. (Currently Amended) The implant of claim 3 wherein said humeral __head component__ has a depth with a range of from 5 to 40 mm.\n\n7. (Currently Amended) The implant of claim 3 wherein said humeral __head component__ has a thickness with a range of from 0.1 to 10 mm.\n\n8. (Currently Amended) The implant of claim 3 wherein a ratio of a depth of said humeral __head component__ to said coronal radius of curvature is from about 0.7 to about 0.9.\n\n9. (Currently Amended) The implant of claim 3 wherein said humeral __head component__ is spherically or elliptically shaped __and includes a concave undersurface__.\n\n10. (Currently Amended) The implant of claim 3 wherein said humeral __head component__ is made of a material selected from the group consisting of cobalt chrome alloy, ceramic, metal, and magnet materials.\n\n11. (Currently Amended) The implant of claim 3 wherein said humeral __head component__ further comprises fins or spikes on a concave undersurface of said humeral __head component__.\n\n12. (Currently Amended) The implant of claim 3 further comprising a concave undersurface __of said humeral head component__ for bony ingrowth material.\n\n13. (Currently Amended) The implant of claim 3 wherein said humeral __head component__ has a smooth articulating surface __and includes a concave undersurface__.\n\n14. (Original) The implant of claim 3 wherein said attachable stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n15. (Original) The implant of claim 14 wherein said attachable stem is made of a material selected from the group consisting of titanium, stainless steel, tantalum, porous metal and trabecular metal.\n\n16. (Original) The implant of claim 15 wherein said removably attached stem further comprises a smooth, textured or threaded surface.\n\n17. (Original) The implant of claim 16 wherein said removably attached stem is round, square, or triangular.\n\n18. (Original) The implant of claim 17 wherein said removably attached stem further comprises fins.\n\n19. (Original) The implant of claim 17 wherein said removably attached stem further comprises a bony ingrowth surface.\n\n20. (Currently Amended) The implant of claim 2 wherein said removably attached stem __is selected from a plurality of stems of different lengths, wherein said selected stem__ extends from a lateral cortex of said humerus to a center of a head of said humerus.\n\n21. (Currently Amended) The implant of claim 2 wherein said humeral __head component__ connects to said removably attached stem.\n\n22. (Currently Amended) The implant of claim 21 wherein said humeral __head component__ connects to said removably attached stem by a technique selected from the group consisting of morse taper__,__ and a screw.\n\n27. (Currently Amended) __An implant for__ a glenohumeral joint __comprising__ a transhumeral portal along a central axis of a neck of a proximal humerus and __said__ implant.\n\n28. (Currently Amended) The __implant for a__ glenohumeral joint of claim 27 wherein said implant is a humeral implant.\n\n29. (Currently Amended) __A humeral implant for__ a [[repaired]] humerus bone comprising a modular implant with a humeral __head component__ and a stem, wherein said stem is __adapted to be__ anchored in the epiphyseal-metaphyseal portion of said humerus bone.\n\n30. (Currently Amended) The __humeral implant for a__ [[repaired]] humerus bone of claim 29 wherein said stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n31. (Currently Amended) The __humeral implant for a__ [[repaired]] humerus bone of claim 30 wherein said stem is linear.",
+  "usage": {
+    "input_tokens": 7577,
+    "output_tokens": 1158,
+    "total_tokens": 8735
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.62,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:59:01Z"
+}

@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2021002328",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2021002328",
+  "app_num": "13412887",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "101",
+    "test_subsection": "",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2013004152",
+      "PILOT-2018007899",
+      "PILOT-2015004372"
+    ],
+    "retrieved_app_nums": [
+      "12564750",
+      "12789858",
+      "13627134"
+    ],
+    "retrieved_scores": [
+      0.8419,
+      0.8392,
+      0.832
+    ],
+    "retrieved_chars_total": 5546,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 31470,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "de3fa86874956fad",
+  "response_text": "Claim 11 (Currently amended): A method for training a molecular properties model, comprising: obtaining a pseudo-partial ordering of molecules, wherein the pseudo partial ordering includes at least a representation of a first and second molecule, ordered relative to one another and a property of interest; generating, __using a computer processor__, a representation of the molecules included in the pseudo partial ordering of molecules that is appropriate for a selected machine learning algorithm, wherein the pseudo partial ordering of molecules is provided to the selected machine learning algorithm, and wherein executing the selected machine learning algorithm __on the computer processor__, using the pseudo partial ordering, trains a molecular properties model configured to generate a prediction regarding additional molecules supplied to the model.\n\nClaim 12 (Previously presented): The method of claim 11, wherein the molecular properties model generates predictions related to a property of interest selected from at least one of a pharmacokinetic property, pharmacodynamic property, physiological or pharmacological activity, toxicity or selectivity; a chemical property including reactivity, binding affinity, pKa, or a property of a specific atom or bond in a molecule; or a physical property including melting point, solubility, a membrane permeability, and a force-field parameter.\n\nClaim 13 (Previously presented): The method of claim 11, wherein the selected machine learning algorithm comprises a classification learning algorithm.\n\nClaim 14 (Previously presented): The method of claim 11, wherein the selected machine learning algorithm comprises a kernel based learning algorithm.\n\nClaim 15 (Previously presented): The method of claim 11, wherein the selected machine learning algorithm comprises a variant of a Boosting algorithm, RankBoost algorithm, Alternating Decision Trees algorithm, Support Vector Machines algorithm, a Perceptron algorithm, Winnow, a Hedge Algorithm, decision trees, neural networks, genetic algorithms, genetic programming or any modifications thereof modified to process the pseudo partial ordering of ranked pairs.\n\nClaim 16 (Previously presented): The method of claim 11, wherein the selected machine learning algorithm is configured to minimize, either directly or indirectly, an area above, or below, a receiver operator characteristic curve.\n\nClaim 17 (Previously presented): The method of claim 11, wherein the selected machine learning algorithm is configured to minimize, either directly or indirectly, a function of the rank ordering of molecules in the pseudo partial ordering.\n\nClaim 18 (Previously presented): The method of claim 11, further comprising, determining an accuracy of the prediction for the additional molecule by carrying out laboratory experimentation using physically existing samples of the additional molecule, or by performing a research study using physical samples of the additional molecule.\n\nClaim 19 (Previously presented): The method of claim 11, wherein generating the representation of the molecules included in the pseudo partial ordering of molecules comprises: generating a vector representation of the molecules, wherein the vector representation is configured to encode the structure of the molecules included the pseudo-partial ordering; or comprises generating an n-point pharmacophore representation of the molecules included in the pseudo-partial ordering.\n\nClaim 20 (Previously presented): The method of claim 11, wherein a threshold value or cutoff molecule is selected for the molecular proprieties model and used to create a classification model.\n\nClaim 21 (Previously presented): The method of claim 11, wherein the at least one additional molecule comprises two or more additional molecules, and wherein the prediction comprises a ranked ordering of the two or more additional molecules, relative to one another and to the property of interest.\n\nClaim 22 (Previously presented): The method of claim 11, wherein at least two of the molecules in the training set are alternative representations of the same physical molecule and the property of interest is a property of the alternative representations.\n\nClaim 23 (Previously presented): The method of claim 11, wherein at least two of the molecules in the training set are encoded to represent different atoms, bonds or substituent groups of the same molecule and the property of interest is a property of the atoms, bonds or substituent groups.\n\nClaim 35 (Currently amended): A __non-transitory__ computer-storage medium containing a program which, when executed by a processor, performs a method for training a molecular properties model, comprising: receiving a pseudo-partial ordering of molecules, wherein the pseudo partial ordering includes at least a representation of a first and second molecule, ordered relative to one another and a property of interest; and generating a representation of the molecules included in the pseudo partial ordering of molecules that is appropriate for a selected machine learning algorithm, wherein the pseudo partial ordering of molecules is provided to the selected machine learning algorithm, and wherein executing the selected machine learning algorithm, using the pseudo partial ordering, trains a molecular properties model configured to generate a prediction regarding additional molecules supplied to the model.",
+  "usage": {
+    "input_tokens": 6953,
+    "output_tokens": 1018,
+    "total_tokens": 7971
+  },
+  "stop_reason": "stop",
+  "latency_sec": 13.63,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:30:16Z"
+}

@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2016005844",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2016005844",
+  "app_num": "14039251",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2017011221",
+      "PILOT-2017008426",
+      "PILOT-2022001830"
+    ],
+    "retrieved_app_nums": [
+      "14214694",
+      "14033082",
+      "14846595"
+    ],
+    "retrieved_scores": [
+      0.9208,
+      0.9119,
+      0.9113
+    ],
+    "retrieved_chars_total": 8414,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 23086,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "414dd9f6ce1ae6c1",
+  "response_text": "(Currently Amended) Claim 1: A system for identifying malicious threats on a network comprising: a computing device including a processor coupled to a system memory, the system memory storing instructions for execution on the processor, the instructions configured to cause the processor to: retrieve a network data associated with at least one of an IP address or a domain; analyze the network data and identify a malicious network threat; and perform a mitigating action to neutralize the malicious network threat, wherein the mitigating action is performed in response to a detected malicious network threat.\n\n(Currently Amended) Claim 5: The system of claim 1, wherein the instructions are further configured to cause the processor to push a notification including the mitigating action for the malicious network threat to a third party device, wherein the notification is generated only after the malicious network threat is confirmed.\n\n(Currently Amended) Claim 10: A method for identifying malicious threats on a network comprising: retrieving a network data associated with at least one of an IP address or a domain; analyzing the network data and identifying a malicious network threat; and performing a mitigating action to neutralize the malicious network threat, wherein the mitigating action is performed in response to a detected malicious network threat.\n\n(Currently Amended) Claim 14: The method of claim 10, further comprising pushing a notification including the mitigating action for the malicious network threat to a third party device, wherein the notification is generated only after the malicious network threat is confirmed.",
+  "usage": {
+    "input_tokens": 4970,
+    "output_tokens": 294,
+    "total_tokens": 5264
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.66,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:17:55Z"
+}

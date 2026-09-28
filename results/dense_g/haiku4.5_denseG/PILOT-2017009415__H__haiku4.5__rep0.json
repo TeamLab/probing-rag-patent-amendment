@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2017009415",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2017009415",
+  "app_num": "13468920",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "(b)",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2018002107",
+      "PILOT-2016008625",
+      "PILOT-2018008770"
+    ],
+    "retrieved_app_nums": [
+      "14593771",
+      "13778839",
+      "13600589"
+    ],
+    "retrieved_scores": [
+      0.9819,
+      0.9287,
+      0.9132
+    ],
+    "retrieved_chars_total": 4201,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 17314,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b089879e250e4f11",
+  "response_text": "1. (Currently amended) A catheter system for delivering ultrasonic energy to a treatment site within a body lumen, the catheter comprising: a tubular body having a proximal end, a distal end and an energy delivery section positioned between the proximal end and the distal end; a plurality of ultrasound radiating members positioned within the energy delivery section, the plurality of ultrasound radiating members being allocated into electrical groups comprising more than one ultrasound radiating member; wherein the ultrasound radiating members of one electrical group are spatially interdigitated with the ultrasound radiating members of another electrical group; __and wherein the ultrasound radiating members are configured to operate at a frequency of at least 20 kHz to promote thrombolysis__.\n\n2. (Currently amended) The catheter system of Claim 1, wherein the plurality of ultrasound radiating members are mounted on an inner core, wherein the inner core is configured for insertion into the tubular body; __and wherein the inner core comprises a piezoelectric material__.\n\n3. (Currently amended) The catheter system of Claim 1, further comprising at least one therapeutic compound delivery lumen that extends through the tubular body and terminates at least one outlet positioned in the energy delivery section; __wherein the at least one outlet is positioned to deliver thrombolytic agents__.\n\n4. (Currently amended) The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a regular pattern; __and wherein the regular pattern comprises alternating electrical groups along the length of the energy delivery section__.\n\n5. (Currently amended) The catheter system of Claim 1, wherein the ultrasound radiating members are interdigitated in a pseudo random pattern; __and wherein the pseudo random pattern is configured to enhance acoustic field uniformity__.\n\n6. (Currently amended) A system for treating a patient having pulmonary embolism, the system comprising: a first and a second ultrasound catheters, each of the first and the second ultrasound catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section having at least one ultrasound element, the tubular body also including at least one fluid delivery lumen; and a control system is connected to and configured to operate both the first and the second ultrasound catheters; __wherein the control system is configured to independently control ultrasound energy delivery from the first and the second ultrasound catheters__.\n\n7. (Currently amended) The system of Claim 6, wherein the control system operates both the first and the second ultrasound catheters simultaneously; __and wherein the control system synchronizes ultrasound energy delivery between the first and the second ultrasound catheters__.\n\n8. (Currently amended) The system of Claim 7, wherein the control system is configured to independently control the ultrasound radiating members on the first and the second ultrasound catheters; __and wherein independent control includes modulating frequency, amplitude, or pulse duration for each catheter__.\n\n9. (Currently amended) A method for treating a patient having pulmonary embolism, the method comprising: advancing an ultrasound catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section comprising at least one ultrasound element and at least one fluid delivery lumen; advancing the distal portion of the ultrasound catheter to a treatment site in the patient's pulmonary artery; inflating a balloon on the distal portion of the ultrasound catheter; delivering a thrombolytic drug to the treatment site through the at least one fluid delivery lumen; and emitting ultrasonic energy to thereby promote diffusion of the thrombolytic drug at the treatment site; __wherein the ultrasonic energy is emitted at a frequency of at least 20 kHz__.\n\n10. (Currently amended) The method of Claim 9, wherein delivering the thrombolytic drug and emitting ultrasonic energy are performed simultaneously; __and wherein the simultaneous delivery and emission enhances thrombus dissolution__.\n\n11. (Currently amended) An ultrasound catheter for treating a patient having pulmonary embolism, the catheter comprising a tubular body having a proximal portion and a distal portion, the distal portion comprising an ultrasound energy delivery section comprising at least one ultrasound element and at least one fluid delivery lumen, the tubular body defining a guidewire lumen extending through the proximal portion and the ultrasound energy delivery section; __wherein the ultrasound energy delivery section comprises interdigitated ultrasound radiating members allocated into multiple electrical groups__.\n\n12. (Currently amended) The ultrasound catheter of Claim 11, wherein the guidewire lumen extends through the at least one ultrasound element; __and wherein the guidewire lumen is sized to accommodate a standard 0.035-inch guidewire__.\n\n13. (Currently amended) The ultrasound catheter of Claim 11, further comprising at least one balloon positioned at the distal portion of the ultrasound catheter; __wherein the balloon is configured to occlude the pulmonary artery during treatment__.",
+  "usage": {
+    "input_tokens": 4454,
+    "output_tokens": 1157,
+    "total_tokens": 5611
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.31,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:07:13Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011012180",
+  "condition": "G",
+  "rep": 1,
+  "proceeding_number": "2011012180",
+  "app_num": "11873429",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16008,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "68259ed66d9d3563",
+  "response_text": "Claim 1 (Currently Amended): A method for synchronous triggering of events in multiple modules, each module receiving a serial bit stream over a respective communications link, each said communications link comprising a data out and a clock line, each said clock line derived from a single clock source, the method comprising the steps of: transmitting a send packet over said data out line to each module synchronous with said clock source wherein said send packet contains at least one bit position defined as a trigger bit and triggering an event in a respective one of said modules upon receipt of a respective one of said at least one trigger bit, wherein said triggering an event does not require simultaneous execution of waveform digitization and waveform synthesis.\n\nClaim 2 (Currently Amended): A method as recited in claim 1 wherein said triggering an event comprises waveform digitization.\n\nClaim 4 (Currently Amended): A method as recited in claim 1 said communications link further comprising a data in line and further comprising receiving a serial bit stream over said data in line comprising a receive packet from each said module, wherein a predefined bit in each said receive packet comprises an indication that a measurement is triggered.\n\nClaim 12 (Currently Amended): An apparatus as recited in claim 11 wherein one of said events comprises waveform digitization.\n\nClaim 16 (Currently Amended): An apparatus as recited in claim 11 wherein one of said events comprises waveform synthesis and does not require simultaneous execution of waveform digitization and waveform synthesis on separate channels of said module.",
+  "usage": {
+    "input_tokens": 3833,
+    "output_tokens": 304,
+    "total_tokens": 4137
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.02,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:45:00Z"
+}

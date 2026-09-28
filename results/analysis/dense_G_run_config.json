@@ -1,0 +1,49 @@
+{
+  "condition_code": "H",
+  "condition_label": "dense-G",
+  "description": "Controlled retrieval-mechanism swap of Probe G: same pool, same k, same exemplar fields/injection point/base prompt as F/G, selection by embedding-cosine similarity instead of the deterministic (statute, subsection, limitation-pattern-Jaccard) score.",
+  "status": "PREP COMPLETE — retrieval + prompts built locally. GENERATION NOT RUN (no API credentials in this environment; real spend requires explicit go-ahead).",
+  "retrieval": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "same_model_as": "C1 semantic reanalysis (stats_note_c1_embedding_reanalysis.md)",
+    "k": 3,
+    "pool_source": "data/parsed/retrieval_pool.json (pool_version v1, 4221 entries, pool ∩ cohort = ∅ by construction)",
+    "candidate_representation": "embed(rejection_paragraph_extract + \"\\n\\n\" + pre_text[attacked_claim])",
+    "query_representation": "same extraction applied to the test case's own attacked claim / rejection text",
+    "rejection_text_extraction": "paragraphs of ctnf.full_text containing both a claim-number mention and a rejection-verb keyword (rejected/unpatentable/anticipated/obvious*), capped at 1500 chars; falls back to first 1500 chars of full_text if no paragraph matches. Documented deviation: the frozen pool schema only stores extracted statute/subsection/pattern features, not rejection text itself, so this had to be reconstructed from beta_parsed ctnf.full_text.",
+    "similarity": "cosine (both query and candidate embeddings L2-normalized; dot product = cosine)",
+    "dedup_policy": "exclude self case_id (defensive; structurally guaranteed by pool/cohort disjointness); exclude duplicate app_num within a case's 3 picks (a gap identified in the existing F/G builders, which do not dedupe on app_num)",
+    "tie_break": "N/A for floats in practice; would fall back to lowest app_num if implemented, matching Probe G's convention",
+    "cohort_scope": "full 100-case cohort (cohort_batch0.json) — retrieval/prompt-build is local-compute-only (~8s total), so the 30-50 stratified-subset fallback for compute-tightness was not needed",
+    "deliberate_departure_from_pre_registration": "probe_decisions.md:658-660 explicitly rejected embedding-based retrieval for G, \"so the comparison against F is interpretable.\" Dense-G is intentionally a NEW, additional condition to test whether the retrieval MECHANISM itself matters — not a replacement for the frozen Probe G."
+  },
+  "generation": {
+    "models_planned": {
+      "sonnet4": {"vendor": "anthropic", "canonical_id": "claude-sonnet-4-20250514", "openrouter_slug": "anthropic/claude-sonnet-latest"},
+      "haiku4.5": {"vendor": "anthropic", "canonical_id": "claude-haiku-4-5-20251001", "openrouter_slug": "anthropic/claude-haiku-latest"},
+      "gpt5.4": {"vendor": "openai", "canonical_id": "gpt-5.4", "openrouter_slug": "openai/gpt-5.4"},
+      "gpt4o-mini": {"vendor": "openai", "canonical_id": "gpt-4o-mini", "openrouter_slug": "openai/gpt-mini-latest"}
+    },
+    "temperature": 0.3,
+    "max_tokens": 4096,
+    "reps": 3,
+    "condition_order_shuffle_seed": 42,
+    "seed_caveat": "No true LLM sampling seed is passed to any provider in this codebase's run_main.py — seed=42 only deterministically shuffles CONDITION ORDER per (case_id, rep) to remove temporal model-drift confound. Temperature=0.3 + 3 reps is the design's actual answer to stochasticity, not seeded determinism.",
+    "parse_failure_policy": "unchanged from main run: call_with_retry (run_main.py) retries on 429/5xx up to max_retries=4 with backoff, hard-fails immediately on 400/401/403/404; failures beyond max_retries logged to outputs/<model>/_failures.jsonl, resumable/skippable via --skip-failed. Response parsing (parse_response.py) is a separate offline step with no retry-on-parse-failure loop, same as F/G/baseline.",
+    "baseline_reuse": "baseline NOT regenerated — existing outputs/<model>/*__baseline__*.json reused as-is for all baseline-vs-dense-G comparisons.",
+    "invocation_once_authorized": "python3 scripts/run_main.py --cohort data/parsed/cohort_batch0.json --model <M> --openrouter --prompts-dir data/parsed/prompts_denseG --conditions H --reps 3 --out-dir outputs/<M>_denseG   (prompts_denseG currently contains ONLY condition H files + baseline is read from the existing prompts_main baseline; if run_main.py requires baseline present in the same --prompts-dir, copy data/parsed/prompts_main/*__baseline.json into prompts_denseG first, or run with --conditions H,baseline and --skip-failed since baseline already exists in outputs/<model>/)"
+  },
+  "cost_projection_usd": {
+    "method": "observed real cost_usd from existing Probe G outputs (same k=3, same injection format, so comparable prompt size) across all 4 models, 300 calls each (100 cases x 3 reps)",
+    "gpt5.4": 5.08,
+    "sonnet4": 10.56,
+    "haiku4.5": 2.75,
+    "gpt4o-mini": 0.33,
+    "total_full_100_case_cohort": 18.74,
+    "total_40_case_stratified_subset_40pct": 7.49
+  },
+  "scoring_plan_once_generated": {
+    "pipeline": "identical deterministic scorers already used for F/G: compute_c1.py (lexical), compute_c1_embedding.py (semantic, all-MiniLM-L6-v2), compute_c2.py, compute_c3.py, compute_c5.py",
+    "stats_script_ready": "scripts/wilcoxon_denseG.py — paired Wilcoxon signed-rank (baseline vs dense-G), per model, on C5/C1(lexical)/C1(semantic)/C2, Holm-Bonferroni within family, same per-case-mean-of-3-reps method as wilcoxon_c5_c2.py / wilcoxon_c1_embedding.py. NOT YET RUN — no dense-G generation data exists yet."
+  }
+}

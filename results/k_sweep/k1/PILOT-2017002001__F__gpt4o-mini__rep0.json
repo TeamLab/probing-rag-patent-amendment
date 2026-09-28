@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017002001",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017002001",
+  "app_num": "12068901",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16688,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cf75874ced1641c0",
+  "response_text": "(Currently amended) Claim 27 (Previously Presented): The gas tube arrangement according to claim 13, wherein each contact element is provided within the second portion, and includes a contact surface associated with each contact element.\n\n(Currently amended) Claim 30 (Previously Presented): A connector according to claim 29, wherein each contact element is provided within the second portion and includes a contact surface associated with each contact element.",
+  "usage": {
+    "input_tokens": 3882,
+    "output_tokens": 84,
+    "total_tokens": 3966
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.28,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:29:12Z"
+}

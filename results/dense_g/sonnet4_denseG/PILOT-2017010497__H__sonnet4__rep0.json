@@ -1,0 +1,67 @@
+{
+  "case_id": "PILOT-2017010497",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2017010497",
+  "app_num": "13556032",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "112",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "other",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [
+      "functional"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2015000033",
+      "PILOT-2016000035",
+      "PILOT-2017006541"
+    ],
+    "retrieved_app_nums": [
+      "11408492",
+      "12597840",
+      "10568520"
+    ],
+    "retrieved_scores": [
+      0.6424,
+      0.6418,
+      0.6374
+    ],
+    "retrieved_chars_total": 4046,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19117,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "43c3c8d5843d2fdc",
+  "response_text": "31. (Currently Amended) A system for treating obesity, the system comprising:\na gastric space filler comprising a first balloon connected to a second balloon by a conduit, wherein the gastric space filler is configured to occupy a substantial volume of a gastric cavity in the human patient in an inflated state; and\nan instrument throughput channel extending through the conduit, wherein the instrument throughput channel is configured to receive instruments __and wherein the instrument throughput channel is configured to allow passage of therapeutic agents through the conduit__.\n\n32. (Currently Amended) The system of claim 31 wherein the conduit comprises a first lumen in fluid communication with the first balloon, a second lumen in fluid communication with the second balloon, and a third lumen defining the instrument throughput channel, __wherein the third lumen is separate and distinct from the first and second lumens__.\n\n33. (Currently Amended) The system of claim 31 wherein the conduit has an axial length, and wherein the instrument throughput channel extends along the axial length __and is configured to maintain patency throughout the axial length for instrument passage__.\n\n34. (Currently Amended) The system of claim 31 wherein the gastric space filler further comprises a coupling mechanism configured to facilitate engagement with a retrieval device for removal of the gastric space filler from the gastric cavity via the esophagus, __wherein the coupling mechanism comprises a mechanical attachment feature that securely connects to the retrieval device__.\n\n35. (Currently Amended) The system of claim 31 wherein the first and second balloons are made from at least one of the following: silicone, latex, polyethylene, polyurethane, and nylon, __and wherein the balloons are configured to maintain structural integrity during repeated inflation and deflation cycles__.\n\n36. (Currently Amended) The system of claim 31 wherein the conduit comprises an inter-balloon section spacing the first balloon apart from the second balloon, and wherein the inter-balloon section has a length of about 10-40 mm __and is configured to maintain separation between the first and second balloons during inflation__.\n\n41. (Currently Amended) The system of claim 31, further comprising a delivery catheter configured to deliver the gastric space filler to the gastric cavity via an esophagus of the patient, wherein the delivery catheter is configured to receive the gastric space filler in a collapsed state __and wherein the delivery catheter includes a lumen that is separate from the instrument throughput channel__.\n\n42. (Currently Amended) A gastric space filler system, comprising:\na conduit having a first end and a second end opposite the first end, wherein the first end is operably coupled to a first balloon and the second end is operably coupled to a second balloon;\na first lumen through the conduit, wherein the lumen is configured for fluid infusion into the first balloon;\na second lumen through the conduit, wherein the second lumen is configured for fluid infusion into the second balloon; and\na third lumen extending through the conduit, wherein the third lumen is configured for instrument throughput __and is configured to allow passage of therapeutic agents independently of the first and second lumens__.\n\n43. (Currently Amended) The gastric space filler system of claim 42 wherein:\nthe first lumen extends from the first end of the conduit to the first balloon; and\nthe second lumen extends from the first end of the conduit to the second balloon __and wherein the first and second lumens are fluidly isolated from the third lumen__.\n\n44. (Currently Amended) The gastric space filler system of claim 42 wherein the third lumen extends from the first end of the conduit to a second end of the conduit __and maintains a continuous pathway for instrument passage__.\n\n45. (Currently Amended) The gastric space filler system of claim 42, further comprising a coupling mechanism at the first end of the conduit, wherein the coupling mechanism is configured for instrument throughput into the third lumen and configured to couple to a delivery catheter and/or a filling tube __and wherein the coupling mechanism provides sealed connections to prevent fluid leakage__.\n\n46. (Currently Amended) The gastric space filler system of claim 42 wherein the gastric space filler system is configured for delivery through an esophagus of a patient to a stomach of the patient __and is configured to expand within the stomach to a predetermined volume__.\n\n47. (Currently Amended) The gastric space filler system of claim 42 wherein the conduit is configured for attachment to a delivery catheter, and wherein the third lumen of the conduit is configured to receive an instrument passed through the delivery catheter __and wherein the third lumen maintains patency independent of balloon inflation status__.",
+  "usage": {
+    "input_tokens": 4854,
+    "output_tokens": 1046,
+    "total_tokens": 5900
+  },
+  "stop_reason": "stop",
+  "latency_sec": 14.7,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:41:49Z"
+}

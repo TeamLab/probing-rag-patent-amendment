@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2022000316",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2022000316",
+  "app_num": "12503494",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "new_or_add",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 35226,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "e59212c9d599eb20",
+  "response_text": "(Currently amended) Claim 13: A computer-readable medium having computer-executable instructions stored thereon for causing a computer to implement the steps of the method of claim 1.\n\n(Cancelled) Claim 23: [Claim is cancelled and replaced by Claim 13, which is now an independent claim.]\n\n(Cancelled) Claim 24: [Claim is cancelled.]\n\n(Cancelled) Claim 25: [Claim is cancelled.]",
+  "usage": {
+    "input_tokens": 7277,
+    "output_tokens": 89,
+    "total_tokens": 7366
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.25,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T14:14:44Z"
+}

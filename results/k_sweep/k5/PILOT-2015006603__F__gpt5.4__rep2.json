@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015006603",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2015006603",
+  "app_num": "13138239",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-5.4",
+  "model_alias": "gpt5.4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 25663,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d08c843b7bc26301",
+  "response_text": "1. (Currently amended) An apparatus, comprising: an encoder (300) for encoding mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence __and wherein the adapted mode mapping information is signaled using at least one high level syntax element__.\n\n5. (Currently amended) The apparatus of claim 1, wherein the adapted mode mapping information is signaled using at least one high level syntax element.\n\n7. (Currently amended) The apparatus of claim 1, wherein the adapted mode mapping information is updated after encoding one or more pictures of the sequence.\n\n8. (Currently amended) The apparatus of claim 1, wherein the actual parameters are determined from at least one of coding information for one or more previously coded pictures in the sequence, a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence, one or more partial encoding passes for the picture, statistics of one or more pictures in the sequence, statistics of one or more portions of the one or more pictures in the sequence, and statistics of the sequence.\n\n9. (Currently amended) A method, comprising: encoding (740, 970) mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures __using an encoder__, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence (740, 940, 960) __and wherein the adapted mode mapping information is signaled using at least one high level syntax element__.\n\n15. (Currently amended) The method of claim 9, wherein the adapted mode mapping information is updated after encoding one or more pictures of the sequence (550, 960).\n\n16. (Currently amended) The method of claim 9, wherein the picture is a currently coded picture, and the actual parameters are determined from at least one of coding information for one or more previously coded pictures in the sequence, a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence, one or more partial encoding passes for the picture, statistics of one or more pictures in the sequence, statistics of one or more portions of the one or more pictures in the sequence, and statistics of the sequence (940, 960).\n\n17. (Currently amended) An apparatus, comprising: a decoder (400) for decoding mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence __and wherein the adapted mode mapping information is determined from a resultant bitstream__.\n\n23. (Currently amended) The apparatus of claim 17, wherein the adapted mode mapping information is updated after decoding one or more pictures of the sequence.\n\n24. (Currently amended) The apparatus of claim 17, wherein the actual parameters are determined from at least one of coding information for one or more previously coded pictures in the sequence, a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence, statistics of one or more pictures in the sequence, statistics of one or more portions of the one or more pictures in the sequence, and statistics of the sequence.\n\n25. (Currently amended) A method, comprising: decoding (820, 1030) mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures __using a decoder__, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence __and wherein the adapted mode mapping information is determined from a resultant bitstream__.\n\n31. (Currently amended) The method of claim 25, wherein the adapted mode mapping information is updated after decoding one or more pictures of the sequence.\n\n32. (Currently amended) The method of claim 25, wherein the actual parameters are determined from at least one of coding information for one or more previously coded pictures in the sequence, a selected subset of a set of adapted mode mapping information relating to at least a portion of the sequence, statistics of one or more pictures in the sequence, statistics of one or more portions of the one or more pictures in the sequence, and statistics of the sequence.\n\n33. (Currently amended) A __non-transitory__ computer-readable storage media having video signal data encoded thereupon, comprising: mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence __and is signaled using at least one high level syntax element__.",
+  "usage": {
+    "input_tokens": 5956,
+    "output_tokens": 999,
+    "total_tokens": 6955
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.39,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:30:31Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002688",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020002688",
+  "app_num": "15103344",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "102+103",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20864,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "7743039f6f34ec65",
+  "response_text": "Claim 1 (Currently amended): An apparatus for profiling a beam of a light emitting semiconductor device, comprising: a light emitting semiconductor device comprising an active region formed on a substrate and configured to generate light when a suitable electrical current is applied to contacts on an upper surface of the device, and a light emitting surface defined by a lower surface of the substrate opposite the contacts; and a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the semiconductor device and a diffusion surface, opposite the first surface, and configured to diffuse light emitted from the semiconductor device and transmitted through the transmission medium, wherein the light emitting surface is configured to produce light in a range of wavelengths.\n\nClaim 3 (Currently amended): An apparatus according to claim 1 or 2, wherein the transmission medium has a refractive index that is compatible with that of the substrate of the light emitting semiconductor device, such that there is substantially no reflection at the interface between the transmission medium and the substrate of the light emitting semiconductor device.\n\nClaim 9 (Currently amended): An apparatus according to any preceding claim, further comprising a pair of probes configured to apply an electrical current to the contacts of the light emitting semiconductor device for causing the active layer to generate light, wherein the probes are configured to maintain a distance from the light emitting surface to prevent interference with the light profile.\n\nClaim 23 (Currently amended): An apparatus according to claim 22, comprising a plurality of light emitting semiconductor devices grown on a silicon wafer, wherein the first surface of the transmission medium is in contact with the light emitting surfaces of more than one of the plurality of light emitting semiconductor devices, wherein the semiconductor devices are arranged in a formation that maximizes light output.\n\nClaim 25 (Currently amended): A method for profiling a beam of a light emitting semiconductor device, the method comprising: applying an electrical current to contacts on an upper surface of a light emitting semiconductor device, the light emitting semiconductor device comprising an active region formed on a substrate and a light emitting surface defined by a lower surface of the substrate opposite the contacts; transmitting light emitted from the light emitting semiconductor device through a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the light emitting semiconductor device and a diffusion surface, opposite the first surface, and configured to diffuse light emitted from the light emitting semiconductor device and transmitted through the transmission medium; and determining intensity power of light that would be emitted into air from the light emitting semiconductor device at one or more angles with respect to a normal, wherein the one or more angles include at least one angle that exceeds a typical depth of field of imaging equipment.\n\nClaim 26 (Currently amended): A method for profiling a beam of a light emitting semiconductor device, the method comprising: processing, by a beam profiler, an image to determine intensity power of light that would be emitted into air from the light emitting semiconductor device at one or more angles with respect to a normal, the image comprising light emitted from a light emitting semiconductor device comprising an active region formed on a substrate and configured to generate light when a suitable electrical current is applied to contacts on an upper surface of the device, and a light emitting surface defined by a surface of the substrate opposite the contacts, the light further being transmitted through a transmission medium comprising a first surface in contact with at least part of the light emitting surface of the light emitting semiconductor device and a diffusion surface, opposite the first surface, and configured to diffuse light emitted from the light emitting semiconductor device and transmitted through the transmission medium, wherein the processing includes calibration against a reference image for improved accuracy.\n\nClaim 28 (Currently amended): A non-transitory computer readable medium comprising computer readable code configured, when read by a computer, to carry out the method according to claim 26 or 27, wherein the computer readable code is designed to facilitate real-time analysis of light profiles emitted from the light emitting semiconductor device. \n\nClaim 29 (Currently amended): A computer program comprising computer readable code configured, when read by a computer, to carry out the method according to claim 26 or 27, wherein the program integrates with existing imaging systems to automate the profiling process.",
+  "usage": {
+    "input_tokens": 4631,
+    "output_tokens": 836,
+    "total_tokens": 5467
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.65,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:40:43Z"
+}

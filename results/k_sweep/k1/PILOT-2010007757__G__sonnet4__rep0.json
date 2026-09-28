@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2010007757",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2010007757",
+  "app_num": "11272332",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "102+103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "other",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-sonnet-4",
+  "model_alias": "sonnet4",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 14871,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ed33485668b24dc9",
+  "response_text": "1. (Currently Amended) A composition, comprising: cavity-generating particles; a thermally conductive binder __that is not a glue__; and a solvent.\n\n2. (Previously presented) The composition of claim 1, wherein the composition is applied to an electronic component surface.\n\n3. (Previously presented) The composition of claim 2, wherein the solvent is removed during application to the electronic component surface.\n\n9. (Currently Amended) A composition comprising cavity generating particles, a binder __that is not a glue__, and a carrier wherein the particle to binder ratio being about 1 gram to 0.5-0.8 grams and the carrier being about 10 ml per gram of particles.\n\n10. (Previously presented) The composition of claim 9, wherein the carrier is selected from the group comprising ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, FC-72, or FC-87.\n\n11. (Previously presented) The composition of claim 9, wherein the binder is premixed solder paste.\n\n12. (Previously presented) The composition of claim 9, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys.\n\n13. (Previously presented) The composition of claim 9, wherein the cavity generating particles are 8-12 pm in size.\n\n14. (Previously presented) The composition of claim 9, wherein the cavity generating particles are 30-50 pm in size.\n\n15. (Previously presented) The composition of claim 9, wherein the cavity generating particles are 100-200 p m in size.\n\n16. (Currently Amended) A composition of matter comprising carrier, binder __that is not a glue__, and cavity generating particles, wherein said composition of matter contains, in relative proportion: about 10 ml carrier; about 0.5 to 0.8 grams binder; and about 1 gram of cavity generating particles.\n\n17. (Previously presented) The composition of claim 16, wherein the carrier is selected from the group comprising ethyl alcohol, isopropyl alcohol, acetone, methylethyl ketone, FC-72, or FC-87.\n\n18. (Previously presented) The composition of claim 16, wherein the binder is premixed solder paste.\n\n19. (Previously presented) The composition of claim 16, wherein the cavity generating particles are selected from the group comprising nickel, copper, aluminum, silver, iron, brass and alloys.\n\n20. (Previously presented) The composition of claim 16, wherein the cavity generating particles are 8-12 pm in size.\n\n21. (Previously presented) The composition of claim 16, wherein the cavity generating particles are 30-50 p m in size.\n\n22. (Previously presented) The composition of claim 16, wherein the cavity generating particles are 100-200 m in size.",
+  "usage": {
+    "input_tokens": 4215,
+    "output_tokens": 649,
+    "total_tokens": 4864
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.79,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T11:59:39Z"
+}

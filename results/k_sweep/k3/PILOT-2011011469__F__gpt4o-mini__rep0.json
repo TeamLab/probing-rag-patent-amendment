@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2011011469",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2011011469",
+  "app_num": "11872555",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "3700",
+    "year": "2010-14",
+    "pattern": "cancel_heavy",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 15482,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "17ac3848c482b786",
+  "response_text": "1. (Currently Amended): A method of treating a brain, comprising: inserting an elongated device into the brain [[strikethrough]] to create a path[[/strikethrough]] __between tissue layers within the brain__; radially expanding the device to create a working channel along the path; and introducing a medical element into the working channel to perform a medical procedure on the brain.\n\n4. (Currently Amended): The method of claim 1, further comprising creating an opening in a cranium, and inserting the elongated device through the opening __into the brain__.\n\n5. (Currently Amended): The method of claim 1, further comprising inserting the elongated device __in a manner that allows it to displace tissue layers__ within the brain. \n\n7. (Currently Amended): A method of treating a tissue, comprising: placing an elongated device into the tissue __between tissue layers__ to create a path; radially expanding the device against the tissue to radially displace the tissue along the path; radially reinforcing the device against the tissue; and introducing a medical element through the device to perform a medical procedure on the tissue.\n\n10. (Currently Amended): The method of claim 7, further comprising inserting the elongated device __specifically designed for tissue displacement__ between tissue layers.\n\n",
+  "usage": {
+    "input_tokens": 3760,
+    "output_tokens": 267,
+    "total_tokens": 4027
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.98,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:59:52Z"
+}

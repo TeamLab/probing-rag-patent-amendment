@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2013000789",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2013000789",
+  "app_num": "11525629",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "other",
+    "tech": "3700",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16239,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "6f7d8cc6e0878c6b",
+  "response_text": "(Currently Amended) A humeral implant comprising a first __humeral surface component__ removably attached to a second component.\n\n(Currently Amended) The humeral implant of claim 1 wherein said first component is a humeral surface and said second component is a __removably attached stem__.\n\n(Currently Amended) The implant of claim 2 wherein said humeral surface has a coronal radius of curvature and an axial radius of curvature, and wherein the humeral surface __is defined to have__ a smooth articulating surface.\n\n(Currently Amended) The implant of claim 3 wherein said coronal radius of curvature has a range of 10 to 50 mm.\n\n(Currently Amended) The implant of claim 3 wherein said axial radius of curvature has a range of from 10 to 50 mm.\n\n(Currently Amended) The implant of claim 3 wherein said humeral surface has a depth with a range of from 5 to 40 mm.\n\n(Currently Amended) The implant of claim 3 wherein said humeral surface has a thickness with a range of from 0.1 to 10 mm.\n\n(Currently Amended) The implant of claim 3 wherein a ratio of a depth of said humeral surface to said coronal radius of curvature is from about 0.7 to about 0.9.\n\n(Currently Amended) The implant of claim 3 wherein said humeral surface is spherically or elliptically shaped and has a smooth articulating surface.\n\n(Currently Amended) The implant of claim 3 wherein said humeral surface is made of a material selected from the group consisting of cobalt chrome alloy, ceramic, metal, and magnet materials.\n\n(Currently Amended) The implant of claim 3 wherein said humeral surface further comprises fins or spikes on a concave undersurface of said __humeral surface component__.\n\n(Currently Amended) The implant of claim 3 further comprising a concave undersurface for bony ingrowth material.\n\n(Currently Amended) The implant of claim 3 wherein said humeral surface has a smooth articulating surface.\n\n(Currently Amended) The implant of claim 3 wherein said attachable stem has a diameter with a range of from 0.1 to 5.0 cm.\n\n(Currently Amended) The implant of claim 14 wherein said attachable stem is made of a material selected from the group consisting of titanium, stainless steel, tantalum, porous metal and trabecular metal.\n\n(Currently Amended) The implant of claim 15 wherein said removably attached stem further comprises a smooth, textured or threaded surface.\n\n(Currently Amended) The implant of claim 16 wherein said removably attached stem is round, square, or triangular.\n\n(Currently Amended) The implant of claim 17 wherein said removably attached stem further comprises fins.\n\n(Currently Amended) The implant of claim 17 wherein said removably attached stem further comprises a bony ingrowth surface.\n\n(Currently Amended) The implant of claim 2 wherein said __removably attached stem__ has a variable length wherein said stem extends from a lateral cortex of said humerus to a center of a head of said humerus, __wherein the length is adjustable in a range based on the connection with the humeral surface component__.\n\n(Currently Amended) The implant of claim 2 wherein said humeral surface connects to said removably attached stem.\n\n(Currently Amended) The implant of claim 21 wherein said humeral surface connects to said removably attached stem by a technique selected from the group consisting of __morse taper, screw, or other fastening mechanism__.",
+  "usage": {
+    "input_tokens": 4024,
+    "output_tokens": 747,
+    "total_tokens": 4771
+  },
+  "stop_reason": "stop",
+  "latency_sec": 11.92,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:43:55Z"
+}

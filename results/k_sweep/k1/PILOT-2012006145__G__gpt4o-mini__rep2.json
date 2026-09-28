@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2012006145",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2012006145",
+  "app_num": "10979681",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2010-14",
+    "pattern": "new_or_add",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 16535,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "288887d8132f464a",
+  "response_text": "Claim 1 (Currently Amended): A method of cementing comprising: providing a cement composition comprising a __modified__ carboxylated inulin; and allowing the cement composition to set.\n\nClaim 11 (Currently Amended): The method of claim 1 wherein the cement composition is placed in a subterranean formation __in the presence of a specific retarder agent__.\n\nClaim 12 (Currently Amended): The method of claim 1 wherein the cement composition is placed in a wellbore __with a defined composition of additives__. \n\nClaim 13 (Currently Amended): A method of cementing in a subterranean formation comprising: providing a cement composition comprising a __modified__ carboxylated inulin; placing the cement composition in the subterranean formation; and allowing the cement composition to set therein.",
+  "usage": {
+    "input_tokens": 4107,
+    "output_tokens": 165,
+    "total_tokens": 4272
+  },
+  "stop_reason": "stop",
+  "latency_sec": 3.09,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:38:55Z"
+}

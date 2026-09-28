@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020003998",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020003998",
+  "app_num": "14311140",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "103+112",
+    "tech": "3700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 69673,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "b45d6a00fd79a3a0",
+  "response_text": "(Currently Amended) Claim 281: A tool comprising: a lamination of at least two layers, a first adhesive layer, a second adhesive layer, and a medial section; wherein the first adhesive layer and the second adhesive layer are configured to be cured on opposite sides of the medial section, wherein the first layer and the second layer are aligned with the first adhesive layer and the second adhesive layer, and wherein the first adhesive layer and the second adhesive layer are located in registration with the medial section.\n\n(Original) Claim 282: The tool of claim 281, further including a first layer spaced from the first and second adhesive layers.\n\n(Original) Claim 283: The tool of claim 282, wherein the first and second adhesive layers are disposed in a parallel alignment with each other.\n\n(Original) Claim 284: The tool of claim 283, wherein the medial section is a composite material.\n\n(Original) Claim 285: The tool of claim 281, further including a weld ring interposed around a perimeter of the first and second layers.\n\n(Original) Claim 286: The tool of claim 285, wherein the plurality of cutting segments are bonded to the outer perimeter of the weld ring.\n\n(Original) Claim 287: The tool of claim 286, wherein the weld ring is continuous and adjacent the medial section.\n\n(Original) Claim 288: The tool of claim 281, wherein the tool is circular in shape. \n\n(Currently Amended) Claim 290: The tool of claim 285, further including an inner ring to which the medial section is coupled.\n\n(Currently Amended) Claim 291: The tool of claim 290, wherein the inner ring includes a central opening. ",
+  "usage": {
+    "input_tokens": 15092,
+    "output_tokens": 349,
+    "total_tokens": 15441
+  },
+  "stop_reason": "stop",
+  "latency_sec": 6.42,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:53:45Z"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020001769",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020001769",
+  "app_num": "15297569",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 22790,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "42dcd960eb8aae9a",
+  "response_text": "8. (Currently amended) A composition comprising a lubricant comprising at least one selected from the group consisting of polyol ester and polyvinyl ether and a refrigerant comprising: from 1 to 99% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf); and from 1 to 99% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze), wherein said composition __is formulated such that it__ exhibits a Hazen color of about 200 or less as measured by ASHRAE test 97-2007 after a sealed glass tube comprising the composition is welded closed and placed in an oven at 200°C for 14 days.\n\n9. (Currently amended) The composition according to Claim 8, wherein the lubricant comprises __a polyol ester selected from polyol esters__ obtained from polyols having a neopentyl backbone.\n\n10. (Currently amended) The composition according to Claim 8, wherein the lubricant comprises __a polyol ester selected from polyol esters__ obtained from a polyol selected from the group consisting of neopentyl glycol, trimethylolpropane, pentaerythritol and dipentaerythritol.\n\n11. (Currently amended) The composition according to Claim 8, wherein the lubricant comprises __a polyol ester selected from polyol esters__ obtained from a linear or branched carboxylic acid containing from 2 to 15 carbon atoms.\n\n12. (Currently amended) The composition according to Claim 8, wherein the lubricant comprises __a polyol ester selected from polyol esters__ obtained from at least one linear or branched carboxylic acid selected from the group consisting of n-pentanoic acid, n-hexanoic acid, n-heptanoic acid, n-octanoic acid, 2-ethylhexanoic acid, 2,2-dimethylpentanoic acid, 3,5,5-trimethylhexanoic acid, adipic acid and succinic acid.\n\n13. (Currently amended) The composition according to Claim 8, wherein the lubricant comprises __a polyol ester selected from polyol esters__ obtained from a linear or branched carboxylic acid containing from 5 to 9 carbon atoms.\n\n14. (Currently amended) The composition according to Claim 8, wherein the composition comprises from 10 to 50% by weight of the at least one __lubricant__.\n\n15. (Currently amended) The composition according to Claim 8, wherein the lubricant comprises __at least one polyvinyl ether (PVE), wherein the at least one PVE is a copolymer of the following two units: Unit 1: Unit 2:__ and wherein __the copolymer exhibits improved thermal stability in the presence of the refrigerant__.\n\n16. (Cancelled)\n\n17. (Currently amended) The composition according to Claim 8, wherein the refrigerant comprises from 5 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 95% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze)__; and wherein the lubricant comprises a polyol ester obtained from pentaerythritol and/or dipentaerythritol with at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid__.\n\n18. (Currently amended) The composition according to Claim 8, wherein the refrigerant comprises from 15 to 45% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 55 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze)__; and wherein the lubricant comprises a polyol ester obtained from pentaerythritol and/or dipentaerythritol with at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid__.\n\n19. (Currently amended) The composition according to Claim 8, wherein the refrigerant comprises from 15 to 35% by weight of 2,3,3,3-tetrafluoropropene (HFO-1234yf) and from 65 to 85% by weight of trans-1,3,3,3-tetrafluoropropene (trans-HFO-1234ze)__; and wherein the lubricant comprises a polyol ester obtained from pentaerythritol and/or dipentaerythritol with at least one carboxylic acid selected from the group consisting of 2-ethylhexanoic acid and 3,5,5-trimethylhexanoic acid__.\n\n20. (Cancelled)\n\n21. (Cancelled)\n\n22. (Cancelled)\n\n23. (Cancelled)\n\n24. (Cancelled)\n\n25. (Currently amended) The composition according to Claim 8, wherein the refrigerant further comprises 1,1,1,2-tetrafluoroethane __in an amount of 1 to 50% by weight__.\n\n26. (Cancelled)\n\n27. (Cancelled)\n\n28. (Cancelled)",
+  "usage": {
+    "input_tokens": 6500,
+    "output_tokens": 1316,
+    "total_tokens": 7816
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.99,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:46:46Z"
+}

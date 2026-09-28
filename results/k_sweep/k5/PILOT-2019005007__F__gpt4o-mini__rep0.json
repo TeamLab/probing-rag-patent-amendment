@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019005007",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2019005007",
+  "app_num": "12625143",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22707,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "edfdfca7d2639974",
+  "response_text": "(Currently Amended) Claim 1: A battery assembly comprising: an enclosure; a first battery cell positioned within the enclosure; and a first sensor positioned within the enclosure for detecting at least one force influencing the first battery cell, wherein the first sensor includes a force sensing material having a conductance that is configured to vary based on at least one force influencing the first battery cell.\n\n(Currently Amended) Claim 11: The battery assembly of claim 1 further comprising a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell, the second battery cell including a material that compensates for dimensional changes in the first battery cell when exerting force.\n\n(Currently Amended) Claim 17: The battery assembly of claim 1 further comprising: a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell; a third battery cell stacked on top of the second battery cell; and a second sensor positioned between the third battery cell and the second battery cell for detecting at least one force influencing the third battery cell, whereby the second sensor includes a force sensing material configured to detect variation in conductance based on the force. \n\n(Cancelled) Claim 25: The battery assembly of claim 1, wherein the first sensor comprises a contact sensor.\n\n(Cancelled) Claim 26: The battery assembly of claim 1, wherein the first sensor comprises a pressure sensitive ink.\n\n(Cancelled) Claim 27: The battery assembly of claim 1, wherein the first sensor comprises at least one of a polymer membrane binary switch and a discrete dome switch.",
+  "usage": {
+    "input_tokens": 4937,
+    "output_tokens": 346,
+    "total_tokens": 5283
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.17,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:30:12Z"
+}

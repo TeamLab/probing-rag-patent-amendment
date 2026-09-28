@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002555",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020002555",
+  "app_num": "15234552",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 15477,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "d438175677526229",
+  "response_text": "Claim 1 (Currently Amended): A method comprising: receiving a plurality of precoders from a codebook in a transmitter having an antenna array; transforming each precoder of the plurality of precoders to a transformed precoder such that the transmit power for each transformed precoder is __substantially equal to__ the transmit power for each of other transformed precoders of the plurality of precoders, where the transmit power is expressed as a quadratic form with respect to the corresponding precoder, where the quadratic form is based on a transmission line impedance of a transmission line between a signal source and the antenna array; receiving a signal from the signal source; applying a transformed precoder of the plurality of transformed precoders to the signal to generate a precoded signal for transmission over a physical channel; and transmitting the precoded signal.\n\nClaim 2 (Currently Amended): The method according to claim 1, wherein the quadratic form is also based on an impedance matrix of the antenna array, wherein the impedance matrix is defined __to reflect variations in signal output across multiple channels__.\n\nClaim 3 (Currently Amended): The method according to claim 1, wherein the quadratic form is also based on a matching network between the signal source and the antenna array, __to optimize the signal transmission efficiency__.\n\nClaim 4 (Currently Amended): The method according to claim 1, wherein the quadratic form is also based on an impedance of the antenna array, a signal source impedance, and length of the transmission line, __to enhance power distribution across the system__.\n\nClaim 5 (Currently Amended): The method according to claim 1, wherein each precoder is transformed by scaling each precoder by an inverse square root of a transmit power that results from the corresponding precoder before scaling is applied, __wherein this scaling mitigates discrepancies in signal power levels__.\n\nClaim 8 (Currently Amended): The method according to claim 1, wherein each precoder is transformed by multiplying each precoder by a transformation matrix such that the resulting set of precoders each map to antenna patterns having the same power, __wherein the transformation matrix is designed to maximize coherence among multiple signals__.\n\nClaim 10 (Currently Amended): The method according to claim 1, wherein the transformation equalizes the transmit power for all of the plurality of precoders, __with the aim of achieving uniform signal strength across the antenna array__.\n\nClaim 12 (Currently Amended): The method according to claim 1, wherein both data symbol precoders and reference symbol precoders are transformed by the same transformation, __ensuring consistent power distribution across symbol types__.",
+  "usage": {
+    "input_tokens": 3401,
+    "output_tokens": 532,
+    "total_tokens": 3933
+  },
+  "stop_reason": "stop",
+  "latency_sec": 12.48,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:42:03Z"
+}

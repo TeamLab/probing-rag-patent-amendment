@@ -1,0 +1,65 @@
+{
+  "case_id": "PILOT-2019003829",
+  "condition": "H",
+  "rep": 0,
+  "proceeding_number": "2019003829",
+  "app_num": "13239779",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "b",
+    "test_patterns": [],
+    "retrieved_case_ids": [
+      "PILOT-2017000623",
+      "PILOT-2020002858",
+      "PILOT-2015000381"
+    ],
+    "retrieved_app_nums": [
+      "12823319",
+      "11885716",
+      "12377508"
+    ],
+    "retrieved_scores": [
+      0.9232,
+      0.91,
+      0.8989
+    ],
+    "retrieved_chars_total": 2700,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 15349,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "742cc2bcc23a6322",
+  "response_text": "1. (Currently amended) An assembly comprising a test tube with an affixed MTP, wherein the MTP is embedded in the test tube and is readable through the test tube material without removal of the MTP from the test tube.\n\n2. (Previously presented)\n\n3. (Currently amended) The assembly of claim 1, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards.\n\n4. (Currently amended) The assembly of claim 1, wherein the test tube is a biorepository test tube configured for long-term storage of biological samples at temperatures below -20°C.\n\n5. (Currently amended) The assembly of claim 1, wherein the MTP is embedded in polypropylene or acetal polymer, and wherein the embedding is performed by heating the MTP to above the melting point of the plastic and melting a portion of the plastic with the heated MTP.\n\n6. (Currently amended) The assembly of claim 1, wherein the MTP is embedded near the center bottom of the test tube, and wherein the MTP is sealed within the plastic material such that the MTP does not contact biological samples stored within the test tube.\n\n13. (Currently amended) A system for storing samples and comprising the assembly of claim 1, and one or more of the following: a rack specifically designed for biorepository test tubes; an automated robot for moving racks or biorepository test tubes within a controlled temperature environment; and an automated sampling device adapted to sample said racks or biorepository test tubes while maintaining sample integrity and preventing contamination.\n\n14. (Currently amended) The system of claim 13, wherein the system is adapted for low temperature operation such that the racks and test tubes are handled and stored at -20°C or less, and wherein the automated robot and sampling device are configured to operate at such low temperatures.\n\n19. (Currently amended) The assembly of claim 4, wherein the MTP is embedded in polypropylene or acetal polymer, and wherein the embedding is performed by heating the MTP to above the melting point of the plastic and melting a portion of the plastic with the heated MTP.\n\n20. (Currently amended) The assembly of claim 19, wherein the MTP is embedded near the center bottom of the test tube, and wherein the MTP is sealed within the plastic material such that the MTP does not contact biological samples stored within the test tube.\n\n21. (Currently amended) The assembly of claim 19, wherein the MTP is embedded underneath the bottom of the test tube, oriented for reading downwards.\n\n22. (Cancelled)\n\n23. (Cancelled)",
+  "usage": {
+    "input_tokens": 4277,
+    "output_tokens": 568,
+    "total_tokens": 4845
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.75,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:41:44Z"
+}

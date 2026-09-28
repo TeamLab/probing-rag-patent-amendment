@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2019005776",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2019005776",
+  "app_num": "14754496",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20932,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "98ac56a440f392eb",
+  "response_text": "(Currently Amended) Claim 1: A computing system for authoring a document, comprising: a user input subsystem including at least one processing unit configured to (1) receive first user input identifying content to be included in the document, the identified content being in a first form, and (2) receive second user input specifying a transformation operation to be performed on the identified content in order to transform the identified content from the first form into a second form; and a materialization subsystem including at least one processing unit configured to apply the specified transformation operation to transform the identified content from the first form into the second form for display.  \n\n(Currently Amended) Claim 9: The computing system of claim 1, wherein the user input subsystem further comprises at least one processing unit configured to receive third user input specifying at least one edit to the identified content in the second form, the computer system further comprising: a revision subsystem including at least one processing unit configured to edit the identified content in the second form for display in accordance with the at least one edit specified by the third user input received by the user input subsystem.  \n\n(Currently Amended) Claim 10: The computing system of claim 9, further comprising: a storage subsystem including at least one processing unit causing the identified content as edited by the revision subsystem to be stored in the first form.  ",
+  "usage": {
+    "input_tokens": 4334,
+    "output_tokens": 273,
+    "total_tokens": 4607
+  },
+  "stop_reason": "stop",
+  "latency_sec": 7.29,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:08:33Z"
+}

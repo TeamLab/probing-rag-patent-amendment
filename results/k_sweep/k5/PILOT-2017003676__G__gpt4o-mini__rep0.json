@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017003676",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2017003676",
+  "app_num": "14473114",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "103",
+    "tech": "other",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 17804,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "333ece6901950e7e",
+  "response_text": "1 (Currently Amended): A method of analyzing one or more plant embryos comprising: (a) collecting shed cellular material from one or more embryos by agitating the one or more embryos in a non-destructive medium; (b) obtaining DNA from the shed cellular material; (c) performing a molecular analysis of the DNA obtained in step (b), wherein said molecular analysis comprises genotyping; and (d) germinating at least one of said one or more embryos.\n\n2 (Currently Amended): The method of claim 1 wherein the non-destructive medium consists essentially of water, whereby the method is applied without causing harmful effects to the viability of the embryos.\n\n3 (Currently Amended): The method of claim 1 wherein the DNA is obtained by exposing the shed cellular material to a temperature range of cold followed by heat, and further including agitation during the process.\n\n4 (Cancelled)\n\n5 (Currently Amended): The method of claim 1 wherein the DNA is obtained by heating the shed cellular material at a controlled temperature and including agitation during the extraction process.\n\n6 (Cancelled)\n\n7 (Currently Amended): The method of claim 1 wherein DNA is obtained by incubating the shed cellular material with a cell wall degrading enzyme.\n\n8 (Cancelled)\n\n9 (Currently Amended): The method of claim 1 wherein obtaining DNA from the shed cellular material comprises extracting the DNA using magnetic particle technology.\n\n10 (Cancelled)\n\n11 (Currently Amended): The method of claim 1 wherein the one or more embryos comprise one or more immature embryos that are capable of developing into viable plants.\n\n12 (Currently Amended): The method of claim 1 further comprising storing the one or more embryos prior to step (c) or (d) in a quiescent condition.\n\n13 (Cancelled)\n\n14 (Currently Amended): The method of claim 1, wherein said molecular analysis is performed by genotyping through techniques selected from the group consisting of single nucleotide polymorphism detection, restriction fragment length polymorphism identification, random amplified polymorphic detection, amplified fragment length polymorphism detection, DNA sequencing, whole genome sequencing, allele specific oligonucleotide probes, or DNA hybridization to DNA microarrays or beads.\n\n15 (Cancelled)\n\n16 (Currently Amended): The method of claim 1 wherein prior to said molecular analysis, whole genome amplification is performed on the obtained DNA.\n\n17 (Currently Amended): The method of claim 1 further comprising selecting one or more embryos based on genetic information obtained through molecular analysis.\n\n18 (Currently Amended): The method of claim 17 further comprising germinating the one or more selected embryos.\n\n19 (Currently Amended): The method of claim 1 wherein any steps resulting in selection of one or more embryos are performed using automated processes.",
+  "usage": {
+    "input_tokens": 4278,
+    "output_tokens": 553,
+    "total_tokens": 4831
+  },
+  "stop_reason": "stop",
+  "latency_sec": 9.11,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:15:25Z"
+}

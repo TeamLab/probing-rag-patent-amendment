@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015006603",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2015006603",
+  "app_num": "13138239",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 21998,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "09ba1b28ffef706d",
+  "response_text": "(Currently Amended) Claim 1: An apparatus, comprising: an encoder (300) for encoding mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence __of pictures__.\n\n(Currently Amended) Claim 17: An apparatus, comprising: a decoder (400) for decoding mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence __of pictures__.\n\n(Currently Amended) Claim 33: A __non-transitory__ computer-readable storage media having video signal data encoded thereupon, comprising: mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence __of pictures__.",
+  "usage": {
+    "input_tokens": 5128,
+    "output_tokens": 226,
+    "total_tokens": 5354
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.59,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:17:57Z"
+}

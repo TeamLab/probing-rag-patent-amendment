@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017000093",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2017000093",
+  "app_num": "13729015",
+  "axes": {
+    "outcome": "AIP",
+    "statute": "102+103",
+    "tech": "2100",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 27233,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "762bc63c97c5a661",
+  "response_text": "(Currently amended) Claim 26: A non-transitory machine readable medium storing a program which when executed by at least one processing unit analyzes a document, the program comprising sets of instructions for: receiving a document that comprises a plurality of primitive graphic elements defined separately within the document, the document having a drawing order that indicates the order in which the primitive graphic elements are drawn when the document is displayed; calculating a first value for a first primitive graphic element and a second primitive graphic element that is subsequent to the first in the drawing order, wherein the first value is not solely based on a size; and based on the comparison of the first value to other values calculated for additional primitive graphic elements that are subsequent in the drawing order, defining a single structural graphic element within the document from the first and second primitive graphic elements.\n\n(Currently amended) Claim 27: The non-transitory machine readable medium of claim 26, wherein the first value is a size value that is calculated only for specific graphic elements.\n\n(Currently amended) Claim 28: The non-transitory machine readable medium of claim 26, wherein the first value represents a size of a bounding box that encompasses the first and second primitive graphic elements, where the bounding box is not limited to a smallest form.\n\n(Currently amended) Claim 31: The non-transitory machine readable medium of claim 26, wherein the set of instructions for calculating comprises a set of instructions for calculating a different value for each pair of primitive graphic elements subsequent in the drawing order, wherein the set of instructions for defining the single structural graphic element comprises a set of instructions for: using the calculated values for pairs of primitive graphic elements to identify clusters of primitive graphic elements as candidates for joining as compound graphic elements; and identifying sequences of primitive graphic elements within a cluster whose bounding boxes intersect; and joining the sequences as single graphic elements when conditions allow.\n\n(Currently amended) Claim 41: The method of claim 37, wherein the calculating comprises calculating a different value for each pair of primitive graphic elements subsequent in the drawing order, wherein defining the single structural graphic element comprises: using the calculated values for pairs of primitive graphic elements to identify clusters of primitive graphic elements as candidates for joining as compound graphic elements based on specific comparisons; and identifying sequences of primitive graphic elements within a cluster whose bounding boxes intersect; and joining the sequences as single graphic elements when appropriate.",
+  "usage": {
+    "input_tokens": 5677,
+    "output_tokens": 477,
+    "total_tokens": 6154
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.15,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:19:35Z"
+}

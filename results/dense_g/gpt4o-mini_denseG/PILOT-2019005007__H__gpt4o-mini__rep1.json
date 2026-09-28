@@ -1,0 +1,68 @@
+{
+  "case_id": "PILOT-2019005007",
+  "condition": "H",
+  "rep": 1,
+  "proceeding_number": "2019005007",
+  "app_num": "12625143",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "1700",
+    "year": "2020-25",
+    "pattern": "mixed",
+    "format": "dtd_legacy"
+  },
+  "probe_meta": {
+    "mode": "dense_retrieval",
+    "label": "dense-G (controlled retrieval-mechanism swap of Probe G)",
+    "k": 3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "query_text_fields": [
+      "rejection_paragraph_extract",
+      "pre_text(attacked_claim)"
+    ],
+    "test_statute": "102",
+    "test_subsection": "e",
+    "test_patterns": [
+      "functional",
+      "range"
+    ],
+    "retrieved_case_ids": [
+      "PILOT-2014006353",
+      "PILOT-2011009677",
+      "PILOT-2011006973"
+    ],
+    "retrieved_app_nums": [
+      "12791534",
+      "12033799",
+      "12025615"
+    ],
+    "retrieved_scores": [
+      0.8777,
+      0.8688,
+      0.8675
+    ],
+    "retrieved_chars_total": 2884,
+    "pool_version": "v1",
+    "dedup_policy": "exclude_self_case_id; exclude_duplicate_app_num_within_pick"
+  },
+  "vendor": "openai",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 19240,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "cea19a5b931194fc",
+  "response_text": "(Currently Amended) Claim 1: A battery assembly comprising: an enclosure; a first battery cell positioned within the enclosure; and a first sensor positioned within the enclosure for detecting at least one force influencing the first battery cell, wherein the first sensor is a force sensing material having a conductance that is configured to vary based on the at least one force influencing the first battery cell.\n\n(Currently Amended) Claim 11: The battery assembly of claim 1 further comprising a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell, and the first sensor is a force sensing material having a conductance that is configured to vary based on the at least one force influencing the first battery cell.\n\n(Currently Amended) Claim 17: The battery assembly of claim 1 further comprising: a second battery cell stacked on top of the first battery cell, wherein the first sensor is positioned between the first battery cell and the second battery cell; a third battery cell stacked on top of the second battery cell; and a second sensor positioned between the third battery cell and the second battery cell for detecting at least one force influencing the third battery cell, wherein the first sensor is a force sensing material having a conductance that is configured to vary based on the at least one force influencing the first battery cell.\n\n(Currently Amended) Claim 25: The battery assembly of claim 1, wherein the first sensor comprises a contact sensor that is a force sensing material having a conductance that is configured to vary based on the at least one force influencing the first battery cell.",
+  "usage": {
+    "input_tokens": 4157,
+    "output_tokens": 330,
+    "total_tokens": 4487
+  },
+  "stop_reason": "stop",
+  "latency_sec": 5.36,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-10T19:26:04Z"
+}

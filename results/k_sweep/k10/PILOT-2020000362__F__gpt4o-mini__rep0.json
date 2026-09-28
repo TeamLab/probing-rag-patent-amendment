@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000362",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2020000362",
+  "app_num": "15022252",
+  "axes": {
+    "outcome": "Affirmed",
+    "statute": "101-rel",
+    "tech": "3600",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 32145,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "63322d303fc5adc0",
+  "response_text": "(Currently Amended) A non-transitory computer program product (270) comprising instructions for causing a processor system to perform the method according to claim 14.",
+  "usage": {
+    "input_tokens": 7013,
+    "output_tokens": 33,
+    "total_tokens": 7046
+  },
+  "stop_reason": "stop",
+  "latency_sec": 2.14,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:49:37Z"
+}

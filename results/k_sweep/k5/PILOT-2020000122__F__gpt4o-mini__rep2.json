@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020000122",
+  "condition": "F",
+  "rep": 2,
+  "proceeding_number": "2020000122",
+  "app_num": "14995989",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "101-rel",
+    "tech": "2100",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 22031,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "c25e27478892c950",
+  "response_text": "```plaintext\n(currently amended) Claim 1: A control system comprising: a controller configured to be communicatively coupled to automation components in the control system and to facilitate performance of a process through interoperation with the automation components by generating a holistic state data, wherein the controller is configured to generate the holistic state data by: determining a model configured to describe the process used by the controller, the model including specific mathematical representations; determining input and output variables of the process; determining constraints on the input and output variables; determining an objective function associated with the process used by the controller; and storing the model, the input and output variables, the constraints, and the objective function in one of a plurality of fields in the holistic state data to enable the automation components to detect and operate with the controller upon receiving the holistic state data.\n\n(currently amended) Claim 2: The control system of claim 1, wherein the controller is configured to be communicatively coupled to the automation components via a communication network and to communicate the holistic state data to each of the automation components upon connecting to the communication network, using a defined protocol for transmission.\n\n(currently amended) Claim 4: The control system of claim 1, wherein the holistic state data is a standardized format understood by each of the automation components, with specified fields and data types in the standardized format.\n\n(currently amended) Claim 10: A tangible, non-transitory computer-readable medium configured to store instructions executable by a processor of a controller, wherein the instructions comprise instructions to: receive, using the processor, control system configuration data; determine, using the processor, automation components communicatively coupled to the controller and characteristics of the automation components based at least in part on the control system configuration data; determine, using the processor, an optimization problem based at least in part on the automation components and the characteristics of each of the automation components, the characteristics including processing capabilities and input/output specifications; and instruct, using the processor, one or more of the automation components to perform a control action in a process, wherein the control action is determined based at least in part on the optimization problem.\n\n(currently amended) Claim 17: A method for performing diagnostics on a control system comprising: determining, using a processor, holistic state data captured by a controller in the control system, the holistic state data including operational parameters and performance metrics; simulating, using the processor, operation of the controller based at least in part on the holistic state data while the controller performs other operations; analyzing, using the processor, simulation of the controller to perform diagnostics on the controller; adjusting, using the processor, operation of the control system based at least in part on the diagnostics, wherein the diagnostics include a performance evaluation against expected outcomes.\n```",
+  "usage": {
+    "input_tokens": 4727,
+    "output_tokens": 551,
+    "total_tokens": 5278
+  },
+  "stop_reason": "stop",
+  "latency_sec": 10.0,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:40:46Z"
+}

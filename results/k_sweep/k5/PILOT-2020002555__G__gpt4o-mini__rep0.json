@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2020002555",
+  "condition": "G",
+  "rep": 0,
+  "proceeding_number": "2020002555",
+  "app_num": "15234552",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103+112",
+    "tech": "other",
+    "year": "2020-25",
+    "pattern": "cancel_heavy",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 20793,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "24a4eef72a86e2bb",
+  "response_text": "(Currently Amended) Claim 1: A method comprising: receiving a plurality of precoders from a codebook in a transmitter having an antenna array; transforming each precoder of the plurality of precoders to a transformed precoder such that the transmit power for each transformed precoder is __substantially__ equal to the transmit power for each of other transformed precoders of the plurality of precoders, where the transmit power is expressed as a quadratic form with respect to the corresponding precoder, where the quadratic form is based on a transmission line impedance of a transmission line between a signal source and the antenna array; receiving a signal from the signal source; applying a transformed precoder of the plurality of transformed precoders to the signal to generate a precoded signal for transmission over a physical channel; and transmitting the precoded signal.\n\n(Currently Amended) Claim 12: The method according to claim 1, wherein both data symbol precoders and reference symbol precoders are transformed by the same transformation __to achieve balanced transmit power__.",
+  "usage": {
+    "input_tokens": 4836,
+    "output_tokens": 208,
+    "total_tokens": 5044
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.01,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T13:43:39Z"
+}

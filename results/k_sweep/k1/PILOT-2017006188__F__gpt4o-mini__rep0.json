@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2017006188",
+  "condition": "F",
+  "rep": 0,
+  "proceeding_number": "2017006188",
+  "app_num": "14060749",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "1700",
+    "year": "2015-19",
+    "pattern": "modify_only",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "model_alias": "gpt4o-mini",
+  "temperature": null,
+  "max_tokens": 4096,
+  "user_chars": 19179,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "ec3be3efbbabd2b8",
+  "response_text": "1) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine of __greater than__ 2000 Da and a polyanion, said nanoparticle having a size of less than one micron.\n\n2) (Currently Amended) The composition of claim 1, said polyelectrolyte complex nanoparticle intimately associated with a __multivalent metal cation__ crosslinker.\n\n8) (Currently Amended) The composition of claim 1, wherein said polyelectrolyte complex __comprises__ a nanoparticle with an average particle size of about 100 to 900 nm in diameter.\n\n10) (Currently Amended) A composition comprising a polyelectrolyte complex nanoparticle comprising a polyalkylenimine __of greater than 2000 Da__ and polyvinyl sulfonate (PVS), said polyelectrolyte complex nanoparticle having a size of less than one micron.\n\n12) (Currently Amended) The composition of claim 10, said nanoparticle entrapping a __multivalent metal cation__.\n\n20) (Currently Amended) A delayed gelling composition comprising: a) a delayed gelling agent comprising a polyelectrolyte complex nanoparticle comprising a polyethylenimine of __greater than__ 2000 Da and a polyvinyl sulfonate intimately associated with a multivalent metal cation crosslinker, said nanoparticle having a size of less than one micron; b) a polymer having anionic sites that can be crosslinked with said metal cation crosslinker; and c) a fluid.\n\n21) (Currently Amended) A delayed gelling composition comprising: a) a composition of claim 1; b) a polymer that can be crosslinked with a); and c) a fluid.\n\n24) (Currently Amended) The composition of claim 21, where said polymer is a polymer or copolymers of acrylate, acrylamide, N,N-dimethylacrylamide, tert-butyl acrylate, __acrylamido-2-methylpropane sulfonic acid__, or sodium 2-acryamido-2-methylpropane sulfonate, or N,N-dimethyl acrylamide.",
+  "usage": {
+    "input_tokens": 4966,
+    "output_tokens": 479,
+    "total_tokens": 5445
+  },
+  "stop_reason": "stop",
+  "latency_sec": 8.46,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:44:20Z"
+}

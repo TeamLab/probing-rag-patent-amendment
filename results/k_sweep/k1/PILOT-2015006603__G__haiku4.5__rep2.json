@@ -1,0 +1,34 @@
+{
+  "case_id": "PILOT-2015006603",
+  "condition": "G",
+  "rep": 2,
+  "proceeding_number": "2015006603",
+  "app_num": "13138239",
+  "axes": {
+    "outcome": "Reversed",
+    "statute": "103",
+    "tech": "2400",
+    "year": "2015-19",
+    "pattern": "mixed",
+    "format": "ns_claims"
+  },
+  "vendor": "openrouter",
+  "model": "anthropic/claude-haiku-4.5",
+  "model_alias": "haiku4.5",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "user_chars": 20344,
+  "sys_sha": "d0e1b75129336a8a",
+  "usr_sha": "1421e95f5567be39",
+  "response_text": "1. (Currently amended) An apparatus, comprising: an encoder (300) for encoding mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, __wherein the encoder comprises a processor configured to perform the encoding__.\n\n2. (Original)\n\n3. (Original)\n\n4. (Original)\n\n5. (Original)\n\n6. (Original)\n\n7. (Original)\n\n8. (Original)\n\n9. (Currently amended) A method, comprising: encoding (740, 970) mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures using a processor, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence (740, 940, 960), __wherein the encoding transforms the sequence of pictures into encoded picture data__.\n\n10. (Original)\n\n11. (Original)\n\n12. (Original)\n\n13. (Original)\n\n14. (Original)\n\n15. (Original)\n\n16. (Original)\n\n17. (Currently amended) An apparatus, comprising: a decoder (400) for decoding mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, __wherein the decoder comprises a processor configured to perform the decoding__.\n\n18. (Original)\n\n19. (Original)\n\n20. (Original)\n\n21. (Original)\n\n22. (Original)\n\n23. (Original)\n\n24. (Original)\n\n25. (Currently amended) A method, comprising: decoding (820, 1030) mode mapping information for a mapping between values of a mode index and modes available to decode at least a portion of a picture in a sequence of pictures using a processor, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence, __wherein the decoding transforms encoded picture data into decoded picture data__.\n\n26. (Original)\n\n27. (Original)\n\n28. (Original)\n\n29. (Original)\n\n30. (Original)\n\n31. (Original)\n\n32. (Original)\n\n33. (Currently amended) A __non-transitory__ computer-readable storage media having video signal data encoded thereupon, comprising: mode mapping information for a mapping between values of a mode index and modes available to encode at least a portion of a picture in a sequence of pictures, wherein the mode mapping information is adapted responsive to one or more actual parameters of the sequence.",
+  "usage": {
+    "input_tokens": 5281,
+    "output_tokens": 589,
+    "total_tokens": 5870
+  },
+  "stop_reason": "stop",
+  "latency_sec": 4.63,
+  "cost_usd": 0.0,
+  "attempts": 1,
+  "timestamp": "2026-07-15T12:44:30Z"
+}
