@@ -20,7 +20,7 @@ Retrieval-augmented generation is widely used in professional writing, but wheth
 |---|---|
 | `data/corpus/` | Parsed JSONL corpus of 7,385 four-tuples |
 | `data/index/` | Application-number index for zero-cost reconstruction from USPTO ODP |
-| `data/cohort/` | `cohort_batch0.json`, `cohort_seeds.json` |
+| `data/cohort/` | `cohort_batch0.json`|
 | `src/parsing/` | ODP retrieval, XML parsing, per-claim diff (kept / modified / new / cancelled) |
 | `src/cohort/select_cohort.py` | Six-axis iterative marginal matching, batch-0 seed 42 |
 | `src/probes/` | The seven probe templates and the shared prompt scaffold |
