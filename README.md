@@ -6,7 +6,7 @@ Retrieval-augmented generation is widely used in professional writing, but wheth
 
 ## Status
 
-**Skeleton — data and code are not uploaded yet.** The layout, licenses, and documentation below are in place so the artifacts can be dropped into the matching directories. See [docs/release-checklist.md](docs/release-checklist.md).
+Released — the parsed corpus, all 9,600 model outputs, the full pipeline (`src/`), and the analysis scripts all live in this repository and regenerate the tables in the paper. Analysis and scoring run offline from the released raw outputs; only regenerating the model calls needs API access. 
 
 ## Three released artifacts
 
@@ -36,7 +36,6 @@ Retrieval-augmented generation is widely used in professional writing, but wheth
 - [docs/probes.md](docs/probes.md) — probes A–G and what each one manipulates
 - [docs/metric.md](docs/metric.md) — the five channels and their validity argument
 - [docs/experiments.md](docs/experiments.md) — cohort, retrieval pool, model matrix, pre-registered hypotheses
-- [docs/release-checklist.md](docs/release-checklist.md) — what must land before this repository goes public
 
 ## Reproducing
 
