@@ -1,0 +1,15 @@
+Median-based bootstrap TOST on Delta-C5 (probe - baseline)
+margin=+/-0.2  alpha=0.05  n_boot=10000  seed=42
+
+model        probe     n  medianDC5   p_TOST               90% CI  equiv?
+-------------------------------------------------------------------------
+gpt4o-mini   F        88    +0.0000   0.0000     [-0.001, +0.076]     YES
+gpt4o-mini   G        87    +0.0000   0.0007     [-0.024, +0.029]     YES
+gpt5.4       F       100    +0.0009   0.0000     [+0.000, +0.050]     YES
+gpt5.4       G       100    +0.0052   0.0002     [+0.000, +0.053]     YES
+haiku4.5     F        98    +0.0663   0.0113     [+0.000, +0.172]     YES
+haiku4.5     G        98    +0.0058   0.0019     [-0.003, +0.069]     YES
+sonnet4      F        97    +0.0000   0.0000     [-0.020, +0.008]     YES
+sonnet4      G        99    +0.0000   0.0000     [-0.027, +0.000]     YES
+
+All 8 cells: equivalence to zero within margin ESTABLISHED.
