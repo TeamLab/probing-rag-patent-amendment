@@ -15,20 +15,20 @@ from pathlib import Path
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-PROJECT = Path("/Users/josephamichikoleo/Documents/Claude/Projects/Probing Retrieval-Augmented Patent Claim Amendment")
-SCRIPTS = PROJECT / "experiment_run" / "scripts"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+SCRIPTS = REPO_ROOT / "src" / "parsing"
 sys.path.insert(0, str(SCRIPTS))
 from parse_response import parse as parse_response_text  # noqa: E402
 
 RESPONSE_DIRS = [
-    PROJECT / "experiment_run" / "outputs" / "sonnet4_denseG",
-    PROJECT / "experiment_run" / "outputs" / "haiku4.5_denseG",
-    PROJECT / "experiment_run" / "outputs" / "gpt5.4_denseG",
-    PROJECT / "experiment_run" / "outputs" / "gpt4o-mini_denseG",
+    REPO_ROOT / "results" / "dense_g" / "sonnet4_denseG",
+    REPO_ROOT / "results" / "dense_g" / "haiku4.5_denseG",
+    REPO_ROOT / "results" / "dense_g" / "gpt5.4_denseG",
+    REPO_ROOT / "results" / "dense_g" / "gpt4o-mini_denseG",
 ]
-BASELINE_CACHE = PROJECT / "experiment_run" / "data" / "parsed" / "c1_baseline.json"
-BETA_PARSED_DIR = PROJECT / "submission_repo" / "data" / "parsed" / "beta_parsed"
-OUT_TSV = PROJECT / "experiment_run" / "outputs" / "_analysis" / "c1_embedding_denseG_scores.tsv"
+BASELINE_CACHE = REPO_ROOT / "data" / "parsed" / "c1_baseline.json"
+BETA_PARSED_DIR = REPO_ROOT / "data" / "parsed" / "beta_parsed"
+OUT_TSV = REPO_ROOT / "results" / "analysis" / "c1_embedding_denseG_scores.tsv"
 
 WORD_RE = re.compile(r"[a-z][a-z\-']+")
 

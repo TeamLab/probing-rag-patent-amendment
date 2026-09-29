@@ -11,7 +11,8 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import wilcoxon
 
-PATH = Path("/Users/josephamichikoleo/Documents/Claude/Projects/Probing Retrieval-Augmented Patent Claim Amendment/submission_repo/outputs/_analysis/c1_main.tsv")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+PATH = REPO_ROOT / "results" / "analysis" / "c1_main.tsv"
 VALUE_COL = "c1"
 LABEL = "Lexical C1 (trigram Jaccard)"
 

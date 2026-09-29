@@ -16,7 +16,8 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import wilcoxon
 
-PATH = Path("/Users/josephamichikoleo/Documents/Claude/Projects/Probing Retrieval-Augmented Patent Claim Amendment/experiment_run/outputs/_analysis/c1_embedding_scores.tsv")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+PATH = REPO_ROOT / "results" / "analysis" / "c1_embedding_scores.tsv"
 VALUE_COL = "c1_embedding"
 
 MODELS = ["gpt5.4", "haiku4.5", "sonnet4", "gpt4o-mini"]

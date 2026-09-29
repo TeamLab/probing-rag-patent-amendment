@@ -6,7 +6,7 @@ Retrieval-augmented generation is widely used in professional writing, but wheth
 
 ## Status
 
-**Skeleton — data and code are not uploaded yet.** The layout, licenses, and documentation below are in place so the artifacts can be dropped into the matching directories. See [docs/release-checklist.md](docs/release-checklist.md).
+**Released.** The parsed corpus, all 9,600 model outputs, the full pipeline (`src/`), and the analysis scripts (significance tests, dense-G, k-sweep, and the TOST equivalence check) are in this repository and regenerate the tables in the paper. Analysis and scoring run offline from the released raw outputs; only regenerating the model calls needs API access.
 
 ## Three released artifacts
 
