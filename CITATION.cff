@@ -15,3 +15,29 @@ authors:
   - family-names: Choi
     given-names: Sungchul
 year: 2026
+repository-code: "https://github.com/TeamLab/probing-rag-patent-amendment"
+preferred-citation:
+  type: conference-paper
+  title: "Grounded Revision vs. Prior Injection: Probing Retrieval-Augmented Patent Claim Amendment"
+  authors:
+    - family-names: Leo
+      given-names: Josepha Michiko
+    - family-names: Min
+      given-names: Hyun-seok
+    - family-names: Jang
+      given-names: Yehoon
+    - family-names: Zidny
+      given-names: Irvan
+    - family-names: Chung
+      given-names: Jin-Woo
+    - family-names: Choi
+      given-names: Sungchul
+  collection-title: "Findings of the Association for Computational Linguistics: AACL-IJCNLP 2026"
+  publisher:
+    name: "Association for Computational Linguistics"
+  year: 2026
+  notes: "To appear. Add the ACL Anthology url, doi, and pages once published."
+  # Once the paper is in the ACL Anthology, uncomment and fill:
+  # url: "https://aclanthology.org/2026.findings-aacl.XXXX/"
+  # doi: "10.18653/v1/2026.findings-aacl.XXXX"
+  # pages: "XXXX--XXXX"
