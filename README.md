@@ -2,6 +2,8 @@
 
 Artifacts for the AACL paper *Grounded Revision vs. Prior Injection: Probing Retrieval-Augmented Patent Claim Amendment* — Josepha Michiko Leo\*, Hyun-seok Min\*, Yehoon Jang, Irvan Zidny, Jin-Woo Chung, Sungchul Choi (\*equal contribution).
 
+Paper: [arXiv:2609.36550](https://arxiv.org/abs/2609.36550) (accepted to Findings of AACL-IJCNLP 2026).
+
 Retrieval-augmented generation is widely used in professional writing, but whether retrieval grounds revision or merely injects templates is rarely tested where "correct" has a definable meaning. Patent claim amendment supplies that signal: the examiner names the attacked limitation and cites prior art, giving per-case ground truth. Across 9,600 pre-registered calls on four frontier LLMs, no tested model shows classical prior-injection behavior; retrieval effects are small and direction-inconsistent between random and structural retrieval.
 
 ## Status
@@ -58,4 +60,17 @@ The corpus derives from USPTO Open Data Portal records of US patent prosecution,
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). The BibTeX entry will carry the ACL Anthology identifier once the paper appears.
+See [`CITATION.cff`](CITATION.cff), or cite the arXiv preprint:
+
+```bibtex
+@misc{leo2026grounded,
+  title        = {Grounded Revision vs. Prior Injection: Probing Retrieval-Augmented Patent Claim Amendment},
+  author       = {Leo, Josepha Michiko and Min, Hyun-seok and Jang, Yehoon and Zidny, Irvan and Chung, Jin-Woo and Choi, Sungchul},
+  year         = {2026},
+  eprint       = {2609.36550},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL}
+}
+```
+
+The ACL Anthology BibTeX will be added once the paper appears in the proceedings.
